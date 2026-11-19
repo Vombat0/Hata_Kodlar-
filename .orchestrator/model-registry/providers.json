@@ -1,0 +1,33 @@
+{
+  "not": "Proje ajanlarının kullandığı provider'lar. Yetenek ve benchmark verileri bu projede ölçülmediği için UNKNOWN olarak bırakıldı.",
+  "providers": [
+    {
+      "id": "opencode",
+      "rol": "subagent iş atı",
+      "status": "aktif",
+      "orkestrator_taban_modeli_subagentlara_atanamaz": false,
+      "capabilities": "UNKNOWN",
+      "benchmarks": "UNKNOWN",
+      "not": "Uygulama, doğrulama ve dokümantasyon alt görevleri bu provider üzerinden yürütüldü. Model bazında kredi/context ölçümü tutulmadı."
+    },
+    {
+      "id": "evren",
+      "rol": "orkestratör taban modeli",
+      "status": "aktif",
+      "orkestrator_taban_modeli_subagentlara_atanamaz": true,
+      "capabilities": "UNKNOWN",
+      "benchmarks": "UNKNOWN",
+      "not": "orkestratör taban modeli, subagentlara atanamaz. Bu kayıt proje envanterindeki role dayanır; bağımsız doğrulama yapılmadı."
+    },
+    {
+      "id": "google",
+      "rol": "UNKNOWN",
+      "status": "devre dışı",
+      "reason": "hesap genelinde 403",
+      "orkestrator_taban_modeli_subagentlara_atanamaz": false,
+      "capabilities": "UNKNOWN",
+      "benchmarks": "UNKNOWN",
+      "not": "Hesap genelinde 403 nedeniyle bu projede kullanılmadı."
+    }
+  ]
+}

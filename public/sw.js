@@ -57,6 +57,22 @@ self.addEventListener('fetch', (olay) => {
     return;
   }
 
+  // Arama indeksi veriyle birlikte degisir: once agdan al, cevrimdisiysa onbellekten don.
+  if (url.pathname.startsWith('/veri/')) {
+    olay.respondWith(
+      fetch(istek)
+        .then((yanit) => {
+          if (yanit && yanit.ok) {
+            const kopya = yanit.clone();
+            caches.open(CACHE_ADI).then((onbellek) => onbellek.put(istek, kopya)).catch(() => undefined);
+          }
+          return yanit;
+        })
+        .catch(() => caches.match(istek).then((bulunan) => bulunan || Response.error())),
+    );
+    return;
+  }
+
   olay.respondWith(
     caches.match(istek).then((bulunan) => {
       if (bulunan) return bulunan;

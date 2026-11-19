@@ -1,0 +1,44 @@
+[
+  {
+    "id": "P1",
+    "ad": "Veri toplama",
+    "durum": "tamamlandi",
+    "cikti": "Servis ve tanılama belgelerinin tespiti; ham seri/kod verisi, kaynak belge, sürüm, dil ve URL bilgileri."
+  },
+  {
+    "id": "P2",
+    "ad": "Birlestirme ve kalite kapisi",
+    "durum": "tamamlandi",
+    "cikti": "tools/birlestir.mjs ile üretilen src/data/seriler/*.json dosyaları; tools/dogrula.mjs raporu (0 hata, 27 uyarı)."
+  },
+  {
+    "id": "P3",
+    "ad": "Turkceleştirme",
+    "durum": "tamamlandi",
+    "cikti": "Başlık, açıklama, makine tepkisi, neden ve kontrol metinlerinin Türkçeye çevrilmiş kayıtları."
+  },
+  {
+    "id": "P4",
+    "ad": "Site kabugu",
+    "durum": "tamamlandi",
+    "cikti": "Astro statik rotaları, BaseLayout, bileşenler, düz CSS ve açık/koyu tema; sitemap üretimi."
+  },
+  {
+    "id": "P5",
+    "ad": "Arama ve PWA",
+    "durum": "tamamlandi",
+    "cikti": "public/veri/indeks.json anlık arama indeksi, dist/pagefind tam metin dizini, sw.js ve manifest.webmanifest."
+  },
+  {
+    "id": "P6",
+    "ad": "Yerlesim ve QA",
+    "durum": "tamamlandi",
+    "cikti": "Marka, seri ve kod sayfalarının hizalanmış yerleşimi; erişilebilirlik ve kalite kontrol düzeltmeleri."
+  },
+  {
+    "id": "P7",
+    "ad": "Dokumantasyon",
+    "durum": "tamamlandi",
+    "cikti": "README.md ve .orchestrator/ altındaki proje belleği dosyaları."
+  }
+]

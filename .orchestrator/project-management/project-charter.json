@@ -1,0 +1,18 @@
+{
+  "hedef": "Türkçe, statik ve bağımsız bir forklift hata kodu referans sitesi yayına almak.",
+  "kapsam": "26 marka, 61 seri ve 3550 kaydı marka → seri → kod gezinmesi, anlık arama, Pagefind tam metin arama, PWA ve sitemap ile sunmak; veriyi küratörlük katmanı ve kalite kapısıyla yönetmek.",
+  "kapsam_disi": "OEM yetkili servis hizmeti, taranmış servis kılavuzlarını yeniden yayınlama, çevrim içi tanı veya tamir talimatı, kullanıcı hesabı ve sunucu tarafı API.",
+  "kabul_kriterleri": [
+    "npm run build hatasız tamamlanır ve statik çıktı dist/ altına yazar.",
+    "npm run veri:dogrula kalite kapısını hata vermeden geçer.",
+    "Pagefind dizini astro build sonrasında üretilir.",
+    "netlify.toml build komutunu, yayın dizinini ve Node 22 ayarını içerir.",
+    "Marka, seri ve kayıt sayıları veri dosyalarından ölçülen değerlerle örtüşür.",
+    "Her kayıt kaynak belgeye bağlıdır; sayfa numarası yalnızca kaynakta verildiğinde gösterilir."
+  ],
+  "site": "https://forklifthata.com",
+  "marka_sayisi": 26,
+  "seri_sayisi": 61,
+  "kayit_sayisi": 3550,
+  "durum": "tamamlandi"
+}
