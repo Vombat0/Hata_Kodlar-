@@ -119,7 +119,12 @@ for (const dosyaAdi of seriDosyalari) {
 
     const kodDegeri = metin(kod.kod);
     if (!kodDegeri) hata(dosya, `${etiket}: kod boş`);
-    if (kodDegeri.length > 12) hata(dosya, `${etiket}: kod 12 karakterden uzun (${kodDegeri.length})`);
+    // Bazi markalar (or. BYD) kod yerine gosterge mesaji kullanir: "Drive motor fault".
+    // Mesaj formundaki kayitlar hata degil uyari uretir; tek kelimelik uzun kod ise hatadir.
+    if (kodDegeri.length > 12) {
+      if (/\s/.test(kodDegeri)) uyari(dosya, `${etiket}: gosterge mesaji formunda kod (${kodDegeri.length} karakter)`);
+      else hata(dosya, `${etiket}: kod 12 karakterden uzun (${kodDegeri.length})`);
+    }
     if (/[^\x00-\x7F]/.test(kodDegeri)) uyari(dosya, `${etiket}: kodda ASCII dışı karakter — ${kodDegeri}`);
 
     const baslik = metin(kod.baslik);
