@@ -25,7 +25,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "TPS1 ve TPS2 gaz konumu birbiriyle çelişiyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — TPS1 ve TPS2 gaz konumu birbiriyle.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -56,7 +56,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Gaz konumu komut edilen değere ulaşmıyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — gaz konumu komut edilen değere.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -88,7 +88,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Her iki gaz konumu sensörü gerilimi aralık dışında besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — her iki gaz konumu sensörü gerilimi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -120,7 +120,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Gaz pedalı sensör kanalları konum uyuşmazlığı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — gaz pedalı sensör kanalları konum.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -151,7 +151,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Primer yakıt basıncı beklenen aralığın üzerinde ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — primer yakıt basıncı beklenen aralığın.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -183,7 +183,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Primer yakıt basıncı beklenen aralığın altında ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — primer yakıt basıncı beklenen aralığın.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -214,7 +214,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Primer yakıt basıncı devre sinyali yüksek ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — primer yakıt basıncı devre sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -245,7 +245,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Primer yakıt basıncı devre sinyali düşük ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — primer yakıt basıncı devre sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -277,7 +277,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Motor yağ basıncı sensör sinyali yüksek besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — motor yağ basıncı sensör sinyali.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -306,7 +306,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Motor yağ basıncı sensörü gerilimi düşük besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — motor yağ basıncı sensörü gerilimi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -337,7 +337,7 @@
         "Termik sensör sapması"
       ],
       "kontroller": [
-        "Emme havası sıcaklık sensörü sinyali yüksek sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — emme havası sıcaklık sensörü sinyali.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -368,7 +368,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Emme havası sıcaklığı beklenenin üzerinde ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — emme havası sıcaklığı beklenenin.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -399,7 +399,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Manifold basıncı sensörü gerilimi yüksek besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — manifold basıncı sensörü gerilimi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -431,7 +431,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Manifold basıncı sensörü gerilimi düşük besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — manifold basıncı sensörü gerilimi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -461,7 +461,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Barometrik basınç alt sınırın altında ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — barometrik basınç alt.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -493,7 +493,7 @@
         "Termik sensör sapması"
       ],
       "kontroller": [
-        "Motor soğutma suyu sıcaklık sensörü sinyali yüksek/açık sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — motor soğutma suyu sıcaklık sensörü sinyali.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -525,7 +525,7 @@
         "Termik sensör sapması"
       ],
       "kontroller": [
-        "Motor soğutma suyu sıcaklık sensörü sinyali düşük sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — motor soğutma suyu sıcaklık sensörü sinyali.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -557,7 +557,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Akü gerilimi yüksek besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — akü gerilimi.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -587,7 +587,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Beş voltluk sensör besleme devresi yüksek besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — beş voltluk sensör besleme devresi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -616,7 +616,7 @@
         "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "ECU CAN iletişim gönderme/alma hatası konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — ECU CAN iletişim gönderme/alma.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -647,7 +647,7 @@
         "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "ECU CAN adres çakışması konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — ECU CAN adres çakışması.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -678,7 +678,7 @@
         "Selenoid konnektöründe gevşeme"
       ],
       "kontroller": [
-        "İleri valf (solenoid) hatası bobin direncini ölçün",
+        "Bobin direncini ölçün — ileri valf (solenoid).",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -710,7 +710,7 @@
         "Selenoid konnektöründe gevşeme"
       ],
       "kontroller": [
-        "Geri valf (solenoid) hatası bobin direncini ölçün",
+        "Bobin direncini ölçün — geri valf (solenoid).",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -742,7 +742,7 @@
         "Selenoid konnektöründe gevşeme"
       ],
       "kontroller": [
-        "Kaldırma (lift) solenoidi hatası bobin direncini ölçün",
+        "Bobin direncini ölçün — kaldırma (lift) solenoidi.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -774,7 +774,7 @@
         "Selenoid konnektöründe gevşeme"
       ],
       "kontroller": [
-        "İndirme (lower) solenoidi hatası bobin direncini ölçün",
+        "Bobin direncini ölçün — indirme (lower) solenoidi.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -806,7 +806,7 @@
         "Selenoid konnektöründe gevşeme"
       ],
       "kontroller": [
-        "Boşaltma (unload) solenoidi hatası bobin direncini ölçün",
+        "Bobin direncini ölçün — boşaltma (unload) solenoidi.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -837,7 +837,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "İleri/geri kumanda kolu hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — ileri/geri kumanda kolu.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -868,7 +868,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Gösterge veya ayar değeri değişmiyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — gösterge veya ayar değeri değişmiyor.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -899,7 +899,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Yük ölçer gösterge hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — yük ölçer gösterge.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -930,7 +930,7 @@
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Motor çalışmıyor sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — motor çalışmıyor.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -960,7 +960,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Sağ ok tuşu hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — sağ ok tuşu.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -991,7 +991,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Sol ok tuşu hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — sol ok tuşu.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1022,7 +1022,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Menü tuşu hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — menü tuşu.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1050,7 +1050,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "İletişim verisi hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — iletişim verisi.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1193,7 +1193,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Saat sayar değeri servis modunda kopyalanamadı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — saat sayar değeri servis modunda kopyalanamadı.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1221,7 +1221,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Saat sayar verisi kopyalama hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — saat sayar verisi kopyalama.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1249,7 +1249,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Araç ayar verisi kopyalama hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — araç ayar verisi kopyalama.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1276,7 +1276,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Seyir saat sayar verisi kopyalama hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — seyir saat sayar verisi kopyalama.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1304,7 +1304,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Mesafe (kilometre) verisi kopyalama hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — mesafe (kilometre) verisi kopyalama.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1332,7 +1332,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Toplu (batch) saat sayar verisi kopyalama hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — toplu (batch) saat sayar verisi kopyalama.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1360,7 +1360,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Toplu seyir verisi kopyalama hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — toplu seyir verisi kopyalama.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1388,7 +1388,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Bakım verisi hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — bakım verisi.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1445,7 +1445,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Parola izin verilmiyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — parola izin verilmiyor.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1472,7 +1472,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Şanzıman geri vites basıncı komut edilenin üzerinde ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — şanzıman geri vites basıncı komut edilenin.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1500,7 +1500,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Şanzıman ileri basıncı komut edilenin üzerinde ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — şanzıman ileri basıncı komut edilenin.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1528,7 +1528,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Şanzıman geri vites basıncı komut edilenin altında ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — şanzıman geri vites basıncı komut edilenin.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1555,7 +1555,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Şanzıman ileri basıncı komut edilenin altında ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — şanzıman ileri basıncı komut edilenin.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1582,7 +1582,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "EPR basıncı komut edilenin üzerinde ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — EPR basıncı komut edilenin.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1610,7 +1610,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Kısa süreli kapalı döngü düzeltmesi banka 1 normalin -%40 altında hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — kısa süreli kapalı döngü düzeltmesi banka 1 normalin -%40.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"

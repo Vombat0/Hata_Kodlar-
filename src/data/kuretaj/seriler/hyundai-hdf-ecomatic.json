@@ -27,7 +27,7 @@
       ],
       "kontroller": [
         "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın.",
-        "Vites konum sinyali mantık hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — vites konum sinyali mantık.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -57,7 +57,7 @@
       ],
       "kontroller": [
         "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın.",
-        "Yön seçme sinyali mantık hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — yön seçme sinyali mantık.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -88,7 +88,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
-        "Kavrama kesme girişi hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — kavrama kesme girişi hattında akü (+).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -119,7 +119,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
-        "Kavrama kesme girişinde şase kısa devresi veya açık devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — kavrama kesme girişinde şase.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -150,7 +150,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
-        "Yük sensörü girişi hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — yük sensörü girişi hattında akü (+).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -181,7 +181,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
-        "Yük sensörü girişinde şase kısa devresi veya açık devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — yük sensörü girişinde şase.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -212,7 +212,7 @@
       ],
       "kontroller": [
         "İlgili devreyi ve konnektörleri kontrol edin; gerekirse bileşeni değiştirin.",
-        "Şanzıman sıcaklık sensörü girişi sinyal hatası sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — şanzıman sıcaklık sensörü girişi sinyal.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -243,7 +243,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
-        "Sıcaklık sensörü girişi hattında şase kısa devresi sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — sıcaklık sensörü girişi hattında şase.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -274,7 +274,7 @@
       ],
       "kontroller": [
         "TCU'dan hız sensörüne giden kabloyu kontrol edin; TCU girişinde 7 V üzeri gerilim ölçülüyor.",
-        "Motor devri girişi hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — motor devri girişi hattında akü (+).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -305,7 +305,7 @@
       ],
       "kontroller": [
         "TCU kablo bağlantısını kontrol edin; TCU girişinde 0 V altında gerilim ölçülüyor.",
-        "Motor devri girişinde şase kısa devresi veya açık devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — motor devri girişinde şase.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -336,7 +336,7 @@
       ],
       "kontroller": [
         "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın.",
-        "Motor devri girişi sinyali mantık hatası sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — motor devri girişi sinyali mantık.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -367,7 +367,7 @@
       ],
       "kontroller": [
         "TCU'dan hız sensörüne giden kabloyu kontrol edin; çıkışta arıza varsa TCU 7 V üzeri gerilim ölçer.",
-        "Türbin devri girişi hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — türbin devri girişi hattında akü (+).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -398,7 +398,7 @@
       ],
       "kontroller": [
         "TCU kablo bağlantısını kontrol edin; güç kesilip verildiğinde arıza sıfırlanır, girişte 0 V altı gerilim ölçülür.",
-        "Türbin devri girişinde şase kısa devresi veya açık devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — türbin devri girişinde şase.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -428,7 +428,7 @@
       ],
       "kontroller": [
         "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın.",
-        "Türbin devri girişi sinyali mantık hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — türbin devri girişi sinyali mantık.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -459,7 +459,7 @@
       ],
       "kontroller": [
         "TCU'dan hız sensörüne giden kabloyu kontrol edin; TCU girişinde 7 V üzeri gerilim ölçülüyor.",
-        "İç devir girişi hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — iç devir girişi hattında akü (+).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -490,7 +490,7 @@
       ],
       "kontroller": [
         "TCU kablo bağlantısını kontrol edin; TCU girişinde 0 V altında gerilim ölçülüyor.",
-        "İç devir girişinde şase kısa devresi veya açık devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — iç devir girişinde şase.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -520,7 +520,7 @@
       ],
       "kontroller": [
         "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın.",
-        "İç devir girişi sinyali mantık hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — iç devir girişi sinyali mantık.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -551,7 +551,7 @@
       ],
       "kontroller": [
         "TCU'dan hız sensörüne giden kabloyu kontrol edin; OP modunda ikame kavrama kontrolü aktiftir, girişte 12 V üzeri gerilim ölçülür.",
-        "Çıkış devri girişinde akü (+) kısa devre veya açık devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — çıkış devri girişinde akü (+).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -582,7 +582,7 @@
       ],
       "kontroller": [
         "TCU kablo bağlantısını kontrol edin; girişte 1 V altında gerilim ölçülüyor.",
-        "Çıkış devri girişinde şase kısa devresi veya açık devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — çıkış devri girişinde şase.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -612,7 +612,7 @@
       ],
       "kontroller": [
         "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın.",
-        "Çıkış devri girişi sinyali mantık hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — çıkış devri girişi sinyali mantık.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -643,7 +643,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
-        "K1 kavraması hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — k1 kavraması hattında akü (+).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -674,7 +674,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
-        "K1 kavraması hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — k1 kavraması hattında şase.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -705,7 +705,7 @@
       ],
       "kontroller": [
         "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın.",
-        "K1 kavraması hattında açık devre hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — k1 kavraması hattı.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -736,7 +736,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
-        "K2 kavraması hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — k2 kavraması hattında akü (+).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -767,7 +767,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
-        "K2 kavraması hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — k2 kavraması hattında şase.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -798,7 +798,7 @@
       ],
       "kontroller": [
         "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın.",
-        "K2 kavraması hattında açık devre hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — k2 kavraması hattı.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -829,7 +829,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
-        "K3 kavraması hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — k3 kavraması hattında akü (+).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -860,7 +860,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
-        "K3 kavraması hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — k3 kavraması hattında şase.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -891,7 +891,7 @@
       ],
       "kontroller": [
         "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın.",
-        "K3 kavraması hattında açık devre hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — k3 kavraması hattı.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -922,7 +922,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
-        "Konvertör kavraması hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — konvertör kavraması hattında akü (+).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -953,7 +953,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
-        "Konvertör kavraması hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — konvertör kavraması hattında şase.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -984,7 +984,7 @@
       ],
       "kontroller": [
         "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın.",
-        "Converter clutch hattında açık devre hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — converter clutch hattı.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -1015,7 +1015,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
-        "K4 kavraması hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — k4 kavraması hattında akü (+).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1046,7 +1046,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
-        "K4 kavraması hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — k4 kavraması hattında şase.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1077,7 +1077,7 @@
       ],
       "kontroller": [
         "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın.",
-        "K4 kavraması hattında açık devre hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — k4 kavraması hattı.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -1108,7 +1108,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
-        "KV kavraması hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — KV kavraması hattında akü (+).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1139,7 +1139,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
-        "KV kavraması hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — KV kavraması hattında şase.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1170,7 +1170,7 @@
       ],
       "kontroller": [
         "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın.",
-        "KV kavraması hattında açık devre hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — KV kavraması hattı.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -1201,7 +1201,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
-        "KR kavraması hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — KR kavraması hattında akü (+).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1232,7 +1232,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
-        "KR kavraması hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — KR kavraması hattında şase.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1263,7 +1263,7 @@
       ],
       "kontroller": [
         "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın.",
-        "KR kavraması hattında açık devre hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — KR kavraması hattı.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -1294,7 +1294,7 @@
       ],
       "kontroller": [
         "TCU'dan geri vites ikaz cihazına giden kabloyu kontrol edin; TCU çıkışta hatalı gerilim algıladı. Gevşek bağlantıyı ve S görünümlü pimi inceleyin.",
-        "Geri vites ikaz rölesi hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — geri vites ikaz rölesi hattında şase.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1325,7 +1325,7 @@
       ],
       "kontroller": [
         "TCU'dan geri vites ikaz cihazına giden kabloyu ve konnektörleri kontrol edin; OP modu normaldir, çıkışta hatalı gerilim algılandı.",
-        "Geri vites ikaz rölesi hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — geri vites ikaz rölesi hattında akü (+).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1356,7 +1356,7 @@
       ],
       "kontroller": [
         "TCU çıkış hattını ve konnektörleri kontrol edin; OP modu normaldir, geri vites ikaz devresinde hatalı gerilim algılandı.",
-        "Geri vites ikaz rölesi hattında açık devre hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — geri vites ikaz rölesi hattı.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -1387,7 +1387,7 @@
       ],
       "kontroller": [
         "TCU çıkış hattını ve marş kilitleme rölesi konnektörlerini kontrol edin; OP modu normaldir, çıkışta hatalı gerilim algılandı.",
-        "Marş kilitleme rölesi hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — marş kilitleme rölesi hattında şase.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1418,7 +1418,7 @@
       ],
       "kontroller": [
         "TCU'dan marş kilitleme rölesine giden kabloyu ve konnektörleri kontrol edin; OP modu normaldir, çıkışta hatalı gerilim algılandı.",
-        "Marş kilitleme rölesi hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — marş kilitleme rölesi hattında akü (+).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1449,7 +1449,7 @@
       ],
       "kontroller": [
         "TCU çıkış hattını ve konnektörleri kontrol edin; OP modu normaldir, marş kilitleme rölesi hattında hatalı gerilim algılandı.",
-        "Marş kilitleme rölesi hattında açık devre hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — marş kilitleme rölesi hattı.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -1480,7 +1480,7 @@
       ],
       "kontroller": [
         "TCU çıkış hattını ve park freni solenoidi konnektörlerini kontrol edin; OP modu normaldir, çıkışta hatalı gerilim algılandı.",
-        "Park freni solenoidi hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — park freni solenoidi hattında şase.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1511,7 +1511,7 @@
       ],
       "kontroller": [
         "TCU'dan park freni solenoidine giden kabloyu ve konnektörleri kontrol edin; hatalı çıkış gerilimi TCU'nun boşa geçmesine yol açabilir.",
-        "Park freni solenoidi hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — park freni solenoidi hattında akü (+).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1542,7 +1542,7 @@
       ],
       "kontroller": [
         "TCU çıkış hattını ve park freni solenoidi konektörlerini kontrol edin; çıkışta hatalı gerilim algılandı.",
-        "Park freni solenoidi hattında açık devre hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — park freni solenoidi hattı.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -1572,7 +1572,7 @@
       ],
       "kontroller": [
         "K1 kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home.",
-        "K1 kavramasında kayma ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — k1 kavramasında kayma.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1602,7 +1602,7 @@
       ],
       "kontroller": [
         "K2 kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home.",
-        "K2 kavramasında kayma ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — k2 kavramasında kayma.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1632,7 +1632,7 @@
       ],
       "kontroller": [
         "K3 kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home.",
-        "K3 kavramasında kayma ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — k3 kavramasında kayma.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1662,7 +1662,7 @@
       ],
       "kontroller": [
         "İlgili kavramanın hidrolik basıncını ve sürtünme disklerini kontrol edin.",
-        "K4 kavramasında kayma ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — k4 kavramasında kayma.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1692,7 +1692,7 @@
       ],
       "kontroller": [
         "KV kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home.",
-        "KV kavramasında kayma ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — KV kavramasında kayma.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1722,7 +1722,7 @@
       ],
       "kontroller": [
         "KR kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home.",
-        "KR kavramasında kayma ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — KR kavramasında kayma.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1753,7 +1753,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
-        "Sensör beslemesi hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — sensör beslemesi hattında akü (+).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1784,7 +1784,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
-        "Sensör beslemesi hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — sensör beslemesi hattında şase.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1816,7 +1816,7 @@
       "kontroller": [
         "Akü gerilimini, klemeleri ve şarj sistemini kontrol edin.",
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Akü gerilimi düşük besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — akü gerilimi.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -1847,7 +1847,7 @@
       "kontroller": [
         "Akülerden TCU'ya giden kabloları ve besleme gerilimini kontrol edin (32 V sınırı).",
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Akü gerilimi yüksek besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — akü gerilimi.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -1877,7 +1877,7 @@
       ],
       "kontroller": [
         "İlgili valf besleme hattını ve konnektörlerini kontrol edin.",
-        "Valf besleme 1 hatası bobin direncini ölçün",
+        "Bobin direncini ölçün — valf besleme 1.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -1908,7 +1908,7 @@
       ],
       "kontroller": [
         "İlgili valf besleme hattını ve konnektörlerini kontrol edin.",
-        "Valf besleme 2 hatası bobin direncini ölçün",
+        "Bobin direncini ölçün — valf besleme 2.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -1939,7 +1939,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
-        "Hız göstergesi çıkışı hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — hız göstergesi çıkışı hattında akü (+).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1970,7 +1970,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
-        "Hız göstergesi çıkışında şase kısa devresi veya açık devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — hız göstergesi çıkışında şase.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -2001,7 +2001,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
-        "Gösterge çıkışı hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — gösterge çıkışı hattında akü (+).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -2032,7 +2032,7 @@
       ],
       "kontroller": [
         "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
-        "Gösterge çıkışı hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — gösterge çıkışı hattında şase.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -2062,7 +2062,7 @@
       ],
       "kontroller": [
         "İlgili devreyi ve konnektörleri kontrol edin; gerekirse bileşeni değiştirin.",
-        "DeviceNet iletişim hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — deviceNet iletişim.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -2123,7 +2123,7 @@
       ],
       "kontroller": [
         "İlgili devreyi ve konnektörleri kontrol edin; gerekirse bileşeni değiştirin.",
-        "Yapılandırma kaybı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — yapılandırma.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -2153,7 +2153,7 @@
       ],
       "kontroller": [
         "İlgili devreyi ve konnektörleri kontrol edin; gerekirse bileşeni değiştirin.",
-        "Uygulama hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — uygulama.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"

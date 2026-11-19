@@ -159,7 +159,7 @@
       ],
       "kontroller": [
         "ECT konnektör ve kablosunda GND kısa devresi kontrolü (SECM B15 sinyali)",
-        "Soğutma suyu sensörü düşük aralık hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — soğutma suyu sensörü.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -190,7 +190,7 @@
       ],
       "kontroller": [
         "Sensör konnektörü ve sinyal kablosunda açık devre kontrolü",
-        "Soğutma suyu sensörü yüksek aralık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — soğutma suyu sensörü.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -247,7 +247,7 @@
       ],
       "kontroller": [
         "Termostat ve soğutma devresi kontrolü",
-        "Sensör ısınma beklentisi karşılanmıyor besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — sensör ısınma.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -277,7 +277,7 @@
       ],
       "kontroller": [
         "Yakıt seçimi şalteri bağlantılarında GND kısa kontrolü (SECM A12/A15)",
-        "Yakıt seçimi sinyal çakışması ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — yakıt seçimi sinyal çakışması.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -308,7 +308,7 @@
       ],
       "kontroller": [
         "CAM sensör bağlantıları kontrolü (SECM B10 sinyal, B3 GND, 12V besleme)",
-        "Kam (CAM) sensörü sinyali yok besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — kam (CAM) sensörü sinyali.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -339,7 +339,7 @@
       ],
       "kontroller": [
         "CAM sensör bağlantı ve kablo kontrolü",
-        "Kam sensörü senkron kaybı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — kam sensörü senkron.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -370,7 +370,7 @@
       ],
       "kontroller": [
         "Krank sensör bağlantıları kontrolü (SECM B5 sinyal, B1 GND, 12V)",
-        "Krank sensörü sinyali yok besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — krank sensörü sinyali.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -401,7 +401,7 @@
       ],
       "kontroller": [
         "Krank sensör bağlantı ve kablo kontrolü",
-        "Krank sensörü senkron kaybı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — krank sensörü senkron.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"

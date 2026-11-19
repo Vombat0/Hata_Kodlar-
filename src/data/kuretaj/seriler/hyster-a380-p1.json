@@ -25,7 +25,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "TPS1 ve TPS2 gaz konumu birbiriyle çelişiyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — TPS1 ve TPS2 gaz konumu birbiriyle.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -56,7 +56,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Gaz konumu komut edilen değere ulaşmıyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — gaz konumu komut edilen değere.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -88,7 +88,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Her iki gaz konumu sensörü gerilimi aralık dışında besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — her iki gaz konumu sensörü gerilimi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -120,7 +120,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Gaz pedalı sensör kanalları konum uyuşmazlığı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — gaz pedalı sensör kanalları konum.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -151,7 +151,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Primer yakıt basıncı beklenen aralığın üzerinde ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — primer yakıt basıncı beklenen aralığın.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -183,7 +183,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Primer yakıt basıncı beklenen aralığın altında ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — primer yakıt basıncı beklenen aralığın.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -214,7 +214,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Primer yakıt basıncı devre sinyali yüksek ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — primer yakıt basıncı devre sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -245,7 +245,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Primer yakıt basıncı devre sinyali düşük ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — primer yakıt basıncı devre sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -277,7 +277,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Motor yağ basıncı sensör sinyali yüksek besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — motor yağ basıncı sensör sinyali.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -306,7 +306,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Motor yağ basıncı sensörü gerilimi düşük besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — motor yağ basıncı sensörü gerilimi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -337,7 +337,7 @@
         "Termik sensör sapması"
       ],
       "kontroller": [
-        "Emme havası sıcaklık sensörü sinyali yüksek sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — emme havası sıcaklık sensörü sinyali.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -368,7 +368,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Emme havası sıcaklığı beklenenin üzerinde ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — emme havası sıcaklığı beklenenin.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -399,7 +399,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Manifold basıncı sensörü gerilimi yüksek besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — manifold basıncı sensörü gerilimi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -431,7 +431,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Manifold basıncı sensörü gerilimi düşük besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — manifold basıncı sensörü gerilimi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -461,7 +461,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Barometrik basınç alt sınırın altında ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — barometrik basınç alt.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -493,7 +493,7 @@
         "Termik sensör sapması"
       ],
       "kontroller": [
-        "Motor soğutma suyu sıcaklık sensörü sinyali yüksek/açık sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — motor soğutma suyu sıcaklık sensörü sinyali.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -525,7 +525,7 @@
         "Termik sensör sapması"
       ],
       "kontroller": [
-        "Motor soğutma suyu sıcaklık sensörü sinyali düşük sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — motor soğutma suyu sıcaklık sensörü sinyali.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -557,7 +557,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Akü gerilimi yüksek besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — akü gerilimi.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -587,7 +587,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Beş voltluk sensör besleme devresi yüksek besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — beş voltluk sensör besleme devresi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -616,7 +616,7 @@
         "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "ECU CAN iletişim gönderme/alma hatası konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — ECU CAN iletişim gönderme/alma.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -647,7 +647,7 @@
         "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "ECU CAN adres çakışması konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — ECU CAN adres çakışması.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"

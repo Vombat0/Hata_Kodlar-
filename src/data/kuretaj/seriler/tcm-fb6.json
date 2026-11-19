@@ -25,7 +25,7 @@
       "kontroller": [
         "Gaz kolu kablosunu ve bağlantısını kontrol edin.",
         "Gaz sinyali sensörünü doğrulayın.",
-        "Gaz kolu kablosu kopuk ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — gaz kolu kablosu kopuk.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -54,7 +54,7 @@
       "kontroller": [
         "Akım sensörü kablo ve konnektörünü kontrol edin.",
         "Gerekirse sensörü değiştirin.",
-        "Yürüyüş motoru akım sensörü arızalı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — yürüyüş motoru akım sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -82,7 +82,7 @@
       "kontroller": [
         "Koltuk anahtarı ve kapak şalterlerini kontrol edin.",
         "Emniyet devresi kablolarını doğrulayın.",
-        "Yürüyüş emniyet devresi açıldı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — yürüyüş emniyet devresi açıldı.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -110,7 +110,7 @@
       "kontroller": [
         "Rejeneratif devre kablolarını ve kontrolörü kontrol edin.",
         "Akü ve şarj durumunu doğrulayın.",
-        "Rejeneratif devre anormal tıkanma ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — rejeneratif devre.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -139,7 +139,7 @@
       "kontroller": [
         "Termik sensörü ve kablo bağlantısını kontrol edin.",
         "Gerekirse kontrolörü değiştirin.",
-        "Sürücü termik sensörü arızalı sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — sürücü termik sensörü.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -167,7 +167,7 @@
       "kontroller": [
         "Yürüyüş motoru kablolarını ve konektörlerini kontrol edin.",
         "Motor sargılarını inceleyin.",
-        "Kontak açılışında/çalışmada yürüyüş akımı anormal ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — kontak açılışında/çalışmada yürüyüş akımı.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -194,9 +194,9 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Kaldırma kolu sensör kablosunu kontrol edin.",
+        "Kablosunu kontrol edin — kaldırma kolu sensör kablosu kopuk.",
         "Konnektörü yeniden takıp doğrulayın.",
-        "Kaldırma kolu sensör kablosu kopuk besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — kaldırma kolu sensör kablosu kopuk.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -225,7 +225,7 @@
       "kontroller": [
         "Yükleme motoru akım sensörünü ve kabloları kontrol edin.",
         "Motor ve pompayı inceleyin.",
-        "Yükleme motoru akımı anormal sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yükleme motoru akımı.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -253,7 +253,7 @@
       "kontroller": [
         "Yükleme emniyet şalterlerini kontrol edin.",
         "Emniyet devresi kablolarını doğrulayın.",
-        "Yükleme emniyet devresi açıldı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — yükleme emniyet devresi açıldı.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -281,7 +281,7 @@
       "kontroller": [
         "Yürüyüş gaz kolu kablosunu kontrol edin.",
         "Gaz sinyali bağlantısını doğrulayın.",
-        "Gaz kolu kablosu kopuk ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — gaz kolu kablosu kopuk.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -309,7 +309,7 @@
       "kontroller": [
         "Yürüyüş emniyet şalterlerini ve kablolarını kontrol edin.",
         "Koltuk anahtarı ve yön kolu durumunu doğrulayın.",
-        "Yürüyüş emniyet devresi açıldı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — yürüyüş emniyet devresi açıldı.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -336,9 +336,9 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Kaldırma sensör kablosunu kontrol edin.",
+        "Kablosunu kontrol edin — kaldırma sensör kablosu kopuk.",
         "Konnektörü yeniden takıp doğrulayın.",
-        "Kaldırma sensör kablosu kopuk besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — kaldırma sensör kablosu kopuk.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -366,7 +366,7 @@
       "kontroller": [
         "Yükleme emniyet şalterlerini ve kablolarını kontrol edin.",
         "Koltuk anahtarı durumunu doğrulayın.",
-        "Yükleme emniyet devresi açıldı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — yükleme emniyet devresi açıldı.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"

@@ -701,7 +701,7 @@
         "Kaldırma valfi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Kaldırma valfi arızası ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — kaldırma valfi.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -728,7 +728,7 @@
         "İndirme valfi hatalı — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "İndirme valfi hatalı ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — indirme valfi.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -755,7 +755,7 @@
         "İndirme valfi kısa devresi — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "İndirme valfi kısa devresi ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — indirme valfi.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -782,7 +782,7 @@
         "İndirme valfi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "İndirme valfi arızası ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — indirme valfi.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -836,7 +836,7 @@
         "Eğim valfi kısa devresi — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Eğim valfi kısa devresi ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — eğim valfi.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -890,7 +890,7 @@
         "Genel kontrolcü hatası 4 — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Genel kontrolcü hatası 4 ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — genel kontrolcü.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -917,7 +917,7 @@
         "Eğim valfi kısa devresi — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Eğim valfi kısa devresi ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — eğim valfi.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -971,7 +971,7 @@
         "Yardımcı 1 valfinde hata — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Yardımcı 1 valfinde hata ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — yardımcı 1 valfinde hata.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -998,7 +998,7 @@
         "Yardımcı 1 valfi kısa devresi — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Yardımcı 1 valfi kısa devresi ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — yardımcı 1 valfi.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -1025,7 +1025,7 @@
         "Yardımcı 1 valfi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Yardımcı 1 valfi arızası ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — yardımcı 1 valfi.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -1052,7 +1052,7 @@
         "Yardımcı 1 valfinde hata — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Yardımcı 1 valfinde hata ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — yardımcı 1 valfinde hata.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -1079,7 +1079,7 @@
         "Yardımcı 1 valfi kısa devresi — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Yardımcı 1 valfi kısa devresi ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — yardımcı 1 valfi.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -1106,7 +1106,7 @@
         "Yardımcı 1 valfi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Yardımcı 1 valfi arızası ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — yardımcı 1 valfi.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -1133,7 +1133,7 @@
         "Yardımcı 2 valfinde hata — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Yardımcı 2 valfinde hata ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — yardımcı 2 valfinde hata.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -1160,7 +1160,7 @@
         "Yardımcı 2 valfi kısa devresi — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Yardımcı 2 valfi kısa devresi ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — yardımcı 2 valfi.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -1187,7 +1187,7 @@
         "Yardımcı 2 valfi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Yardımcı 2 valfi arızası ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — yardımcı 2 valfi.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -1214,7 +1214,7 @@
         "Yardımcı 2 valfinde hata — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Yardımcı 2 valfinde hata ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — yardımcı 2 valfinde hata.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -1484,7 +1484,7 @@
         "İndirmede enerji geri kazanım valfi kısa devresi — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "İndirmede enerji geri kazanım valfini ve kablolamasını kontrol edin, gerekirse değiştirin.",
+        "Valfini ve kablolamasını kontrol edin, gerekirse değiştirin — indirmede enerji geri kazanım valfi.",
         "Arıklı bileşeni bulmak için valf fişini komşu valfe takıp test edin."
       ],
       "ilgiliKodlar": [],
@@ -1511,7 +1511,7 @@
         "İndirmede enerji geri kazanım valfi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "İndirmede enerji geri kazanım valfini ve kablolamasını kontrol edin.",
+        "Valfini ve kablolamasını kontrol edin — indirmede enerji geri kazanım valfi.",
         "Gerekirse valfi veya kabloyu değiştirin."
       ],
       "ilgiliKodlar": [],
@@ -1836,7 +1836,7 @@
         "Haberleşme sunucusuna erişilemiyor — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Haberleşme sunucusunun düzgün çalıştığını kontrol ettirin.",
+        "Sunucusunun düzgün çalıştığını kontrol ettirin — haberleşme sunucusuna erişilemiyor.",
         "Bağlantıyı yeniden test edin."
       ],
       "ilgiliKodlar": [],
@@ -3186,7 +3186,7 @@
         "Kaldırma yüksekliği tespitinde işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Kaldırma yüksekliği sensörünü ve kablolamasını kontrol edin.",
+        "Sensörünü ve kablolamasını kontrol edin — kaldırma.",
         "Silindir kesiti yanlış parametrelenmişse referans sürüş yapın."
       ],
       "ilgiliKodlar": [],
@@ -3213,7 +3213,7 @@
         "Sürüş yönü anahtarı hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Sürüş yönü anahtarı parametrelendirmesini kontrol edin.",
+        "Parametrelendirmesini kontrol edin — sürüş yönü anahtarı.",
         "Hata listesini silin; hata tekrarlarsa sürüş yönü anahtarını değiştirin."
       ],
       "ilgiliKodlar": [],
@@ -3618,7 +3618,7 @@
         "Direksiyon açısı sensörü hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Direksiyon açısı sensör sistemini ve parametrelerini kontrol edin.",
+        "Sistemini ve parametrelerini kontrol edin — direksiyon açısı sensörü.",
         "Gerekirse parametreleri düzeltin."
       ],
       "ilgiliKodlar": [],
@@ -3645,7 +3645,7 @@
         "Direksiyon açısı sensörü hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Direksiyon açısı sensörünü ve kablolamasını kontrol edin, gerekirse değiştirin.",
+        "Sensörünü ve kablolamasını kontrol edin, gerekirse değiştirin — direksiyon açısı sensörü.",
         "Hata listesini silin."
       ],
       "ilgiliKodlar": [],
@@ -3672,7 +3672,7 @@
         "Sol direksiyon açısı anahtarında hata — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Sol direksiyon açısı sensörünü ve kablolamasını kontrol edin, gerekirse değiştirin.",
+        "Sensörünü ve kablolamasını kontrol edin, gerekirse değiştirin — sol direksiyon açısı anahtarında hata.",
         "Orijinal parametreleri yeniden yükleyip hata listesini silin."
       ],
       "ilgiliKodlar": [],
@@ -3699,7 +3699,7 @@
         "Sağ direksiyon açısı anahtarında hata — anahtar hatalı veya kablolama hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Sağ direksiyon açısı sensörünü ve kablolamasını kontrol edin, gerekirse değiştirin.",
+        "Sensörünü ve kablolamasını kontrol edin, gerekirse değiştirin — sağ direksiyon açısı anahtarında hata.",
         "Orijinal parametreleri yeniden yükleyip hata listesini silin."
       ],
       "ilgiliKodlar": [],
@@ -3780,7 +3780,7 @@
         "Çift pedallı hızlandırıcıda parametre hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Çift pedallı hızlandırıcıyı ve kablolamasını kontrol edin.",
+        "Hızlandırıcıyı ve kablolamasını kontrol edin — çift pedallı hızlandırıcıda parametre.",
         "Hızlandırıcıyı yeniden kalibre edip orijinal parametreleri yükleyin."
       ],
       "ilgiliKodlar": [],
@@ -3807,7 +3807,7 @@
         "Çift pedallı hızlandırıcıda parametre hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Çift pedallı hızlandırıcıyı ve kablolamasını kontrol edin.",
+        "Hızlandırıcıyı ve kablolamasını kontrol edin — çift pedallı hızlandırıcıda parametre.",
         "Hızlandırıcıyı yeniden kalibre edip orijinal parametreleri yükleyin."
       ],
       "ilgiliKodlar": [],
@@ -3834,7 +3834,7 @@
         "Tek pedallı hızlandırıcı hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Tek pedallı hızlandırıcıyı ve kablolamasını kontrol edin, gerekirse değiştirin.",
+        "Hızlandırıcıyı ve kablolamasını kontrol edin, gerekirse değiştirin — tek pedallı hızlandırıcı.",
         "Sıfır konumunu yeniden kalibre edip orijinal parametreleri yükleyin."
       ],
       "ilgiliKodlar": [],
@@ -4158,7 +4158,7 @@
         "Ek elektrik donanımında dahili işlem hatası — parametrelendirme için yetersiz argüman — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Ek elektrik donanımı parametrelendirmesini kontrol edin.",
+        "Parametrelendirmesini kontrol edin — ek elektrik donanımında dahili işlem.",
         "Gerekirse fabrika değerlerine dönün."
       ],
       "ilgiliKodlar": [],
@@ -4266,7 +4266,7 @@
         "Pompa karakteristik eğrisinde parametre hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Pompa karakteristik eğrisi parametrelendirmesini kontrol edin.",
+        "Parametrelendirmesini kontrol edin — pompa karakteristik eğrisinde parametre.",
         "Gerekirse fabrika değerlerine dönün."
       ],
       "ilgiliKodlar": [],
@@ -6726,7 +6726,7 @@
         "TDM EEPROM yazma hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "TDM EEPROM yazma hatası ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — TDM EEPROM yazma.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -8052,7 +8052,7 @@
         "Dahili işlem hatası — gösterge ve kumanda ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Dahili işlem hatası ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — dahili işlem.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -8106,7 +8106,7 @@
         "Dahili işlem hatası — gösterge ve kumanda ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Dahili işlem hatası ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — dahili işlem.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -9756,7 +9756,7 @@
         "Kuvvet/yol tolerans aralığı — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Kuvvet/yol tolerans aralığı ile ilgili bileşenleri ve kablolamayı kontrol edin.",
+        "Bileşenleri ve kablolamayı kontrol edin — kuvvet/yol.",
         "Gerekirse ilgili bileşeni değiştirin; hata tekrarlarsa yetkili servise başvurun."
       ],
       "ilgiliKodlar": [],
@@ -9810,7 +9810,7 @@
         "Limit konum anahtarı hatası — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
-        "Limit konum anahtarını ve kablolamasını kontrol edin.",
+        "Anahtarını ve kablolamasını kontrol edin — limit konum anahtarı.",
         "Mekaniği ve şanzımanı kontrol edin; frenin limit anahtarına kadar tam bırakıldığını doğrulayın."
       ],
       "ilgiliKodlar": [],

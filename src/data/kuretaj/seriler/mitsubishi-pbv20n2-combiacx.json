@@ -1290,7 +1290,7 @@
       ],
       "kontroller": [
         "POSITIVE EB parametre değerini üretici değeriyle karşılaştırın.",
-        "Yardımcı çıkış sürücüsünün kablo ve konektörlerini ölçün.",
+        "Sürücüsünün kablo ve konektörlerini ölçün — yardımcı çıkış sürücü parametre.",
         "Gerekirse parametreyi düzeltin veya kontrolörü değiştirin."
       ],
       "ilgiliKodlar": [],
@@ -1910,7 +1910,7 @@
         "Kol anahtarlarında kısa devre veya kablolama hatası"
       ],
       "kontroller": [
-        "Kaldırma ve indirme girişlerini teşhis ekranında kontrol edin.",
+        "Girişlerini teşhis ekranında kontrol edin — kaldırma ve indirme komutları birlikte aktif.",
         "Kol anahtar kablolarında kısa devre olup olmadığını inceleyin.",
         "Gerekirse arızalı anahtarı değiştirin."
       ],
@@ -2193,7 +2193,7 @@
         "Parametre değerlerinin geçersiz aralıkta olması"
       ],
       "kontroller": [
-        "Kayma profili parametrelerini üretici önerisiyle karşılaştırın.",
+        "Parametrelerini üretici önerisiyle karşılaştırın — kayma profili parametre.",
         "Parametreleri doğru değerlere ayarlayıp kaydedin.",
         "Hata sürerse kontrolör yazılımını kontrol ettirin."
       ],

@@ -28,7 +28,7 @@
         "Batarya gerilim seviyesini ölç",
         "Gerekirse kontrolcüyü değiştir",
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Batarya Aşırı Gerilim Koruması besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — batarya.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -56,7 +56,7 @@
         "Isı dağıtımını kontrol et",
         "Termal gresi uygula",
         "Çalışma döngüsünü (görev oranını) azalt",
-        "Pompa Motoru Güç Modülü Aşırı Isınma sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — pompa Motoru Güç Modülü.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -84,7 +84,7 @@
       "kontroller": [
         "Bataryayı sıfırlama değerinin üzerine şarj et",
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Batarya Düşük Gerilim Uyarısı besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — batarya.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -112,7 +112,7 @@
         "Motor sıcaklık sensörünü kontrol et",
         "Motorun soğumasını bekle",
         "Fren kilitlenmesi olup olmadığını kontrol et",
-        "Yürüyüş Motoru Aşırı Isınma Uyarısı sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — yürüyüş Motoru.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -141,7 +141,7 @@
         "Potansiyometre sıfırlamasını kontrol et",
         "Soğutmayı doğrula",
         "Arızalıysa sıcaklık sensörünü değiştir",
-        "Pompa Motoru Aşırı Isınma Uyarısı sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — pompa Motoru.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -169,7 +169,7 @@
       "kontroller": [
         "26 pinli kablo bağlantılarını kontrol et",
         "Gerekirse güç modülünü değiştir",
-        "Yürüyüş Motoru Akım Kaybı sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş Motoru Akım.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -197,7 +197,7 @@
       "kontroller": [
         "Harici kısa devre olup olmadığını kontrol et",
         "Kontaktörü değiştir",
-        "Ana Kontaktör Bobini Aşırı Akımı bobin direncini ölçün",
+        "Bobin direncini ölçün — ana Kontaktör Bobini.",
         "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
         "Bobin besleme hattında süreklilik ölçün",
         "Gerekirse kontaktörü değiştirin"
@@ -227,7 +227,7 @@
         "Pozitif/negatif kontaklarda korozyon olup olmadığını doğrula",
         "Bataryayı şarj et veya değiştir",
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Batarya Düşük Gerilim Koruması besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — batarya.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -254,7 +254,7 @@
       "kontroller": [
         "Isı dağıtımını ve termal gresi kontrol et",
         "Motor çalışmasını kontrol et",
-        "Yürüyüş Motoru Güç Modülü Aşırı Isınma sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — yürüyüş Motoru Güç Modülü.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -281,7 +281,7 @@
       "kontroller": [
         "Gaz pedalını bırakıp yeniden başlat",
         "Gerekirse gaz pedalını yeniden kalibre et",
-        "Çalıştırmadan Önce Gaz Pedalına Basılması ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — çalıştırmadan Önce Gaz Pedalına Basılması.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -308,7 +308,7 @@
       "kontroller": [
         "5 V toprak kısa devresi olup olmadığını kontrol et",
         "Enkoder kablolarını doğrula",
-        "Kontrol Ünitesi 5 V Çıkış Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — kontrol Ünitesi 5 V Çıkış.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -334,7 +334,7 @@
       ],
       "kontroller": [
         "Gaz pedalı sensörlerinde veya göstergede 12 V toprak kısa devresi olup olmadığını kontrol et",
-        "Kontrol Ünitesi 12 V Çıkış Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — kontrol Ünitesi 12 V Çıkış.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -391,7 +391,7 @@
         "Ana kontaktör bobini bağlantılarını kontrol et",
         "Kontaktör çalışmasını doğrula",
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Ön Şarj Kapasitörü Düşük Gerilimi besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — ön Şarj Kapasitörü.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -419,7 +419,7 @@
         "Çalışmayı durdur",
         "Motorun iyice soğumasını bekle",
         "Sensörü ve soğutmayı kontrol et",
-        "Yürüyüş Motoru Aşırı Isınma Kapatması sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — yürüyüş Motoru.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -447,7 +447,7 @@
       "kontroller": [
         "Enkoder bağlantılarını ve kablolarını kontrol et",
         "Arızalıysa enkoderi değiştir",
-        "Yürüyüş Motoru Enkoder Arızası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — yürüyüş Motoru Enkoder.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -497,7 +497,7 @@
         "Gaz pedalını yeniden kalibre et",
         "Kabloları kontrol et",
         "Gerekirse pedalı değiştir",
-        "Gaz Pedalı Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — gaz Pedalı.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"

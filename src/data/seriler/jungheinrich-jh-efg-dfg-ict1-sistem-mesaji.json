@@ -236,7 +236,7 @@
         "Şalter kablosunda kopukluk veya kısa devre"
       ],
       "kontroller": [
-        "Operatör koruma şalterini ve kontaklarını kontrol edin",
+        "Şalterini ve kontaklarını kontrol edin — operatör koruma şalteri.",
         "Şalter kablo bağlantılarını ölçün"
       ],
       "ilgiliKodlar": [],
@@ -1737,7 +1737,7 @@
         "Şalter konektörünün çıkması"
       ],
       "kontroller": [
-        "Emniyet şalteri kablolarını ölçün",
+        "Kablolarını ölçün — emniyet şalteri kablo kopması.",
         "Arızalı emniyet şalterini değiştirin"
       ],
       "ilgiliKodlar": [],
@@ -1815,7 +1815,7 @@
       ],
       "kontroller": [
         "Kablo bağlantısını ölçün",
-        "İndirme potansiyometresi, Multipilot veya arayüzü değiştirin"
+        "Multipilot veya arayüzü değiştirin — indirme potansiyometresi kablo kopması."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 15,
@@ -1991,7 +1991,7 @@
         "Devre veya kablo çakışması"
       ],
       "kontroller": [
-        "Buton ve seyir şalteri devresini kontrol edin",
+        "Devresini kontrol edin — buton ve seyir şalteri birlikte basılı.",
         "Arızalı buton/arayüzü değiştirin"
       ],
       "ilgiliKodlar": [],

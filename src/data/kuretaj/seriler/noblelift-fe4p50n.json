@@ -440,7 +440,7 @@
         "Potansiyometre sürgüsü aşınması"
       ],
       "kontroller": [
-        "Gaz potansiyometresini kalibre edin veya değiştirin",
+        "Potansiyometresini kalibre edin veya değiştirin — gaz potansiyometresi üst.",
         "Gerilim sınıfı ayarını kontrol edin",
         "Gerilimi ölçün",
         "Uç nokta değerlerini doğrulayın"
@@ -465,7 +465,7 @@
         "Potansiyometre kalibrasyonu kayması"
       ],
       "kontroller": [
-        "Gaz potansiyometresini kalibre edin veya değiştirin",
+        "Potansiyometresini kalibre edin veya değiştirin — gaz potansiyometresi alt.",
         "Hattaki gerilim kaybını kontrol edin",
         "Besleme gerilimini ölçün",
         "Uç nokta değerlerini doğrulayın"

@@ -50,7 +50,7 @@
       ],
       "kontroller": [
         "Ayar işlemini tamamlayın; orbit rol rotor gevşekse sıkın.",
-        "EPS öğrenme (teaching) modu ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — EPS öğrenme (teaching) modu.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -80,7 +80,7 @@
       ],
       "kontroller": [
         "Kontrolör beslemesini kontrol edin; gerekirse kontrolörü değiştirin.",
-        "Direksiyon açısı sensörü hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — direksiyon açısı sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -111,7 +111,7 @@
       ],
       "kontroller": [
         "Tekerlek sensörü ve devresini kontrol edin; montaj yönünü doğrulayın.",
-        "Tekerlek devir sensörü hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — tekerlek devir sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -142,7 +142,7 @@
       ],
       "kontroller": [
         "Klemeleri kontrol edin; gerekirse kontrolörü değiştirin.",
-        "EPS ünite arızası / ayar modu dışı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — EPS ünite.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -169,7 +169,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "EPS normal çalışma ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — EPS normal çalışma.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"

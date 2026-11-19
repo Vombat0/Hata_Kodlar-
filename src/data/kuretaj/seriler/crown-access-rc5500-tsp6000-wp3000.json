@@ -22,7 +22,7 @@
         "CAN bağlantısı veya modül arızası"
       ],
       "kontroller": [
-        "ACCESS 7 beslemeliyken ACCESS 3 güç kaybı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — ACCESS 7 beslemeliyken ACCESS 3 güç.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -50,7 +50,7 @@
         "Access7 modülünün kendisi"
       ],
       "kontroller": [
-        "ACCESS 7 CAN iletişim kaybı konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — ACCESS 7 CAN iletişim.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -78,7 +78,7 @@
         "Valf mekanizması (kanıt bekler)"
       ],
       "kontroller": [
-        "PVP1 pivot saat yönü valfinde aşırı akım bobin direncini ölçün",
+        "Bobin direncini ölçün — PVP1 pivot saat yönü valfi.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -106,7 +106,7 @@
         "Sürücü/tesisat hasarı"
       ],
       "kontroller": [
-        "PVP2 pivot saat yönü tersi valfinde aşırı akım bobin direncini ölçün",
+        "Bobin direncini ölçün — PVP2 pivot saat yönü tersi valfi.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -134,7 +134,7 @@
         "Sürücü kademesi arızası"
       ],
       "kontroller": [
-        "PVF2 çatallı geri çekme valfinde aşırı akım bobin direncini ölçün",
+        "Bobin direncini ölçün — PVF2 çatallı geri çekme valfi.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -162,7 +162,7 @@
         "ACCESS7 sürücü kademesi"
       ],
       "kontroller": [
-        "PVLH yardımcı emniyet (relief) valfinde aşırı akım bobin direncini ölçün",
+        "Bobin direncini ölçün — PVLH yardımcı emniyet (relief) valfi.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -190,7 +190,7 @@
         "Kontrolör arızası (hidrolik relieften bağımsız)"
       ],
       "kontroller": [
-        "SVAL yardımcı silindir indirme solenoidinde açık sürücü hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — SVAL yardımcı silindir indirme solenoidi.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -218,7 +218,7 @@
         "Mast tesisatı veya FLS sinyal uyumsuzluğu"
       ],
       "kontroller": [
-        "ACCESS4: mast yükseklik anahtarı HGTRS2 açık, serbest kaldırma anahtarı FLS kapalı hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — ACCESS4: mast.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -246,7 +246,7 @@
         "FU3 sigortası/PCB ve kontrol anahtarı plauzibilitesi"
       ],
       "kontroller": [
-        "X10 kolda gaz uyumsuzluğu / potansiyometre konum çelişkisi potansiyometresinin çıkış gerilimini ölçün",
+        "Potansiyometre çıkış gerilimini ölçün — x10 kolda gaz uyumsuzluğu / potansiyometre konum çelişkisi.",
         "Potansiyometre konnektörünü ve kablo demetini kontrol edin",
         "Potansiyometre değerlerini yeniden kalibre edin",
         "Gerekirse potansiyometreyi değiştirin"

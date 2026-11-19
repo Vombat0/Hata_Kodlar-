@@ -133,7 +133,7 @@
       "kontroller": [
         "Bataryayı hemen şarj et veya değiştir",
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Şiddetli Düşük Gerilim besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — şiddetli.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -224,7 +224,7 @@
       ],
       "kontroller": [
         "Kontrolcüyü değiştir (dahili röle hasarlı)",
-        "Ana Röle Kaynamış bobin direncini ölçün",
+        "Bobin direncini ölçün — ana Röle Kaynamış.",
         "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
         "Bobin besleme hattında süreklilik ölçün",
         "Gerekirse kontaktörü değiştirin"
@@ -278,7 +278,7 @@
       ],
       "kontroller": [
         "Çalıştırmadan önce tüm hidrolik kumandaları bırak",
-        "Pompa SRO Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — pompa SRO.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -327,7 +327,7 @@
       ],
       "kontroller": [
         "Fren bobini direncini ve sürücü devresini kontrol et",
-        "Fren Uygulama Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — fren Uygulama.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -402,7 +402,7 @@
       "kontroller": [
         "Doğru çalıştırma sırasını uygula",
         "Gaz sinyali girişini kontrol et",
-        "HPD (Yüksek Pedal Devre Dışı) Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — HPD (Yüksek Pedal.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -428,7 +428,7 @@
       ],
       "kontroller": [
         "Kontrolcüyü değiştir",
-        "Akım Algılama Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — akım Algılama.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -455,7 +455,7 @@
       "kontroller": [
         "Motor bağlantılarını kontrol et",
         "Gerekirse kontrolcüyü değiştir",
-        "Kontrolcü Aşırı Akımı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — kontrolcü.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -481,7 +481,7 @@
       ],
       "kontroller": [
         "Kontrolcüyü değiştir (donanım arızası)",
-        "Donanım Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — donanım.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -565,7 +565,7 @@
       "kontroller": [
         "Motorun soğumasını bekle",
         "Aşırı yük veya tıkanmış havalandırma olup olmadığını kontrol et",
-        "Motor Arızası sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — motor Arızası.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -663,7 +663,7 @@
       "kontroller": [
         "Motor faz kablolarını incele",
         "Yalıtım hasarı olup olmadığını kontrol et",
-        "Motor Kısa Devresi hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — motor Kısa Devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -692,7 +692,7 @@
       ],
       "kontroller": [
         "Motor bağlantılarını ve kablo sürekliliğini kontrol et",
-        "Motor Açık Devresi hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — motor Açık Devresi.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"

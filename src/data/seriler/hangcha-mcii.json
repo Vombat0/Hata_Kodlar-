@@ -44,7 +44,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Normal çalışma ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — normal çalışma.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -94,7 +94,7 @@
       ],
       "kontroller": [
         "Mosfet çıkışını ve motor kablolarını kontrol edin.",
-        "Donanım arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — donanım.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -123,7 +123,7 @@
       "kontroller": [
         "Akü gerilimini ölçün ve gerekirse şarj edin.",
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Düşük gerilim uyarısı besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — düşük gerilim.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -149,7 +149,7 @@
       ],
       "kontroller": [
         "Kaldırma kilidi koşullarını ve şalterleri kontrol edin.",
-        "Kaldırma kilidi devrede ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — kaldırma kilidi devrede.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -263,7 +263,7 @@
       ],
       "kontroller": [
         "Bobin bağlantısını ve kontaktörü kontrol edin.",
-        "Kontaktör yok / kapanmıyor bobin direncini ölçün",
+        "Bobin direncini ölçün — kontaktör.",
         "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
         "Bobin besleme hattında süreklilik ölçün",
         "Gerekirse kontaktörü değiştirin"
@@ -292,7 +292,7 @@
       "kontroller": [
         "Akü gerilimini ölçün; düşükse şarj edin.",
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Düşük gerilim koruması besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — düşük gerilim koruması.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -320,7 +320,7 @@
       "kontroller": [
         "Şarj sistemini ve akü gerilimini kontrol edin.",
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Aşırı gerilim koruması besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — aşırı gerilim koruması.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -348,7 +348,7 @@
       ],
       "kontroller": [
         "Sıcaklık sensörünü ve soğutma koşullarını kontrol edin.",
-        "Sıcaklık koruması sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — sıcaklık koruması.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"

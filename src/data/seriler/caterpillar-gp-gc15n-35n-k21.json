@@ -56,7 +56,7 @@
       ],
       "kontroller": [
         "OBD/bakım konnektörü korozyon için kontrol edilir",
-        "ECM iletişim hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — ECM iletişim.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -88,7 +88,7 @@
       ],
       "kontroller": [
         "CAN demeti ve gösterge paneli fişleri kontrol edilir",
-        "DCM (gösterge modülü) iletişim kaybı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — DCM (gösterge modülü) iletişim.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -121,7 +121,7 @@
       ],
       "kontroller": [
         "E-03 adımları uygulanır",
-        "Genel CAN veriyolü arızası konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — genel CAN veriyolü.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -155,7 +155,7 @@
       ],
       "kontroller": [
         "MAF konnektörü ve kablosu sıkılık/kopukluk açısından bakılır",
-        "Sıcak tel hava akış sensörü (MAF) sinyal arızası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — sıcak tel hava akış sensörü (MAF) sinyal.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -270,7 +270,7 @@
       ],
       "kontroller": [
         "Önce konnektör sonra sensör denenir",
-        "O2 sensörü sinyal devresi hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — o2 sensörü sinyal devresi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -305,7 +305,7 @@
       ],
       "kontroller": [
         "E-25 konnektör/sensör kontrol sırası uygulanır",
-        "O2 sensörü ısıtıcı devresi hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — o2 sensörü ısıtıcı devresi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -366,7 +366,7 @@
       ],
       "kontroller": [
         "Sensör ve kablosu test edilir",
-        "Kam milı konum sensörü arızası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — kam milı konum sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -455,7 +455,7 @@
       ],
       "kontroller": [
         "ETC rölesi korozyon/nem açısından sökülüp bakılır",
-        "Elektronik gaz kontrol aktüatörü devre hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — elektronik gaz kontrol aktüatörü devre.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -517,7 +517,7 @@
       ],
       "kontroller": [
         "Soğutma arızası giderilmeden araç çalıştırılmaz",
-        "Soğutma suyu aşırı ısınması 2. kademe sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — soğutma suyu.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -551,7 +551,7 @@
       ],
       "kontroller": [
         "Kontağı açıkken bobinde 12V ölçülür",
-        "Ateşleme bobinine gerilim yok bobin direncini ölçün",
+        "Bobin direncini ölçün — ateşleme bobinine gerilim.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -611,7 +611,7 @@
       ],
       "kontroller": [
         "Sensör bağlantısı ve kablosu süreklilik testiyle kontrol edilir",
-        "LPG yakıt basıncı sensörü devre hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — LPG yakıt basıncı sensörü devre.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -643,7 +643,7 @@
       ],
       "kontroller": [
         "Vaporizer/regülatör çıkış basıncı ölçülür",
-        "LPG buharlaştırıcı çıkış basıncı yüksek ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — LPG buharlaştırıcı çıkış basıncı.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -675,7 +675,7 @@
       ],
       "kontroller": [
         "Sensör devresi panel kaydı üzerinden izlenir",
-        "Yağ basıncı sensörü izleme hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — yağ basıncı sensörü izleme.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -707,7 +707,7 @@
       "kontroller": [
         "Fren şalteri ayarlanır (lamba bulunmasa dahi)",
         "Kod temizlenirken pedal basılı tutulur",
-        "Fren (stop lambası) şalteri ayarsız ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — fren (stop lambası) şalteri ayarsız.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -738,7 +738,7 @@
       ],
       "kontroller": [
         "Karışımı sınırlayan yakıt ve hava tarafı bileşenleri gözden geçirilir",
-        "Hava-yakıt oranı bozuk ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — hava-yakıt oranı.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -802,7 +802,7 @@
       ],
       "kontroller": [
         "Sensör bağlantı ve kablo sürekliliği ölçülür",
-        "Atmosfer basıncı sensörü devre hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — atmosfer basıncı sensörü devre.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"

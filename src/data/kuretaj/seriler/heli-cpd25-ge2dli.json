@@ -26,7 +26,7 @@
         "CAN hattı kablolarını ve bağlantılarını kontrol et",
         "Tüm kontrolcü beslemelerini doğrula",
         "Sistemi sıfırla",
-        "Kontrolcüler Arası İletişim Yok ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — kontrolcüler Arası İletişim.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -133,7 +133,7 @@
         "Kontaktörde mekanik sıkışma olup olmadığını kontrol et",
         "Bobini ve kontakları incele",
         "Kaynamışsa kontaktörü değiştir",
-        "Kontaktör Kapalı Kalma Arızası bobin direncini ölçün",
+        "Bobin direncini ölçün — kontaktör Kapalı Kalma.",
         "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
         "Bobin besleme hattında süreklilik ölçün",
         "Gerekirse kontaktörü değiştirin"
@@ -163,7 +163,7 @@
         "Kabloları doğrula",
         "Bobin direncini ölç",
         "Bobin açıksa değiştir",
-        "Kontaktör Açık Kalma Arızası hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — kontaktör.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -191,7 +191,7 @@
         "Fren bobini kablolarını ve beslemesini kontrol et",
         "Fren mekanizmasını incele",
         "Fren tertibatını ayarla veya değiştir",
-        "Fren Kapanmadı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — fren Kapanmadı.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -220,7 +220,7 @@
         "Fren kontaktörünün bobin ve kontaklarını incele",
         "Fren sistemine giden kabloları kontrol et",
         "Kontaktörü değiştir",
-        "Fren Kontaktörü Açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — fren Kontaktörü.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -249,7 +249,7 @@
         "KRİTİK: Aracı çalıştırma",
         "Kontaktörün kaynamış olabileceğini dikkate al",
         "Bataryayı ayır ve kontaktörü değiştir",
-        "Ana Kontaktör Beklenmedik Şekilde Kapalı bobin direncini ölçün",
+        "Bobin direncini ölçün — ana Kontaktör Beklenmedik Şekilde Kapalı.",
         "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
         "Bobin besleme hattında süreklilik ölçün",
         "Gerekirse kontaktörü değiştirin"
@@ -279,7 +279,7 @@
         "Batarya gerilimini doğrula",
         "Kontaktör kontaklarını incele",
         "Gerekirse kontaktörü değiştir",
-        "Ana Kontaktör Açık Kaldı hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — ana Kontaktör.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -308,7 +308,7 @@
         "Kısa devre olup olmadığını incele",
         "Motor izolasyonunu ölç",
         "Motoru değiştir",
-        "Yüksek Alan Sargısı Akımı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — yüksek Alan Sargısı Akımı.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -336,7 +336,7 @@
         "Alan sargısı bağlantılarını kontrol et",
         "Kabloların sürekliliğini ölç",
         "Kontrolcünün alan çıkışını incele",
-        "Alan Sargısı Akımı Yok ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — alan Sargısı Akımı.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -365,7 +365,7 @@
         "Çalışmayı durdur ve soğumasını bekle",
         "Havalandırmayı ve fanı kontrol et",
         "Soğutuculardaki tozu temizle",
-        "Yüksek Sıcaklık sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — yüksek Sıcaklık.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -394,7 +394,7 @@
         "Soğumasını bekle",
         "Havalandırmanın tıkanıklığını kontrol et",
         "Termal sensörleri incele",
-        "Termal Koruma Aktif ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — termal Koruma Aktif.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -423,7 +423,7 @@
         "Motorun soğumasını bekle",
         "Motor havalandırmasını kontrol et",
         "Aşırı yük koşullarını incele",
-        "Yürüyüş Motoru Sıcaklığı Yüksek sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş Motoru Sıcaklığı.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -557,7 +557,7 @@
       "kontroller": [
         "KRİTİK: Aracı çalıştırma; kontrolcü hasarlı olabilir",
         "Kontrolcü modülünü değiştir",
-        "Güç Sürücüsü Kısa Devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — güç Sürücüsü.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -586,7 +586,7 @@
         "Kontaktör sürücü çıkışını kontrol et",
         "Sürücü devresini ölç",
         "Sürücü arızalıysa kontrolcüyü değiştir",
-        "Kontaktör Sürücü Arızası bobin direncini ölçün",
+        "Bobin direncini ölçün — kontaktör Sürücü.",
         "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
         "Bobin besleme hattında süreklilik ölçün",
         "Gerekirse kontaktörü değiştirin"
@@ -615,7 +615,7 @@
         "Bobin direncini ölç",
         "Kısa devreyi gösteren düşük direnci kontrol et",
         "Kısa devre yapmış bobini değiştir",
-        "Bobin Kısa Devresi hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — bobin Kısa Devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -644,7 +644,7 @@
         "Bobin sürekliliğini ölç",
         "Bağlantıları kontrol et",
         "Açık devre varsa bobini değiştir",
-        "Bobin Devresi Kopuk bobin direncini ölçün",
+        "Bobin direncini ölçün — bobin Devresi Kopuk.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -672,7 +672,7 @@
         "Gaz pedalı potansiyometresinin kablolarını kontrol et",
         "Pedali kalibre et",
         "Arızalıysa pedal tertibatını değiştir",
-        "Gaz Pedalı Sinyali Geçersiz ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — gaz Pedalı Sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -721,7 +721,7 @@
         "Yön anahtarı kontaklarını kontrol et",
         "Kablolarda kısa devre olup olmadığını incele",
         "Sıkışmışsa anahtarı değiştir",
-        "İleri ve Geri Aynı Anda Seçili ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — ileri ve Geri Aynı Anda Seçili.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -750,7 +750,7 @@
         "Enkoder bağlantılarını kontrol et",
         "Enkoder diski ve sensörü incele",
         "Hasarlıysa enkoderi değiştir",
-        "Enkoder Hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — enkoder.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -778,7 +778,7 @@
         "Pedal kablolarında hasar olup olmadığını incele",
         "Konnektör pimlerini kontrol et",
         "Kablo demetini onar veya değiştir",
-        "Gaz Pedalı Kablo Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — gaz Pedalı Kablo.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -806,7 +806,7 @@
         "Pedal potansiyometresi direncini ölç",
         "Düzensiz okuma olup olmadığını kontrol et",
         "Pedal tertibatını değiştir",
-        "Gaz Pedalı Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — gaz Pedalı.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -835,7 +835,7 @@
         "Motor fırçalarını aşınma açısından incele",
         "Minimum altına aşınmışsa fırçaları değiştir",
         "Komütatörü kontrol et",
-        "Yürüyüş Motoru Fırçaları sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş Motoru Fırçaları.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"

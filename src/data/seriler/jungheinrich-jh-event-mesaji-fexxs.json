@@ -137,7 +137,7 @@
       ],
       "kontroller": [
         "Kontrol ünitesini değiştirin",
-        "Çıkış trafosu güç katı arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — çıkış trafosu güç katı.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -171,7 +171,7 @@
       "kontroller": [
         "Kontrol ünitesini değiştirin",
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Çıkış trafosu gerilim denetimi besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — çıkış trafosu gerilim denetimi.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -228,7 +228,7 @@
       ],
       "kontroller": [
         "Şalter kontak kombinasyonunu ve kablolarını ölçün",
-        "Emniyet şalteri girişleri tutarsız ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — emniyet şalteri girişleri.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -476,7 +476,7 @@
         "Sistem gerilim sınıfının yanlış yapılandırılması"
       ],
       "kontroller": [
-        "Akü denetim modülünde gerilimi ölçün",
+        "Gerilimi ölçün — akü denetim modülünde ölçüm girişi.",
         "Modülü değiştirin"
       ],
       "ilgiliKodlar": [],
@@ -508,7 +508,7 @@
       ],
       "kontroller": [
         "Akü denetim modülündeki sıcaklık sensörünü kontrol edin",
-        "Akü sıcaklık geri beslemesi geçersiz sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — akü sıcaklık geri beslemesi.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -569,7 +569,7 @@
       "kontroller": [
         "Şarj süresi uzamasını gözlemleyin; mesaj yalnız bilgilendirme amaçlıdır",
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Şebeke gerilimi düşük besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — şebeke gerilimi.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -932,7 +932,7 @@
       ],
       "kontroller": [
         "Araç için geçerli güvenlik veri kaydını Safe'e yükleyin",
-        "Güvenlik veri kaydındaki seri numarası dongle ile eşleşmiyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — güvenlik veri kaydındaki seri numarası dongle ile eşleşmiyor.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1023,7 +1023,7 @@
       ],
       "kontroller": [
         "0x218A 'kişisel koruma şalteri işlevi' parametresini 'brake switch' değerine ayarlayın",
-        "Kişisel koruma şalteri işlevi kablo kodlamasıyla çelişiyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — kişisel koruma şalteri işlevi kablo kodlamasıyla.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1139,7 +1139,7 @@
       ],
       "kontroller": [
         "Depo alanı parametresini JUDIT üzerinden düzeltin",
-        "Depo alanı numarası geçersiz ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — depo alanı numarası.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1340,7 +1340,7 @@
       ],
       "kontroller": [
         "Acil stop devresi kablolarını kontrol edin",
-        "Dur izleme: acil stop devresi geri beslemeleri eksik ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — dur izleme: acil stop devresi geri beslemeleri.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1399,7 +1399,7 @@
       ],
       "kontroller": [
         "Tahrik motoru hız sensörlerini kontrol edip değiştirin",
-        "Durur pozisyonda istem dışı kalkışa karşı koruma ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — durur pozisyonda istem dışı kalkışa karşı koruma.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1804,7 +1804,7 @@
       "kontroller": [
         "Direği uzatın / çatal taşıyıcıyı kaldırarak kombinasyonu düzeltin",
         "Yükseklik switchini kontrol edin",
-        "'Kaldırma/indirme' ve 'güvenlik yüksekliği' geçersiz kombinasyonu ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — 'Kaldırma/indirme' ve 'güvenlik.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1861,7 +1861,7 @@
       ],
       "kontroller": [
         "Açılışta koruma şalterine basmayın; tekrar ederse kabloları kontrol edin",
-        "Açılışta operatör koruma şalteri basılı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — açılışta operatör koruma şalteri basılı.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -2024,7 +2024,7 @@
       ],
       "kontroller": [
         "Bilgilendirme mesajıdır; test bitince kontağı açıp kapatın",
-        "'Servis freni testi' servis fonksiyonu ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — 'Servis freni testi' servis fonksiyonu.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -2055,7 +2055,7 @@
       ],
       "kontroller": [
         "Bilgilendirme mesajıdır; test bitince aracı kapatıp açın",
-        "'Mekanik servis freni testi' servis fonksiyonu ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — 'Mekanik servis freni testi' servis fonksiyonu.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -2113,7 +2113,7 @@
       ],
       "kontroller": [
         "Çalışma hidroliği kollarını nötr konuma alın",
-        "Motor stop önleme (anti-stall) aktif sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — motor stop önleme (anti-stall) aktif.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -2230,7 +2230,7 @@
       ],
       "kontroller": [
         "İşletme kılavuzuna göre yağ/tanker seviyesini tamamlayın",
-        "Rezervuar seviyesi çok düşük ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — rezervuar seviyesi çok.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -2287,7 +2287,7 @@
       ],
       "kontroller": [
         "Kontağı açıp kapatın; açılışta kumandalara basmayın",
-        "Açılış testinde kumanda butonlarına basılı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — açılış testinde kumanda butonlarına basılı.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"

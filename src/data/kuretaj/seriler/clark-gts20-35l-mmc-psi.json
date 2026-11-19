@@ -22,7 +22,7 @@
         "Demonte tesisat veya ECM senkronizasyon kaybı"
       ],
       "kontroller": [
-        "Emme eksantrik mili / distribütör konum hatalı sinyal ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — emme eksantrik mili / distribütör konum.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -51,7 +51,7 @@
         "Tesisat hataları ve araçta takılı yakıt sistemi opsiyonları"
       ],
       "kontroller": [
-        "Yakıt basıncı kontrolör beklentisinin altında ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — yakıt basıncı kontrolör.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -80,7 +80,7 @@
         "Tesisat hataları ve araçta takılı yakıt sistemi opsiyonları"
       ],
       "kontroller": [
-        "Yakıt basıncı kontrolör beklentisinin üstünde ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — yakıt basıncı kontrolör.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -109,7 +109,7 @@
         "Regülatör ve takılı yakıt sistemi opsiyonları"
       ],
       "kontroller": [
-        "Yakıt basıncı sensör devresi gerilimi düşük besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — yakıt basıncı sensör devresi gerilimi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -138,7 +138,7 @@
         "Regülatör ve takılı yakıt sistemi opsiyonları"
       ],
       "kontroller": [
-        "Yakıt basıncı sensör devresi gerilimi yüksek besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — yakıt basıncı sensör devresi gerilimi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -167,7 +167,7 @@
         "Emme hattı kısıtlaması/kaçaklığı veya kontrolör plauzibilite denetimi"
       ],
       "kontroller": [
-        "MAP sensör devresi gerilimi düşük besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — MAP sensör devresi gerilimi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -196,7 +196,7 @@
         "Emme hattı kısıtlaması/kaçaklığı veya kontrolör plauzibilite denetimi"
       ],
       "kontroller": [
-        "Manifold basıncı beklenenin üzerinde ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — manifold basıncı beklenenin.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -225,7 +225,7 @@
         "Tesisat hataları veya aşırı motor yükü"
       ],
       "kontroller": [
-        "Emme havası sıcaklığı beklenenin üzerinde ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — emme havası sıcaklığı beklenenin.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -254,7 +254,7 @@
         "Tesisat hataları veya aşırı motor yükü"
       ],
       "kontroller": [
-        "Emme havası sıcaklık sensörü gerilimi düşük sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — emme havası sıcaklık sensörü gerilimi.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -283,7 +283,7 @@
         "Tesisat hataları veya aşırı motor yükü"
       ],
       "kontroller": [
-        "Emme havası sıcaklık sensörü gerilimi yüksek sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — emme havası sıcaklık sensörü gerilimi.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -312,7 +312,7 @@
         "Verici kalibrasyonu/devresi, tesisat veya aşırı yüklenme"
       ],
       "kontroller": [
-        "Motor soğutma suyu sıcaklığı beklenenin üzerinde ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — motor soğutma suyu sıcaklığı beklenenin.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -341,7 +341,7 @@
         "Verici kalibrasyonu/devresi, tesisat veya aşırı yüklenme"
       ],
       "kontroller": [
-        "Soğutma suyu sıcaklık sensörü gerilimi düşük sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — soğutma suyu sıcaklık sensörü gerilimi.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -370,7 +370,7 @@
         "Verici kalibrasyonu/devresi, tesisat veya aşırı yüklenme"
       ],
       "kontroller": [
-        "Soğutma suyu sıcaklık sensörü gerilimi yüksek sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — soğutma suyu sıcaklık sensörü gerilimi.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -399,7 +399,7 @@
         "Gaz kelebeği bağlantısı, tesisat veya sensör kalibrasyonu"
       ],
       "kontroller": [
-        "TPS1-TPS2 konum ilişkisi beklenenin altında ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — TPS1-TPS2 konum ilişkisi beklenenin.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -429,7 +429,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "TPS1 kanalı gerilimi düşük besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — TPS1 kanalı gerilimi.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -458,7 +458,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "TPS1 kanalı gerilimi yüksek besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — TPS1 kanalı gerilimi.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -486,7 +486,7 @@
         "Tesisat hataları veya aşırı motor yükü"
       ],
       "kontroller": [
-        "Emme havası sıcaklığı aşama 2 eşiğini aştı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — emme havası sıcaklığı aşama 2.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -515,7 +515,7 @@
         "Emme hattı kısıtlaması/kaçaklığı veya kontrolör plauzibilite denetimi"
       ],
       "kontroller": [
-        "Barometrik basınç (BP) değeri düşük ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — barometrik basınç (BP) değeri.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -544,7 +544,7 @@
         "Egzoz kaçağı, yakıt karışımı veya sensör-banka konfigürasyonu"
       ],
       "kontroller": [
-        "Ego1 oksijen sensörü açık devre veya yavaş yanıt hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — ego1 oksijen sensörü.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -573,7 +573,7 @@
         "Egzoz kaçağı, yakıt karışımı veya sensör-banka konfigürasyonu"
       ],
       "kontroller": [
-        "Ego3 oksijen sensörü açık devre veya yavaş yanıt hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — ego3 oksijen sensörü.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -602,7 +602,7 @@
         "Egzoz kaçağı, yakıt karışımı veya sensör-banka konfigürasyonu"
       ],
       "kontroller": [
-        "Ego2 oksijen sensörü açık devre veya yavaş yanıt hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — ego2 oksijen sensörü.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -631,7 +631,7 @@
         "Egzoz kaçağı, yakıt karışımı veya sensör-banka konfigürasyonu"
       ],
       "kontroller": [
-        "Ego4 oksijen sensörü açık devre veya yavaş yanıt hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — ego4 oksijen sensörü.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -660,7 +660,7 @@
         "Oksijen sensörü, emme kaçağı veya takılı benzin-banka modu"
       ],
       "kontroller": [
-        "Benzin adaptif yakıt düzeltmesi banka 1 yüksek ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — benzin adaptif yakıt düzeltmesi banka 1.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -689,7 +689,7 @@
         "Oksijen sensörü, emme kaçağı veya takılı benzin-banka modu"
       ],
       "kontroller": [
-        "Benzin adaptif yakıt düzeltmesi banka 2 yüksek ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — benzin adaptif yakıt düzeltmesi banka 2.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -718,7 +718,7 @@
         "Oksijen sensörü, emme kaçağı veya takılı benzin-banka modu"
       ],
       "kontroller": [
-        "Benzin adaptif yakıt düzeltmesi banka 2 düşük ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — benzin adaptif yakıt düzeltmesi banka 2.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -748,7 +748,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Yakıt sıcaklığı (FT) sinyali gerilimi düşük besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — yakıt sıcaklığı (FT) sinyali gerilimi.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -777,7 +777,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Yakıt sıcaklığı (FT) sinyali gerilimi yüksek besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — yakıt sıcaklığı (FT) sinyali gerilimi.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -805,7 +805,7 @@
         "Kontrolör besleme/referans hataları"
       ],
       "kontroller": [
-        "Gaz yakıt sıcaklık vericisi gerilimi düşük sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — gaz yakıt sıcaklık vericisi gerilimi.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -834,7 +834,7 @@
         "Kontrolör besleme/referans hataları"
       ],
       "kontroller": [
-        "Gaz yakıt sıcaklık vericisi gerilimi yüksek sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — gaz yakıt sıcaklık vericisi gerilimi.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -863,7 +863,7 @@
         "Verici kalibrasyonu/devresi, tesisat veya aşırı yüklenme"
       ],
       "kontroller": [
-        "Motor soğutma suyu sıcaklığı aşama 2 eşiğini aştı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — motor soğutma suyu sıcaklığı aşama 2.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -892,7 +892,7 @@
         "Kontrol valfi/gaz kelebeği geri bildirimi"
       ],
       "kontroller": [
-        "Motor devri izin verilen maksimum govde değerini aştı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — motor devri.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -921,7 +921,7 @@
         "Gaz kelebeği bağlantısı, tesisat veya sensör kalibrasyonu"
       ],
       "kontroller": [
-        "TPS1-TPS2 toplam gaz konumu beklenenin üzerinde ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — TPS1-TPS2 toplam gaz konumu beklenenin.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -951,7 +951,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "TPS2 kanalı gerilimi düşük besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — TPS2 kanalı gerilimi.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -980,7 +980,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "TPS2 kanalı gerilimi yüksek besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — TPS2 kanalı gerilimi.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -1008,7 +1008,7 @@
         "Emme hattı kısıtlamaları/kaçakları ve varsa turbo kontrol opsiyonu"
       ],
       "kontroller": [
-        "Boost kontrolü aşırı basınç (overboost) hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — boost kontrolü.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1037,7 +1037,7 @@
         "Emme hattı kısıtlamaları/kaçakları ve varsa turbo kontrol opsiyonu"
       ],
       "kontroller": [
-        "Gaz kelebeği giriş basıncı (TIP) aktif durum bilgisi ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — gaz kelebeği giriş basıncı (TIP) aktif durum bilgisi.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1066,7 +1066,7 @@
         "Emme hattı kısıtlamaları/kaçakları ve varsa turbo kontrol opsiyonu"
       ],
       "kontroller": [
-        "TIP sensörü gerilimi düşük besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — TIP sensörü gerilimi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -1095,7 +1095,7 @@
         "Emme hattı kısıtlamaları/kaçakları ve varsa turbo kontrol opsiyonu"
       ],
       "kontroller": [
-        "TIP sensörü gerilimi yüksek besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — TIP sensörü gerilimi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -1124,7 +1124,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 1 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 1 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1153,7 +1153,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 1 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 1 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1182,7 +1182,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 2 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 2 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1211,7 +1211,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 2 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 2 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1240,7 +1240,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 3 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 3 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1269,7 +1269,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 3 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 3 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1298,7 +1298,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 4 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 4 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1327,7 +1327,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 4 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 4 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1356,7 +1356,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 5 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 5 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1385,7 +1385,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 5 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 5 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1414,7 +1414,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 6 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 6 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1443,7 +1443,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 6 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 6 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1472,7 +1472,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 7 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 7 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1501,7 +1501,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 7 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 7 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1530,7 +1530,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 8 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 8 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1559,7 +1559,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 8 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 8 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1588,7 +1588,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 9 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 9 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1617,7 +1617,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 9 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 9 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1646,7 +1646,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 10 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 10 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1675,7 +1675,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 10 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 10 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1704,7 +1704,7 @@
         "Emme hattı kısıtlamaları/kaçakları ve varsa turbo kontrol opsiyonu"
       ],
       "kontroller": [
-        "Boost kontrolü yetersiz basınç (underboost) hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — boost kontrolü yetersiz basınç (underboost).",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1733,7 +1733,7 @@
         "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
       ],
       "kontroller": [
-        "Silindir 1 emisyon/katalizör zarar veren tekler ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — silindir 1 emisyon/katalizör zarar veren tekler.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1762,7 +1762,7 @@
         "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
       ],
       "kontroller": [
-        "Silindir 2 emisyon/katalizör zarar veren tekler ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — silindir 2 emisyon/katalizör zarar veren tekler.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1791,7 +1791,7 @@
         "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
       ],
       "kontroller": [
-        "Silindir 3 emisyon/katalizör zarar veren tekler ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — silindir 3 emisyon/katalizör zarar veren tekler.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1820,7 +1820,7 @@
         "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
       ],
       "kontroller": [
-        "Silindir 4 emisyon/katalizör zarar veren tekler ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — silindir 4 emisyon/katalizör zarar veren tekler.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1849,7 +1849,7 @@
         "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
       ],
       "kontroller": [
-        "Silindir 5 emisyon/katalizör zarar veren tekler ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — silindir 5 emisyon/katalizör zarar veren tekler.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1878,7 +1878,7 @@
         "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
       ],
       "kontroller": [
-        "Silindir 6 emisyon/katalizör zarar veren tekler ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — silindir 6 emisyon/katalizör zarar veren tekler.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1907,7 +1907,7 @@
         "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
       ],
       "kontroller": [
-        "Silindir 7 emisyon/katalizör zarar veren tekler ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — silindir 7 emisyon/katalizör zarar veren tekler.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1936,7 +1936,7 @@
         "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
       ],
       "kontroller": [
-        "Silindir 8 emisyon/katalizör zarar veren tekler ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — silindir 8 emisyon/katalizör zarar veren tekler.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1965,7 +1965,7 @@
         "Devre sürekliliği veya gerçek motor vuruşu"
       ],
       "kontroller": [
-        "Vuruş sensörü kanal 1 aşırı veya düzensiz sinyal besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — vuruş sensörü kanal 1.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -1994,7 +1994,7 @@
         "Devre sürekliliği veya gerçek motor vuruşu"
       ],
       "kontroller": [
-        "Vuruş sensörü 1 devresi açık veya sensör takılı değil hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — vuruş sensörü 1 devresi.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -2023,7 +2023,7 @@
         "Devre sürekliliği veya gerçek motor vuruşu"
       ],
       "kontroller": [
-        "Vuruş sensörü kanal 2 aşırı veya düzensiz sinyal besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — vuruş sensörü kanal 2.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -2052,7 +2052,7 @@
         "Devre sürekliliği veya gerçek motor vuruşu"
       ],
       "kontroller": [
-        "Vuruş sensörü 2 devresi açık veya sensör takılı değil hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — vuruş sensörü 2 devresi.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -2080,7 +2080,7 @@
         "Demonte tesisat veya ECM senkronizasyon kaybı"
       ],
       "kontroller": [
-        "Krank mili giriş sinyalinde gürültü ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — krank mili giriş sinyalinde gürültü.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -2108,7 +2108,7 @@
         "ECM senkronizasyonu, sensör besleme/şase, ekranlama veya ilgili tesisat"
       ],
       "kontroller": [
-        "Krank mili konum sinyali kaybı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — krank mili konum sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -2137,7 +2137,7 @@
         "ECM senkronizasyonu, sensör besleme/şase, ekranlama veya ilgili tesisat"
       ],
       "kontroller": [
-        "Kam mili giriş sinyalinde gürültü ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — kam mili giriş sinyalinde gürültü.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -2165,7 +2165,7 @@
         "ECM senkronizasyonu, sensör besleme/şase, ekranlama veya ilgili tesisat"
       ],
       "kontroller": [
-        "Kam mili konum giriş sinyali kaybı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — kam mili konum giriş sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -2193,7 +2193,7 @@
         "ECU ayarları, yakıt basıncı algılama veya hortum bağlantıları"
       ],
       "kontroller": [
-        "Yakıt bitme süresi beklenenden uzun ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — yakıt bitme süresi beklenenden uzun.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -2220,7 +2220,7 @@
         "Yakıt/kontrol yazılımı opsiyon uyumsuzluğu"
       ],
       "kontroller": [
-        "Benzin katalizörü devre dışı, banka 1 ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — benzin katalizörü.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -2247,7 +2247,7 @@
         "Yakıt/kontrol yazılımı opsiyon uyumsuzluğu"
       ],
       "kontroller": [
-        "Benzin katalizörü devre dışı, banka 2 ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — benzin katalizörü.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -2275,7 +2275,7 @@
         "Seyir hızı sensörleri veya kontrol yanıtı"
       ],
       "kontroller": [
-        "Kara hızı (road-speed) sinyali kayboldu ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — kara hızı (road-speed) sinyali kayboldu.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -2302,7 +2302,7 @@
         "Sensör besleme/şase, ekranlama veya ilgili tesisat"
       ],
       "kontroller": [
-        "Rölanti hava kontrol devresi şaseye kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — rölanti hava kontrol devresi şaseye.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -2330,7 +2330,7 @@
         "Sensör besleme/şase, ekranlama veya ilgili tesisat"
       ],
       "kontroller": [
-        "Rölanti hava aktüatörü bobini açık veya kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — rölanti hava aktüatörü bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -2357,7 +2357,7 @@
         "Pompa/emniyet sistemi, gerçek yağlama basıncı veya ECU sensör referansı"
       ],
       "kontroller": [
-        "Yağ basıncı vericisi düşük basınç uyarısı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — yağ basıncı vericisi.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -2385,7 +2385,7 @@
         "Pompa/emniyet sistemi, gerçek yağlama basıncı veya ECU sensör referansı"
       ],
       "kontroller": [
-        "Yağ basıncı vericisi yüksek basınç bildirimi ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — yağ basıncı vericisi.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"

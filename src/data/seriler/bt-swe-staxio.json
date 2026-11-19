@@ -557,7 +557,7 @@
         "Sensör sapması"
       ],
       "kontroller": [
-        "Motorun sıcaklık sensörüne giden kabloları (63/64) kontrol edin",
+        "Sensörüne giden kabloları (63/64) kontrol edin — motorun sıcaklık sensörü.",
         "Sıcaklığı ölçün",
         "Soğutucu yüzeyleri ve kanalları temizleyin",
         "Sensörü yeniden kalibre edin veya değiştirin"
@@ -717,7 +717,7 @@
         "EEPROM veri bozulması"
       ],
       "kontroller": [
-        "Transistör regülatörü bağlantısını kontrol edin",
+        "Bağlantısını kontrol edin — transistör regülatörü.",
         "1001 fabrika parametresi (araç tipi); hata sürerse regülatörü değiştirin"
       ],
       "ilgiliKodlar": [],

@@ -23,7 +23,7 @@
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "VCM iletişim hatası sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — VCM iletişim.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -51,7 +51,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "ECM iletişim hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — ECM iletişim.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -79,7 +79,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "MP (makine paketi) iletişim hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — MP (makine paketi) iletişim.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -107,7 +107,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Hava akış ölçer hatalı sinyal üretiyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — hava akış ölçer.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -136,7 +136,7 @@
         "Termik sensör sapması"
       ],
       "kontroller": [
-        "Su sıcaklık sensörü hatalı sinyal sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — su sıcaklık sensörü.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -165,7 +165,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Gaz kelebeği sensörü hatalı sinyal besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — gaz kelebeği sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -194,7 +194,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Gaz pedalı sensörü hatalı sinyal besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — gaz pedalı sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -222,7 +222,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "O2 (oksijen) sensörü hatalı sinyal besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — o2 (oksijen) sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -250,7 +250,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "O2 sensörü ısıtıcı devresi hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — o2 sensörü ısıtıcı devresi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -278,7 +278,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "POS (krank konum) sensörü hatalı sinyal besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — POS (krank konum) sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -307,7 +307,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "PHASE (kam konum) sensörü hatalı sinyal besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — PHASE (kam konum) sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -334,7 +334,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kendiliğinden durdurma sistemi hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — kendiliğinden durdurma sistemi.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -361,7 +361,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "ECCS kontrol ünitesi hatalı sinyal ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — ECCS kontrol ünitesi.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -389,7 +389,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Elektronik gaz kontrolü hata sinyali ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — elektronik gaz kontrolü hata sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -418,7 +418,7 @@
         "Termik sensör sapması"
       ],
       "kontroller": [
-        "Aşırı ısınma sinyali sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — aşırı ısınma sinyali.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -447,7 +447,7 @@
         "Termik sensör sapması"
       ],
       "kontroller": [
-        "Aşırı ısınma sinyali sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — aşırı ısınma sinyali.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -474,7 +474,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Ateşleme (kıvılcım) sistemi hata sinyali ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — ateşleme (kıvılcım) sistemi hata sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -501,7 +501,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "LPG enjektör ayrılma teşhis sonucu sinyali ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — LPG enjektör ayrılma teşhis sonucu sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -530,7 +530,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "LPG yakıt basıncı sensörü teşhis sonucu sinyali besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — LPG yakıt basıncı sensörü teşhis sonucu sinyali.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -558,7 +558,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "LPG buharlaştırıcı teşhis sonucu sinyali ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — LPG buharlaştırıcı teşhis sonucu sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -585,7 +585,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Mast yüksek şalteri teşhis sonucu sinyali ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — mast yüksek şalteri teşhis sonucu sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -613,7 +613,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Yağ basıncı sensörü teşhis sonucu sinyali besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — yağ basıncı sensörü teşhis sonucu sinyali.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -640,7 +640,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Fren (durma lambası) şalteri hata sinyali ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — fren (durma lambası) şalteri hata sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -667,7 +667,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Gaz yakıt sistemi teşhis sonucu sinyali ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — gaz yakıt sistemi teşhis sonucu sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -694,7 +694,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "LPG yakıt sistemi teşhis sonucu sinyali ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — LPG yakıt sistemi teşhis sonucu sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"

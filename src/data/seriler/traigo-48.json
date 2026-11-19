@@ -27,7 +27,7 @@
         "Termik sensör sapması"
       ],
       "kontroller": [
-        "AC yürüyüş sürücüsü güç devresi aşırı ısınma anormalliği sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — AC yürüyüş sürücüsü güç devresi.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -57,7 +57,7 @@
         "Termik sensör sapması"
       ],
       "kontroller": [
-        "AC Kaldırma sürücüsü güç devresi aşırı ısınma anormalliği sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — AC Kaldırma sürücüsü güç devresi.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -87,7 +87,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Ana kart yüksek voltaj besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — ana kart.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -116,7 +116,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "AC yürüyüş sürücüsü (Sol) güç kaynağı devresi alçak gerilim besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — AC yürüyüş sürücüsü (Sol) güç kaynağı devresi alçak gerilim.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -145,7 +145,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "AC yürüyüş sürücüsü (Sağ) güç kaynağı devresi alçak gerilim besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — AC yürüyüş sürücüsü (Sağ) güç kaynağı devresi alçak gerilim.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -174,7 +174,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "AC Kaldırma sürücüsü güç kaynağı devresi alçak gerilim besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — AC Kaldırma sürücüsü güç kaynağı devresi alçak gerilim.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -203,7 +203,7 @@
         "Termik sensör sapması"
       ],
       "kontroller": [
-        "Ana kart aşırı ısınma anormalliği sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — ana kart.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -232,7 +232,7 @@
         "Şarj cihazı veya şarj devresinde arıza"
       ],
       "kontroller": [
-        "Akü bağlantısı hatalı: Akü gerilimini ve şarj seviyesini ölçün",
+        "Akü gerilimini ve şarj seviyesini ölçün — akü bağlantısı.",
         "Akü kutup başlarını ve konnektörleri temizleyip sıkın",
         "Akü hücrelerini yük testiyle kontrol edin",
         "Gerekirse aküyü şarj edin veya değiştirin"
@@ -260,7 +260,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Koltuk switch (NGD short) anormalliği ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — koltuk switch (NGD short).",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -288,7 +288,7 @@
         "Sigorta sonrası devrede kısa devre"
       ],
       "kontroller": [
-        "F1,F2 veya F3 sigorta anormalliği sigortasını süreklilik testiyle kontrol edin",
+        "Sigortayı süreklilik testiyle kontrol edin — f1,F2 veya F3 sigorta.",
         "Sigorta yuvasını ve temas yüzeylerini inceleyin",
         "Sigorta sonrası devrede kısa devre olup olmadığını ölçün",
         "Gerekirse aynı değerde sigortayla değiştirin"
@@ -316,7 +316,7 @@
         "Sigorta sonrası devrede kısa devre"
       ],
       "kontroller": [
-        "F6 sigorta anormalliği sigortasını süreklilik testiyle kontrol edin",
+        "Sigortayı süreklilik testiyle kontrol edin — f6 sigorta.",
         "Sigorta yuvasını ve temas yüzeylerini inceleyin",
         "Sigorta sonrası devrede kısa devre olup olmadığını ölçün",
         "Gerekirse aynı değerde sigortayla değiştirin"
@@ -344,7 +344,7 @@
         "Sigorta sonrası devrede kısa devre"
       ],
       "kontroller": [
-        "F7 sigorta anormalliği (açık) Ana kart sıcaklık sensör anormalliği (açık)/VCC kısa sigortasını süreklilik testiyle kontrol edin",
+        "Sigortayı süreklilik testiyle kontrol edin — f7 sigorta.",
         "Sigorta yuvasını ve temas yüzeylerini inceleyin",
         "Sigorta sonrası devrede kısa devre olup olmadığını ölçün",
         "Gerekirse aynı değerde sigortayla değiştirin"
@@ -372,7 +372,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Devre ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — devre.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -400,7 +400,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "AC yürüyüş sürücüsü soğutma fan devresi anormalliği ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — AC yürüyüş sürücüsü soğutma fan devresi.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -428,7 +428,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "AC kaldırma sürücüsü soğutma fanı aşırı akım ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — AC kaldırma sürücüsü soğutma fanı.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -456,7 +456,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "AC sürücü güç kaynağı devresi anormalliği ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — AC sürücü güç kaynağı devresi.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -479,13 +479,13 @@
       "makineTepkisi": "(direksiyon topuz konumu) fonksiyonu durur Yavaş yürür, tek teker (Sağ) tarafından tahrik.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Yürüyüş motoru (Sol) - Ana kart haberleşme anormalliği (AD-1) kablo demetinde kopukluk veya gevşek konnektör",
+        "Yürüyüş motoru (Sol) - Ana kart haberleşme anormalliği kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sol) - Ana kart haberleşme anormalliği (AD-1) konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — yürüyüş motoru (Sol) - Ana kart haberleşme.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -508,13 +508,13 @@
       "makineTepkisi": "Knob (direksiyon topuz konumu) fonksiyonu durur Yavaş yürür, tek teker (Sol) tarafından tahrik.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Yürüyüş motoru (Sol) - Ana kart haberleşme anormalliği (AD-2) kablo demetinde kopukluk veya gevşek konnektör",
+        "Yürüyüş motoru (Sol) - Ana kart haberleşme anormalliği kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sol) - Ana kart haberleşme anormalliği (AD-2) konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — yürüyüş motoru (Sol) - Ana kart haberleşme.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -537,13 +537,13 @@
       "makineTepkisi": "Knob (direksiyon topuz konumu) fonksiyonu durur Yavaş yürür, tek teker (Sol) tarafından tahrik. Knob",
       "siddet": "durdurucu",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) - Ana kart haberleşme anormalliği (AD-3) kablo demetinde kopukluk veya gevşek konnektör",
+        "Yürüyüş motoru (Sağ) - Ana kart haberleşme anormalliği kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sağ) - Ana kart haberleşme anormalliği (AD-3) konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — yürüyüş motoru (Sağ) - Ana kart haberleşme.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -566,13 +566,13 @@
       "makineTepkisi": "(direksiyon topuz konumu) fonksiyonu durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) - Ana kart haberleşme anormalliği (AD-4) kablo demetinde kopukluk veya gevşek konnektör",
+        "Yürüyüş motoru (Sağ) - Ana kart haberleşme anormalliği kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sağ) - Ana kart haberleşme anormalliği (AD-4) konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — yürüyüş motoru (Sağ) - Ana kart haberleşme.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -595,13 +595,13 @@
       "makineTepkisi": "Kaldırma fonksiyonu durur. Direksiyon sertleşir",
       "siddet": "durdurucu",
       "nedenler": [
-        "AC kaldırma sürücüsü - Ana kart haberleşme anormalliği (AD-5) kablo demetinde kopukluk veya gevşek konnektör",
+        "AC kaldırma sürücüsü - Ana kart haberleşme anormalliği kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "AC kaldırma sürücüsü - Ana kart haberleşme anormalliği (AD-5) konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — AC kaldırma sürücüsü - Ana kart haberleşme.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -624,13 +624,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "AC kaldırma sürücüsü - Ana kart haberleşme anormalliği (AD-6) kablo demetinde kopukluk veya gevşek konnektör",
+        "AC kaldırma sürücüsü - Ana kart haberleşme anormalliği kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "AC kaldırma sürücüsü - Ana kart haberleşme anormalliği (AD-6) konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — AC kaldırma sürücüsü - Ana kart haberleşme.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -653,13 +653,13 @@
       "makineTepkisi": "Yürüyüş durur.",
       "siddet": "durdurucu",
       "nedenler": [
-        "CPU hatası (AF-1) belleğinde veri bozulması",
+        "CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "CPU hatası (AF-1): Kontak aç/kapat yaparak kartı yeniden başlatın",
+        ": Kontak aç/kapat yaparak kartı yeniden başlatın — CPU hatası.",
         "Kart besleme gerilimini ölçün",
         "Parametre setini yeniden yükleyin",
         "Arıza sürerse kartı değiştirin"
@@ -682,13 +682,13 @@
       "makineTepkisi": "Kaldırma fonksiyonu durur. Direksiyon sertleşir",
       "siddet": "durdurucu",
       "nedenler": [
-        "CPU hatası (AF-2) belleğinde veri bozulması",
+        "CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "CPU hatası (AF-2): Kontak aç/kapat yaparak kartı yeniden başlatın",
+        ": Kontak aç/kapat yaparak kartı yeniden başlatın — CPU hatası.",
         "Kart besleme gerilimini ölçün",
         "Parametre setini yeniden yükleyin",
         "Arıza sürerse kartı değiştirin"
@@ -711,13 +711,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CPU hatası (AF-3) belleğinde veri bozulması",
+        "CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "CPU hatası (AF-3): Kontak aç/kapat yaparak kartı yeniden başlatın",
+        ": Kontak aç/kapat yaparak kartı yeniden başlatın — CPU hatası.",
         "Kart besleme gerilimini ölçün",
         "Parametre setini yeniden yükleyin",
         "Arıza sürerse kartı değiştirin"
@@ -740,13 +740,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CPU hatası (AF-4) belleğinde veri bozulması",
+        "CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "CPU hatası (AF-4): Kontak aç/kapat yaparak kartı yeniden başlatın",
+        ": Kontak aç/kapat yaparak kartı yeniden başlatın — CPU hatası.",
         "Kart besleme gerilimini ölçün",
         "Parametre setini yeniden yükleyin",
         "Arıza sürerse kartı değiştirin"
@@ -769,13 +769,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CPU hatası (AF-5) belleğinde veri bozulması",
+        "CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "CPU hatası (AF-5): Kontak aç/kapat yaparak kartı yeniden başlatın",
+        ": Kontak aç/kapat yaparak kartı yeniden başlatın — CPU hatası.",
         "Kart besleme gerilimini ölçün",
         "Parametre setini yeniden yükleyin",
         "Arıza sürerse kartı değiştirin"
@@ -798,13 +798,13 @@
       "makineTepkisi": "Bazı kontrol işlemleri stabil değil.",
       "siddet": "uyari",
       "nedenler": [
-        "CPU hatası (AF-6) belleğinde veri bozulması",
+        "CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "CPU hatası (AF-6): Kontak aç/kapat yaparak kartı yeniden başlatın",
+        ": Kontak aç/kapat yaparak kartı yeniden başlatın — CPU hatası.",
         "Kart besleme gerilimini ölçün",
         "Parametre setini yeniden yükleyin",
         "Arıza sürerse kartı değiştirin"
@@ -827,13 +827,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CPU hatası (AF-7) belleğinde veri bozulması",
+        "CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "CPU hatası (AF-7): Kontak aç/kapat yaparak kartı yeniden başlatın",
+        ": Kontak aç/kapat yaparak kartı yeniden başlatın — CPU hatası.",
         "Kart besleme gerilimini ölçün",
         "Parametre setini yeniden yükleyin",
         "Arıza sürerse kartı değiştirin"
@@ -856,13 +856,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CPU hatası (AF-8) belleğinde veri bozulması",
+        "CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "CPU hatası (AF-8): Kontak aç/kapat yaparak kartı yeniden başlatın",
+        ": Kontak aç/kapat yaparak kartı yeniden başlatın — CPU hatası.",
         "Kart besleme gerilimini ölçün",
         "Parametre setini yeniden yükleyin",
         "Arıza sürerse kartı değiştirin"
@@ -891,7 +891,7 @@
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sol) anormalliği sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sol).",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -920,7 +920,7 @@
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sol) güç devresi anormalliği sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sol) güç devresi.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -949,7 +949,7 @@
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sağ) anormalliği sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sağ).",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -978,7 +978,7 @@
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sağ) güç devresi anormalliği sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sağ) güç devresi.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -1007,7 +1007,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sol) akım sensörü nötr gerilim hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — yürüyüş motoru (Sol) akım sensörü nötr gerilim.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -1036,7 +1036,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sağ) akım sensörü nötr gerilim hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — yürüyüş motoru (Sağ) akım sensörü nötr gerilim.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -1066,7 +1066,7 @@
         "Termik sensör sapması"
       ],
       "kontroller": [
-        "Yürüyüş motor sıcaklık sensör anormalliği sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — yürüyüş motor sıcaklık sensör.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -1095,7 +1095,7 @@
         "Termik sensör sapması"
       ],
       "kontroller": [
-        "Yürüyüş motor (Sol) sıcaklık sensör anormalliği sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — yürüyüş motor (Sol) sıcaklık sensör.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -1124,7 +1124,7 @@
         "Termik sensör sapması"
       ],
       "kontroller": [
-        "Yürüyüş motor (Sağ) sıcaklık sensör anormalliği sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — yürüyüş motor (Sağ) sıcaklık sensör.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -1153,7 +1153,7 @@
         "Termik sensör sapması"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sol) güç devresi sıcaklık sensör anormalliği sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — yürüyüş motoru (Sol) güç devresi sıcaklık sensör.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -1182,7 +1182,7 @@
         "Termik sensör sapması"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sağ) güç devresi sıcaklık sensör anormalliği sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — yürüyüş motoru (Sağ) güç devresi sıcaklık sensör.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -1211,7 +1211,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "İlerleme pedal sensörü POT1 açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — ilerleme pedal sensörü POT1.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -1240,7 +1240,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "İlerleme pedal sensörü POT2 açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — ilerleme pedal sensörü POT2.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -1269,7 +1269,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlerleme pedal sensörü POT1 VCC kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — ilerleme pedal sensörü POT1 VCC.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1298,7 +1298,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlerleme pedal sensörü POT2 VCC kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — ilerleme pedal sensörü POT2 VCC.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1327,7 +1327,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "İlerleme pedal sensörü dengeleme anormalliği besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — ilerleme pedal sensörü dengeleme.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -1356,7 +1356,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "İlerleme pedal sensörü eşleşme değeri hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — ilerleme pedal sensörü eşleşme değeri.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -1385,7 +1385,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Fren sensörü POT1 açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — fren sensörü POT1.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -1414,7 +1414,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Fren sensörü POT2 açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — fren sensörü POT2.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -1443,7 +1443,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Fren sensörü POT1 VCC kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — fren sensörü POT1 VCC.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1472,7 +1472,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Fren sensörü POT2 VCC kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — fren sensörü POT2 VCC.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1501,7 +1501,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Fren sensörü dengeleme anormalliği besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — fren sensörü dengeleme.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -1530,7 +1530,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Fren sensörü eşleşme değeri hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — fren sensörü eşleşme değeri.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -1559,7 +1559,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sol) hız (dönüş) sensörü açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — yürüyüş motoru (Sol) hız (dönüş) sensörü.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -1588,7 +1588,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sağ) hız (dönüş) sensörü açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — yürüyüş motoru (Sağ) hız (dönüş) sensörü.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -1617,7 +1617,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Ana kontaktör (MB) açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — ana kontaktör (MB).",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -1646,7 +1646,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Ana kontaktör (MB) kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — ana kontaktör (MB).",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1675,7 +1675,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Ana kontaktör (MB) bobin devresi açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — ana kontaktör (MB) bobin devresi.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -1704,7 +1704,7 @@
         "Kontaktör sürücü çıkışında arıza"
       ],
       "kontroller": [
-        "Ana kontaktör (MB) sürücü devre anormalliği bobin direncini ölçün",
+        "Bobin direncini ölçün — ana kontaktör (MB) sürücü devre.",
         "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
         "Bobin besleme hattında süreklilik ölçün",
         "Gerekirse kontaktörü değiştirin"
@@ -1733,7 +1733,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Ana kontaktör (MB) bobin devresi kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — ana kontaktör (MB) bobin devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1756,13 +1756,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sol) CPU hatası (CC-1) sargısında arıza",
+        "Yürüyüş motoru (Sol) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sol) CPU hatası (CC-1) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sol) CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -1785,13 +1785,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sol) CPU hatası (CC-2) sargısında arıza",
+        "Yürüyüş motoru (Sol) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sol) CPU hatası (CC-2) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sol) CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -1814,13 +1814,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sol) CPU hatası (CC-3) sargısında arıza",
+        "Yürüyüş motoru (Sol) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sol) CPU hatası (CC-3) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sol) CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -1843,13 +1843,13 @@
       "makineTepkisi": "Azaltılan max. hız, yavaş ilerleme",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Yürüyüş motoru (Sol) CPU hatası (CC-4) sargısında arıza",
+        "Yürüyüş motoru (Sol) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sol) CPU hatası (CC-4) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sol) CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -1872,13 +1872,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sol) CPU hatası (CC-5) sargısında arıza",
+        "Yürüyüş motoru (Sol) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sol) CPU hatası (CC-5) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sol) CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -1901,13 +1901,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sol) CPU hatası (CC-6) sargısında arıza",
+        "Yürüyüş motoru (Sol) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sol) CPU hatası (CC-6) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sol) CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -1930,13 +1930,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sol) CPU hatası (CC-7) sargısında arıza",
+        "Yürüyüş motoru (Sol) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sol) CPU hatası (CC-7) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sol) CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -1959,13 +1959,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sol) CPU hatası (CC-8) sargısında arıza",
+        "Yürüyüş motoru (Sol) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sol) CPU hatası (CC-8) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sol) CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -1988,13 +1988,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) CPU hatası (CD-1) sargısında arıza",
+        "Yürüyüş motoru (Sağ) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sağ) CPU hatası (CD-1) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sağ) CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -2017,13 +2017,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) CPU hatası (CD-2) sargısında arıza",
+        "Yürüyüş motoru (Sağ) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sağ) CPU hatası (CD-2) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sağ) CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -2046,13 +2046,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) CPU hatası (CD-3) sargısında arıza",
+        "Yürüyüş motoru (Sağ) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sağ) CPU hatası (CD-3) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sağ) CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -2075,13 +2075,13 @@
       "makineTepkisi": "Azaltılan max. hız, yavaş ilerleme",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) CPU hatası (CD-4) sargısında arıza",
+        "Yürüyüş motoru (Sağ) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sağ) CPU hatası (CD-4) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sağ) CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -2104,13 +2104,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) CPU hatası (CD-5) sargısında arıza",
+        "Yürüyüş motoru (Sağ) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sağ) CPU hatası (CD-5) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sağ) CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -2133,13 +2133,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) CPU hatası (CD-6) sargısında arıza",
+        "Yürüyüş motoru (Sağ) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sağ) CPU hatası (CD-6) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sağ) CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -2162,13 +2162,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) CPU hatası (CD-7) sargısında arıza",
+        "Yürüyüş motoru (Sağ) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sağ) CPU hatası (CD-7) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sağ) CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -2191,13 +2191,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) CPU hatası (CD-8) sargısında arıza",
+        "Yürüyüş motoru (Sağ) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Yürüyüş motoru (Sağ) CPU hatası (CD-8) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — yürüyüş motoru (Sağ) CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -2226,7 +2226,7 @@
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Pompa motor anormalliği sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — pompa motor.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -2254,7 +2254,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaldırma AC sürücü anormalliği ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — kaldırma AC sürücü.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -2283,7 +2283,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Pompa motoru akım sensörü nötr gerilim hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — pompa motoru akım sensörü nötr gerilim.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -2313,7 +2313,7 @@
         "Termik sensör sapması"
       ],
       "kontroller": [
-        "Pompa motor sıcaklık anormalliği sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — pompa motor sıcaklık.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -2342,7 +2342,7 @@
         "Termik sensör sapması"
       ],
       "kontroller": [
-        "Pompa motor sıcaklık sensör anormalliği sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — pompa motor sıcaklık sensör.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -2372,7 +2372,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Kaldırma AC sürücü güç devresi anormalliği / Pompa motor hız (dönüş) sensörü açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — kaldırma AC sürücü güç devresi.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -2395,13 +2395,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motor CPU hatası (EC-1) sargısında arıza",
+        "Pompa motor CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Pompa motor CPU hatası (EC-1) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — pompa motor CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -2424,13 +2424,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motor CPU hatası (EC-2) sargısında arıza",
+        "Pompa motor CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Pompa motor CPU hatası (EC-2) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — pompa motor CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -2453,13 +2453,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motor CPU hatası (EC-3) sargısında arıza",
+        "Pompa motor CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Pompa motor CPU hatası (EC-3) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — pompa motor CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -2482,13 +2482,13 @@
       "makineTepkisi": "Kaldırma fonksiyonu durur. Direksiyon sertleşir",
       "siddet": "durdurucu",
       "nedenler": [
-        "Pompa motor CPU hatası (EC-4) sargısında arıza",
+        "Pompa motor CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Pompa motor CPU hatası (EC-4) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — pompa motor CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -2511,13 +2511,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motor CPU hatası (EC-5) sargısında arıza",
+        "Pompa motor CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Pompa motor CPU hatası (EC-5) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — pompa motor CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -2540,13 +2540,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motor CPU hatası (EC-6) sargısında arıza",
+        "Pompa motor CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Pompa motor CPU hatası (EC-6) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — pompa motor CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -2569,13 +2569,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motor CPU hatası (EC-7) sargısında arıza",
+        "Pompa motor CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Pompa motor CPU hatası (EC-7) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — pompa motor CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -2598,13 +2598,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motor CPU hatası (EC-8) sargısında arıza",
+        "Pompa motor CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Pompa motor CPU hatası (EC-8) sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — pompa motor CPU.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -2627,13 +2627,13 @@
       "makineTepkisi": "Ekrandan ayar değiştirilmesi engellenmiştir.",
       "siddet": "uyari",
       "nedenler": [
-        "Ekran → Ana kart haberleşme hatası (EE-1) kablo demetinde kopukluk veya gevşek konnektör",
+        "Ekran → Ana kart haberleşme hatası kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "Ekran → Ana kart haberleşme hatası (EE-1) konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — ekran → Ana kart haberleşme.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -2656,13 +2656,13 @@
       "makineTepkisi": "Ekran kullanımı engellenmiştir",
       "siddet": "uyari",
       "nedenler": [
-        "Ekran → Ana kart haberleşme hatası (EE-2) kablo demetinde kopukluk veya gevşek konnektör",
+        "Ekran → Ana kart haberleşme hatası kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "Ekran → Ana kart haberleşme hatası (EE-2) konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — ekran → Ana kart haberleşme.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -2685,13 +2685,13 @@
       "makineTepkisi": "Ekrandan araç ayarlarının değiştirilmesi engellenmiştir",
       "siddet": "uyari",
       "nedenler": [
-        "Ana kart → Ekran haberleşme hatası (F1-1) kablo demetinde kopukluk veya gevşek konnektör",
+        "Ana kart → Ekran haberleşme hatası kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "Ana kart → Ekran haberleşme hatası (F1-1) konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — ana kart → Ekran haberleşme.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -2714,13 +2714,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ana kart → Ekran haberleşme hatası (F1-2) kablo demetinde kopukluk veya gevşek konnektör",
+        "Ana kart → Ekran haberleşme hatası kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "Ana kart → Ekran haberleşme hatası (F1-2) konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — ana kart → Ekran haberleşme.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -2743,13 +2743,13 @@
       "makineTepkisi": "Yürüyüş ve kaldırma eşzamanlı operasyonları engellenmiştir.",
       "siddet": "uyari",
       "nedenler": [
-        "Ekran CPU hatası (F4-1) belleğinde veri bozulması",
+        "Ekran CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "Ekran CPU hatası (F4-1): Kontak aç/kapat yaparak kartı yeniden başlatın",
+        ": Kontak aç/kapat yaparak kartı yeniden başlatın — ekran CPU.",
         "Kart besleme gerilimini ölçün",
         "Parametre setini yeniden yükleyin",
         "Arıza sürerse kartı değiştirin"
@@ -2772,13 +2772,13 @@
       "makineTepkisi": "Yürüyüş sınırlama fonksiyorun devre dışı. PIN KODUYLA GİRİŞ SİSTEMİ: PIN kodu giriş sistemi",
       "siddet": "durdurucu",
       "nedenler": [
-        "Ekran CPU hatası (F4-2) belleğinde veri bozulması",
+        "Ekran CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "Ekran CPU hatası (F4-2): Kontak aç/kapat yaparak kartı yeniden başlatın",
+        ": Kontak aç/kapat yaparak kartı yeniden başlatın — ekran CPU.",
         "Kart besleme gerilimini ölçün",
         "Parametre setini yeniden yükleyin",
         "Arıza sürerse kartı değiştirin"
@@ -2801,13 +2801,13 @@
       "makineTepkisi": "devre dışı",
       "siddet": "durdurucu",
       "nedenler": [
-        "Ekran CPU hatası (F4-3) belleğinde veri bozulması",
+        "Ekran CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "Ekran CPU hatası (F4-3): Kontak aç/kapat yaparak kartı yeniden başlatın",
+        ": Kontak aç/kapat yaparak kartı yeniden başlatın — ekran CPU.",
         "Kart besleme gerilimini ölçün",
         "Parametre setini yeniden yükleyin",
         "Arıza sürerse kartı değiştirin"
@@ -2830,13 +2830,13 @@
       "makineTepkisi": "Sadece ekrandan",
       "siddet": "bilgi",
       "nedenler": [
-        "Ekran CPU hatası (F4-4) belleğinde veri bozulması",
+        "Ekran CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "Ekran CPU hatası (F4-4): Kontak aç/kapat yaparak kartı yeniden başlatın",
+        ": Kontak aç/kapat yaparak kartı yeniden başlatın — ekran CPU.",
         "Kart besleme gerilimini ölçün",
         "Parametre setini yeniden yükleyin",
         "Arıza sürerse kartı değiştirin"
@@ -2859,13 +2859,13 @@
       "makineTepkisi": "Ekran fonksiyonu kararsız",
       "siddet": "uyari",
       "nedenler": [
-        "Ekran CPU hatası (F4-5) belleğinde veri bozulması",
+        "Ekran CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "Ekran CPU hatası (F4-5): Kontak aç/kapat yaparak kartı yeniden başlatın",
+        ": Kontak aç/kapat yaparak kartı yeniden başlatın — ekran CPU.",
         "Kart besleme gerilimini ölçün",
         "Parametre setini yeniden yükleyin",
         "Arıza sürerse kartı değiştirin"
@@ -2888,13 +2888,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ekran CPU hatası (F4-6) belleğinde veri bozulması",
+        "Ekran CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "Ekran CPU hatası (F4-6): Kontak aç/kapat yaparak kartı yeniden başlatın",
+        ": Kontak aç/kapat yaparak kartı yeniden başlatın — ekran CPU.",
         "Kart besleme gerilimini ölçün",
         "Parametre setini yeniden yükleyin",
         "Arıza sürerse kartı değiştirin"
@@ -2917,13 +2917,13 @@
       "makineTepkisi": "Kontrol operasyonları kararsız",
       "siddet": "uyari",
       "nedenler": [
-        "Ekran CPU hatası (F4-7) belleğinde veri bozulması",
+        "Ekran CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "Ekran CPU hatası (F4-7): Kontak aç/kapat yaparak kartı yeniden başlatın",
+        ": Kontak aç/kapat yaparak kartı yeniden başlatın — ekran CPU.",
         "Kart besleme gerilimini ölçün",
         "Parametre setini yeniden yükleyin",
         "Arıza sürerse kartı değiştirin"
@@ -2946,13 +2946,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ekran CPU hatası (F4-8) belleğinde veri bozulması",
+        "Ekran CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "Ekran CPU hatası (F4-8): Kontak aç/kapat yaparak kartı yeniden başlatın",
+        ": Kontak aç/kapat yaparak kartı yeniden başlatın — ekran CPU.",
         "Kart besleme gerilimini ölçün",
         "Parametre setini yeniden yükleyin",
         "Arıza sürerse kartı değiştirin"
@@ -2981,7 +2981,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Akü akım sensörü nötr voltaj hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — akü akım sensörü nötr voltaj.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -3010,7 +3010,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Akü akım sensörü aşırı akım besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — akü akım sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -3038,7 +3038,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "D7V güç kaynağı devresi aşırı akım ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — D7V güç kaynağı devresi.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -3066,7 +3066,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "SSTR+ güç kaynağı devresi aşırı akım ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — SSTR+ güç kaynağı devresi.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -3094,7 +3094,7 @@
         "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "AC Yürüyüş sürücüsü (Sol) EEPROM anormalliği: Kontak aç/kapat yaparak kartı yeniden başlatın",
+        "Kontak aç/kapat yaparak kartı yeniden başlatın — AC Yürüyüş sürücüsü (Sol) EEPROM.",
         "Kart besleme gerilimini ölçün",
         "Parametre setini yeniden yükleyin",
         "Arıza sürerse kartı değiştirin"
@@ -3122,7 +3122,7 @@
         "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "AC Yürüyüş sürücüsü (Sağ) EEPROM anormalliği: Kontak aç/kapat yaparak kartı yeniden başlatın",
+        "Kontak aç/kapat yaparak kartı yeniden başlatın — AC Yürüyüş sürücüsü (Sağ) EEPROM.",
         "Kart besleme gerilimini ölçün",
         "Parametre setini yeniden yükleyin",
         "Arıza sürerse kartı değiştirin"
@@ -3150,7 +3150,7 @@
         "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "AC Kaldırma sürücüsü EEPROM anormalliği: Kontak aç/kapat yaparak kartı yeniden başlatın",
+        "Kontak aç/kapat yaparak kartı yeniden başlatın — AC Kaldırma sürücüsü EEPROM.",
         "Kart besleme gerilimini ölçün",
         "Parametre setini yeniden yükleyin",
         "Arıza sürerse kartı değiştirin"
@@ -3178,7 +3178,7 @@
         "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "Ana kart → AC yürüyüş sürücüsü (Sol) CAN haberleşme hatası konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — ana kart → AC yürüyüş sürücüsü (Sol) CAN haberleşme.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -3206,7 +3206,7 @@
         "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "Main controller → Traveling AC driver (RH) CAN communication error konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — main controller → Traveling AC driver (RH) CAN communication error.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -3234,7 +3234,7 @@
         "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "Ana kart → AC kaldırma sürücüsü CAN haberleşme hatası konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — ana kart → AC kaldırma sürücüsü CAN haberleşme.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -3262,7 +3262,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Salınım kilitleme solenoidi açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — salınım kilitleme solenoidi.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -3290,7 +3290,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Salınım kilitleme solenoidi kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — salınım kilitleme solenoidi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -3318,7 +3318,7 @@
         "Selenoid konnektöründe gevşeme"
       ],
       "kontroller": [
-        "Salınım kilitleme solenoidi sürücü devre anormalliği bobin direncini ölçün",
+        "Bobin direncini ölçün — salınım kilitleme solenoidi sürücü devre.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -3346,7 +3346,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Salınım kilitleme solenoidi anormalliği hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — salınım kilitleme solenoidi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -3368,13 +3368,13 @@
       "makineTepkisi": "Mast control function partially restricted. Lifting and load sensing travel control function restricted. Deceleration speed decreases with OPS operating.",
       "siddet": "uyari",
       "nedenler": [
-        "Yük sensörü açık (61-1) hattında kopukluk",
+        "Yük sensörü açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Yük sensörü açık (61-1) hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — yük sensörü.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -3396,13 +3396,13 @@
       "makineTepkisi": "Load alarm inoperable.",
       "siddet": "uyari",
       "nedenler": [
-        "Yük sensörü açık (61-2) hattında kopukluk",
+        "Yük sensörü açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Yük sensörü açık (61-2) hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — yük sensörü.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -3430,7 +3430,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Tilt (eğim) açı sensörü açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — tilt (eğim) açı sensörü.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -3458,7 +3458,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Tilt (eğim) açı sensörü kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — tilt (eğim) açı sensörü.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -3486,7 +3486,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Lift kilit solenoidi açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — lift kilit solenoidi.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -3508,13 +3508,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Lift kilit solenoidi kısa (64-2) hattında şaseye kısa devre",
+        "Lift kilit solenoidi kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Lift kilit solenoidi kısa (64-2) hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — lift kilit solenoidi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -3536,13 +3536,13 @@
       "makineTepkisi": "Sadece ekrandan",
       "siddet": "bilgi",
       "nedenler": [
-        "Lift kilit solenoidi sürücü devre anormalliği (64-3) bobininde açık veya kısa devre",
+        "Lift kilit solenoidi sürücü devre anormalliği bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
       ],
       "kontroller": [
-        "Lift kilit solenoidi sürücü devre anormalliği (64-3) bobin direncini ölçün",
+        "Bobin direncini ölçün — lift kilit solenoidi sürücü devre.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -3564,13 +3564,13 @@
       "makineTepkisi": "Lift indirme durabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Lift kilit solenoidi anormalliği (64-4) hattında şaseye kısa devre",
+        "Lift kilit solenoidi anormalliği hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Lift kilit solenoidi anormalliği (64-4) hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — lift kilit solenoidi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -3598,7 +3598,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Tilt kontrol solenoidi açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — tilt kontrol solenoidi.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -3620,13 +3620,13 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Lift kilit solenoidi kısa (65-2) hattında şaseye kısa devre",
+        "Lift kilit solenoidi kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Lift kilit solenoidi kısa (65-2) hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — lift kilit solenoidi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -3648,13 +3648,13 @@
       "makineTepkisi": "Sadece ekrandan",
       "siddet": "bilgi",
       "nedenler": [
-        "Lift kilit solenoidi sürücü devre anormalliği (65-3) bobininde açık veya kısa devre",
+        "Lift kilit solenoidi sürücü devre anormalliği bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
       ],
       "kontroller": [
-        "Lift kilit solenoidi sürücü devre anormalliği (65-3) bobin direncini ölçün",
+        "Bobin direncini ölçün — lift kilit solenoidi sürücü devre.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -3676,13 +3676,13 @@
       "makineTepkisi": "Öne tilt(eğim) durabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Lift kilit solenoidi anormalliği (65-4) hattında şaseye kısa devre",
+        "Lift kilit solenoidi anormalliği hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Lift kilit solenoidi anormalliği (65-4) hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — lift kilit solenoidi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -3709,7 +3709,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Tilt açısının dışında eşleşen değer hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — tilt açısının.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -3737,7 +3737,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Kaldırma yükseklik switch anormalliği hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — kaldırma.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -3765,7 +3765,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Kaldırma yükseklik sensör açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — kaldırma.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -3793,7 +3793,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Kaldırma yükseklik sensör kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — kaldırma.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -3821,7 +3821,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Kaldırma yükseklik sensör zaman aşımı hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — kaldırma.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -3849,7 +3849,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Teker açı sensörü açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — teker açı sensörü.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -3877,7 +3877,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Teker açı sensörü kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — teker açı sensörü.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -3905,7 +3905,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Teker açı sensörü sabit besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — teker açı sensörü sabit.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -3933,7 +3933,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Direksiyon açı sensörü SS1 açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — direksiyon açı sensörü SS1.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -3961,7 +3961,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Direksiyon açı sensörü SS2 açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — direksiyon açı sensörü SS2.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -3989,7 +3989,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Direksiyon açı sensörü SSC açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — direksiyon açı sensörü SSC.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -4017,7 +4017,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Direksiyon açı sensörü güç kaynağı devresi açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — direksiyon açı sensörü güç kaynağı devresi.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -4045,7 +4045,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Knob(direksiyon topuz konumu doğrulama solenoidi açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — knob(direksiyon topuz konumu doğrulama solenoidi.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -4073,7 +4073,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Knob(direksiyon topuz konumu doğrulama solenoidi kısa Knob(direksiyon topuz konumu doğru… hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — knob(direksiyon topuz konumu doğrulama solenoidi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -4100,7 +4100,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Anormalliği ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — anormalliği.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -4128,7 +4128,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Knob(direksiyon topuz konumu doğrulama solenoidi anormalliği hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — knob(direksiyon topuz konumu doğrulama solenoidi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -4155,7 +4155,7 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Teker açı değer aralığı eşleşme dışı hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — teker açı değer aralığı eşleşme dışı.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -4184,7 +4184,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Lift kol potansiyometre açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — lift kol potansiyometre.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -4213,7 +4213,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Lift kol potansiyometre kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — lift kol potansiyometre.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -4242,7 +4242,7 @@
         "Kalibrasyon değerlerinin kaybolması"
       ],
       "kontroller": [
-        "Lift kol potansiyometre çıkış sinyal anormalliği potansiyometresinin çıkış gerilimini ölçün",
+        "Potansiyometre çıkış gerilimini ölçün — lift kol potansiyometre çıkış sinyal.",
         "Potansiyometre konnektörünü ve kablo demetini kontrol edin",
         "Potansiyometre değerlerini yeniden kalibre edin",
         "Gerekirse potansiyometreyi değiştirin"
@@ -4271,7 +4271,7 @@
         "Kalibrasyon değerlerinin kaybolması"
       ],
       "kontroller": [
-        "Lift kol potansiyometre nötr hatası potansiyometresinin çıkış gerilimini ölçün",
+        "Potansiyometre çıkış gerilimini ölçün — lift kol potansiyometre nötr.",
         "Potansiyometre konnektörünü ve kablo demetini kontrol edin",
         "Potansiyometre değerlerini yeniden kalibre edin",
         "Gerekirse potansiyometreyi değiştirin"
@@ -4300,7 +4300,7 @@
         "Kalibrasyon değerlerinin kaybolması"
       ],
       "kontroller": [
-        "Lift kol potansiyometre karşılaştırma değer hatası potansiyometresinin çıkış gerilimini ölçün",
+        "Potansiyometre çıkış gerilimini ölçün — lift kol potansiyometre karşılaştırma değer.",
         "Potansiyometre konnektörünü ve kablo demetini kontrol edin",
         "Potansiyometre değerlerini yeniden kalibre edin",
         "Gerekirse potansiyometreyi değiştirin"
@@ -4329,7 +4329,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Tilt kol potansiyometre açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — tilt kol potansiyometre.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -4358,7 +4358,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Tilt kol potansiyometre kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — tilt kol potansiyometre.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -4387,7 +4387,7 @@
         "Kalibrasyon değerlerinin kaybolması"
       ],
       "kontroller": [
-        "Tilt kol potansiyometre çıkış sinyal anormalliği potansiyometresinin çıkış gerilimini ölçün",
+        "Potansiyometre çıkış gerilimini ölçün — tilt kol potansiyometre çıkış sinyal.",
         "Potansiyometre konnektörünü ve kablo demetini kontrol edin",
         "Potansiyometre değerlerini yeniden kalibre edin",
         "Gerekirse potansiyometreyi değiştirin"
@@ -4416,7 +4416,7 @@
         "Kalibrasyon değerlerinin kaybolması"
       ],
       "kontroller": [
-        "Tilt kol potansiyometre nötr hatası potansiyometresinin çıkış gerilimini ölçün",
+        "Potansiyometre çıkış gerilimini ölçün — tilt kol potansiyometre nötr.",
         "Potansiyometre konnektörünü ve kablo demetini kontrol edin",
         "Potansiyometre değerlerini yeniden kalibre edin",
         "Gerekirse potansiyometreyi değiştirin"
@@ -4445,7 +4445,7 @@
         "Kalibrasyon değerlerinin kaybolması"
       ],
       "kontroller": [
-        "Tilt kol potansiyometre eşleşme değer hatası potansiyometresinin çıkış gerilimini ölçün",
+        "Potansiyometre çıkış gerilimini ölçün — tilt kol potansiyometre eşleşme değer.",
         "Potansiyometre konnektörünü ve kablo demetini kontrol edin",
         "Potansiyometre değerlerini yeniden kalibre edin",
         "Gerekirse potansiyometreyi değiştirin"
@@ -4474,7 +4474,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Ataşman 1 kol potansiyometre açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — ataşman 1 kol potansiyometre.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -4503,7 +4503,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Ataşman 1 kol potansiyometre kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — ataşman 1 kol potansiyometre.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -4532,7 +4532,7 @@
         "Kalibrasyon değerlerinin kaybolması"
       ],
       "kontroller": [
-        "Ataşman 1 kol potansiyometre çıkış sinyal anormalliği potansiyometresinin çıkış gerilimini ölçün",
+        "Potansiyometre çıkış gerilimini ölçün — ataşman 1 kol potansiyometre çıkış sinyal.",
         "Potansiyometre konnektörünü ve kablo demetini kontrol edin",
         "Potansiyometre değerlerini yeniden kalibre edin",
         "Gerekirse potansiyometreyi değiştirin"
@@ -4561,7 +4561,7 @@
         "Kalibrasyon değerlerinin kaybolması"
       ],
       "kontroller": [
-        "Ataşman 1 kol potansiyometre nötr hatası potansiyometresinin çıkış gerilimini ölçün",
+        "Potansiyometre çıkış gerilimini ölçün — ataşman 1 kol potansiyometre nötr.",
         "Potansiyometre konnektörünü ve kablo demetini kontrol edin",
         "Potansiyometre değerlerini yeniden kalibre edin",
         "Gerekirse potansiyometreyi değiştirin"
@@ -4590,7 +4590,7 @@
         "Kalibrasyon değerlerinin kaybolması"
       ],
       "kontroller": [
-        "Ataşman 1 kol potansiyometre eşleşme değer hatası potansiyometresinin çıkış gerilimini ölçün",
+        "Potansiyometre çıkış gerilimini ölçün — ataşman 1 kol potansiyometre eşleşme değer.",
         "Potansiyometre konnektörünü ve kablo demetini kontrol edin",
         "Potansiyometre değerlerini yeniden kalibre edin",
         "Gerekirse potansiyometreyi değiştirin"
@@ -4619,7 +4619,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Ataşman 2 kol potansiyometre açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — ataşman 2 kol potansiyometre.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -4648,7 +4648,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Ataşman 2 kol potansiyometre kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — ataşman 2 kol potansiyometre.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -4677,7 +4677,7 @@
         "Kalibrasyon değerlerinin kaybolması"
       ],
       "kontroller": [
-        "Ataşman 2 kol potansiyometre çıkış sinyal anormalliği potansiyometresinin çıkış gerilimini ölçün",
+        "Potansiyometre çıkış gerilimini ölçün — ataşman 2 kol potansiyometre çıkış sinyal.",
         "Potansiyometre konnektörünü ve kablo demetini kontrol edin",
         "Potansiyometre değerlerini yeniden kalibre edin",
         "Gerekirse potansiyometreyi değiştirin"
@@ -4706,7 +4706,7 @@
         "Kalibrasyon değerlerinin kaybolması"
       ],
       "kontroller": [
-        "Ataşman 2 kol potansiyometre nötr hatası potansiyometresinin çıkış gerilimini ölçün",
+        "Potansiyometre çıkış gerilimini ölçün — ataşman 2 kol potansiyometre nötr.",
         "Potansiyometre konnektörünü ve kablo demetini kontrol edin",
         "Potansiyometre değerlerini yeniden kalibre edin",
         "Gerekirse potansiyometreyi değiştirin"
@@ -4735,7 +4735,7 @@
         "Kalibrasyon değerlerinin kaybolması"
       ],
       "kontroller": [
-        "Ataşman 2 kol potansiyometre eşleşme değer hatası potansiyometresinin çıkış gerilimini ölçün",
+        "Potansiyometre çıkış gerilimini ölçün — ataşman 2 kol potansiyometre eşleşme değer.",
         "Potansiyometre konnektörünü ve kablo demetini kontrol edin",
         "Potansiyometre değerlerini yeniden kalibre edin",
         "Gerekirse potansiyometreyi değiştirin"
@@ -4764,7 +4764,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Lift PULL(çekme) solenoid açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — lift PULL(çekme) solenoid.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -4793,7 +4793,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Lift PULL (çekme) solenoid kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — lift PULL (çekme) solenoid.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -4822,7 +4822,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Lift PUSH (itme) solenoid açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — lift PUSH (itme) solenoid.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -4851,7 +4851,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Lift PUSH (itme) solenoid kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — lift PUSH (itme) solenoid.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -4880,7 +4880,7 @@
         "Selenoid konnektöründe gevşeme"
       ],
       "kontroller": [
-        "Lift PULL/PUSH solenoid güç kaynağı devresi anormalliği bobin direncini ölçün",
+        "Bobin direncini ölçün — lift PULL/PUSH solenoid güç kaynağı devresi.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -4909,7 +4909,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Lift PULL/PUSH solenoid anormalliği hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — lift PULL/PUSH solenoid.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -4938,7 +4938,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Tilt PULL (çekme) solenoid açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — tilt PULL (çekme) solenoid.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -4967,7 +4967,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Tilt PULL (çekme) solenoid kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — tilt PULL (çekme) solenoid.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -4996,7 +4996,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Tilt PUSH (itme) solenoid açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — tilt PUSH (itme) solenoid.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -5025,7 +5025,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Tilt PUSH (itme) solenoid kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — tilt PUSH (itme) solenoid.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -5054,7 +5054,7 @@
         "Selenoid konnektöründe gevşeme"
       ],
       "kontroller": [
-        "Tilt PULL/PUSH solenoid güç kaynağı devresi anormalliği bobin direncini ölçün",
+        "Bobin direncini ölçün — tilt PULL/PUSH solenoid güç kaynağı devresi.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -5083,7 +5083,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Tilt PULL/PUSH solenoid anormalliği hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — tilt PULL/PUSH solenoid.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -5112,7 +5112,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Ataşman 1 PULL (çekme) solenoid açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — ataşman 1 PULL (çekme) solenoid.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -5141,7 +5141,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Ataşman 1 PULL (çekme) solenoid kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — ataşman 1 PULL (çekme) solenoid.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -5170,7 +5170,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Ataşman 1 PUSH (itme) solenoid açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — ataşman 1 PUSH (itme) solenoid.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -5199,7 +5199,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Ataşman 1 PUSH (itme) solenoid kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — ataşman 1 PUSH (itme) solenoid.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -5228,7 +5228,7 @@
         "Selenoid konnektöründe gevşeme"
       ],
       "kontroller": [
-        "Ataşman1 PULL/PUSH solenoid güç kaynağı devresi anormalliği bobin direncini ölçün",
+        "Bobin direncini ölçün — ataşman1 PULL/PUSH solenoid güç kaynağı devresi.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -5257,7 +5257,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Ataşman1 PULL/PUSH solenoid anormalliği hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — ataşman1 PULL/PUSH solenoid.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -5286,7 +5286,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Ataşman 2 PULL (çekme) solenoid açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — ataşman 2 PULL (çekme) solenoid.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -5315,7 +5315,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Ataşman 2 PULL (çekme) solenoid kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — ataşman 2 PULL (çekme) solenoid.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -5344,7 +5344,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Ataşman 2 PUSH (itme) solenoid açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — ataşman 2 PUSH (itme) solenoid.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -5373,7 +5373,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Ataşman 2 PUSH (itme) solenoid kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — ataşman 2 PUSH (itme) solenoid.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -5402,7 +5402,7 @@
         "Selenoid konnektöründe gevşeme"
       ],
       "kontroller": [
-        "Ataşman2 PULL/PUSH solenoid güç kaynağı devresi anormalliği bobin direncini ölçün",
+        "Bobin direncini ölçün — ataşman2 PULL/PUSH solenoid güç kaynağı devresi.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -5431,7 +5431,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Ataşman2 PULL/PUSH solenoid anormalliği hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — ataşman2 PULL/PUSH solenoid.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -5460,7 +5460,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Solenoid güç kaynağı devresi RY1 açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — solenoid güç kaynağı devresi RY1.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -5489,7 +5489,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Solenoid güç kaynağı devresi kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — solenoid güç kaynağı devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -5518,7 +5518,7 @@
         "Selenoid konnektöründe gevşeme"
       ],
       "kontroller": [
-        "Solenoid güç kaynağı devresi RY1 aşırı akım bobin direncini ölçün",
+        "Bobin direncini ölçün — solenoid güç kaynağı devresi RY1.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -5547,7 +5547,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Şok sensör 1 açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — şok sensör 1.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -5576,7 +5576,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Şok sensör 1 kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — şok sensör 1.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -5605,7 +5605,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Şok sensör 1 nötr voltaj hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — şok sensör 1 nötr voltaj.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -5634,7 +5634,7 @@
         "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Şok sensör 2 açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — şok sensör 2.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -5663,7 +5663,7 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Şok sensör 2 kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — şok sensör 2.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -5692,7 +5692,7 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Şok sensör 2 nötr voltaj hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — şok sensör 2 nötr voltaj.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"

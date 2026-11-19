@@ -27,7 +27,7 @@
       ],
       "kontroller": [
         "SEAT_SW koltuk şalteri devresini kontrol edin ve gerekirse onarın.",
-        "Koltuk şalteri arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — koltuk şalteri.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -57,7 +57,7 @@
       ],
       "kontroller": [
         "F/R kol devresini kontrol edip onarın.",
-        "İleri/geri yön kolu arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — ileri/geri yön kolu.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -88,7 +88,7 @@
       ],
       "kontroller": [
         "Lambaları ve lamba devresini kontrol edin; hatalıysa onarın.",
-        "Lamba ve ekipman interlock röle hatası bobin direncini ölçün",
+        "Bobin direncini ölçün — lamba ve ekipman interlock röle.",
         "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
         "Bobin besleme hattında süreklilik ölçün",
         "Gerekirse kontaktörü değiştirin"
@@ -119,7 +119,7 @@
       ],
       "kontroller": [
         "MAST_RELAY ve röle devresini kontrol edin.",
-        "Kaldırma rölesi / sürücü çıkış hatası bobin direncini ölçün",
+        "Bobin direncini ölçün — kaldırma rölesi / sürücü çıkış.",
         "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
         "Bobin besleme hattında süreklilik ölçün",
         "Gerekirse kontaktörü değiştirin"
@@ -150,7 +150,7 @@
       ],
       "kontroller": [
         "F_RELAY, R_RELAY ve röle devresini kontrol edin.",
-        "Yürüyüş rölesi / sürücü çıkış hatası bobin direncini ölçün",
+        "Bobin direncini ölçün — yürüyüş rölesi / sürücü çıkış.",
         "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
         "Bobin besleme hattında süreklilik ölçün",
         "Gerekirse kontaktörü değiştirin"
@@ -180,7 +180,7 @@
       ],
       "kontroller": [
         "MAIN_RELAY ve röle devresini kontrol edip onarın.",
-        "Ana röle (MAIN_RELAY) hatası bobin direncini ölçün",
+        "Bobin direncini ölçün — ana röle (MAIN_RELAY).",
         "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
         "Bobin besleme hattında süreklilik ölçün",
         "Gerekirse kontaktörü değiştirin"
@@ -210,7 +210,7 @@
       ],
       "kontroller": [
         "Besleme devresini kontrol edin; üniteyi iade edip inceletin, gerekirse değiştirin.",
-        "Kontrol ünitesi arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — kontrol ünitesi.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"

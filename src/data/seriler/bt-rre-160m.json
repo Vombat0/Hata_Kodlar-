@@ -1384,7 +1384,7 @@
       ],
       "kontroller": [
         "62 ve 129 kabloları, X32-X34 kontakları ile 509 ve 511 kontaklarını kontrol edin",
-        "Yönlendirme jeneratörünü kontrol edin: kömürler ve kolektör (S4100 mekanik yönlendirme sistemi), endüvi sargıları",
+        "Jeneratörünü kontrol edin: kömürler ve kolektör (S4100 mekanik yönlendirme sistemi), endüvi sargıları — yönlendirme jeneratörü test.",
         "Arıza sürerse A5 kartını değiştirin"
       ],
       "ilgiliKodlar": [],

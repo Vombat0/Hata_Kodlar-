@@ -557,7 +557,7 @@
         "Sensör konnektör oksitlenmesi"
       ],
       "kontroller": [
-        "Motorun sıcaklık sensörüne giden kabloları (63/64) kontrol edin",
+        "Sensörüne giden kabloları (63/64) kontrol edin — motorun sıcaklık sensörü.",
         "Yükü azaltıp yeniden deneyin",
         "Sıcaklığı ölçün",
         "Sensör konnektörünü görsel kontrol edin"
@@ -717,7 +717,7 @@
         "Bellek hücresi arızası"
       ],
       "kontroller": [
-        "Transistör regülatörü bağlantısını kontrol edin",
+        "Bağlantısını kontrol edin — transistör regülatörü.",
         "1001 fabrika parametresi (araç tipi); hata sürerse regülatörü değiştirin"
       ],
       "ilgiliKodlar": [],

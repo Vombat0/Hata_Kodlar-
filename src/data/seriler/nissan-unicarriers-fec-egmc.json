@@ -646,7 +646,7 @@
         "Bellek veya yazılım bütünlüğü hatası"
       ],
       "kontroller": [
-        "ECCS kontrol ünitesinin beslemesini ölçün.",
+        "Ünitesinin beslemesini ölçün — ECCS kontrol ünitesi elektronik.",
         "Konektörleri doğrulayıp hatayı tekrar okuyun.",
         "Gerekirse üniteyi değiştirin."
       ],
@@ -910,7 +910,7 @@
         "Lamba devresinde kısa devre"
       ],
       "kontroller": [
-        "Stop lambası şalteri devresini ölçün.",
+        "Devresini ölçün — stop lambası şalteri giriş.",
         "Lamba ve kablo bağlantılarını doğrulayın.",
         "Gerekirse şalteri değiştirin."
       ],
@@ -1294,7 +1294,7 @@
         "Kablo ve konektör arızası"
       ],
       "kontroller": [
-        "Kaldırma kolu çalışma şalterini ölçün.",
+        "Şalterini ölçün — kaldırma kolu çalışma girişi.",
         "Kablo ve konektör bağlantılarını doğrulayın.",
         "Gerekirse şalteri değiştirin."
       ],

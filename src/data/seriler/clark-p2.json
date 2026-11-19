@@ -22,7 +22,7 @@
         "Verici kalibrasyonu/devresi, tesisat veya aşırı yüklenme"
       ],
       "kontroller": [
-        "Motor soğutma suyu sıcaklığı aşama 2 eşiğini aştı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — motor soğutma suyu sıcaklığı aşama 2.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -51,7 +51,7 @@
         "Kontrol valfi/gaz kelebeği geri bildirimi"
       ],
       "kontroller": [
-        "Motor devri izin verilen maksimum govde değerini aştı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — motor devri.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -80,7 +80,7 @@
         "Gaz kelebeği bağlantısı, tesisat veya sensör kalibrasyonu"
       ],
       "kontroller": [
-        "TPS1-TPS2 toplam gaz konumu beklenenin üzerinde ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — TPS1-TPS2 toplam gaz konumu beklenenin.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -110,7 +110,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "TPS2 kanalı gerilimi düşük besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — TPS2 kanalı gerilimi.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -139,7 +139,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "TPS2 kanalı gerilimi yüksek besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — TPS2 kanalı gerilimi.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -167,7 +167,7 @@
         "Emme hattı kısıtlamaları/kaçakları ve varsa turbo kontrol opsiyonu"
       ],
       "kontroller": [
-        "Boost kontrolü aşırı basınç (overboost) hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — boost kontrolü.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -196,7 +196,7 @@
         "Emme hattı kısıtlamaları/kaçakları ve varsa turbo kontrol opsiyonu"
       ],
       "kontroller": [
-        "Gaz kelebeği giriş basıncı (TIP) aktif durum bilgisi ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — gaz kelebeği giriş basıncı (TIP) aktif durum bilgisi.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -225,7 +225,7 @@
         "Emme hattı kısıtlamaları/kaçakları ve varsa turbo kontrol opsiyonu"
       ],
       "kontroller": [
-        "TIP sensörü gerilimi düşük besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — TIP sensörü gerilimi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -254,7 +254,7 @@
         "Emme hattı kısıtlamaları/kaçakları ve varsa turbo kontrol opsiyonu"
       ],
       "kontroller": [
-        "TIP sensörü gerilimi yüksek besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — TIP sensörü gerilimi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -283,7 +283,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 1 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 1 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -312,7 +312,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 1 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 1 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -341,7 +341,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 2 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 2 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -370,7 +370,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 2 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 2 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -399,7 +399,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 3 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 3 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -428,7 +428,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 3 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 3 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -457,7 +457,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 4 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 4 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -486,7 +486,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 4 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 4 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -515,7 +515,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 5 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 5 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -544,7 +544,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 5 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 5 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -573,7 +573,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 6 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 6 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -602,7 +602,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 6 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 6 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -631,7 +631,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 7 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 7 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -660,7 +660,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 7 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 7 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -689,7 +689,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 8 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 8 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -718,7 +718,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 8 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 8 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -747,7 +747,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 9 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 9 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -776,7 +776,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 9 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 9 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -805,7 +805,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 10 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 10 devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -834,7 +834,7 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Enjektör 10 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — enjektör 10 bobini.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"

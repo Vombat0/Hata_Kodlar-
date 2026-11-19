@@ -23,7 +23,7 @@
         "Hatalı konfigürasyon veya gerçekten anormal motor durumu"
       ],
       "kontroller": [
-        "Direksiyon sürücü modülü aşırı akım sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — direksiyon sürücü modülü.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -52,7 +52,7 @@
         "Ağır direksiyon yükü gibi gerçek anormal motor koşulu"
       ],
       "kontroller": [
-        "Direksiyon sürücü modülü yüksek akım uyarısı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — direksiyon sürücü modülü.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -80,7 +80,7 @@
         "Motor sargısı veya SDM çıkış kademesi arızası"
       ],
       "kontroller": [
-        "Direksiyon motoru devresi faz beslemesinde açık veya kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — direksiyon motoru devresi faz beslemesi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -109,7 +109,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Direksiyon sürücü modülü yüksek gerilim beslemesi besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — direksiyon sürücü modülü.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -136,7 +136,7 @@
         "Ağır duty çevrimi veya modül içi kayıp"
       ],
       "kontroller": [
-        "Direksiyon sürücü modülü aşırı sıcaklık sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — direksiyon sürücü modülü.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -164,7 +164,7 @@
         "Sürekli ağır yük altında modül kaybı"
       ],
       "kontroller": [
-        "Direksiyon sürücü modülü yüksek sıcaklık uyarısı sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — direksiyon sürücü modülü.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -192,7 +192,7 @@
         "Modüllerden birinin iletişim kademesi arızası"
       ],
       "kontroller": [
-        "VCM ile direksiyon sürücü modülü (SDM) arası CAN iletişim hatası konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — VCM ile direksiyon sürücü modülü (SDM) arası CAN iletişim.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -248,7 +248,7 @@
         "SDM sürücü kademesi arızası"
       ],
       "kontroller": [
-        "Seyr park freni bobin devresi açık veya aşırı akımlı hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — seyr park freni bobin devresi.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -276,7 +276,7 @@
         "ECR3 sensörünün kendisi veya SDM giriş kademesi"
       ],
       "kontroller": [
-        "Direksiyon motoru ECR3 Hall enkoder sinyal hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — direksiyon motoru ECR3 Hall enkoder sinyal.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -304,7 +304,7 @@
         "Sensör veya SDM giriş kademesi arızası"
       ],
       "kontroller": [
-        "Direksiyon ECR4 step enkoder sinyal hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — direksiyon ECR4 step enkoder sinyal.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -332,7 +332,7 @@
         "SDM giriş algılama hatası"
       ],
       "kontroller": [
-        "Direksiyon ileri hizalama anahtarı SFS1/1SA beklenen sinyali vermiyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — direksiyon ileri hizalama anahtarı SFS1/1SA beklenen sinyali vermiyor.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -360,7 +360,7 @@
         "SDM giriş kademesi arızası"
       ],
       "kontroller": [
-        "Direksiyon kadran tespit anahtarı SFS2 beklenen sinyali vermiyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — direksiyon kadran tespit anahtarı SFS2 beklenen sinyali vermiyor.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -388,7 +388,7 @@
         "Tesisat kesintisi sonrası konum sayımının kayması"
       ],
       "kontroller": [
-        "Kayıtlı ile güncel direksiyon tekerlek konumu uyuşmuyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — kayıtlı ile güncel direksiyon tekerlek konumu uyuşmuyor.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -416,7 +416,7 @@
         "Sensör veya giriş kademesi arızası"
       ],
       "kontroller": [
-        "Direksiyon motoru sıcaklık sensörü devresi kopuk/kısa sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — direksiyon motoru sıcaklık sensörü devresi kopuk/kısa.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -444,7 +444,7 @@
         "Motor/pompa mekanik takılması veya HDM çıkış kademesi"
       ],
       "kontroller": [
-        "Hidrolik sürücü modülü güç kademesinde yüksek akım ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — hidrolik sürücü modülü güç kademesi.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -473,7 +473,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Hidrolik sürücü modülü düşük batarya gerilimi besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — hidrolik sürücü modülü.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -500,7 +500,7 @@
         "HDM iç devre arızası"
       ],
       "kontroller": [
-        "HDM dahili 15 V referans/PWM beslemesi düşük ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — HDM dahili 15 V referans/PWM beslemesi.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -528,7 +528,7 @@
         "HDM iç besleme arızası"
       ],
       "kontroller": [
-        "HDM dahili 5 V referans/ölçüm beslemesi düşük ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — HDM dahili 5 V referans/ölçüm beslemesi.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"

@@ -22,7 +22,7 @@
         "Şanzıman/valf mekanik hatası (üreticinin saydığı alternatifler)"
       ],
       "kontroller": [
-        "Geri vites şanzıman basıncı komutu tolerans üstü aşıyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — geri vites şanzıman basıncı komutu.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -50,7 +50,7 @@
         "Şanzıman/valf mekanik hatası"
       ],
       "kontroller": [
-        "İleri-1 şanzıman basıncı komutu tolerans üstü aşıyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — ileri-1 şanzıman basıncı komutu.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -78,7 +78,7 @@
         "Basınç sensörü hatası veya mekanik şanzıman kusuru (otomatik revizyon gerektirmez)"
       ],
       "kontroller": [
-        "Geri vites şanzıman basıncı komutun tolerans altında ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — geri vites şanzıman basıncı komutun.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -106,7 +106,7 @@
         "Basınç sensörü hatası veya mekanik şanzıman kusuru"
       ],
       "kontroller": [
-        "İleri-1 şanzıman basıncı komutun tolerans altında ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — ileri-1 şanzıman basıncı komutun.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -134,7 +134,7 @@
         "Arızalı IAT sensörü veya motor kontrolörü"
       ],
       "kontroller": [
-        "Emme havası sıcaklık sensörü sinyali yüksek aralık dışı sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — emme havası sıcaklık sensörü sinyali.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -162,7 +162,7 @@
         "Kontrolör hatası"
       ],
       "kontroller": [
-        "Emme havası sıcaklık sensörü sinyali düşük aralık dışı sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — emme havası sıcaklık sensörü sinyali.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -189,7 +189,7 @@
         "Kontrolör işlev arızası"
       ],
       "kontroller": [
-        "Motor soğutma suyu sıcaklık sensörü sinyali düşük aralık dışı sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — motor soğutma suyu sıcaklık sensörü sinyali.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -217,7 +217,7 @@
         "Sensör veya VSM arızası (LPG anahtarı opsiyonlu)"
       ],
       "kontroller": [
-        "Yakıt seviye sensörü veya LPG seçici anahtarı girişi düşük besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — yakıt seviye sensörü veya LPG seçici anahtarı girişi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -244,7 +244,7 @@
         "Sinyalin 5V/akü hattına kısayolu, sensör veya kontrolör hatası"
       ],
       "kontroller": [
-        "LPG yakıt sıcaklık sensörü sinyali yüksek aralık dışı sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — LPG yakıt sıcaklık sensörü sinyali.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -272,7 +272,7 @@
         "Kontrolör işlev arızası"
       ],
       "kontroller": [
-        "LPG yakıt sıcaklık sensörü gerilimi düşük aralık dışı sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — LPG yakıt sıcaklık sensörü gerilimi.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -300,7 +300,7 @@
         "Arızalı pedal sensörü veya kontrolör sinyali"
       ],
       "kontroller": [
-        "Gaz pedalı konum sensörü A kanalı yüksek aralık dışı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — gaz pedalı konum sensörü A kanalı.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -328,7 +328,7 @@
         "Arızalı pedal sensörü veya kontrolör sinyali"
       ],
       "kontroller": [
-        "Gaz pedalı konum sensörü B kanalı yüksek aralık dışı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — gaz pedalı konum sensörü B kanalı.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -356,7 +356,7 @@
         "Sensör hatası veya kontrolör girişi"
       ],
       "kontroller": [
-        "Gaz pedalı konum sensörü A kanalı düşük aralık dışı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — gaz pedalı konum sensörü A kanalı.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -384,7 +384,7 @@
         "Sensör hatası veya kontrolör girişi"
       ],
       "kontroller": [
-        "Gaz pedalı konum sensörü B kanalı düşük aralık dışı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — gaz pedalı konum sensörü B kanalı.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -412,7 +412,7 @@
         "Sensör hatası veya ECU işlev arızası"
       ],
       "kontroller": [
-        "Elektronik gaz kelebeği konum sensörü A kanalı yüksek besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — elektronik gaz kelebeği konum sensörü A kanalı.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -440,7 +440,7 @@
         "Sensör hatası veya ECU işlev arızası"
       ],
       "kontroller": [
-        "Elektronik gaz kelebeği konum sensörü B kanalı yüksek besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — elektronik gaz kelebeği konum sensörü B kanalı.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -468,7 +468,7 @@
         "Bozuk TPS veya kontrolör hatası"
       ],
       "kontroller": [
-        "Elektronik gaz kelebeği konum sensörü A kanalı düşük besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — elektronik gaz kelebeği konum sensörü A kanalı.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -496,7 +496,7 @@
         "Bozuk TPS veya kontrolör hatası"
       ],
       "kontroller": [
-        "Elektronik gaz kelebeği konum sensörü B kanalı düşük besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — elektronik gaz kelebeği konum sensörü B kanalı.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -524,7 +524,7 @@
         "Arızalı sensör veya kontrolör"
       ],
       "kontroller": [
-        "Park freni konum sensörü sinyali yüksek aralık dışı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — park freni konum sensörü sinyali.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -552,7 +552,7 @@
         "Arızalı sensör veya kontrolör"
       ],
       "kontroller": [
-        "Koltak doluluk / operatör varlık sensörü yüksek aralık dışı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — koltak doluluk / operatör varlık sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -580,7 +580,7 @@
         "Arızalı sensör veya kontrolör"
       ],
       "kontroller": [
-        "Park freni konum sensörü sinyali düşük aralık dışı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — park freni konum sensörü sinyali.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -607,7 +607,7 @@
         "Arızalı sensör veya kontrolör"
       ],
       "kontroller": [
-        "Operatör varlık sistemi / koltak sensörü düşük aralık dışı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — operatör varlık sistemi / koltak sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -634,7 +634,7 @@
         "Return açıklığı ya da kontrolör arızası"
       ],
       "kontroller": [
-        "Soğuk çalıştırma röle sürücü sinyali yüksek aralık dışı bobin direncini ölçün",
+        "Bobin direncini ölçün — soğuk çalıştırma röle sürücü sinyali.",
         "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
         "Bobin besleme hattında süreklilik ölçün",
         "Gerekirse kontaktörü değiştirin"
@@ -662,7 +662,7 @@
         "Kontrolör hatası"
       ],
       "kontroller": [
-        "Soğuk çalıştırma röle sürücü sinyali düşük aralık dışı bobin direncini ölçün",
+        "Bobin direncini ölçün — soğuk çalıştırma röle sürücü sinyali.",
         "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
         "Bobin besleme hattında süreklilik ölçün",
         "Gerekirse kontaktörü değiştirin"
@@ -690,7 +690,7 @@
         "Takılı motor ECU'suna göre değişen devre/modül düzeni"
       ],
       "kontroller": [
-        "5VE2 sensör besleme hattı gerilimi yüksek besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — 5VE2 sensör besleme hattı gerilimi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -717,7 +717,7 @@
         "Donanıma bağlı devre düzeni farklılığı"
       ],
       "kontroller": [
-        "5VE1 sensör besleme hattı gerilimi yüksek besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — 5VE1 sensör besleme hattı gerilimi.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -744,7 +744,7 @@
         "Açık valf bobini, valf hatası veya kontrolör"
       ],
       "kontroller": [
-        "Şanzıman REV1 sürücü devresi yüksek yönde kısa hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — şanzıman REV1 sürücü devresi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -772,7 +772,7 @@
         "Açık valf bobini, valf hatası veya kontrolör"
       ],
       "kontroller": [
-        "Şanzıman kavrama FWD1/geri dönüş bobin sürücüsü yüksek aralık dışı bobin direncini ölçün",
+        "Bobin direncini ölçün — şanzıman kavrama FWD1/geri dönüş bobin sürücüsü.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -800,7 +800,7 @@
         "Return açıklığı veya kontrolör arızası"
       ],
       "kontroller": [
-        "Şanzıman izin valfi bobin sürücü çıkışı yüksek aralık dışı bobin direncini ölçün",
+        "Bobin direncini ölçün — şanzıman izin valfi bobin sürücü çıkışı.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -828,7 +828,7 @@
         "Kontrolör arızası"
       ],
       "kontroller": [
-        "Şanzıman REV1 sürücü devresi düşük aralık dışı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — şanzıman REV1 sürücü devresi.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -856,7 +856,7 @@
         "Kontrolör arızası"
       ],
       "kontroller": [
-        "Şanzıman kavrama FWD1/geri dönüş sürücüsü düşük aralık dışı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — şanzıman kavrama FWD1/geri dönüş sürücüsü.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -884,7 +884,7 @@
         "Kontrolör hatası"
       ],
       "kontroller": [
-        "Şanzıman izin valfi bobin sürücüsü düşük aralık dışı bobin direncini ölçün",
+        "Bobin direncini ölçün — şanzıman izin valfi bobin sürücüsü.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -912,7 +912,7 @@
         "Aktif olmayan katalizör olasılığı"
       ],
       "kontroller": [
-        "Katalizör sonrası oksijen sensörü AROC (değişim hızı) hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — katalizör sonrası oksijen sensörü AROC (değişim hızı).",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -939,7 +939,7 @@
         "Katalitik aktivite eksikliği"
       ],
       "kontroller": [
-        "Katalizör öncesi oksijen sensörü AROC (değişim hızı) hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — katalizör öncesi oksijen sensörü AROC (değişim hızı).",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -966,7 +966,7 @@
         "Besleme ya da kontrolör/ağ arızası"
       ],
       "kontroller": [
-        "CANbus adres çakışması konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — cANbus adres çakışması.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -993,7 +993,7 @@
         "Konnektör/tesisat ya da EPR ünitesi arızası"
       ],
       "kontroller": [
-        "Elektronik LPG basınç regülatörü (EPR) iletişim kaybı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — elektronik LPG basınç regülatörü (EPR) iletişim.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"

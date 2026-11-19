@@ -28,7 +28,7 @@
       "kontroller": [
         "Gaz sinyali potansiyometresini ve kablo bağlantılarını kontrol edin.",
         "Çıkış sinyalini ölçün.",
-        "Gaz çıkış sinyali hatalı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — gaz çıkış sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -60,7 +60,7 @@
       "kontroller": [
         "Akım sensörü kablo ve konnektörünü kontrol edin.",
         "Gerekirse sensörü değiştirin.",
-        "Yürüyüş akım sensörü çıkışı hatalı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — yürüyüş akım sensörü çıkışı.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -121,7 +121,7 @@
       ],
       "kontroller": [
         "Kontaktör kontaklarını ve sürücü devresini kontrol edin.",
-        "Yürüyüş kontaktörü kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — yürüyüş kontaktörü.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -152,7 +152,7 @@
       ],
       "kontroller": [
         "Kontaktör bobinini ve kablo bağlantılarını kontrol edin.",
-        "Yürüyüş kontaktörü açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — yürüyüş kontaktörü.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -183,7 +183,7 @@
       "kontroller": [
         "Ana sigortayı kontrol edin, gerekirse değiştirin.",
         "Sigorta atma nedeni olan kısa devreyi inceleyin.",
-        "Yürüyüş ana sigortası atmış sigortasını süreklilik testiyle kontrol edin",
+        "Sigortayı süreklilik testiyle kontrol edin — yürüyüş ana sigortası atmış.",
         "Sigorta yuvasını ve temas yüzeylerini inceleyin",
         "Sigorta sonrası devrede kısa devre olup olmadığını ölçün",
         "Gerekirse aynı değerde sigortayla değiştirin"
@@ -242,7 +242,7 @@
       "kontroller": [
         "Potansiyometre kablo ve konnektörünü kontrol edin.",
         "Gerekirse potansiyometreyi değiştirin.",
-        "Kaldırma potansiyometresi arızalı potansiyometresinin çıkış gerilimini ölçün",
+        "Potansiyometre çıkış gerilimini ölçün — kaldırma potansiyometresi.",
         "Potansiyometre konnektörünü ve kablo demetini kontrol edin",
         "Potansiyometre değerlerini yeniden kalibre edin",
         "Gerekirse potansiyometreyi değiştirin"
@@ -273,7 +273,7 @@
       ],
       "kontroller": [
         "Akım sensörü ve kablolarını kontrol edin.",
-        "Yükleme akım sensörü hatalı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — yükleme akım sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -337,7 +337,7 @@
       ],
       "kontroller": [
         "Yükleme FET modülünü ve güç direksiyon transistörünü kontrol edin.",
-        "Yükleme FET modülü açık / direksiyon transistörü açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — yükleme FET modülü.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -371,7 +371,7 @@
       ],
       "kontroller": [
         "Yükleme ve direksiyon kontaktörlerini kontrol edin.",
-        "Yükleme kontaktörü kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — yükleme kontaktörü.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -405,7 +405,7 @@
       ],
       "kontroller": [
         "Yükleme ve direksiyon kontaktör/sigortalarını kontrol edin.",
-        "Yükleme kontaktörü açık hattında süreklilik ölçümü yapın",
+        "Hattında süreklilik ölçümü yapın — yükleme kontaktörü.",
         "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
         "Kablo demetini görsel olarak inceleyin",
         "Kopan hattı onarın veya bileşeni değiştirin"
@@ -435,7 +435,7 @@
       ],
       "kontroller": [
         "Yükleme hattı ana sigortasını kontrol edin, gerekirse değiştirin.",
-        "Yükleme ana sigortası atmış sigortasını süreklilik testiyle kontrol edin",
+        "Sigortayı süreklilik testiyle kontrol edin — yükleme ana sigortası atmış.",
         "Sigorta yuvasını ve temas yüzeylerini inceleyin",
         "Sigorta sonrası devrede kısa devre olup olmadığını ölçün",
         "Gerekirse aynı değerde sigortayla değiştirin"
@@ -479,7 +479,7 @@
         "Güç direksiyon kontaktör sürücü bobini arızası"
       ],
       "kontroller": [
-        "Kontaktör sürücü bobinlerini ve F/R şalterini kontrol edin.",
+        "Bobinlerini ve F/R şalterini kontrol edin — kontaktör sürücü bobin/eprom/genel ciddi hatalar.",
         "EPROM verisini doğrulayın; gerekirse kontrolörü değiştirin."
       ],
       "ilgiliKodlar": [],
@@ -541,7 +541,7 @@
       ],
       "kontroller": [
         "Direksiyon tork sensörü ve kablolarını kontrol edin.",
-        "Güç direksiyon tork sensörü hatalı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — güç direksiyon tork sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -575,7 +575,7 @@
       ],
       "kontroller": [
         "Yürüyüş ve yükleme kontrolörlerinin sıcaklık sensörlerini kontrol edin.",
-        "Sürücü termik sensör hatalı sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — sürücü termik sensör.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"

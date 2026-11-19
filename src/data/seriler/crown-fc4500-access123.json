@@ -22,7 +22,7 @@
         "ACCESS3/ACCESS1 arayüz arızası (kod tek başına parça condemn etmez)"
       ],
       "kontroller": [
-        "ACCESS 1 ile ACCESS 3 arası CAN iletişimi zaman aşımı konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — ACCESS 1 ile ACCESS 3 arası CAN iletişimi.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -50,7 +50,7 @@
         "Kontrolör arızası (kanıtlanmış ACCESS2 değişimi gerektirmez)"
       ],
       "kontroller": [
-        "ACCESS 1 ile ACCESS 2 arası CAN iletişimi zaman aşımı konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — ACCESS 1 ile ACCESS 2 arası CAN iletişimi.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -78,7 +78,7 @@
         "Eşleşmeyen kontrolör konfigürasyonu"
       ],
       "kontroller": [
-        "Modele bağlı: ACCESS1 besleme elektrik hatası veya ayak varlığı anahtarı uyumsuzluğu ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — modele bağlı: ACCESS1 besleme elektrik.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -106,7 +106,7 @@
         "Tesisat hataları (otomatik yanık motor anlamına gelmez)"
       ],
       "kontroller": [
-        "DC kaldırma motoru M2 aşırı sıcak sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — DC kaldırma motoru M2.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -134,7 +134,7 @@
         "Model-seri kimliği doğrulanmadan kod yorumlanamaz"
       ],
       "kontroller": [
-        "Modele bağlı: ACCESS2 iç akım aşımı veya hidrolik güç modülü kısa devresi hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — modele bağlı: ACCESS2 iç akım aşımı veya hidrolik güç modülü.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -162,7 +162,7 @@
         "Geri bildirim algılama veya ACCESS2 kontrol kademesi sorunu"
       ],
       "kontroller": [
-        "ACCESS2 kaldırma motoru M2 gerilim geri bildirimi aralık dışı sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — ACCESS2 kaldırma motoru M2 gerilim geri bildirimi.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -190,7 +190,7 @@
         "ACCESS2 çıkışı, motor kablosu kısa devresi veya kaldırma motoru arızası (yalnız fırça aşınması değildir)"
       ],
       "kontroller": [
-        "Kaldırma motoru M2 güç çıkışlarında düşük gerilim sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — kaldırma motoru M2 güç çıkışları.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -217,7 +217,7 @@
         "ESR: batarya/rejenerasyon koşulları ve modül güç devresi"
       ],
       "kontroller": [
-        "Modele bağlı: ACCESS 2 CAN alım hatası veya hidrolik modül aşırı gerilimi konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — modele bağlı: ACCESS 2 CAN alım.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -244,7 +244,7 @@
         "ACCESS3 geri bildirim kademesi arızası (yanlış motor/modül teşhisi riski taşır)"
       ],
       "kontroller": [
-        "ACCESS3 seyr motoru M1 gerilim geri bildirimi aralık dışı sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — ACCESS3 seyr motoru M1 gerilim geri bildirimi.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -274,7 +274,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "ACCESS3 kontak girişi aşırı veya düşük gerilimde besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — ACCESS3 kontak girişi.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -301,7 +301,7 @@
         "FU1/konjektör koşulları (M1 tek başına suçlanamaz)"
       ],
       "kontroller": [
-        "Seyr motoru M1 güç terminallerinde yüksek gerilim sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — seyr motoru M1 güç terminalleri.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -385,7 +385,7 @@
         "Motorun mekanik durumu (kanıtlanmış enkoder arızası varsaymayın)"
       ],
       "kontroller": [
-        "ACCESS3 seyr motoru M1 hız geri bildirimi komutla uyuşmuyor sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — ACCESS3 seyr motoru M1 hız geri bildirimi komutla uyuşmuyor.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -414,7 +414,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "ACCESS3 hatalı yapılandırılmış veya ölçülen batarya gerilimi besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — ACCESS3.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -441,7 +441,7 @@
         "Kontrolör arızası (motor arızası doğrulanmış değildir)"
       ],
       "kontroller": [
-        "ACCESS 3 seyr güç köprüsünde düşük akım uyarısı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — ACCESS 3 seyr güç köprüsü.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"

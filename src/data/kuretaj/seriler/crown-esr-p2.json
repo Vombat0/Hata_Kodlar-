@@ -22,7 +22,7 @@
         "Kirli soğutma kanatçıkları veya hidrolik inverter iç kaybı"
       ],
       "kontroller": [
-        "Hidrolik sürücü modülü aşırı sıcaklık sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — hidrolik sürücü modülü.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -50,7 +50,7 @@
         "Termal sensör/devre sapması"
       ],
       "kontroller": [
-        "Hidrolik motor aşırı sıcak sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — hidrolik motor.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -78,7 +78,7 @@
         "Kirli soğutma kanatçıkları ya da hidrolik inverter kaynağı"
       ],
       "kontroller": [
-        "Hidrolik sürücü modülü yüksek sıcaklık güç düşürümü sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — hidrolik sürücü modülü.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -106,7 +106,7 @@
         "Yanlış sıcaklık eşiği yapılandırması"
       ],
       "kontroller": [
-        "Hidrolik sürücü modülü düşük sıcaklık uyarısı sıcaklığını ve akım değerini ölçün",
+        "Sıcaklık ve akım değerini ölçün — hidrolik sürücü modülü.",
         "Soğutma fanını ve hava kanallarını kontrol edin",
         "Yük ve çalışma döngüsünü gözden geçirin",
         "Termik sensör direncini ölçün"
@@ -134,7 +134,7 @@
         "Eşik konfigürasyonu uyumsuzluğu"
       ],
       "kontroller": [
-        "Hidrolik motor sıcaklığı alt çalışma sınırının altında sargı direncini ve yalıtımını ölçün",
+        "Sargı direncini ve yalıtımını ölçün — hidrolik motor sıcaklığı alt çalışma.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"
@@ -162,7 +162,7 @@
         "Modüllerden birinin ağ kademesi arızası"
       ],
       "kontroller": [
-        "Hidrolik sürücü modülünde CAN iletişim hatası konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "Konnektörleri söküp pin yüzeylerini kontrol edin — hidrolik sürücü modülünde CAN iletişim.",
         "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
         "İlgili kartın besleme gerilimini ölçün",
         "Kart yazılım sürümlerini karşılaştırın"
@@ -191,7 +191,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "POT2 hidrolik giriş gerilimi üst sınırı aşıyor besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — POT2 hidrolik giriş gerilimi üst.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -219,7 +219,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "POT2 hidrolik giriş gerilimi alt sınırın altında besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — POT2 hidrolik giriş gerilimi alt.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -247,7 +247,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "POT3 hidrolik giriş gerilimi üst sınırı aşıyor besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — POT3 hidrolik giriş gerilimi üst.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -275,7 +275,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "POT3 hidrolik giriş gerilimi alt sınırın altında besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — POT3 hidrolik giriş gerilimi alt.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -303,7 +303,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "POT4 hidrolik giriş gerilimi üst sınırı aşıyor besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — POT4 hidrolik giriş gerilimi üst.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -331,7 +331,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "POT4 hidrolik giriş gerilimi alt sınırın altında besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — POT4 hidrolik giriş gerilimi alt.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -359,7 +359,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "POT5 hidrolik giriş gerilimi üst sınırı aşıyor besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — POT5 hidrolik giriş gerilimi üst.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -387,7 +387,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "POT5 hidrolik giriş gerilimi alt sınırın altında besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — POT5 hidrolik giriş gerilimi alt.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -415,7 +415,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "POT6 hidrolik giriş gerilimi üst sınırı aşıyor besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — POT6 hidrolik giriş gerilimi üst.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -443,7 +443,7 @@
       ],
       "kontroller": [
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "POT6 hidrolik giriş gerilimi alt sınırın altında besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — POT6 hidrolik giriş gerilimi alt.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -470,7 +470,7 @@
         "HDM sürücü kademesi arızası"
       ],
       "kontroller": [
-        "SVH kaldırma valfi çıkışında kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — SVH kaldırma valfi çıkışı.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -498,7 +498,7 @@
         "HDM çıkış kademesi"
       ],
       "kontroller": [
-        "PVL indirme valfi çıkışında kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — PVL indirme valfi çıkışı.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -526,7 +526,7 @@
         "Sürücü kademesi hasarı"
       ],
       "kontroller": [
-        "PVRT geri çekme (retract) valfi çıkışında kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — PVRT geri çekme (retract) valfi çıkışı.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -554,7 +554,7 @@
         "HDM çıkış sürücüsü"
       ],
       "kontroller": [
-        "PVRE uzatma (extend) valfi çıkışında kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — PVRE uzatma (extend) valfi çıkışı.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -582,7 +582,7 @@
         "Sürücü kademesi arızası"
       ],
       "kontroller": [
-        "PVAL yardımcı hidrolik valf SOL çıkışında kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — PVAL yardımcı hidrolik valf SOL çıkışı.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -610,7 +610,7 @@
         "HDM valf sürücüsü"
       ],
       "kontroller": [
-        "PVAR yardımcı hidrolik valf SAĞ çıkışında kısa devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — PVAR yardımcı hidrolik valf SAĞ çıkışı.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"

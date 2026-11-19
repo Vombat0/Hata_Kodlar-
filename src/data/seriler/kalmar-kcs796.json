@@ -26,7 +26,7 @@
       "kontroller": [
         "ECU 796 besleme sigortalarını ve kablo bağlantılarını kontrol edin.",
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "ECU 796 besleme gerilimi hatası besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — ECU 796 besleme gerilimi.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -83,7 +83,7 @@
       "kontroller": [
         "10V referans hattını ve bağlı sensörleri kontrol edin.",
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "ECU 796 10V referans gerilim hatası besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — ECU 796 10V referans gerilim.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
@@ -110,7 +110,7 @@
       "kontroller": [
         "Hidrolik fonksiyonları kapatın.",
         "Elektrikli servo için yük kaldırma hattı kesici şalterinin basılı olup olmadığını kontrol edin.",
-        "ECU 796 PWM çıkış besleme hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — ECU 796 PWM çıkış besleme.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -138,7 +138,7 @@
       "kontroller": [
         "Kontayı açıp kapatarak ECU 796'yı yeniden başlatın.",
         "Hata sürerse servise başvurun.",
-        "XA-PWM K2 iletişim hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — XA-PWM K2 iletişim.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -166,7 +166,7 @@
       "kontroller": [
         "Kontayı açıp kapatarak ECU 796'yı yeniden başlatın.",
         "Hata sürerse servise başvurun.",
-        "XA-PWM K3 iletişim hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — XA-PWM K3 iletişim.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -192,8 +192,8 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 1 kullanılmamalı.",
-        "Hidrolik fonksiyon 1 kol giriş sinyali hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kullanılmamalı — hidrolik fonksiyon 1 kol giriş sinyali.",
+        "Kablo ve konnektör bağlantılarını kontrol edin — hidrolik fonksiyon 1 kol giriş sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -219,8 +219,8 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 2 kullanılmamalı.",
-        "Hidrolik fonksiyon 2 kol giriş sinyali hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kullanılmamalı — hidrolik fonksiyon 2 kol giriş sinyali.",
+        "Kablo ve konnektör bağlantılarını kontrol edin — hidrolik fonksiyon 2 kol giriş sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -246,8 +246,8 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 3 kullanılmamalı.",
-        "Hidrolik fonksiyon 3 kol giriş sinyali hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kullanılmamalı — hidrolik fonksiyon 3 kol giriş sinyali.",
+        "Kablo ve konnektör bağlantılarını kontrol edin — hidrolik fonksiyon 3 kol giriş sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -273,8 +273,8 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 4 kullanılmamalı.",
-        "Hidrolik fonksiyon 4 kol giriş sinyali hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kullanılmamalı — hidrolik fonksiyon 4 kol giriş sinyali.",
+        "Kablo ve konnektör bağlantılarını kontrol edin — hidrolik fonksiyon 4 kol giriş sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -300,8 +300,8 @@
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 5 kullanılmamalı.",
-        "Hidrolik fonksiyon 5 kol giriş sinyali hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kullanılmamalı — hidrolik fonksiyon 5 kol giriş sinyali.",
+        "Kablo ve konnektör bağlantılarını kontrol edin — hidrolik fonksiyon 5 kol giriş sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -328,8 +328,8 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 1 kullanılmamalı.",
-        "Hidrolik fonksiyon 1A yön valfi kısa/açık devre hattının şaseye karşı direncini ölçün",
+        "Kullanılmamalı — hidrolik fonksiyon 1A yön valfi.",
+        "Şaseye karşı direnci ölçün — hidrolik fonksiyon 1A yön valfi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -356,8 +356,8 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 1 kullanılmamalı.",
-        "Hidrolik fonksiyon 1B yön valfi kısa/açık devre hattının şaseye karşı direncini ölçün",
+        "Kullanılmamalı — hidrolik fonksiyon 1B yön valfi.",
+        "Şaseye karşı direnci ölçün — hidrolik fonksiyon 1B yön valfi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -384,8 +384,8 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 2 kullanılmamalı.",
-        "Hidrolik fonksiyon 2A yön valfi kısa/açık devre hattının şaseye karşı direncini ölçün",
+        "Kullanılmamalı — hidrolik fonksiyon 2A yön valfi.",
+        "Şaseye karşı direnci ölçün — hidrolik fonksiyon 2A yön valfi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -412,8 +412,8 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 2 kullanılmamalı.",
-        "Hidrolik fonksiyon 2B yön valfi kısa/açık devre hattının şaseye karşı direncini ölçün",
+        "Kullanılmamalı — hidrolik fonksiyon 2B yön valfi.",
+        "Şaseye karşı direnci ölçün — hidrolik fonksiyon 2B yön valfi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -440,8 +440,8 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 3 kullanılmamalı.",
-        "Hidrolik fonksiyon 3A yön valfi kısa/açık devre hattının şaseye karşı direncini ölçün",
+        "Kullanılmamalı — hidrolik fonksiyon 3A yön valfi.",
+        "Şaseye karşı direnci ölçün — hidrolik fonksiyon 3A yön valfi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -468,8 +468,8 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 3 kullanılmamalı.",
-        "Hidrolik fonksiyon 3B yön valfi kısa/açık devre hattının şaseye karşı direncini ölçün",
+        "Kullanılmamalı — hidrolik fonksiyon 3B yön valfi.",
+        "Şaseye karşı direnci ölçün — hidrolik fonksiyon 3B yön valfi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -496,8 +496,8 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 4 kullanılmamalı.",
-        "Hidrolik fonksiyon 4A yön valfi kısa/açık devre hattının şaseye karşı direncini ölçün",
+        "Kullanılmamalı — hidrolik fonksiyon 4A yön valfi.",
+        "Şaseye karşı direnci ölçün — hidrolik fonksiyon 4A yön valfi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -524,8 +524,8 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 4 kullanılmamalı.",
-        "Hidrolik fonksiyon 4B yön valfi kısa/açık devre hattının şaseye karşı direncini ölçün",
+        "Kullanılmamalı — hidrolik fonksiyon 4B yön valfi.",
+        "Şaseye karşı direnci ölçün — hidrolik fonksiyon 4B yön valfi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -552,8 +552,8 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 5 kullanılmamalı.",
-        "Hidrolik fonksiyon 5A yön valfi kısa/açık devre hattının şaseye karşı direncini ölçün",
+        "Kullanılmamalı — hidrolik fonksiyon 5A yön valfi.",
+        "Şaseye karşı direnci ölçün — hidrolik fonksiyon 5A yön valfi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -580,8 +580,8 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 5 kullanılmamalı.",
-        "Hidrolik fonksiyon 5B yön valfi kısa/açık devre hattının şaseye karşı direncini ölçün",
+        "Kullanılmamalı — hidrolik fonksiyon 5B yön valfi.",
+        "Şaseye karşı direnci ölçün — hidrolik fonksiyon 5B yön valfi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -609,7 +609,7 @@
       ],
       "kontroller": [
         "Dikey tutuş fonksiyonunu kapatın.",
-        "Dikey tutuş (vertical hold) sensör hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — dikey tutuş (vertical hold) sensör.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -637,7 +637,7 @@
       ],
       "kontroller": [
         "Kaldırma yüksekliği ön seçimini kapatın.",
-        "Ön seçilen kaldırma yüksekliği sensör hatası besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — ön seçilen kaldırma.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -664,7 +664,7 @@
       ],
       "kontroller": [
         "CTX sıkıştırma ünitesi yerine manuel sıkıştırma kontrolüne geçin.",
-        "CTX iletişim hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — CTX iletişim.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -692,7 +692,7 @@
       ],
       "kontroller": [
         "Basınç sensörünü ve bağlantılarını kontrol edin; gerekirse servise başvurun.",
-        "Sıkıştırma ataşmanı P1 basınç sensörü arızalı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — sıkıştırma ataşmanı P1 basınç sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -721,7 +721,7 @@
       "kontroller": [
         "Basınç sensörünü ve bağlantılarını kontrol edin.",
         "Servise başvurun.",
-        "Sıkıştırma ataşmanı P2 basınç sensörü arızalı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — sıkıştırma ataşmanı P2 basınç sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -748,8 +748,8 @@
         "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı fonksiyonunu kullanmayın.",
-        "Sıkıştırma ataşmanı yön valfi kısa/açık devre hattının şaseye karşı direncini ölçün",
+        "Fonksiyonunu kullanmayın — sıkıştırma ataşmanı yön valfi.",
+        "Şaseye karşı direnci ölçün — sıkıştırma ataşmanı yön valfi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -777,7 +777,7 @@
       ],
       "kontroller": [
         "Sıkıştırma ataşmanı fonksiyonunu kullanmayın.",
-        "Ataşman basıncı ON/OFF yön valfi kısa/açık devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — ataşman basıncı ON/OFF yön valfi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -805,7 +805,7 @@
       ],
       "kontroller": [
         "Sol kol fonksiyonunu kullanmayın.",
-        "Sol kol ON/OFF yön valfi kısa/açık devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — sol kol ON/OFF yön valfi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -833,7 +833,7 @@
       ],
       "kontroller": [
         "Sağ kol fonksiyonunu kullanmayın.",
-        "Sağ kol ON/OFF yön valfi kısa/açık devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — sağ kol ON/OFF yön valfi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -861,7 +861,7 @@
       ],
       "kontroller": [
         "Üst sol kol fonksiyonunu kullanmayın.",
-        "Üst sol kol ON/OFF yön valfi kısa/açık devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — üst sol kol ON/OFF yön valfi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -889,7 +889,7 @@
       ],
       "kontroller": [
         "Orta sağ kol fonksiyonunu kullanmayın.",
-        "Orta sağ kol ON/OFF yön valfi kısa/açık devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — orta sağ kol ON/OFF yön valfi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -917,7 +917,7 @@
       ],
       "kontroller": [
         "Orta sol kol fonksiyonunu kullanmayın.",
-        "Orta sol kol ON/OFF yön valfi kısa/açık devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — orta sol kol ON/OFF yön valfi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -945,7 +945,7 @@
       ],
       "kontroller": [
         "Üst sağ kol fonksiyonunu kullanmayın.",
-        "Üst sağ kol ON/OFF yön valfi kısa/açık devre hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — üst sağ kol ON/OFF yön valfi.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -972,8 +972,8 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı fonksiyonunu kullanmayın.",
-        "Sıkıştırma ataşmanı açma basınç sensörü arızalı besleme ve sinyal gerilimini ölçün",
+        "Fonksiyonunu kullanmayın — sıkıştırma ataşmanı açma basınç sensörü.",
+        "Besleme ve sinyal gerilimini ölçün — sıkıştırma ataşmanı açma basınç sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -1000,8 +1000,8 @@
         "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı fonksiyonunu kullanmayın.",
-        "Sıkıştırma ataşmanı kapama basınç sensörü arızalı besleme ve sinyal gerilimini ölçün",
+        "Fonksiyonunu kullanmayın — sıkıştırma ataşmanı kapama basınç sensörü.",
+        "Besleme ve sinyal gerilimini ölçün — sıkıştırma ataşmanı kapama basınç sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -1028,7 +1028,7 @@
       ],
       "kontroller": [
         "Sağ/sol kol kapatma hattını kullanmayın.",
-        "Sol/sağ kol hattı kesici şalteri arızalı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — sol/sağ kol hattı kesici şalteri.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1055,7 +1055,7 @@
       ],
       "kontroller": [
         "Yükü indirin.",
-        "Maksimum yük aşıldı ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — maksimum yük aşıldı.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1083,7 +1083,7 @@
       ],
       "kontroller": [
         "İlgili valfi ve devresini kontrol edin; gerekirse servise başvurun.",
-        "Sıkıştırma ataşmanı üst sol baypas valfi çalışmıyor bobin direncini ölçün",
+        "Bobin direncini ölçün — sıkıştırma ataşmanı üst sol baypas valfi çalışmıyor.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -1111,7 +1111,7 @@
       ],
       "kontroller": [
         "İlgili valfi ve devresini kontrol edin; gerekirse servise başvurun.",
-        "Sıkıştırma ataşmanı orta sol baypas valfi çalışmıyor bobin direncini ölçün",
+        "Bobin direncini ölçün — sıkıştırma ataşmanı orta sol baypas valfi çalışmıyor.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -1139,7 +1139,7 @@
       ],
       "kontroller": [
         "İlgili valfi ve devresini kontrol edin; gerekirse servise başvurun.",
-        "Sıkıştırma ataşmanı sol sıralama valfi çalışmıyor bobin direncini ölçün",
+        "Bobin direncini ölçün — sıkıştırma ataşmanı sol sıralama valfi çalışmıyor.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -1167,7 +1167,7 @@
       ],
       "kontroller": [
         "İlgili valfi ve devresini kontrol edin; gerekirse servise başvurun.",
-        "Sıkıştırma ataşmanı üst sağ baypas valfi çalışmıyor bobin direncini ölçün",
+        "Bobin direncini ölçün — sıkıştırma ataşmanı üst sağ baypas valfi çalışmıyor.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -1195,7 +1195,7 @@
       ],
       "kontroller": [
         "İlgili valfi ve devresini kontrol edin; gerekirse servise başvurun.",
-        "Sıkıştırma ataşmanı orta sağ baypas valfi çalışmıyor bobin direncini ölçün",
+        "Bobin direncini ölçün — sıkıştırma ataşmanı orta sağ baypas valfi çalışmıyor.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -1223,7 +1223,7 @@
       ],
       "kontroller": [
         "İlgili valfi ve devresini kontrol edin; gerekirse servise başvurun.",
-        "Sıkıştırma ataşmanı sağ sıralama valfi çalışmıyor bobin direncini ölçün",
+        "Bobin direncini ölçün — sıkıştırma ataşmanı sağ sıralama valfi çalışmıyor.",
         "Selenoid besleme hattında süreklilik kontrolü yapın",
         "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
         "Gerekirse selenoidi veya valfi değiştirin"
@@ -1251,7 +1251,7 @@
       ],
       "kontroller": [
         "İlgili basınç sensörünü ve devresini kontrol edin; gerekirse servise başvurun.",
-        "Sıkıştırma ataşmanı uzun sol kol P3 basınç sensörü arızalı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — sıkıştırma ataşmanı uzun sol kol P3 basınç sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -1279,7 +1279,7 @@
       ],
       "kontroller": [
         "İlgili basınç sensörünü ve devresini kontrol edin; gerekirse servise başvurun.",
-        "Sıkıştırma ataşmanı kısa sol kol P3 basınç sensörü arızalı hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — sıkıştırma ataşmanı.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1307,7 +1307,7 @@
       ],
       "kontroller": [
         "İlgili basınç sensörünü ve devresini kontrol edin; gerekirse servise başvurun.",
-        "Sıkıştırma ataşmanı uzun sağ kol P3 basınç sensörü arızalı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — sıkıştırma ataşmanı uzun sağ kol P3 basınç sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -1335,7 +1335,7 @@
       ],
       "kontroller": [
         "İlgili basınç sensörünü ve devresini kontrol edin; gerekirse servise başvurun.",
-        "Sıkıştırma ataşmanı kısa sağ kol P3 basınç sensörü arızalı hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — sıkıştırma ataşmanı.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -1362,7 +1362,7 @@
       ],
       "kontroller": [
         "Seçim şalterini ve devresini kontrol edin.",
-        "Sıkıştırma basıncı seçim şalteri hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — sıkıştırma basıncı seçim şalteri.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1390,7 +1390,7 @@
       ],
       "kontroller": [
         "İlgili basınç sensörünü ve devresini kontrol edin.",
-        "Sıkıştırma ataşmanı sol kol P1 basınç sensörü arızalı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — sıkıştırma ataşmanı sol kol P1 basınç sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -1418,7 +1418,7 @@
       ],
       "kontroller": [
         "İlgili basınç sensörünü ve devresini kontrol edin.",
-        "Sıkıştırma ataşmanı sol kol P2 basınç sensörü arızalı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — sıkıştırma ataşmanı sol kol P2 basınç sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -1446,7 +1446,7 @@
       ],
       "kontroller": [
         "İlgili basınç sensörünü ve devresini kontrol edin.",
-        "Sıkıştırma ataşmanı sağ kol P1 basınç sensörü arızalı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — sıkıştırma ataşmanı sağ kol P1 basınç sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -1474,7 +1474,7 @@
       ],
       "kontroller": [
         "İlgili basınç sensörünü ve devresini kontrol edin.",
-        "Sıkıştırma ataşmanı sağ kol P3 basınç sensörü arızalı besleme ve sinyal gerilimini ölçün",
+        "Besleme ve sinyal gerilimini ölçün — sıkıştırma ataşmanı sağ kol P3 basınç sensörü.",
         "Sensör konnektörünü ve kablo demetini inceleyin",
         "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
         "Gerekirse sensörü değiştirin"
@@ -1501,7 +1501,7 @@
       ],
       "kontroller": [
         "Şanzıman hata kodları tablosuna bakın.",
-        "Şanzıman kontrol ünitesinden gelen hata kodu ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — şanzıman kontrol ünitesinden gelen hata kodu.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -1528,8 +1528,8 @@
         "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Motor kontrol ünitesi hata kodlarına bakın.",
-        "Motor kontrol ünitesinden gelen hata kodu sargı direncini ve yalıtımını ölçün",
+        "Hata kodlarına bakın — motor kontrol ünitesinden gelen hata kodu.",
+        "Sargı direncini ve yalıtımını ölçün — motor kontrol ünitesinden gelen hata kodu.",
         "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
         "Motor sıcaklık sensörü direncini ölçün",
         "Gerekirse motoru servise gönderin"

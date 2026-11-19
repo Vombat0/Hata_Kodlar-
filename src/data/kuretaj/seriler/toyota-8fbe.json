@@ -2641,8 +2641,8 @@
         "Potansiyometre kalibrasyonu veya ayar hatası"
       ],
       "kontroller": [
-        "Fren potansiyometresinin doğru takıldığını kontrol edin (bkz. fren potansiyometresi, bölüm 02).",
-        "Fren potansiyometresinin kalibrasyonunu tekrarlayın."
+        "Potansiyometresinin doğru takıldığını kontrol edin (bkz. fren potansiyometresi, bölüm 02) — fren potansiyometresi kalibrasyonu gerekiyor.",
+        "Potansiyometresinin kalibrasyonunu tekrarlayın — fren potansiyometresi kalibrasyonu gerekiyor."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 181,
@@ -4231,8 +4231,8 @@
         "Potansiyometre kalibrasyonu veya ayar hatası"
       ],
       "kontroller": [
-        "Fren potansiyometresinin doğru takıldığını kontrol edin (bkz. fren potansiyometresi, bölüm 02).",
-        "Fren potansiyometresinin kalibrasyonunu tekrarlayın."
+        "Potansiyometresinin doğru takıldığını kontrol edin (bkz. fren potansiyometresi, bölüm 02) — fren potansiyometresi kalibrasyonu gerekiyor.",
+        "Potansiyometresinin kalibrasyonunu tekrarlayın — fren potansiyometresi kalibrasyonu gerekiyor."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 209,
@@ -7338,7 +7338,7 @@
       ],
       "kontroller": [
         "Kendi kendine tanılama fonksiyonunu kontrol edin.",
-        "Kaldırma potansiyometresinin kalibrasyonunu tekrarlayın.",
+        "Potansiyometresinin kalibrasyonunu tekrarlayın — kaldırma potansiyometresi.",
         "Kaldırma ve eğim potansiyometrelerini ters çevirin ve kalibrasyonları tekrarlayın.",
         "Hata kodu 8E2'dan 8E3'ye değişirse aslen kaldırma için kullanılan potansiyometreyi değiştirin.",
         "Hata kodu 8E2 olarak kalırsa arıza kol dayama kablo demetindedir veya kol dayama kartı hatalıdır."
@@ -7366,7 +7366,7 @@
       ],
       "kontroller": [
         "Kendi kendine tanılama fonksiyonunu kontrol edin.",
-        "Eğim potansiyometresinin kalibrasyonunu tekrarlayın.",
+        "Potansiyometresinin kalibrasyonunu tekrarlayın — eğim potansiyometresi.",
         "Kaldırma ve eğim potansiyometrelerini ters çevirin ve kalibrasyonları tekrarlayın.",
         "Hata kodu 8E3'dan 8E2'ye değişirse aslen eğim için kullanılan potansiyometreyi değiştirin.",
         "Hata kodu 8E3 olarak kalırsa arıza kol dayama kablo demetindedir veya kol dayama kartı hatalıdır."
@@ -8789,7 +8789,7 @@
       ],
       "kontroller": [
         "Kendi kendine tanılama fonksiyonunu kontrol edin.",
-        "Kaldırma potansiyometresinin kalibrasyonunu tekrarlayın.",
+        "Potansiyometresinin kalibrasyonunu tekrarlayın — kaldırma potansiyometresi.",
         "Kaldırma ve eğim potansiyometrelerini ters çevirin ve kalibrasyonları tekrarlayın.",
         "Hata kodu BE6'dan BE7'ye değişirse aslen kaldırma için kullanılan potansiyometreyi değiştirin.",
         "Hata kodu BE6 olarak kalırsa arıza kol dayama kablo demetindedir veya kol dayama kartı hatalıdır."
@@ -8817,7 +8817,7 @@
       ],
       "kontroller": [
         "Kendi kendine tanılama fonksiyonunu kontrol edin.",
-        "Eğim potansiyometresinin kalibrasyonunu tekrarlayın.",
+        "Potansiyometresinin kalibrasyonunu tekrarlayın — eğim potansiyometresi.",
         "Kaldırma ve eğim potansiyometrelerini ters çevirin ve kalibrasyonları tekrarlayın.",
         "Hata kodu BE7'dan BE6'ye değişirse aslen eğim için kullanılan potansiyometreyi değiştirin.",
         "Hata kodu BE7 olarak kalırsa arıza kol dayama kablo demetindedir veya kol dayama kartı hatalıdır."

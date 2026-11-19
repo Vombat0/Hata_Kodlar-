@@ -73,7 +73,7 @@
         "Kontrolör giriş devresi arızası"
       ],
       "kontroller": [
-        "Sıfırlama anahtarı sinyalini teşhis cihazıyla okuyun.",
+        "Sinyalini teşhis cihazıyla okuyun — sıfırlama anahtarı sinyali, alt kod.",
         "Sıfırlama anahtarı kablo demetini ve konektörünü inceleyin.",
         "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
       ],
@@ -100,7 +100,7 @@
         "Kontrolör giriş devresi arızası"
       ],
       "kontroller": [
-        "Teşhis anahtarı sinyalini teşhis cihazıyla okuyun.",
+        "Sinyalini teşhis cihazıyla okuyun — teşhis anahtarı sinyali, alt kod.",
         "Teşhis anahtarı kablo demetini ve konektörünü inceleyin.",
         "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
       ],
@@ -571,8 +571,8 @@
         "Anahtar mekanizmasında sıkışma"
       ],
       "kontroller": [
-        "İleri eğim anahtarı sinyalini teşhis cihazıyla okuyun.",
-        "İleri eğim anahtarı kablo demetini ve konektörünü inceleyin.",
+        "Sinyalini teşhis cihazıyla okuyun — ileri eğim anahtarı 2 dakika.",
+        "Kablo demetini ve konektörünü inceleyin — ileri eğim anahtarı 2 dakika.",
         "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
       ],
       "ilgiliKodlar": [],
@@ -751,8 +751,8 @@
         "Şalter montaj ayarının bozulması"
       ],
       "kontroller": [
-        "Çatal yükseklik şalteri sinyalini teşhis cihazıyla okuyun.",
-        "Çatal yükseklik şalteri kablo demetini ve konektörünü inceleyin.",
+        "Sinyalini teşhis cihazıyla okuyun — çatal yükseklik şalteri anormalliği, şalterli.",
+        "Kablo demetini ve konektörünü inceleyin — çatal yükseklik şalteri anormalliği, şalterli.",
         "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
       ],
       "ilgiliKodlar": [],
@@ -857,8 +857,8 @@
         "Sinyal hattı temassızlığı"
       ],
       "kontroller": [
-        "Direksiyon simidi açı ölçümü sinyalini teşhis cihazıyla okuyun.",
-        "Direksiyon simidi açı ölçümü kablo demetini ve konektörünü inceleyin.",
+        "Sinyalini teşhis cihazıyla okuyun — direksiyon simidi açı ölçümü.",
+        "Kablo demetini ve konektörünü inceleyin — direksiyon simidi açı ölçümü.",
         "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
       ],
       "ilgiliKodlar": [],

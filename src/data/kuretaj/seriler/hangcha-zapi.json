@@ -27,7 +27,7 @@
       ],
       "kontroller": [
         "Kontrol ünitesini kontrol edin; gerekirse değiştirin.",
-        "Donanım hata emniyeti / watchdog arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — donanım hata emniyeti / watchdog.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -61,7 +61,7 @@
       ],
       "kontroller": [
         "Motor sargı kablolarını ve akım sensörlerini kontrol edin.",
-        "Motor M- kısa devre / alan sargısı arızası hattının şaseye karşı direncini ölçün",
+        "Şaseye karşı direnci ölçün — motor M.",
         "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
         "Kablo demetinde ezilme veya aşınma kontrolü yapın",
         "Arızalı bölümü onarın veya kabloyu değiştirin"
@@ -94,7 +94,7 @@
       ],
       "kontroller": [
         "VSC hattını ve gaz potansiyometresini kontrol edin.",
-        "Hız referans (VSC) sinyali arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — hız referans (VSC) sinyali.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -127,7 +127,7 @@
       ],
       "kontroller": [
         "Gaz potansiyometresini ve sıralama parametrelerini kontrol edin.",
-        "Start sequence (kilitleme) hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — start sequence (kilitleme).",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
@@ -158,7 +158,7 @@
       ],
       "kontroller": [
         "Bobin devresini ve sürücü çıkışını kontrol edin.",
-        "Kontaktör sürücü çıkışı aşırı akım bobin direncini ölçün",
+        "Bobin direncini ölçün — kontaktör sürücü çıkışı.",
         "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
         "Bobin besleme hattında süreklilik ölçün",
         "Gerekirse kontaktörü değiştirin"
@@ -190,7 +190,7 @@
       ],
       "kontroller": [
         "Kontaktörü ve sürücü devresini hemen kontrol edin.",
-        "Ana kontaktör yapışık bobin direncini ölçün",
+        "Bobin direncini ölçün — ana kontaktör yapışık.",
         "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
         "Bobin besleme hattında süreklilik ölçün",
         "Gerekirse kontaktörü değiştirin"
@@ -254,7 +254,7 @@
       ],
       "kontroller": [
         "Bobin kablolarını ve kontaktörü kontrol edin.",
-        "Kontaktör algılanamadı / kapanmadı bobin direncini ölçün",
+        "Bobin direncini ölçün — kontaktör algılanamadı / kapanmadı.",
         "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
         "Bobin besleme hattında süreklilik ölçün",
         "Gerekirse kontaktörü değiştirin"
@@ -288,7 +288,7 @@
       "kontroller": [
         "Akü gerilimini ve şarj bağlantısını kontrol edin.",
         "Akü gerilimini yüklü ve yüksüz durumda ölçün",
-        "Aşırı gerilim besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Besleme konnektörünü ve ana sigortayı kontrol edin — aşırı gerilim.",
         "Hattaki gerilim kaybını ölçün",
         "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],

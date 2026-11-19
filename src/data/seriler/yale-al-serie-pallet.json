@@ -265,7 +265,7 @@
       "kontroller": [
         "Müdahale gerekmez",
         "Veri aktarımı bitince araç kendiliğinden çalışmaya başlar; beklenir",
-        "Kontrolör, MDI'den saat sayar belleğini devralıyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "Kablo ve konnektör bağlantılarını kontrol edin — kontrolör, MDI'den saat sayar belleğini devralıyor.",
         "İlgili bileşenin besleme gerilimini ölçün",
         "Bileşeni görsel olarak inceleyin",
         "Gerekirse bileşeni değiştirin"
