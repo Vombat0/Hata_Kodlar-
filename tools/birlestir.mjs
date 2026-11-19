@@ -51,6 +51,20 @@ const DURUM_ENUM = new Set(['dogrulandi', 'incelemede', 'taslak']);
 
 const ATLANAN_KLASORLER = new Set(['raw', 'tools', '__pycache__', 'node_modules', '.git']);
 const ON_EKLER = ['cl-', 'fec-', 'fps_', 'fps-', 'rm-', 'g1-', 'g2-'];
+
+/** Marka kimligi normalizasyonu: farkli kaynaklar ayni markaya farkli id verebilir. */
+const MARKA_ESLEME = {
+  cat: 'caterpillar',
+  caterpillar: 'caterpillar',
+  mitsubishi: 'mitsubishi',
+  'mitsubishi-caterpillar': 'mitsubishi',
+  nissan: 'nissan-unicarriers',
+  'nissan-forklift': 'nissan-unicarriers',
+  unicarriers: 'nissan-unicarriers',
+  ep: 'ep-equipment',
+  'ep-equipment': 'ep-equipment',
+  'big-joe': 'ep-equipment',
+};
 const RENK_PALETI = ['#0EA5E9', '#8B5CF6', '#F59E0B', '#10B981', '#EF4444', '#06B6D4', '#EC4899', '#84CC16'];
 
 const rapor = {
@@ -498,7 +512,8 @@ async function seriDosyasiniIsle(dosya, kaynak) {
 
   const normalize = seriNormalize(ham, ctx);
   if (!normalize) return;
-  const { marka, seri: seriAdi, ust, hamKodlar } = normalize;
+  const { marka: hamMarka, seri: seriAdi, ust, hamKodlar } = normalize;
+  const marka = MARKA_ESLEME[hamMarka] ?? hamMarka;
 
   const anahtar = `${marka}|${seriAdi}`;
   let seri = seriHarita.get(anahtar);
@@ -690,7 +705,7 @@ for (const id of kuretajKarantina.markalar) markaHarita.delete(id);
 /* ---------- KURETAJ SERILERINI UYGULA (otomatigin onune gecer) ---------- */
 let kuretajSeriSayisi = 0;
 for (const [anahtar, icerik] of kuretajSeriler) {
-  const markaId = String(icerik.marka);
+  const markaId = MARKA_ESLEME[String(icerik.marka)] ?? String(icerik.marka);
   if (kuretajKarantina.markalar.has(markaId)) continue;
 
   if (!markaHarita.has(markaId)) {

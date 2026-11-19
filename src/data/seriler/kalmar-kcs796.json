@@ -13,20 +13,14 @@
       "aliaslar": [],
       "sistem": "elektrik",
       "baslik": "ECU 796 besleme gerilimi hatası",
-      "aciklama": "ECU 796 besleme gerilimi izin verilen bandın dışına çıkmış; valf çıkışları ve giriş ölçümleri güvenilmezdir. Makine durdurulur ya da devir düşürülerek ünite korunur.",
+      "aciklama": "ECU 796 besleme gerilimi hatası. Besleme gerilimi aralık dışında; çalışmaya devam edilemez veya motor devri düşürülür.",
       "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Besleme hattındaki sigortanın atması veya yuvada gevşemesi",
-        "Akü ve şarj geriliminin sınır dışına çıkması",
-        "Şasi bağlantı noktasında oksitlenme",
-        "Ünite içi besleme regülatörünün arızalanması"
+        "ECU 796 besleme gerilimi hatası"
       ],
       "kontroller": [
-        "ECU 796 besleme uçlarında gerilimi yük altında ölçün",
-        "Sigorta ve klemeleri kontrol edip temizleyin",
-        "Şasi vidasının temas direncini ölçün",
-        "Akü ve şarj sistemini doğrulayın"
+        "ECU 796 besleme sigortalarını ve kablo bağlantılarını kontrol edin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -39,20 +33,15 @@
       "aliaslar": [],
       "sistem": "elektrik",
       "baslik": "ECU 796 bellek toplam (checksum) hatası",
-      "aciklama": "ECU 796 bellek toplamı doğrulanamadı; program veya kalibrasyon verisi bozuk olabilir. Çalışma engellendiği için göstergede STOP uyarısı belirir.",
+      "aciklama": "ECU 796 bellek toplam (checksum) hatası. Bellek verisi bozuk; çalışmaya devam edilemez. Kontayı kapatıp açarak üniteyi yeniden başlatıp programı yükleyin.",
       "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Yazılım yükleme işleminin yarıda kesilmesi",
-        "Bellek bloğunun bozulması",
-        "Gerilim düşümü sırasında gerçekleşen yazma hatası",
-        "Bellek bileşeninin yaşlanması"
+        "ECU 796 bellek toplam (checksum) hatası"
       ],
       "kontroller": [
-        "Kontayı kapatıp açarak bellek denetimini tekrarlatın",
-        "Gerekirse program ve kalibrasyon verilerini yeniden yükleyin",
-        "Besleme geriliminin kesintisiz olduğunu doğrulayın",
-        "Hata sürerse üniteyi servise gönderin"
+        "Kontayı kapatıp açarak ECU 796'yı yeniden başlatın ve programı yükleyin.",
+        "Hata sürerse servise başvurun."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -65,20 +54,14 @@
       "aliaslar": [],
       "sistem": "elektrik",
       "baslik": "ECU 796 10V referans gerilim hatası",
-      "aciklama": "ECU 796 üzerindeki 10V referans gerilimi aralık dışına düştü; bu hattaki kol ve sensör girişleri geçersiz okunur. Güvenli olmayan komutlar engellenmek için çalışma durdurulur.",
+      "aciklama": "ECU 796 10V referans gerilim hatası. Referans gerilim aralık dışında; çalışmaya devam edilemez veya motor devri düşürülür.",
       "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Referans hattına bağlı bir girişin hattı kısa düşürmesi",
-        "Konnektörde nem kaynaklı kaçak yolu",
-        "Referans regülatörünün sürüklenmesi",
-        "Kablo demetinde akü hattına temas"
+        "ECU 796 10V referans gerilim hatası"
       ],
       "kontroller": [
-        "10V referans ucunda gerilimi ölçün",
-        "Girişleri tek ayırarak kısa düşüren halkayı bulun",
-        "Konnektörlerde nem ve oksit taraması yapın",
-        "Ünite kaynaklıysa kontrolcüyü değiştirin"
+        "10V referans hattını ve bağlı sensörleri kontrol edin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -91,20 +74,15 @@
       "aliaslar": [],
       "sistem": "hidrolik",
       "baslik": "ECU 796 PWM çıkış besleme hatası",
-      "aciklama": "PWM çıkış katının besleme hattı gerilimi yok; hidrolik valfler kumanda edilemez ve hidrolik çalışmaz. Kontrolcü çıkışları kapatarak bilgi kodu üretir.",
+      "aciklama": "ECU 796 PWM çıkış besleme hatası. Hidrolik çalışmıyor; hidrolik fonksiyonları kapatın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "PWM besleme hattındaki koruma şalterinin açması",
-        "Besleme kablosunda kopukluk",
-        "Konnektörde pim yanığı",
-        "Besleme rölesinin temas hatası"
+        "ECU 796 PWM çıkış besleme hatası"
       ],
       "kontroller": [
-        "Hidrolik fonksiyonları kapatın",
-        "Yük kaldırma hattı kesici şalterinin kapalı konumda olduğunu kontrol edin",
-        "PWM besleme gerilimini klemelerden ölçün",
-        "Açık şalteri veya kopuk hattı onarın"
+        "Hidrolik fonksiyonları kapatın.",
+        "Elektrikli servo için yük kaldırma hattı kesici şalterinin basılı olup olmadığını kontrol edin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -117,20 +95,15 @@
       "aliaslar": [],
       "sistem": "iletisim",
       "baslik": "XA-PWM K2 iletişim hatası",
-      "aciklama": "ECU 796 ile K2 röle kartındaki XA-PWM modülü arasındaki iletişim kesilmiş; hidrolik fonksiyonlar komut alamaz. Konta çevrildiğinde deneme yinelenir.",
+      "aciklama": "XA-PWM K2 iletişim hatası. Hidrolik fonksiyonlar çalışmıyor. Kontayı açıp kapatarak ECU 796'yı yeniden başlatın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "XA-PWM K2 iletişim kablosunda kopukluk",
-        "Konnektörde gevşeme veya oksitlenme",
-        "Modül beslemesinde kesinti",
-        "Modülün iç yazılım kilitlenmesi"
+        "XA-PWM K2 iletişim hatası"
       ],
       "kontroller": [
-        "Kontayı açıp kapatarak ECU 796'yı yeniden başlatın",
-        "K2 kartı iletişim konnektörünü ve kablosunu denetleyin",
-        "Modül besleme gerilimini ölçün",
-        "Hata sürerse servise başvurun"
+        "Kontayı açıp kapatarak ECU 796'yı yeniden başlatın.",
+        "Hata sürerse servise başvurun."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -143,20 +116,15 @@
       "aliaslar": [],
       "sistem": "iletisim",
       "baslik": "XA-PWM K3 iletişim hatası",
-      "aciklama": "XA-PWM K3 modülü iletişim turuna yanıt vermiyor; K3 üzerindeki hidrolik valf kanalları devre dışı kalır. Sistem bilgi koduyla operatörü uyarır.",
+      "aciklama": "XA-PWM K3 iletişim hatası. Hidrolik fonksiyonlar çalışmıyor. Kontayı açıp kapatarak ECU 796'yı yeniden başlatın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "K3 modülü hat soketinin tam oturmaması",
-        "İletişim damarında kopma",
-        "Modül güç beslemesinin düşmesi",
-        "Modül elektronik kart arızası"
+        "XA-PWM K3 iletişim hatası"
       ],
       "kontroller": [
-        "Kontayı kapatıp açarak iletişim denemesini tekrarlayın",
-        "K3 konnektörünü söküp pimleri kontrol edin",
-        "Hattın sürekliliğini ölçün",
-        "Yanıt gelmezse XA-PWM K3 modülünü değiştirin"
+        "Kontayı açıp kapatarak ECU 796'yı yeniden başlatın.",
+        "Hata sürerse servise başvurun."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -169,20 +137,14 @@
       "aliaslar": [],
       "sistem": "hidrolik",
       "baslik": "Hidrolik fonksiyon 1 kol giriş sinyali hatası",
-      "aciklama": "Hidrolik fonksiyon 1 için birinci (kaldırma) kol giriş sinyali beklenen aralık dışında; operatör komutu doğrulanamıyor. Güvenlik gereği kaldırma kumandası devre dışı bırakılır.",
+      "aciklama": "Hidrolik fonksiyon 1 kol giriş sinyali hatası. Hidrolik fonksiyon 1 çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "1 numaralı kol potansiyometresi iz yolunda aşınma",
-        "Kol altı kablo demetinde mafsaldan kaynaklanan kopukluk",
-        "Kolonun merkezleme yayının kırılması",
-        "Kol konnektöründe temassızlık"
+        "Hidrolik fonksiyon 1 kol giriş sinyali hatası"
       ],
       "kontroller": [
-        "Kol serbest ve tam kumanda konumlarında 1 numaralı giriş gerilimini ölçün",
-        "Kol altı kablo ve mafsal bağlantısını süreklilik testiyle denetleyin",
-        "Konnektör pimlerini temizleyip sıkı oturmalarını doğrulayın",
-        "Sinyal eğrisi bozuksa kol ünitesini değiştirin"
+        "Hidrolik fonksiyon 1 kullanılmamalı."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -195,20 +157,14 @@
       "aliaslar": [],
       "sistem": "hidrolik",
       "baslik": "Hidrolik fonksiyon 2 kol giriş sinyali hatası",
-      "aciklama": "Hidrolik fonksiyon 2 için ikinci (eğme) kol giriş sinyali beklenen aralık dışında; operatör komutu doğrulanamıyor. Güvenlik gereği eğme kumandası devre dışı bırakılır.",
+      "aciklama": "Hidrolik fonksiyon 2 kol giriş sinyali hatası. Hidrolik fonksiyon 2 çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "2 numaralı kol potansiyometresi iz yolunda aşınma",
-        "Kol altı kablo demetinde mafsaldan kaynaklanan kopukluk",
-        "Kolonun merkezleme yayının kırılması",
-        "Kol konnektöründe temassızlık"
+        "Hidrolik fonksiyon 2 kol giriş sinyali hatası"
       ],
       "kontroller": [
-        "Kol serbest ve tam kumanda konumlarında 2 numaralı giriş gerilimini ölçün",
-        "Kol altı kablo ve mafsal bağlantısını süreklilik testiyle denetleyin",
-        "Konnektör pimlerini temizleyip sıkı oturmalarını doğrulayın",
-        "Sinyal eğrisi bozuksa kol ünitesini değiştirin"
+        "Hidrolik fonksiyon 2 kullanılmamalı."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -221,20 +177,14 @@
       "aliaslar": [],
       "sistem": "hidrolik",
       "baslik": "Hidrolik fonksiyon 3 kol giriş sinyali hatası",
-      "aciklama": "Hidrolik fonksiyon 3 için üçüncü ataşman kolu giriş sinyali beklenen aralık dışında; operatör komutu doğrulanamıyor. Güvenlik gereği üçüncü fonksiyon kumandası devre dışı bırakılır.",
+      "aciklama": "Hidrolik fonksiyon 3 kol giriş sinyali hatası. Hidrolik fonksiyon 3 çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "3 numaralı kol potansiyometresi iz yolunda aşınma",
-        "Kol altı kablo demetinde mafsaldan kaynaklanan kopukluk",
-        "Kolonun merkezleme yayının kırılması",
-        "Kol konnektöründe temassızlık"
+        "Hidrolik fonksiyon 3 kol giriş sinyali hatası"
       ],
       "kontroller": [
-        "Kol serbest ve tam kumanda konumlarında 3 numaralı giriş gerilimini ölçün",
-        "Kol altı kablo ve mafsal bağlantısını süreklilik testiyle denetleyin",
-        "Konnektör pimlerini temizleyip sıkı oturmalarını doğrulayın",
-        "Sinyal eğrisi bozuksa kol ünitesini değiştirin"
+        "Hidrolik fonksiyon 3 kullanılmamalı."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -247,20 +197,14 @@
       "aliaslar": [],
       "sistem": "hidrolik",
       "baslik": "Hidrolik fonksiyon 4 kol giriş sinyali hatası",
-      "aciklama": "Hidrolik fonksiyon 4 için dördüncü ataşman kolu giriş sinyali beklenen aralık dışında; operatör komutu doğrulanamıyor. Güvenlik gereği dördüncü fonksiyon kumandası devre dışı bırakılır.",
+      "aciklama": "Hidrolik fonksiyon 4 kol giriş sinyali hatası. Hidrolik fonksiyon 4 çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "4 numaralı kol potansiyometresi iz yolunda aşınma",
-        "Kol altı kablo demetinde mafsaldan kaynaklanan kopukluk",
-        "Kolonun merkezleme yayının kırılması",
-        "Kol konnektöründe temassızlık"
+        "Hidrolik fonksiyon 4 kol giriş sinyali hatası"
       ],
       "kontroller": [
-        "Kol serbest ve tam kumanda konumlarında 4 numaralı giriş gerilimini ölçün",
-        "Kol altı kablo ve mafsal bağlantısını süreklilik testiyle denetleyin",
-        "Konnektör pimlerini temizleyip sıkı oturmalarını doğrulayın",
-        "Sinyal eğrisi bozuksa kol ünitesini değiştirin"
+        "Hidrolik fonksiyon 4 kullanılmamalı."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -273,20 +217,14 @@
       "aliaslar": [],
       "sistem": "hidrolik",
       "baslik": "Hidrolik fonksiyon 5 kol giriş sinyali hatası",
-      "aciklama": "Hidrolik fonksiyon 5 için beşinci ataşman kolu giriş sinyali beklenen aralık dışında; operatör komutu doğrulanamıyor. Güvenlik gereği beşinci fonksiyon kumandası devre dışı bırakılır.",
+      "aciklama": "Hidrolik fonksiyon 5 kol giriş sinyali hatası. Hidrolik fonksiyon 5 çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "5 numaralı kol potansiyometresi iz yolunda aşınma",
-        "Kol altı kablo demetinde mafsaldan kaynaklanan kopukluk",
-        "Kolonun merkezleme yayının kırılması",
-        "Kol konnektöründe temassızlık"
+        "Hidrolik fonksiyon 5 kol giriş sinyali hatası"
       ],
       "kontroller": [
-        "Kol serbest ve tam kumanda konumlarında 5 numaralı giriş gerilimini ölçün",
-        "Kol altı kablo ve mafsal bağlantısını süreklilik testiyle denetleyin",
-        "Konnektör pimlerini temizleyip sıkı oturmalarını doğrulayın",
-        "Sinyal eğrisi bozuksa kol ünitesini değiştirin"
+        "Hidrolik fonksiyon 5 kullanılmamalı."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -299,20 +237,14 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Hidrolik fonksiyon 1A yön valfi kısa/açık devre (K2:3)",
-      "aciklama": "Hidrolik fonksiyon 1A yön valfi sürücü devresinde kısa ya da açık devre algılandı (K2:3); valf enerjilenemez ve hidrolik fonksiyon 1 çalışamaz. Kontrolcü hatalı hareketi önlemek için ilgili fonksiyonu devre dışı bırakır.",
+      "aciklama": "Hidrolik fonksiyon 1A yön valfi kısa/açık devre (K2:3). Hidrolik fonksiyon 1 çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 1A yön valfi bobin sargısında yanarak kısa veya açık devreye dönmesi",
-        "Hidrolik fonksiyon 1A yön valfi sürücü kablosunda gövdeye temas ya da kopma",
-        "K2:3 konnektör temas noktalarında oksitlenme ve gevşeme",
-        "Kontrolcü sürücü katmanında iç kaçak"
+        "Hidrolik fonksiyon 1A yön valfi kısa/açık devre (K2:3)"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 1A yön valfi bobin direncini katalog değeriyle karşılaştırarak ölçün",
-        "K2:3 konnektör uçlarında şaseye kısa ve uçtan uca süreklilik testi yapın",
-        "Kablo rotasında ezilme, yanık ve sürtünme izlerini gözle denetleyin",
-        "Ölçümü bozuk valfi değiştirin; hat sağlam ise kontrolcü çıkışını incelet"
+        "Hidrolik fonksiyon 1 kullanılmamalı."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -325,20 +257,14 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Hidrolik fonksiyon 1B yön valfi kısa/açık devre (K2:4)",
-      "aciklama": "Hidrolik fonksiyon 1B yön valfi sürücü devresinde kısa ya da açık devre algılandı (K2:4); valf enerjilenemez ve hidrolik fonksiyon 1 çalışamaz. Kontrolcü hatalı hareketi önlemek için ilgili fonksiyonu devre dışı bırakır.",
+      "aciklama": "Hidrolik fonksiyon 1B yön valfi kısa/açık devre (K2:4). Hidrolik fonksiyon 1 çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 1B yön valfi bobin sargısında yanarak kısa veya açık devreye dönmesi",
-        "Hidrolik fonksiyon 1B yön valfi sürücü kablosunda gövdeye temas ya da kopma",
-        "K2:4 konnektör temas noktalarında oksitlenme ve gevşeme",
-        "Kontrolcü sürücü katmanında iç kaçak"
+        "Hidrolik fonksiyon 1B yön valfi kısa/açık devre (K2:4)"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 1B yön valfi bobin direncini katalog değeriyle karşılaştırarak ölçün",
-        "K2:4 konnektör uçlarında şaseye kısa ve uçtan uca süreklilik testi yapın",
-        "Kablo rotasında ezilme, yanık ve sürtünme izlerini gözle denetleyin",
-        "Ölçümü bozuk valfi değiştirin; hat sağlam ise kontrolcü çıkışını incelet"
+        "Hidrolik fonksiyon 1 kullanılmamalı."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -351,20 +277,14 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Hidrolik fonksiyon 2A yön valfi kısa/açık devre (K2:5)",
-      "aciklama": "Hidrolik fonksiyon 2A yön valfi sürücü devresinde kısa ya da açık devre algılandı (K2:5); valf enerjilenemez ve hidrolik fonksiyon 2 çalışamaz. Kontrolcü hatalı hareketi önlemek için ilgili fonksiyonu devre dışı bırakır.",
+      "aciklama": "Hidrolik fonksiyon 2A yön valfi kısa/açık devre (K2:5). Hidrolik fonksiyon 2 çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 2A yön valfi bobin sargısında yanarak kısa veya açık devreye dönmesi",
-        "Hidrolik fonksiyon 2A yön valfi sürücü kablosunda gövdeye temas ya da kopma",
-        "K2:5 konnektör temas noktalarında oksitlenme ve gevşeme",
-        "Kontrolcü sürücü katmanında iç kaçak"
+        "Hidrolik fonksiyon 2A yön valfi kısa/açık devre (K2:5)"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 2A yön valfi bobin direncini katalog değeriyle karşılaştırarak ölçün",
-        "K2:5 konnektör uçlarında şaseye kısa ve uçtan uca süreklilik testi yapın",
-        "Kablo rotasında ezilme, yanık ve sürtünme izlerini gözle denetleyin",
-        "Ölçümü bozuk valfi değiştirin; hat sağlam ise kontrolcü çıkışını incelet"
+        "Hidrolik fonksiyon 2 kullanılmamalı."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -377,20 +297,14 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Hidrolik fonksiyon 2B yön valfi kısa/açık devre (K2:6)",
-      "aciklama": "Hidrolik fonksiyon 2B yön valfi sürücü devresinde kısa ya da açık devre algılandı (K2:6); valf enerjilenemez ve hidrolik fonksiyon 2 çalışamaz. Kontrolcü hatalı hareketi önlemek için ilgili fonksiyonu devre dışı bırakır.",
+      "aciklama": "Hidrolik fonksiyon 2B yön valfi kısa/açık devre (K2:6). Hidrolik fonksiyon 2 çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 2B yön valfi bobin sargısında yanarak kısa veya açık devreye dönmesi",
-        "Hidrolik fonksiyon 2B yön valfi sürücü kablosunda gövdeye temas ya da kopma",
-        "K2:6 konnektör temas noktalarında oksitlenme ve gevşeme",
-        "Kontrolcü sürücü katmanında iç kaçak"
+        "Hidrolik fonksiyon 2B yön valfi kısa/açık devre (K2:6)"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 2B yön valfi bobin direncini katalog değeriyle karşılaştırarak ölçün",
-        "K2:6 konnektör uçlarında şaseye kısa ve uçtan uca süreklilik testi yapın",
-        "Kablo rotasında ezilme, yanık ve sürtünme izlerini gözle denetleyin",
-        "Ölçümü bozuk valfi değiştirin; hat sağlam ise kontrolcü çıkışını incelet"
+        "Hidrolik fonksiyon 2 kullanılmamalı."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -403,20 +317,14 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Hidrolik fonksiyon 3A yön valfi kısa/açık devre (K2:7)",
-      "aciklama": "Hidrolik fonksiyon 3A yön valfi sürücü devresinde kısa ya da açık devre algılandı (K2:7); valf enerjilenemez ve hidrolik fonksiyon 3 çalışamaz. Kontrolcü hatalı hareketi önlemek için ilgili fonksiyonu devre dışı bırakır.",
+      "aciklama": "Hidrolik fonksiyon 3A yön valfi kısa/açık devre (K2:7). Hidrolik fonksiyon 3 çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 3A yön valfi bobin sargısında yanarak kısa veya açık devreye dönmesi",
-        "Hidrolik fonksiyon 3A yön valfi sürücü kablosunda gövdeye temas ya da kopma",
-        "K2:7 konnektör temas noktalarında oksitlenme ve gevşeme",
-        "Kontrolcü sürücü katmanında iç kaçak"
+        "Hidrolik fonksiyon 3A yön valfi kısa/açık devre (K2:7)"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 3A yön valfi bobin direncini katalog değeriyle karşılaştırarak ölçün",
-        "K2:7 konnektör uçlarında şaseye kısa ve uçtan uca süreklilik testi yapın",
-        "Kablo rotasında ezilme, yanık ve sürtünme izlerini gözle denetleyin",
-        "Ölçümü bozuk valfi değiştirin; hat sağlam ise kontrolcü çıkışını incelet"
+        "Hidrolik fonksiyon 3 kullanılmamalı."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -429,20 +337,14 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Hidrolik fonksiyon 3B yön valfi kısa/açık devre (K2:8)",
-      "aciklama": "Hidrolik fonksiyon 3B yön valfi sürücü devresinde kısa ya da açık devre algılandı (K2:8); valf enerjilenemez ve hidrolik fonksiyon 3 çalışamaz. Kontrolcü hatalı hareketi önlemek için ilgili fonksiyonu devre dışı bırakır.",
+      "aciklama": "Hidrolik fonksiyon 3B yön valfi kısa/açık devre (K2:8). Hidrolik fonksiyon 3 çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 3B yön valfi bobin sargısında yanarak kısa veya açık devreye dönmesi",
-        "Hidrolik fonksiyon 3B yön valfi sürücü kablosunda gövdeye temas ya da kopma",
-        "K2:8 konnektör temas noktalarında oksitlenme ve gevşeme",
-        "Kontrolcü sürücü katmanında iç kaçak"
+        "Hidrolik fonksiyon 3B yön valfi kısa/açık devre (K2:8)"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 3B yön valfi bobin direncini katalog değeriyle karşılaştırarak ölçün",
-        "K2:8 konnektör uçlarında şaseye kısa ve uçtan uca süreklilik testi yapın",
-        "Kablo rotasında ezilme, yanık ve sürtünme izlerini gözle denetleyin",
-        "Ölçümü bozuk valfi değiştirin; hat sağlam ise kontrolcü çıkışını incelet"
+        "Hidrolik fonksiyon 3 kullanılmamalı."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -455,20 +357,14 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Hidrolik fonksiyon 4A yön valfi kısa/açık devre (K2:11)",
-      "aciklama": "Hidrolik fonksiyon 4A yön valfi sürücü devresinde kısa ya da açık devre algılandı (K2:11); valf enerjilenemez ve hidrolik fonksiyon 4 çalışamaz. Kontrolcü hatalı hareketi önlemek için ilgili fonksiyonu devre dışı bırakır.",
+      "aciklama": "Hidrolik fonksiyon 4A yön valfi kısa/açık devre (K2:11). Hidrolik fonksiyon 4 çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 4A yön valfi bobin sargısında yanarak kısa veya açık devreye dönmesi",
-        "Hidrolik fonksiyon 4A yön valfi sürücü kablosunda gövdeye temas ya da kopma",
-        "K2:11 konnektör temas noktalarında oksitlenme ve gevşeme",
-        "Kontrolcü sürücü katmanında iç kaçak"
+        "Hidrolik fonksiyon 4A yön valfi kısa/açık devre (K2:11)"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 4A yön valfi bobin direncini katalog değeriyle karşılaştırarak ölçün",
-        "K2:11 konnektör uçlarında şaseye kısa ve uçtan uca süreklilik testi yapın",
-        "Kablo rotasında ezilme, yanık ve sürtünme izlerini gözle denetleyin",
-        "Ölçümü bozuk valfi değiştirin; hat sağlam ise kontrolcü çıkışını incelet"
+        "Hidrolik fonksiyon 4 kullanılmamalı."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -481,20 +377,14 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Hidrolik fonksiyon 4B yön valfi kısa/açık devre (K2:12)",
-      "aciklama": "Hidrolik fonksiyon 4B yön valfi sürücü devresinde kısa ya da açık devre algılandı (K2:12); valf enerjilenemez ve hidrolik fonksiyon 4 çalışamaz. Kontrolcü hatalı hareketi önlemek için ilgili fonksiyonu devre dışı bırakır.",
+      "aciklama": "Hidrolik fonksiyon 4B yön valfi kısa/açık devre (K2:12). Hidrolik fonksiyon 4 çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 4B yön valfi bobin sargısında yanarak kısa veya açık devreye dönmesi",
-        "Hidrolik fonksiyon 4B yön valfi sürücü kablosunda gövdeye temas ya da kopma",
-        "K2:12 konnektör temas noktalarında oksitlenme ve gevşeme",
-        "Kontrolcü sürücü katmanında iç kaçak"
+        "Hidrolik fonksiyon 4B yön valfi kısa/açık devre (K2:12)"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 4B yön valfi bobin direncini katalog değeriyle karşılaştırarak ölçün",
-        "K2:12 konnektör uçlarında şaseye kısa ve uçtan uca süreklilik testi yapın",
-        "Kablo rotasında ezilme, yanık ve sürtünme izlerini gözle denetleyin",
-        "Ölçümü bozuk valfi değiştirin; hat sağlam ise kontrolcü çıkışını incelet"
+        "Hidrolik fonksiyon 4 kullanılmamalı."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -507,20 +397,14 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Hidrolik fonksiyon 5A yön valfi kısa/açık devre (K2:13)",
-      "aciklama": "Hidrolik fonksiyon 5A yön valfi sürücü devresinde kısa ya da açık devre algılandı (K2:13); valf enerjilenemez ve hidrolik fonksiyon 5 çalışamaz. Kontrolcü hatalı hareketi önlemek için ilgili fonksiyonu devre dışı bırakır.",
+      "aciklama": "Hidrolik fonksiyon 5A yön valfi kısa/açık devre (K2:13). Hidrolik fonksiyon 5 çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 5A yön valfi bobin sargısında yanarak kısa veya açık devreye dönmesi",
-        "Hidrolik fonksiyon 5A yön valfi sürücü kablosunda gövdeye temas ya da kopma",
-        "K2:13 konnektör temas noktalarında oksitlenme ve gevşeme",
-        "Kontrolcü sürücü katmanında iç kaçak"
+        "Hidrolik fonksiyon 5A yön valfi kısa/açık devre (K2:13)"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 5A yön valfi bobin direncini katalog değeriyle karşılaştırarak ölçün",
-        "K2:13 konnektör uçlarında şaseye kısa ve uçtan uca süreklilik testi yapın",
-        "Kablo rotasında ezilme, yanık ve sürtünme izlerini gözle denetleyin",
-        "Ölçümü bozuk valfi değiştirin; hat sağlam ise kontrolcü çıkışını incelet"
+        "Hidrolik fonksiyon 5 kullanılmamalı."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -533,20 +417,14 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Hidrolik fonksiyon 5B yön valfi kısa/açık devre (K2:14)",
-      "aciklama": "Hidrolik fonksiyon 5B yön valfi sürücü devresinde kısa ya da açık devre algılandı (K2:14); valf enerjilenemez ve hidrolik fonksiyon 5 çalışamaz. Kontrolcü hatalı hareketi önlemek için ilgili fonksiyonu devre dışı bırakır.",
+      "aciklama": "Hidrolik fonksiyon 5B yön valfi kısa/açık devre (K2:14). Hidrolik fonksiyon 5 çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 5B yön valfi bobin sargısında yanarak kısa veya açık devreye dönmesi",
-        "Hidrolik fonksiyon 5B yön valfi sürücü kablosunda gövdeye temas ya da kopma",
-        "K2:14 konnektör temas noktalarında oksitlenme ve gevşeme",
-        "Kontrolcü sürücü katmanında iç kaçak"
+        "Hidrolik fonksiyon 5B yön valfi kısa/açık devre (K2:14)"
       ],
       "kontroller": [
-        "Hidrolik fonksiyon 5B yön valfi bobin direncini katalog değeriyle karşılaştırarak ölçün",
-        "K2:14 konnektör uçlarında şaseye kısa ve uçtan uca süreklilik testi yapın",
-        "Kablo rotasında ezilme, yanık ve sürtünme izlerini gözle denetleyin",
-        "Ölçümü bozuk valfi değiştirin; hat sağlam ise kontrolcü çıkışını incelet"
+        "Hidrolik fonksiyon 5 kullanılmamalı."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -559,20 +437,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Dikey tutuş (vertical hold) sensör hatası",
-      "aciklama": "Dikey tutuş (vertical hold) sensörü geçersiz sinyal veriyor; boom hareketinde basınç dengesi doğrulanamaz. Kontrolcü dikey tutuş fonksiyonunu devre dışı bırakır.",
+      "aciklama": "Dikey tutuş (vertical hold) sensör hatası. Dikey tutuş çalışmıyor; bu fonksiyonu kapatın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Sensör sinyal hattında kopukluk",
-        "Sensörün sıfır noktasının kayması",
-        "Hidrolik blok üzerindeki montajın gevşemesi",
-        "Sensör elemanının titreşim hasarı"
+        "Dikey tutuş (vertical hold) sensör hatası"
       ],
       "kontroller": [
-        "Fonksiyonu kapatın ve sensör çıkışını durgun basınçta ölçün",
-        "Montaj bağlantısını ve conta bölgesini denetleyin",
-        "Hat sürekliliği ile şasi yalıtımını test edin",
-        "Kalibre olmayan sensörü değiştirin"
+        "Dikey tutuş fonksiyonunu kapatın."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -585,20 +457,14 @@
       "aliaslar": [],
       "sistem": "hidrolik",
       "baslik": "Ön seçilen kaldırma yüksekliği sensör hatası",
-      "aciklama": "Ön seçilen kaldırma yüksekliği sensörü doğrulanamıyor; programlı kaldırma referansı kaybolur. Kontrolcü yükseklik ön seçimini kapatarak durdurma noktası riskini kaldırır.",
+      "aciklama": "Ön seçilen kaldırma yüksekliği sensör hatası. Kaldırma yüksekliği ön seçimi çalışmıyor; ön seçimi kapatın.",
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Uzatma/boyun ölçüm sensörü hattında kısa devre",
-        "Sensör kalibrasyonunun yitirilmesi",
-        "Kablo mafsallarında yorulma kopuğu",
-        "Taşıyıcı üzerindeki hedef manyetiğin yerinden çıkması"
+        "Ön seçilen kaldırma yüksekliği sensör hatası"
       ],
       "kontroller": [
-        "Kaldırma yüksekliği ön seçimini kapatın",
-        "Sensör sinyalini alt ve üst son konumlarda ölçün",
-        "Hedef parçanın konumunu ve kablo mafsallarını kontrol edin",
-        "Kalibrasyon tutmazsa sensörü yenileyin"
+        "Kaldırma yüksekliği ön seçimini kapatın."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -611,20 +477,14 @@
       "aliaslar": [],
       "sistem": "iletisim",
       "baslik": "CTX iletişim hatası",
-      "aciklama": "Sıkıştırma kontrol ünitesi CTX ağa yanıt vermiyor; otomatik sıkıştırma basıncı yönetimi çalışmaz. Operatör manuel sıkıştırma kontrolüne geçerek çalışmayı sürdürebilir.",
+      "aciklama": "CTX iletişim hatası. Sıkıştırma kontrolü yanıt vermiyor; yalnızca manuel sıkıştırma yapılabilir.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "CTX ünitesi besleme hattında kesinti",
-        "İletişim kablosunda konnektör gevşemesi",
-        "CAN damarlarında kısa devre",
-        "CTX yazılımının kilitlenmesi"
+        "CTX iletişim hatası"
       ],
       "kontroller": [
-        "Manuel sıkıştırma kontrolüne geçin",
-        "CTX besleme ve iletişim konnektörlerini kontrol edin",
-        "Hat gerilimlerini ölçün",
-        "Yanıt gelmezse CTX ünitesini servise gönderin"
+        "CTX sıkıştırma ünitesi yerine manuel sıkıştırma kontrolüne geçin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -637,20 +497,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Sıkıştırma ataşmanı P1 basınç sensörü arızalı",
-      "aciklama": "Sıkıştırma ataşmanı P1 basınç sensörü ölçüm bandı dışında değer veriyor; ana sıkıştırma devresi basıncı doğru izlenemez. Kontrolcü basınç limitlerini yaklaşık değerle yürüttüğü için fonksiyon kısıtlanır.",
+      "aciklama": "Sıkıştırma ataşmanı P1 basınç sensörü arızalı. Seçilen ataşman basıncı yalnızca yaklaşık değerdir; basınç düşerse otomatik artış olmaz.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı P1 basınç sensörü sinyal hattında nem kaynaklı kaçak",
-        "Sıkıştırma ataşmanı P1 basınç sensörü elemanının basınç darbesiyle kalibre dışına çıkması",
-        "Sensör besleme hattında gerilim düşümü",
-        "Konnektörde yağ sızıntısı ve oksitlenme"
+        "Sıkıştırma ataşmanı P1 basınç sensörü arızalı"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı P1 basınç sensörü çıkışını basınçsız ve tam basınçlı iki durumda referans manometreyle karşılaştırın",
-        "Sensör besleme ve sinyal uçlarında gerilim ölçün",
-        "ana sıkıştırma devresi konnektörünü temizleyip yağ kaçağı yönünden denetleyin",
-        "Sapma düzelmezse basınç sensörünü yenileyin"
+        "Basınç sensörünü ve bağlantılarını kontrol edin; gerekirse servise başvurun."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -663,20 +517,15 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Sıkıştırma ataşmanı P2 basınç sensörü arızalı",
-      "aciklama": "Sıkıştırma ataşmanı P2 basınç sensörü ölçüm bandı dışında değer veriyor; ikinci kademe sıkıştırma devresi basıncı doğru izlenemez. Kontrolcü basınç limitlerini yaklaşık değerle yürüttüğü için fonksiyon kısıtlanır.",
+      "aciklama": "Sıkıştırma ataşmanı P2 basınç sensörü arızalı. Seçilen ataşman basıncı yalnızca yaklaşık değerdir; basınç düşerse otomatik artış olmaz.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı P2 basınç sensörü sinyal hattında nem kaynaklı kaçak",
-        "Sıkıştırma ataşmanı P2 basınç sensörü elemanının basınç darbesiyle kalibre dışına çıkması",
-        "Sensör besleme hattında gerilim düşümü",
-        "Konnektörde yağ sızıntısı ve oksitlenme"
+        "Sıkıştırma ataşmanı P2 basınç sensörü arızalı"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı P2 basınç sensörü çıkışını basınçsız ve tam basınçlı iki durumda referans manometreyle karşılaştırın",
-        "Sensör besleme ve sinyal uçlarında gerilim ölçün",
-        "ikinci kademe sıkıştırma devresi konnektörünü temizleyip yağ kaçağı yönünden denetleyin",
-        "Sapma düzelmezse basınç sensörünü yenileyin"
+        "Basınç sensörünü ve bağlantılarını kontrol edin.",
+        "Servise başvurun."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -689,20 +538,14 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Sıkıştırma ataşmanı yön valfi kısa/açık devre (K3:3)",
-      "aciklama": "Sıkıştırma ataşmanı yön valfi sürücü devresinde kısa ya da açık devre algılandı (K3:3); valf enerjilenemez ve sıkıştırma fonksiyonu çalışamaz. Kontrolcü hatalı hareketi önlemek için ilgili fonksiyonu devre dışı bırakır.",
+      "aciklama": "Sıkıştırma ataşmanı yön valfi kısa/açık devre (K3:3). İlgili hidrolik fonksiyon çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı yön valfi bobin sargısında yanarak kısa veya açık devreye dönmesi",
-        "Sıkıştırma ataşmanı yön valfi sürücü kablosunda gövdeye temas ya da kopma",
-        "K3:3 konnektör temas noktalarında oksitlenme ve gevşeme",
-        "Kontrolcü sürücü katmanında iç kaçak"
+        "Sıkıştırma ataşmanı yön valfi kısa/açık devre (K3:3)"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı yön valfi bobin direncini katalog değeriyle karşılaştırarak ölçün",
-        "K3:3 konnektör uçlarında şaseye kısa ve uçtan uca süreklilik testi yapın",
-        "Kablo rotasında ezilme, yanık ve sürtünme izlerini gözle denetleyin",
-        "Ölçümü bozuk valfi değiştirin; hat sağlam ise kontrolcü çıkışını incelet"
+        "Sıkıştırma ataşmanı fonksiyonunu kullanmayın."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -715,20 +558,14 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Ataşman basıncı ON/OFF yön valfi kısa/açık devre",
-      "aciklama": "Ataşman basıncı ON/OFF yön valfi sürücü devresinde kısa ya da açık devre algılandı (K3 hattı); valf enerjilenemez ve ataşman basıncı seçimi çalışamaz. Kontrolcü hatalı hareketi önlemek için ilgili fonksiyonu devre dışı bırakır.",
+      "aciklama": "Ataşman basıncı ON/OFF yön valfi kısa/açık devre. İlgili hidrolik fonksiyon çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Ataşman basıncı ON/OFF yön valfi bobin sargısında yanarak kısa veya açık devreye dönmesi",
-        "Ataşman basıncı ON/OFF yön valfi sürücü kablosunda gövdeye temas ya da kopma",
-        "K3 hattı konnektör temas noktalarında oksitlenme ve gevşeme",
-        "Kontrolcü sürücü katmanında iç kaçak"
+        "Ataşman basıncı ON/OFF yön valfi kısa/açık devre"
       ],
       "kontroller": [
-        "Ataşman basıncı ON/OFF yön valfi bobin direncini katalog değeriyle karşılaştırarak ölçün",
-        "K3 hattı konnektör uçlarında şaseye kısa ve uçtan uca süreklilik testi yapın",
-        "Kablo rotasında ezilme, yanık ve sürtünme izlerini gözle denetleyin",
-        "Ölçümü bozuk valfi değiştirin; hat sağlam ise kontrolcü çıkışını incelet"
+        "Sıkıştırma ataşmanı fonksiyonunu kullanmayın."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -741,20 +578,14 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Sol kol ON/OFF yön valfi kısa/açık devre",
-      "aciklama": "Sol kol ON/OFF yön valfi sürücü devresinde kısa ya da açık devre algılandı (sol kol hattı); valf enerjilenemez ve sol kol fonksiyonu çalışamaz. Kontrolcü hatalı hareketi önlemek için ilgili fonksiyonu devre dışı bırakır.",
+      "aciklama": "Sol kol ON/OFF yön valfi kısa/açık devre. İlgili hidrolik fonksiyon çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sol kol ON/OFF yön valfi bobin sargısında yanarak kısa veya açık devreye dönmesi",
-        "Sol kol ON/OFF yön valfi sürücü kablosunda gövdeye temas ya da kopma",
-        "sol kol hattı konnektör temas noktalarında oksitlenme ve gevşeme",
-        "Kontrolcü sürücü katmanında iç kaçak"
+        "Sol kol ON/OFF yön valfi kısa/açık devre"
       ],
       "kontroller": [
-        "Sol kol ON/OFF yön valfi bobin direncini katalog değeriyle karşılaştırarak ölçün",
-        "sol kol hattı konnektör uçlarında şaseye kısa ve uçtan uca süreklilik testi yapın",
-        "Kablo rotasında ezilme, yanık ve sürtünme izlerini gözle denetleyin",
-        "Ölçümü bozuk valfi değiştirin; hat sağlam ise kontrolcü çıkışını incelet"
+        "Sol kol fonksiyonunu kullanmayın."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -767,20 +598,14 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Sağ kol ON/OFF yön valfi kısa/açık devre",
-      "aciklama": "Sağ kol ON/OFF yön valfi sürücü devresinde kısa ya da açık devre algılandı (sağ kol hattı); valf enerjilenemez ve sağ kol fonksiyonu çalışamaz. Kontrolcü hatalı hareketi önlemek için ilgili fonksiyonu devre dışı bırakır.",
+      "aciklama": "Sağ kol ON/OFF yön valfi kısa/açık devre. İlgili hidrolik fonksiyon çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sağ kol ON/OFF yön valfi bobin sargısında yanarak kısa veya açık devreye dönmesi",
-        "Sağ kol ON/OFF yön valfi sürücü kablosunda gövdeye temas ya da kopma",
-        "sağ kol hattı konnektör temas noktalarında oksitlenme ve gevşeme",
-        "Kontrolcü sürücü katmanında iç kaçak"
+        "Sağ kol ON/OFF yön valfi kısa/açık devre"
       ],
       "kontroller": [
-        "Sağ kol ON/OFF yön valfi bobin direncini katalog değeriyle karşılaştırarak ölçün",
-        "sağ kol hattı konnektör uçlarında şaseye kısa ve uçtan uca süreklilik testi yapın",
-        "Kablo rotasında ezilme, yanık ve sürtünme izlerini gözle denetleyin",
-        "Ölçümü bozuk valfi değiştirin; hat sağlam ise kontrolcü çıkışını incelet"
+        "Sağ kol fonksiyonunu kullanmayın."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -793,20 +618,14 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Üst sol kol ON/OFF yön valfi kısa/açık devre",
-      "aciklama": "Üst sol kol ON/OFF yön valfi sürücü devresinde kısa ya da açık devre algılandı (üst sol hat); valf enerjilenemez ve üst sol kol fonksiyonu çalışamaz. Kontrolcü hatalı hareketi önlemek için ilgili fonksiyonu devre dışı bırakır.",
+      "aciklama": "Üst sol kol ON/OFF yön valfi kısa/açık devre. İlgili hidrolik fonksiyon çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Üst sol kol ON/OFF yön valfi bobin sargısında yanarak kısa veya açık devreye dönmesi",
-        "Üst sol kol ON/OFF yön valfi sürücü kablosunda gövdeye temas ya da kopma",
-        "üst sol hat konnektör temas noktalarında oksitlenme ve gevşeme",
-        "Kontrolcü sürücü katmanında iç kaçak"
+        "Üst sol kol ON/OFF yön valfi kısa/açık devre"
       ],
       "kontroller": [
-        "Üst sol kol ON/OFF yön valfi bobin direncini katalog değeriyle karşılaştırarak ölçün",
-        "üst sol hat konnektör uçlarında şaseye kısa ve uçtan uca süreklilik testi yapın",
-        "Kablo rotasında ezilme, yanık ve sürtünme izlerini gözle denetleyin",
-        "Ölçümü bozuk valfi değiştirin; hat sağlam ise kontrolcü çıkışını incelet"
+        "Üst sol kol fonksiyonunu kullanmayın."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -819,20 +638,14 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Orta sağ kol ON/OFF yön valfi kısa/açık devre",
-      "aciklama": "Orta sağ kol ON/OFF yön valfi sürücü devresinde kısa ya da açık devre algılandı (orta sağ hat); valf enerjilenemez ve orta sağ kol fonksiyonu çalışamaz. Kontrolcü hatalı hareketi önlemek için ilgili fonksiyonu devre dışı bırakır.",
+      "aciklama": "Orta sağ kol ON/OFF yön valfi kısa/açık devre. İlgili hidrolik fonksiyon çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Orta sağ kol ON/OFF yön valfi bobin sargısında yanarak kısa veya açık devreye dönmesi",
-        "Orta sağ kol ON/OFF yön valfi sürücü kablosunda gövdeye temas ya da kopma",
-        "orta sağ hat konnektör temas noktalarında oksitlenme ve gevşeme",
-        "Kontrolcü sürücü katmanında iç kaçak"
+        "Orta sağ kol ON/OFF yön valfi kısa/açık devre"
       ],
       "kontroller": [
-        "Orta sağ kol ON/OFF yön valfi bobin direncini katalog değeriyle karşılaştırarak ölçün",
-        "orta sağ hat konnektör uçlarında şaseye kısa ve uçtan uca süreklilik testi yapın",
-        "Kablo rotasında ezilme, yanık ve sürtünme izlerini gözle denetleyin",
-        "Ölçümü bozuk valfi değiştirin; hat sağlam ise kontrolcü çıkışını incelet"
+        "Orta sağ kol fonksiyonunu kullanmayın."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -845,20 +658,14 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Orta sol kol ON/OFF yön valfi kısa/açık devre",
-      "aciklama": "Orta sol kol ON/OFF yön valfi sürücü devresinde kısa ya da açık devre algılandı (orta sol hat); valf enerjilenemez ve orta sol kol fonksiyonu çalışamaz. Kontrolcü hatalı hareketi önlemek için ilgili fonksiyonu devre dışı bırakır.",
+      "aciklama": "Orta sol kol ON/OFF yön valfi kısa/açık devre. İlgili hidrolik fonksiyon çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Orta sol kol ON/OFF yön valfi bobin sargısında yanarak kısa veya açık devreye dönmesi",
-        "Orta sol kol ON/OFF yön valfi sürücü kablosunda gövdeye temas ya da kopma",
-        "orta sol hat konnektör temas noktalarında oksitlenme ve gevşeme",
-        "Kontrolcü sürücü katmanında iç kaçak"
+        "Orta sol kol ON/OFF yön valfi kısa/açık devre"
       ],
       "kontroller": [
-        "Orta sol kol ON/OFF yön valfi bobin direncini katalog değeriyle karşılaştırarak ölçün",
-        "orta sol hat konnektör uçlarında şaseye kısa ve uçtan uca süreklilik testi yapın",
-        "Kablo rotasında ezilme, yanık ve sürtünme izlerini gözle denetleyin",
-        "Ölçümü bozuk valfi değiştirin; hat sağlam ise kontrolcü çıkışını incelet"
+        "Orta sol kol fonksiyonunu kullanmayın."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -871,20 +678,14 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Üst sağ kol ON/OFF yön valfi kısa/açık devre",
-      "aciklama": "Üst sağ kol ON/OFF yön valfi sürücü devresinde kısa ya da açık devre algılandı (üst sağ hat); valf enerjilenemez ve üst sağ kol fonksiyonu çalışamaz. Kontrolcü hatalı hareketi önlemek için ilgili fonksiyonu devre dışı bırakır.",
+      "aciklama": "Üst sağ kol ON/OFF yön valfi kısa/açık devre. İlgili hidrolik fonksiyon çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Üst sağ kol ON/OFF yön valfi bobin sargısında yanarak kısa veya açık devreye dönmesi",
-        "Üst sağ kol ON/OFF yön valfi sürücü kablosunda gövdeye temas ya da kopma",
-        "üst sağ hat konnektör temas noktalarında oksitlenme ve gevşeme",
-        "Kontrolcü sürücü katmanında iç kaçak"
+        "Üst sağ kol ON/OFF yön valfi kısa/açık devre"
       ],
       "kontroller": [
-        "Üst sağ kol ON/OFF yön valfi bobin direncini katalog değeriyle karşılaştırarak ölçün",
-        "üst sağ hat konnektör uçlarında şaseye kısa ve uçtan uca süreklilik testi yapın",
-        "Kablo rotasında ezilme, yanık ve sürtünme izlerini gözle denetleyin",
-        "Ölçümü bozuk valfi değiştirin; hat sağlam ise kontrolcü çıkışını incelet"
+        "Üst sağ kol fonksiyonunu kullanmayın."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -897,20 +698,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Sıkıştırma ataşmanı açma basınç sensörü arızalı",
-      "aciklama": "Sıkıştırma ataşmanı açma basınç sensörü ölçüm bandı dışında değer veriyor; açma devresi basıncı doğru izlenemez. Kontrolcü basınç limitlerini yaklaşık değerle yürüttüğü için fonksiyon kısıtlanır.",
+      "aciklama": "Sıkıştırma ataşmanı açma basınç sensörü arızalı. Sıkıştırma ataşmanı fonksiyonu çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı açma basınç sensörü sinyal hattında nem kaynaklı kaçak",
-        "Sıkıştırma ataşmanı açma basınç sensörü elemanının basınç darbesiyle kalibre dışına çıkması",
-        "Sensör besleme hattında gerilim düşümü",
-        "Konnektörde yağ sızıntısı ve oksitlenme"
+        "Sıkıştırma ataşmanı açma basınç sensörü arızalı"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı açma basınç sensörü çıkışını basınçsız ve tam basınçlı iki durumda referans manometreyle karşılaştırın",
-        "Sensör besleme ve sinyal uçlarında gerilim ölçün",
-        "açma devresi konnektörünü temizleyip yağ kaçağı yönünden denetleyin",
-        "Sapma düzelmezse basınç sensörünü yenileyin"
+        "Sıkıştırma ataşmanı fonksiyonunu kullanmayın."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -923,20 +718,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Sıkıştırma ataşmanı kapama basınç sensörü arızalı",
-      "aciklama": "Sıkıştırma ataşmanı kapama basınç sensörü ölçüm bandı dışında değer veriyor; kapama devresi basıncı doğru izlenemez. Kontrolcü basınç limitlerini yaklaşık değerle yürüttüğü için fonksiyon kısıtlanır.",
+      "aciklama": "Sıkıştırma ataşmanı kapama basınç sensörü arızalı. Sıkıştırma ataşmanı fonksiyonu çalışmıyor; bu fonksiyonu kullanmayın.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı kapama basınç sensörü sinyal hattında nem kaynaklı kaçak",
-        "Sıkıştırma ataşmanı kapama basınç sensörü elemanının basınç darbesiyle kalibre dışına çıkması",
-        "Sensör besleme hattında gerilim düşümü",
-        "Konnektörde yağ sızıntısı ve oksitlenme"
+        "Sıkıştırma ataşmanı kapama basınç sensörü arızalı"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı kapama basınç sensörü çıkışını basınçsız ve tam basınçlı iki durumda referans manometreyle karşılaştırın",
-        "Sensör besleme ve sinyal uçlarında gerilim ölçün",
-        "kapama devresi konnektörünü temizleyip yağ kaçağı yönünden denetleyin",
-        "Sapma düzelmezse basınç sensörünü yenileyin"
+        "Sıkıştırma ataşmanı fonksiyonunu kullanmayın."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -949,20 +738,14 @@
       "aliaslar": [],
       "sistem": "hidrolik",
       "baslik": "Sol/sağ kol hattı kesici şalteri arızalı",
-      "aciklama": "Sol/sağ kol hattı kesici şalteri kapalı konumda doğrulanamıyor; kol kapatma hattı enerjilenemez. Kontrolcü ilgili kol fonksiyonlarını kilitler.",
+      "aciklama": "Sol/sağ kol hattı kesici şalteri arızalı. Sağ/sol kol kapatma hattı çalışmıyor; bu hattı kullanmayın.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Hattı kesici şalterin temas grubunun aşınması",
-        "Şalter ayarının kayması",
-        "Şalter kablosunda kopukluk",
-        "Mekanik mandalın tam oturmaması"
+        "Sol/sağ kol hattı kesici şalteri arızalı"
       ],
       "kontroller": [
-        "Şalteri açıp kapatarak temas sürekliliğini ölçün",
-        "Mekanik konum ve ayarı kontrol edin",
-        "Kablo ve konnektör sürekliliğini test edin",
-        "Aşınmış şalteri değiştirin"
+        "Sağ/sol kol kapatma hattını kullanmayın."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -975,20 +758,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Maksimum yük aşıldı",
-      "aciklama": "Taşıma kapasitesi aşıldı; moment limiti kaldırmayı ve yürüyüşü zorluyor. Kontrolcü hızı en fazla 1 km/s'ye düşürerek devrilme riskini sınırlar.",
+      "aciklama": "Maksimum yük aşıldı. Hız en fazla 1 km/s'ye düşürülür; yükü indirin.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Kapasite üstü yük kaldırılması",
-        "Yük merkezine uyulmaması",
-        "Anlık basınç sıçramasının aşırı yük olarak algılanması",
-        "Yük sensörü kalibrasyonunun sapması"
+        "Maksimum yük aşıldı"
       ],
       "kontroller": [
-        "Yüğü indirin ve ağırlığı kapasite tablosuyla karşılaştırın",
-        "Yük merkezi ve ataşman etkisini doğrulayın",
-        "Sensör sıfır ve referans değerlerini kontrol edin",
-        "Algılama hatalıysa yük ölçüm hattını onarın"
+        "Yükü indirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1001,20 +778,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Sıkıştırma ataşmanı üst sol baypas valfi çalışmıyor",
-      "aciklama": "Sıkıştırma ataşmanı üst sol baypas valfi devreye giremiyor; ataşmanın sol üst bölümü basınç altında tutulamıyor ve sıkıştırma dengesi bozuluyor. Kontrolcü ataşman fonksiyonunu sınırlayarak yük düşmesini önler.",
+      "aciklama": "Sıkıştırma ataşmanı üst sol baypas valfi çalışmıyor. Sıkıştırma ataşmanının sol tarafı çalışmıyor.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı üst sol baypas valfi sargısında açık devre veya yetersiz çekiş akımı",
-        "üst sol baypas hattı üzerinde gevşemiş klemeler",
-        "Valf makarasının kir nedeniyle takılması",
-        "Yay kırılması sonucu valfin kapanmaması"
+        "Sıkıştırma ataşmanı üst sol baypas valfi çalışmıyor"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı üst sol baypas valfi bobin direncini ve çekiş akımını ölçün",
-        "üst sol baypas hattı bağlantılarını sıkıp sürekliliğini test edin",
-        "Valfi söküp makara ve yayını temizlik yönünden kontrol edin",
-        "Takılan veya arızalı valfi yenisiyle değiştirin"
+        "İlgili valfi ve devresini kontrol edin; gerekirse servise başvurun."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1027,20 +798,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Sıkıştırma ataşmanı orta sol baypas valfi çalışmıyor",
-      "aciklama": "Sıkıştırma ataşmanı orta sol baypas valfi devreye giremiyor; ataşmanın orta sol bölümü basınç altında tutulamıyor ve sıkıştırma dengesi bozuluyor. Kontrolcü ataşman fonksiyonunu sınırlayarak yük düşmesini önler.",
+      "aciklama": "Sıkıştırma ataşmanı orta sol baypas valfi çalışmıyor. Sıkıştırma ataşmanının sol tarafı çalışmıyor.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı orta sol baypas valfi sargısında açık devre veya yetersiz çekiş akımı",
-        "orta sol baypas hattı üzerinde gevşemiş klemeler",
-        "Valf makarasının kir nedeniyle takılması",
-        "Yay kırılması sonucu valfin kapanmaması"
+        "Sıkıştırma ataşmanı orta sol baypas valfi çalışmıyor"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı orta sol baypas valfi bobin direncini ve çekiş akımını ölçün",
-        "orta sol baypas hattı bağlantılarını sıkıp sürekliliğini test edin",
-        "Valfi söküp makara ve yayını temizlik yönünden kontrol edin",
-        "Takılan veya arızalı valfi yenisiyle değiştirin"
+        "İlgili valfi ve devresini kontrol edin; gerekirse servise başvurun."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1053,20 +818,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Sıkıştırma ataşmanı sol sıralama valfi çalışmıyor",
-      "aciklama": "Sıkıştırma ataşmanı sol sıralama valfi devreye giremiyor; sol sıkıştırma sıralaması basınç altında tutulamıyor ve sıkıştırma dengesi bozuluyor. Kontrolcü ataşman fonksiyonunu sınırlayarak yük düşmesini önler.",
+      "aciklama": "Sıkıştırma ataşmanı sol sıralama valfi çalışmıyor. Sıkıştırma ataşmanının sol tarafı çalışmıyor.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı sol sıralama valfi sargısında açık devre veya yetersiz çekiş akımı",
-        "sol sıralama hattı üzerinde gevşemiş klemeler",
-        "Valf makarasının kir nedeniyle takılması",
-        "Yay kırılması sonucu valfin kapanmaması"
+        "Sıkıştırma ataşmanı sol sıralama valfi çalışmıyor"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı sol sıralama valfi bobin direncini ve çekiş akımını ölçün",
-        "sol sıralama hattı bağlantılarını sıkıp sürekliliğini test edin",
-        "Valfi söküp makara ve yayını temizlik yönünden kontrol edin",
-        "Takılan veya arızalı valfi yenisiyle değiştirin"
+        "İlgili valfi ve devresini kontrol edin; gerekirse servise başvurun."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1079,20 +838,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Sıkıştırma ataşmanı üst sağ baypas valfi çalışmıyor",
-      "aciklama": "Sıkıştırma ataşmanı üst sağ baypas valfi devreye giremiyor; ataşmanın sağ üst bölümü basınç altında tutulamıyor ve sıkıştırma dengesi bozuluyor. Kontrolcü ataşman fonksiyonunu sınırlayarak yük düşmesini önler.",
+      "aciklama": "Sıkıştırma ataşmanı üst sağ baypas valfi çalışmıyor. Sıkıştırma ataşmanının sağ tarafı çalışmıyor.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı üst sağ baypas valfi sargısında açık devre veya yetersiz çekiş akımı",
-        "üst sağ baypas hattı üzerinde gevşemiş klemeler",
-        "Valf makarasının kir nedeniyle takılması",
-        "Yay kırılması sonucu valfin kapanmaması"
+        "Sıkıştırma ataşmanı üst sağ baypas valfi çalışmıyor"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı üst sağ baypas valfi bobin direncini ve çekiş akımını ölçün",
-        "üst sağ baypas hattı bağlantılarını sıkıp sürekliliğini test edin",
-        "Valfi söküp makara ve yayını temizlik yönünden kontrol edin",
-        "Takılan veya arızalı valfi yenisiyle değiştirin"
+        "İlgili valfi ve devresini kontrol edin; gerekirse servise başvurun."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1105,20 +858,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Sıkıştırma ataşmanı orta sağ baypas valfi çalışmıyor",
-      "aciklama": "Sıkıştırma ataşmanı orta sağ baypas valfi devreye giremiyor; ataşmanın orta sağ bölümü basınç altında tutulamıyor ve sıkıştırma dengesi bozuluyor. Kontrolcü ataşman fonksiyonunu sınırlayarak yük düşmesini önler.",
+      "aciklama": "Sıkıştırma ataşmanı orta sağ baypas valfi çalışmıyor. Sıkıştırma ataşmanının sağ tarafı çalışmıyor.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı orta sağ baypas valfi sargısında açık devre veya yetersiz çekiş akımı",
-        "orta sağ baypas hattı üzerinde gevşemiş klemeler",
-        "Valf makarasının kir nedeniyle takılması",
-        "Yay kırılması sonucu valfin kapanmaması"
+        "Sıkıştırma ataşmanı orta sağ baypas valfi çalışmıyor"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı orta sağ baypas valfi bobin direncini ve çekiş akımını ölçün",
-        "orta sağ baypas hattı bağlantılarını sıkıp sürekliliğini test edin",
-        "Valfi söküp makara ve yayını temizlik yönünden kontrol edin",
-        "Takılan veya arızalı valfi yenisiyle değiştirin"
+        "İlgili valfi ve devresini kontrol edin; gerekirse servise başvurun."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1131,20 +878,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Sıkıştırma ataşmanı sağ sıralama valfi çalışmıyor",
-      "aciklama": "Sıkıştırma ataşmanı sağ sıralama valfi devreye giremiyor; sağ sıkıştırma sıralaması basınç altında tutulamıyor ve sıkıştırma dengesi bozuluyor. Kontrolcü ataşman fonksiyonunu sınırlayarak yük düşmesini önler.",
+      "aciklama": "Sıkıştırma ataşmanı sağ sıralama valfi çalışmıyor. Sıkıştırma ataşmanının sağ tarafı çalışmıyor.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı sağ sıralama valfi sargısında açık devre veya yetersiz çekiş akımı",
-        "sağ sıralama hattı üzerinde gevşemiş klemeler",
-        "Valf makarasının kir nedeniyle takılması",
-        "Yay kırılması sonucu valfin kapanmaması"
+        "Sıkıştırma ataşmanı sağ sıralama valfi çalışmıyor"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı sağ sıralama valfi bobin direncini ve çekiş akımını ölçün",
-        "sağ sıralama hattı bağlantılarını sıkıp sürekliliğini test edin",
-        "Valfi söküp makara ve yayını temizlik yönünden kontrol edin",
-        "Takılan veya arızalı valfi yenisiyle değiştirin"
+        "İlgili valfi ve devresini kontrol edin; gerekirse servise başvurun."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1157,20 +898,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Sıkıştırma ataşmanı uzun sol kol P3 basınç sensörü arızalı",
-      "aciklama": "Sıkıştırma ataşmanı uzun sol kol P3 basınç sensörü ölçüm bandı dışında değer veriyor; uzun sol kol devresi basıncı doğru izlenemez. Kontrolcü basınç limitlerini yaklaşık değerle yürüttüğü için fonksiyon kısıtlanır.",
+      "aciklama": "Sıkıştırma ataşmanı uzun sol kol P3 basınç sensörü arızalı. Sıkıştırma ataşmanının sol tarafı çalışmıyor.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı uzun sol kol P3 basınç sensörü sinyal hattında nem kaynaklı kaçak",
-        "Sıkıştırma ataşmanı uzun sol kol P3 basınç sensörü elemanının basınç darbesiyle kalibre dışına çıkması",
-        "Sensör besleme hattında gerilim düşümü",
-        "Konnektörde yağ sızıntısı ve oksitlenme"
+        "Sıkıştırma ataşmanı uzun sol kol P3 basınç sensörü arızalı"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı uzun sol kol P3 basınç sensörü çıkışını basınçsız ve tam basınçlı iki durumda referans manometreyle karşılaştırın",
-        "Sensör besleme ve sinyal uçlarında gerilim ölçün",
-        "uzun sol kol devresi konnektörünü temizleyip yağ kaçağı yönünden denetleyin",
-        "Sapma düzelmezse basınç sensörünü yenileyin"
+        "İlgili basınç sensörünü ve devresini kontrol edin; gerekirse servise başvurun."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1183,20 +918,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Sıkıştırma ataşmanı kısa sol kol P3 basınç sensörü arızalı",
-      "aciklama": "Sıkıştırma ataşmanı kısa sol kol P3 basınç sensörü ölçüm bandı dışında değer veriyor; kısa sol kol devresi basıncı doğru izlenemez. Kontrolcü basınç limitlerini yaklaşık değerle yürüttüğü için fonksiyon kısıtlanır.",
+      "aciklama": "Sıkıştırma ataşmanı kısa sol kol P3 basınç sensörü arızalı. Sıkıştırma ataşmanının sol tarafı çalışmıyor.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı kısa sol kol P3 basınç sensörü sinyal hattında nem kaynaklı kaçak",
-        "Sıkıştırma ataşmanı kısa sol kol P3 basınç sensörü elemanının basınç darbesiyle kalibre dışına çıkması",
-        "Sensör besleme hattında gerilim düşümü",
-        "Konnektörde yağ sızıntısı ve oksitlenme"
+        "Sıkıştırma ataşmanı kısa sol kol P3 basınç sensörü arızalı"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı kısa sol kol P3 basınç sensörü çıkışını basınçsız ve tam basınçlı iki durumda referans manometreyle karşılaştırın",
-        "Sensör besleme ve sinyal uçlarında gerilim ölçün",
-        "kısa sol kol devresi konnektörünü temizleyip yağ kaçağı yönünden denetleyin",
-        "Sapma düzelmezse basınç sensörünü yenileyin"
+        "İlgili basınç sensörünü ve devresini kontrol edin; gerekirse servise başvurun."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1209,20 +938,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Sıkıştırma ataşmanı uzun sağ kol P3 basınç sensörü arızalı",
-      "aciklama": "Sıkıştırma ataşmanı uzun sağ kol P3 basınç sensörü ölçüm bandı dışında değer veriyor; uzun sağ kol devresi basıncı doğru izlenemez. Kontrolcü basınç limitlerini yaklaşık değerle yürüttüğü için fonksiyon kısıtlanır.",
+      "aciklama": "Sıkıştırma ataşmanı uzun sağ kol P3 basınç sensörü arızalı. Sıkıştırma ataşmanının sağ tarafı çalışmıyor.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı uzun sağ kol P3 basınç sensörü sinyal hattında nem kaynaklı kaçak",
-        "Sıkıştırma ataşmanı uzun sağ kol P3 basınç sensörü elemanının basınç darbesiyle kalibre dışına çıkması",
-        "Sensör besleme hattında gerilim düşümü",
-        "Konnektörde yağ sızıntısı ve oksitlenme"
+        "Sıkıştırma ataşmanı uzun sağ kol P3 basınç sensörü arızalı"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı uzun sağ kol P3 basınç sensörü çıkışını basınçsız ve tam basınçlı iki durumda referans manometreyle karşılaştırın",
-        "Sensör besleme ve sinyal uçlarında gerilim ölçün",
-        "uzun sağ kol devresi konnektörünü temizleyip yağ kaçağı yönünden denetleyin",
-        "Sapma düzelmezse basınç sensörünü yenileyin"
+        "İlgili basınç sensörünü ve devresini kontrol edin; gerekirse servise başvurun."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1235,20 +958,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Sıkıştırma ataşmanı kısa sağ kol P3 basınç sensörü arızalı",
-      "aciklama": "Sıkıştırma ataşmanı kısa sağ kol P3 basınç sensörü ölçüm bandı dışında değer veriyor; kısa sağ kol devresi basıncı doğru izlenemez. Kontrolcü basınç limitlerini yaklaşık değerle yürüttüğü için fonksiyon kısıtlanır.",
+      "aciklama": "Sıkıştırma ataşmanı kısa sağ kol P3 basınç sensörü arızalı. Sıkıştırma ataşmanının sağ tarafı çalışmıyor.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı kısa sağ kol P3 basınç sensörü sinyal hattında nem kaynaklı kaçak",
-        "Sıkıştırma ataşmanı kısa sağ kol P3 basınç sensörü elemanının basınç darbesiyle kalibre dışına çıkması",
-        "Sensör besleme hattında gerilim düşümü",
-        "Konnektörde yağ sızıntısı ve oksitlenme"
+        "Sıkıştırma ataşmanı kısa sağ kol P3 basınç sensörü arızalı"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı kısa sağ kol P3 basınç sensörü çıkışını basınçsız ve tam basınçlı iki durumda referans manometreyle karşılaştırın",
-        "Sensör besleme ve sinyal uçlarında gerilim ölçün",
-        "kısa sağ kol devresi konnektörünü temizleyip yağ kaçağı yönünden denetleyin",
-        "Sapma düzelmezse basınç sensörünü yenileyin"
+        "İlgili basınç sensörünü ve devresini kontrol edin; gerekirse servise başvurun."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1261,20 +978,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Sıkıştırma basıncı seçim şalteri hatası",
-      "aciklama": "Sıkıştırma basıncı seçim şalteri okunamıyor; sistem güvenlik gereği birinci kademe basıncında kalır. Yüksek sıkıştırma kademesi seçilemez.",
+      "aciklama": "Sıkıştırma basıncı seçim şalteri hatası. Birinci sıkıştırma basıncı seçili kalır.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Seçim şalteri kontaklarında yanma",
-        "Şalter kablolarında kısa devre",
-        "Şalter mekanizmasının takılması",
-        "Konnektör piminin geri kaçması"
+        "Sıkıştırma basıncı seçim şalteri hatası"
       ],
       "kontroller": [
-        "Her kademe konumunda şalter çıkış gerilimini ölçün",
-        "Kontak yüzeylerini ve mekanizmayı kontrol edin",
-        "Kablo demetinde kısa ve kopukluk arayın",
-        "Arızalı seçim şalterini değiştirin"
+        "Seçim şalterini ve devresini kontrol edin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1287,20 +998,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Sıkıştırma ataşmanı sol kol P1 basınç sensörü arızalı",
-      "aciklama": "Sıkıştırma ataşmanı sol kol P1 basınç sensörü ölçüm bandı dışında değer veriyor; sol kol birinci kademe devresi basıncı doğru izlenemez. Kontrolcü basınç limitlerini yaklaşık değerle yürüttüğü için fonksiyon kısıtlanır.",
+      "aciklama": "Sıkıştırma ataşmanı sol kol P1 basınç sensörü arızalı. Sıkıştırma basıncı otomatik artırılmaz.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı sol kol P1 basınç sensörü sinyal hattında nem kaynaklı kaçak",
-        "Sıkıştırma ataşmanı sol kol P1 basınç sensörü elemanının basınç darbesiyle kalibre dışına çıkması",
-        "Sensör besleme hattında gerilim düşümü",
-        "Konnektörde yağ sızıntısı ve oksitlenme"
+        "Sıkıştırma ataşmanı sol kol P1 basınç sensörü arızalı"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı sol kol P1 basınç sensörü çıkışını basınçsız ve tam basınçlı iki durumda referans manometreyle karşılaştırın",
-        "Sensör besleme ve sinyal uçlarında gerilim ölçün",
-        "sol kol birinci kademe devresi konnektörünü temizleyip yağ kaçağı yönünden denetleyin",
-        "Sapma düzelmezse basınç sensörünü yenileyin"
+        "İlgili basınç sensörünü ve devresini kontrol edin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1313,20 +1018,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Sıkıştırma ataşmanı sol kol P2 basınç sensörü arızalı",
-      "aciklama": "Sıkıştırma ataşmanı sol kol P2 basınç sensörü ölçüm bandı dışında değer veriyor; sol kol ikinci kademe devresi basıncı doğru izlenemez. Kontrolcü basınç limitlerini yaklaşık değerle yürüttüğü için fonksiyon kısıtlanır.",
+      "aciklama": "Sıkıştırma ataşmanı sol kol P2 basınç sensörü arızalı. Sıkıştırma basıncı otomatik artırılmaz.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı sol kol P2 basınç sensörü sinyal hattında nem kaynaklı kaçak",
-        "Sıkıştırma ataşmanı sol kol P2 basınç sensörü elemanının basınç darbesiyle kalibre dışına çıkması",
-        "Sensör besleme hattında gerilim düşümü",
-        "Konnektörde yağ sızıntısı ve oksitlenme"
+        "Sıkıştırma ataşmanı sol kol P2 basınç sensörü arızalı"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı sol kol P2 basınç sensörü çıkışını basınçsız ve tam basınçlı iki durumda referans manometreyle karşılaştırın",
-        "Sensör besleme ve sinyal uçlarında gerilim ölçün",
-        "sol kol ikinci kademe devresi konnektörünü temizleyip yağ kaçağı yönünden denetleyin",
-        "Sapma düzelmezse basınç sensörünü yenileyin"
+        "İlgili basınç sensörünü ve devresini kontrol edin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1339,20 +1038,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Sıkıştırma ataşmanı sağ kol P1 basınç sensörü arızalı",
-      "aciklama": "Sıkıştırma ataşmanı sağ kol P1 basınç sensörü ölçüm bandı dışında değer veriyor; sağ kol birinci kademe devresi basıncı doğru izlenemez. Kontrolcü basınç limitlerini yaklaşık değerle yürüttüğü için fonksiyon kısıtlanır.",
+      "aciklama": "Sıkıştırma ataşmanı sağ kol P1 basınç sensörü arızalı. Sıkıştırma basıncı otomatik artırılmaz.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı sağ kol P1 basınç sensörü sinyal hattında nem kaynaklı kaçak",
-        "Sıkıştırma ataşmanı sağ kol P1 basınç sensörü elemanının basınç darbesiyle kalibre dışına çıkması",
-        "Sensör besleme hattında gerilim düşümü",
-        "Konnektörde yağ sızıntısı ve oksitlenme"
+        "Sıkıştırma ataşmanı sağ kol P1 basınç sensörü arızalı"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı sağ kol P1 basınç sensörü çıkışını basınçsız ve tam basınçlı iki durumda referans manometreyle karşılaştırın",
-        "Sensör besleme ve sinyal uçlarında gerilim ölçün",
-        "sağ kol birinci kademe devresi konnektörünü temizleyip yağ kaçağı yönünden denetleyin",
-        "Sapma düzelmezse basınç sensörünü yenileyin"
+        "İlgili basınç sensörünü ve devresini kontrol edin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1365,20 +1058,14 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Sıkıştırma ataşmanı sağ kol P3 basınç sensörü arızalı",
-      "aciklama": "Sıkıştırma ataşmanı sağ kol P3 basınç sensörü ölçüm bandı dışında değer veriyor; sağ kol üçüncü kademe devresi basıncı doğru izlenemez. Kontrolcü basınç limitlerini yaklaşık değerle yürüttüğü için fonksiyon kısıtlanır.",
+      "aciklama": "Sıkıştırma ataşmanı sağ kol P3 basınç sensörü arızalı. Sıkıştırma basıncı otomatik artırılmaz.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı sağ kol P3 basınç sensörü sinyal hattında nem kaynaklı kaçak",
-        "Sıkıştırma ataşmanı sağ kol P3 basınç sensörü elemanının basınç darbesiyle kalibre dışına çıkması",
-        "Sensör besleme hattında gerilim düşümü",
-        "Konnektörde yağ sızıntısı ve oksitlenme"
+        "Sıkıştırma ataşmanı sağ kol P3 basınç sensörü arızalı"
       ],
       "kontroller": [
-        "Sıkıştırma ataşmanı sağ kol P3 basınç sensörü çıkışını basınçsız ve tam basınçlı iki durumda referans manometreyle karşılaştırın",
-        "Sensör besleme ve sinyal uçlarında gerilim ölçün",
-        "sağ kol üçüncü kademe devresi konnektörünü temizleyip yağ kaçağı yönünden denetleyin",
-        "Sapma düzelmezse basınç sensörünü yenileyin"
+        "İlgili basınç sensörünü ve devresini kontrol edin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1391,20 +1078,14 @@
       "aliaslar": [],
       "sistem": "sanziman",
       "baslik": "Şanzıman kontrol ünitesinden gelen hata kodu",
-      "aciklama": "Şanzıman kontrol ünitesi kendi arıza kodunu kontrol ağına bildirdi; aktarma organında bir sorun var. Kademe kalitesi düşer ve sistem sınırlı çalışma uygulayabilir.",
+      "aciklama": "Şanzıman kontrol ünitesinden gelen hata kodu. Sınırlı çalışma uygulanabilir; şanzıman hata kodlarına bakın.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Şanzıman üzerindeki bir sensör veya valf arızasının şanzıman tarafından raporlanması",
-        "Yağ sıcaklığı veya basıncının sınır dışına çıkması",
-        "Kavrama kayması",
-        "Şanzıman yazılımının alt hata üretmesi"
+        "Şanzıman kontrol ünitesinden gelen hata kodu"
       ],
       "kontroller": [
-        "Şanzıman hata kodu tablosundan iletilen alt kodu okuyun",
-        "Alt kodun işaret ettiği devreyi bu kılavuza göre test edin",
-        "Arıza sonrası kod hatırasını temizleyip tekrarı izleyin",
-        "Gerekirse şanzıman servis prosedürünü uygulayın"
+        "Şanzıman hata kodları tablosuna bakın."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1416,21 +1097,15 @@
       "kodNormal": "1200",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "ECM'den gelen hata kodu",
-      "aciklama": "Yakıt kontrol ünitesi ECM kendi arıza kodunu ağ üzerinden iletti; ünitede emisyon veya çalışma sınırlandırması olabilir. Kontrol zinciri sınırlı çalışmaya izin verebilir.",
+      "baslik": "Motor kontrol ünitesinden gelen hata kodu",
+      "aciklama": "Motor kontrol ünitesinden gelen hata kodu. Sınırlı çalışma uygulanabilir; motor kontrol ünitesi arıza kodlarına bakın.",
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "ECM'nin sensör veya enjektör devresinde alt arıza tespit etmesi",
-        "Yakıt basıncı ve hava ölçüm değerlerinin sınıra ulaşması",
-        "ECM yazılımının arıza hatırası üretmesi",
-        "İletilen kodun eski bir kalıntı hatırası olması"
+        "Motor kontrol ünitesinden gelen hata kodu"
       ],
       "kontroller": [
-        "ECM hata kodu tablosundan gelen alt kodu okuyun",
-        "İlgili devreyi alt kodun rehberliğinde test edin",
-        "Kod hatırasını temizleyip tekrar oluşup oluşmadığını gözleyin",
-        "Ünite tarafı onarımı için servis kılavuzunu uygulayın"
+        "Motor kontrol ünitesi hata kodlarına bakın."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,

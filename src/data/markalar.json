@@ -24,6 +24,14 @@
     "renk": "#15803D"
   },
   {
+    "id": "caterpillar",
+    "ad": "Caterpillar",
+    "grup": "Caterpillar Inc. (Mitsubishi Logisnext)",
+    "aciklama": "Caterpillar markalı forkliftler Mitsubishi Logisnext tarafından üretilir; dizel, LPG ve elektrikli serilerde ortak kontrolör ailesi kullanılır.",
+    "not": "Caterpillar forkliftlerinin üretimi Mitsubishi Logisnext tarafından yapılmaktadır.",
+    "renk": "#FBBF24"
+  },
+  {
     "id": "clark",
     "ad": "Clark",
     "grup": "Clark Material Handling Company",

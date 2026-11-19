@@ -1,13 +1,5 @@
 [
   {
-    "id": "baoli",
-    "ad": "Baoli",
-    "grup": "KION Group",
-    "aciklama": "KION'un giriş segment markası. KBE 15-20 akülü model kod kataloğu ve 1-3 t CPD servis manüeli DC kontrolör durum kodları.",
-    "not": "",
-    "renk": "#0D9488"
-  },
-  {
     "id": "bt",
     "ad": "BT",
     "grup": "Toyota Material Handling Europe",
@@ -22,6 +14,22 @@
     "aciklama": "Lityum bataryalı akülü forklift üreticisi. ECB16/ECB18 operatör manüelindeki gösterge arıza mesajları ve çözüm adımları.",
     "not": "Kod yerine gösterge metni kullanılır; BYD mesaj tabanlı hata gösterimi kullanır.",
     "renk": "#15803D"
+  },
+  {
+    "id": "baoli",
+    "ad": "Baoli",
+    "grup": "KION Group",
+    "aciklama": "KION'un giriş segment markası. KBE 15-20 akülü model kod kataloğu ve 1-3 t CPD servis manüeli DC kontrolör durum kodları.",
+    "not": "",
+    "renk": "#0D9488"
+  },
+  {
+    "id": "caterpillar",
+    "ad": "Caterpillar",
+    "grup": "Caterpillar Inc. (Mitsubishi Logisnext)",
+    "aciklama": "Caterpillar markalı forkliftler Mitsubishi Logisnext tarafından üretilir; dizel, LPG ve elektrikli serilerde ortak kontrolör ailesi kullanılır.",
+    "not": "Caterpillar forkliftlerinin üretimi Mitsubishi Logisnext tarafından yapılmaktadır.",
+    "renk": "#FBBF24"
   },
   {
     "id": "clark",

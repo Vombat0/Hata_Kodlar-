@@ -1,12 +1,575 @@
 {
-  "marka": "cat",
-  "seri": "2c-p2",
-  "modelAdi": "Cat 2c-p2",
-  "kaynakBelge": "Web araştırması — forklifterrorcodes.com",
-  "kaynakSurum": "",
+  "marka": "caterpillar",
+  "seri": "2c3000-2c6500",
+  "modelAdi": "Cat 2C3000/2C3500/2C4000/2C5000/2C5500/2C6000/2C6500 elektrikli forkliftler (VCM/ECM/MP kontrol mimarisi)",
+  "kaynakBelge": "Machine Maxx USA — Cat Forklift Error Code Guide 2C3000–2C6500 kod tablosu (yalnız kod+açıklama sütunları; neden/çözüm sütunu yok)",
+  "kaynakSurum": "sayfa güncellemesi 2026-02-10",
   "kaynakDil": "EN",
-  "kaynakUrl": "",
+  "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
   "kodlar": [
+    {
+      "kod": "E-03",
+      "kodNormal": "E03",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "VCM iletişim hatası (motor grubu göstergesi)",
+      "aciklama": "Motor gösterge grubu, araç kontrol modülü VCM ile veri alışverişinin bozulduğunu gösterir; neden dizimi kaynak tabloda verilmez",
+      "makineTepkisi": "Teşhis kodu ekranda görünür; yetkili servis çağrılması önerilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-04",
+        "F-03"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-04",
+      "kodNormal": "E04",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "ECM iletişim hatası",
+      "aciklama": "Motor kontrol modülü ECM ile iletişim kesilir; E-03'ten farklı olarak kayıp taraf motor kontrolörüdür",
+      "makineTepkisi": "Ekran kodu yanıp söner; motorlu çalışma kısıtlanabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-03",
+        "F-04"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-07",
+      "kodNormal": "E07",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "MP (makine paketi) iletişim hatası",
+      "aciklama": "Motor grubu göstergesinde MP ünitesiyle iletişim kaybı raporlanır; F-07 makine grubundaki karşılığıdır",
+      "makineTepkisi": "İletişim kodu ekrana düşer",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-07",
+        "E-03"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-21",
+      "kodNormal": "E21",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Hava akış ölçer hatalı sinyal üretiyor",
+      "aciklama": "Akış ölçerin sinyali mantık bandı dışında; kaynak yalnız kısa tanımı listeler, ek teşhis verisi yayımlanmamıştır",
+      "makineTepkisi": "Hata kodu motora ait uyarı grubunda görünür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-22",
+        "E-23"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-22",
+      "kodNormal": "E22",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Su sıcaklık sensörü hatalı sinyal",
+      "aciklama": "Soğutma suyu sıcaklık sensörü geçersiz değer bildirir; E-32/E-33 hararet kodlarından farklı olarak sensör sinyaline işaret eder",
+      "makineTepkisi": "Sensör hatası kodu ekranda listelenir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-32",
+        "E-33"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-23",
+      "kodNormal": "E23",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Gaz kelebeği sensörü hatalı sinyal",
+      "aciklama": "Kelebek konum sensörü sorgulanan aralık dışında okur; pedal sensörü E-24'ten ayrı bir kanalı izler",
+      "makineTepkisi": "Rölanti ve gaz tepkisi bozulabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-24",
+        "E-31"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-24",
+      "kodNormal": "E24",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Gaz pedalı sensörü hatalı sinyal",
+      "aciklama": "Operatör pedalının elektriksel geri bildirimi hatalı; kaynak listede neden veya çözüm dizimi bulunmaz",
+      "makineTepkisi": "Pedal hareketi motora doğru yansımaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-23"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-25",
+      "kodNormal": "E25",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "O2 (oksijen) sensörü hatalı sinyal",
+      "aciklama": "Egzoz oksijen sensörünün sinyal devresi geçersiz okuma üretir; ısıtıcı arızası ayrı kodla (E-26) izlenir",
+      "makineTepkisi": "Karışım kontrolü açık döngüye dönebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-26"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-26",
+      "kodNormal": "E26",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "O2 sensörü ısıtıcı devresi hatası",
+      "aciklama": "Lamba sensörünün ısınma devresi görevini yapamaz; sensör sıcaklığa ulaşmadan sinyal beklenemez hale gelir",
+      "makineTepkisi": "Isınma sonrası kapalı döngü gecikir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-25"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-27",
+      "kodNormal": "E27",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "POS (krank konum) sensörü hatalı sinyal",
+      "aciklama": "Krank milı konum sensörü sorgusu başarısız; motor senkronizasyonu için kritik bir giriştir",
+      "makineTepkisi": "Çalıştırma güçleşir veya motor stop edebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-28",
+        "E-34"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-28",
+      "kodNormal": "E28",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "PHASE (kam konum) sensörü hatalı sinyal",
+      "aciklama": "Kam milı faz sensörü geçersiz okuma verir; krank sensörü E-27'den ayrı bir zamanlama girişini izler",
+      "makineTepkisi": "Zamanlama referansı kaybolabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-27"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-29",
+      "kodNormal": "E29",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Kendiliğinden durdurma sistemi hatası",
+      "aciklama": "Otomatik stop/kapama güvenlik sisteminin öz testi olumsuz; motorun kendi müdahale zinciri sorgulanır",
+      "makineTepkisi": "Otomatik durdurma davranışı güvensiz kalabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-30"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-30",
+      "kodNormal": "E30",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "ECCS kontrol ünitesi hatalı sinyal",
+      "aciklama": "Elektronik motor kumanda ünitesinin (ECCS) kendi arıza bayrağı yükselir; ünite iç teşhis detayı listede yoktur",
+      "makineTepkisi": "Motor kontrol performans düşebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-29",
+        "E-31"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-31",
+      "kodNormal": "E31",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Elektronik gaz kontrolü hata sinyali",
+      "aciklama": "Drive-by-wire gaz kontrol devresi hata bildirir; sensör kodları E-23/E-24'ten farklı olarak aktüasyon tarafını işaret eder",
+      "makineTepkisi": "Gaz komutu güvenli konuma sabitlenebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-23",
+        "E-30"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-32",
+      "kodNormal": "E32",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Aşırı ısınma sinyali (1. kademe)",
+      "aciklama": "Soğutma suyu ilk hararet kademesine ulaştı; E-22'den farklı olarak ölçüm değil gerçek sıcaklık eşiği bildirilir",
+      "makineTepkisi": "Motor koruma mantığı devreye girer; yük azaltılmalıdır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-33",
+        "E-22"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-33",
+      "kodNormal": "E33",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Aşırı ısınma sinyali (2. kademe)",
+      "aciklama": "Hararet ikinci ve daha ağır kademe eşiğini geçti; 1. kademe E-32'nin devamı niteliğindedir",
+      "makineTepkisi": "Motor stop ettirme/kilitleme mantığı beklenebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-32"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-34",
+      "kodNormal": "E34",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Ateşleme (kıvılcım) sistemi hata sinyali",
+      "aciklama": "Ateşleme devresi öz denetiminde hata; sensör kaynaklı E-27/E-28'den farklı olarak ateşleme üretim zinceri sorgulanır",
+      "makineTepkisi": "Tek silindirde ateşlemesizlik gözlenebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-27"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-35",
+      "kodNormal": "E35",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "LPG enjektör ayrılma teşhis sonucu sinyali",
+      "aciklama": "LPG ana enjektörünün bağlantı/çalışma teşhisi olumsuz sonuçlandı; tablo yalnız kısa tanımı içerir",
+      "makineTepkisi": "Gaz modunda yakıt kesintisi oluşabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-36",
+        "E-43"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-36",
+      "kodNormal": "E36",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "LPG yakıt basıncı sensörü teşhis sonucu sinyali",
+      "aciklama": "Gaz yakıt basınç sensörü teşhis çıktısı arıza işaretli; gerçek basınç ile elektriksel okuma ayrımı tabloda verilmez",
+      "makineTepkisi": "Gaz modunda güç düşebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-35",
+        "E-38"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-38",
+      "kodNormal": "E38",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "LPG buharlaştırıcı teşhis sonucu sinyali",
+      "aciklama": "Vaporizer devresi teşhis kontrolünü geçemedi; basınç sensörü E-36 ile birlikte değerlendirilmelidir",
+      "makineTepkisi": "Gaz fazı beslemesi düzensizleşebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-36"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-39",
+      "kodNormal": "E39",
+      "aliaslar": [],
+      "sistem": "atisman",
+      "baslik": "Mast yüksek şalteri teşhis sonucu sinyali",
+      "aciklama": "Mast azami yükseklik şalterinin teşhis çıktısı hatalı; hidrolik konum anahtarı izleme kapsamındadır",
+      "makineTepkisi": "Mast üst limiti izleme güvenilmez kalır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-32"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-40",
+      "kodNormal": "E40",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Yağ basıncı sensörü teşhis sonucu sinyali",
+      "aciklama": "Motor yağ basıncı sensörünün öz teşhisi arıza bayrağı verdi; gerçek basınç değerinden bağımsız bir sensör sorgusudur",
+      "makineTepkisi": "Yağlama izleme fonksiyonu kısıtlanabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-22"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-41",
+      "kodNormal": "E41",
+      "aliaslar": [],
+      "sistem": "fren",
+      "baslik": "Fren (durma lambası) şalteri hata sinyali",
+      "aciklama": "Stop lamp switch sinyal durumu tutarsız; lamba çalışmasa bile şalter ayarı sorumlu olabilir",
+      "makineTepkisi": "Fren lambası ve ilgili lojikler etkilenir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-40"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-42",
+      "kodNormal": "E42",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Gaz yakıt sistemi teşhis sonucu sinyali",
+      "aciklama": "Genel gaz yakıt sistemi teşhisi başarısız; LPG'ye özgü E-35..E-38 satırlarından ayrı, sistem geneli bir bayraktır",
+      "makineTepkisi": "Yakıt sistemi izlemesi uyarı üretir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-43"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-43",
+      "kodNormal": "E43",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "LPG yakıt sistemi teşhis sonucu sinyali",
+      "aciklama": "LPG besleme zincirinin genel teşhisi hata verdi; E-42'nin LPG'ye özgü karşılığıdır, alt teşhis detayı tabloda yoktur",
+      "makineTepkisi": "Araç benzin moduna geçebilir veya güç düşebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-42",
+        "E-35"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
     {
       "kod": "F-01",
       "kodNormal": "F01",

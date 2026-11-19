@@ -178,7 +178,7 @@ const jsonLd = [breadcrumbLd, definedTermLd, faqLd];
             <h2>İlgili kodlar</h2>
             <div class="kartlar">
               {ilgiliKodlar.map((ilgili) => (
-                <a class="kart" href={`${temelYol}/${encodeURIComponent(ilgili.kod)}/`}>
+                <a class="kart" href={kodAdresi(seri.marka, seri.seri, ilgili.kod)}>
                   <div class="kart-ust">
                     <span class="kod-hucre">{ilgili.kod}</span>
                     <SiddetRozet siddet={ilgili.siddet} />

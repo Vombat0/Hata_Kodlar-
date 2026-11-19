@@ -72,11 +72,11 @@
       "makineTepkisi": "Kaldırma fonksiyonu durur Direksiyon sertleşir",
       "siddet": "durdurucu",
       "nedenler": [
-        "Akü grubunun nominalin üzerinde gerilimle şarj edilmesi",
+        "Ana kart ara devre (DC-link) gerilimi beklenen bandın üzerine çıkacak şekilde yükselmesi",
         "Şarj redresörü çıkış regülasyonunun bozulması"
       ],
       "kontroller": [
-        "Akü/DC hat gerilimini dijital multimetre ile ölç ve plaka değeriyle karşılaştır",
+        "Ana kart ara devre (DC-link) gerilimi değerini dijital multimetre ile ölç ve plaka değeriyle karşılaştır",
         "Şarj makinesinin regülasyon çıkışını yük altında kontrol et"
       ],
       "ilgiliKodlar": [],
@@ -97,11 +97,11 @@
       "makineTepkisi": "Yürüyüş motoru (Sol) durduruldu, bir teker sadece yürür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Akü grubunun deşarj olup nominal gerilimin altına düşmesi",
+        "AC yürüyüş sürücüsü (Sol) güç kaynağı devresi çalışma bandının altına inecek şekilde düşmesi",
         "AC yürüyüş sürücüsü (Sol) güç kaynağı devresi besleme hattında oksitli/gevşek kontak nedeniyle gerilim düşümü"
       ],
       "kontroller": [
-        "Akü kutup başı gerilimini yük altında ölç (düşük mü, boşta mı toparlıyor)",
+        "AC yürüyüş sürücüsü (Sol) güç kaynağı devresi değerini yük altında ölç; boşta toparlıyor mu takip et",
         "AC yürüyüş sürücüsü (Sol) güç kaynağı devresi besleme girişindeki gerilimi kart besleme ucunda ölç; bara farkını not et"
       ],
       "ilgiliKodlar": [],
@@ -122,11 +122,11 @@
       "makineTepkisi": "Yürüyüş motoru (Sağ) durduruldu, bir teker sadece yürür Kaldırma fonksiyonu durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "Akü grubunun deşarj olup nominal gerilimin altına düşmesi",
+        "AC yürüyüş sürücüsü (Sağ) güç kaynağı devresi çalışma bandının altına inecek şekilde düşmesi",
         "AC yürüyüş sürücüsü (Sağ) güç kaynağı devresi besleme hattında oksitli/gevşek kontak nedeniyle gerilim düşümü"
       ],
       "kontroller": [
-        "Akü kutup başı gerilimini yük altında ölç (düşük mü, boşta mı toparlıyor)",
+        "AC yürüyüş sürücüsü (Sağ) güç kaynağı devresi değerini yük altında ölç; boşta toparlıyor mu takip et",
         "AC yürüyüş sürücüsü (Sağ) güç kaynağı devresi besleme girişindeki gerilimi kart besleme ucunda ölç; bara farkını not et"
       ],
       "ilgiliKodlar": [],
@@ -147,11 +147,11 @@
       "makineTepkisi": "Direksiyon sertleşir Kaldırma fonksiyonu durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "Akü grubunun deşarj olup nominal gerilimin altına düşmesi",
+        "AC kaldırma sürücüsü güç kaynağı devresi çalışma bandının altına inecek şekilde düşmesi",
         "AC kaldırma sürücüsü güç kaynağı devresi besleme hattında oksitli/gevşek kontak nedeniyle gerilim düşümü"
       ],
       "kontroller": [
-        "Akü kutup başı gerilimini yük altında ölç (düşük mü, boşta mı toparlıyor)",
+        "AC kaldırma sürücüsü güç kaynağı devresi değerini yük altında ölç; boşta toparlıyor mu takip et",
         "AC kaldırma sürücüsü güç kaynağı devresi besleme girişindeki gerilimi kart besleme ucunda ölç; bara farkını not et"
       ],
       "ilgiliKodlar": [],
@@ -248,11 +248,11 @@
       "makineTepkisi": "TYürüyüş fonksiyonu durur Kaldırma fonksiyonu durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "Sigorta çıkışındaki bir yükün şaseye kısa devre yapması",
+        "F1/F2/F3 güç sigortaları çıkışına bağlı bir yükün şaseye kısa devre yapması",
         "F1/F2/F3 güç sigortaları beslediği devrede aşırı akım çeken arızalı birim (fan/selenoid/kart)"
       ],
       "kontroller": [
-        "Akmayan sigortayı çıkarıp Ohmmetre ile sürekliliğini doğrula",
+        "F1/F2/F3 güç sigortaları üzerindeki sigortayı çıkarıp Ohmmetre ile sürekliliğini doğrula",
         "Sigorta yuvasında ısıl renk değişimi ve oksit araması yap"
       ],
       "ilgiliKodlar": [],
@@ -273,11 +273,11 @@
       "makineTepkisi": "Direksiyon sertleşir",
       "siddet": "uyari",
       "nedenler": [
-        "Sigorta çıkışındaki bir yükün şaseye kısa devre yapması",
+        "F6 sigortası çıkışına bağlı bir yükün şaseye kısa devre yapması",
         "F6 sigortası beslediği devrede aşırı akım çeken arızalı birim (fan/selenoid/kart)"
       ],
       "kontroller": [
-        "Akmayan sigortayı çıkarıp Ohmmetre ile sürekliliğini doğrula",
+        "F6 sigortası üzerindeki sigortayı çıkarıp Ohmmetre ile sürekliliğini doğrula",
         "Sigorta yuvasında ısıl renk değişimi ve oksit araması yap"
       ],
       "ilgiliKodlar": [],
@@ -298,11 +298,11 @@
       "makineTepkisi": "Kaldırma fonksiyonu durur Yavaş yürür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Sigorta çıkışındaki bir yükün şaseye kısa devre yapması",
+        "F7 sigortası ve ana kart sıcaklık sensörü hattı çıkışına bağlı bir yükün şaseye kısa devre yapması",
         "F7 sigortası ve ana kart sıcaklık sensörü hattı beslediği devrede aşırı akım çeken arızalı birim (fan/selenoid/kart)"
       ],
       "kontroller": [
-        "Akmayan sigortayı çıkarıp Ohmmetre ile sürekliliğini doğrula",
+        "F7 sigortası ve ana kart sıcaklık sensörü hattı üzerindeki sigortayı çıkarıp Ohmmetre ile sürekliliğini doğrula",
         "Sigorta yuvasında ısıl renk değişimi ve oksit araması yap"
       ],
       "ilgiliKodlar": [],
@@ -423,7 +423,7 @@
       "makineTepkisi": "(direksiyon topuz konumu) fonksiyonu durur Yavaş yürür, tek teker (Sağ) tarafından tahrik.",
       "siddet": "durdurucu",
       "nedenler": [
-        "CAN H/L hatlarında kopma, ters bağlama veya kısa devre",
+        "yürüyüş motoru (Sol) sürücü kartı biriminin CAN H/L hattında kopma, ters bağlama veya kısa devre",
         "CAN sonlandırma dirençlerinden birinin eksilmesi/değer kaybetmesi"
       ],
       "kontroller": [
@@ -448,7 +448,7 @@
       "makineTepkisi": "Knob (direksiyon topuz konumu) fonksiyonu durur Yavaş yürür, tek teker (Sol) tarafından tahrik.",
       "siddet": "durdurucu",
       "nedenler": [
-        "CAN H/L hatlarında kopma, ters bağlama veya kısa devre",
+        "yürüyüş motoru (Sol) sürücü kartı biriminin CAN H/L hattında kopma, ters bağlama veya kısa devre",
         "Yazılım sürümü uyuşmazlığının protokol uyuşmazlığının iletişimi killemesi",
         "Karte yakın kaynaklı EMİ (kontaktör arkı, sürücü PWM)"
       ],
@@ -475,7 +475,7 @@
       "makineTepkisi": "Knob (direksiyon topuz konumu) fonksiyonu durur Yavaş yürür, tek teker (Sol) tarafından tahrik. Knob",
       "siddet": "durdurucu",
       "nedenler": [
-        "CAN H/L hatlarında kopma, ters bağlama veya kısa devre",
+        "yürüyüş motoru (Sağ) sürücü kartı biriminin CAN H/L hattında kopma, ters bağlama veya kısa devre",
         "CAN sonlandırma dirençlerinden birinin eksilmesi/değer kaybetmesi"
       ],
       "kontroller": [
@@ -500,7 +500,7 @@
       "makineTepkisi": "(direksiyon topuz konumu) fonksiyonu durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "CAN H/L hatlarında kopma, ters bağlama veya kısa devre",
+        "yürüyüş motoru (Sağ) sürücü kartı biriminin CAN H/L hattında kopma, ters bağlama veya kısa devre",
         "Yazılım sürümü uyuşmazlığının protokol uyuşmazlığının iletişimi killemesi",
         "Karte yakın kaynaklı EMİ (kontaktör arkı, sürücü PWM)"
       ],
@@ -527,7 +527,7 @@
       "makineTepkisi": "Kaldırma fonksiyonu durur. Direksiyon sertleşir",
       "siddet": "durdurucu",
       "nedenler": [
-        "CAN H/L hatlarında kopma, ters bağlama veya kısa devre",
+        "AC kaldırma sürücüsü biriminin CAN H/L hattında kopma, ters bağlama veya kısa devre",
         "CAN sonlandırma dirençlerinden birinin eksilmesi/değer kaybetmesi"
       ],
       "kontroller": [
@@ -552,7 +552,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CAN H/L hatlarında kopma, ters bağlama veya kısa devre",
+        "AC kaldırma sürücüsü biriminin CAN H/L hattında kopma, ters bağlama veya kısa devre",
         "Yazılım sürümü uyuşmazlığının protokol uyuşmazlığının iletişimi killemesi",
         "Karte yakın kaynaklı EMİ (kontaktör arkı, sürücü PWM)"
       ],
@@ -2338,7 +2338,7 @@
       "makineTepkisi": "Ekrandan ayar değiştirilmesi engellenmiştir.",
       "siddet": "uyari",
       "nedenler": [
-        "CAN H/L hatlarında kopma, ters bağlama veya kısa devre",
+        "Ekran → ana kart iletişim hattı biriminin CAN H/L hattında kopma, ters bağlama veya kısa devre",
         "CAN sonlandırma dirençlerinden birinin eksilmesi/değer kaybetmesi"
       ],
       "kontroller": [
@@ -2363,7 +2363,7 @@
       "makineTepkisi": "Ekran kullanımı engellenmiştir",
       "siddet": "uyari",
       "nedenler": [
-        "CAN H/L hatlarında kopma, ters bağlama veya kısa devre",
+        "Ekran → ana kart iletişim hattı biriminin CAN H/L hattında kopma, ters bağlama veya kısa devre",
         "Yazılım sürümü uyuşmazlığının protokol uyuşmazlığının iletişimi killemesi",
         "Karte yakın kaynaklı EMİ (kontaktör arkı, sürücü PWM)"
       ],
@@ -2390,7 +2390,7 @@
       "makineTepkisi": "Ekrandan araç ayarlarının değiştirilmesi engellenmiştir",
       "siddet": "uyari",
       "nedenler": [
-        "CAN H/L hatlarında kopma, ters bağlama veya kısa devre",
+        "Ana kart → ekran iletişim hattı biriminin CAN H/L hattında kopma, ters bağlama veya kısa devre",
         "CAN sonlandırma dirençlerinden birinin eksilmesi/değer kaybetmesi"
       ],
       "kontroller": [
@@ -2415,7 +2415,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CAN H/L hatlarında kopma, ters bağlama veya kısa devre",
+        "Ana kart → ekran iletişim hattı biriminin CAN H/L hattında kopma, ters bağlama veya kısa devre",
         "Yazılım sürümü uyuşmazlığının protokol uyuşmazlığının iletişimi killemesi",
         "Karte yakın kaynaklı EMİ (kontaktör arkı, sürücü PWM)"
       ],
@@ -2827,7 +2827,7 @@
       "makineTepkisi": "Sadece tek tekerden (Sağ) yürüyüş yavaş.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "CAN H/L hatlarında kopma, ters bağlama veya kısa devre",
+        "Ana kart → AC yürüyüş sürücüsü (Sol) CAN hattı biriminin CAN H/L hattında kopma, ters bağlama veya kısa devre",
         "CAN sonlandırma dirençlerinden birinin eksilmesi/değer kaybetmesi"
       ],
       "kontroller": [
@@ -2851,7 +2851,7 @@
       "makineTepkisi": "Sadece tek tekerden (Sol) yürüyüş yavaş. Kaldırma fonksiyonu durur.",
       "siddet": "durdurucu",
       "nedenler": [
-        "CAN H/L hatlarında kopma, ters bağlama veya kısa devre",
+        "Ana kart → AC yürüyüş sürücüsü (Sağ) CAN hattı biriminin CAN H/L hattında kopma, ters bağlama veya kısa devre",
         "CAN sonlandırma dirençlerinden birinin eksilmesi/değer kaybetmesi"
       ],
       "kontroller": [
@@ -2875,7 +2875,7 @@
       "makineTepkisi": "Direksiyon sertleşir",
       "siddet": "uyari",
       "nedenler": [
-        "CAN H/L hatlarında kopma, ters bağlama veya kısa devre",
+        "Ana kart → AC kaldırma sürücüsü CAN hattı biriminin CAN H/L hattında kopma, ters bağlama veya kısa devre",
         "CAN sonlandırma dirençlerinden birinin eksilmesi/değer kaybetmesi"
       ],
       "kontroller": [
