@@ -103,8 +103,8 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten şaseye kısa devre",
-        "hat kopuk (açık devre)"
+        "Hatten şaseye kısa devre",
+        "Hat kopuk (açık devre)"
       ],
       "kontroller": [
         "Hasarlı kabloyu onarın veya değiştirin",
@@ -130,8 +130,8 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten akü gerilimine kısa devre",
-        "hat kopuk (açık devre)"
+        "Hatten akü gerilimine kısa devre",
+        "Hat kopuk (açık devre)"
       ],
       "kontroller": [
         "Kopan kabloyu onarın veya değiştirin",
@@ -214,8 +214,8 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten şaseye kısa devre",
-        "hat kopuk (açık devre)"
+        "Hatten şaseye kısa devre",
+        "Hat kopuk (açık devre)"
       ],
       "kontroller": [
         "Hasarlı kabloyu onarın veya değiştirin",
@@ -300,8 +300,8 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten şaseye kısa devre",
-        "hat kopuk (açık devre)"
+        "Hatten şaseye kısa devre",
+        "Hat kopuk (açık devre)"
       ],
       "kontroller": [
         "Kablo yalıtım direncini ölçün",
@@ -386,8 +386,8 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten şaseye kısa devre",
-        "hat kopuk (açık devre)"
+        "Hatten şaseye kısa devre",
+        "Hat kopuk (açık devre)"
       ],
       "kontroller": [
         "Çıkış hattında şase ve artı kısa arayın",
@@ -443,8 +443,8 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten akü gerilimine kısa devre",
-        "hat kopuk (açık devre)"
+        "Hatten akü gerilimine kısa devre",
+        "Hat kopuk (açık devre)"
       ],
       "kontroller": [
         "Hatta süreklilik ölçün",

@@ -151,7 +151,7 @@
       "siddet": "kisitlayici",
       "nedenler": [
         "ECT sensör arızası",
-        "sinyal hattının GND'ye kısa devresi",
+        "Sinyal hattının GND'ye kısa devresi",
         "Soğutma suyu sensörü düşük aralık hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
@@ -181,8 +181,8 @@
       "makineTepkisi": "MIL yanar; gecikmeli stop riski.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "sensör konnektörü çıkmış",
-        "açık devre",
+        "Sensör konnektörü çıkmış",
+        "Açık devre",
         "Soğutma suyu sensörü yüksek aralık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
@@ -212,8 +212,8 @@
       "makineTepkisi": "MIL yanar, gecikmeli motor kapatma devreye girer.",
       "siddet": "durdurucu",
       "nedenler": [
-        "radyatör tıkalı/eksik su",
-        "sistem kaçağı",
+        "Radyatör tıkalı/eksik su",
+        "Sistem kaçağı",
         "ECT hattı GND'ye kısa"
       ],
       "kontroller": [
@@ -238,8 +238,8 @@
       "makineTepkisi": "MIL yanabilir; harari riski izlenmeli.",
       "siddet": "uyari",
       "nedenler": [
-        "takalı termostat",
-        "soğutma sistemi sorunu",
+        "Takalı termostat",
+        "Soğutma sistemi sorunu",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -327,8 +327,8 @@
       "makineTepkisi": "Rölanti/çalışma bozulur.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "sinyal gürültüsü",
-        "sensör bağlantı kopukluğu",
+        "Sinyal gürültüsü",
+        "Sensör bağlantı kopukluğu",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -357,8 +357,8 @@
       "makineTepkisi": "Çalışmayabilir ya da stop edebilir.",
       "siddet": "durdurucu",
       "nedenler": [
-        "krank sensör kabloları kopuk",
-        "krank sensörü arızalı",
+        "Krank sensör kabloları kopuk",
+        "Krank sensörü arızalı",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -387,8 +387,8 @@
       "makineTepkisi": "Rölanti teklemesi, stop riski.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "sinyal gürültüsü",
-        "sensör bağlantı kopukluğu",
+        "Sinyal gürültüsü",
+        "Sensör bağlantı kopukluğu",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"

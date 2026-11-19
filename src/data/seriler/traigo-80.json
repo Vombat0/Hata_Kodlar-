@@ -1034,7 +1034,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "yol bibini açık devre hattında kopukluk",
+        "Yol bibini açık devre hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -1062,7 +1062,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "yol bobini açık devre hattında kopukluk",
+        "Yol bobini açık devre hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -1549,7 +1549,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "hidrolik yol sürücü devresinde problem var ile ilgili bileşen arızası",
+        "Hidrolik yol sürücü devresinde problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -6588,7 +6588,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "yol bobini takılı değil bobininde açık veya kısa devre",
+        "Yol bobini takılı değil bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -6616,7 +6616,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "yol bobini takılı değil bobininde açık veya kısa devre",
+        "Yol bobini takılı değil bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -7180,7 +7180,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "yol potansiyometresi değerinde problem potansiyometresinde aşınma",
+        "Yol potansiyometresi değerinde problem potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -7208,7 +7208,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "yol potansiyometresi değerinde problem potansiyometresinde aşınma",
+        "Yol potansiyometresi değerinde problem potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -7560,7 +7560,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "yol potansiyometresinden okunan değerde problem var potansiyometresinde aşınma",
+        "Yol potansiyometresinden okunan değerde problem var potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -7588,7 +7588,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "yol potansiyometresinden okunan değerde problem var potansiyometresinde aşınma",
+        "Yol potansiyometresinden okunan değerde problem var potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"

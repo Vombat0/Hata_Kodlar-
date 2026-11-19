@@ -22,7 +22,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Parametre seti okunamıyor (EEPROM sürücüsü hata mesajı).",
+        "Parametre seti okunamıyor (EEPROM sürücüsü hata mesajı)",
         "Dahili işlem hatası — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -49,7 +49,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM okunduktan sonra sağlama toplamı hatalı.",
+        "EEPROM okunduktan sonra sağlama toplamı hatalı",
         "Dahili işlem hatası — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -76,7 +76,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM'da tutarlı veri seti bulunamadı.",
+        "EEPROM'da tutarlı veri seti bulunamadı",
         "Dahili işlem hatası — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -103,7 +103,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM okunduktan sonra sağlama toplamı hatalı.",
+        "EEPROM okunduktan sonra sağlama toplamı hatalı",
         "Dahili işlem hatası — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -130,7 +130,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM'da tutarlı veri seti bulunamadı.",
+        "EEPROM'da tutarlı veri seti bulunamadı",
         "Dahili işlem hatası — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -157,7 +157,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Veri okuma hatası.",
+        "Veri okuma hatası",
         "Parametre hatası — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -184,7 +184,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM'da tutarlı veri seti yok.",
+        "EEPROM'da tutarlı veri seti yok",
         "Parametre hatası — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -211,7 +211,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM okunduktan sonra sağlama toplamı hatalı.",
+        "EEPROM okunduktan sonra sağlama toplamı hatalı",
         "Dahili işlem hatası — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -238,7 +238,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM'da tutarlı veri seti bulunamadı.",
+        "EEPROM'da tutarlı veri seti bulunamadı",
         "Dahili işlem hatası — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -265,7 +265,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM verisi okunduktan sonra sağlama toplamı hatalı.",
+        "EEPROM verisi okunduktan sonra sağlama toplamı hatalı",
         "Dahili işlem hatası — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -292,7 +292,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM'da tutarlı veri seti yok.",
+        "EEPROM'da tutarlı veri seti yok",
         "Dahili işlem hatası — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -319,7 +319,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM verisi okunduktan sonra sağlama toplamı hatalı.",
+        "EEPROM verisi okunduktan sonra sağlama toplamı hatalı",
         "Dahili işlem hatası — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -346,7 +346,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Arıklı bellek hücresi tespit edildi.",
+        "Arıklı bellek hücresi tespit edildi",
         "Kontrol işlemcisi RAM bellek testi — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -373,7 +373,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Arıklı bellek hücresi tespit edildi.",
+        "Arıklı bellek hücresi tespit edildi",
         "İzleme işlemcisi RAM bellek testi — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -400,7 +400,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Konvertör ve MCU yazılım sürümleri uyumsuz.",
+        "Konvertör ve MCU yazılım sürümleri uyumsuz",
         "Yürüyüş konvertörü yazılım sürümü hatası — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -427,7 +427,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Konvertör ve MCU yazılım sürümleri uyumsuz.",
+        "Konvertör ve MCU yazılım sürümleri uyumsuz",
         "Pompa konvertörü yazılım sürümü hatası — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -454,7 +454,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "FU için sensörsüz devir kontrolü parametrelenmiş.",
+        "FU için sensörsüz devir kontrolü parametrelenmiş",
         "FU parametre hatası — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -481,7 +481,7 @@
       "makineTepkisi": "Araç hareket etmez, hızlandırıcı kumandası etkisiz.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Cihaz kendi teşhisinde bir arıza kaydetti.",
+        "Cihaz kendi teşhisinde bir arıza kaydetti",
         "Hızlandırıcı/hidrolik vericide kısa devre — verici besleme kısa devresi — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -508,7 +508,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Besleme üzerindeki harici yük çok yüksek.",
+        "Besleme üzerindeki harici yük çok yüksek",
         "Harici 12 V gerilimi çok düşük — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -535,7 +535,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "MCU'dan VCC hattında yük olabilir; VCC kaynağı ayarlanamıyor.",
+        "MCU'dan VCC hattında yük olabilir; VCC kaynağı ayarlanamıyor",
         "Harici 12 V gerilimi çok yüksek — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -562,7 +562,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kontaktör açıldı; ara devre gerilimi 13 V'un altında olduğundan gerekli çekiş gücü sağlanamıyor.",
+        "Kontaktör açıldı; ara devre gerilimi 13 V'un altında olduğundan gerekli çekiş gücü sağlanamıyor",
         "Ara devre gerilimi hatası — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -589,7 +589,7 @@
       "makineTepkisi": "Yürüyüş ve hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Kontaktör doğru şekilde açılmıyor (kontak sıkışması).",
+        "Kontaktör doğru şekilde açılmıyor (kontak sıkışması)",
         "Ana kontaktör hatası — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -616,7 +616,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "ABE yazılım sürümü MCU yazılımıyla uyumsuz.",
+        "ABE yazılım sürümü MCU yazılımıyla uyumsuz",
         "ABE yazılım sürümü uyuşmuyor — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -643,7 +643,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaldırma valfi aşırı akım çekiyor (valf akımı 2 A üzeri); çalışma hidroliği etkin değil.",
+        "Kaldırma valfi aşırı akım çekiyor (valf akımı 2 A üzeri); çalışma hidroliği etkin değil",
         "Kaldırma valfi hatalı — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -670,7 +670,7 @@
       "makineTepkisi": "İlgili valf kilitlenir.",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde kaldırma valfi kısa devre yapıyor; genel donanım mesajı: KİLİT.",
+        "Açılış testinde kaldırma valfi kısa devre yapıyor; genel donanım mesajı: KİLİT",
         "Kaldırma valfi kısa devresi — kontrol işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -697,7 +697,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde kaldırma valfi arızalandı ve ilgili valf kilitlendi.",
+        "Açılış testinde kaldırma valfi arızalandı ve ilgili valf kilitlendi",
         "Kaldırma valfi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -724,7 +724,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İndirme valfi aşırı akım çekiyor (valf akımı 2 A üzeri).",
+        "İndirme valfi aşırı akım çekiyor (valf akımı 2 A üzeri)",
         "İndirme valfi hatalı — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -751,7 +751,7 @@
       "makineTepkisi": "İlgili valf kilitlenir.",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde indirme valfi kısa devre yapıyor; genel donanım mesajı: KİLİT.",
+        "Açılış testinde indirme valfi kısa devre yapıyor; genel donanım mesajı: KİLİT",
         "İndirme valfi kısa devresi — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -778,7 +778,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde indirme valfi arızalandı ve ilgili valf kilitlendi.",
+        "Açılış testinde indirme valfi arızalandı ve ilgili valf kilitlendi",
         "İndirme valfi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -805,7 +805,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde ileri eğim valfi aşırı akım çekiyor (valf akımı 2 A üzeri).",
+        "Açılış testinde ileri eğim valfi aşırı akım çekiyor (valf akımı 2 A üzeri)",
         "Eğim valfi hatalı — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -832,7 +832,7 @@
       "makineTepkisi": "İlgili valf kilitlenir.",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde ileri eğim valfi kısa devre yapıyor; genel donanım mesajı: KİLİT.",
+        "Açılış testinde ileri eğim valfi kısa devre yapıyor; genel donanım mesajı: KİLİT",
         "Eğim valfi kısa devresi — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -859,7 +859,7 @@
       "makineTepkisi": "İlgili valf kilitlenir.",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde ileri eğim valfi arızalandı ve ilgili valf kilitlendi.",
+        "Açılış testinde ileri eğim valfi arızalandı ve ilgili valf kilitlendi",
         "Eğim valfi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -886,7 +886,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde geri eğim valfi aşırı akım çekiyor (valf akımı 2 A üzeri).",
+        "Açılış testinde geri eğim valfi aşırı akım çekiyor (valf akımı 2 A üzeri)",
         "Genel kontrolcü hatası 4 — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -913,7 +913,7 @@
       "makineTepkisi": "İlgili valf kilitlenir.",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde geri eğim valfi kısa devre yapıyor; genel donanım mesajı: KİLİT.",
+        "Açılış testinde geri eğim valfi kısa devre yapıyor; genel donanım mesajı: KİLİT",
         "Eğim valfi kısa devresi — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -940,7 +940,7 @@
       "makineTepkisi": "İlgili valf kilitlenir.",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde geri eğim valfi arızalandı ve ilgili valf kilitlendi.",
+        "Açılış testinde geri eğim valfi arızalandı ve ilgili valf kilitlendi",
         "Eğim valfi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -967,7 +967,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde yardımcı 1 pozitif valfi aşırı akım çekiyor (valf akımı 2 A üzeri).",
+        "Açılış testinde yardımcı 1 pozitif valfi aşırı akım çekiyor (valf akımı 2 A üzeri)",
         "Yardımcı 1 valfinde hata — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -994,7 +994,7 @@
       "makineTepkisi": "İlgili valf kilitlenir.",
       "siddet": "uyari",
       "nedenler": [
-        "Araç açılışındaki kısa devre testi kısa devre tespit etti; genel donanım mesajı.",
+        "Araç açılışındaki kısa devre testi kısa devre tespit etti; genel donanım mesajı",
         "Yardımcı 1 valfi kısa devresi — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1021,7 +1021,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde yardımcı 1 pozitif valfi arızalandı ve ilgili valf kilitlendi; genel donanım mesajı: KİLİT.",
+        "Açılış testinde yardımcı 1 pozitif valfi arızalandı ve ilgili valf kilitlendi; genel donanım mesajı: KİLİT",
         "Yardımcı 1 valfi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1048,7 +1048,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde yardımcı 1 negatif valfi aşırı akım çekiyor (valf akımı 2 A üzeri).",
+        "Açılış testinde yardımcı 1 negatif valfi aşırı akım çekiyor (valf akımı 2 A üzeri)",
         "Yardımcı 1 valfinde hata — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1075,7 +1075,7 @@
       "makineTepkisi": "İlgili valf kilitlenir.",
       "siddet": "uyari",
       "nedenler": [
-        "Araç açılışındaki kısa devre testi kısa devre tespit etti; genel donanım mesajı.",
+        "Araç açılışındaki kısa devre testi kısa devre tespit etti; genel donanım mesajı",
         "Yardımcı 1 valfi kısa devresi — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1102,7 +1102,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde yardımcı 1 negatif valfi arızalandı ve ilgili valf kilitlendi; genel donanım mesajı: KİLİT.",
+        "Açılış testinde yardımcı 1 negatif valfi arızalandı ve ilgili valf kilitlendi; genel donanım mesajı: KİLİT",
         "Yardımcı 1 valfi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1129,7 +1129,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde yardımcı 2 pozitif valfi aşırı akım çekiyor (valf akımı 2 A üzeri).",
+        "Açılış testinde yardımcı 2 pozitif valfi aşırı akım çekiyor (valf akımı 2 A üzeri)",
         "Yardımcı 2 valfinde hata — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1156,7 +1156,7 @@
       "makineTepkisi": "İlgili valf kilitlenir.",
       "siddet": "uyari",
       "nedenler": [
-        "Araç açılışındaki kısa devre testi kısa devre tespit etti; genel donanım mesajı.",
+        "Araç açılışındaki kısa devre testi kısa devre tespit etti; genel donanım mesajı",
         "Yardımcı 2 valfi kısa devresi — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1183,7 +1183,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde yardımcı 2 pozitif valfi arızalandı ve ilgili valf kilitlendi; genel donanım mesajı: KİLİT.",
+        "Açılış testinde yardımcı 2 pozitif valfi arızalandı ve ilgili valf kilitlendi; genel donanım mesajı: KİLİT",
         "Yardımcı 2 valfi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1210,7 +1210,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde yardımcı 2 negatif valfi aşırı akım çekiyor (valf akımı 2 A üzeri).",
+        "Açılış testinde yardımcı 2 negatif valfi aşırı akım çekiyor (valf akımı 2 A üzeri)",
         "Yardımcı 2 valfinde hata — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1237,7 +1237,7 @@
       "makineTepkisi": "İlgili valf kilitlenir.",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde yardımcı 2 negatif valfi kısa devre yapıyor; genel donanım mesajı: KİLİT.",
+        "Açılış testinde yardımcı 2 negatif valfi kısa devre yapıyor; genel donanım mesajı: KİLİT",
         "Yardımcı 2 valfi kısa devresi — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1264,7 +1264,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde yardımcı 2 negatif valfi arızalandı ve ilgili valf kilitlendi; genel donanım mesajı: KİLİT.",
+        "Açılış testinde yardımcı 2 negatif valfi arızalandı ve ilgili valf kilitlendi; genel donanım mesajı: KİLİT",
         "Yardımcı 2 valfi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1291,7 +1291,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde anahtarlama valfi aşırı akım çekiyor (valf akımı 2 A üzeri).",
+        "Açılış testinde anahtarlama valfi aşırı akım çekiyor (valf akımı 2 A üzeri)",
         "Anahtarlama valfi hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1318,7 +1318,7 @@
       "makineTepkisi": "İlgili valf kilitlenir.",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde anahtarlama valfi kısa devre yapıyor; genel donanım mesajı: KİLİT.",
+        "Açılış testinde anahtarlama valfi kısa devre yapıyor; genel donanım mesajı: KİLİT",
         "Anahtarlama valfi kısa devresi — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1345,7 +1345,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde anahtarlama valfi arızalandı ve ilgili valf kilitlendi.",
+        "Açılış testinde anahtarlama valfi arızalandı ve ilgili valf kilitlendi",
         "Anahtarlama valfi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1372,7 +1372,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde egzoz valfi aşırı akım çekiyor (valf akımı 2 A üzeri).",
+        "Açılış testinde egzoz valfi aşırı akım çekiyor (valf akımı 2 A üzeri)",
         "Egzoz valfi hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1399,7 +1399,7 @@
       "makineTepkisi": "İlgili valf kilitlenir.",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde egzoz valfi kısa devre yapıyor; genel donanım mesajı: KİLİT.",
+        "Açılış testinde egzoz valfi kısa devre yapıyor; genel donanım mesajı: KİLİT",
         "Egzoz valfi kısa devresi — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1426,7 +1426,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde egzoz valfi arızalandı ve ilgili valf kilitlendi.",
+        "Açılış testinde egzoz valfi arızalandı ve ilgili valf kilitlendi",
         "Egzoz valfi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1453,7 +1453,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İndirmede enerji geri kazanım valfi aşırı akım çekiyor (valf akımı 2 A üzeri); çalışma hidroliği etkin değil.",
+        "İndirmede enerji geri kazanım valfi aşırı akım çekiyor (valf akımı 2 A üzeri); çalışma hidroliği etkin değil",
         "İndirme sırasında hata — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1480,7 +1480,7 @@
       "makineTepkisi": "",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Açılış testinde indirmede enerji geri kazanım valfi kısa devre yapıyor; genel donanım mesajı: KİLİT.",
+        "Açılış testinde indirmede enerji geri kazanım valfi kısa devre yapıyor; genel donanım mesajı: KİLİT",
         "İndirmede enerji geri kazanım valfi kısa devresi — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1507,7 +1507,7 @@
       "makineTepkisi": "",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Açılış testinde indirmede enerji geri kazanım valfi arızalandı ve ilgili valf kilitlendi.",
+        "Açılış testinde indirmede enerji geri kazanım valfi arızalandı ve ilgili valf kilitlendi",
         "İndirmede enerji geri kazanım valfi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1534,7 +1534,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde indirme valfi aşırı akım çekiyor (valf akımı 2 A üzeri).",
+        "Açılış testinde indirme valfi aşırı akım çekiyor (valf akımı 2 A üzeri)",
         "İndirme valfi hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1561,7 +1561,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış testinde indirme valfi arızalandı ve ilgili valf kilitlendi.",
+        "Açılış testinde indirme valfi arızalandı ve ilgili valf kilitlendi",
         "İndirme valfi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1588,7 +1588,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Joystick ile CAN haberleşmesi başladıktan sonra kesildi; CAN bağlantısında veya beslemede gevşek temas olabilir.",
+        "Joystick ile CAN haberleşmesi başladıktan sonra kesildi; CAN bağlantısında veya beslemede gevşek temas olabilir",
         "CAN veri yolu ve joystick hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1615,7 +1615,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Joystick ile ilgili bağlantı; batarya kontrolcüsü ilgili.",
+        "Joystick ile ilgili bağlantı; batarya kontrolcüsü ilgili",
         "Batarya kontrolcüsü haberleşme hatası — kontrol ünitesi zaman aşımı tespit etti — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1643,7 +1643,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Joystick ile CAN haberleşmesi başladıktan sonra kesildi; CAN bağlantısında veya beslemede gevşek temas olabilir.",
+        "Joystick ile CAN haberleşmesi başladıktan sonra kesildi; CAN bağlantısında veya beslemede gevşek temas olabilir",
         "CAN veri yolu ve joystick hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1670,7 +1670,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Joystick CAN üzerinden başlangıç mesajı göndermiyor; çalışma hidroliği etkin değil.",
+        "Joystick CAN üzerinden başlangıç mesajı göndermiyor; çalışma hidroliği etkin değil",
         "CAN veri yolu ve joystick hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1697,7 +1697,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Joystick ile CAN haberleşmesi başladıktan sonra kesildi; CAN hattında veya joystick beslemesinde gevşek temas olabilir.",
+        "Joystick ile CAN haberleşmesi başladıktan sonra kesildi; CAN hattında veya joystick beslemesinde gevşek temas olabilir",
         "CAN veri yolu ve joystick hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1724,7 +1724,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Joystick ile CAN haberleşmesi başladıktan sonra kesildi; CAN bağlantısında veya beslemede gevşek temas olabilir.",
+        "Joystick ile CAN haberleşmesi başladıktan sonra kesildi; CAN bağlantısında veya beslemede gevşek temas olabilir",
         "CAN veri yolu ve joystick hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1751,7 +1751,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "GPRS veya WLAN modem tipi parametresi yanlış ayarlanmış.",
+        "GPRS veya WLAN modem tipi parametresi yanlış ayarlanmış",
         "Yanlış modem tipi yapılandırılmış — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1778,7 +1778,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Modem ilgili ağa giriş yapamıyor.",
+        "Modem ilgili ağa giriş yapamıyor",
         "Modem ağ giriş hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1805,7 +1805,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Modem, zaman aşımından önce veri iletimini onaylamıyor.",
+        "Modem, zaman aşımından önce veri iletimini onaylamıyor",
         "Modem iletim zaman aşımı — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1832,7 +1832,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Modem haberleşme sunucusuna bağlanamıyor.",
+        "Modem haberleşme sunucusuna bağlanamıyor",
         "Haberleşme sunucusuna erişilemiyor — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1859,7 +1859,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "UR (gerçek değer) sınırın dışında.",
+        "UR (gerçek değer) sınırın dışında",
         "Hızlandırıcı sinyalinde dahili işlem hatası — sinyal gerilimleri uyuşmuyor — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1886,7 +1886,7 @@
       "makineTepkisi": "Sürüş yönü nötr konumda.",
       "siddet": "uyari",
       "nedenler": [
-        "Süreç izleme bir hata tespit etti; kaldırma kolu (ileri/geri sürüş yönü, kumanda).",
+        "Süreç izleme bir hata tespit etti; kaldırma kolu (ileri/geri sürüş yönü, kumanda)",
         "Kaldırma kolunda dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1913,7 +1913,7 @@
       "makineTepkisi": "Sürüş yönü nötr konumda.",
       "siddet": "uyari",
       "nedenler": [
-        "Elektrikli el freniyle haberleşme kesildi; elektrikli el freni hatalı.",
+        "Elektrikli el freniyle haberleşme kesildi; elektrikli el freni hatalı",
         "ELF haberleşmesi — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1940,7 +1940,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Süreç izleme hata tespit etti; mini konsolda sürüş yönü bilgisi hatalı, sürüş yönü nötr.",
+        "Süreç izleme hata tespit etti; mini konsolda sürüş yönü bilgisi hatalı, sürüş yönü nötr",
         "Mini konsolda dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1967,7 +1967,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Nominal hız ve nominal devir sayısının işlenmesi mantıksız.",
+        "Nominal hız ve nominal devir sayısının işlenmesi mantıksız",
         "Dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -1994,7 +1994,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Kalkış integratör sıfırlama komutuna tepki yok.",
+        "Kalkış integratör sıfırlama komutuna tepki yok",
         "Dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2021,7 +2021,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Geri yön.",
+        "Geri yön",
         "Hızlandırıcı sinyalinde dahili işlem hatası — Vnom sınırı aşıldı — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2048,7 +2048,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Mantıksal tutarsızlık.",
+        "Mantıksal tutarsızlık",
         "Hızlandırıcı sinyalinde dahili işlem hatası — hedef gerilim sürüş yönüyle uyuşmuyor — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2075,7 +2075,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Yürüyüş konvertörü 1 (sağ): konvertör değişkeni izin verilen aralık dışında.",
+        "Yürüyüş konvertörü 1 (sağ): konvertör değişkeni izin verilen aralık dışında",
         "Yürüyüş konvertörü 1'de dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2102,7 +2102,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Yürüyüş konvertörü 1 (sağ): konvertör değişkeninin yinelenmesi.",
+        "Yürüyüş konvertörü 1 (sağ): konvertör değişkeninin yinelenmesi",
         "Yürüyüş konvertörü 1'de dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2129,7 +2129,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Yürüyüş konvertörü 1 (sağ): konvertör devir sensörü.",
+        "Yürüyüş konvertörü 1 (sağ): konvertör devir sensörü",
         "Yürüyüş konvertörü 1: devir sayımı işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2156,7 +2156,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kontrol işlemcisi önceki süreç izleme hatasına zamanında yanıt vermedi; sürüş ve hidrolik tahrif devre dışı.",
+        "Kontrol işlemcisi önceki süreç izleme hatasına zamanında yanıt vermedi; sürüş ve hidrolik tahrif devre dışı",
         "Dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2183,7 +2183,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Bir valfte akım ölçüldü ancak hedef değer yok (örneğin transistör hatalı olduğunda oluşur).",
+        "Bir valfte akım ölçüldü ancak hedef değer yok (örneğin transistör hatalı olduğunda oluşur)",
         "Valf bloğunda dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2210,7 +2210,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kontrol işlemcisinin gönderdiği hedef cihaz verisi ile valfte alınan veri uyuşmuyor; çalışma hidroliği etkin değil.",
+        "Kontrol işlemcisinin gönderdiği hedef cihaz verisi ile valfte alınan veri uyuşmuyor; çalışma hidroliği etkin değil",
         "Valf işlemcisinde dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2237,7 +2237,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Valf işlemcisi, akım hedef değerlerinin hesaplanmasında kullanılan hedef cihaz verisinin kontrol işlemcisi tarafından gönderilen değerlerle uyuşmadığını tespit etti.",
+        "Valf işlemcisi, akım hedef değerlerinin hesaplanmasında kullanılan hedef cihaz verisinin kontrol işlemcisi tarafından gönderilen değerlerle uyuşmadığını tespit etti",
         "Valf işlemcisinde dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2264,7 +2264,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Valf işlemcisi, kontrol işlemcisi tarafından gönderilen pompa hedef değerlerini tespit etti.",
+        "Valf işlemcisi, kontrol işlemcisi tarafından gönderilen pompa hedef değerlerini tespit etti",
         "Valf işlemcisinde dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2291,7 +2291,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Kontrol işlemcisi değerleri kabul edilebilir değil; senkron seri arayüz başlatılamadı.",
+        "Kontrol işlemcisi değerleri kabul edilebilir değil; senkron seri arayüz başlatılamadı",
         "Dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2318,7 +2318,7 @@
       "makineTepkisi": "Hata kontak aç/kapat ile sıfırlanır.",
       "siddet": "uyari",
       "nedenler": [
-        "Senkron seri arayüz veri gönderemiyor veya.",
+        "Senkron seri arayüz veri gönderemiyor veya",
         "Dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2345,7 +2345,7 @@
       "makineTepkisi": "Hata kontak aç/kapat ile sıfırlanır.",
       "siddet": "uyari",
       "nedenler": [
-        "Sağlama toplamı veya watchdog hatası; veri alınamıyor.",
+        "Sağlama toplamı veya watchdog hatası; veri alınamıyor",
         "Dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2372,7 +2372,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Senkron seri arayüz başlatılamadı.",
+        "Senkron seri arayüz başlatılamadı",
         "Dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2399,7 +2399,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Senkron seri arayüz veri gönderemiyor veya.",
+        "Senkron seri arayüz veri gönderemiyor veya",
         "Dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2426,7 +2426,7 @@
       "makineTepkisi": "Hata kontak aç/kapat ile sıfırlanır.",
       "siddet": "uyari",
       "nedenler": [
-        "Sağlama toplamı veya watchdog hatası; veri alınamıyor.",
+        "Sağlama toplamı veya watchdog hatası; veri alınamıyor",
         "Dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2453,7 +2453,7 @@
       "makineTepkisi": "Araç hareket etmez, hızlandırıcı kumandası etkisiz.",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralığın dışında.",
+        "Potansiyometre gerilimi izin verilen aralığın dışında",
         "Hızlandırıcı arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2480,7 +2480,7 @@
       "makineTepkisi": "Araç hareket etmez, hızlandırıcı kumandası etkisiz.",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralığın dışında.",
+        "Potansiyometre gerilimi izin verilen aralığın dışında",
         "Hızlandırıcı arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2507,7 +2507,7 @@
       "makineTepkisi": "Araç hareket etmez, hızlandırıcı kumandası etkisiz.",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralığın dışında.",
+        "Potansiyometre gerilimi izin verilen aralığın dışında",
         "Hızlandırıcı arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2534,7 +2534,7 @@
       "makineTepkisi": "Araç hareket etmez, hızlandırıcı kumandası etkisiz.",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralığın dışında.",
+        "Potansiyometre gerilimi izin verilen aralığın dışında",
         "Hızlandırıcı arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2561,7 +2561,7 @@
       "makineTepkisi": "Araç hareket etmez, hızlandırıcı kumandası etkisiz.",
       "siddet": "uyari",
       "nedenler": [
-        "Hızlandırıcı gerilimi, anahtarın değişmesini gerektirecek kadar yüksek.",
+        "Hızlandırıcı gerilimi, anahtarın değişmesini gerektirecek kadar yüksek",
         "Hızlandırıcı hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2588,7 +2588,7 @@
       "makineTepkisi": "Araç hareket etmez, hızlandırıcı kumandası etkisiz.",
       "siddet": "uyari",
       "nedenler": [
-        "Hızlandırıcı gerilimi, anahtarın değişmesini gerektirecek kadar düşük.",
+        "Hızlandırıcı gerilimi, anahtarın değişmesini gerektirecek kadar düşük",
         "Hızlandırıcı hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2615,7 +2615,7 @@
       "makineTepkisi": "Araç hareket etmez, hızlandırıcı kumandası etkisiz.",
       "siddet": "uyari",
       "nedenler": [
-        "Hızlandırıcı gerilimleri uyuşmuyor.",
+        "Hızlandırıcı gerilimleri uyuşmuyor",
         "Hızlandırıcı hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2642,7 +2642,7 @@
       "makineTepkisi": "Araç yalnızca acil durum modunda sürülebilir.",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralığın dışında.",
+        "Potansiyometre gerilimi izin verilen aralığın dışında",
         "Fren sensörü arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2669,7 +2669,7 @@
       "makineTepkisi": "Araç yalnızca acil durum modunda sürülebilir.",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralığın dışında.",
+        "Potansiyometre gerilimi izin verilen aralığın dışında",
         "Fren sensörü arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2696,7 +2696,7 @@
       "makineTepkisi": "Sürüş yönü nötr konumda.",
       "siddet": "uyari",
       "nedenler": [
-        "Sürüş yönü için giriş cihazında bir hata tespit edildi.",
+        "Sürüş yönü için giriş cihazında bir hata tespit edildi",
         "Sürüş yönü anahtarı hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2723,7 +2723,7 @@
       "makineTepkisi": "Sürüş yönü nötr konumda.",
       "siddet": "uyari",
       "nedenler": [
-        "Kaldırma kolu ile ilgili.",
+        "Kaldırma kolu ile ilgili",
         "Kaldırma kolu sürüş yönü anahtarı — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2750,7 +2750,7 @@
       "makineTepkisi": "",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Koltuk anahtarı açılmıyor.",
+        "Koltuk anahtarı açılmıyor",
         "Koltuk anahtarı hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2777,7 +2777,7 @@
       "makineTepkisi": "Araç yalnızca acil durum modunda sürülebilir.",
       "siddet": "uyari",
       "nedenler": [
-        "Fren sıvısı seviyesi çok düşük veya anahtar hatalı.",
+        "Fren sıvısı seviyesi çok düşük veya anahtar hatalı",
         "Fren sıvısı anahtarı hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2804,7 +2804,7 @@
       "makineTepkisi": "Bu verici üzerinden hedef hız üretilmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralığın dışında.",
+        "Potansiyometre gerilimi izin verilen aralığın dışında",
         "Kaldırma vericisi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2831,7 +2831,7 @@
       "makineTepkisi": "Bu verici üzerinden hedef hız üretilmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralığın dışında.",
+        "Potansiyometre gerilimi izin verilen aralığın dışında",
         "Kaldırma vericisi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2858,7 +2858,7 @@
       "makineTepkisi": "Bu verici üzerinden hedef hız üretilmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralığın dışında.",
+        "Potansiyometre gerilimi izin verilen aralığın dışında",
         "Eğim vericisi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2885,7 +2885,7 @@
       "makineTepkisi": "Bu verici üzerinden hedef hız üretilmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralığın dışında.",
+        "Potansiyometre gerilimi izin verilen aralığın dışında",
         "Eğim vericisi arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2912,7 +2912,7 @@
       "makineTepkisi": "Bu verici üzerinden hedef hız üretilmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralığın dışında.",
+        "Potansiyometre gerilimi izin verilen aralığın dışında",
         "Ek verici 1 arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2939,7 +2939,7 @@
       "makineTepkisi": "Bu verici üzerinden hedef hız üretilmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralığın dışında.",
+        "Potansiyometre gerilimi izin verilen aralığın dışında",
         "Ek verici 1 arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2966,7 +2966,7 @@
       "makineTepkisi": "Bu verici üzerinden hedef hız üretilmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralığın dışında.",
+        "Potansiyometre gerilimi izin verilen aralığın dışında",
         "Ek verici 2 arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -2993,7 +2993,7 @@
       "makineTepkisi": "Bu verici üzerinden hedef hız üretilmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralığın dışında.",
+        "Potansiyometre gerilimi izin verilen aralığın dışında",
         "Ek verici 2 arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3020,7 +3020,7 @@
       "makineTepkisi": "Ölçülen basınç hesaplanmaz (gösterge: 9999 kg).",
       "siddet": "uyari",
       "nedenler": [
-        "GND (toprak) bağlantısı kopuk.",
+        "GND (toprak) bağlantısı kopuk",
         "Basınç sensörü arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3047,7 +3047,7 @@
       "makineTepkisi": "Ölçülen basınç hesaplanmaz (gösterge: 9999 kg).",
       "siddet": "uyari",
       "nedenler": [
-        "VCC besleme bağlantısı kopuk.",
+        "VCC besleme bağlantısı kopuk",
         "Basınç sensörü arızası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3074,7 +3074,7 @@
       "makineTepkisi": "Hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Sistem açılışında 1. kanal sensör sinyali hatalı.",
+        "Sistem açılışında 1. kanal sensör sinyali hatalı",
         "Direk dikey konum sensörü hatası — 2. kanalla uyuşmuyor — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3101,7 +3101,7 @@
       "makineTepkisi": "Hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Sistem açılışında sensör sinyali kopuk veya GND'ye kısa devre.",
+        "Sistem açılışında sensör sinyali kopuk veya GND'ye kısa devre",
         "Direk dikey konum GND hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3128,7 +3128,7 @@
       "makineTepkisi": "Hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Sistem açılışında sensör sinyali kopuk veya besleme gerilimine kısa devre.",
+        "Sistem açılışında sensör sinyali kopuk veya besleme gerilimine kısa devre",
         "Direk dikey konum VCC hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3155,7 +3155,7 @@
       "makineTepkisi": "Tüm valfler süre boyunca kilitlenir.",
       "siddet": "uyari",
       "nedenler": [
-        "Valf işlemcisinde şu gözlendi: valf açılışı için hedef değer var ancak gerçek açı değişmiyor — mantıksallık hatası.",
+        "Valf işlemcisinde şu gözlendi: valf açılışı için hedef değer var ancak gerçek açı değişmiyor — mantıksallık hatası",
         "Direk dikey konum mantıksal tutarsızlığı — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3182,7 +3182,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaldırma yüksekliği model hesaplaması hata tespit etti; referans sürüş gerekli.",
+        "Kaldırma yüksekliği model hesaplaması hata tespit etti; referans sürüş gerekli",
         "Kaldırma yüksekliği tespitinde işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3209,7 +3209,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Mini kolda sürüş yönü anahtarı mantıksallık hatası tespit edildi.",
+        "Mini kolda sürüş yönü anahtarı mantıksallık hatası tespit edildi",
         "Sürüş yönü anahtarı hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3236,7 +3236,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Mini kolda F düğmesi mantıksallık hatası tespit edildi.",
+        "Mini kolda F düğmesi mantıksallık hatası tespit edildi",
         "F düğmesi hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3263,7 +3263,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Hedef cihaz tipi yanlış veya hedef cihazda yazılım sürümü hatalı.",
+        "Hedef cihaz tipi yanlış veya hedef cihazda yazılım sürümü hatalı",
         "Yanlış hedef cihaz parametrelenmiş — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3290,7 +3290,7 @@
       "makineTepkisi": "Hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Joystickte bir hata tespit edildi.",
+        "Joystickte bir hata tespit edildi",
         "Joystick x ekseninde dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3317,7 +3317,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Joystickte bir hata tespit edildi.",
+        "Joystickte bir hata tespit edildi",
         "Joystick y ekseninde dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3344,7 +3344,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Joystickte bir hata tespit edildi.",
+        "Joystickte bir hata tespit edildi",
         "Rocker joystickte dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3371,7 +3371,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM'da donanım hatası veya kalibrasyon sırasında güç kaybı.",
+        "EEPROM'da donanım hatası veya kalibrasyon sırasında güç kaybı",
         "Joystickte dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3398,7 +3398,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Parmak kolu/mini kol için hedef cihazda genel hata.",
+        "Parmak kolu/mini kol için hedef cihazda genel hata",
         "Mini kolda dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3425,7 +3425,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Parmak kolu, kumanda kollarında bir hata bildiriyor.",
+        "Parmak kolu, kumanda kollarında bir hata bildiriyor",
         "Parmak kolunda dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3452,7 +3452,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Kollar ile ilgili hata.",
+        "Kollar ile ilgili hata",
         "Parmak kolunda dahili işlem hatası — Hall sensörü hatalı — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3479,7 +3479,7 @@
       "makineTepkisi": "Hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Ana anahtar kapalı olmasına rağmen arkasındaki gerilim kesilmiyor; anahtar açıkken üzerindeki gerilim düşümü 800 mV üzerinde. Test kalkışta ve çalışma sırasında tekrar yapılır.",
+        "Ana anahtar kapalı olmasına rağmen arkasındaki gerilim kesilmiyor; anahtar açıkken üzerindeki gerilim düşümü 800 mV üzerinde. Test kalkışta ve çalışma sırasında tekrar yapılır",
         "Valf işlemcisi hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3506,7 +3506,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ana anahtar açıldığında cihaz girişinde besleme var ancak düzenli aralıklarla gerilim kesiliyor; çalışma hidroliği etkin değil.",
+        "Ana anahtar açıldığında cihaz girişinde besleme var ancak düzenli aralıklarla gerilim kesiliyor; çalışma hidroliği etkin değil",
         "Valf işlemcisi hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3533,7 +3533,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Güç devresindeki gerilim <10 V veya >36 V; sürücü katları besleme gerilimi 10,5–13,5 V tolerans aralığının dışında.",
+        "Güç devresindeki gerilim <10 V veya >36 V; sürücü katları besleme gerilimi 10,5–13,5 V tolerans aralığının dışında",
         "Valf işlemcisi hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3560,7 +3560,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Cihaz kendi teşhisinde bir arıza kaydetti.",
+        "Cihaz kendi teşhisinde bir arıza kaydetti",
         "Valf işlemcisi aşırı sıcaklığı — çıkış katı sıcaklığı 80°C'yi aştı — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3587,7 +3587,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kontaktör K1 açıldığında cihaz girişinde 24 V besleme gerilimi yok.",
+        "Kontaktör K1 açıldığında cihaz girişinde 24 V besleme gerilimi yok",
         "Valf işlemcisi hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3614,7 +3614,7 @@
       "makineTepkisi": "Azami hız sınırlandırılır; direksiyon hatası mesajı gösterilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Direksiyon açısı kaydı mantıksız bir durum tespit etti.",
+        "Direksiyon açısı kaydı mantıksız bir durum tespit etti",
         "Direksiyon açısı sensörü hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3641,7 +3641,7 @@
       "makineTepkisi": "Araç yalnızca acil durum modunda sürülebilir.",
       "siddet": "uyari",
       "nedenler": [
-        "Direksiyon kolonundaki direksiyon açısı sensörü arızalandı.",
+        "Direksiyon kolonundaki direksiyon açısı sensörü arızalandı",
         "Direksiyon açısı sensörü hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3668,7 +3668,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Anahtar hatalı veya kablolama hatası.",
+        "Anahtar hatalı veya kablolama hatası",
         "Sol direksiyon açısı anahtarında hata — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3695,7 +3695,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Cihaz kendi teşhisinde bir arıza kaydetti.",
+        "Cihaz kendi teşhisinde bir arıza kaydetti",
         "Sağ direksiyon açısı anahtarında hata — anahtar hatalı veya kablolama hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3722,7 +3722,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yapılandırma veya donanım çakışması.",
+        "Yapılandırma veya donanım çakışması",
         "Yük ölçüm hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3749,7 +3749,7 @@
       "makineTepkisi": "Kalibrasyon iptal edildi.",
       "siddet": "uyari",
       "nedenler": [
-        "Harici besleme gerilimi yetersiz veya aşırı.",
+        "Harici besleme gerilimi yetersiz veya aşırı",
         "Kalibrasyon hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3776,7 +3776,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Kalibrasyon geçersiz.",
+        "Kalibrasyon geçersiz",
         "Çift pedallı hızlandırıcıda parametre hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3803,7 +3803,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralık dışında.",
+        "Potansiyometre gerilimi izin verilen aralık dışında",
         "Çift pedallı hızlandırıcıda parametre hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3830,7 +3830,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kalibrasyon geçersiz; EEPROM'a yazma hatası — kalibrasyon sırasında tespit edildi.",
+        "Kalibrasyon geçersiz; EEPROM'a yazma hatası — kalibrasyon sırasında tespit edildi",
         "Tek pedallı hızlandırıcı hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3857,7 +3857,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralık dışında; EEPROM'a yazma hatası; sistem açılışında tespit edildi.",
+        "Potansiyometre gerilimi izin verilen aralık dışında; EEPROM'a yazma hatası; sistem açılışında tespit edildi",
         "Fren sensörü hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3884,7 +3884,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralık dışında; EEPROM'a yazma hatası; sistem açılışında tespit edildi.",
+        "Potansiyometre gerilimi izin verilen aralık dışında; EEPROM'a yazma hatası; sistem açılışında tespit edildi",
         "Kaldırma vericisi hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3911,7 +3911,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralık dışında; EEPROM'a yazma hatası; sistem açılışında tespit edildi.",
+        "Potansiyometre gerilimi izin verilen aralık dışında; EEPROM'a yazma hatası; sistem açılışında tespit edildi",
         "Eğim vericisi hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3938,7 +3938,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralık dışında; EEPROM'a yazma hatası; sistem açılışında tespit edildi.",
+        "Potansiyometre gerilimi izin verilen aralık dışında; EEPROM'a yazma hatası; sistem açılışında tespit edildi",
         "Ek verici 1 hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3965,7 +3965,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre gerilimi izin verilen aralık dışında; EEPROM'a yazma hatası; sistem açılışında tespit edildi.",
+        "Potansiyometre gerilimi izin verilen aralık dışında; EEPROM'a yazma hatası; sistem açılışında tespit edildi",
         "Ek verici 2 hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -3992,7 +3992,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kalibrasyon sırasında potansiyometre gerilimi aralık dışında ve EEPROM'a yazma hatası; sistem açılışında da tespit edildi.",
+        "Kalibrasyon sırasında potansiyometre gerilimi aralık dışında ve EEPROM'a yazma hatası; sistem açılışında da tespit edildi",
         "Direk dikey konum kalibrasyon hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4019,7 +4019,7 @@
       "makineTepkisi": "Sayaç sıfırlanıp yeniden başlar.",
       "siddet": "uyari",
       "nedenler": [
-        "Sayaç için geçerli veri seti yok; kalibrasyon geçersiz.",
+        "Sayaç için geçerli veri seti yok; kalibrasyon geçersiz",
         "Sayaçta dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4046,7 +4046,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM verisi ilgili yazılımla uyuşmuyor.",
+        "EEPROM verisi ilgili yazılımla uyuşmuyor",
         "Kilometre sayacında dahili işlem hatası — RAM sigortası sağlama toplamı geçersiz — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4073,7 +4073,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM verisi yazılımla uyuşmuyor; hatalı parametrelendirme nedenleri: araç tipi, araç geometrisi.",
+        "EEPROM verisi yazılımla uyuşmuyor; hatalı parametrelendirme nedenleri: araç tipi, araç geometrisi",
         "Araç yapılandırmasında dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4100,7 +4100,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaldırma direği tipi anahtarı geçersiz.",
+        "Kaldırma direği tipi anahtarı geçersiz",
         "Hızlandırıcı sinyalinde dahili işlem hatası — hızlandırıcı ve sürüş yönü yapılandırması — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4127,7 +4127,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Sürüş programı parametreleri izin verilen aralık dışında.",
+        "Sürüş programı parametreleri izin verilen aralık dışında",
         "Sürüş programında dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4154,7 +4154,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ek elektrik donanım fonksiyonu ile ilgili.",
+        "Ek elektrik donanım fonksiyonu ile ilgili",
         "Ek elektrik donanımında dahili işlem hatası — parametrelendirme için yetersiz argüman — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4181,7 +4181,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CPP kanalı veya çıkışı birden fazla kez yapılandırılmış; parametre yapılandırma hatası.",
+        "CPP kanalı veya çıkışı birden fazla kez yapılandırılmış; parametre yapılandırma hatası",
         "CPP'de dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4208,7 +4208,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Çapraz anahtar indeksi tanımlı aralık dışında veya kendi öğesine işaret ediyor (özyineleme).",
+        "Çapraz anahtar indeksi tanımlı aralık dışında veya kendi öğesine işaret ediyor (özyineleme)",
         "Çapraz anahtarda dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4235,7 +4235,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Hedef cihaz verici karakteristik eğrisinde parametrelendirme hatası.",
+        "Hedef cihaz verici karakteristik eğrisinde parametrelendirme hatası",
         "Verici karakteristik eğrisinde parametre hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4262,7 +4262,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa karakteristik eğrisinde parametrelendirme hatası; min./maks. devir sayısına uyulmamış.",
+        "Pompa karakteristik eğrisinde parametrelendirme hatası; min./maks. devir sayısına uyulmamış",
         "Pompa karakteristik eğrisinde parametre hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4289,7 +4289,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa için devir sayısı sınırına uyulmamış; valf karakteristik eğrisinde parametrelendirme hatası.",
+        "Pompa için devir sayısı sınırına uyulmamış; valf karakteristik eğrisinde parametrelendirme hatası",
         "Valf parametre hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4316,7 +4316,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Karakteristik eğrilerde parametrelendirme hatası.",
+        "Karakteristik eğrilerde parametrelendirme hatası",
         "Valf regülatöründe parametre hatası — karakteristik eğri parametrelendirme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4343,7 +4343,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Oransal teknoloji hedef cihazı mantıksız.",
+        "Oransal teknoloji hedef cihazı mantıksız",
         "Oransal teknoloji hedef cihaz yapılandırması — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4370,7 +4370,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Parametre sınırları aşıldı.",
+        "Parametre sınırları aşıldı",
         "Konfor fonksiyonunda dahili işlem hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4397,7 +4397,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "XXX bileşeniyle haberleşme yok.",
+        "XXX bileşeniyle haberleşme yok",
         "XXX giriş hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4424,7 +4424,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "FU1 ile haberleşme yok.",
+        "FU1 ile haberleşme yok",
         "FU1 giriş hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4452,7 +4452,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında gönderemiyor.",
+        "SR, PDO mesajlarını zamanında gönderemiyor",
         "FU1 haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4480,7 +4480,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında alamıyor.",
+        "SR, PDO mesajlarını zamanında alamıyor",
         "FU1 haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4508,7 +4508,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "PU ile haberleşme yok.",
+        "PU ile haberleşme yok",
         "PU giriş hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4536,7 +4536,7 @@
       "makineTepkisi": "Yürüyüş ve hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında gönderemiyor.",
+        "SR, PDO mesajlarını zamanında gönderemiyor",
         "PU haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4564,7 +4564,7 @@
       "makineTepkisi": "Yürüyüş ve hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında alamıyor.",
+        "SR, PDO mesajlarını zamanında alamıyor",
         "PU haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4592,7 +4592,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "ABE ile haberleşme yok.",
+        "ABE ile haberleşme yok",
         "ABE giriş hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4620,7 +4620,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında gönderemiyor.",
+        "SR, PDO mesajlarını zamanında gönderemiyor",
         "ABE haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4648,7 +4648,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında alamıyor.",
+        "SR, PDO mesajlarını zamanında alamıyor",
         "ABE haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4676,7 +4676,7 @@
       "makineTepkisi": "Yürüyüş ve hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Parmak koluyla haberleşme yok.",
+        "Parmak koluyla haberleşme yok",
         "FIT giriş hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4704,7 +4704,7 @@
       "makineTepkisi": "Hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında gönderemiyor.",
+        "SR, PDO mesajlarını zamanında gönderemiyor",
         "FIT haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4732,7 +4732,7 @@
       "makineTepkisi": "Hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında alamıyor.",
+        "SR, PDO mesajlarını zamanında alamıyor",
         "FIT haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4760,7 +4760,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CPP1 ile haberleşme yok; şaseye GND F bağlantısı kesik.",
+        "CPP1 ile haberleşme yok; şaseye GND F bağlantısı kesik",
         "CPP1 giriş hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4788,7 +4788,7 @@
       "makineTepkisi": "Elektrikli tüketiciler kısmen devre dışı.",
       "siddet": "uyari",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında gönderemiyor; şaseye GND F bağlantısı kesik.",
+        "SR, PDO mesajlarını zamanında gönderemiyor; şaseye GND F bağlantısı kesik",
         "CPP1 haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4816,7 +4816,7 @@
       "makineTepkisi": "Elektrikli tüketiciler kısmen devre dışı.",
       "siddet": "uyari",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında gönderemiyor; şaseye GND F bağlantısı kesik.",
+        "SR, PDO mesajlarını zamanında gönderemiyor; şaseye GND F bağlantısı kesik",
         "CPP1 haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4844,7 +4844,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CPP2 ile haberleşme yok; şaseye GND F bağlantısı kesik.",
+        "CPP2 ile haberleşme yok; şaseye GND F bağlantısı kesik",
         "CPP2 giriş hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4872,7 +4872,7 @@
       "makineTepkisi": "Elektrikli tüketiciler kısmen devre dışı.",
       "siddet": "uyari",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında gönderemiyor; şaseye GND F bağlantısı kesik.",
+        "SR, PDO mesajlarını zamanında gönderemiyor; şaseye GND F bağlantısı kesik",
         "CPP2 haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4900,7 +4900,7 @@
       "makineTepkisi": "Elektrikli tüketiciler kısmen devre dışı.",
       "siddet": "uyari",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında alamıyor; şaseye GND F bağlantısı kesik.",
+        "SR, PDO mesajlarını zamanında alamıyor; şaseye GND F bağlantısı kesik",
         "CPP2 haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4928,7 +4928,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CPP3 ile haberleşme yok; şaseye GND F bağlantısı kesik.",
+        "CPP3 ile haberleşme yok; şaseye GND F bağlantısı kesik",
         "CPP3 giriş hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4956,7 +4956,7 @@
       "makineTepkisi": "Elektrikli tüketiciler kısmen devre dışı.",
       "siddet": "uyari",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında gönderemiyor; şaseye GND F bağlantısı kesik.",
+        "SR, PDO mesajlarını zamanında gönderemiyor; şaseye GND F bağlantısı kesik",
         "CPP3 haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -4984,7 +4984,7 @@
       "makineTepkisi": "Elektrikli tüketiciler kısmen devre dışı.",
       "siddet": "uyari",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında alamıyor; şaseye GND F bağlantısı kesik.",
+        "SR, PDO mesajlarını zamanında alamıyor; şaseye GND F bağlantısı kesik",
         "CPP3 haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5012,7 +5012,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CPP4 ile haberleşme yok; şaseye GND F bağlantısı kesik.",
+        "CPP4 ile haberleşme yok; şaseye GND F bağlantısı kesik",
         "CPP4 giriş hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5040,7 +5040,7 @@
       "makineTepkisi": "Elektrikli tüketiciler kısmen devre dışı.",
       "siddet": "uyari",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında gönderemiyor; şaseye GND F bağlantısı kesik.",
+        "SR, PDO mesajlarını zamanında gönderemiyor; şaseye GND F bağlantısı kesik",
         "CPP4 haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5068,7 +5068,7 @@
       "makineTepkisi": "Elektrikli tüketiciler kısmen devre dışı.",
       "siddet": "uyari",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında alamıyor; şaseye GND F bağlantısı kesik.",
+        "SR, PDO mesajlarını zamanında alamıyor; şaseye GND F bağlantısı kesik",
         "CPP4 haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5096,7 +5096,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CPP5 ile haberleşme yok; şaseye GND F bağlantısı kesik.",
+        "CPP5 ile haberleşme yok; şaseye GND F bağlantısı kesik",
         "CPP5 giriş hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5124,7 +5124,7 @@
       "makineTepkisi": "Elektrikli tüketiciler kısmen devre dışı.",
       "siddet": "uyari",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında gönderemiyor; şaseye GND F bağlantısı kesik.",
+        "SR, PDO mesajlarını zamanında gönderemiyor; şaseye GND F bağlantısı kesik",
         "CPP5 haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5152,7 +5152,7 @@
       "makineTepkisi": "Elektrikli tüketiciler kısmen devre dışı.",
       "siddet": "uyari",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında alamıyor; şaseye GND F bağlantısı kesik.",
+        "SR, PDO mesajlarını zamanında alamıyor; şaseye GND F bağlantısı kesik",
         "CPP5 haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5180,7 +5180,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CPP6 ile haberleşme yok; şaseye GND F bağlantısı kesik.",
+        "CPP6 ile haberleşme yok; şaseye GND F bağlantısı kesik",
         "CPP6 giriş hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5208,7 +5208,7 @@
       "makineTepkisi": "Elektrikli tüketiciler kısmen devre dışı.",
       "siddet": "uyari",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında gönderemiyor; şaseye GND F bağlantısı kesik.",
+        "SR, PDO mesajlarını zamanında gönderemiyor; şaseye GND F bağlantısı kesik",
         "CPP6 haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5236,7 +5236,7 @@
       "makineTepkisi": "Elektrikli tüketiciler kısmen devre dışı.",
       "siddet": "uyari",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında alamıyor; şaseye GND F bağlantısı kesik.",
+        "SR, PDO mesajlarını zamanında alamıyor; şaseye GND F bağlantısı kesik",
         "CPP6 haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5264,7 +5264,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "FABLI ile haberleşme yok.",
+        "FABLI ile haberleşme yok",
         "FABLI giriş hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5292,7 +5292,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında gönderemiyor.",
+        "SR, PDO mesajlarını zamanında gönderemiyor",
         "FABLI haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5320,7 +5320,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında alamıyor.",
+        "SR, PDO mesajlarını zamanında alamıyor",
         "FABLI haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5348,7 +5348,7 @@
       "makineTepkisi": "Yürüyüş ve hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Kart okuyucuyla haberleşme yok.",
+        "Kart okuyucuyla haberleşme yok",
         "Kart okuyucu giriş hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5376,7 +5376,7 @@
       "makineTepkisi": "Yürüyüş ve hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Cihaz kendi teşhisinde bir arıza kaydetti.",
+        "Cihaz kendi teşhisinde bir arıza kaydetti",
         "Kart okuyucu haberleşme hatası — SR PDO'ları zamanında gönderemiyor — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5404,7 +5404,7 @@
       "makineTepkisi": "Yürüyüş ve hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Cihaz kendi teşhisinde bir arıza kaydetti.",
+        "Cihaz kendi teşhisinde bir arıza kaydetti",
         "Kart okuyucu haberleşme hatası — SR PDO'ları zamanında alamıyor — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5432,7 +5432,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CAN veri yoluyla haberleşme yok.",
+        "CAN veri yoluyla haberleşme yok",
         "İvme sensörü giriş hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5460,7 +5460,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında gönderemiyor.",
+        "SR, PDO mesajlarını zamanında gönderemiyor",
         "İvme sensörü haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5488,7 +5488,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında alamıyor.",
+        "SR, PDO mesajlarını zamanında alamıyor",
         "İvme sensörü haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5516,7 +5516,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "DFÜ bileşeniyle haberleşme yok.",
+        "DFÜ bileşeniyle haberleşme yok",
         "DFÜ giriş hatası (uzaktan veri aktarımı) — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5544,7 +5544,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında gönderemiyor.",
+        "SR, PDO mesajlarını zamanında gönderemiyor",
         "DFÜ (uzaktan veri aktarımı) haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5572,7 +5572,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında alamıyor.",
+        "SR, PDO mesajlarını zamanında alamıyor",
         "DFÜ (uzaktan veri aktarımı) haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5600,7 +5600,7 @@
       "makineTepkisi": "",
       "siddet": "kisitlayici",
       "nedenler": [
-        "RFID ile haberleşme yok.",
+        "RFID ile haberleşme yok",
         "RFID giriş hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5628,7 +5628,7 @@
       "makineTepkisi": "",
       "siddet": "kisitlayici",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında gönderemiyor.",
+        "SR, PDO mesajlarını zamanında gönderemiyor",
         "RFID haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5656,7 +5656,7 @@
       "makineTepkisi": "",
       "siddet": "kisitlayici",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında alamıyor.",
+        "SR, PDO mesajlarını zamanında alamıyor",
         "RFID haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5683,7 +5683,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Elektrikli el freniyle haberleşme yok.",
+        "Elektrikli el freniyle haberleşme yok",
         "Elektrikli el freni giriş hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5710,7 +5710,7 @@
       "makineTepkisi": "Araç hareket etmez, hızlandırıcı kumandası etkisiz.",
       "siddet": "uyari",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında gönderemiyor.",
+        "SR, PDO mesajlarını zamanında gönderemiyor",
         "Elektrikli el freni haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5737,7 +5737,7 @@
       "makineTepkisi": "Araç hareket etmez, hızlandırıcı kumandası etkisiz.",
       "siddet": "uyari",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında alamıyor.",
+        "SR, PDO mesajlarını zamanında alamıyor",
         "Elektrikli el freni haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5764,7 +5764,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "SDO haberleşmesinde hata.",
+        "SDO haberleşmesinde hata",
         "FU1 haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5791,7 +5791,7 @@
       "makineTepkisi": "Araç yalnızca acil durum modunda sürülebilir.",
       "siddet": "uyari",
       "nedenler": [
-        "SDO haberleşmesinde hata.",
+        "SDO haberleşmesinde hata",
         "FU1 haberleşme hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5818,7 +5818,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Direksiyon sensörü sinyalleri izin verilen aralık dışında.",
+        "Direksiyon sensörü sinyalleri izin verilen aralık dışında",
         "Direksiyon açısı sensörü hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5845,7 +5845,7 @@
       "makineTepkisi": "Araç yalnızca acil durum modunda sürülebilir.",
       "siddet": "uyari",
       "nedenler": [
-        "Cihaz kendi teşhisinde bir arıza kaydetti.",
+        "Cihaz kendi teşhisinde bir arıza kaydetti",
         "Direksiyon açısı sensörü arızası — kablolar kopuk — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5872,7 +5872,7 @@
       "makineTepkisi": "Araç yalnızca acil durum modunda sürülebilir.",
       "siddet": "uyari",
       "nedenler": [
-        "Cihaz kendi teşhisinde bir arıza kaydetti.",
+        "Cihaz kendi teşhisinde bir arıza kaydetti",
         "Direksiyon açısı sensörü arızası — kablolar kopuk — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5899,7 +5899,7 @@
       "makineTepkisi": "Araç yalnızca acil durum modunda sürülebilir.",
       "siddet": "uyari",
       "nedenler": [
-        "1) Sensör hatalı.",
+        "1) Sensör hatalı",
         "Direksiyon açısı sensörü mantıksal tutarsızlığı — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5926,7 +5926,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "PAN parametre ile kapatılmış; sensör yanlış parametrelenmiş.",
+        "PAN parametre ile kapatılmış; sensör yanlış parametrelenmiş",
         "PAN işlemi etkinleştirilmedi hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5953,7 +5953,7 @@
       "makineTepkisi": "Yürüyüş ve hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "İlgili bileşene bağlanılamıyor; haberleşme hatası, uyumsuz bileşen veya EEPROM'a hatalı erişim olabilir.",
+        "İlgili bileşene bağlanılamıyor; haberleşme hatası, uyumsuz bileşen veya EEPROM'a hatalı erişim olabilir",
         "MCU ile ABE arasında uyumluluk hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -5981,7 +5981,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Her iki veri seti de geçersiz (iki cihaz da yedek parça olarak takılmış).",
+        "Her iki veri seti de geçersiz (iki cihaz da yedek parça olarak takılmış)",
         "MCU ile ABE arasında uyumluluk hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6009,7 +6009,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "İlgili bileşene bağlanılamıyor; haberleşme hatası veya uyumsuz bileşen olabilir.",
+        "İlgili bileşene bağlanılamıyor; haberleşme hatası veya uyumsuz bileşen olabilir",
         "MCU ile ABE arasında uyumluluk hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6037,7 +6037,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM'a hatalı erişim nedeniyle MCU ve ABE veri setlerinin ikisi de geçersiz; cihazlar yedek parça olarak yeniden takılmış.",
+        "EEPROM'a hatalı erişim nedeniyle MCU ve ABE veri setlerinin ikisi de geçersiz; cihazlar yedek parça olarak yeniden takılmış",
         "MCU ile ABE arasında uyumluluk hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6065,7 +6065,7 @@
       "makineTepkisi": "Yürüyüş ve hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "İlgili bileşene bağlanılamıyor; haberleşme hatası, uyumsuz bileşen veya EEPROM'a hatalı erişim olabilir.",
+        "İlgili bileşene bağlanılamıyor; haberleşme hatası, uyumsuz bileşen veya EEPROM'a hatalı erişim olabilir",
         "MCU ile XXX arasında uyumluluk hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6093,7 +6093,7 @@
       "makineTepkisi": "Yürüyüş ve hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "MCU ve FU1 veri setlerinin ikisi de geçersiz; cihazlar yedek parça olarak yeniden takılmış.",
+        "MCU ve FU1 veri setlerinin ikisi de geçersiz; cihazlar yedek parça olarak yeniden takılmış",
         "MCU ile XXX arasında uyumluluk hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6121,7 +6121,7 @@
       "makineTepkisi": "Yürüyüş ve hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "İlgili bileşene bağlanılamıyor; haberleşme hatası, uyumsuz bileşen veya EEPROM'a hatalı erişim olabilir.",
+        "İlgili bileşene bağlanılamıyor; haberleşme hatası, uyumsuz bileşen veya EEPROM'a hatalı erişim olabilir",
         "MCU ile XXX arasında uyumluluk hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6149,7 +6149,7 @@
       "makineTepkisi": "Yürüyüş ve hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "İlgili bileşene bağlanılamıyor; haberleşme hatası veya uyumsuz bileşen olabilir.",
+        "İlgili bileşene bağlanılamıyor; haberleşme hatası veya uyumsuz bileşen olabilir",
         "MCU ile XXX arasında uyumluluk hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6177,7 +6177,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM'a hatalı erişim nedeniyle MCU ve PU veri setleri geçersiz; cihazlar yedek parça olarak takılmış, ilgili bileşene bağlanılamıyor; sürüş ve hidrolik devre dışı.",
+        "EEPROM'a hatalı erişim nedeniyle MCU ve PU veri setleri geçersiz; cihazlar yedek parça olarak takılmış, ilgili bileşene bağlanılamıyor; sürüş ve hidrolik devre dışı",
         "MCU ile XXX arasında uyumluluk hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6205,7 +6205,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Haberleşme hatası veya uyumsuz bileşenden kaynaklanabilir.",
+        "Haberleşme hatası veya uyumsuz bileşenden kaynaklanabilir",
         "MCU ile ABE arasında uyumluluk hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6233,7 +6233,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM'a hatalı erişim; her iki veri seti de geçersiz (cihazlar yedek parça olarak takılmış).",
+        "EEPROM'a hatalı erişim; her iki veri seti de geçersiz (cihazlar yedek parça olarak takılmış)",
         "MCU ile ABE arasında uyumluluk hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6261,7 +6261,7 @@
       "makineTepkisi": "Hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "İlgili bileşene bağlanılamıyor; haberleşme hatası veya uyumsuz bileşen olabilir.",
+        "İlgili bileşene bağlanılamıyor; haberleşme hatası veya uyumsuz bileşen olabilir",
         "MCU ile ABE arasında uyumluluk hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6289,7 +6289,7 @@
       "makineTepkisi": "Hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "EEPROM'a hatalı erişim; veri setleri geçersiz ve ilgili bileşene bağlanılamıyor.",
+        "EEPROM'a hatalı erişim; veri setleri geçersiz ve ilgili bileşene bağlanılamıyor",
         "MCU ile ABE arasında uyumluluk hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6317,7 +6317,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Haberleşme hatası veya uyumsuz bileşenden kaynaklanabilir.",
+        "Haberleşme hatası veya uyumsuz bileşenden kaynaklanabilir",
         "STILL tanımlama kodunda parametre hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6344,7 +6344,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM'a hatalı erişim; her iki veri seti de geçersiz.",
+        "EEPROM'a hatalı erişim; her iki veri seti de geçersiz",
         "STILL tanımlamada PAN hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6371,7 +6371,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM hatası — cihazlar yedek parça olarak takılmış.",
+        "EEPROM hatası — cihazlar yedek parça olarak takılmış",
         "Dahili MCU hata kodu — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6398,7 +6398,7 @@
       "makineTepkisi": "Yürüyüş ünitesi gücü düşürülür.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Yürüyüş motorları aşırı sıcak.",
+        "Yürüyüş motorları aşırı sıcak",
         "Yürüyüş motorlarında aşırı sıcaklık — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6425,7 +6425,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ölçülen değer izin verilen aralık dışında.",
+        "Ölçülen değer izin verilen aralık dışında",
         "Pompa motoru sıcaklık hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6452,7 +6452,7 @@
       "makineTepkisi": "",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Motor çok sıcak.",
+        "Motor çok sıcak",
         "Pompa motoru aşırı sıcaklığı — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6479,7 +6479,7 @@
       "makineTepkisi": "Hızlanma ve hızın 1. aşama düzenlemesi yapılır.",
       "siddet": "uyari",
       "nedenler": [
-        "Ölçülen değer izin verilen aralık dışında.",
+        "Ölçülen değer izin verilen aralık dışında",
         "Yürüyüş motoru 1 (sağ) sıcaklık hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6506,7 +6506,7 @@
       "makineTepkisi": "Konvertörde faz akımı sınırlandırılır (acil hidrolik fonksiyonu korunur).",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Konvertör çok sıcak.",
+        "Konvertör çok sıcak",
         "FU1 aşırı sıcaklığı — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6533,7 +6533,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ölçülen değer izin verilen aralık dışında.",
+        "Ölçülen değer izin verilen aralık dışında",
         "FU1 sıcaklık hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6560,7 +6560,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ölçülen değer izin verilen aralık dışında.",
+        "Ölçülen değer izin verilen aralık dışında",
         "PU sıcaklık hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6587,7 +6587,7 @@
       "makineTepkisi": "",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Konvertör çok sıcak.",
+        "Konvertör çok sıcak",
         "PU aşırı sıcaklığı — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6614,7 +6614,7 @@
       "makineTepkisi": "Araç yalnızca acil durum hızında sürülebilir.",
       "siddet": "uyari",
       "nedenler": [
-        "Sensör arızalandı veya hasarlı.",
+        "Sensör arızalandı veya hasarlı",
         "Devir sensörü hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6641,7 +6641,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "MCU2 dahili tampon bataryası boşaldı.",
+        "MCU2 dahili tampon bataryası boşaldı",
         "MCU tampon bataryası hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6668,7 +6668,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "FleetManager sunucusu zaman aşımı süresinde yanıt vermiyor; 3. başarısız denemeden sonra hata ayarlandı.",
+        "FleetManager sunucusu zaman aşımı süresinde yanıt vermiyor; 3. başarısız denemeden sonra hata ayarlandı",
         "FleetManager sunucu zaman aşımı — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6695,7 +6695,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Sürücü Tablosu dosyası hatalı: CRC sağlama toplamı veya araç seri numarası uyuşmuyor.",
+        "Sürücü Tablosu dosyası hatalı: CRC sağlama toplamı veya araç seri numarası uyuşmuyor",
         "Sürücü tablosunda TDM hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6722,7 +6722,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "TDM EEPROM parametreleri yazılamadı; sürücü yok; TDM ana belleği taştı.",
+        "TDM EEPROM parametreleri yazılamadı; sürücü yok; TDM ana belleği taştı",
         "TDM EEPROM yazma hatası — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6749,7 +6749,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "DFÜ ile tüm veriler gönderilemedi, en eski veriler atıldı; dahili bellek yönetimi bozuldu ve iletilecek veriler silindi.",
+        "DFÜ ile tüm veriler gönderilemedi, en eski veriler atıldı; dahili bellek yönetimi bozuldu ve iletilecek veriler silindi",
         "TDM ana bellekte DFÜ veri kaybı — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6776,7 +6776,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "TDM ana belleği taştı; FMID'ye tüm veriler gönderilemedi, en eskiler atıldı; bellek yönetimi bozuldu.",
+        "TDM ana belleği taştı; FMID'ye tüm veriler gönderilemedi, en eskiler atıldı; bellek yönetimi bozuldu",
         "TDM ana bellekte FMID veri kaybı — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6803,7 +6803,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "TDM öncelik belleği taştı; DFÜ ile tüm veriler gönderilemedi; bellek yönetimi bozuldu.",
+        "TDM öncelik belleği taştı; DFÜ ile tüm veriler gönderilemedi; bellek yönetimi bozuldu",
         "TDM öncelik belleğinde veri kaybı — veri atıldı — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6830,7 +6830,7 @@
       "makineTepkisi": "Araç hareket etmez, hızlandırıcı kumandası etkisiz.",
       "siddet": "uyari",
       "nedenler": [
-        "DFÜ ile iletilecek tüm veriler silindi.",
+        "DFÜ ile iletilecek tüm veriler silindi",
         "Elektrikli el freni entegrasyonu — MCU CAN haberleşmesi kurulamıyor — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6857,7 +6857,7 @@
       "makineTepkisi": "Yürüyüş ünitesi devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Konvertör ELF ile ölümcül bir hata bildiriyor veya haberleşme kesildi.",
+        "Konvertör ELF ile ölümcül bir hata bildiriyor veya haberleşme kesildi",
         "Elektrik sistemindeki D konvertöründe ölümcül hata — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6884,7 +6884,7 @@
       "makineTepkisi": "Yürüyüş ve hidrolik tahrif devre dışı.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Konvertör ölümcül bir hata bildiriyor.",
+        "Konvertör ölümcül bir hata bildiriyor",
         "F konvertöründe ölümcül hata — valf işlemcisi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6911,7 +6911,7 @@
       "makineTepkisi": "Sistem fabrika parametreleriyle çalışır.",
       "siddet": "uyari",
       "nedenler": [
-        "Sağlama toplamı izleme hata tespit etti.",
+        "Sağlama toplamı izleme hata tespit etti",
         "Sağlama toplamı hatası — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6938,7 +6938,7 @@
       "makineTepkisi": "Konvertör hatası bildirilir.",
       "siddet": "uyari",
       "nedenler": [
-        "Başlatma sırasında en az bir hatalı bellek hücresi bulundu.",
+        "Başlatma sırasında en az bir hatalı bellek hücresi bulundu",
         "RAM testi — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6965,7 +6965,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Konvertörün dahili sıcaklık sensörü arızalandı veya kısa devre yaptı.",
+        "Konvertörün dahili sıcaklık sensörü arızalandı veya kısa devre yaptı",
         "Sıcaklık sensörü uyarısı — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -6992,7 +6992,7 @@
       "makineTepkisi": "Sürüş akımı düşürülür; aşırı sıcaklık mesajı gösterilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Konvertör aşırı ısındı.",
+        "Konvertör aşırı ısındı",
         "Aşırı sıcaklık hatası > 125°C — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7019,7 +7019,7 @@
       "makineTepkisi": "Konvertör gücü düşürülür.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Konvertör fazla soğudu.",
+        "Konvertör fazla soğudu",
         "Konvertör sıcaklığı yetersiz — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7046,7 +7046,7 @@
       "makineTepkisi": "Konvertör gücü düşürülür.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Konvertör 5 V dahili besleme gerilimi.",
+        "Konvertör 5 V dahili besleme gerilimi",
         "Aşırı sıcaklık uyarısı > 85°C — konvertör fazla ısındı — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7073,7 +7073,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Çok düşük veya çok yüksek.",
+        "Çok düşük veya çok yüksek",
         "Dahili güç besleme hatası — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7100,7 +7100,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Konvertör 15 V dahili besleme gerilimi.",
+        "Konvertör 15 V dahili besleme gerilimi",
         "Dahili güç besleme hatası — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7127,7 +7127,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Çok düşük.",
+        "Çok düşük",
         "Ara devre gerilimi hatası — DC ara devre gerilimi <12 V — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7154,7 +7154,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "DC ara devre gerilimi >33 V; konvertör güç üretmiyor.",
+        "DC ara devre gerilimi >33 V; konvertör güç üretmiyor",
         "Ara devre gerilimi hatası — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7181,7 +7181,7 @@
       "makineTepkisi": "Konvertör güç üretmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Rejenerasyon sırasında ara devre gerilimi >33 V'a yükseliyor.",
+        "Rejenerasyon sırasında ara devre gerilimi >33 V'a yükseliyor",
         "Ara devre rejenerasyon gerilimi hatası — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7208,7 +7208,7 @@
       "makineTepkisi": "Konvertör güç üretmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Ara devre ile ilgili.",
+        "Ara devre ile ilgili",
         "Arıklı bileşen — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7235,7 +7235,7 @@
       "makineTepkisi": "Konvertör güç üretmez.",
       "siddet": "uyari",
       "nedenler": [
-        "U, V, W fazlarında kısa devre.",
+        "U, V, W fazlarında kısa devre",
         "Kısa devre hatası — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7262,7 +7262,7 @@
       "makineTepkisi": "Konvertör güç üretmez.",
       "siddet": "uyari",
       "nedenler": [
-        "SR'den PDO mesajları zamanında alınamadı.",
+        "SR'den PDO mesajları zamanında alınamadı",
         "Dahili işlem hatası — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7289,7 +7289,7 @@
       "makineTepkisi": "Konvertör güç üretmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Dahili akım için kalibrasyon ofseti.",
+        "Dahili akım için kalibrasyon ofseti",
         "Kalibrasyon genel arızası — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7316,7 +7316,7 @@
       "makineTepkisi": "Varsayılan değerler kullanılır.",
       "siddet": "uyari",
       "nedenler": [
-        "Akım ölçümü kalibre edilmemiş; sensör ayar değeri çok yüksek.",
+        "Akım ölçümü kalibre edilmemiş; sensör ayar değeri çok yüksek",
         "Kalibrasyon uyarısı — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7343,7 +7343,7 @@
       "makineTepkisi": "Konvertör gücü düşürülür.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıcaklık uyarısıyla bağlantılı aktif güç düşümü.",
+        "Sıcaklık uyarısıyla bağlantılı aktif güç düşümü",
         "Yürüyüş motoru güç düşümü uyarısı — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7370,7 +7370,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Motor sıcaklık sensörü arızalandı.",
+        "Motor sıcaklık sensörü arızalandı",
         "Motor sıcaklık sensörü uyarısı — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7397,7 +7397,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Motor sıcaklığı >180°C.",
+        "Motor sıcaklığı >180°C",
         "Yürüyüş motoru aşırı sıcaklık hatası — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7424,7 +7424,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Darbe vericisi arızalandı veya kısa devre yaptı; hızlandırıcı pedalına basılmadan araç sürükleniyor.",
+        "Darbe vericisi arızalandı veya kısa devre yaptı; hızlandırıcı pedalına basılmadan araç sürükleniyor",
         "Devir sensörü uyarısı — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7451,7 +7451,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Hedef değer ile gerçek değer arasındaki fark sınır değerin üzerinde.",
+        "Hedef değer ile gerçek değer arasındaki fark sınır değerin üzerinde",
         "Akım regülatörü izleme hatası — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7478,7 +7478,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Hedef değer ile gerçek değer arasındaki fark sınır değerin üzerinde.",
+        "Hedef değer ile gerçek değer arasındaki fark sınır değerin üzerinde",
         "Hız regülatörü izleme hatası — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7505,7 +7505,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Tahmini devir sayısı sınır değerin üzerinde.",
+        "Tahmini devir sayısı sınır değerin üzerinde",
         "Hız tahmini hatası — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7532,7 +7532,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Bir veya birkaç motor kablosu bağlı değil.",
+        "Bir veya birkaç motor kablosu bağlı değil",
         "Motor kablosu hatası — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7559,7 +7559,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ölçülen hız sinyali hedef hız toleransının dışında.",
+        "Ölçülen hız sinyali hedef hız toleransının dışında",
         "Devir sensörü hatası — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7586,7 +7586,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ara devre gerilimi parametrelenen seviyenin altına düştü.",
+        "Ara devre gerilimi parametrelenen seviyenin altına düştü",
         "Ara devre gerilimi uyarısı — konvertör içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7613,7 +7613,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Parametre alanının sağlama toplamı hatalı.",
+        "Parametre alanının sağlama toplamı hatalı",
         "Parmak kolu / mini kolda dahili işlem hatası — parmak kolu / mini kol içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7640,7 +7640,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ayar değerlerinin sağlama toplamı hatalı.",
+        "Ayar değerlerinin sağlama toplamı hatalı",
         "Sağlama toplamı hatası — parmak kolu / mini kol içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7667,7 +7667,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yön seçme kolunun otomatik kalibrasyonu yapılamadı; kol doğru konumda değil.",
+        "Yön seçme kolunun otomatik kalibrasyonu yapılamadı; kol doğru konumda değil",
         "Kalibrasyon genel arızası — parmak kolu / mini kol içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7694,7 +7694,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Düğme hata bildiriyor; otomatik kalibrasyon doğru yapılamadı.",
+        "Düğme hata bildiriyor; otomatik kalibrasyon doğru yapılamadı",
         "F düğmesi hatası — parmak kolu / mini kol içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7721,7 +7721,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kol işleme hatası: kol sinyalleri doğru değerlendirilemiyor.",
+        "Kol işleme hatası: kol sinyalleri doğru değerlendirilemiyor",
         "Parmak kolu/mini kolda hata (kol 1) — parmak kolu / mini kol içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7748,7 +7748,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kol işleme hatası: kol sinyalleri doğru değerlendirilemiyor.",
+        "Kol işleme hatası: kol sinyalleri doğru değerlendirilemiyor",
         "Parmak kolu/mini kolda hata (kol 2) — parmak kolu / mini kol içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7775,7 +7775,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kol işleme hatası: kol sinyalleri doğru değerlendirilemiyor.",
+        "Kol işleme hatası: kol sinyalleri doğru değerlendirilemiyor",
         "Parmak kolu/mini kolda hata (kol 3) — parmak kolu / mini kol içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7802,7 +7802,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kol işleme hatası: kol sinyalleri doğru değerlendirilemiyor.",
+        "Kol işleme hatası: kol sinyalleri doğru değerlendirilemiyor",
         "Parmak kolu/mini kolda hata (kol 4) — parmak kolu / mini kol içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7829,7 +7829,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Sürüş yönü anahtarı izleme sistemi: kol sinyalleri doğru değerlendirilemiyor.",
+        "Sürüş yönü anahtarı izleme sistemi: kol sinyalleri doğru değerlendirilemiyor",
         "Sürüş yönü anahtarı hatası — parmak kolu / mini kol içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7856,7 +7856,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Düğme hata bildiriyor.",
+        "Düğme hata bildiriyor",
         "F düğmesi hatası — parmak kolu / mini kol içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7883,7 +7883,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Sinyal düğmesi ünitesinde hata.",
+        "Sinyal düğmesi ünitesinde hata",
         "Sinyal düğmesinde dahili hata — parmak kolu / mini kol içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7910,7 +7910,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "LED hatası.",
+        "LED hatası",
         "LED hatası — parmak kolu / mini kol içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7937,7 +7937,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "PDO1 veya PDO2 gönderilemiyor.",
+        "PDO1 veya PDO2 gönderilemiyor",
         "Giriş (login) hatası — parmak kolu / mini kol içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7965,7 +7965,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "PDO watchdog izleme sistemi hatası.",
+        "PDO watchdog izleme sistemi hatası",
         "Giriş (login) hatası — parmak kolu / mini kol içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -7993,7 +7993,7 @@
       "makineTepkisi": "Sistem fabrika parametreleriyle çalışır.",
       "siddet": "uyari",
       "nedenler": [
-        "Parametre seti okunamıyor (EEPROM sürücüsü hata mesajı).",
+        "Parametre seti okunamıyor (EEPROM sürücüsü hata mesajı)",
         "Gösterge ve kumanda ünitesinde dahili işlem hatası — gösterge ve kumanda ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8021,7 +8021,7 @@
       "makineTepkisi": "Sistem fabrika parametreleriyle çalışır.",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM okunduktan sonra sağlama toplamı hatalı.",
+        "EEPROM okunduktan sonra sağlama toplamı hatalı",
         "Dahili işlem hatası — gösterge ve kumanda ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8048,7 +8048,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM'da tutarlı veri seti bulunamadı.",
+        "EEPROM'da tutarlı veri seti bulunamadı",
         "Dahili işlem hatası — gösterge ve kumanda ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8075,7 +8075,7 @@
       "makineTepkisi": "Sistem fabrika ayarlarıyla çalışır.",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM okunduktan sonra sağlama toplamı hatalı.",
+        "EEPROM okunduktan sonra sağlama toplamı hatalı",
         "Dahili işlem hatası — gösterge ve kumanda ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8102,7 +8102,7 @@
       "makineTepkisi": "Sistem fabrika parametreleriyle çalışır.",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM'da tutarlı veri seti bulunamadı.",
+        "EEPROM'da tutarlı veri seti bulunamadı",
         "Dahili işlem hatası — gösterge ve kumanda ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8129,7 +8129,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Haberleşme kesildi.",
+        "Haberleşme kesildi",
         "ABE kart okuyucu hatası — gösterge ve kumanda ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8156,7 +8156,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kart belirtilen sürede yanıt vermedi.",
+        "Kart belirtilen sürede yanıt vermedi",
         "ABE kart okuyucu hatası — gösterge ve kumanda ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8183,7 +8183,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Cihaz kendi teşhisinde bir arıza kaydetti.",
+        "Cihaz kendi teşhisinde bir arıza kaydetti",
         "ABE kart okuyucu hatası — gösterge ve kumanda ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8210,7 +8210,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "SU ile haberleşme yok.",
+        "SU ile haberleşme yok",
         "SU giriş hatası — gösterge ve kumanda ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8238,7 +8238,7 @@
       "makineTepkisi": "Kontaktör devreye girmez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "FU1 ile haberleşme yok.",
+        "FU1 ile haberleşme yok",
         "FU1 giriş hatası — gösterge ve kumanda ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8266,7 +8266,7 @@
       "makineTepkisi": "",
       "siddet": "bilgi",
       "nedenler": [
-        "SR, PDO mesajlarını zamanında alamıyor.",
+        "SR, PDO mesajlarını zamanında alamıyor",
         "Giriş (login) hatası — gösterge ve kumanda ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8294,7 +8294,7 @@
       "makineTepkisi": "Ölümcül PDO hatası; sürüş ünitesi kapanır.",
       "siddet": "uyari",
       "nedenler": [
-        "Sürüş yönü LED'lerinden en az birinde akım yok.",
+        "Sürüş yönü LED'lerinden en az birinde akım yok",
         "Dahili işlem hatası — gösterge ve kumanda ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8321,7 +8321,7 @@
       "makineTepkisi": "",
       "siddet": "bilgi",
       "nedenler": [
-        "Batarya kontrolcüsü \"genel hata\" durumu gönderiyor.",
+        "Batarya kontrolcüsü \"genel hata\" durumu gönderiyor",
         "Yürüyüş bataryası hatası — batarya kontrolcüsü — batarya kontrolcüsü içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8348,7 +8348,7 @@
       "makineTepkisi": "",
       "siddet": "bilgi",
       "nedenler": [
-        "Batarya kontrolcüsü \"batarya sıcaklığı çok yüksek\" durumu gönderiyor.",
+        "Batarya kontrolcüsü \"batarya sıcaklığı çok yüksek\" durumu gönderiyor",
         "Yürüyüş bataryası aşırı sıcak — batarya kontrolcüsü içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8375,7 +8375,7 @@
       "makineTepkisi": "",
       "siddet": "bilgi",
       "nedenler": [
-        "Batarya kontrolcüsü \"batarya derin deşarj\" durumu gönderiyor.",
+        "Batarya kontrolcüsü \"batarya derin deşarj\" durumu gönderiyor",
         "Yürüyüş bataryası derin deşarj — batarya kontrolcüsü içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8402,7 +8402,7 @@
       "makineTepkisi": "Sistem fabrika parametreleriyle çalışır.",
       "siddet": "uyari",
       "nedenler": [
-        "Parametre seti okunamıyor (EEPROM sürücüsü hata mesajı).",
+        "Parametre seti okunamıyor (EEPROM sürücüsü hata mesajı)",
         "Elektrikli el freni I2C veri yolu donanım hatası — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8429,7 +8429,7 @@
       "makineTepkisi": "Elektrikli fren fonksiyonu yok (X6510); park için el çarkıyla fren uygulanmalı. Bileşen hata durumu bildirir.",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM verisi okunduktan sonra sağlama toplamı hatalı.",
+        "EEPROM verisi okunduktan sonra sağlama toplamı hatalı",
         "Dahili işlem hatası — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8456,7 +8456,7 @@
       "makineTepkisi": "Bakım gerekiyor (X6501). Sistem fabrika parametreleriyle çalışır.",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM'da tutarlı parametre seti yok.",
+        "EEPROM'da tutarlı parametre seti yok",
         "Fabrika parametreleri etkinleştirildi — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8483,7 +8483,7 @@
       "makineTepkisi": "Elektrikli fren fonksiyonu yok (X6510); park için el çarkıyla fren uygulanmalı. Bileşen hata durumu bildirir.",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM verisi okunduktan sonra sağlama toplamı hatalı.",
+        "EEPROM verisi okunduktan sonra sağlama toplamı hatalı",
         "Ayar değerlerinin sağlama toplamı hatası — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8510,7 +8510,7 @@
       "makineTepkisi": "Bakım gerekiyor (X6501).",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM'da tutarlı parametre seti yok.",
+        "EEPROM'da tutarlı parametre seti yok",
         "Fabrika ayar değerleri etkinleştirildi — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8537,7 +8537,7 @@
       "makineTepkisi": "Bileşen hata durumu bildirir.",
       "siddet": "uyari",
       "nedenler": [
-        "Senkron seri arayüz başlatılamadı; kontrol ünitesindeki iki bilgisayar arasında haberleşme yok. Yazılım indirme sırasında veya watchdog başlatma sırasında oluşabilir. Elektrikli fren fonksiyonu yok.",
+        "Senkron seri arayüz başlatılamadı; kontrol ünitesindeki iki bilgisayar arasında haberleşme yok. Yazılım indirme sırasında veya watchdog başlatma sırasında oluşabilir. Elektrikli fren fonksiyonu yok",
         "Senkron seri arayüz başlatıldı — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8564,7 +8564,7 @@
       "makineTepkisi": "Elektrikli fren fonksiyonu yok (X6510); park için el çarkıyla fren uygulanmalı. Bileşen hata durumu bildirir.",
       "siddet": "uyari",
       "nedenler": [
-        "Senkron seri arayüz başlatılırken iki bilgisayar arasındaki haberleşme kesildi.",
+        "Senkron seri arayüz başlatılırken iki bilgisayar arasındaki haberleşme kesildi",
         "Senkron seri arayüz watchdog hatası — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8591,7 +8591,7 @@
       "makineTepkisi": "Elektrikli fren fonksiyonu yok (X6510); park için el çarkıyla fren uygulanmalı. Bileşen hata durumu bildirir.",
       "siddet": "uyari",
       "nedenler": [
-        "İki bilgisayar arasındaki senkron seri arayüz iletiminde sağlama toplamı hatalı; yazılım indirme sırasında oluşabilir.",
+        "İki bilgisayar arasındaki senkron seri arayüz iletiminde sağlama toplamı hatalı; yazılım indirme sırasında oluşabilir",
         "Senkron seri arayüz sağlama toplamı hatası — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8618,7 +8618,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Elektronik devrelerin sıcaklığı 100°C üzerinde; yazılım indirme sırasında oluşabilir.",
+        "Elektronik devrelerin sıcaklığı 100°C üzerinde; yazılım indirme sırasında oluşabilir",
         "Kontrol ünitesi aşırı sıcaklığı — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8645,7 +8645,7 @@
       "makineTepkisi": "Elektrikli fren fonksiyonu yok (X6510); park için el çarkıyla fren uygulanmalı. Bileşen hata durumu bildirir.",
       "siddet": "uyari",
       "nedenler": [
-        "Olası nedenler: donanım varyantı geçersiz, donanım kodu geçersiz veya parametre varyantı için donanım varyantı hatalı.",
+        "Olası nedenler: donanım varyantı geçersiz, donanım kodu geçersiz veya parametre varyantı için donanım varyantı hatalı",
         "Geçersiz donanım sürümü genel arızası — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8672,7 +8672,7 @@
       "makineTepkisi": "Elektrikli fren fonksiyonu yok (X6510); park için el çarkıyla fren uygulanmalı. Bakım gerekiyor (X6501).",
       "siddet": "uyari",
       "nedenler": [
-        "5 V besleme gerilimi tolerans aralığının dışında.",
+        "5 V besleme gerilimi tolerans aralığının dışında",
         "5 V dahili genel arızası — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8699,7 +8699,7 @@
       "makineTepkisi": "Elektrikli fren fonksiyonu yok (X6510); park için el çarkıyla fren uygulanmalı. Bileşen hata durumu bildirir.",
       "siddet": "uyari",
       "nedenler": [
-        "15 V besleme gerilimi tolerans aralığının dışında; donanım hatası veya LED kablosu hatalı.",
+        "15 V besleme gerilimi tolerans aralığının dışında; donanım hatası veya LED kablosu hatalı",
         "15 V dahili genel arızası — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8726,7 +8726,7 @@
       "makineTepkisi": "Sayaç sıfırlanıp yeniden başlar.",
       "siddet": "uyari",
       "nedenler": [
-        "Sayaç için geçerli veri seti yok.",
+        "Sayaç için geçerli veri seti yok",
         "Sayaç — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8753,7 +8753,7 @@
       "makineTepkisi": "Fren çevrimdışı moda geçer; çok kademeli fren düğmeyle uygulanabilir.",
       "siddet": "uyari",
       "nedenler": [
-        "Alma zaman aşımı veya watchdog sayacı hatalı; MCU/TCU'dan hatalı CAN verisi alındı.",
+        "Alma zaman aşımı veya watchdog sayacı hatalı; MCU/TCU'dan hatalı CAN verisi alındı",
         "Katılımcı 1 PDO watchdog hatası — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8780,7 +8780,7 @@
       "makineTepkisi": "Sürücüye hata mesajı gösterilir.",
       "siddet": "uyari",
       "nedenler": [
-        "MCU/TCU'dan 90 ms boyunca CAN verisi alınamadı.",
+        "MCU/TCU'dan 90 ms boyunca CAN verisi alınamadı",
         "Bakım gerekiyor — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8807,7 +8807,7 @@
       "makineTepkisi": "Elektrikli fren fonksiyonu yok (X6510); park için el çarkıyla fren uygulanmalı. Bileşen hata durumu bildirir.",
       "siddet": "uyari",
       "nedenler": [
-        "Aşırı sıcaklık; çok sık frenlemeden kaynaklanabilir.",
+        "Aşırı sıcaklık; çok sık frenlemeden kaynaklanabilir",
         "Sıcaklık uyarısı — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8834,7 +8834,7 @@
       "makineTepkisi": "Elektrikli fren fonksiyonu yok (X6510); park için el çarkıyla fren uygulanmalı. Bileşen hata durumu bildirir.",
       "siddet": "uyari",
       "nedenler": [
-        "Bileşen hata durumu bildiriyor.",
+        "Bileşen hata durumu bildiriyor",
         "Genel fren fonksiyonu kontrol ünitesi ELEVEN — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8861,7 +8861,7 @@
       "makineTepkisi": "Fren bırakılmaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Fren uygulanmış ve güvenli durumda; frenin kendindeki arıza veya araç etkinleştirilmediği için fren bırakmıyor. Hata MCU/TCU veya konvertörle de ilgili olabilir.",
+        "Fren uygulanmış ve güvenli durumda; frenin kendindeki arıza veya araç etkinleştirilmediği için fren bırakmıyor. Hata MCU/TCU veya konvertörle de ilgili olabilir",
         "Fren bırakmıyor — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8888,7 +8888,7 @@
       "makineTepkisi": "Sürücüye hata mesajı gösterilir.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Fren uygulanırken hata oluştu; frenin aracı güvenle durduracağı garanti edilemez. Çok kademeli fren düğme ile uygulanmaya devam edebilir.",
+        "Fren uygulanırken hata oluştu; frenin aracı güvenle durduracağı garanti edilemez. Çok kademeli fren düğme ile uygulanmaya devam edebilir",
         "Fren uygulanmıyor — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8915,7 +8915,7 @@
       "makineTepkisi": "Sıcaklık uyarısı (X6502).",
       "siddet": "uyari",
       "nedenler": [
-        "Baskı devre kartı sıcaklığı 60°C uyarı eşiğini aştı; fren bırakma gecikiyor.",
+        "Baskı devre kartı sıcaklığı 60°C uyarı eşiğini aştı; fren bırakma gecikiyor",
         "Sıcaklık sensörü uyarısı — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8942,7 +8942,7 @@
       "makineTepkisi": "Fren bırakılmaz (X6511). Güvenli durum: fren yeniden uygulanır ve kalır.",
       "siddet": "uyari",
       "nedenler": [
-        "Baskı devre kartı sıcaklığı 85°C hata eşiğini aştı; fren güvenle uygulandıktan sonra.",
+        "Baskı devre kartı sıcaklığı 85°C hata eşiğini aştı; fren güvenle uygulandıktan sonra",
         "Sıcaklık sensörü hatası — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8969,7 +8969,7 @@
       "makineTepkisi": "Sıcaklık uyarısı (X6502).",
       "siddet": "uyari",
       "nedenler": [
-        "Çıkış katı sıcaklığı 80°C uyarı eşiğini aştı; bırakma gecikmesi.",
+        "Çıkış katı sıcaklığı 80°C uyarı eşiğini aştı; bırakma gecikmesi",
         "Model çıkış katı sıcaklık uyarısı — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -8996,7 +8996,7 @@
       "makineTepkisi": "Fren bırakılmaz (X6511). Güvenli durum: fren yeniden uygulanır ve kalır.",
       "siddet": "uyari",
       "nedenler": [
-        "Çıkış katı sıcaklığı 100°C hata eşiğini aştı.",
+        "Çıkış katı sıcaklığı 100°C hata eşiğini aştı",
         "Elektrikli el freni model çıkış katı sıcaklık hatası — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9023,7 +9023,7 @@
       "makineTepkisi": "Bileşen hata durumu bildirir.",
       "siddet": "uyari",
       "nedenler": [
-        "Donanım aşırı akım tespit edip çıkış katını bloke etti; elektrikli fren fonksiyonu yok.",
+        "Donanım aşırı akım tespit edip çıkış katını bloke etti; elektrikli fren fonksiyonu yok",
         "Çıkış katında aşırı akım (karşılaştırıcı) — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9050,7 +9050,7 @@
       "makineTepkisi": "Elektrikli fren fonksiyonu yok (X6510); park için el çarkıyla fren uygulanmalı. Bileşen hata durumu bildirir.",
       "siddet": "uyari",
       "nedenler": [
-        "Yazılım aşırı akım tespit edip çıkış katını bloke etti.",
+        "Yazılım aşırı akım tespit edip çıkış katını bloke etti",
         "Çıkış katında aşırı akım ölçümü — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9077,7 +9077,7 @@
       "makineTepkisi": "Fren bırakılmaz (X6511). Güvenli durum: fren yeniden uygulanır ve kalır.",
       "siddet": "uyari",
       "nedenler": [
-        "MCU/TCU tarafından iletilen parametreler hatalı; hatalı veriler için varsayılan değerler yüklendi.",
+        "MCU/TCU tarafından iletilen parametreler hatalı; hatalı veriler için varsayılan değerler yüklendi",
         "MCU/TCU parametreleri için varsayılan değer — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9104,7 +9104,7 @@
       "makineTepkisi": "Fren bırakılmaz (X6511). Güvenli durum: fren yeniden uygulanır ve kalır.",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM'daki fren parametreleri hatalı.",
+        "EEPROM'daki fren parametreleri hatalı",
         "Yanlış ayarlanmış EEPROM parametresi — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9131,7 +9131,7 @@
       "makineTepkisi": "Fren çevrimdışı moda geçer; çok kademeli fren düğmeyle uygulanabilir. Fren bırakılmaz (X6511).",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Hareket süreci zaman aşımı (fren bırakılırken veya uygulanırken).",
+        "Hareket süreci zaman aşımı (fren bırakılırken veya uygulanırken)",
         "Hareket işlem süresi — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9158,7 +9158,7 @@
       "makineTepkisi": "Fren çevrimdışı moda geçer; çok kademeli fren düğmeyle uygulanabilir. Fren bırakılmaz (X6511).",
       "siddet": "uyari",
       "nedenler": [
-        "Fren konumu veya yolu hedef konuma uymuyor; mil sıkışıp katılaşıyor.",
+        "Fren konumu veya yolu hedef konuma uymuyor; mil sıkışıp katılaşıyor",
         "Mantıksallık izleme: diferansiyel yol — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9185,7 +9185,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM verisi okunduktan sonra sağlama toplamları hatalı; bakım gerekiyor.",
+        "EEPROM verisi okunduktan sonra sağlama toplamları hatalı; bakım gerekiyor",
         "Çevrim sayacı aralık sağlama toplamı — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9212,7 +9212,7 @@
       "makineTepkisi": "Elektrikli fren fonksiyonu yok (X6510); park için el çarkıyla fren uygulanmalı. Bileşen hata durumu bildirir.",
       "siddet": "uyari",
       "nedenler": [
-        "Akım sensörü ayar değeri mantıksız.",
+        "Akım sensörü ayar değeri mantıksız",
         "Donanım testi akım sensörü ayar değeri — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9239,7 +9239,7 @@
       "makineTepkisi": "Elektrikli fren fonksiyonu yok (X6510); park için el çarkıyla fren uygulanmalı. Bileşen hata durumu bildirir.",
       "siddet": "uyari",
       "nedenler": [
-        "Düğme sinyalleri hatalı değil; hata açılış sırasında düğmelere sürekli basılırsa da oluşur.",
+        "Düğme sinyalleri hatalı değil; hata açılış sırasında düğmelere sürekli basılırsa da oluşur",
         "Donanım testi düğme sinyalleri — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9266,7 +9266,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Varsayılan değerle fren doğru çalışmaya devam ediyor; RX20 serisinden (2010) itibaren bu hatayı gösteren bileşenler sahada tedarik ediliyor.",
+        "Varsayılan değerle fren doğru çalışmaya devam ediyor; RX20 serisinden (2010) itibaren bu hatayı gösteren bileşenler sahada tedarik ediliyor",
         "Güç/akım ayar değeri hatası — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9293,7 +9293,7 @@
       "makineTepkisi": "Fren bırakılmaz (X6511). Güvenli durum: fren yeniden uygulanır ve kalır.",
       "siddet": "uyari",
       "nedenler": [
-        "Akım değerleri iki bilgisayarda ölçüldü; ölçüm değerleri birbirinden farklı.",
+        "Akım değerleri iki bilgisayarda ölçüldü; ölçüm değerleri birbirinden farklı",
         "Farklı akım değerleri ölçüldü — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9320,7 +9320,7 @@
       "makineTepkisi": "Elektrikli fren fonksiyonu yok (X6510); park için el çarkıyla fren uygulanmalı. Bileşen hata durumu bildirir.",
       "siddet": "uyari",
       "nedenler": [
-        "Akım yalnızca doğru yönde hareket talebi yapıldığında akar.",
+        "Akım yalnızca doğru yönde hareket talebi yapıldığında akar",
         "Hareket talebi için mantıksız akım — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9347,7 +9347,7 @@
       "makineTepkisi": "Bileşen hata durumu bildirir.",
       "siddet": "uyari",
       "nedenler": [
-        "Akım yalnızca doğru yöndeki hedef değer için akar; elektrikli fren fonksiyonu yok.",
+        "Akım yalnızca doğru yöndeki hedef değer için akar; elektrikli fren fonksiyonu yok",
         "Elektrikli el freni — gerilim hedefi için mantıksız akım — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9374,7 +9374,7 @@
       "makineTepkisi": "Fren bırakılmaz (X6511).",
       "siddet": "uyari",
       "nedenler": [
-        "Limit konum anahtarı gerilimi iki bilgisayarda ölçüldü; değerler birbirinden farklı, güvenli durumda fren yeniden uygulanır ve kalır.",
+        "Limit konum anahtarı gerilimi iki bilgisayarda ölçüldü; değerler birbirinden farklı, güvenli durumda fren yeniden uygulanır ve kalır",
         "Limit konum anahtarı ölçüm değeri mantıksız — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9401,7 +9401,7 @@
       "makineTepkisi": "Fren bırakılmaz (X6511). Güvenli durum: fren yeniden uygulanır ve kalır.",
       "siddet": "uyari",
       "nedenler": [
-        "Motor yol ölçümü iki bilgisayarda karşılaştırıldı; ölçüm değerleri birbirinden farklı.",
+        "Motor yol ölçümü iki bilgisayarda karşılaştırıldı; ölçüm değerleri birbirinden farklı",
         "SR/UR yol karşılaştırma hatası — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9428,7 +9428,7 @@
       "makineTepkisi": "Fren bırakılmaz (X6511). Güvenli durum: fren yeniden uygulanır ve kalır.",
       "siddet": "uyari",
       "nedenler": [
-        "Motor doğru yönde etkinleştirilmemesine rağmen sürüş hareket ediyor; mekanik arıza.",
+        "Motor doğru yönde etkinleştirilmemesine rağmen sürüş hareket ediyor; mekanik arıza",
         "Hareket mantıksız 1 — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9455,7 +9455,7 @@
       "makineTepkisi": "Elektrikli fren fonksiyonu yok (X6510); park için el çarkıyla fren uygulanmalı. Bileşen hata durumu bildirir.",
       "siddet": "uyari",
       "nedenler": [
-        "Fren bırakılırken veya uygulanırken maksimum hareket yolu aşıldı; mekanik arıza.",
+        "Fren bırakılırken veya uygulanırken maksimum hareket yolu aşıldı; mekanik arıza",
         "Mantıksız hareket 2 — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9482,7 +9482,7 @@
       "makineTepkisi": "Fren bırakılmaz (X6511).",
       "siddet": "uyari",
       "nedenler": [
-        "Düğme sinyalleri iki bilgisayarda ölçüldü; değerler farklı; güvenli durumda fren yeniden uygulanır.",
+        "Düğme sinyalleri iki bilgisayarda ölçüldü; değerler farklı; güvenli durumda fren yeniden uygulanır",
         "Düğme durumları mantıksız — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9509,7 +9509,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Sıcaklık değerleri iki bilgisayarda ölçüldü; değerler farklı; güvenli durumda fren yeniden uygulanır.",
+        "Sıcaklık değerleri iki bilgisayarda ölçüldü; değerler farklı; güvenli durumda fren yeniden uygulanır",
         "Sıcaklık sensörü değerleri mantıksız — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9536,7 +9536,7 @@
       "makineTepkisi": "Fren bırakılmaz (X6511).",
       "siddet": "uyari",
       "nedenler": [
-        "PDO1 CAN mesajı iki bilgisayarda alındı ancak veriler uyuşmuyor; fren çevrimdışı moda geçti, çok kademeli fren düğmeyle çalışabilir.",
+        "PDO1 CAN mesajı iki bilgisayarda alındı ancak veriler uyuşmuyor; fren çevrimdışı moda geçti, çok kademeli fren düğmeyle çalışabilir",
         "Veri karşılaştırma PDO1 — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9563,7 +9563,7 @@
       "makineTepkisi": "Fren çevrimdışı moda geçer; çok kademeli fren düğmeyle uygulanabilir.",
       "siddet": "uyari",
       "nedenler": [
-        "PDO1 watchdog alma zaman aşımı süresi doldu.",
+        "PDO1 watchdog alma zaman aşımı süresi doldu",
         "PDO1 veri karşılaştırma zaman aşımı — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9590,7 +9590,7 @@
       "makineTepkisi": "Elektrikli fren fonksiyonu yok (X6510); park için el çarkıyla fren uygulanmalı. Bileşen hata durumu bildirir.",
       "siddet": "uyari",
       "nedenler": [
-        "Uygulanan gerilim için ölçülen akım değeri çok küçük.",
+        "Uygulanan gerilim için ölçülen akım değeri çok küçük",
         "Gerilim için akım çok küçük — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9617,7 +9617,7 @@
       "makineTepkisi": "Fren bırakılmaz (X6511). Güvenli durum: fren yeniden uygulanır ve kalır.",
       "siddet": "uyari",
       "nedenler": [
-        "LED ölçüm akımı LED etkinleştirmesiyle uyuşmuyor.",
+        "LED ölçüm akımı LED etkinleştirmesiyle uyuşmuyor",
         "LED akımı çok küçük — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9644,7 +9644,7 @@
       "makineTepkisi": "Fren sıkılır; otomatik modda bırakma sırasında hata görülür.",
       "siddet": "uyari",
       "nedenler": [
-        "Araç dururken mil hareket ediyor; kendiliğinden kilitlenme özelliği yetersiz.",
+        "Araç dururken mil hareket ediyor; kendiliğinden kilitlenme özelliği yetersiz",
         "Mantıksız hareket — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9671,7 +9671,7 @@
       "makineTepkisi": "",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Limit konum anahtarı sinyali mevcut konuma uymuyor (bırakılmış).",
+        "Limit konum anahtarı sinyali mevcut konuma uymuyor (bırakılmış)",
         "Limit konum anahtarı bırakıldı (bayrak) — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9698,7 +9698,7 @@
       "makineTepkisi": "Fren bırakılmaz (X6511). Güvenli durum: fren yeniden uygulanır ve kalır.",
       "siddet": "uyari",
       "nedenler": [
-        "Öğretme değeri yok veya öğretme değerleri mantıksız.",
+        "Öğretme değeri yok veya öğretme değerleri mantıksız",
         "Hatalı öğretme (teach) değerleri — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9725,7 +9725,7 @@
       "makineTepkisi": "Bakım gerekiyor (X6501).",
       "siddet": "uyari",
       "nedenler": [
-        "Cihaz kendi teşhisinde bir arıza kaydetti.",
+        "Cihaz kendi teşhisinde bir arıza kaydetti",
         "Elektrikli el freni — kalibrasyon karakteristik eğrisi mantıksız — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9752,7 +9752,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kalibrasyon karakteristik eğrisinden sapma çok büyük; kuvvet/yol eğrisi kalibrasyon eğrisinden fazla saptığında bu hata oluşur.",
+        "Kalibrasyon karakteristik eğrisinden sapma çok büyük; kuvvet/yol eğrisi kalibrasyon eğrisinden fazla saptığında bu hata oluşur",
         "Kuvvet/yol tolerans aralığı — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9779,7 +9779,7 @@
       "makineTepkisi": "Fren bırakılmaz (X6511). Güvenli durum: fren yeniden uygulanır ve kalır.",
       "siddet": "uyari",
       "nedenler": [
-        "Öğretme (teach-in) işlemi sırasında hata.",
+        "Öğretme (teach-in) işlemi sırasında hata",
         "Öğretme (teach-in) sırasında hata — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9806,7 +9806,7 @@
       "makineTepkisi": "Fren bırakılmaz (X6511). Güvenli durum: fren yeniden uygulanır ve kalır.",
       "siddet": "uyari",
       "nedenler": [
-        "Limit konum anahtarı sinyali mevcut konuma uymuyor (fren uygulanmış veya bırakılmış).",
+        "Limit konum anahtarı sinyali mevcut konuma uymuyor (fren uygulanmış veya bırakılmış)",
         "Limit konum anahtarı hatası — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9833,7 +9833,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Öğretme işleminde 20 denemeden sonra mantıksız ölçüm değerleri kaydedildi; iki ardışık ölçüm tolerans içinde olmalı.",
+        "Öğretme işleminde 20 denemeden sonra mantıksız ölçüm değerleri kaydedildi; iki ardışık ölçüm tolerans içinde olmalı",
         "Öğretmede diferansiyel yollar kararsız — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9860,7 +9860,7 @@
       "makineTepkisi": "Bakım gerekiyor (X6501). Bileşen hata durumu bildirir.",
       "siddet": "uyari",
       "nedenler": [
-        "Çekme yolu uyarı eşiğini aştı.",
+        "Çekme yolu uyarı eşiğini aştı",
         "Kablo kopması uyarısı — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9887,7 +9887,7 @@
       "makineTepkisi": "Elektrikli fren fonksiyonu yok (X6510); park için el çarkıyla fren uygulanmalı.",
       "siddet": "uyari",
       "nedenler": [
-        "Çekme yolu hata eşiğini aştı.",
+        "Çekme yolu hata eşiğini aştı",
         "Kablo kopması hatası — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9914,7 +9914,7 @@
       "makineTepkisi": "Bakım gerekiyor (X6501).",
       "siddet": "uyari",
       "nedenler": [
-        "Fren ömrünü ve yük sınırını doldurdu; servis mesajı hatası.",
+        "Fren ömrünü ve yük sınırını doldurdu; servis mesajı hatası",
         "Tam güçte maksimum fren çevrimi — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9941,7 +9941,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Fren ömrünü ve yük sınırını doldurdu; servis mesajı hatası.",
+        "Fren ömrünü ve yük sınırını doldurdu; servis mesajı hatası",
         "Düşük güçte maksimum fren çevrimi — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9968,7 +9968,7 @@
       "makineTepkisi": "Servis mesajı hatası gösterilir.",
       "siddet": "uyari",
       "nedenler": [
-        "Düğme ömrünü doldurdu.",
+        "Düğme ömrünü doldurdu",
         "Maksimum düğme çevrimine ulaşıldı — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -9995,7 +9995,7 @@
       "makineTepkisi": "Bileşen hata durumu bildirir. Servis mesajı hatası gösterilir.",
       "siddet": "uyari",
       "nedenler": [
-        "Yağlama ünitesinde yağ kalmadı; yük sınırına ulaşıldı.",
+        "Yağlama ünitesinde yağ kalmadı; yük sınırına ulaşıldı",
         "Maksimum yağlamaya ulaşıldı — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -10022,7 +10022,7 @@
       "makineTepkisi": "Elektrikli fren fonksiyonu yok (X6510); park için el çarkıyla fren uygulanmalı.",
       "siddet": "uyari",
       "nedenler": [
-        "Motor sıcaklığı çok yüksek.",
+        "Motor sıcaklığı çok yüksek",
         "Motor sıcaklığı çok yüksek — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -10049,7 +10049,7 @@
       "makineTepkisi": "Sıcaklık uyarısı (X6502).",
       "siddet": "uyari",
       "nedenler": [
-        "Motor sıcaklığı uyarı eşiğini aştı; bırakma gecikmesi.",
+        "Motor sıcaklığı uyarı eşiğini aştı; bırakma gecikmesi",
         "Motor sıcaklık uyarısı — elektrikli el freni içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -10076,7 +10076,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Cihaz kendi teşhisinde bir arıza kaydetti.",
+        "Cihaz kendi teşhisinde bir arıza kaydetti",
         "RFID arızası — RFID kontrol ünitesi — RFID kontrol ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -10103,7 +10103,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Cihaz kendi teşhisinde bir arıza kaydetti.",
+        "Cihaz kendi teşhisinde bir arıza kaydetti",
         "Dahili işlem hatası — RFID kontrol ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -10130,7 +10130,7 @@
       "makineTepkisi": "Araç hızı sınırlandırılır.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "SD kart okunamıyor.",
+        "SD kart okunamıyor",
         "SD kart eksik — RFID kontrol ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -10157,7 +10157,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Cihaz kendi teşhisinde bir arıza kaydetti.",
+        "Cihaz kendi teşhisinde bir arıza kaydetti",
         "SD kart okunamıyor — RFID kontrol ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -10184,7 +10184,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Cihaz kendi teşhisinde bir arıza kaydetti.",
+        "Cihaz kendi teşhisinde bir arıza kaydetti",
         "Dahili işlem hatası — RFID kontrol ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -10211,7 +10211,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Cihaz kendi teşhisinde bir arıza kaydetti.",
+        "Cihaz kendi teşhisinde bir arıza kaydetti",
         "RFID güvenli durum hatası — RFID kontrol ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -10238,7 +10238,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Cihaz kendi teşhisinde bir arıza kaydetti.",
+        "Cihaz kendi teşhisinde bir arıza kaydetti",
         "Bilinmeyen transponder — RFID kontrol ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -10265,7 +10265,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Cihaz kendi teşhisinde bir arıza kaydetti.",
+        "Cihaz kendi teşhisinde bir arıza kaydetti",
         "SD kart eksik veya hatalı — RFID kontrol ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
@@ -10292,7 +10292,7 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Cihaz kendi teşhisinde bir arıza kaydetti.",
+        "Cihaz kendi teşhisinde bir arıza kaydetti",
         "SD kart eksik veya hatalı — RFID kontrol ünitesi içinde algılanan arıza durumu"
       ],
       "kontroller": [
