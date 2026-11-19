@@ -4,11 +4,18 @@
  * küratörlük katmanına kopyalar. Böylece bir sonraki `birlestir.mjs`
  * çalışması bu dosyaları ham kaynakla EZEMEZ.
  *
+ * GÜVENLİK KURALI: küratörlükte zaten var olan bir dosya, açıkça
+ * `--force` verilmedikçe ÜZERİNE YAZILMAZ. Çünkü src/data/seriler/
+ * dosyaları ham kaynaktan üretilmiş olabilir; elle işlenmiş küratörlük
+ * sürümünü kaybetmemek için varsayılan davranış korumacıdır.
+ *
  * Kullanım:
- *   node tools/kuretaj-al.mjs                 # tüm serileri al
- *   node tools/kuretaj-al.mjs traigo-48 ...   # sadece belirtilenleri al
+ *   node tools/kuretaj-al.mjs                    # yalnızca yeni serileri al
+ *   node tools/kuretaj-al.mjs --force            # hepsini yeniden al
+ *   node tools/kuretaj-al.mjs traigo-48 --force  # belirtileni zorla al
  */
-import { readFile, readdir, mkdir, writeFile, copyFile } from 'node:fs/promises';
+import { readFile, readdir, mkdir, copyFile } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -19,16 +26,28 @@ const HEDEF = join(KOK, 'src', 'data', 'kuretaj', 'seriler');
 
 await mkdir(HEDEF, { recursive: true });
 
-const istenen = process.argv.slice(2);
+const argumanlar = process.argv.slice(2);
+const zorla = argumanlar.includes('--force');
+const istenen = argumanlar.filter((a) => !a.startsWith('--'));
+
 const dosyalar = (await readdir(KAYNAK))
   .filter((d) => d.endsWith('.json'))
   .filter((d) => istenen.length === 0 || istenen.some((i) => d.includes(i)));
 
 let alinan = 0;
 let atlanan = 0;
+let korunan = 0;
 
 for (const dosya of dosyalar) {
   const yol = join(KAYNAK, dosya);
+  const hedefYol = join(HEDEF, dosya);
+
+  if (existsSync(hedefYol) && !zorla) {
+    console.log(`[kuretaj-al] KORUNDU (zaten küratörlükte): ${dosya} — zorlamak için --force`);
+    korunan++;
+    continue;
+  }
+
   let icerik;
   try {
     icerik = JSON.parse(await readFile(yol, 'utf8'));
@@ -60,4 +79,4 @@ for (const dosya of dosyalar) {
   alinan++;
 }
 
-console.log(`[kuretaj-al] ${alinan} seri küratörlüğe alındı, ${atlanan} atlandı.`);
+console.log(`[kuretaj-al] ${alinan} seri alındı, ${korunan} korundu, ${atlanan} atlandı.`);

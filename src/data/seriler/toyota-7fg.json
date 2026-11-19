@@ -12,32 +12,48 @@
       "kodNormal": "41",
       "aliaslar": [],
       "sistem": "direksiyon",
-      "baslik": "Sıfırlama (reset) anahtarı anormalliği",
-      "aciklama": "Sıfırlama (reset) anahtarı anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi. Analizatör (SST) dışı kullanımda gösterilen kod.",
-      "makineTepkisi": "",
+      "baslik": "Sıfırlama anahtarı anormalliği (direksiyon)",
+      "aciklama": "Sıfırlama anahtarından gelen giriş sinyali beklenen durumda değil; SAS kontrolörü sıfırlama talebini doğrulayamadığı için bu kodu saklar.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Sıfırlama anahtarı temas hatası",
+        "Anahtar kablo demetinde kopukluk",
+        "Kontrolör giriş devresi arızası"
+      ],
+      "kontroller": [
+        "Sıfırlama anahtarı sinyalini teşhis cihazıyla okuyun.",
+        "Anahtar kablo ve konektörlerini inceleyin.",
+        "Gerekirse anahtarı değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "42",
       "kodNormal": "42",
       "aliaslar": [],
       "sistem": "direksiyon",
-      "baslik": "Teşhis (DIAG) anahtarı anormalliği",
-      "aciklama": "Teşhis (DIAG) anahtarı anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi. Analizatör (SST) dışı kullanımda gösterilen kod.",
-      "makineTepkisi": "",
+      "baslik": "Teşhis anahtarı anormalliği (direksiyon)",
+      "aciklama": "Teşhis (DIAG) anahtarının giriş sinyali geçersiz; kontrolör servis moduna geçiş talebini algılayamıyor.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Teşhis anahtarı temas hatası",
+        "Anahtar kablo demetinde kopukluk",
+        "Kontrolör giriş devresi arızası"
+      ],
+      "kontroller": [
+        "Teşhis anahtarı sinyalini teşhis cihazıyla okuyun.",
+        "Teşhis anahtarı kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "41-1",
@@ -47,16 +63,24 @@
         "411"
       ],
       "sistem": "direksiyon",
-      "baslik": "Sıfırlama (reset) anahtarı anormalliği",
-      "aciklama": "Sıfırlama (reset) anahtarı anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi. Analizatör (SST) ile okunan alt kod.",
-      "makineTepkisi": "",
+      "baslik": "Sıfırlama anahtarı sinyali, alt kod (direksiyon)",
+      "aciklama": "Sıfırlama anahtarıyla ilgili bu alt kod, teşhis cihazıyla okunan ayrıntılı arıza kaydıdır; ana 41 koduyla aynı devreyi işaret eder.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Sıfırlama anahtarı temas hatası",
+        "Anahtar sinyal hattında temassızlık",
+        "Kontrolör giriş devresi arızası"
+      ],
+      "kontroller": [
+        "Sıfırlama anahtarı sinyalini teşhis cihazıyla okuyun.",
+        "Sıfırlama anahtarı kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "42-1",
@@ -66,32 +90,48 @@
         "421"
       ],
       "sistem": "direksiyon",
-      "baslik": "Teşhis (DIAG) anahtarı anormalliği",
-      "aciklama": "Teşhis (DIAG) anahtarı anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi. Analizatör (SST) ile okunan alt kod.",
-      "makineTepkisi": "",
+      "baslik": "Teşhis anahtarı sinyali, alt kod (direksiyon)",
+      "aciklama": "Teşhis anahtarıyla ilgili bu alt kod yalnızca teşhis cihazıyla okunabilir ve ana 42 kodunun ayrıntısını verir.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Teşhis anahtarı temas hatası",
+        "Anahtar sinyal hattında temassızlık",
+        "Kontrolör giriş devresi arızası"
+      ],
+      "kontroller": [
+        "Teşhis anahtarı sinyalini teşhis cihazıyla okuyun.",
+        "Teşhis anahtarı kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "51",
       "kodNormal": "51",
       "aliaslar": [],
       "sistem": "direksiyon",
-      "baslik": "Hız sensörü anormalliği",
-      "aciklama": "Hız sensörü anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi. Analizatör (SST) dışı kullanımda gösterilen kod.",
-      "makineTepkisi": "",
+      "baslik": "Hız ölçüm sinyali anormalliği (direksiyon)",
+      "aciklama": "Araç hız bilgisini üreten ölçüm hattından gelen sinyal beklenen aralıkta değil; kontrolör hıza bağlı destek kontrolünü güvenilir yapamaz.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Sinyal hattında kopukluk veya kısa devre",
+        "Konnektör temassızlığı",
+        "Ölçüm elemanı arızası"
+      ],
+      "kontroller": [
+        "Hız ölçümü sinyalini teşhis cihazıyla okuyun.",
+        "Hız ölçümü kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "51-1",
@@ -101,16 +141,24 @@
         "511"
       ],
       "sistem": "direksiyon",
-      "baslik": "Hız sensörü açık devre",
-      "aciklama": "Hız sensörü açık devre. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi. Analizatör (SST) ile okunan alt kod.",
-      "makineTepkisi": "",
+      "baslik": "Hız ölçüm hattı açık devre (direksiyon)",
+      "aciklama": "Hız ölçüm devresinde açıklık algılandı; sinyal kontrolöre ulaşmadığı için hız bilgisi okunamıyor.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Sinyal kablo demetinde kopukluk",
+        "Konnektör temassızlığı",
+        "Ölçüm elemanı sargı kopukluğu"
+      ],
+      "kontroller": [
+        "Hız ölçüm hattı sinyalini teşhis cihazıyla okuyun.",
+        "Hız ölçüm hattı kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "51-2",
@@ -120,32 +168,48 @@
         "512"
       ],
       "sistem": "direksiyon",
-      "baslik": "Hız sensörü kısa devre",
-      "aciklama": "Hız sensörü kısa devre. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi. Analizatör (SST) ile okunan alt kod.",
-      "makineTepkisi": "",
+      "baslik": "Hız ölçüm hattı kısa devre (direksiyon)",
+      "aciklama": "Hız ölçüm devresinde kısa devre algılandı; ölçüm sinyali bozulduğu için kontrolör gerçek hızı belirleyemiyor.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Sinyal kablolarında kısa devre",
+        "Konnektörde nem veya kirlenme",
+        "Ölçüm elemanı arızası"
+      ],
+      "kontroller": [
+        "Hız ölçüm hattı sinyalini teşhis cihazıyla okuyun.",
+        "Hız ölçüm hattı kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "52",
       "kodNormal": "52",
       "aliaslar": [],
       "sistem": "direksiyon",
-      "baslik": "Sapma hızı (yaw rate) sensörü anormalliği",
-      "aciklama": "Sapma hızı (yaw rate) sensörü anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi. Analizatör (SST) dışı kullanımda gösterilen kod.",
-      "makineTepkisi": "",
+      "baslik": "Sapma hızı ölçüm sinyali anormalliği (direksiyon)",
+      "aciklama": "Sapma hızı ölçüm elemanından gelen sinyal aralık dışında; kontrolör aracın dönme oranını doğru değerlendiremiyor.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Sapma hızı ölçüm elemanı arızası",
+        "Ölçüm elemanı montajının bozulması",
+        "Sinyal hattı temassızlığı"
+      ],
+      "kontroller": [
+        "Sapma hızı ölçümü sinyalini teşhis cihazıyla okuyun.",
+        "Sapma hızı ölçümü kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "52-1",
@@ -155,16 +219,24 @@
         "521"
       ],
       "sistem": "direksiyon",
-      "baslik": "Sapma hızı (yaw rate) sensörü açık devre",
-      "aciklama": "Sapma hızı (yaw rate) sensörü açık devre. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Sapma hızı ölçüm hattı açık devre (direksiyon)",
+      "aciklama": "Sapma hızı ölçüm devresinde açıklık var; dönme oranına ait sinyal kontrolöre iletilemiyor.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Sinyal kablo demetinde kopukluk",
+        "Konnektör temassızlığı",
+        "Ölçüm elemanı sargı kopukluğu"
+      ],
+      "kontroller": [
+        "Sapma hızı hattı sinyalini teşhis cihazıyla okuyun.",
+        "Sapma hızı hattı kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "52-2",
@@ -174,16 +246,24 @@
         "522"
       ],
       "sistem": "direksiyon",
-      "baslik": "Sapma hızı (yaw rate) sensörü kısa devre",
-      "aciklama": "Sapma hızı (yaw rate) sensörü kısa devre. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Sapma hızı ölçüm hattı kısa devre (direksiyon)",
+      "aciklama": "Sapma hızı ölçüm devresinde kısa devre var; bozulan sinyal nedeniyle dönme oranı güvenilir değil.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Sinyal kablolarında kısa devre",
+        "Konnektörde nem veya kirlenme",
+        "Ölçüm elemanı arızası"
+      ],
+      "kontroller": [
+        "Sapma hızı hattı sinyalini teşhis cihazıyla okuyun.",
+        "Sapma hızı hattı kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "52-3",
@@ -193,38 +273,50 @@
         "523"
       ],
       "sistem": "direksiyon",
-      "baslik": "Sapma hızı (yaw rate) sensörü nötr gerilim anormalliği",
-      "aciklama": "Sapma hızı (yaw rate) sensörü nötr gerilim anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Sapma hızı nötr gerilim anormalliği (direksiyon)",
+      "aciklama": "Sapma hızı ölçüm elemanının durağan haldeki nötr gerilimi beklenen değerden saptı; referans noktası bozulmuş olabilir.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Ölçüm elemanı nötr gerilim kayması",
+        "Referans gerilim devresi arızası",
+        "Ölçüm elemanı arızası"
+      ],
+      "kontroller": [
+        "Nötr gerilim sinyalini teşhis cihazıyla okuyun.",
+        "Nötr gerilim kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "54",
       "kodNormal": "54",
       "aliaslar": [],
       "sistem": "hidrolik",
-      "baslik": "Salınım (swing) solenoidi anormalliği",
-      "aciklama": "Salınım (swing) solenoidi anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi. Arıza aydınlatma akışı sayfa 3-4'tedir.",
-      "makineTepkisi": "",
+      "baslik": "Salınım solenoidi anormalliği (hidrolik)",
+      "aciklama": "Salınım (swing) solenoidinin elektrik devresinde anormallik algılandı; ilgili hidrolik işlev komutu güvenilir uygulanamaz.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
       "nedenler": [
         "Konnektör temas hatası",
-        "Salınım (swing) solenoidi kablo demeti hatası",
-        "Salınım (swing) solenoidi arızası",
+        "Salınım solenoidi kablo demeti hatası",
+        "Salınım solenoidi arızası",
         "Diyot arızası",
         "Kontrolör arızası"
       ],
-      "kontroller": [],
+      "kontroller": [
+        "Salınım solenoidi devresini ölçün.",
+        "Konnektörü, kablo demetini ve diyodu inceleyin.",
+        "Gerekirse solenoidi veya kontrolörü değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "54-1",
@@ -234,38 +326,49 @@
         "541"
       ],
       "sistem": "hidrolik",
-      "baslik": "Salınım (swing) solenoidi anormalliği",
-      "aciklama": "Salınım (swing) solenoidi anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi. Analizatör (SST) ile okunan alt kod; aydınlatma akışı sayfa 3-4.",
-      "makineTepkisi": "",
+      "baslik": "Salınım solenoidi, alt kod (hidrolik)",
+      "aciklama": "Salınım solenoidine ait bu alt kod yalnızca teşhis cihazıyla okunur ve ana 54 kodunun ayrıntılı kaydıdır.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
       "nedenler": [
         "Konnektör temas hatası",
-        "Salınım (swing) solenoidi kablo demeti hatası",
-        "Salınım (swing) solenoidi arızası",
-        "Diyot arızası",
-        "Kontrolör arızası"
+        "Salınım solenoidi kablo demeti hatası",
+        "Salınım solenoidi arızası",
+        "Diyot arızası"
       ],
-      "kontroller": [],
+      "kontroller": [
+        "Salınım solenoidi devresini ölçün.",
+        "Kablo demetini ve diyodu inceleyin.",
+        "Gerekirse solenoidi değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "61",
       "kodNormal": "61",
       "aliaslar": [],
       "sistem": "hidrolik",
-      "baslik": "Yük sensörü anormalliği",
-      "aciklama": "Yük sensörü anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Yük ölçüm sinyali anormalliği (hidrolik)",
+      "aciklama": "Yük ölçüm hattından gelen sinyal geçerli aralıkta değil; kontrolör taşınan yükü doğru belirleyemiyor.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Sinyal hattında kopukluk veya kısa devre",
+        "Konnektör temassızlığı",
+        "Ölçüm elemanı arızası"
+      ],
+      "kontroller": [
+        "Yük ölçümü sinyalini teşhis cihazıyla okuyun.",
+        "Yük ölçümü kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "61-1",
@@ -275,16 +378,24 @@
         "611"
       ],
       "sistem": "hidrolik",
-      "baslik": "Yük sensörü açık devre",
-      "aciklama": "Yük sensörü açık devre. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Yük ölçüm hattı açık devre (hidrolik)",
+      "aciklama": "Yük ölçüm devresinde açıklık algılandı; yük bilgisi kontrolöre ulaşmadığı için koruma işlevleri etkilenir.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Sinyal kablo demetinde kopukluk",
+        "Konnektör temassızlığı",
+        "Ölçüm elemanı sargı kopukluğu"
+      ],
+      "kontroller": [
+        "Yük ölçüm hattı sinyalini teşhis cihazıyla okuyun.",
+        "Yük ölçüm hattı kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "61-2",
@@ -294,32 +405,48 @@
         "612"
       ],
       "sistem": "hidrolik",
-      "baslik": "Yük sensörü kısa devre",
-      "aciklama": "Yük sensörü kısa devre. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Yük ölçüm hattı kısa devre (hidrolik)",
+      "aciklama": "Yük ölçüm devresinde kısa devre algılandı; ölçüm değeri bozulduğu için yük bilgisi güvenilir değil.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Sinyal kablolarında kısa devre",
+        "Konnektörde nem veya kirlenme",
+        "Ölçüm elemanı arızası"
+      ],
+      "kontroller": [
+        "Yük ölçüm hattı sinyalini teşhis cihazıyla okuyun.",
+        "Yük ölçüm hattı kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "62",
       "kodNormal": "62",
       "aliaslar": [],
       "sistem": "hidrolik",
-      "baslik": "Eğim (tilt) açı sensörü anormalliği",
-      "aciklama": "Eğim (tilt) açı sensörü anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Eğim açı ölçüm sinyali anormalliği (hidrolik)",
+      "aciklama": "Direk eğim açısını ölçen hattan gelen sinyal beklenen aralıkta değil; açıya bağlı hız kısıtlaması doğru uygulanamaz.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Açı ölçüm elemanı arızası",
+        "Ölçüm elemanı montajının bozulması",
+        "Sinyal hattı temassızlığı"
+      ],
+      "kontroller": [
+        "Eğim açı ölçümü sinyalini teşhis cihazıyla okuyun.",
+        "Eğim açı ölçümü kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "62-1",
@@ -329,16 +456,24 @@
         "621"
       ],
       "sistem": "hidrolik",
-      "baslik": "Eğim (tilt) açı sensörü açık devre",
-      "aciklama": "Eğim (tilt) açı sensörü açık devre. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Eğim açı ölçüm hattı açık devre (hidrolik)",
+      "aciklama": "Eğim açı ölçüm devresinde açıklık var; direktör açı bilgisi kontrolöre iletilemiyor.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Sinyal kablo demetinde kopukluk",
+        "Konnektör temassızlığı",
+        "Ölçüm elemanı sargı kopukluğu"
+      ],
+      "kontroller": [
+        "Eğim açı hattı sinyalini teşhis cihazıyla okuyun.",
+        "Eğim açı hattı kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "62-2",
@@ -348,32 +483,48 @@
         "622"
       ],
       "sistem": "hidrolik",
-      "baslik": "Eğim (tilt) açı sensörü kısa devre",
-      "aciklama": "Eğim (tilt) açı sensörü kısa devre. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Eğim açı ölçüm hattı kısa devre (hidrolik)",
+      "aciklama": "Eğim açı ölçüm devresinde kısa devre var; bozulan açı sinyali nedeniyle koruma stratejisi etkileniyor.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Sinyal kablolarında kısa devre",
+        "Konnektörde nem veya kirlenme",
+        "Ölçüm elemanı arızası"
+      ],
+      "kontroller": [
+        "Eğim açı hattı sinyalini teşhis cihazıyla okuyun.",
+        "Eğim açı hattı kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "63",
       "kodNormal": "63",
       "aliaslar": [],
       "sistem": "hidrolik",
-      "baslik": "Eğim (tilt) kol anahtarı anormalliği",
-      "aciklama": "Eğim (tilt) kol anahtarı anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi. Mini kol donanımlı araçta ileri/geri eğim durdurma bölümüne bakınız.",
-      "makineTepkisi": "",
+      "baslik": "Eğim kol anahtarı anormalliği (hidrolik)",
+      "aciklama": "Eğim kolundan gelen anahtar sinyali tutarsız; kontrolör ileri veya geri eğim talebini güvenilir algılayamıyor. Mini kollu araçlarda ileri ve geri eğim durdurma bölümü de kontrol edilmelidir.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Eğim kol anahtarı temas hatası",
+        "Anahtar kablo demetinde kopukluk",
+        "Kol mekanizmasında sıkışma"
+      ],
+      "kontroller": [
+        "Eğim kol anahtarlarının sinyallerini teşhis cihazıyla okuyun.",
+        "Kol mekanizmasını ve kablo demetini inceleyin.",
+        "Gerekirse anahtarı değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "63-1",
@@ -383,16 +534,24 @@
         "631"
       ],
       "sistem": "direksiyon",
-      "baslik": "Eğim kol anahtarı anormalliği — her iki anahtar aynı anda açık",
-      "aciklama": "Eğim kol anahtarı anormalliği — her iki anahtar aynı anda açık. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Eğim kol anahtarları birlikte açık (direksiyon)",
+      "aciklama": "İleri ve geri eğim anahtarları aynı anda açık sinyal veriyor; kontrolör çelişkili komut nedeniyle eğim işlemini onaylamıyor.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "İki eğim anahtarının aynı anda açık kalması",
+        "Anahtar kablolarında kısa devre",
+        "Kol mekanizması ayar hatası"
+      ],
+      "kontroller": [
+        "Her iki eğim anahtarının sinyalini ayrı ayrı okuyun.",
+        "Anahtar kablolarında kısa devre olup olmadığını inceleyin.",
+        "Gerekirse anahtarları değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "63-2",
@@ -402,16 +561,24 @@
         "632"
       ],
       "sistem": "direksiyon",
-      "baslik": "İleri eğim anahtarı 2 dakika boyunca kısa devre",
-      "aciklama": "İleri eğim anahtarı 2 dakika boyunca kısa devre. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "İleri eğim anahtarı 2 dakika kısa devre (direksiyon)",
+      "aciklama": "İleri eğim anahtarı iki dakika boyunca sürekli kısa devre sinyali verdi; kontrolör bunu kalıcı bir arıza olarak kaydetti.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "İleri eğim anahtarında sürekli kısa devre",
+        "Anahtar kablo demetinde şasi kaçağı",
+        "Anahtar mekanizmasında sıkışma"
+      ],
+      "kontroller": [
+        "İleri eğim anahtarı sinyalini teşhis cihazıyla okuyun.",
+        "İleri eğim anahtarı kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "63-3",
@@ -421,32 +588,48 @@
         "633"
       ],
       "sistem": "direksiyon",
-      "baslik": "Geri eğim anahtarı 2 dakika boyunca kısa devre",
-      "aciklama": "Geri eğim anahtarı 2 dakika boyunca kısa devre. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Geri eğim anahtarı 2 dakika kısa devre (direksiyon)",
+      "aciklama": "Geri eğim anahtarı iki dakika boyunca sürekli kısa devre sinyali verdi; kontrolör bu durumu arıza olarak sakladı.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Geri eğim anahtarında sürekli kısa devre",
+        "Anahtar kablo demetinde şasi kaçağı",
+        "Anahtar mekanizmasında sıkışma"
+      ],
+      "kontroller": [
+        "Geri eğim anahtarı sinyalini teşhis cihazıyla okuyun.",
+        "Geri eğim anahtarı kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 39,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "64",
       "kodNormal": "64",
       "aliaslar": [],
       "sistem": "hidrolik",
-      "baslik": "1 numaralı eğim (tilt) solenoidi anormalliği",
-      "aciklama": "1 numaralı eğim (tilt) solenoidi anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi. Mini kol donanımlı araçta ileri eğim durdurma bölümüne bakınız.",
-      "makineTepkisi": "",
+      "baslik": "Birinci eğim solenoidi anormalliği (hidrolik)",
+      "aciklama": "Bir numaralı eğim solenoidinin devresinde anormallik algılandı; ilgili eğim hareketi güvenilir gerçekleşmeyebilir. Mini kollu araçlarda ileri eğim durdurma bölümü de incelenmelidir.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Eğim solenoidi bobin arızası",
+        "Kablo demeti temassızlığı",
+        "Solenoid sürücü çıkışı arızası"
+      ],
+      "kontroller": [
+        "Solenoid devresini ölçün.",
+        "Bobin direncini ve kablo demetini inceleyin.",
+        "Gerekirse solenoidi değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "64-1",
@@ -456,32 +639,48 @@
         "641"
       ],
       "sistem": "hidrolik",
-      "baslik": "1 numaralı eğim (tilt) solenoidi anormalliği",
-      "aciklama": "1 numaralı eğim (tilt) solenoidi anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi. Analizatör (SST) ile okunan alt kod.",
-      "makineTepkisi": "",
+      "baslik": "Birinci eğim solenoidi, alt kod (hidrolik)",
+      "aciklama": "Bir numaralı eğim solenoidine ait bu alt kod yalnızca teşhis cihazıyla okunur ve ana 64 kodunun ayrıntısını verir.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Eğim solenoidi bobin arızası",
+        "Kablo demeti temassızlığı",
+        "Solenoid sürücü çıkışı arızası"
+      ],
+      "kontroller": [
+        "Solenoid devresini ölçün.",
+        "Kablo demetini ve konektörü inceleyin.",
+        "Gerekirse solenoidi değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "66",
       "kodNormal": "66",
       "aliaslar": [],
       "sistem": "hidrolik",
-      "baslik": "Eğim açısı sıfırlama değeri anormalliği",
-      "aciklama": "Eğim açısı sıfırlama değeri anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Eğim açısı sıfırlama değeri anormalliği (hidrolik)",
+      "aciklama": "Eğim açısı için kaydedilen sıfırlama referansı geçersiz; kontrolör açı ölçümünü doğru başlatamadığı için yeniden sıfırlama gerekir.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Sıfırlama işleminin yapılmaması",
+        "Açı ölçüm elemanı referans kayması",
+        "Ölçüm elemanı arızası"
+      ],
+      "kontroller": [
+        "Kayıtlı sıfırlama değerini teşhis cihazından okuyun.",
+        "Üretici talimatına göre sıfırlama işlemini yeniden uygulayın.",
+        "Değer tutmuyorsa ölçüm elemanını değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "66-1",
@@ -491,32 +690,48 @@
         "661"
       ],
       "sistem": "hidrolik",
-      "baslik": "Eğim açısı sıfırlama değeri anormalliği",
-      "aciklama": "Eğim açısı sıfırlama değeri anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi. Analizatör (SST) ile okunan alt kod.",
-      "makineTepkisi": "",
+      "baslik": "Eğim açısı sıfırlama değeri, alt kod (hidrolik)",
+      "aciklama": "Eğim açısı sıfırlama değerine ait bu alt kod teşhis cihazıyla okunur ve referans ayarındaki sapmayı ayrıntılandırır.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Sıfırlama değerinin aralık dışında olması",
+        "Açı ölçüm elemanı referans kayması",
+        "Ölçüm elemanı arızası"
+      ],
+      "kontroller": [
+        "Sıfırlama değerini teşhis cihazıyla doğrulayın.",
+        "Sıfırlama prosedürünü yeniden uygulayın.",
+        "Gerekirse ölçüm elemanını değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "67",
       "kodNormal": "67",
       "aliaslar": [],
       "sistem": "hidrolik",
-      "baslik": "Çatal yüksekliği anahtarı anormalliği (çatal yükseklik anahtarı olmayan araçta)",
-      "aciklama": "Çatal yüksekliği anahtarı anormalliği (çatal yükseklik anahtarı olmayan araçta). Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Çatal yükseklik şalteri anormalliği, şaltersiz (hidrolik)",
+      "aciklama": "Çatal yükseklik şalteri bulunmayan araçta ilgili girişin beklenen durumda olması gerekir; algılanan sinyal bu koşulla uyuşmuyor.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Şaltersiz araçta yanlış giriş durumu",
+        "Kablolama veya konektör hatası",
+        "Kontrolör giriş devresi arızası"
+      ],
+      "kontroller": [
+        "İlgili giriş sinyalini teşhis cihazıyla okuyun.",
+        "Kablo ve konektörleri inceleyip araç donanımını doğrulayın.",
+        "Gerekirse kablolamayı düzeltin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "67-1",
@@ -526,38 +741,50 @@
         "671"
       ],
       "sistem": "hidrolik",
-      "baslik": "Çatal yüksekliği anahtarı anormalliği (çatal yükseklik anahtarı bulunan araçta)",
-      "aciklama": "Çatal yüksekliği anahtarı anormalliği (çatal yükseklik anahtarı bulunan araçta). Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Çatal yükseklik şalteri anormalliği, şalterli (hidrolik)",
+      "aciklama": "Çatal yükseklik şalteri bulunan araçta şalter sinyali beklenen durumda değil; kontrolör çatal konumunu doğrulayamıyor.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Yükseklik şalteri temas hatası",
+        "Şalter kablo demetinde kopukluk",
+        "Şalter montaj ayarının bozulması"
+      ],
+      "kontroller": [
+        "Çatal yükseklik şalteri sinyalini teşhis cihazıyla okuyun.",
+        "Çatal yükseklik şalteri kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "71",
       "kodNormal": "71",
       "aliaslar": [],
       "sistem": "direksiyon",
-      "baslik": "Tekerlek açı sensörü anormalliği",
-      "aciklama": "Tekerlek açı sensörü anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi. Arıza aydınlatma akışı sayfa 3-8'dedir.",
-      "makineTepkisi": "",
+      "baslik": "Tekerlek açı ölçüm sinyali anormalliği (direksiyon)",
+      "aciklama": "Tekerlek açı ölçüm elemanından gelen sinyal geçersiz; kontrolör tekerlek yönünü doğru belirleyemiyor. Arıza aydınlatma akışı kılavuzun 3-8. sayfasındadır.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
       "nedenler": [
         "Konnektör temas hatası",
-        "Tekerlek açı sensörü kablo demeti hatası",
-        "Tekerlek açı sensörü arızası",
-        "Tekerlek açı sensörü mafsalmı / arka aks bağlantı sistemi hatası",
+        "Tekerlek açı ölçüm elemanı kablo demeti hatası",
+        "Tekerlek açı ölçüm elemanı arızası",
+        "Mafsal veya arka aks bağlantı sistemi hatası",
         "Kontrolör arızası"
       ],
-      "kontroller": [],
+      "kontroller": [
+        "Tekerlek açı ölçümü sinyalini teşhis cihazıyla okuyun.",
+        "Tekerlek açı ölçümü kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "71-1",
@@ -567,22 +794,25 @@
         "711"
       ],
       "sistem": "direksiyon",
-      "baslik": "Tekerlek açı sensörü açık devre",
-      "aciklama": "Tekerlek açı sensörü açık devre. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Tekerlek açı ölçüm hattı açık devre (direksiyon)",
+      "aciklama": "Tekerlek açı ölçüm devresinde açıklık algılandı; açı bilgisi kontrolöre ulaşmadığı için yön geri beslemesi kesildi.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
       "nedenler": [
-        "Konnektör temas hatası",
-        "Tekerlek açı sensörü kablo demeti hatası",
-        "Tekerlek açı sensörü arızası",
-        "Tekerlek açı sensörü mafsalmı / arka aks bağlantı sistemi hatası",
-        "Kontrolör arızası"
+        "Sinyal kablo demetinde kopukluk",
+        "Konnektör temassızlığı",
+        "Ölçüm elemanı sargı kopukluğu",
+        "Mafsal veya arka aks bağlantı sistemi hatası"
       ],
-      "kontroller": [],
+      "kontroller": [
+        "Tekerlek açı hattı sinyalini teşhis cihazıyla okuyun.",
+        "Tekerlek açı hattı kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "71-2",
@@ -592,38 +822,49 @@
         "712"
       ],
       "sistem": "direksiyon",
-      "baslik": "Tekerlek açı sensörü kısa devre",
-      "aciklama": "Tekerlek açı sensörü kısa devre. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Tekerlek açı ölçüm hattı kısa devre (direksiyon)",
+      "aciklama": "Tekerlek açı ölçüm devresinde kısa devre algılandı; bozulan sinyal nedeniyle tekerlek yönü güvenilir okunamıyor.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
       "nedenler": [
-        "Konnektör temas hatası",
-        "Tekerlek açı sensörü kablo demeti hatası",
-        "Tekerlek açı sensörü arızası",
-        "Tekerlek açı sensörü mafsalmı / arka aks bağlantı sistemi hatası",
-        "Kontrolör arızası"
+        "Sinyal kablolarında kısa devre",
+        "Konnektörde nem veya kirlenme",
+        "Ölçüm elemanı arızası",
+        "Mafsal veya arka aks bağlantı sistemi hatası"
       ],
-      "kontroller": [],
+      "kontroller": [
+        "Tekerlek açı hattı sinyalini teşhis cihazıyla okuyun.",
+        "Tekerlek açı hattı kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "72",
       "kodNormal": "72",
       "aliaslar": [],
       "sistem": "direksiyon",
-      "baslik": "Direksiyon simidi açı sensörü anormalliği",
-      "aciklama": "Direksiyon simidi açı sensörü anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Direksiyon simidi açı ölçümü anormalliği (direksiyon)",
+      "aciklama": "Direksiyon simidi açı ölçüm elemanından gelen sinyal tutarsız; kontrolör direksiyon konumunu doğru değerlendiremiyor.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Direksiyon açı ölçüm elemanı arızası",
+        "Ölçüm elemanı kalibrasyon hatası",
+        "Sinyal hattı temassızlığı"
+      ],
+      "kontroller": [
+        "Direksiyon simidi açı ölçümü sinyalini teşhis cihazıyla okuyun.",
+        "Direksiyon simidi açı ölçümü kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "72-1",
@@ -633,16 +874,24 @@
         "721"
       ],
       "sistem": "direksiyon",
-      "baslik": "Direksiyon simidi açı sensörü SS1 anormalliği",
-      "aciklama": "Direksiyon simidi açı sensörü SS1 anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Direksiyon açı ölçümü SS1 anormalliği (direksiyon)",
+      "aciklama": "Direksiyon açı ölçüm elemanının SS1 kanalında anormallik var; iki kanaldan biri doğru sinyal üretmiyor.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "SS1 kanalı sinyal hatası",
+        "Kanal kablo demetinde temassızlık",
+        "Ölçüm elemanı arızası"
+      ],
+      "kontroller": [
+        "SS1 kanalı sinyalini teşhis cihazıyla okuyun.",
+        "SS1 kanalı kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "72-2",
@@ -652,16 +901,24 @@
         "722"
       ],
       "sistem": "direksiyon",
-      "baslik": "Direksiyon simidi açı sensörü SS2 anormalliği",
-      "aciklama": "Direksiyon simidi açı sensörü SS2 anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Direksiyon açı ölçümü SS2 anormalliği (direksiyon)",
+      "aciklama": "Direksiyon açı ölçüm elemanının SS2 kanalında anormallik var; çift kanal doğrulaması güvenilir değil.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "SS2 kanalı sinyal hatası",
+        "Kanal kablo demetinde temassızlık",
+        "Ölçüm elemanı arızası"
+      ],
+      "kontroller": [
+        "SS2 kanalı sinyalini teşhis cihazıyla okuyun.",
+        "SS2 kanalı kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "72-3",
@@ -671,16 +928,24 @@
         "723"
       ],
       "sistem": "direksiyon",
-      "baslik": "Direksiyon simidi açı sensörü SSC anormalliği",
-      "aciklama": "Direksiyon simidi açı sensörü SSC anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Direksiyon açı ölçümü SSC anormalliği (direksiyon)",
+      "aciklama": "Direksiyon açı ölçüm elemanının SSC kanalında anormallik algılandı; kontrolör kanallar arası tutarlılığı doğrulayamıyor.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "SSC kanalı sinyal hatası",
+        "Kanallar arası korelasyon hatası",
+        "Ölçüm elemanı arızası"
+      ],
+      "kontroller": [
+        "SSC kanalı sinyalini teşhis cihazıyla okuyun.",
+        "SSC kanalı kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "72-4",
@@ -690,32 +955,48 @@
         "724"
       ],
       "sistem": "direksiyon",
-      "baslik": "Direksiyon simidi açı sensörü açık devre",
-      "aciklama": "Direksiyon simidi açı sensörü açık devre. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Direksiyon açı ölçüm hattı açık devre (direksiyon)",
+      "aciklama": "Direksiyon açı ölçüm devresinde açıklık var; simit konumuna ait sinyal kontrolöre ulaşmıyor.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Sinyal kablo demetinde kopukluk",
+        "Konnektör temassızlığı",
+        "Ölçüm elemanı sargı kopukluğu"
+      ],
+      "kontroller": [
+        "Direksiyon açı hattı sinyalini teşhis cihazıyla okuyun.",
+        "Direksiyon açı hattı kablo demetini ve konektörünü inceleyin.",
+        "Gerekirse ilgili elemanı değiştirip yeniden doğrulayın."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "73",
       "kodNormal": "73",
       "aliaslar": [],
       "sistem": "hidrolik",
-      "baslik": "Knob (direksiyon topuzu) solenoidi anormalliği",
-      "aciklama": "Knob (direksiyon topuzu) solenoidi anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Direksiyon topuzu solenoidi anormalliği (hidrolik)",
+      "aciklama": "Direksiyon topuzu (knob) solenoidinin devresinde anormallik algılandı; topuzla ilgili hidrolik işlev komutu uygulanamayabilir.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Topuz solenoidi bobin arızası",
+        "Bobin kablo demetinde kopukluk",
+        "Solenoid sürücü çıkışı arızası"
+      ],
+      "kontroller": [
+        "Topuz solenoidi devresini ölçün.",
+        "Bobin direncini ve kablo demetini inceleyin.",
+        "Gerekirse solenoidi değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "73-1",
@@ -725,32 +1006,48 @@
         "731"
       ],
       "sistem": "hidrolik",
-      "baslik": "Knob (direksiyon topuzu) solenoidi anormalliği",
-      "aciklama": "Knob (direksiyon topuzu) solenoidi anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi. Analizatör (SST) ile okunan alt kod.",
-      "makineTepkisi": "",
+      "baslik": "Direksiyon topuzu solenoidi, alt kod (hidrolik)",
+      "aciklama": "Direksiyon topuzu solenoidine ait bu alt kod teşhis cihazıyla okunur ve ana 73 kodunun ayrıntılı kaydıdır.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Topuz solenoidi bobin arızası",
+        "Kablo demeti temassızlığı",
+        "Solenoid sürücü çıkışı arızası"
+      ],
+      "kontroller": [
+        "Topuz solenoidi devresini ölçün.",
+        "Konnektörü ve kablo demetini inceleyin.",
+        "Gerekirse solenoidi değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "74",
       "kodNormal": "74",
       "aliaslar": [],
       "sistem": "direksiyon",
-      "baslik": "Tekerlek açısı sıfırlama değeri anormalliği",
-      "aciklama": "Tekerlek açısı sıfırlama değeri anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Tekerlek açısı sıfırlama değeri anormalliği (direksiyon)",
+      "aciklama": "Tekerlek açısı için kaydedilen sıfırlama referansı geçersiz; kontrolör açı ölçümünü doğru başlatamıyor.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Sıfırlama işleminin yapılmaması",
+        "Açı ölçüm elemanı referans kayması",
+        "Ölçüm elemanı montaj hatası"
+      ],
+      "kontroller": [
+        "Kayıtlı sıfırlama değerini teşhis cihazından okuyun.",
+        "Sıfırlama prosedürünü yeniden uygulayın.",
+        "Değer tutmuyorsa ölçüm elemanını kontrol edin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "74-1",
@@ -760,16 +1057,24 @@
         "741"
       ],
       "sistem": "direksiyon",
-      "baslik": "Tekerlek açısı sıfırlama değeri anormalliği",
-      "aciklama": "Tekerlek açısı sıfırlama değeri anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi. Analizatör (SST) ile okunan alt kod.",
-      "makineTepkisi": "",
+      "baslik": "Tekerlek açısı sıfırlama değeri, alt kod (direksiyon)",
+      "aciklama": "Tekerlek açısı sıfırlama değerine ait bu alt kod yalnızca teşhis cihazıyla okunur ve referans sapmasını ayrıntılandırır.",
+      "makineTepkisi": "Uyarı lambası yanar; direksiyon destek fonksiyonu sınırlanabilir, araç düşük hızda kullanılabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Sıfırlama değerinin aralık dışında olması",
+        "Açı ölçüm elemanı referans kayması",
+        "Ölçüm elemanı arızası"
+      ],
+      "kontroller": [
+        "Sıfırlama değerini doğrulayın.",
+        "Sıfırlama prosedürünü yeniden uygulayın.",
+        "Gerekirse ölçüm elemanını değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "AF",
@@ -778,16 +1083,24 @@
         "af"
       ],
       "sistem": "elektrik",
-      "baslik": "Kontrolör anormalliği (CPU)",
-      "aciklama": "Kontrolör anormalliği (CPU). Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi. Kod SAS kontrolörde saklanır; saat sayacında gösterilmez.",
-      "makineTepkisi": "",
+      "baslik": "Kontrolör işlem devresi anormalliği (elektrik)",
+      "aciklama": "SAS kontrolörünün iç işlem devresinde genel bir anormallik algılandı; bu kayıt yalnızca kontrolörde saklanır, saat sayacında gösterilmez.",
+      "makineTepkisi": "Uyarı lambası yanar; kontrolör koruma moduna geçebilir ve destek fonksiyonu devre dışı kalabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Kontrolör merkezi işlem birimi arızası",
+        "Besleme gerilimi kararsızlığı",
+        "Kontrolör dahili devre kusuru"
+      ],
+      "kontroller": [
+        "Kontrolör beslemesini ve topraklamayı ölçün.",
+        "Teşhis cihazıyla tüm alt kodları okuyun.",
+        "Hata sürerse kontrolörü değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "AF-1",
@@ -798,16 +1111,24 @@
         "af-1"
       ],
       "sistem": "elektrik",
-      "baslik": "Kontrolör CPU anormalliği",
-      "aciklama": "Kontrolör CPU anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Kontrolör merkezi işlemci anormalliği (elektrik)",
+      "aciklama": "Kontrolörün merkezi işlem birimi kendi öz testinde hata verdi; komutların güvenilir yürütülmesi sağlanamıyor.",
+      "makineTepkisi": "Uyarı lambası yanar; kontrolör koruma moduna geçebilir ve destek fonksiyonu devre dışı kalabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Merkezi işlem birimi arızası",
+        "İşlemci besleme hattı hatası",
+        "Kontrolör dahili veri yolu hatası"
+      ],
+      "kontroller": [
+        "Besleme ve topraklama bağlantılarını ölçün.",
+        "Kontrolörü yeniden başlatıp hatayı tekrar okuyun.",
+        "Hata kalırsa kontrolörü değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "AF-2",
@@ -818,16 +1139,24 @@
         "af-2"
       ],
       "sistem": "elektrik",
-      "baslik": "Kontrolör ROM anormalliği",
-      "aciklama": "Kontrolör ROM anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Kontrolör program belleği anormalliği (elektrik)",
+      "aciklama": "Kontrolörün program belleğinde (ROM) veri bütünlüğü hatası algılandı; yüklenen yazılım güvenilir çalışmayabilir.",
+      "makineTepkisi": "Uyarı lambası yanar; kontrolör koruma moduna geçebilir ve destek fonksiyonu devre dışı kalabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Program belleğinde veri bozulması",
+        "Bellek okuma devresi arızası",
+        "Yazılım yükleme hatası"
+      ],
+      "kontroller": [
+        "Yazılım sürümünü teşhis cihazından doğrulayın.",
+        "Programı üretici talimatına göre yeniden yükleyin.",
+        "Hata sürerse kontrolörü değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "AF-3",
@@ -838,16 +1167,24 @@
         "af-3"
       ],
       "sistem": "elektrik",
-      "baslik": "Kontrolör RAM anormalliği",
-      "aciklama": "Kontrolör RAM anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Kontrolör geçici bellek anormalliği (elektrik)",
+      "aciklama": "Kontrolörün geçici veri belleğinde (RAM) beklenmeyen bir durum algılandı; çalışma verilerinin bütünlüğü sağlanamıyor.",
+      "makineTepkisi": "Uyarı lambası yanar; kontrolör koruma moduna geçebilir ve destek fonksiyonu devre dışı kalabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Geçici bellek hücresi arızası",
+        "Bellek besleme kesintisi",
+        "Kontrolör iç veri yolu hatası"
+      ],
+      "kontroller": [
+        "Kontrolörü yeniden başlatıp hatayı tekrar okuyun.",
+        "Besleme bağlantılarını ölçün.",
+        "Hata kalırsa kontrolörü değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "AF-4",
@@ -858,16 +1195,24 @@
         "af-4"
       ],
       "sistem": "elektrik",
-      "baslik": "Kontrolör AD dönüşüm anormalliği",
-      "aciklama": "Kontrolör AD dönüşüm anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Kontrolör analog-dijital dönüşüm hatası (elektrik)",
+      "aciklama": "Kontrolörün analog-dijital dönüştürücüsü hatalı değerler üretiyor; analog giriş sinyallerinin okunması güvenilir değil.",
+      "makineTepkisi": "Uyarı lambası yanar; kontrolör koruma moduna geçebilir ve destek fonksiyonu devre dışı kalabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Analog-dijital dönüştürücü arızası",
+        "Referans gerilim hatası",
+        "Analog giriş kanalı arızası"
+      ],
+      "kontroller": [
+        "Analog giriş değerlerini teşhis cihazından okuyun.",
+        "Referans gerilimini ve giriş devrelerini ölçün.",
+        "Gerekirse kontrolörü değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "EF",
@@ -876,16 +1221,24 @@
         "ef"
       ],
       "sistem": "elektrik",
-      "baslik": "Kontrolör anormalliği (EEPROM)",
-      "aciklama": "Kontrolör anormalliği (EEPROM). Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Kontrolör kalıcı bellek anormalliği (elektrik)",
+      "aciklama": "Kontrolörün kalıcı parametre belleğinde (EEPROM) bir anormallik algılandı; saklanan ayarların geçerliliği sorgulanmalıdır.",
+      "makineTepkisi": "Uyarı lambası yanar; kontrolör koruma moduna geçebilir ve destek fonksiyonu devre dışı kalabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Kalıcı bellek arızası",
+        "Bellek veri bütünlüğü hatası",
+        "Kontrolör besleme kesintisi"
+      ],
+      "kontroller": [
+        "Kayıtlı parametreleri teşhis cihazıyla okuyun.",
+        "Parametreleri yedekleyip kontrolörü yeniden başlatın.",
+        "Hata sürerse kontrolörü değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "EF-1",
@@ -896,16 +1249,24 @@
         "ef-1"
       ],
       "sistem": "elektrik",
-      "baslik": "Kontrolör EEPROM anormalliği (EF-1)",
-      "aciklama": "Kontrolör EEPROM anormalliği (EF-1). Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Kalıcı bellek doğrulama hatası, EF-1 (elektrik)",
+      "aciklama": "Kalıcı bellekteki verilerin doğrulama kontrolü başarısız oldu; bu alt kod EF kodunun ayrıntılı kaydıdır.",
+      "makineTepkisi": "Uyarı lambası yanar; kontrolör koruma moduna geçebilir ve destek fonksiyonu devre dışı kalabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Kalıcı bellek veri bozulması",
+        "Bellek okuma devresi arızası",
+        "Parametre yükleme hatası"
+      ],
+      "kontroller": [
+        "Bellek doğrulama sonucunu teşhis cihazından okuyun.",
+        "Parametreleri yeniden yükleyip doğrulayın.",
+        "Hata kalırsa kontrolörü değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "EF-2",
@@ -916,16 +1277,24 @@
         "ef-2"
       ],
       "sistem": "elektrik",
-      "baslik": "Kontrolör EEPROM anormalliği (EF-2)",
-      "aciklama": "Kontrolör EEPROM anormalliği (EF-2). Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi.",
-      "makineTepkisi": "",
+      "baslik": "Kalıcı bellek yazma hatası, EF-2 (elektrik)",
+      "aciklama": "Kalıcı belleğe veri yazma işlemi başarısız oldu; bu alt kod ayarların kaydedilemediğini gösterir.",
+      "makineTepkisi": "Uyarı lambası yanar; kontrolör koruma moduna geçebilir ve destek fonksiyonu devre dışı kalabilir.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Kalıcı bellek yazma devresi arızası",
+        "Bellek hücresi arızası",
+        "Yazma sırasında besleme kesintisi"
+      ],
+      "kontroller": [
+        "Yazma işlemini teşhis cihazıyla yeniden deneyin.",
+        "Kontrolör beslemesini ölçüp sabitliğini doğrulayın.",
+        "Hata sürerse kontrolörü değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     },
     {
       "kod": "F1",
@@ -934,16 +1303,24 @@
         "f1"
       ],
       "sistem": "iletisim",
-      "baslik": "Kontrolör ile saat sayacı arası haberleşme anormalliği",
-      "aciklama": "Kontrolör ile saat sayacı arası haberleşme anormalliği. Toyota 7FG/7FD 35-45 SAS (direksiyon) kontrolörü arıza kodu; kaynak: CE032 servis kılavuzu Bölüm 3-3 hata kodu referans listesi. Saat sayaçlarından üretilen kod; SAS kontrolörde saklanmaz ve analizatörle sorgulanamaz.",
-      "makineTepkisi": "",
+      "baslik": "Kontrolör ve saat sayacı haberleşme hatası (iletisim)",
+      "aciklama": "Kontrolör ile saat sayacı arasındaki veri alışverişi kesildi; bu kod saat sayacında üretilir ve SAS kontrolöründe saklanmaz, teşhis cihazıyla sorgulanamaz.",
+      "makineTepkisi": "Saat sayacında iletişim uyarısı görünür; SAS kontrolöründe arıza kaydı tutulmaz.",
       "siddet": "uyari",
-      "nedenler": [],
-      "kontroller": [],
+      "nedenler": [
+        "Saat sayacı ile kontrolör arasındaki hatta kopukluk",
+        "Haberleşme konektörü temassızlığı",
+        "Saat sayacı arızası"
+      ],
+      "kontroller": [
+        "Saat sayacı bağlantı konektörünü inceleyin.",
+        "Haberleşme hattının sürekliliğini ölçün.",
+        "Gerekirse saat sayacını değiştirin."
+      ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 40,
       "kaynakUrl": "",
-      "durum": "dogrulandi"
+      "durum": "incelemede"
     }
   ]
 }

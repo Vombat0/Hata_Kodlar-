@@ -12,16 +12,19 @@
       "kodNormal": "405",
       "aliaslar": [],
       "sistem": "yuruyus",
-      "baslik": "Akü aşırı gerilimi (yürüyüş/yükleme invertörü)",
-      "aciklama": "Elektrikli forkliftin yürüyüş/yükleme invertöründe akü gerilimi izin verilen üst sınırı aştı. Sürüş gücü kısıtlanabilir; akü ve şarj sistemini kontrol edin.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Akü gerilimi üst sınırı aştı (yürüyüş kıyıcısı)",
+      "aciklama": "Elektrikli forkliftin yürüyüş ve yükleme kıyıcısında akü gerilimi izin verilen üst sınırı aştı; sürüş gücü kısıtlanabilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Akü geriliminin invertör için belirlenen üst sınırı aşması"
+        "Akü geriliminin kıyıcı için belirlenen üst sınırı aşması",
+        "Şarj cihazının aşırı gerilim vermesi",
+        "Akü hücre dengesizliği"
       ],
       "kontroller": [
-        "Akü gerilimini ölçün ve şarj cihazını kontrol edin.",
-        "İnvertör besleme klemelerini ve topraklamayı doğrulayın."
+        "Akü gerilimini ölçün ve şarj cihazını inceleyin.",
+        "Kıyıcı besleme klemelerini ve topraklamayı doğrulayın.",
+        "Gerekirse şarj cihazını veya aküyü değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -33,16 +36,19 @@
       "kodNormal": "408",
       "aliaslar": [],
       "sistem": "yuruyus",
-      "baslik": "Yürüyüş invertörü MOSFET kısa devresi",
-      "aciklama": "Yürüyüş invertörünün güç modülünde MOSFET kısa devresi algılandı. Bu durum sürüş çıkışını durdurur; invertör güç modülünün kontrolü gerekir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Yürüyüş kıyıcısı mosfet kısa devresi (yürüyüş)",
+      "aciklama": "Yürüyüş kıyıcısının güç modülünde mosfet kısa devresi algılandı; bu durum sürüş çıkışını durdurur ve güç modülünün incelenmesini gerektirir.",
+      "makineTepkisi": "Sürüş çıkışı durur; uyarı lambası yanar ve operatör müdahalesi beklenir.",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş invertörü güç modülünde mosfet kısa devresi"
+        "Kıyıcı güç modülünde mosfet kısa devresi",
+        "Faz kablolarında şasiye kaçak",
+        "Kıyıcı sürücü devresi arızası"
       ],
       "kontroller": [
-        "İnvertörün güç modülünü ve mosfet çıkışlarını kontrol edin.",
-        "Motor faz kablolarında kısa devre olup olmadığını inceleyin."
+        "Kıyıcının güç modülünü ve mosfet çıkışlarını ölçün.",
+        "Faz kablolarında kısa devre olup olmadığını inceleyin.",
+        "Gerekirse güç modülünü değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -54,16 +60,19 @@
       "kodNormal": "436",
       "aliaslar": [],
       "sistem": "hidrolik",
-      "baslik": "Pompa/yükleme kontrolcüsü sıcaklık sensörü hatası",
-      "aciklama": "Pompa ve yükleme kontrolcüsünün sıcaklık sensörü anormal sinyal veriyor. Sürücü, aşırı ısınmaya karşı güç kısıtlama uygulayabilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Pompa ve yükleme sıcaklık ölçüm hatası (hidrolik)",
+      "aciklama": "Pompa ve yükleme ünitesinin sıcaklık ölçüm elemanı anormal sinyal veriyor; sürücü aşırı ısınmaya karşı güç kısıtlaması uygulayabilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa/yükleme kontrolcüsü sıcaklık sensörünün bozuk sinyali"
+        "Sıcaklık ölçüm elemanının bozuk sinyali",
+        "Ölçüm elemanı kablo ve konektör temassızlığı",
+        "Pompanın gerçekten aşırı ısınması"
       ],
       "kontroller": [
-        "Sıcaklık sensörünün kablo ve konnektörünü kontrol edin.",
-        "Gerekirse sensörü veya kontrolcüyü değiştirin."
+        "Sıcaklık ölçüm elemanının kablo ve konektörünü ölçün.",
+        "Ölçülen değeri teşhis ekranıyla karşılaştırın.",
+        "Gerekirse ölçüm elemanını veya üniteyi değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -75,16 +84,19 @@
       "kodNormal": "558",
       "aliaslar": [],
       "sistem": "iletisim",
-      "baslik": "Gösterge paneli iletişim hatası (yazılım bülteni istisnası)",
-      "aciklama": "Elektrikli modelin gösterge panelinde iletişim/hata mesajı görüldü; Nissan yazılım bülteninde bu kod için bir istisna tanımlanmıştır. Panel yazılım sürümünü doğrulayın.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Gösterge paneli iletişim hatası (gösterge)",
+      "aciklama": "Elektrikli modelin gösterge panelinde iletişim mesajı görüldü; Nissan yazılım bülteninde bu kod için bir istisna tanımlandığından panel yazılım sürümü doğrulanmalıdır.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Gösterge paneli iletişim hatası ve ilgili yazılım bülteni istisnası"
+        "Gösterge paneli iletişim hatası",
+        "Yazılım bülteninde tanımlı istisna",
+        "Panel yazılım sürümünün güncel olmaması"
       ],
       "kontroller": [
         "Gösterge paneli yazılım sürümünü kontrol edin.",
-        "Panel soketini ve CAN hattı bağlantısını doğrulayın."
+        "Panel soketini ve CAN hattı bağlantısını doğrulayın.",
+        "Gerekirse yazılımı güncelleyin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -96,16 +108,19 @@
       "kodNormal": "D73",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Motor devir (RPM) sensörü sinyal hatası",
-      "aciklama": "Motor devir sensöründen gelen sinyal geçersiz ya da kesik. Kontrolör motor hızını doğru okuyamadığı için çalışma düzensizleşebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Motorun devir sinyali hatası (devir ölçümü)",
+      "aciklama": "Motorun devir ölçüm elemanından gelen sinyal geçersiz ya da kesik; kontrolör devri doğru okuyamadığı için çalışma düzensizleşebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Motor devir (RPM) sensörü sinyal hatası"
+        "Devir ölçüm elemanı sinyal hatası",
+        "Volan dişlerinde hasar veya kirlenme",
+        "Ölçüm elemanı kablo temassızlığı"
       ],
       "kontroller": [
-        "Devir sensörünün kablo ve konnektörünü kontrol edin.",
-        "Sensörü ve flywheel dişlerini inceleyin."
+        "Devir ölçüm elemanının kablo ve konektörünü ölçün.",
+        "Volan dişlerini inceleyin.",
+        "Gerekirse ölçüm elemanını değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -117,15 +132,18 @@
       "kodNormal": "D75",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Motor rölanti şalteri giriş hatası",
-      "aciklama": "Motor rölanti şalterinin giriş sinyali beklenen durumda değil. Rölanti tespiti hatalı olduğundan gaz sinyali kontrolü etkilenebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Motorun rölanti şalteri giriş hatası (motorun)",
+      "aciklama": "Motorun rölanti şalterinin giriş sinyali beklenen durumda değil; rölanti tespiti hatalı olduğundan gaz sinyali kontrolü etkilenebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Motor rölanti şalteri giriş sinyali hatası"
+        "Rölanti şalteri giriş sinyali hatası",
+        "Şalter ayarının bozulması",
+        "Şalter kablo devresinde temassızlık"
       ],
       "kontroller": [
-        "Rölanti şalteri devresini ve ayarını kontrol edin.",
+        "Rölanti şalteri devresini ve ayarını ölçün.",
+        "Şalterin mekanik çalışmasını inceleyin.",
         "Gerekirse şalteri değiştirin."
       ],
       "ilgiliKodlar": [],
@@ -138,16 +156,19 @@
       "kodNormal": "D76",
       "aliaslar": [],
       "sistem": "yuruyus",
-      "baslik": "Gaz sinyali minimum konum giriş hatası",
-      "aciklama": "Gaz sinyali minimum (kapalı) konum girişi beklenen aralıkta değil. Kontrolör gazın kapalı olduğunu doğrulayamaz.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Gaz sinyali minimum konum girişi hatası (yürüyüş)",
+      "aciklama": "Gaz sinyalinin minimum (kapalı) konum girişi beklenen aralıkta değil; kontrolör gazın kapalı olduğunu doğrulayamaz.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Gaz sinyali minimum konum giriş hatası"
+        "Minimum konum girişinin aralık dışında olması",
+        "Gaz konum ölçüm elemanı ayar hatası",
+        "Sinyal hattında temassızlık"
       ],
       "kontroller": [
-        "Gaz sinyali sensörünün kablo ve konektörünü kontrol edin.",
-        "Boşta konum ayarını doğrulayın."
+        "Gaz konum ölçüm elemanının kablo ve konektörünü ölçün.",
+        "Boşta konum ayarını doğrulayın.",
+        "Gerekirse elemanı değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -159,16 +180,19 @@
       "kodNormal": "D77",
       "aliaslar": [],
       "sistem": "yuruyus",
-      "baslik": "Gaz sinyali maksimum konum giriş hatası",
-      "aciklama": "Gaz sinyali maksimum (tam gaz) konum girişi geçersiz. Kontrolör üst gaz konumunu okuyamadığı için güç çıkışı sınırlanabilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Gaz sinyali maksimum konum girişi hatası (yürüyüş)",
+      "aciklama": "Gaz sinyalinin maksimum (tam gaz) konum girişi geçersiz; kontrolör üst konumu okuyamadığı için güç çıkışı sınırlanabilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Gaz sinyali maksimum konum giriş hatası"
+        "Maksimum konum girişinin geçersiz olması",
+        "Gaz bağlantısında mekanik sıkışma",
+        "Sinyal kablo demeti arızası"
       ],
       "kontroller": [
-        "Gaz sinyali sensörünü ve kablo demetini kontrol edin.",
-        "Tam gaz ayarını doğrulayın."
+        "Gaz konum ölçüm elemanını ve kablo demetini ölçün.",
+        "Tam gaz ayarını doğrulayın.",
+        "Gerekirse elemanı değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -180,16 +204,19 @@
       "kodNormal": "D78",
       "aliaslar": [],
       "sistem": "yuruyus",
-      "baslik": "Gaz sinyali orijinal (home) konum sinyal hatası",
-      "aciklama": "Gaz sinyalinin başlangıç (home) konum sinyali bozuk. Kontrolör referans konumu belirleyemediği için gaz sinyali kalibrasyonu gerekir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Gaz sinyali başlangıç konum sinyali hatası (yürüyüş)",
+      "aciklama": "Gaz sinyalinin başlangıç (referans) konum sinyali bozuk; kontrolör referans konumu belirleyemediği için gaz kalibrasyonu gerekir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Gaz sinyali orijinal (home) konum sinyal hatası"
+        "Başlangıç konum sinyalinin bozuk olması",
+        "Referans ayarının kaybolması",
+        "Ölçüm elemanı kablo temassızlığı"
       ],
       "kontroller": [
-        "Gaz sinyali sensörü referans sinyalini kontrol edin.",
-        "Kalibrasyon prosedürünü yeniden uygulayın."
+        "Gaz konum elemanının referans sinyalini ölçün.",
+        "Kalibrasyon prosedürünü yeniden uygulayın.",
+        "Gerekirse elemanı değiştirip yeniden kalibre edin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -201,15 +228,18 @@
       "kodNormal": "D79",
       "aliaslar": [],
       "sistem": "yuruyus",
-      "baslik": "Gaz sinyali minimum şalter sinyal hatası",
-      "aciklama": "Gaz sinyali minimum şalterinden gelen sinyal hatalı. Kontrolör gazın kapalı konumunu güvenilir biçimde algılayamaz.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Gaz sinyali minimum şalter sinyali hatası (yürüyüş)",
+      "aciklama": "Gaz sinyali minimum şalterinden gelen sinyal hatalı; kontrolör gazın kapalı konumunu güvenilir biçimde algılayamaz.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Gaz sinyali minimum şalter sinyal hatası"
+        "Minimum şalter sinyali hatası",
+        "Şalter ayarının kayması",
+        "Şalter kablo devresinde kopukluk"
       ],
       "kontroller": [
-        "Minimum şalter devresini ve ayarını kontrol edin.",
+        "Minimum şalter devresini ve ayarını ölçün.",
+        "Şalterin konumunu mekanik olarak inceleyin.",
         "Gerekirse şalteri değiştirin."
       ],
       "ilgiliKodlar": [],
@@ -222,16 +252,19 @@
       "kodNormal": "D91",
       "aliaslar": [],
       "sistem": "yuruyus",
-      "baslik": "Gaz sinyali aktüatör motoru hatası",
-      "aciklama": "Elektronik gaz sinyali aktüatör motoru beklenen konuma ulaşamıyor veya akım çekişi anormal. Motor ve konum geri beslemesi kontrol edilmelidir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Elektronik gaz aktüatörü konum hatası (yürüyüş)",
+      "aciklama": "Elektronik gaz aktüatörü beklenen konuma ulaşamıyor veya akım çekişi anormal; aktüatörün ve konum geri beslemesinin incelenmesi gerekir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Gaz sinyali aktüatör motoru arızası"
+        "Aktüatörün beklenen konuma ulaşamaması",
+        "Aktüatör akım çekişinin anormal olması",
+        "Konum geri besleme devresi arızası"
       ],
       "kontroller": [
-        "Aktüatör motorunun beslemesini ve kablolarını kontrol edin.",
-        "Konum geri besleme devresini doğrulayın."
+        "Aktüatör beslemesini ve kablolarını ölçün.",
+        "Konum geri besleme devresini doğrulayın.",
+        "Gerekirse aktüatörü değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -243,16 +276,19 @@
       "kodNormal": "E28",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Motor faz (PHASE) sensörü senkronizasyon hatası",
-      "aciklama": "Motor faz (kam) sensörünün sinyali krank referansıyla uyumlu değil. E-28, K21/K25 motorlarda E28 PHASE sensörünün tireli gösterim olabilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Motorun faz sinyali senkronizasyon hatası (motorun)",
+      "aciklama": "Motorun faz (kam) ölçüm elemanının sinyali krank referansıyla uyumlu değil; K21/K25 motorlarda bu kayıt E28 faz hatası olarak da görülebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Motor faz sensörü senkronizasyon sinyali anormalliği"
+        "Faz ölçüm elemanı senkronizasyon sinyali anormalliği",
+        "Ölçüm elemanı hizasının bozulması",
+        "Krank referans sinyali hatası"
       ],
       "kontroller": [
-        "Faz (kam) sensörü kablo ve konnektörünü kontrol edin.",
-        "Sensör hizasını ve krank referansını doğrulayın."
+        "Faz ölçüm elemanının kablo ve konektörünü ölçün.",
+        "Ölçüm elemanı hizasını ve krank referansını doğrulayın.",
+        "Gerekirse elemanı değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -264,16 +300,19 @@
       "kodNormal": "E03",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Araç kontrol modülü (VCM) CAN iletişim uyarısı",
-      "aciklama": "Araç kontrol modülüyle (VCM) CAN hattı üzerinden veri alışverişi kesildi. P03 kodu aynı hatanın gösterge paneli tarafındaki karşılığıdır.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Araç kontrol ünitesi CAN uyarısı (iletişim)",
+      "aciklama": "Araç kontrol ünitesiyle (VCM) CAN hattı üzerinden veri alışverişi kesildi; P03 kodu aynı hatanın panel tarafındaki karşılığıdır.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "VCM CAN iletişim uyarısı (motor/kontrolör tarafı)"
+        "VCM CAN iletişim kesintisi",
+        "CAN hattı konektör temassızlığı",
+        "VCM besleme arızası"
       ],
       "kontroller": [
-        "VCM beslemesini ve CAN hattı konektörlerini kontrol edin.",
-        "Hata kalırsa kontrolörü kontrol ettirin."
+        "VCM beslemesini ve CAN hattı konektörlerini ölçün.",
+        "Uç dirençleri doğrulayın.",
+        "Hata kalırsa kontrol ünitesini kontrol ettirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -285,16 +324,19 @@
       "kodNormal": "E04",
       "aliaslar": [],
       "sistem": "iletisim",
-      "baslik": "Motor ECM iletişim hatası",
-      "aciklama": "Motor elektronik kontrol modülüyle (ECM) iletişim kurulamıyor. Kontrolör, motor verilerini okuyamadığı için koruma moduna geçebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Motorun kontrol ünitesi iletişim hatası (iletişim)",
+      "aciklama": "Motorun elektronik kontrol ünitesiyle (ECM) iletişim kurulamıyor; kontrolör motorun verilerini okuyamadığı için koruma moduna geçebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Motor ECM iletişim hatası"
+        "Motorun ECM iletişim hatası",
+        "CAN hattı kablo veya konektör arızası",
+        "ECM besleme sigortası arızası"
       ],
       "kontroller": [
-        "ECM beslemesini ve CAN hattı bağlantısını kontrol edin.",
-        "Konektörleri yeniden takıp hatayı tekrar okuyun."
+        "ECM beslemesini ve CAN hattı bağlantısını ölçün.",
+        "Konektörleri yeniden takıp hatayı tekrar okuyun.",
+        "Gerekirse ECM'yi kontrol ettirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -306,16 +348,19 @@
       "kodNormal": "E05",
       "aliaslar": [],
       "sistem": "iletisim",
-      "baslik": "DCM kontrolcüsü iletişim hatası",
-      "aciklama": "DCM kontrolcüsüyle veri alışverişi kesildi. Takılı modüllere bağlı olarak ilgili fonksiyonlar sınırlanabilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "DCM ünitesi iletişim hatası (iletişim)",
+      "aciklama": "DCM ünitesiyle veri alışverişi kesildi; takılı modüllere bağlı olarak ilgili fonksiyonlar sınırlanabilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "DCM kontrolcüsü iletişim hatası"
+        "DCM ünitesi iletişim hatası",
+        "DCM besleme veya konektör arızası",
+        "Aracın modül yapılandırmasının uyuşmaması"
       ],
       "kontroller": [
-        "DCM besleme ve iletişim konektörlerini kontrol edin.",
-        "Aracın takılı modül listesini doğrulayın."
+        "DCM besleme ve iletişim konektörlerini ölçün.",
+        "Aracın takılı modül listesini doğrulayın.",
+        "Gerekirse üniteyi kontrol ettirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -327,16 +372,19 @@
       "kodNormal": "E06",
       "aliaslar": [],
       "sistem": "iletisim",
-      "baslik": "HST kontrolcüsü iletişim hatası",
-      "aciklama": "Hidrostatik şanzıman (HST) kontrolcüsüyle veri alışverişi kesildi. Yürüyüş kontrolü etkilenebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "HST ünitesi iletişim hatası (iletişim)",
+      "aciklama": "Hidrostatik şanzıman (HST) ünitesiyle veri alışverişi kesildi; yürüyüş kontrolü etkilenebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "HST kontrolcüsü iletişim hatası"
+        "HST ünitesi iletişim hatası",
+        "CAN hattı veya topraklama arızası",
+        "HST besleme kesintisi"
       ],
       "kontroller": [
-        "HST kontrolcüsünün beslemesini ve CAN hattını kontrol edin.",
-        "Konektörleri ve topraklamayı doğrulayın."
+        "HST ünitesinin beslemesini ve CAN hattını ölçün.",
+        "Konektörleri ve topraklamayı doğrulayın.",
+        "Gerekirse üniteyi kontrol ettirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -348,16 +396,19 @@
       "kodNormal": "E07",
       "aliaslar": [],
       "sistem": "iletisim",
-      "baslik": "Gösterge paneli iletişim hatası",
-      "aciklama": "Gösterge paneliyle (meter panel) iletişim kesildi. Panel, kontrolörden gelen verileri gösteremeyebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Gösterge paneli iletişim hatası (gösterge)",
+      "aciklama": "Gösterge paneliyle iletişim kesildi; panel, kontrolörden gelen verileri gösteremeyebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Gösterge paneli iletişim hatası"
+        "Gösterge paneli iletişim hatası",
+        "Panel soketinde temassızlık",
+        "Panel besleme arızası"
       ],
       "kontroller": [
-        "Panel soketini ve iletişim hattını kontrol edin.",
-        "Panel beslemesini doğrulayın."
+        "Panel soketini ve iletişim hattını ölçün.",
+        "Panel beslemesini doğrulayın.",
+        "Gerekirse paneli değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -369,16 +420,19 @@
       "kodNormal": "E08",
       "aliaslar": [],
       "sistem": "iletisim",
-      "baslik": "TMS kontrolcüsü iletişim hatası",
-      "aciklama": "TMS kontrolcüsüyle (şanzıman yönetim sistemi) veri alışverişi kesildi. İlgili fonksiyonlar kısıtlanabilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "TMS ünitesi iletişim hatası (iletişim)",
+      "aciklama": "Şanzıman yönetim sistemi (TMS) ünitesiyle veri alışverişi kesildi; ilgili fonksiyonlar kısıtlanabilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "TMS kontrolcüsü iletişim hatası"
+        "TMS ünitesi iletişim hatası",
+        "TMS besleme veya konektör arızası",
+        "Modül yapılandırma hatası"
       ],
       "kontroller": [
-        "TMS besleme ve iletişim konektörlerini kontrol edin.",
-        "Aracın takılı modül listesini doğrulayın."
+        "TMS besleme ve iletişim konektörlerini ölçün.",
+        "Aracın takılı modül listesini doğrulayın.",
+        "Gerekirse üniteyi kontrol ettirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -390,16 +444,19 @@
       "kodNormal": "E21",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Motor hava akış (MAF) sensörü elektrik sinyali hatası",
-      "aciklama": "Motor hava akış ölçerinin (MAF) elektrik sinyali aralık dışında. E21, K21/K25 motorlarda MAF girişini ifade eder; E22 su sıcaklığı, E23 gaz sinyalidir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Hava akış ölçüm sinyali hatası (motorun)",
+      "aciklama": "Motorun hava akış ölçerinin (MAF) elektrik sinyali aralık dışında; E21, K21/K25 motorlarda MAF girişini ifade eder.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Hava akış ölçer (MAF) elektrik sinyal hatası"
+        "Hava akış ölçüm sinyalinin aralık dışında olması",
+        "Ölçüm elemanı kirlenmesi",
+        "Kablo ve konektör temassızlığı"
       ],
       "kontroller": [
-        "MAF sensörü kablo ve konnektörünü kontrol edin.",
-        "Sensör kirlenmesini inceleyin, gerekirse değiştirin."
+        "Hava akış ölçerinin kablo ve konektörünü ölçün.",
+        "Eleman kirlenmesini inceleyip temizleyin.",
+        "Gerekirse ölçeri değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -411,16 +468,19 @@
       "kodNormal": "E22",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Motor soğutma suyu sıcaklık sensörü sinyal hatası",
-      "aciklama": "Motor soğutma suyu sıcaklık sensörünün sinyali geçersiz. Kontrolör motor sıcaklığını doğru okuyamadığı için koruma stratejisi devreye girebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Soğutma suyu sıcaklık sinyali hatası (motorun)",
+      "aciklama": "Motorun soğutma suyu sıcaklık ölçüm elemanının sinyali geçersiz; kontrolör sıcaklığı doğru okuyamadığı için koruma stratejisi devreye girebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Soğutma suyu sıcaklık sensörü sinyal hatası"
+        "Sıcaklık ölçüm sinyali hatası",
+        "Soğutma suyu seviyesinin düşük olması",
+        "Ölçüm elemanı kablo temassızlığı"
       ],
       "kontroller": [
-        "ECT sensörünün kablo ve konnektörünü kontrol edin.",
-        "Soğutma suyu seviyesini doğrulayın."
+        "Sıcaklık ölçüm elemanının kablo ve konektörünü ölçün.",
+        "Soğutma suyu seviyesini doğrulayın.",
+        "Gerekirse elemanı değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -432,16 +492,19 @@
       "kodNormal": "E23",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Gaz sinyali konum sensörü (TPS) giriş uyarısı",
-      "aciklama": "Gaz gövdesindeki konum sensörünün (TPS) girişi uyarı sınırında. E24 hızlandırıcı pedalı, E31 ise gaz motorunu ifade eder.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Gaz gövdesi konum sinyali uyarısı (motorun)",
+      "aciklama": "Gaz gövdesindeki konum ölçüm elemanının (TPS) girişi uyarı sınırında; E24 hızlandırıcı pedalı, E31 ise gaz aktüatörünü ifade eder.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Gaz gövdesi TPS giriş uyarısı"
+        "Gaz gövdesi konum girişi uyarısı",
+        "Konum ölçüm elemanı ayar hatası",
+        "TPS kablo temassızlığı"
       ],
       "kontroller": [
-        "TPS kablo ve konnektörünü kontrol edin.",
-        "Gaz gövdesi konum ayarını doğrulayın."
+        "Konum ölçüm elemanının kablo ve konektörünü ölçün.",
+        "Gaz gövdesi konum ayarını doğrulayın.",
+        "Gerekirse elemanı değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -453,16 +516,19 @@
       "kodNormal": "E24",
       "aliaslar": [],
       "sistem": "yuruyus",
-      "baslik": "Hızlandırıcı pedal çift devre sinyal/korelasyon uyarısı",
-      "aciklama": "Hızlandırıcı pedalının çift devre sinyalleri arasında elektriksel uyum veya korelasyon hatası var. Pedal konum güvenilirliği azalmıştır.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Hızlandırıcı pedal çift sinyal uyarısı (yürüyüş)",
+      "aciklama": "Hızlandırıcı pedalının çift devre sinyalleri arasında elektriksel uyum hatası var; pedal konum güvenilirliği azalmıştır.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Hızlandırıcı pedal çift devre korelasyon uyarısı"
+        "Pedal çift devre sinyalleri arasında korelasyon hatası",
+        "Pedal ölçüm elemanı arızası",
+        "Kablo demetinde temassızlık"
       ],
       "kontroller": [
-        "Pedal sensörü kablo demetini ve konnektörünü kontrol edin.",
-        "İki sinyal hattını birlikte doğrulayın."
+        "Pedal ölçüm elemanının kablo demetini ve konektörünü ölçün.",
+        "İki sinyal hattını birlikte doğrulayın.",
+        "Gerekirse pedalı değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -474,16 +540,19 @@
       "kodNormal": "E25",
       "aliaslar": [],
       "sistem": "elektrik",
-      "baslik": "Oksijen sensörü egzoz sinyali elektrik hatası",
-      "aciklama": "Oksijen sensörünün egzoz sinyali elektriksel olarak hatalı. Yakıt dengesi ve emisyon kontrolü etkilenebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Oksijen ölçüm sinyali elektrik hatası (egzoz)",
+      "aciklama": "Oksijen ölçüm elemanının egzoz sinyali elektriksel olarak hatalı; yakıt dengesi ve emisyon kontrolü etkilenebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Oksijen sensörü egzoz sinyali elektrik hatası"
+        "Oksijen ölçüm sinyali elektrik hatası",
+        "Egzoz kaçağı",
+        "Ölçüm elemanı kablo temassızlığı"
       ],
       "kontroller": [
-        "Oksijen sensörü kablo ve konnektörünü kontrol edin.",
-        "Egzoz kaçağı olup olmadığını inceleyin."
+        "Oksijen ölçüm elemanının kablo ve konektörünü ölçün.",
+        "Egzoz kaçağı olup olmadığını inceleyin.",
+        "Gerekirse elemanı değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -495,16 +564,19 @@
       "kodNormal": "E26",
       "aliaslar": [],
       "sistem": "elektrik",
-      "baslik": "Isıtmalı oksijen sensörü ısıtıcı devresi uyarısı",
-      "aciklama": "Isıtmalı oksijen sensörünün ısıtıcı devresi aralık dışında. Sensör soğukken doğru okuma yapamayabilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Oksijen ölçüm ısıtıcı devresi uyarısı (egzoz)",
+      "aciklama": "Isıtmalı oksijen ölçüm elemanının ısıtıcı devresi aralık dışında; eleman soğukken doğru okuma yapamayabilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Oksijen sensörü ısıtıcı devresi uyarısı"
+        "Isıtıcı devresi aralık dışında",
+        "Isıtıcı besleme sigortası arızası",
+        "Ölçüm elemanı arızası"
       ],
       "kontroller": [
-        "Isıtıcı besleme ve kablo devresini kontrol edin.",
-        "Gerekirse sensörü değiştirin."
+        "Isıtıcı besleme ve kablo devresini ölçün.",
+        "Sigorta ve konektörleri inceleyin.",
+        "Gerekirse elemanı değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -516,16 +588,19 @@
       "kodNormal": "E27",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Motor krank (POS) referans sinyal hatası",
-      "aciklama": "Motor krank pozisyon (POS) referans sinyali bozuk. Kontrolör motor açısını belirleyemediği için ateşleme zamanlaması etkilenebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Krank referans sinyali hatası (motorun)",
+      "aciklama": "Motorun krank pozisyon (POS) referans sinyali bozuk; kontrolör motorun açısını belirleyemediği için ateşleme zamanlaması etkilenebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Krank referans sinyal hatası"
+        "Krank referans sinyali hatası",
+        "Krank ölçüm elemanı hizasının bozulması",
+        "Ölçüm elemanı kablo temassızlığı"
       ],
       "kontroller": [
-        "Krank sensörü kablo ve konnektörünü kontrol edin.",
-        "Sensör hizasını doğrulayın."
+        "Krank ölçüm elemanının kablo ve konektörünü ölçün.",
+        "Ölçüm elemanı hizasını doğrulayın.",
+        "Gerekirse elemanı değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -537,16 +612,19 @@
       "kodNormal": "E29",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Motor otomatik kapanma teşhis sonucu hatası",
-      "aciklama": "Motorun kendi kendini kapatma (self-shutdown) teşhis sonucu hatalı. Kontrolör kapanma nedenini doğrulayamadı.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Otomatik kapanma teşhis sonucu hatası (motorun)",
+      "aciklama": "Motorun kendiliğinden kapanma teşhis sonucu hatalı; kontrolör kapanma nedenini doğrulayamadı.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Motor otomatik kapanma teşhis sonucu hatası"
+        "Otomatik kapanma teşhis sonucu hatası",
+        "Besleme kesintisi veya düşük gerilim",
+        "İlgili ölçüm elemanlarında arıza"
       ],
       "kontroller": [
-        "Motor kapanma geçmişini ve ilgili sensörleri kontrol edin.",
-        "Besleme ve topraklama bağlantılarını doğrulayın."
+        "Motorun kapanma geçmişini ve ilgili ölçüm elemanlarını okuyun.",
+        "Besleme ve topraklama bağlantılarını ölçün.",
+        "Gerekirse kontrol ünitesini kontrol ettirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -558,16 +636,19 @@
       "kodNormal": "E30",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "K-motor ECCS kontrol ünitesi elektronik uyarısı",
-      "aciklama": "K serisi motorun ECCS kontrol ünitesinde elektronik bir anomali algılandı. Kontrolörün dahili durumu kontrol edilmelidir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "ECCS kontrol ünitesi elektronik uyarısı (motorun)",
+      "aciklama": "K serisi motorun ECCS kontrol ünitesinde elektronik bir anomali algılandı; ünitenin dahili durumu kontrol edilmelidir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "ECCS kontrol ünitesi elektronik uyarısı"
+        "ECCS kontrol ünitesi elektronik anomali",
+        "Ünite besleme gerilimi kararsızlığı",
+        "Bellek veya yazılım bütünlüğü hatası"
       ],
       "kontroller": [
-        "ECCS kontrol ünitesinin beslemesini kontrol edin.",
-        "Konektörleri doğrulayıp gerekirse üniteyi değiştirin."
+        "ECCS kontrol ünitesinin beslemesini ölçün.",
+        "Konektörleri doğrulayıp hatayı tekrar okuyun.",
+        "Gerekirse üniteyi değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -579,16 +660,19 @@
       "kodNormal": "E31",
       "aliaslar": [],
       "sistem": "yuruyus",
-      "baslik": "Elektronik gaz sinyali motor/konum takip uyarısı",
-      "aciklama": "Elektronik gaz sinyali motorunun konum takibi beklenenle uyumlu değil. E31 gaz motorunu ifade eder; E23 TPS girişidir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Gaz aktüatörü konum takip uyarısı (yürüyüş)",
+      "aciklama": "Elektronik gaz aktüatörünün konum takibi beklenenle uyumlu değil; E31 gaz aktüatörünü, E23 ise konum ölçüm girişini ifade eder.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Elektronik gaz motoru konum takip uyarısı"
+        "Gaz aktüatörü konum takip hatası",
+        "Aktüatör besleme arızası",
+        "Konum geri besleme sinyali hatası"
       ],
       "kontroller": [
-        "Gaz motorunun besleme ve kablo devresini kontrol edin.",
-        "Konum geri besleme sinyalini doğrulayın."
+        "Gaz aktüatörünün besleme ve kablo devresini ölçün.",
+        "Konum geri besleme sinyalini doğrulayın.",
+        "Gerekirse aktüatörü değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -600,16 +684,19 @@
       "kodNormal": "E32",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "K-motor soğutma suyu aşırı ısınma uyarısı (aşama 1)",
-      "aciklama": "K serisi motorun soğutma suyu sıcaklığı birinci aşama aşırı ısınma eşiğine ulaştı. E33 daha yüksek şiddetli ikinci aşamadır.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Soğutma suyu aşırı ısınma, aşama 1 (motorun)",
+      "aciklama": "K serisi motorun soğutma suyu sıcaklığı birinci aşama aşırı ısınma eşiğine ulaştı; E33 daha yüksek şiddetli ikinci aşamadır.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Soğutma suyu aşırı ısınma uyarısı, aşama 1"
+        "Soğutma suyu sıcaklığının birinci eşiğe ulaşması",
+        "Soğutma suyu seviyesinin düşük olması",
+        "Termostat veya fan arızası"
       ],
       "kontroller": [
-        "Soğutma suyu seviyesini ve radyatörü kontrol edin.",
-        "Termostat ve fan çalışmasını doğrulayın."
+        "Soğutma suyu seviyesini ve radyatörü ölçün.",
+        "Termostat ve fan çalışmasını doğrulayın.",
+        "Gerekirse soğutma bileşenlerini değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -621,16 +708,19 @@
       "kodNormal": "E33",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Motor soğutma suyu aşırı ısınma uyarısı (aşama 2)",
-      "aciklama": "Motor soğutma suyu ikinci aşama aşırı ısınma eşiğine ulaştı; E32'den daha yüksek şiddettedir. K21/K25 benzinli motorlar için geçerlidir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Soğutma suyu aşırı ısınma, aşama 2 (motorun)",
+      "aciklama": "Motorun soğutma suyu ikinci aşama aşırı ısınma eşiğine ulaştı; E32'den daha yüksek şiddettedir ve K21/K25 benzinli motorlar için geçerlidir.",
+      "makineTepkisi": "Sürüş çıkışı durur; uyarı lambası yanar ve operatör müdahalesi beklenir.",
       "siddet": "uyari",
       "nedenler": [
-        "Soğutma suyu aşırı ısınma uyarısı, aşama 2"
+        "Soğutma suyu sıcaklığının ikinci eşiğe ulaşması",
+        "Soğutma sistemi arızası",
+        "Uzun süreli yüksek yük altında çalışma"
       ],
       "kontroller": [
-        "Soğutma sistemini ve su seviyesini hemen kontrol edin.",
-        "Yük altında çalıştırmayı durdurup soğutun."
+        "Soğutma sistemini ve su seviyesini hemen ölçün.",
+        "Yük altında çalıştırmayı durdurup motoru soğutun.",
+        "Gerekirse soğutma bileşenlerini değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -642,16 +732,19 @@
       "kodNormal": "E34",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Ateşleme sinyal hattı arızası",
-      "aciklama": "Ateşleme sinyal hattında arıza var; buji ateşleme komutu iletilemiyor. Motor teklemesi veya çalışmama görülebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Ateşleme sinyal hattı arızası (motorun)",
+      "aciklama": "Ateşleme sinyal hattında arıza var; buji ateşleme komutu iletilemediği için motorun teklemesi veya çalışmama görülebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Ateşleme sinyal hattı arızası"
+        "Ateşleme sinyal hattı arızası",
+        "Ateşleme bobini arızası",
+        "Buji kablo bağlantılarında temassızlık"
       ],
       "kontroller": [
-        "Ateşleme bobini kablo ve konektörünü kontrol edin.",
-        "Buji ve bobin durumunu inceleyin."
+        "Ateşleme bobini kablo ve konektörünü ölçün.",
+        "Buji ve bobin durumunu inceleyin.",
+        "Gerekirse buji veya bobini değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -663,16 +756,19 @@
       "kodNormal": "E35",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "LPG enjektör devresi açık/kopuk uyarısı",
-      "aciklama": "LPG enjektör devresi açık veya bağlantı kopuk. Enjektör yakıt veremediği için motor düzensiz çalışabilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "LPG enjektör devresi kopukluk uyarısı (yakıt)",
+      "aciklama": "LPG enjektör devresi açık veya bağlantısı kopuk; enjektör yakıt veremediği için motorun düzensiz çalışması görülebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "LPG enjektör devresi açık/kopuk uyarısı"
+        "Enjektör devresinde açıklık veya kopukluk",
+        "Enjektör konektör temassızlığı",
+        "Enjektör bobin arızası"
       ],
       "kontroller": [
-        "Enjektör kablo ve konnektörünü kontrol edin.",
-        "Enjektör direncini ölçün, gerekirse değiştirin."
+        "Enjektör kablo ve konektörünü ölçün.",
+        "Enjektör direncini ölçüp gerekirse değiştirin.",
+        "Yakıt hattını inceleyin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -684,16 +780,19 @@
       "kodNormal": "E36",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "LPG yakıt basınç sensörü giriş devresi hatası",
-      "aciklama": "LPG yakıt basınç sensörünün giriş devresi hatalı. Kontrolör yakıt basıncını doğru okuyamaz.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "LPG yakıt basınç ölçüm hatası (yakıt)",
+      "aciklama": "LPG yakıt basınç ölçüm elemanının giriş devresi hatalı; kontrolör yakıt basıncını doğru okuyamaz.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "LPG yakıt basınç sensörü giriş devresi hatası"
+        "Basınç ölçüm giriş devresi hatası",
+        "Ölçüm elemanı kablo temassızlığı",
+        "Yakıt basınç regülatörü arızası"
       ],
       "kontroller": [
-        "Basınç sensörü kablo ve konnektörünü kontrol edin.",
-        "Gerekirse sensörü değiştirin."
+        "Basınç ölçüm elemanının kablo ve konektörünü ölçün.",
+        "Yakıt basıncını manometreyle doğrulayın.",
+        "Gerekirse elemanı değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -705,16 +804,19 @@
       "kodNormal": "E37",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "LPG yakıt sıcaklık sensörü sinyal hatası",
-      "aciklama": "LPG yakıt sıcaklık sensörünün teşhis sinyali hatalı. Yakıt sıcaklığına bağlı besleme düzeltmesi etkilenebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "LPG yakıt sıcaklık sinyali hatası (yakıt)",
+      "aciklama": "LPG yakıt sıcaklık ölçüm elemanının teşhis sinyali hatalı; yakıt sıcaklığına bağlı besleme düzeltmesi etkilenebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "LPG yakıt sıcaklık sensörü sinyal hatası"
+        "Sıcaklık ölçüm sinyali hatası",
+        "Ölçüm elemanı kablo temassızlığı",
+        "Ölçüm elemanı arızası"
       ],
       "kontroller": [
-        "Sıcaklık sensörü kablo ve konnektörünü kontrol edin.",
-        "Gerekirse sensörü değiştirin."
+        "Sıcaklık ölçüm elemanının kablo ve konektörünü ölçün.",
+        "Ölçülen değeri gerçek sıcaklıkla karşılaştırın.",
+        "Gerekirse elemanı değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -726,16 +828,19 @@
       "kodNormal": "E38",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "LPG buharlaştırıcı yakıt basıncı anormalliği",
-      "aciklama": "LPG buharlaştırıcısında yakıt basıncı anormal. Buharlaştırıcı çıkış basıncı kontrol edilmelidir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "LPG buharlaştırıcı basınç anormalliği (yakıt)",
+      "aciklama": "LPG buharlaştırıcısında yakıt basıncı anormal; buharlaştırıcı çıkış basıncının kontrol edilmesi gerekir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "LPG buharlaştırıcı yakıt basıncı anormalliği"
+        "Buharlaştırıcı yakıt basıncı anormalliği",
+        "Buharlaştırıcı tıkanıklığı veya donması",
+        "Basınç regülatörü arızası"
       ],
       "kontroller": [
-        "Buharlaştırıcı çıkış basıncını kontrol edin.",
-        "Buharlaştırıcı ve hatları inceleyin."
+        "Buharlaştırıcı çıkış basıncını ölçün.",
+        "Buharlaştırıcı ve hatlarını inceleyin.",
+        "Gerekirse buharlaştırıcıyı değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -747,16 +852,19 @@
       "kodNormal": "E39",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Direk yükseklik şalteri sinyal hatası",
-      "aciklama": "Direk (mast) yükseklik şalterinin teşhis sinyali hatalı. Kontrolör yükseklik bilgisini doğru alamaz.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Direk yükseklik şalteri sinyal hatası (güvenlik)",
+      "aciklama": "Direk (mast) yükseklik şalterinin teşhis sinyali hatalı; kontrolör yükseklik bilgisini doğru alamaz.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Direk yükseklik şalteri sinyal hatası"
+        "Yükseklik şalteri sinyal hatası",
+        "Şalter montajının bozulması",
+        "Şalter kablo temassızlığı"
       ],
       "kontroller": [
-        "Yükseklik şalteri kablo ve konnektörünü kontrol edin.",
-        "Şalter montajını doğrulayın."
+        "Yükseklik şalteri kablo ve konektörünü ölçün.",
+        "Şalter montajını ve konumunu doğrulayın.",
+        "Gerekirse şalteri değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -768,16 +876,19 @@
       "kodNormal": "E40",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Motor yağ basınç sensörü sinyal hatası",
-      "aciklama": "Motor yağ basınç sensörünün teşhis sinyali hatalı. Yağ basıncı bilgisi güvenilir olmadığından koruma devreye girebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Yağ basınç ölçüm sinyali hatası (motorun)",
+      "aciklama": "Motorun yağ basınç ölçüm elemanının teşhis sinyali hatalı; yağ basıncı bilgisi güvenilir olmadığından koruma devreye girebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Motor yağ basınç sensörü sinyal hatası"
+        "Yağ basınç ölçüm sinyali hatası",
+        "Ölçüm elemanı kablo temassızlığı",
+        "Gerçek yağ basıncının düşük olması"
       ],
       "kontroller": [
-        "Yağ basınç sensörü kablo ve konnektörünü kontrol edin.",
-        "Yağ seviyesini ve basıncını doğrulayın."
+        "Yağ basınç ölçüm elemanının kablo ve konektörünü ölçün.",
+        "Yağ seviyesini ve basıncını doğrulayın.",
+        "Gerekirse elemanı değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -789,16 +900,19 @@
       "kodNormal": "E41",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Stop lambası şalteri giriş hatası",
-      "aciklama": "Stop lambası şalterinin giriş sinyali hatalı. E43 yakıt karışımı, fren basıncı ise farklı bir devredir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Stop lambası şalteri giriş hatası (fren)",
+      "aciklama": "Stop lambası şalterinin giriş sinyali hatalı; E43 yakıt karışımıyla, fren basıncı ise farklı bir devreyle ilgilidir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Stop lambası şalteri giriş hatası"
+        "Stop lambası şalteri giriş sinyali hatası",
+        "Şalter ayarının bozulması",
+        "Lamba devresinde kısa devre"
       ],
       "kontroller": [
-        "Stop lambası şalteri devresini kontrol edin.",
-        "Lamba ve kablo bağlantılarını doğrulayın."
+        "Stop lambası şalteri devresini ölçün.",
+        "Lamba ve kablo bağlantılarını doğrulayın.",
+        "Gerekirse şalteri değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -810,15 +924,18 @@
       "kodNormal": "F01",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "VCM kontrolcüsü bellek kontrol uyarısı",
-      "aciklama": "VCM kontrolcüsünün bellek bütünlük kontrolü uyarı verdi. Kontrolör verilerinin geçerliliği doğrulanmalıdır.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "VCM bellek bütünlük uyarısı (kontrolör)",
+      "aciklama": "Araç kontrol ünitesinin (VCM) bellek bütünlük kontrolü uyarı verdi; kontrolör verilerinin geçerliliği doğrulanmalıdır.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "VCM bellek bütünlük kontrol uyarısı"
+        "Bellek bütünlük kontrolü uyarısı",
+        "Bellek verilerinde bozulma",
+        "Ünite besleme gerilimi kesintisi"
       ],
       "kontroller": [
         "Kontrolörü yeniden başlatıp hatayı tekrar okuyun.",
+        "Besleme bağlantılarını ölçün.",
         "Hata sürerse kontrolörü kontrol ettirin."
       ],
       "ilgiliKodlar": [],
@@ -831,16 +948,19 @@
       "kodNormal": "F02",
       "aliaslar": [],
       "sistem": "batarya",
-      "baslik": "Araç kontrolcüsü akü/besleme gerilimi hatası",
-      "aciklama": "Araç kontrolcüsünün besleme gerilimi beklenen aralık dışında. Düşük veya yüksek gerilim kontrolör davranışını etkiler.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Kontrolör besleme gerilimi hatası (batarya)",
+      "aciklama": "Araç kontrolörünün besleme gerilimi beklenen aralık dışında; düşük veya yüksek gerilim kontrolör davranışını etkiler.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Araç kontrolcüsü besleme gerilimi hatası"
+        "Besleme geriliminin aralık dışında olması",
+        "Akü veya şarj sistemi arızası",
+        "Besleme sigortası ve klemelerinde temassızlık"
       ],
       "kontroller": [
-        "Akü gerilimini ve şarj sistemini kontrol edin.",
-        "Besleme sigortalarını ve klemeleri doğrulayın."
+        "Akü gerilimini ve şarj sistemini ölçün.",
+        "Besleme sigortalarını ve klemeleri doğrulayın.",
+        "Gerekirse aküyü veya sigortayı değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -852,16 +972,19 @@
       "kodNormal": "F03",
       "aliaslar": [],
       "sistem": "iletisim",
-      "baslik": "VCM kontrolcüsü CAN iletişim hatası",
-      "aciklama": "VCM kontrolcüsünün CAN hattı iletişimi kesildi. Araç genelinde iletişime bağlı fonksiyonlar etkilenebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "VCM CAN iletişim hatası (iletişim)",
+      "aciklama": "Araç kontrol ünitesinin (VCM) CAN hattı iletişimi kesildi; araç genelinde iletişime bağlı fonksiyonlar etkilenebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "VCM CAN iletişim hatası"
+        "VCM CAN iletişim hatası",
+        "CAN hattı konektör veya uç direnç arızası",
+        "VCM besleme kesintisi"
       ],
       "kontroller": [
-        "CAN hattı konektörlerini ve uç dirençlerini kontrol edin.",
-        "VCM beslemesini doğrulayın."
+        "CAN hattı konektörlerini ve uç dirençlerini ölçün.",
+        "VCM beslemesini doğrulayın.",
+        "Gerekirse üniteyi kontrol ettirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -873,16 +996,19 @@
       "kodNormal": "F04",
       "aliaslar": [],
       "sistem": "iletisim",
-      "baslik": "ECM CAN iletişim hatası",
-      "aciklama": "Motor ECM'sinin CAN hattı iletişimi kesildi. Motor verileri diğer kontrolörlere iletilemiyor.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Motorun ECM CAN iletişim hatası (iletişim)",
+      "aciklama": "Motorun elektronik kontrol ünitesinin (ECM) CAN hattı iletişimi kesildi; motorun verileri diğer ünitelere iletilemiyor.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "ECM CAN iletişim hatası"
+        "ECM CAN iletişim hatası",
+        "CAN kablo veya konektör arızası",
+        "ECM besleme sigortası arızası"
       ],
       "kontroller": [
-        "ECM CAN konektörlerini ve kablolarını kontrol edin.",
-        "ECM besleme sigortalarını doğrulayın."
+        "ECM CAN konektörlerini ve kablolarını ölçün.",
+        "ECM besleme sigortalarını doğrulayın.",
+        "Gerekirse ECM'yi kontrol ettirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -894,16 +1020,19 @@
       "kodNormal": "F05",
       "aliaslar": [],
       "sistem": "iletisim",
-      "baslik": "DCM kontrolcüsü iletişim hatası",
-      "aciklama": "DCM kontrolcüsüyle CAN iletişimi kesildi. Takılı modüllere bağlı fonksiyonlar sınırlanabilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "DCM ünitesi CAN iletişim hatası (iletişim)",
+      "aciklama": "DCM ünitesiyle CAN iletişimi kesildi; takılı modüllere bağlı fonksiyonlar sınırlanabilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "DCM kontrolcüsü iletişim hatası"
+        "DCM CAN iletişim hatası",
+        "CAN hattı temassızlığı",
+        "DCM besleme arızası"
       ],
       "kontroller": [
-        "DCM besleme ve CAN bağlantılarını kontrol edin.",
-        "Takılı modül listesini doğrulayın."
+        "DCM besleme ve CAN bağlantılarını ölçün.",
+        "Takılı modül listesini doğrulayın.",
+        "Gerekirse üniteyi kontrol ettirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -915,16 +1044,19 @@
       "kodNormal": "F06",
       "aliaslar": [],
       "sistem": "iletisim",
-      "baslik": "HST kontrolcüsü iletişim hatası",
-      "aciklama": "Hidrostatik şanzıman (HST) kontrolcüsüyle CAN iletişimi kesildi. Yürüyüş kontrolü etkilenebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "HST ünitesi CAN iletişim hatası (iletişim)",
+      "aciklama": "Hidrostatik şanzıman (HST) ünitesiyle CAN iletişimi kesildi; yürüyüş kontrolü etkilenebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "HST kontrolcüsü CAN iletişim hatası"
+        "HST CAN iletişim hatası",
+        "CAN hattı veya topraklama arızası",
+        "HST besleme kesintisi"
       ],
       "kontroller": [
-        "HST kontrolcüsü besleme ve CAN hattını kontrol edin.",
-        "Konektörleri ve topraklamayı doğrulayın."
+        "HST ünitesi besleme ve CAN hattını ölçün.",
+        "Konektörleri ve topraklamayı doğrulayın.",
+        "Gerekirse üniteyi kontrol ettirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -936,16 +1068,19 @@
       "kodNormal": "F07",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Gösterge paneli iletişim hatası (F kodu)",
-      "aciklama": "F kodu grubunda gösterge paneli iletişim hatası kaydedildi. F04 ECM, F03 VCM ile ilgilidir; P07 panel tarafındaki mesajdır.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Gösterge paneli iletişim hatası (gösterge)",
+      "aciklama": "F kodu grubunda gösterge paneli iletişim hatası kaydedildi; F04 ECM, F03 VCM ile ilgilidir, P07 ise panel tarafındaki mesajdır.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Gösterge paneli iletişim hatası (F kodu grubu)"
+        "Panel iletişim hatası (F kodu grubu)",
+        "Panel CAN bağlantı temassızlığı",
+        "Panel yazılım sürümü uyuşmazlığı"
       ],
       "kontroller": [
-        "Panel beslemesini ve CAN bağlantısını kontrol edin.",
-        "Panel yazılım sürümünü doğrulayın."
+        "Panel beslemesini ve CAN bağlantısını ölçün.",
+        "Panel yazılım sürümünü doğrulayın.",
+        "Gerekirse paneli değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -957,16 +1092,19 @@
       "kodNormal": "F08",
       "aliaslar": [],
       "sistem": "iletisim",
-      "baslik": "TMS kontrolcüsü iletişim hatası",
-      "aciklama": "TMS kontrolcüsüyle CAN iletişimi kesildi. Şanzımanla ilgili fonksiyonlar kısıtlanabilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "TMS ünitesi CAN iletişim hatası (iletişim)",
+      "aciklama": "Şanzıman yönetim sistemi (TMS) ünitesiyle CAN iletişimi kesildi; şanzımanla ilgili fonksiyonlar kısıtlanabilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "TMS kontrolcüsü iletişim hatası"
+        "TMS CAN iletişim hatası",
+        "CAN hattı temassızlığı",
+        "TMS besleme arızası"
       ],
       "kontroller": [
-        "TMS besleme ve CAN bağlantılarını kontrol edin.",
-        "Takılı modül listesini doğrulayın."
+        "TMS besleme ve CAN bağlantılarını ölçün.",
+        "Takılı modül listesini doğrulayın.",
+        "Gerekirse üniteyi kontrol ettirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -978,16 +1116,19 @@
       "kodNormal": "F10",
       "aliaslar": [],
       "sistem": "hidrolik",
-      "baslik": "Kaldırma kolu nötrde değil / nötr giriş hatası",
-      "aciklama": "Kaldırma kolu nötr konumda değil veya nötr giriş sinyali hatalı. Kontrolör kolu nötr kabul etmediği için kaldırma devreye girmeyebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Kaldırma kolu nötr giriş hatası (hidrolik)",
+      "aciklama": "Kaldırma kolu nötr konumda değil veya nötr giriş sinyali hatalı; kontrolör kolu nötr kabul etmediği için kaldırma devreye girmeyebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Kaldırma kolu nötr giriş hatası"
+        "Kaldırma kolu nötr giriş sinyali hatası",
+        "Nötr şalter ayarının bozulması",
+        "Kol kablo temassızlığı"
       ],
       "kontroller": [
-        "Kaldırma kolu nötr şalterini ve ayarını kontrol edin.",
-        "Kol kablo bağlantılarını doğrulayın."
+        "Kaldırma kolu nötr şalterini ve ayarını ölçün.",
+        "Kol kablo bağlantılarını doğrulayın.",
+        "Gerekirse şalteri değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -999,16 +1140,19 @@
       "kodNormal": "F11",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Eğme kolu nötrde değil / nötr giriş hatası",
-      "aciklama": "Eğme (tilt) kolu nötr konumda değil veya nötr giriş sinyali hatalı. Eğme fonksiyonu etkilenebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Eğme kolu nötr giriş hatası (hidrolik)",
+      "aciklama": "Eğme kolu nötr konumda değil veya nötr giriş sinyali hatalı; eğme fonksiyonu etkilenebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Eğme kolu nötr giriş hatası"
+        "Eğme kolu nötr giriş sinyali hatası",
+        "Nötr şalter ayarının bozulması",
+        "Kol kablo temassızlığı"
       ],
       "kontroller": [
-        "Eğme kolu nötr şalterini ve ayarını kontrol edin.",
-        "Kol kablo bağlantılarını doğrulayın."
+        "Eğme kolu nötr şalterini ve ayarını ölçün.",
+        "Kol kablo bağlantılarını doğrulayın.",
+        "Gerekirse şalteri değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1020,16 +1164,19 @@
       "kodNormal": "F12",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Ataşman-1 kolu nötr giriş hatası",
-      "aciklama": "Birinci ataşman kolunun nötr giriş sinyali hatalı. Ataşman fonksiyonu güvenli şekilde devreye girmeyebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Birinci ataşman kolu nötr girişi hatası (hidrolik)",
+      "aciklama": "Birinci ataşman kolunun nötr giriş sinyali hatalı; ataşman fonksiyonu güvenli şekilde devreye girmeyebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman-1 kolu nötr giriş hatası"
+        "Ataşman-1 nötr giriş sinyali hatası",
+        "Kol şalteri temassızlığı",
+        "Kablo ve konektör arızası"
       ],
       "kontroller": [
-        "Ataşman-1 kol şalterini kontrol edin.",
-        "Kablo ve konnektör bağlantılarını doğrulayın."
+        "Ataşman-1 kol şalterini ölçün.",
+        "Kablo ve konektör bağlantılarını doğrulayın.",
+        "Gerekirse şalteri değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1041,16 +1188,19 @@
       "kodNormal": "F13",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Ataşman-2 kolu nötr giriş hatası",
-      "aciklama": "İkinci ataşman kolunun nötr giriş sinyali hatalı. Ataşman fonksiyonu güvenli şekilde devreye girmeyebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "İkinci ataşman kolu nötr girişi hatası (hidrolik)",
+      "aciklama": "İkinci ataşman kolunun nötr giriş sinyali hatalı; ataşman fonksiyonu güvenli şekilde devreye girmeyebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman-2 kolu nötr giriş hatası"
+        "Ataşman-2 nötr giriş sinyali hatası",
+        "Kol şalteri temassızlığı",
+        "Kablo ve konektör arızası"
       ],
       "kontroller": [
-        "Ataşman-2 kol şalterini kontrol edin.",
-        "Kablo ve konnektör bağlantılarını doğrulayın."
+        "Ataşman-2 kol şalterini ölçün.",
+        "Kablo ve konektör bağlantılarını doğrulayın.",
+        "Gerekirse şalteri değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1062,16 +1212,19 @@
       "kodNormal": "F14",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Ataşman-3 kolu nötr giriş hatası",
-      "aciklama": "Üçüncü ataşman kolunun nötr giriş sinyali hatalı. Ataşman fonksiyonu güvenli şekilde devreye girmeyebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Üçüncü ataşman kolu nötr girişi hatası (hidrolik)",
+      "aciklama": "Üçüncü ataşman kolunun nötr giriş sinyali hatalı; ataşman fonksiyonu güvenli şekilde devreye girmeyebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman-3 kolu nötr giriş hatası"
+        "Ataşman-3 nötr giriş sinyali hatası",
+        "Kol şalteri temassızlığı",
+        "Kablo ve konektör arızası"
       ],
       "kontroller": [
-        "Ataşman-3 kol şalterini kontrol edin.",
-        "Kablo ve konnektör bağlantılarını doğrulayın."
+        "Ataşman-3 kol şalterini ölçün.",
+        "Kablo ve konektör bağlantılarını doğrulayın.",
+        "Gerekirse şalteri değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1083,16 +1236,19 @@
       "kodNormal": "F16",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "İleri-nötr-geri vites kolu giriş uyarısı",
-      "aciklama": "İleri-nötr-geri (FNR) vites kolunun giriş sinyali geçersiz. Kontrolör yön seçimini doğrulayamıyor.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "İleri-nötr-geri kolu giriş uyarısı (yürüyüş)",
+      "aciklama": "İleri-nötr-geri (FNR) vites kolunun giriş sinyali geçersiz; kontrolör yön seçimini doğrulayamıyor.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "İleri-nötr-geri vites kolu giriş uyarısı"
+        "FNR kolu giriş sinyali geçersiz",
+        "Kol şalter devresi temassızlığı",
+        "Kol konum ayarının bozulması"
       ],
       "kontroller": [
-        "FNR kolu şalter devresini kontrol edin.",
-        "Kol konum ayarını doğrulayın."
+        "FNR kolu şalter devresini ölçün.",
+        "Kol konum ayarını doğrulayın.",
+        "Gerekirse şalteri değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1104,16 +1260,19 @@
       "kodNormal": "F17",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Araç hız sinyali / aşırı hız durumu hatası",
-      "aciklama": "Araç hız sinyali veya aşırı hız durumu hatalı. Kontrolör gerçek hızı doğru değerlendiremediği için hız sınırlaması etkilenebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Araç hız sinyali ve aşırı hız hatası (yürüyüş)",
+      "aciklama": "Araç hız sinyali veya aşırı hız durumu hatalı; kontrolör gerçek hızı doğru değerlendiremediği için hız sınırlaması etkilenebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Araç hız sinyali / aşırı hız durumu hatası"
+        "Hız sinyali hatası",
+        "Hız ölçüm elemanı kablo temassızlığı",
+        "Aşırı hız eşiği parametresinin hatalı olması"
       ],
       "kontroller": [
-        "Hız sensörü sinyalini ve kablo demetini kontrol edin.",
-        "Aşırı hız eşiği parametresini doğrulayın."
+        "Hız ölçüm elemanı sinyalini ve kablo demetini ölçün.",
+        "Aşırı hız eşiği parametresini doğrulayın.",
+        "Gerekirse ölçüm elemanını değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1125,16 +1284,19 @@
       "kodNormal": "F20",
       "aliaslar": [],
       "sistem": "hidrolik",
-      "baslik": "Kaldırma kolu çalışma girişi hatası",
-      "aciklama": "Kaldırma kolunun çalışma (operating) giriş sinyali hatalı. Kontrolör kol komutunu algılayamıyor.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Kaldırma kolu çalışma girişi hatası (hidrolik)",
+      "aciklama": "Kaldırma kolunun çalışma giriş sinyali hatalı; kontrolör kol komutunu algılayamıyor.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Kaldırma kolu çalışma girişi hatası"
+        "Kaldırma kolu çalışma giriş sinyali hatası",
+        "Çalışma şalteri temassızlığı",
+        "Kablo ve konektör arızası"
       ],
       "kontroller": [
-        "Kaldırma kolu çalışma şalterini kontrol edin.",
-        "Kablo ve konnektör bağlantılarını doğrulayın."
+        "Kaldırma kolu çalışma şalterini ölçün.",
+        "Kablo ve konektör bağlantılarını doğrulayın.",
+        "Gerekirse şalteri değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1146,16 +1308,19 @@
       "kodNormal": "F22",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Eğme kolu çalışma girişi hatası",
-      "aciklama": "Eğme kolu çalışma giriş sinyali hatalı. Kontrolör eğme komutunu algılayamıyor.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Eğme kolu çalışma girişi hatası (hidrolik)",
+      "aciklama": "Eğme kolunun çalışma giriş sinyali hatalı; kontrolör eğme komutunu algılayamıyor.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Eğme kolu çalışma girişi hatası"
+        "Eğme kolu çalışma giriş sinyali hatası",
+        "Çalışma şalteri temassızlığı",
+        "Kablo ve konektör arızası"
       ],
       "kontroller": [
-        "Eğme kolu çalışma şalterini kontrol edin.",
-        "Kablo ve konnektör bağlantılarını doğrulayın."
+        "Eğme kolu çalışma şalterini ölçün.",
+        "Kablo ve konektör bağlantılarını doğrulayın.",
+        "Gerekirse şalteri değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1167,16 +1332,19 @@
       "kodNormal": "F24",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Ataşman-1 kolu çalışma girişi hatası",
-      "aciklama": "Birinci ataşman kolunun çalışma giriş sinyali hatalı. Ataşman komutu kontrolöre iletilemiyor.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Birinci ataşman kolu çalışma girişi hatası (hidrolik)",
+      "aciklama": "Birinci ataşman kolunun çalışma giriş sinyali hatalı; ataşman komutu kontrolöre iletilemiyor.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman-1 kolu çalışma girişi hatası"
+        "Ataşman-1 çalışma giriş sinyali hatası",
+        "Çalışma şalteri temassızlığı",
+        "Kablo ve konektör arızası"
       ],
       "kontroller": [
-        "Ataşman-1 çalışma şalterini kontrol edin.",
-        "Kablo ve konnektör bağlantılarını doğrulayın."
+        "Ataşman-1 çalışma şalterini ölçün.",
+        "Kablo ve konektör bağlantılarını doğrulayın.",
+        "Gerekirse şalteri değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1188,16 +1356,19 @@
       "kodNormal": "F26",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Ataşman-2 kolu çalışma girişi hatası",
-      "aciklama": "İkinci ataşman kolunun çalışma giriş sinyali hatalı. Ataşman komutu kontrolöre iletilemiyor.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "İkinci ataşman kolu çalışma girişi hatası (hidrolik)",
+      "aciklama": "İkinci ataşman kolunun çalışma giriş sinyali hatalı; ataşman komutu kontrolöre iletilemiyor.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman-2 kolu çalışma girişi hatası"
+        "Ataşman-2 çalışma giriş sinyali hatası",
+        "Çalışma şalteri temassızlığı",
+        "Kablo ve konektör arızası"
       ],
       "kontroller": [
-        "Ataşman-2 çalışma şalterini kontrol edin.",
-        "Kablo ve konnektör bağlantılarını doğrulayın."
+        "Ataşman-2 çalışma şalterini ölçün.",
+        "Kablo ve konektör bağlantılarını doğrulayın.",
+        "Gerekirse şalteri değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1209,16 +1380,19 @@
       "kodNormal": "F28",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Ataşman-3 kolu çalışma girişi hatası",
-      "aciklama": "Üçüncü ataşman kolunun çalışma giriş sinyali hatalı. Ataşman komutu kontrolöre iletilemiyor.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Üçüncü ataşman kolu çalışma girişi hatası (hidrolik)",
+      "aciklama": "Üçüncü ataşman kolunun çalışma giriş sinyali hatalı; ataşman komutu kontrolöre iletilemiyor.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman-3 kolu çalışma girişi hatası"
+        "Ataşman-3 çalışma giriş sinyali hatası",
+        "Çalışma şalteri temassızlığı",
+        "Kablo ve konektör arızası"
       ],
       "kontroller": [
-        "Ataşman-3 çalışma şalterini kontrol edin.",
-        "Kablo ve konnektör bağlantılarını doğrulayın."
+        "Ataşman-3 çalışma şalterini ölçün.",
+        "Kablo ve konektör bağlantılarını doğrulayın.",
+        "Gerekirse şalteri değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1230,16 +1404,19 @@
       "kodNormal": "F30",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Ana hidrolik yağ basınç sensörü hatası",
-      "aciklama": "Ana hidrolik besleme hattındaki yağ basınç sensörü hatalı. F32 kaldırma yağı basıncını ifade eder; kaynak farklıdır.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Ana hidrolik yağ basınç ölçüm hatası (hidrolik)",
+      "aciklama": "Ana hidrolik besleme hattındaki yağ basınç ölçüm elemanı hatalı; F32 kaldırma yağı basıncını ifade eder ve kaynak farklıdır.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Ana hidrolik yağ basınç sensörü hatası"
+        "Ana hat basınç ölçüm elemanı hatası",
+        "Ölçüm elemanı kablo temassızlığı",
+        "Hidrolik pompa arızası"
       ],
       "kontroller": [
-        "Ana hat basınç sensörünün kablo ve konnektörünü kontrol edin.",
-        "Gerekirse sensörü değiştirin."
+        "Ana hat basınç ölçüm elemanının kablo ve konektörünü ölçün.",
+        "Yağ seviyesini ve pompayı inceleyin.",
+        "Gerekirse ölçüm elemanını değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1251,16 +1428,19 @@
       "kodNormal": "F32",
       "aliaslar": [],
       "sistem": "hidrolik",
-      "baslik": "Kaldırma devresi hidrolik yağ basınç sensörü hatası",
-      "aciklama": "Kaldırma devresinin hidrolik yağ basınç sensörü hatalı. Kaldırma basıncı doğru okunamadığı için fonksiyon sınırlanabilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Kaldırma devresi yağ basınç ölçüm hatası (hidrolik)",
+      "aciklama": "Kaldırma devresinin hidrolik yağ basınç ölçüm elemanı hatalı; kaldırma basıncı doğru okunamadığı için fonksiyon sınırlanabilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Kaldırma devresi yağ basınç sensörü hatası"
+        "Kaldırma hattı basınç ölçüm elemanı hatası",
+        "Hidrolik yağ seviyesinin düşük olması",
+        "Kaldırma pompası arızası"
       ],
       "kontroller": [
-        "Kaldırma hattı basınç sensörünü kontrol edin.",
-        "Hidrolik yağ seviyesini doğrulayın."
+        "Kaldırma hattı basınç ölçüm elemanını ölçün.",
+        "Hidrolik yağ seviyesini doğrulayın.",
+        "Gerekirse ölçüm elemanını değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1272,16 +1452,19 @@
       "kodNormal": "F34",
       "aliaslar": [],
       "sistem": "elektrik",
-      "baslik": "Araç hız sensörü elektrik/geri besleme uyarısı",
-      "aciklama": "Araç hız sensörünün elektrik sinyali veya geri beslemesi hatalı. Hız bilgisi güvenilir olmadığından sınırlama uygulanabilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Hız ölçüm elektrik ve geri besleme uyarısı (elektrik)",
+      "aciklama": "Araç hız ölçüm elemanının elektrik sinyali veya geri beslemesi hatalı; hız bilgisi güvenilir olmadığından sınırlama uygulanabilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Araç hız sensörü elektrik/geri besleme uyarısı"
+        "Hız ölçüm sinyali hatası",
+        "Ölçüm elemanı kablo temassızlığı",
+        "Geri besleme devresi arızası"
       ],
       "kontroller": [
-        "Hız sensörü kablo ve konnektörünü kontrol edin.",
-        "Sensör çıkış sinyalini doğrulayın."
+        "Hız ölçüm elemanının kablo ve konektörünü ölçün.",
+        "Ölçüm elemanı çıkış sinyalini doğrulayın.",
+        "Gerekirse elemanı değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1293,16 +1476,19 @@
       "kodNormal": "F36",
       "aliaslar": [],
       "sistem": "elektrik",
-      "baslik": "Direksiyon/tekerlek açı sensörü sinyal hatası",
-      "aciklama": "Direksiyon ve tekerlek açı sensörünün sinyali hatalı. Direksiyon geri beslemesi doğru okunamıyor.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Direksiyon açı ölçüm sinyali hatası (elektrik)",
+      "aciklama": "Direksiyon ve tekerlek açı ölçüm elemanının sinyali hatalı; direksiyon geri beslemesi doğru okunamıyor.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Direksiyon/tekerlek açı sensörü sinyal hatası"
+        "Açı ölçüm sinyali hatası",
+        "Ölçüm elemanı montaj yönünün bozulması",
+        "Kablo ve konektör temassızlığı"
       ],
       "kontroller": [
-        "Açı sensörü kablo ve konnektörünü kontrol edin.",
-        "Sensör montaj yönünü doğrulayın."
+        "Açı ölçüm elemanının kablo ve konektörünü ölçün.",
+        "Ölçüm elemanı montaj yönünü doğrulayın.",
+        "Gerekirse elemanı değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1314,16 +1500,19 @@
       "kodNormal": "F38",
       "aliaslar": [],
       "sistem": "elektrik",
-      "baslik": "Direk eğim açı sensörü sinyal hatası",
-      "aciklama": "Direk (mast) eğim açı sensörünün sinyali hatalı. Direk açısı bilgisi kullanılarak yapılan korumalar etkilenebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Direk eğim açı ölçüm hatası (elektrik)",
+      "aciklama": "Direk (mast) eğim açı ölçüm elemanının sinyali hatalı; direk açısı bilgisi kullanılarak yapılan korumalar etkilenebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Direk eğim açı sensörü sinyal hatası"
+        "Eğim açı ölçüm sinyali hatası",
+        "Ölçüm elemanı montajının bozulması",
+        "Kablo ve konektör temassızlığı"
       ],
       "kontroller": [
-        "Eğim sensörü kablo ve konnektörünü kontrol edin.",
-        "Sensör montajını doğrulayın."
+        "Eğim ölçüm elemanının kablo ve konektörünü ölçün.",
+        "Ölçüm elemanı montajını doğrulayın.",
+        "Gerekirse elemanı değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1335,15 +1524,18 @@
       "kodNormal": "F40",
       "aliaslar": [],
       "sistem": "direksiyon",
-      "baslik": "Direksiyon sistemi hatası",
-      "aciklama": "Direksiyon sisteminde genel bir arıza algılandı. Direksiyon desteği veya geri beslemesi etkilenmiş olabilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Direksiyon sistemi genel hatası (direksiyon)",
+      "aciklama": "Direksiyon sisteminde genel bir arıza algılandı; direksiyon desteği veya geri beslemesi etkilenmiş olabilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Direksiyon sistemi hatası"
+        "Direksiyon sistemi genel hatası",
+        "Direksiyon ölçüm devresi arızası",
+        "Hidrolik destek veya besleme sorunu"
       ],
       "kontroller": [
-        "Direksiyon sensör ve devrelerini kontrol edin.",
+        "Direksiyon ölçüm elemanlarını ve devrelerini ölçün.",
+        "Hidrolik destek basıncını inceleyin.",
         "Gerekirse kontrolörü kontrol ettirin."
       ],
       "ilgiliKodlar": [],
@@ -1356,15 +1548,18 @@
       "kodNormal": "F50",
       "aliaslar": [],
       "sistem": "hidrolik",
-      "baslik": "Kaldırma hidrolik solenoidi hatası",
-      "aciklama": "Kaldırma yönündeki hidrolik solenoid arızalı. Solenoid komutu yerine getirmediği için kaldırma yapılamayabilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Kaldırma hidrolik solenoidi hatası (hidrolik)",
+      "aciklama": "Kaldırma yönündeki hidrolik solenoid arızalı; solenoid komutu yerine getirmediği için kaldırma yapılamayabilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Kaldırma hidrolik solenoidi hatası"
+        "Kaldırma solenoidi arızası",
+        "Solenoid bobin kopukluğu",
+        "Sürücü çıkışı veya kablo temassızlığı"
       ],
       "kontroller": [
-        "Solenoid bobin ve kablo bağlantılarını kontrol edin.",
+        "Solenoid bobin ve kablo bağlantılarını ölçün.",
+        "Sürücü çıkışını doğrulayın.",
         "Gerekirse solenoidi değiştirin."
       ],
       "ilgiliKodlar": [],
@@ -1377,15 +1572,18 @@
       "kodNormal": "F52",
       "aliaslar": [],
       "sistem": "hidrolik",
-      "baslik": "İndirme hidrolik solenoidi hatası",
-      "aciklama": "İndirme yönündeki hidrolik solenoid arızalı. İndirme komutu yerine getirilemeyebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "İndirme hidrolik solenoidi hatası (hidrolik)",
+      "aciklama": "İndirme yönündeki hidrolik solenoid arızalı; indirme komutu yerine getirilemeyebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "İndirme hidrolik solenoidi hatası"
+        "İndirme solenoidi arızası",
+        "Solenoid bobin kopukluğu",
+        "Sürücü çıkışı veya kablo temassızlığı"
       ],
       "kontroller": [
-        "Solenoid bobin ve kablo bağlantılarını kontrol edin.",
+        "Solenoid bobin ve kablo bağlantılarını ölçün.",
+        "Sürücü çıkışını doğrulayın.",
         "Gerekirse solenoidi değiştirin."
       ],
       "ilgiliKodlar": [],
@@ -1398,16 +1596,19 @@
       "kodNormal": "F54",
       "aliaslar": [],
       "sistem": "yuruyus",
-      "baslik": "Kaldırma solenoidi kaçak/kapalı durum sürücü hatası",
-      "aciklama": "Kaldırma hidrolik solenoidinin kapalı durum kaçağı veya sürücü çıkışı hatalı. Solenoid beklenmedik şekilde enerjileniyor olabilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Kaldırma solenoidi kapalı durum sürücü hatası (yürüyüş)",
+      "aciklama": "Kaldırma hidrolik solenoidinin kapalı durum kaçağı veya sürücü çıkışı hatalı; solenoid beklenmedik şekilde enerjileniyor olabilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Kaldırma solenoidi kapalı durum sürücü hatası"
+        "Kaldırma solenoidi kapalı durum sürücü hatası",
+        "Solenoid sargısında kaçak",
+        "Sürücü çıkış katı arızası"
       ],
       "kontroller": [
-        "Solenoid sürücü devresini ve kabloları kontrol edin.",
-        "Kaçak olup olmadığını inceleyin."
+        "Solenoid sürücü devresini ve kabloları ölçün.",
+        "Kaçak akım olup olmadığını inceleyin.",
+        "Gerekirse sürücüyü veya solenoidi değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1419,16 +1620,19 @@
       "kodNormal": "F55",
       "aliaslar": [],
       "sistem": "hidrolik",
-      "baslik": "İleri eğme hidrolik solenoidi elektrik hatası",
-      "aciklama": "İleri eğme hidrolik solenoidinin elektrik devresi hatalı. Eğme komutu iletilemeyebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "İleri eğme solenoidi elektrik hatası (hidrolik)",
+      "aciklama": "İleri eğme hidrolik solenoidinin elektrik devresi hatalı; eğme komutu iletilemeyebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "İleri eğme hidrolik solenoidi elektrik hatası"
+        "İleri eğme solenoidi elektrik devresi hatası",
+        "Bobin kopukluğu",
+        "Kablo ve konektör temassızlığı"
       ],
       "kontroller": [
-        "Solenoid kablo ve konnektörünü kontrol edin.",
-        "Bobin direncini ölçün."
+        "Solenoid kablo ve konektörünü ölçün.",
+        "Bobin direncini ölçüp doğrulayın.",
+        "Gerekirse solenoidi değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1440,15 +1644,18 @@
       "kodNormal": "F75",
       "aliaslar": [],
       "sistem": "hidrolik",
-      "baslik": "Hidrolik boşaltma solenoidi akım kontrol uyarısı",
-      "aciklama": "Hidrolik boşaltma (unload) solenoidinin akım kontrolü uyarı verdi. Solenoid sürücü akımı beklenen aralıkta değil.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Hidrolik boşaltma solenoidi akım uyarısı (hidrolik)",
+      "aciklama": "Hidrolik boşaltma (unload) solenoidinin akım kontrolü uyarı verdi; solenoid sürücü akımı beklenen aralıkta değil.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Hidrolik boşaltma solenoidi akım kontrol uyarısı"
+        "Boşaltma solenoidi akım kontrol uyarısı",
+        "Solenoid bobin direnci sapması",
+        "Sürücü devresi arızası"
       ],
       "kontroller": [
-        "Solenoid sürücü akımını ve kabloları kontrol edin.",
+        "Solenoid sürücü akımını ve kabloları ölçün.",
+        "Bobin direncini doğrulayın.",
         "Gerekirse sürücüyü değiştirin."
       ],
       "ilgiliKodlar": [],
@@ -1461,16 +1668,19 @@
       "kodNormal": "F77",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Kaldırma kilit solenoidi elektrik hatası",
-      "aciklama": "Kaldırma kilit solenoidinin elektrik devresi hatalı. F75 boşaltma solenoidi, F79 ise kapalı durum kaçağıdır.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Kaldırma kilit solenoidi elektrik hatası (hidrolik)",
+      "aciklama": "Kaldırma kilit solenoidinin elektrik devresi hatalı; F75 boşaltma solenoidi, F79 ise kapalı durum kaçağıdır.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Kaldırma kilit solenoidi elektrik hatası"
+        "Kilit solenoidi elektrik devresi hatası",
+        "Bobin kopukluğu",
+        "Kablo ve konektör temassızlığı"
       ],
       "kontroller": [
-        "Kilit solenoidi kablo ve konnektörünü kontrol edin.",
-        "Bobin direncini ölçün."
+        "Kilit solenoidi kablo ve konektörünü ölçün.",
+        "Bobin direncini ölçüp doğrulayın.",
+        "Gerekirse solenoidi değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1482,15 +1692,18 @@
       "kodNormal": "F85",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Şanzıman ileri solenoidi hatası",
-      "aciklama": "Şanzımanın ileri (forward) kavrama solenoidi arızalı. F87 geri solenoidi, F16 ise vites kolu girişidir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Şanzıman ileri kavrama solenoidi hatası (şanzıman)",
+      "aciklama": "Şanzımanın ileri kavrama solenoidi arızalı; F87 geri solenoidi, F16 ise vites kolu girişidir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Şanzıman ileri solenoidi hatası"
+        "İleri kavrama solenoidi arızası",
+        "Solenoid bobin kopukluğu",
+        "Hidrolik basınç veya sürücü arızası"
       ],
       "kontroller": [
-        "İleri kavrama solenoidi devresini kontrol edin.",
+        "İleri kavrama solenoidi devresini ölçün.",
+        "Şanzıman yağ basıncını doğrulayın.",
         "Gerekirse solenoidi değiştirin."
       ],
       "ilgiliKodlar": [],
@@ -1503,16 +1716,19 @@
       "kodNormal": "F89",
       "aliaslar": [],
       "sistem": "yuruyus",
-      "baslik": "Şanzıman solenoidi kaçak/kapalı durum akım uyarısı",
-      "aciklama": "Şanzıman solenoidinin kapalı durum kaçak akımı uyarı sınırında. Sürücü çıkışında beklenmeyen akım var.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Şanzıman solenoidi kaçak akım uyarısı (şanzıman)",
+      "aciklama": "Şanzıman solenoidinin kapalı durum kaçak akımı uyarı sınırında; sürücü çıkışında beklenmeyen akım var.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Şanzıman solenoidi kapalı durum akım uyarısı"
+        "Solenoid kapalı durum kaçak akımı",
+        "Solenoid sargısında kaçak",
+        "Sürücü çıkış katı arızası"
       ],
       "kontroller": [
-        "Solenoid sürücü devresini ve kabloları kontrol edin.",
-        "Kaçak akım olup olmadığını inceleyin."
+        "Solenoid sürücü devresini ve kabloları ölçün.",
+        "Kaçak akım olup olmadığını inceleyin.",
+        "Gerekirse sürücüyü değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1524,16 +1740,19 @@
       "kodNormal": "P03",
       "aliaslar": [],
       "sistem": "iletisim",
-      "baslik": "Gösterge paneli VCM iletişimini alamıyor",
-      "aciklama": "Gösterge paneli, VCM'den gelen iletişim mesajını alamıyor. P04 ECM alıcı tarafı, P07 ise panel mesaj/çıkış hatasıdır.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Gösterge paneli VCM mesajı eksik (gösterge)",
+      "aciklama": "Gösterge paneli, araç kontrol ünitesinden (VCM) gelen iletişim mesajını alamıyor; P04 ECM alıcı tarafı, P07 ise panel çıkış hatasıdır.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Gösterge paneli VCM mesajı eksik"
+        "Panel VCM mesajı eksik",
+        "CAN alıcı hattı temassızlığı",
+        "VCM besleme arızası"
       ],
       "kontroller": [
-        "Panelin CAN alıcı hattını ve konektörlerini kontrol edin.",
-        "VCM beslemesini doğrulayın."
+        "Panelin CAN alıcı hattını ve konektörlerini ölçün.",
+        "VCM beslemesini doğrulayın.",
+        "Gerekirse paneli kontrol ettirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1545,16 +1764,19 @@
       "kodNormal": "P04",
       "aliaslar": [],
       "sistem": "iletisim",
-      "baslik": "Gösterge paneli motor ECM CAN mesajı eksik",
-      "aciklama": "Gösterge paneli, motor ECM'sinden gelen CAN mesajını alamıyor. Motor bilgileri panelde gösterilemeyebilir.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Gösterge paneli ECM mesajı eksik (gösterge)",
+      "aciklama": "Gösterge paneli, motorun elektronik kontrol ünitesinden (ECM) gelen CAN mesajını alamıyor; motorun bilgileri panelde gösterilemeyebilir.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Gösterge paneli ECM CAN mesajı eksik"
+        "Panel ECM CAN mesajı eksik",
+        "CAN hattı konektör temassızlığı",
+        "ECM besleme arızası"
       ],
       "kontroller": [
-        "ECM CAN hattını ve panel konektörünü kontrol edin.",
-        "ECM beslemesini doğrulayın."
+        "ECM CAN hattını ve panel konektörünü ölçün.",
+        "ECM beslemesini doğrulayın.",
+        "Gerekirse paneli kontrol ettirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1566,16 +1788,19 @@
       "kodNormal": "P07",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Gösterge paneli CAN iletişim/iletim hatası",
-      "aciklama": "Gösterge panelinin CAN mesaj gönderiminde hata var. P03'ten farklı olarak VCM alma hatası değil, panel çıkış hatasıdır.",
-      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "baslik": "Gösterge paneli CAN iletim hatası (gösterge)",
+      "aciklama": "Gösterge panelinin CAN mesaj gönderiminde hata var; P03'ten farklı olarak VCM alma hatası değil, panel çıkış hatasıdır.",
+      "makineTepkisi": "Uyarı lambası yanar; ilgili fonksiyon kısıtlanabilir veya koruma moduna geçilir, diğer işlevler çalışmaya devam eder.",
       "siddet": "uyari",
       "nedenler": [
-        "Gösterge paneli CAN iletim hatası"
+        "Panel CAN iletim hatası",
+        "Panel CAN çıkış hattı temassızlığı",
+        "Panel yazılım sürümü uyuşmazlığı"
       ],
       "kontroller": [
-        "Panel CAN çıkış hattını ve konektörleri kontrol edin.",
-        "Panel yazılım sürümünü doğrulayın."
+        "Panel CAN çıkış hattını ve konektörleri ölçün.",
+        "Panel yazılım sürümünü doğrulayın.",
+        "Gerekirse paneli değiştirin."
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,

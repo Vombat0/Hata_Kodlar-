@@ -273,15 +273,41 @@ export function istatistik(): Istatistik {
   };
 }
 
-/** Sık aranan kodlar — ana sayfadaki hızlı erişim listesi için. */
+/** Sık aranan kodlar — ana sayfadaki hızlı erişim listesi için.
+ *  Öncelik listesi sabit değildir: her markanın en temsili kodlarından
+ *  veriye dayalı bir seçki üretilir. Böylece örnek bağlantılar asla boş sonuç vermez. */
 export function sikArananKodlar(limit = 6): AramaSonucu[] {
-  const oncelikli = ['30-1', 'E001', '1201', 'A1-1', 'E042', '45-1'];
-  const tumu: AramaSonucu[] = [];
-  for (const kod of oncelikli) {
+  const tercih = ['30-1', 'A1-1', 'A0-1', '201', '1201', '108'];
+  const secilen: AramaSonucu[] = [];
+  const kullanilan = new Set<string>();
+
+  // 1) Bilinen temsili kodlar (varsa)
+  for (const kod of tercih) {
     const bulunan = aramaYap(kod).find((s) => kodAnahtar(s.kod.kod) === kodAnahtar(kod));
-    if (bulunan) tumu.push(bulunan);
+    if (bulunan && !kullanilan.has(`${bulunan.marka}|${bulunan.seri}|${bulunan.kod.kod}`)) {
+      secilen.push(bulunan);
+      kullanilan.add(`${bulunan.marka}|${bulunan.seri}|${bulunan.kod.kod}`);
+    }
   }
-  return tumu.slice(0, limit);
+
+  // 2) Marka çeşitliliği gözeterek tamamla: her markadan bir kod
+  const markaGoruldu = new Set(secilen.map((s) => s.marka));
+  for (const seri of SERILER) {
+    if (secilen.length >= limit) break;
+    if (markaGoruldu.has(seri.marka)) continue;
+    const aday = seri.kodlar.find((k) => k.durum === 'dogrulandi') ?? seri.kodlar[0];
+    if (!aday) continue;
+    secilen.push({
+      marka: seri.marka,
+      seri: seri.seri,
+      markaAd: markaAdi(seri.marka),
+      modelAdi: seri.modelAdi,
+      kod: aday,
+    });
+    markaGoruldu.add(seri.marka);
+  }
+
+  return secilen.slice(0, limit);
 }
 
 /**
