@@ -130,10 +130,17 @@
       "siddet": "uyari",
       "nedenler": [
         "Çıkış trafosunda sargı kısa devresi",
-        "Güç kartı hasarı"
+        "Güç kartı hasarı",
+        "Çıkış trafosu güç katı arızası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kontrol ünitesini değiştirin"
+        "Kontrol ünitesini değiştirin",
+        "Çıkış trafosu güç katı arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -155,10 +162,18 @@
       "siddet": "uyari",
       "nedenler": [
         "Güç kartı ölçüm devresi hatası",
-        "Faz çıkışında kısa devre"
+        "Faz çıkışında kısa devre",
+        "Akü geriliminin izin verilen aralığın dışında olması",
+        "Çıkış trafosu gerilim denetimi besleme konnektöründe temassızlık",
+        "Ana sigorta veya besleme hattında direnç",
+        "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
       "kontroller": [
-        "Kontrol ünitesini değiştirin"
+        "Kontrol ünitesini değiştirin",
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "Çıkış trafosu gerilim denetimi besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -206,10 +221,17 @@
       "siddet": "uyari",
       "nedenler": [
         "Emniyet şalteri kontak ayarının bozulması",
-        "Şalter kablosunda kısa devre/kopma"
+        "Şalter kablosunda kısa devre/kopma",
+        "Emniyet şalteri girişleri tutarsız ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Şalter kontak kombinasyonunu ve kablolarını ölçün"
+        "Şalter kontak kombinasyonunu ve kablolarını ölçün",
+        "Emniyet şalteri girişleri tutarsız ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -478,10 +500,18 @@
       "nedenler": [
         "Akü hücreleri arası sıcaklık sensörünün kopması",
         "Sensör kısa devresi",
-        "Modül girişi arızası"
+        "Modül girişi arızası",
+        "Akü sıcaklık geri beslemesi geçersiz üzerinde aşırı yük",
+        "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
+        "Yüksek ortam sıcaklığı",
+        "Termik sensör sapması"
       ],
       "kontroller": [
-        "Akü denetim modülündeki sıcaklık sensörünü kontrol edin"
+        "Akü denetim modülündeki sıcaklık sensörünü kontrol edin",
+        "Akü sıcaklık geri beslemesi geçersiz sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -530,10 +560,18 @@
       "siddet": "uyari",
       "nedenler": [
         "Bina şebekesinde gerilim düşümü",
-        "Uzatma kablosu/şebeke hattı kesiti yetersizliği"
+        "Uzatma kablosu/şebeke hattı kesiti yetersizliği",
+        "Akü geriliminin izin verilen aralığın dışında olması",
+        "Şebeke gerilimi düşük besleme konnektöründe temassızlık",
+        "Ana sigorta veya besleme hattında direnç",
+        "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
       "kontroller": [
-        "Şarj süresi uzamasını gözlemleyin; mesaj yalnız bilgilendirme amaçlıdır"
+        "Şarj süresi uzamasını gözlemleyin; mesaj yalnız bilgilendirme amaçlıdır",
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "Şebeke gerilimi düşük besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -610,10 +648,18 @@
       "siddet": "uyari",
       "nedenler": [
         "Soğuk ortamda (dondurucu deposu vb.) çalışma",
-        "Akünün uzun süre soğuğa maruz kalması"
+        "Akünün uzun süre soğuğa maruz kalması",
+        "Akü şarj seviyesinin düşük olması",
+        "Akü hücresinde zayıflama",
+        "Akü bağlantı veya konnektöründe temassızlık",
+        "Şarj cihazı veya şarj devresinde arıza"
       ],
       "kontroller": [
-        "Aküyü daha sıcak bir ortamda kullanın/şarj edin"
+        "Aküyü daha sıcak bir ortamda kullanın/şarj edin",
+        "Akü gerilimini ve şarj seviyesini ölçün",
+        "Akü kutup başlarını ve konnektörleri temizleyip sıkın",
+        "Akü hücrelerini yük testiyle kontrol edin",
+        "Gerekirse aküyü şarj edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -879,10 +925,17 @@
       "siddet": "uyari",
       "nedenler": [
         "Başka araca ait güvenlik veri kaydının yüklenmesi",
-        "Dongle seri numarası hatası"
+        "Dongle seri numarası hatası",
+        "Güvenlik veri kaydındaki seri numarası dongle ile eşleşmiyor ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Araç için geçerli güvenlik veri kaydını Safe'e yükleyin"
+        "Araç için geçerli güvenlik veri kaydını Safe'e yükleyin",
+        "Güvenlik veri kaydındaki seri numarası dongle ile eşleşmiyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -904,10 +957,18 @@
       "siddet": "uyari",
       "nedenler": [
         "EEPROM yazımı sırasında gerilim düşümü",
-        "Bellek hücresi yıpranması"
+        "Bellek hücresi yıpranması",
+        "Parametre setinin bozulması veya kaybolması",
+        "Kart yazılım sürümleri arasında uyumsuzluk",
+        "Kalibrasyon değerlerinin geçersiz olması",
+        "Bellek yazma işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "Gaz/fren pedalı, yük sensörü veya direksiyon teach-in'ini tekrarlayın"
+        "Gaz/fren pedalı, yük sensörü veya direksiyon teach-in'ini tekrarlayın",
+        "Parametre setini okuyup geçerliliğini doğrulayın",
+        "Kart yazılım sürümlerini karşılaştırın",
+        "Kalibrasyonu yeniden yapın",
+        "Gerekirse fabrika parametrelerini yükleyin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -955,10 +1016,17 @@
       "siddet": "uyari",
       "nedenler": [
         "Yanlış kablo demeti veya parametrenin seçilmesi",
-        "Araç tipi kodlamasının değiştirilmesi"
+        "Araç tipi kodlamasının değiştirilmesi",
+        "Kişisel koruma şalteri işlevi kablo kodlamasıyla çelişiyor ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "0x218A 'kişisel koruma şalteri işlevi' parametresini 'brake switch' değerine ayarlayın"
+        "0x218A 'kişisel koruma şalteri işlevi' parametresini 'brake switch' değerine ayarlayın",
+        "Kişisel koruma şalteri işlevi kablo kodlamasıyla çelişiyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1032,10 +1100,18 @@
       "makineTepkisi": "Direksiyon set değeri yanlış yorumlanır.",
       "siddet": "uyari",
       "nedenler": [
-        "Farklı tip direksiyon koluna geçişte parametrenin güncellenmemesi"
+        "Farklı tip direksiyon koluna geçişte parametrenin güncellenmemesi",
+        "Parametre setinin bozulması veya kaybolması",
+        "Kart yazılım sürümleri arasında uyumsuzluk",
+        "Kalibrasyon değerlerinin geçersiz olması",
+        "Bellek yazma işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "Parametreyi bağlı set cihazının tipine göre doğru değere alın"
+        "Parametreyi bağlı set cihazının tipine göre doğru değere alın",
+        "Parametre setini okuyup geçerliliğini doğrulayın",
+        "Kart yazılım sürümlerini karşılaştırın",
+        "Kalibrasyonu yeniden yapın",
+        "Gerekirse fabrika parametrelerini yükleyin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1056,10 +1132,17 @@
       "makineTepkisi": "Alana özel hız/koruma profilleri uygulanamaz.",
       "siddet": "uyari",
       "nedenler": [
-        "JUDIT parametre girişinde hatalı alan numarası"
+        "JUDIT parametre girişinde hatalı alan numarası",
+        "Depo alanı numarası geçersiz ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Depo alanı parametresini JUDIT üzerinden düzeltin"
+        "Depo alanı parametresini JUDIT üzerinden düzeltin",
+        "Depo alanı numarası geçersiz ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1080,10 +1163,18 @@
       "makineTepkisi": "Bilgilendirme mesajıdır; akü şarj stratejisi değişir.",
       "siddet": "uyari",
       "nedenler": [
-        "Müşteri isteğiyle modun etkinleştirilmesi"
+        "Müşteri isteğiyle modun etkinleştirilmesi",
+        "Akü şarj seviyesinin düşük olması",
+        "Akü hücresinde zayıflama",
+        "Akü bağlantı veya konnektöründe temassızlık",
+        "Şarj cihazı veya şarj devresinde arıza"
       ],
       "kontroller": [
-        "Bilgilendirme mesajıdır; davranış beklenen kapsamdadır"
+        "Bilgilendirme mesajıdır; davranış beklenen kapsamdadır",
+        "Akü gerilimini ve şarj seviyesini ölçün",
+        "Akü kutup başlarını ve konnektörleri temizleyip sıkın",
+        "Akü hücrelerini yük testiyle kontrol edin",
+        "Gerekirse aküyü şarj edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1130,10 +1221,18 @@
       "makineTepkisi": "Bilgilendirme amaçlıdır; tekrarında destek gerekir.",
       "siddet": "uyari",
       "nedenler": [
-        "Yazılım hatası (geliştirme/test durumu)"
+        "Yazılım hatası (geliştirme/test durumu)",
+        "Parametre setinin bozulması veya kaybolması",
+        "Kart yazılım sürümleri arasında uyumsuzluk",
+        "Kalibrasyon değerlerinin geçersiz olması",
+        "Bellek yazma işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "Arıza tekrarlanırsa Teknik Destek ile irtibata geçin"
+        "Arıza tekrarlanırsa Teknik Destek ile irtibata geçin",
+        "Parametre setini okuyup geçerliliğini doğrulayın",
+        "Kart yazılım sürümlerini karşılaştırın",
+        "Kalibrasyonu yeniden yapın",
+        "Gerekirse fabrika parametrelerini yükleyin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1234,10 +1333,17 @@
       "siddet": "uyari",
       "nedenler": [
         "Acil stop devresi kablolamasında kopukluk",
-        "İlgili ünitelerden birinin geç yanıt vermesi"
+        "İlgili ünitelerden birinin geç yanıt vermesi",
+        "Dur izleme: acil stop devresi geri beslemeleri eksik ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Acil stop devresi kablolarını kontrol edin"
+        "Acil stop devresi kablolarını kontrol edin",
+        "Dur izleme: acil stop devresi geri beslemeleri eksik ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1286,10 +1392,17 @@
       "siddet": "uyari",
       "nedenler": [
         "Tahrik motoru hız sensörü gürültüsü/arızası",
-        "Frenin tam tutmaması"
+        "Frenin tam tutmaması",
+        "Durur pozisyonda istem dışı kalkışa karşı koruma ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Tahrik motoru hız sensörlerini kontrol edip değiştirin"
+        "Tahrik motoru hız sensörlerini kontrol edip değiştirin",
+        "Durur pozisyonda istem dışı kalkışa karşı koruma ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1683,11 +1796,18 @@
       "makineTepkisi": "Bilgilendirme amaçlıdır; kaldırma sınırlaması aktif kalabilir.",
       "siddet": "uyari",
       "nedenler": [
-        "Güvenlik yüksekliği switchi ile kolun birlikte kullanımı"
+        "Güvenlik yüksekliği switchi ile kolun birlikte kullanımı",
+        "'Kaldırma/indirme' ve 'güvenlik yüksekliği' geçersiz kombinasyonu ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
         "Direği uzatın / çatal taşıyıcıyı kaldırarak kombinasyonu düzeltin",
-        "Yükseklik switchini kontrol edin"
+        "Yükseklik switchini kontrol edin",
+        "'Kaldırma/indirme' ve 'güvenlik yüksekliği' geçersiz kombinasyonu ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1734,10 +1854,17 @@
       "makineTepkisi": "Açılışta fonksiyon kilidi oluşabilir.",
       "siddet": "uyari",
       "nedenler": [
-        "Kontağın şaltere basılı halde çevrilmesi"
+        "Kontağın şaltere basılı halde çevrilmesi",
+        "Açılışta operatör koruma şalteri basılı ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Açılışta koruma şalterine basmayın; tekrar ederse kabloları kontrol edin"
+        "Açılışta koruma şalterine basmayın; tekrar ederse kabloları kontrol edin",
+        "Açılışta operatör koruma şalteri basılı ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1890,10 +2017,17 @@
       "makineTepkisi": "Test süresince araç frenlenerek durdurulur.",
       "siddet": "uyari",
       "nedenler": [
-        "Servis personelinin fren testi başlatması"
+        "Servis personelinin fren testi başlatması",
+        "'Servis freni testi' servis fonksiyonu ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Bilgilendirme mesajıdır; test bitince kontağı açıp kapatın"
+        "Bilgilendirme mesajıdır; test bitince kontağı açıp kapatın",
+        "'Servis freni testi' servis fonksiyonu ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1914,10 +2048,17 @@
       "makineTepkisi": "Rejeneratif frenleme geçici devre dışıdır.",
       "siddet": "uyari",
       "nedenler": [
-        "Servis personelinin test başlatması"
+        "Servis personelinin test başlatması",
+        "'Mekanik servis freni testi' servis fonksiyonu ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Bilgilendirme mesajıdır; test bitince aracı kapatıp açın"
+        "Bilgilendirme mesajıdır; test bitince aracı kapatıp açın",
+        "'Mekanik servis freni testi' servis fonksiyonu ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1964,10 +2105,18 @@
       "makineTepkisi": "Hidrolik talep geçici kısıtlanır.",
       "siddet": "uyari",
       "nedenler": [
-        "Hidrolik kolların aynı anda yük altında kullanılması"
+        "Hidrolik kolların aynı anda yük altında kullanılması",
+        "Motor stop önleme (anti-stall) aktif sargısında arıza",
+        "Motor faz kablolarında kopukluk veya kısa devre",
+        "Motor sıcaklık sensörü arızası",
+        "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Çalışma hidroliği kollarını nötr konuma alın"
+        "Çalışma hidroliği kollarını nötr konuma alın",
+        "Motor stop önleme (anti-stall) aktif sargı direncini ve yalıtımını ölçün",
+        "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
+        "Motor sıcaklık sensörü direncini ölçün",
+        "Gerekirse motoru servise gönderin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -2041,10 +2190,18 @@
       "makineTepkisi": "Akü derin deşarj riski altındadır.",
       "siddet": "uyari",
       "nedenler": [
-        "Uzun süre şarjsız kullanım"
+        "Uzun süre şarjsız kullanım",
+        "Akü şarj seviyesinin düşük olması",
+        "Akü hücresinde zayıflama",
+        "Akü bağlantı veya konnektöründe temassızlık",
+        "Şarj cihazı veya şarj devresinde arıza"
       ],
       "kontroller": [
-        "Bilgilendirme mesajıdır; aküyü şarj edin"
+        "Bilgilendirme mesajıdır; aküyü şarj edin",
+        "Akü gerilimini ve şarj seviyesini ölçün",
+        "Akü kutup başlarını ve konnektörleri temizleyip sıkın",
+        "Akü hücrelerini yük testiyle kontrol edin",
+        "Gerekirse aküyü şarj edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -2066,10 +2223,17 @@
       "siddet": "uyari",
       "nedenler": [
         "Yağ kaçağı",
-        "Eksik yağlama/bakım"
+        "Eksik yağlama/bakım",
+        "Rezervuar seviyesi çok düşük ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "İşletme kılavuzuna göre yağ/tanker seviyesini tamamlayın"
+        "İşletme kılavuzuna göre yağ/tanker seviyesini tamamlayın",
+        "Rezervuar seviyesi çok düşük ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -2116,10 +2280,17 @@
       "makineTepkisi": "Açılış kilidi oluşabilir; tekrar ederse sensörler sorgulanır.",
       "siddet": "uyari",
       "nedenler": [
-        "Kontak açılırken kollara/butonlara basılması"
+        "Kontak açılırken kollara/butonlara basılması",
+        "Açılış testinde kumanda butonlarına basılı ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kontağı açıp kapatın; açılışta kumandalara basmayın"
+        "Kontağı açıp kapatın; açılışta kumandalara basmayın",
+        "Açılış testinde kumanda butonlarına basılı ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,

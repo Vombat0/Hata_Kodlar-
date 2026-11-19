@@ -22,7 +22,10 @@
         "Şanzıman/valf mekanik hatası (üreticinin saydığı alternatifler)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Geri vites şanzıman basıncı komutu tolerans üstü aşıyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "524225-0",
@@ -47,7 +50,10 @@
         "Şanzıman/valf mekanik hatası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "İleri-1 şanzıman basıncı komutu tolerans üstü aşıyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "524223-0",
@@ -72,7 +78,10 @@
         "Basınç sensörü hatası veya mekanik şanzıman kusuru (otomatik revizyon gerektirmez)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Geri vites şanzıman basıncı komutun tolerans altında ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "524223-0",
@@ -97,7 +106,10 @@
         "Basınç sensörü hatası veya mekanik şanzıman kusuru"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "İleri-1 şanzıman basıncı komutun tolerans altında ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "524225-0",
@@ -122,7 +134,10 @@
         "Arızalı IAT sensörü veya motor kontrolörü"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Emme havası sıcaklık sensörü sinyali yüksek aralık dışı sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "105-4",
@@ -147,7 +162,10 @@
         "Kontrolör hatası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Emme havası sıcaklık sensörü sinyali düşük aralık dışı sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "105-3"
@@ -171,7 +189,10 @@
         "Kontrolör işlev arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Motor soğutma suyu sıcaklık sensörü sinyali düşük aralık dışı sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "105-4",
@@ -196,7 +217,10 @@
         "Sensör veya VSM arızası (LPG anahtarı opsiyonlu)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yakıt seviye sensörü veya LPG seçici anahtarı girişi düşük besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "522603-4"
@@ -220,7 +244,10 @@
         "Sinyalin 5V/akü hattına kısayolu, sensör veya kontrolör hatası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "LPG yakıt sıcaklık sensörü sinyali yüksek aralık dışı sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "522603-4",
@@ -245,7 +272,10 @@
         "Kontrolör işlev arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "LPG yakıt sıcaklık sensörü gerilimi düşük aralık dışı sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "522603-3",
@@ -270,7 +300,10 @@
         "Arızalı pedal sensörü veya kontrolör sinyali"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Gaz pedalı konum sensörü A kanalı yüksek aralık dışı besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "522713-3",
@@ -295,7 +328,10 @@
         "Arızalı pedal sensörü veya kontrolör sinyali"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Gaz pedalı konum sensörü B kanalı yüksek aralık dışı besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "522712-3",
@@ -320,7 +356,10 @@
         "Sensör hatası veya kontrolör girişi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Gaz pedalı konum sensörü A kanalı düşük aralık dışı besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "522712-3",
@@ -345,7 +384,10 @@
         "Sensör hatası veya kontrolör girişi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Gaz pedalı konum sensörü B kanalı düşük aralık dışı besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "522713-3",
@@ -370,7 +412,10 @@
         "Sensör hatası veya ECU işlev arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Elektronik gaz kelebeği konum sensörü A kanalı yüksek besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "522711-3",
@@ -395,7 +440,10 @@
         "Sensör hatası veya ECU işlev arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Elektronik gaz kelebeği konum sensörü B kanalı yüksek besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "522710-3",
@@ -420,7 +468,10 @@
         "Bozuk TPS veya kontrolör hatası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Elektronik gaz kelebeği konum sensörü A kanalı düşük besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "522710-3",
@@ -445,7 +496,10 @@
         "Bozuk TPS veya kontrolör hatası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Elektronik gaz kelebeği konum sensörü B kanalı düşük besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "522711-3",
@@ -470,7 +524,10 @@
         "Arızalı sensör veya kontrolör"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Park freni konum sensörü sinyali yüksek aralık dışı besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "523780-4",

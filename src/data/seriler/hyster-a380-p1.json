@@ -19,10 +19,16 @@
       "nedenler": [
         "Gaz kelebeği plağı veya motoru",
         "TPS çift kanalı",
-        "Ortak 5 V/return devresi, konnektör/kablo ve ECU"
+        "Ortak 5 V/return devresi, konnektör/kablo ve ECU",
+        "TPS1 ve TPS2 gaz konumu birbiriyle çelişiyor ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "TPS1 ve TPS2 gaz konumu birbiriyle çelişiyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "51-31",
@@ -44,10 +50,16 @@
       "nedenler": [
         "Gaz kelebeği plağı veya motoru",
         "TPS çift kanalı",
-        "Ortak 5 V/return devresi, konnektör/kablo ve ECU"
+        "Ortak 5 V/return devresi, konnektör/kablo ve ECU",
+        "Gaz konumu komut edilen değere ulaşmıyor ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Gaz konumu komut edilen değere ulaşmıyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "51-2",
@@ -69,10 +81,17 @@
       "nedenler": [
         "Gaz kelebeği plağı veya motoru",
         "TPS çift kanalı",
-        "Ortak 5 V/return devresi, konnektör/kablo ve ECU"
+        "Ortak 5 V/return devresi, konnektör/kablo ve ECU",
+        "Her iki gaz konumu sensörü gerilimi aralık dışında arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Her iki gaz konumu sensörü gerilimi aralık dışında besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "51-2",
@@ -94,10 +113,17 @@
       "nedenler": [
         "APP1/APP2 kanal çelişkisi",
         "Gaz pedalı sensörü",
-        "Tesisat/şase/referans veya ECU işleme"
+        "Tesisat/şase/referans veya ECU işleme",
+        "Gaz pedalı sensör kanalları konum uyuşmazlığı arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Gaz pedalı sensör kanalları konum uyuşmazlığı besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "51-2",
@@ -119,10 +145,16 @@
       "nedenler": [
         "Yakıt basıncı sensörü konnektörü/tesisatı",
         "Yakıt tedariği basıncında düzensizlik",
-        "ECU arızası"
+        "ECU arızası",
+        "Primer yakıt basıncı beklenen aralığın üzerinde ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Primer yakıt basıncı beklenen aralığın üzerinde ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "94-1",
@@ -145,10 +177,16 @@
       "nedenler": [
         "Yakıt basıncı sensörü konnektörü/tesisatı",
         "Yakıt tedariği basıncında düzensizlik",
-        "ECU arızası"
+        "ECU arızası",
+        "Primer yakıt basıncı beklenen aralığın altında ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Primer yakıt basıncı beklenen aralığın altında ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "94-0",
@@ -170,10 +208,16 @@
       "nedenler": [
         "Sensör konnektörü/tesisatı",
         "Devre gerilimi aralık dışı",
-        "ECU giriş kademesi"
+        "ECU giriş kademesi",
+        "Primer yakıt basıncı devre sinyali yüksek ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Primer yakıt basıncı devre sinyali yüksek ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "94-4",
@@ -195,10 +239,16 @@
       "nedenler": [
         "Sensör konnektörü/tesisatı",
         "Devre gerilimi aralık dışı",
-        "ECU giriş kademesi"
+        "ECU giriş kademesi",
+        "Primer yakıt basıncı devre sinyali düşük ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Primer yakıt basıncı devre sinyali düşük ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "94-3",
@@ -220,10 +270,17 @@
       "nedenler": [
         "Yağ basıncı vericisi",
         "353-A nolu devre tesisatı/konnektörü",
-        "Sinyal/referans hatası veya ECU girişi"
+        "Sinyal/referans hatası veya ECU girişi",
+        "Motor yağ basıncı sensör sinyali yüksek arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Motor yağ basıncı sensör sinyali yüksek besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "100-4",
@@ -243,10 +300,16 @@
       "makineTepkisi": "Uyarı lambası yanabilir; kontrolör basınç bilgisini yedekler",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Motor yağ basıncı sensörü gerilimi düşük arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Motor yağ basıncı sensörü gerilimi düşük besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "100-3"
@@ -267,10 +330,17 @@
       "nedenler": [
         "IAT sensörü gerilim/sıcaklık sinyali",
         "Tesisat",
-        "Gerçek aşırı emme havası sıcaklığı"
+        "Gerçek aşırı emme havası sıcaklığı",
+        "Emme havası sıcaklık sensörü sinyali yüksek üzerinde aşırı yük",
+        "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
+        "Yüksek ortam sıcaklığı",
+        "Termik sensör sapması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Emme havası sıcaklık sensörü sinyali yüksek sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "105-16",
@@ -292,10 +362,16 @@
       "nedenler": [
         "IAT sensörü gerilim/sıcaklık sinyali",
         "Tesisat",
-        "Gerçek aşırı emme havası sıcaklığı"
+        "Gerçek aşırı emme havası sıcaklığı",
+        "Emme havası sıcaklığı beklenenin üzerinde ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Emme havası sıcaklığı beklenenin üzerinde ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "105-3"
@@ -316,10 +392,17 @@
       "nedenler": [
         "TMAP sinyal hattı",
         "Referans besleme/şase tesisatı",
-        "Sensör arızası"
+        "Sensör arızası",
+        "Manifold basıncı sensörü gerilimi yüksek arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Manifold basıncı sensörü gerilimi yüksek besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "106-4",
@@ -341,10 +424,17 @@
       "nedenler": [
         "TMAP sinyal hattı",
         "Referans besleme/şase tesisatı",
-        "Sensör arızası"
+        "Sensör arızası",
+        "Manifold basıncı sensörü gerilimi düşük arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Manifold basıncı sensörü gerilimi düşük besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "106-3"
@@ -365,10 +455,16 @@
       "nedenler": [
         "TMAP sinyal hattı",
         "Referans besleme/şase tesisatı",
-        "Sensör arızası"
+        "Sensör arızası",
+        "Barometrik basınç alt sınırın altında ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Barometrik basınç alt sınırın altında ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "106-3",
@@ -390,10 +486,17 @@
       "nedenler": [
         "ECT sensör devresi açıklığı/kısayolu",
         "Sinyal/referans tesisatı",
-        "ECT sensörü hatası"
+        "ECT sensörü hatası",
+        "Motor soğutma suyu sıcaklık sensörü sinyali yüksek/açık üzerinde aşırı yük",
+        "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
+        "Yüksek ortam sıcaklığı",
+        "Termik sensör sapması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Motor soğutma suyu sıcaklık sensörü sinyali yüksek/açık sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "110-4",
@@ -415,10 +518,17 @@
       "nedenler": [
         "ECT sensör devresi açıklığı/kısayolu",
         "Sinyal/referans tesisatı",
-        "ECT sensörü hatası"
+        "ECT sensörü hatası",
+        "Motor soğutma suyu sıcaklık sensörü sinyali düşük üzerinde aşırı yük",
+        "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
+        "Yüksek ortam sıcaklığı",
+        "Termik sensör sapması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Motor soğutma suyu sıcaklık sensörü sinyali düşük sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "110-3"
@@ -439,10 +549,17 @@
       "nedenler": [
         "Akü/şarj kaynağının durumu",
         "Kısa şarj çevrimi",
-        "Kontak kapalıyken aşırı akım çekişi (ölçüm gerekir, akü suçlanamaz)"
+        "Kontak kapalıyken aşırı akım çekişi (ölçüm gerekir, akü suçlanamaz)",
+        "Akü geriliminin izin verilen aralığın dışında olması",
+        "Akü gerilimi yüksek besleme konnektöründe temassızlık",
+        "Ana sigorta veya besleme hattında direnç",
+        "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "Akü gerilimi yüksek besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "ErrC027"
@@ -463,10 +580,17 @@
       "nedenler": [
         "Sensör beslemesinde kısa veya çapraz besleme",
         "Tesisat hatası",
-        "Sensörlerin referansı yüklemesi veya ECU referans kademesi"
+        "Sensörlerin referansı yüklemesi veya ECU referans kademesi",
+        "Beş voltluk sensör besleme devresi yüksek arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Beş voltluk sensör besleme devresi yüksek besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "524223-0",
@@ -486,10 +610,16 @@
       "makineTepkisi": "Ağdaki modüllerle veri akışı kesilir; motor/şanzıman koordinasyonu bozulur",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "ECU CAN iletişim gönderme/alma hatası kablo demetinde kopukluk veya gevşek konnektör",
+        "CAN hattı terminasyon direnci hatalı",
+        "İlgili kartın besleme gerilimi düşük",
+        "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "ECU CAN iletişim gönderme/alma hatası konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
+        "İlgili kartın besleme gerilimini ölçün",
+        "Kart yazılım sürümlerini karşılaştırın"
       ],
       "ilgiliKodlar": [
         "2000-14"
@@ -510,10 +640,17 @@
       "nedenler": [
         "ECU besleme/toprak hattı",
         "CAN-H/CAN-L tesisatı",
-        "İletişim kademesi veya ECU arızası"
+        "İletişim kademesi veya ECU arızası",
+        "ECU CAN adres çakışması kablo demetinde kopukluk veya gevşek konnektör",
+        "CAN hattı terminasyon direnci hatalı",
+        "İlgili kartın besleme gerilimi düşük",
+        "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "ECU CAN adres çakışması konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
+        "İlgili kartın besleme gerilimini ölçün",
+        "Kart yazılım sürümlerini karşılaştırın"
       ],
       "ilgiliKodlar": [
         "2000-12"

@@ -23,7 +23,10 @@
         "Hatalı konfigürasyon veya gerçekten anormal motor durumu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Direksiyon sürücü modülü aşırı akım sargı direncini ve yalıtımını ölçün",
+        "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
+        "Motor sıcaklık sensörü direncini ölçün",
+        "Gerekirse motoru servise gönderin"
       ],
       "ilgiliKodlar": [
         "101",
@@ -49,7 +52,10 @@
         "Ağır direksiyon yükü gibi gerçek anormal motor koşulu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Direksiyon sürücü modülü yüksek akım uyarısı ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "100",
@@ -74,7 +80,10 @@
         "Motor sargısı veya SDM çıkış kademesi arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Direksiyon motoru devresi faz beslemesinde açık veya kısa hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "100",
@@ -99,7 +108,10 @@
         "SDM gerilim algılama kademesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "Direksiyon sürücü modülü yüksek gerilim beslemesi besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "211",
@@ -124,7 +136,10 @@
         "Ağır duty çevrimi veya modül içi kayıp"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Direksiyon sürücü modülü aşırı sıcaklık sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "121",
@@ -149,7 +164,10 @@
         "Sürekli ağır yük altında modül kaybı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Direksiyon sürücü modülü yüksek sıcaklık uyarısı sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "120",
@@ -174,7 +192,10 @@
         "Modüllerden birinin iletişim kademesi arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "VCM ile direksiyon sürücü modülü (SDM) arası CAN iletişim hatası konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
+        "İlgili kartın besleme gerilimini ölçün",
+        "Kart yazılım sürümlerini karşılaştırın"
       ],
       "ilgiliKodlar": [
         "230",
@@ -199,7 +220,10 @@
         "SDM modül iç arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kontak aç/kapat yaparak kartı yeniden başlatın",
+        "Kart besleme gerilimini ölçün",
+        "Parametre setini yeniden yükleyin",
+        "Arıza sürerse kartı değiştirin"
       ],
       "ilgiliKodlar": [
         "130",
@@ -224,7 +248,10 @@
         "SDM sürücü kademesi arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Seyr park freni bobin devresi açık veya aşırı akımlı hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "102",
@@ -249,7 +276,10 @@
         "ECR3 sensörünün kendisi veya SDM giriş kademesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Direksiyon motoru ECR3 Hall enkoder sinyal hatası besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "181",
@@ -274,7 +304,10 @@
         "Sensör veya SDM giriş kademesi arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Direksiyon ECR4 step enkoder sinyal hatası besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "180",
@@ -299,7 +332,10 @@
         "SDM giriş algılama hatası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Direksiyon ileri hizalama anahtarı SFS1/1SA beklenen sinyali vermiyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "183",
@@ -324,7 +360,10 @@
         "SDM giriş kademesi arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Direksiyon kadran tespit anahtarı SFS2 beklenen sinyali vermiyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "182",
@@ -349,7 +388,10 @@
         "Tesisat kesintisi sonrası konum sayımının kayması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kayıtlı ile güncel direksiyon tekerlek konumu uyuşmuyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "180",
@@ -374,7 +416,10 @@
         "Sensör veya giriş kademesi arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Direksiyon motoru sıcaklık sensörü devresi kopuk/kısa sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "180",
@@ -399,7 +444,10 @@
         "Motor/pompa mekanik takılması veya HDM çıkış kademesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hidrolik sürücü modülü güç kademesinde yüksek akım ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "201",
@@ -424,7 +472,10 @@
         "HDM gerilim algılama kademesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "Hidrolik sürücü modülü düşük batarya gerilimi besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "110",
@@ -449,7 +500,10 @@
         "HDM iç devre arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "HDM dahili 15 V referans/PWM beslemesi düşük ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "213",
@@ -474,7 +528,10 @@
         "HDM iç besleme arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "HDM dahili 5 V referans/ölçüm beslemesi düşük ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "212",
@@ -499,7 +556,10 @@
         "HDM şarj kontrol kademesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Akü gerilimini ve şarj seviyesini ölçün",
+        "Akü kutup başlarını ve konnektörleri temizleyip sıkın",
+        "Akü hücrelerini yük testiyle kontrol edin",
+        "Gerekirse aküyü şarj edin veya değiştirin"
       ],
       "ilgiliKodlar": [
         "309",

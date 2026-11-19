@@ -43,10 +43,17 @@
       "makineTepkisi": "Ayar tamamlanınca normal moda döner.",
       "siddet": "bilgi",
       "nedenler": [
-        "Başlatma modu sürüyor"
+        "Başlatma modu sürüyor",
+        "EPS öğrenme (teaching) modu ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Ayar işlemini tamamlayın; orbit rol rotor gevşekse sıkın."
+        "Ayar işlemini tamamlayın; orbit rol rotor gevşekse sıkın.",
+        "EPS öğrenme (teaching) modu ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -65,10 +72,18 @@
       "makineTepkisi": "Alternatif direksiyon desteği kapanır.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Direksiyon sensörü kısa devresi ya da arızası"
+        "Direksiyon sensörü kısa devresi ya da arızası",
+        "Direksiyon açısı sensörü hatası arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Kontrolör beslemesini kontrol edin; gerekirse kontrolörü değiştirin."
+        "Kontrolör beslemesini kontrol edin; gerekirse kontrolörü değiştirin.",
+        "Direksiyon açısı sensörü hatası besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -88,10 +103,18 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Tekerlek sensörü bağlantısı kopuk/kısa",
-        "Sensör yanlış monte edilmiş"
+        "Sensör yanlış monte edilmiş",
+        "Tekerlek devir sensörü hatası arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Tekerlek sensörü ve devresini kontrol edin; montaj yönünü doğrulayın."
+        "Tekerlek sensörü ve devresini kontrol edin; montaj yönünü doğrulayın.",
+        "Tekerlek devir sensörü hatası besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -112,10 +135,17 @@
       "nedenler": [
         "Kontrolör arızası",
         "Valf sürücü devresi hatası",
-        "Orbit rol rotor boşluğu"
+        "Orbit rol rotor boşluğu",
+        "EPS ünite arızası / ayar modu dışı ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Klemeleri kontrol edin; gerekirse kontrolörü değiştirin."
+        "Klemeleri kontrol edin; gerekirse kontrolörü değiştirin.",
+        "EPS ünite arızası / ayar modu dışı ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -134,10 +164,15 @@
       "makineTepkisi": "Kısıtlama yoktur.",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "EPS normal çalışma ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "EPS normal çalışma ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,

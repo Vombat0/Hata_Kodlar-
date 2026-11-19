@@ -20,11 +20,18 @@
       "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Gaz sinyali çıkışının hatalı olması"
+        "Gaz sinyali çıkışının hatalı olması",
+        "Gaz çıkış sinyali hatalı ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
         "Gaz sinyali potansiyometresini ve kablo bağlantılarını kontrol edin.",
-        "Çıkış sinyalini ölçün."
+        "Çıkış sinyalini ölçün.",
+        "Gaz çıkış sinyali hatalı ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -44,11 +51,19 @@
       "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Seyir akım sensörü çıkışının arızalı olması"
+        "Seyir akım sensörü çıkışının arızalı olması",
+        "Yürüyüş akım sensörü çıkışı hatalı arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
         "Akım sensörü kablo ve konnektörünü kontrol edin.",
-        "Gerekirse sensörü değiştirin."
+        "Gerekirse sensörü değiştirin.",
+        "Yürüyüş akım sensörü çıkışı hatalı besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -98,10 +113,18 @@
       "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Yürüyüş kontaktöründe kısa devre"
+        "Yürüyüş kontaktöründe kısa devre",
+        "Yürüyüş kontaktörü kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Kontaktör kontaklarını ve sürücü devresini kontrol edin."
+        "Kontaktör kontaklarını ve sürücü devresini kontrol edin.",
+        "Yürüyüş kontaktörü kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -121,10 +144,18 @@
       "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Yürüyüş kontaktörünün açık kalması"
+        "Yürüyüş kontaktörünün açık kalması",
+        "Yürüyüş kontaktörü açık hattında kopukluk",
+        "Konnektör piminde temassızlık",
+        "Kablo demetinde ezilme veya kesik",
+        "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Kontaktör bobinini ve kablo bağlantılarını kontrol edin."
+        "Kontaktör bobinini ve kablo bağlantılarını kontrol edin.",
+        "Yürüyüş kontaktörü açık hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -144,11 +175,18 @@
       "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Yürüyüş ana sigortasının atması"
+        "Yürüyüş ana sigortasının atması",
+        "Yürüyüş ana sigortası atmış atmasına yol açan aşırı akım",
+        "Sigorta yuvasında gevşeme veya oksitlenme",
+        "Sigorta sonrası devrede kısa devre"
       ],
       "kontroller": [
         "Ana sigortayı kontrol edin, gerekirse değiştirin.",
-        "Sigorta atma nedeni olan kısa devreyi inceleyin."
+        "Sigorta atma nedeni olan kısa devreyi inceleyin.",
+        "Yürüyüş ana sigortası atmış sigortasını süreklilik testiyle kontrol edin",
+        "Sigorta yuvasını ve temas yüzeylerini inceleyin",
+        "Sigorta sonrası devrede kısa devre olup olmadığını ölçün",
+        "Gerekirse aynı değerde sigortayla değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -195,11 +233,19 @@
       "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Yükleme kaldırma potansiyometresinin arızalı olması"
+        "Yükleme kaldırma potansiyometresinin arızalı olması",
+        "Kaldırma potansiyometresi arızalı potansiyometresinde aşınma",
+        "Sinyal hattında kopukluk veya kısa devre",
+        "Konnektörde gevşek temas",
+        "Kalibrasyon değerlerinin kaybolması"
       ],
       "kontroller": [
         "Potansiyometre kablo ve konnektörünü kontrol edin.",
-        "Gerekirse potansiyometreyi değiştirin."
+        "Gerekirse potansiyometreyi değiştirin.",
+        "Kaldırma potansiyometresi arızalı potansiyometresinin çıkış gerilimini ölçün",
+        "Potansiyometre konnektörünü ve kablo demetini kontrol edin",
+        "Potansiyometre değerlerini yeniden kalibre edin",
+        "Gerekirse potansiyometreyi değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -219,10 +265,18 @@
       "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Yükleme akım sensörü çıkışının arızalı olması"
+        "Yükleme akım sensörü çıkışının arızalı olması",
+        "Yükleme akım sensörü hatalı arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Akım sensörü ve kablolarını kontrol edin."
+        "Akım sensörü ve kablolarını kontrol edin.",
+        "Yükleme akım sensörü hatalı besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -275,10 +329,18 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Yükleme FET güç modülünde açık devre",
-        "Güç direksiyon transistöründe açık devre"
+        "Güç direksiyon transistöründe açık devre",
+        "Yükleme FET modülü açık / direksiyon transistörü açık hattında kopukluk",
+        "Konnektör piminde temassızlık",
+        "Kablo demetinde ezilme veya kesik",
+        "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Yükleme FET modülünü ve güç direksiyon transistörünü kontrol edin."
+        "Yükleme FET modülünü ve güç direksiyon transistörünü kontrol edin.",
+        "Yükleme FET modülü açık / direksiyon transistörü açık hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -301,10 +363,18 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Yükleme kontaktöründe kısa devre",
-        "Güç direksiyon kontaktöründe kısa devre"
+        "Güç direksiyon kontaktöründe kısa devre",
+        "Yükleme kontaktörü kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Yükleme ve direksiyon kontaktörlerini kontrol edin."
+        "Yükleme ve direksiyon kontaktörlerini kontrol edin.",
+        "Yükleme kontaktörü kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -327,10 +397,18 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Yükleme kontaktörünün açık kalması",
-        "Güç direksiyon sigorta/kontaktörünün açık kalması"
+        "Güç direksiyon sigorta/kontaktörünün açık kalması",
+        "Yükleme kontaktörü açık hattında kopukluk",
+        "Konnektör piminde temassızlık",
+        "Kablo demetinde ezilme veya kesik",
+        "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Yükleme ve direksiyon kontaktör/sigortalarını kontrol edin."
+        "Yükleme ve direksiyon kontaktör/sigortalarını kontrol edin.",
+        "Yükleme kontaktörü açık hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -350,10 +428,17 @@
       "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Yükleme ana sigortasının atması"
+        "Yükleme ana sigortasının atması",
+        "Yükleme ana sigortası atmış atmasına yol açan aşırı akım",
+        "Sigorta yuvasında gevşeme veya oksitlenme",
+        "Sigorta sonrası devrede kısa devre"
       ],
       "kontroller": [
-        "Yükleme hattı ana sigortasını kontrol edin, gerekirse değiştirin."
+        "Yükleme hattı ana sigortasını kontrol edin, gerekirse değiştirin.",
+        "Yükleme ana sigortası atmış sigortasını süreklilik testiyle kontrol edin",
+        "Sigorta yuvasını ve temas yüzeylerini inceleyin",
+        "Sigorta sonrası devrede kısa devre olup olmadığını ölçün",
+        "Gerekirse aynı değerde sigortayla değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -448,10 +533,18 @@
       "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Güç direksiyon tork sensörü çıkışının arızalı olması"
+        "Güç direksiyon tork sensörü çıkışının arızalı olması",
+        "Güç direksiyon tork sensörü hatalı arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Direksiyon tork sensörü ve kablolarını kontrol edin."
+        "Direksiyon tork sensörü ve kablolarını kontrol edin.",
+        "Güç direksiyon tork sensörü hatalı besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -474,10 +567,18 @@
       "siddet": "uyari",
       "nedenler": [
         "Yürüyüş kontrolörü termik sensörü arızası",
-        "Yükleme kontrolörü termik sensörü arızası"
+        "Yükleme kontrolörü termik sensörü arızası",
+        "Sürücü termik sensör hatalı üzerinde aşırı yük",
+        "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
+        "Yüksek ortam sıcaklığı",
+        "Termik sensör sapması"
       ],
       "kontroller": [
-        "Yürüyüş ve yükleme kontrolörlerinin sıcaklık sensörlerini kontrol edin."
+        "Yürüyüş ve yükleme kontrolörlerinin sıcaklık sensörlerini kontrol edin.",
+        "Sürücü termik sensör hatalı sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,

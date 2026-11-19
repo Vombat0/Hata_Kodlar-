@@ -49,10 +49,17 @@
       "siddet": "uyari",
       "nedenler": [
         "E-03 ile aynı veriyolü nedenleri",
-        "OBD/bakım konnektöründe korozyon"
+        "OBD/bakım konnektöründe korozyon",
+        "ECM iletişim hatası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "OBD/bakım konnektörü korozyon için kontrol edilir"
+        "OBD/bakım konnektörü korozyon için kontrol edilir",
+        "ECM iletişim hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "E-03"
@@ -74,10 +81,17 @@
       "siddet": "uyari",
       "nedenler": [
         "CAN tesisatı",
-        "Gösterge paneli konnektörleri"
+        "Gösterge paneli konnektörleri",
+        "DCM (gösterge modülü) iletişim kaybı ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "CAN demeti ve gösterge paneli fişleri kontrol edilir"
+        "CAN demeti ve gösterge paneli fişleri kontrol edilir",
+        "DCM (gösterge modülü) iletişim kaybı ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "E-03",
@@ -99,10 +113,18 @@
       "makineTepkisi": "Modüller arası veri akışı bozulur",
       "siddet": "uyari",
       "nedenler": [
-        "E-03/E-04 ile aynı: besleme-toprak ve CAN tesisatı"
+        "E-03/E-04 ile aynı: besleme-toprak ve CAN tesisatı",
+        "Genel CAN veriyolü arızası kablo demetinde kopukluk veya gevşek konnektör",
+        "CAN hattı terminasyon direnci hatalı",
+        "İlgili kartın besleme gerilimi düşük",
+        "Kart yazılım sürümleri uyumsuz"
       ],
       "kontroller": [
-        "E-03 adımları uygulanır"
+        "E-03 adımları uygulanır",
+        "Genel CAN veriyolü arızası konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
+        "İlgili kartın besleme gerilimini ölçün",
+        "Kart yazılım sürümlerini karşılaştırın"
       ],
       "ilgiliKodlar": [
         "E-03",
@@ -125,10 +147,18 @@
       "siddet": "uyari",
       "nedenler": [
         "MAF üzerinde kopuk kablo",
-        "Emme borusundaki sensörün gevşek konnektörü"
+        "Emme borusundaki sensörün gevşek konnektörü",
+        "Sıcak tel hava akış sensörü (MAF) sinyal arızası arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "MAF konnektörü ve kablosu sıkılık/kopukluk açısından bakılır"
+        "MAF konnektörü ve kablosu sıkılık/kopukluk açısından bakılır",
+        "Sıcak tel hava akış sensörü (MAF) sinyal arızası besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "E-22",
@@ -232,10 +262,18 @@
       "siddet": "uyari",
       "nedenler": [
         "O2 sensör konnektöründe temas sorunu",
-        "Sensörün kendisi"
+        "Sensörün kendisi",
+        "O2 sensörü sinyal devresi hatası arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Önce konnektör sonra sensör denenir"
+        "Önce konnektör sonra sensör denenir",
+        "O2 sensörü sinyal devresi hatası besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "E-26",
@@ -259,10 +297,18 @@
       "siddet": "uyari",
       "nedenler": [
         "Isıtıcı devre süreksizliği",
-        "Sensör iç ısıtıcısının arızası"
+        "Sensör iç ısıtıcısının arızası",
+        "O2 sensörü ısıtıcı devresi hatası arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "E-25 konnektör/sensör kontrol sırası uygulanır"
+        "E-25 konnektör/sensör kontrol sırası uygulanır",
+        "O2 sensörü ısıtıcı devresi hatası besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "E-25"
@@ -312,10 +358,18 @@
       "siddet": "uyari",
       "nedenler": [
         "Kam sensörü arızası",
-        "Sensör tesisatı"
+        "Sensör tesisatı",
+        "Kam milı konum sensörü arızası arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Sensör ve kablosu test edilir"
+        "Sensör ve kablosu test edilir",
+        "Kam milı konum sensörü arızası besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "E-27"
@@ -394,10 +448,17 @@
       "siddet": "uyari",
       "nedenler": [
         "ETC rölesinde korozyon",
-        "Röleye su girişi"
+        "Röleye su girişi",
+        "Elektronik gaz kontrol aktüatörü devre hatası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "ETC rölesi korozyon/nem açısından sökülüp bakılır"
+        "ETC rölesi korozyon/nem açısından sökülüp bakılır",
+        "Elektronik gaz kontrol aktüatörü devre hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "E-23",
@@ -448,10 +509,18 @@
       "makineTepkisi": "Araç durdurulmalıdır; motor risk altında",
       "siddet": "uyari",
       "nedenler": [
-        "E-32 nedenlerinin derinleşmiş hali"
+        "E-32 nedenlerinin derinleşmiş hali",
+        "Soğutma suyu aşırı ısınması 2. kademe üzerinde aşırı yük",
+        "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
+        "Yüksek ortam sıcaklığı",
+        "Termik sensör sapması"
       ],
       "kontroller": [
-        "Soğutma arızası giderilmeden araç çalıştırılmaz"
+        "Soğutma arızası giderilmeden araç çalıştırılmaz",
+        "Soğutma suyu aşırı ısınması 2. kademe sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "E-32"
@@ -474,10 +543,18 @@
       "nedenler": [
         "Bobin besleme yolda gerilim yokluğu",
         "Bobin veya buji arızası",
-        "ECM ateşleme sürücüsü"
+        "ECM ateşleme sürücüsü",
+        "Ateşleme bobinine gerilim yok bobininde açık veya kısa devre",
+        "Selenoid besleme hattında kopukluk",
+        "Valf gövdesinde sıkışma veya kirlenme",
+        "Selenoid konnektöründe gevşeme"
       ],
       "kontroller": [
-        "Kontağı açıkken bobinde 12V ölçülür"
+        "Kontağı açıkken bobinde 12V ölçülür",
+        "Ateşleme bobinine gerilim yok bobin direncini ölçün",
+        "Selenoid besleme hattında süreklilik kontrolü yapın",
+        "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
+        "Gerekirse selenoidi veya valfi değiştirin"
       ],
       "ilgiliKodlar": [
         "E-27"
@@ -526,10 +603,18 @@
       "siddet": "uyari",
       "nedenler": [
         "Sensörde kopuk kablo",
-        "Gevşek konnektör"
+        "Gevşek konnektör",
+        "LPG yakıt basıncı sensörü devre hatası arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Sensör bağlantısı ve kablosu süreklilik testiyle kontrol edilir"
+        "Sensör bağlantısı ve kablosu süreklilik testiyle kontrol edilir",
+        "LPG yakıt basıncı sensörü devre hatası besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "E-38",
@@ -551,10 +636,17 @@
       "makineTepkisi": "Gaz modunda karışım zenginleşebilir",
       "siddet": "uyari",
       "nedenler": [
-        "Vaporizer/regülatör ayar veya diyofram arızası"
+        "Vaporizer/regülatör ayar veya diyofram arızası",
+        "LPG buharlaştırıcı çıkış basıncı yüksek ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Vaporizer/regülatör çıkış basıncı ölçülür"
+        "Vaporizer/regülatör çıkış basıncı ölçülür",
+        "LPG buharlaştırıcı çıkış basıncı yüksek ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "E-36"
@@ -575,10 +667,18 @@
       "makineTepkisi": "Beklenir bir tepki yok; izleme kaydı oluşabilir",
       "siddet": "bilgi",
       "nedenler": [
-        "Sensör veya devre sapması (kaynak ayrıntı vermez)"
+        "Sensör veya devre sapması (kaynak ayrıntı vermez)",
+        "Yağ basıncı sensörü izleme hatası arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Sensör devresi panel kaydı üzerinden izlenir"
+        "Sensör devresi panel kaydı üzerinden izlenir",
+        "Yağ basıncı sensörü izleme hatası besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "E-22"
@@ -599,11 +699,18 @@
       "makineTepkisi": "Stop lambası ve ilgili lojikler etkilenir",
       "siddet": "uyari",
       "nedenler": [
-        "Fren şalterinin ayar kayması"
+        "Fren şalterinin ayar kayması",
+        "Fren (stop lambası) şalteri ayarsız ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
         "Fren şalteri ayarlanır (lamba bulunmasa dahi)",
-        "Kod temizlenirken pedal basılı tutulur"
+        "Kod temizlenirken pedal basılı tutulur",
+        "Fren (stop lambası) şalteri ayarsız ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "E-24"
@@ -624,10 +731,17 @@
       "makineTepkisi": "Egzoz dumanı ve tüketim artar; rölanti bozulur",
       "siddet": "uyari",
       "nedenler": [
-        "Karışımın tam zengin ya da tam zayıf sınıra yapışması"
+        "Karışımın tam zengin ya da tam zayıf sınıra yapışması",
+        "Hava-yakıt oranı bozuk ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Karışımı sınırlayan yakıt ve hava tarafı bileşenleri gözden geçirilir"
+        "Karışımı sınırlayan yakıt ve hava tarafı bileşenleri gözden geçirilir",
+        "Hava-yakıt oranı bozuk ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "E-43",
@@ -680,10 +794,18 @@
       "siddet": "uyari",
       "nedenler": [
         "Sensörde kopuk kablo",
-        "Gevşek konnektör"
+        "Gevşek konnektör",
+        "Atmosfer basıncı sensörü devre hatası arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Sensör bağlantı ve kablo sürekliliği ölçülür"
+        "Sensör bağlantı ve kablo sürekliliği ölçülür",
+        "Atmosfer basıncı sensörü devre hatası besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "E-21"

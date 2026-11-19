@@ -20,10 +20,17 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Vites konum sinyali mantık hatası"
+        "Vites konum sinyali mantık hatası",
+        "Vites konum sinyali mantık hatası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın."
+        "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın.",
+        "Vites konum sinyali mantık hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -43,10 +50,17 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Yön seçme sinyali mantık hatası"
+        "Yön seçme sinyali mantık hatası",
+        "Yön seçme sinyali mantık hatası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın."
+        "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın.",
+        "Yön seçme sinyali mantık hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -66,10 +80,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Kavrama kesme girişinde akü (+) kısa devresi"
+        "Kavrama kesme girişinde akü (+) kısa devresi",
+        "Kavrama kesme girişi hattında akü (+) kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
+        "Kavrama kesme girişi hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -89,10 +111,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Kavrama kesme girişinde şase kısa devresi veya açık devre"
+        "Kavrama kesme girişinde şase kısa devresi veya açık devre",
+        "Kavrama kesme girişinde şase kısa devresi veya açık devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
+        "Kavrama kesme girişinde şase kısa devresi veya açık devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -112,10 +142,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Yük sensörü girişinde akü (+) kısa devresi"
+        "Yük sensörü girişinde akü (+) kısa devresi",
+        "Yük sensörü girişi hattında akü (+) kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
+        "Yük sensörü girişi hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -135,10 +173,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Yük sensörü girişinde şase kısa devresi veya açık devre"
+        "Yük sensörü girişinde şase kısa devresi veya açık devre",
+        "Yük sensörü girişinde şase kısa devresi veya açık devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
+        "Yük sensörü girişinde şase kısa devresi veya açık devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -158,10 +204,18 @@
       "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Şanzıman sıcaklık sensörü girişinde akü (+) kısa devresi veya açık devre"
+        "Şanzıman sıcaklık sensörü girişinde akü (+) kısa devresi veya açık devre",
+        "Şanzıman sıcaklık sensörü girişi sinyal hatası üzerinde aşırı yük",
+        "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
+        "Yüksek ortam sıcaklığı",
+        "Termik sensör sapması"
       ],
       "kontroller": [
-        "İlgili devreyi ve konnektörleri kontrol edin; gerekirse bileşeni değiştirin."
+        "İlgili devreyi ve konnektörleri kontrol edin; gerekirse bileşeni değiştirin.",
+        "Şanzıman sıcaklık sensörü girişi sinyal hatası sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -181,10 +235,18 @@
       "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Şanzıman sıcaklık sensörü girişinde akü (+) kısa devresi veya açık devre"
+        "Şanzıman sıcaklık sensörü girişinde akü (+) kısa devresi veya açık devre",
+        "Sıcaklık sensörü girişi hattında şase kısa devresi üzerinde aşırı yük",
+        "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
+        "Yüksek ortam sıcaklığı",
+        "Termik sensör sapması"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
+        "Sıcaklık sensörü girişi hattında şase kısa devresi sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -204,10 +266,18 @@
       "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Motor devri girişinde akü (+) kısa devresi veya açık devre"
+        "Motor devri girişinde akü (+) kısa devresi veya açık devre",
+        "Motor devri girişi hattında akü (+) kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "TCU'dan hız sensörüne giden kabloyu kontrol edin; TCU girişinde 7 V üzeri gerilim ölçülüyor."
+        "TCU'dan hız sensörüne giden kabloyu kontrol edin; TCU girişinde 7 V üzeri gerilim ölçülüyor.",
+        "Motor devri girişi hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -227,10 +297,18 @@
       "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Motor devri girişinde şase kısa devresi"
+        "Motor devri girişinde şase kısa devresi",
+        "Motor devri girişinde şase kısa devresi veya açık devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "TCU kablo bağlantısını kontrol edin; TCU girişinde 0 V altında gerilim ölçülüyor."
+        "TCU kablo bağlantısını kontrol edin; TCU girişinde 0 V altında gerilim ölçülüyor.",
+        "Motor devri girişinde şase kısa devresi veya açık devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -250,10 +328,18 @@
       "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Motor devri girişi sinyal mantık hatası"
+        "Motor devri girişi sinyal mantık hatası",
+        "Motor devri girişi sinyali mantık hatası sargısında arıza",
+        "Motor faz kablolarında kopukluk veya kısa devre",
+        "Motor sıcaklık sensörü arızası",
+        "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın."
+        "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın.",
+        "Motor devri girişi sinyali mantık hatası sargı direncini ve yalıtımını ölçün",
+        "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
+        "Motor sıcaklık sensörü direncini ölçün",
+        "Gerekirse motoru servise gönderin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -273,10 +359,18 @@
       "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Türbin devri girişinde akü (+) kısa devresi veya açık devre"
+        "Türbin devri girişinde akü (+) kısa devresi veya açık devre",
+        "Türbin devri girişi hattında akü (+) kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "TCU'dan hız sensörüne giden kabloyu kontrol edin; çıkışta arıza varsa TCU 7 V üzeri gerilim ölçer."
+        "TCU'dan hız sensörüne giden kabloyu kontrol edin; çıkışta arıza varsa TCU 7 V üzeri gerilim ölçer.",
+        "Türbin devri girişi hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -296,10 +390,18 @@
       "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Türbin devri girişinde şase kısa devresi"
+        "Türbin devri girişinde şase kısa devresi",
+        "Türbin devri girişinde şase kısa devresi veya açık devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "TCU kablo bağlantısını kontrol edin; güç kesilip verildiğinde arıza sıfırlanır, girişte 0 V altı gerilim ölçülür."
+        "TCU kablo bağlantısını kontrol edin; güç kesilip verildiğinde arıza sıfırlanır, girişte 0 V altı gerilim ölçülür.",
+        "Türbin devri girişinde şase kısa devresi veya açık devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -319,10 +421,17 @@
       "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Türbin devri girişi sinyal mantık hatası"
+        "Türbin devri girişi sinyal mantık hatası",
+        "Türbin devri girişi sinyali mantık hatası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın."
+        "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın.",
+        "Türbin devri girişi sinyali mantık hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -342,10 +451,18 @@
       "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
       "siddet": "kisitlayici",
       "nedenler": [
-        "İç devir girişinde akü (+) kısa devresi veya açık devre"
+        "İç devir girişinde akü (+) kısa devresi veya açık devre",
+        "İç devir girişi hattında akü (+) kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "TCU'dan hız sensörüne giden kabloyu kontrol edin; TCU girişinde 7 V üzeri gerilim ölçülüyor."
+        "TCU'dan hız sensörüne giden kabloyu kontrol edin; TCU girişinde 7 V üzeri gerilim ölçülüyor.",
+        "İç devir girişi hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -365,10 +482,18 @@
       "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Türbin devri girişinde şase kısa devresi"
+        "Türbin devri girişinde şase kısa devresi",
+        "İç devir girişinde şase kısa devresi veya açık devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "TCU kablo bağlantısını kontrol edin; TCU girişinde 0 V altında gerilim ölçülüyor."
+        "TCU kablo bağlantısını kontrol edin; TCU girişinde 0 V altında gerilim ölçülüyor.",
+        "İç devir girişinde şase kısa devresi veya açık devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -388,10 +513,17 @@
       "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
       "siddet": "kisitlayici",
       "nedenler": [
-        "İç devir girişi sinyal mantık hatası"
+        "İç devir girişi sinyal mantık hatası",
+        "İç devir girişi sinyali mantık hatası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın."
+        "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın.",
+        "İç devir girişi sinyali mantık hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -411,10 +543,18 @@
       "makineTepkisi": "Vites seçimi özel moda geçer.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Çıkış devri girişinde akü (+) kısa devresi veya açık devre"
+        "Çıkış devri girişinde akü (+) kısa devresi veya açık devre",
+        "Çıkış devri girişinde akü (+) kısa devre veya açık devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "TCU'dan hız sensörüne giden kabloyu kontrol edin; OP modunda ikame kavrama kontrolü aktiftir, girişte 12 V üzeri gerilim ölçülür."
+        "TCU'dan hız sensörüne giden kabloyu kontrol edin; OP modunda ikame kavrama kontrolü aktiftir, girişte 12 V üzeri gerilim ölçülür.",
+        "Çıkış devri girişinde akü (+) kısa devre veya açık devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -434,10 +574,18 @@
       "makineTepkisi": "Vites seçimi özel moda geçer.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Çıkış devri girişinde şase kısa devresi"
+        "Çıkış devri girişinde şase kısa devresi",
+        "Çıkış devri girişinde şase kısa devresi veya açık devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "TCU kablo bağlantısını kontrol edin; girişte 1 V altında gerilim ölçülüyor."
+        "TCU kablo bağlantısını kontrol edin; girişte 1 V altında gerilim ölçülüyor.",
+        "Çıkış devri girişinde şase kısa devresi veya açık devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -457,10 +605,17 @@
       "makineTepkisi": "Vites seçimi özel moda geçer.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Çıkış devri girişi sinyal mantık hatası"
+        "Çıkış devri girişi sinyal mantık hatası",
+        "Çıkış devri girişi sinyali mantık hatası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın."
+        "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın.",
+        "Çıkış devri girişi sinyali mantık hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -480,10 +635,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "K1 kavraması hattında akü (+) kısa devresi"
+        "K1 kavraması hattında akü (+) kısa devresi",
+        "K1 kavraması hattında akü (+) kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
+        "K1 kavraması hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -503,10 +666,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "durdurucu",
       "nedenler": [
-        "K1 kavraması hattında şase kısa devresi"
+        "K1 kavraması hattında şase kısa devresi",
+        "K1 kavraması hattında şase kısa devresi hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
+        "K1 kavraması hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -526,10 +697,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "durdurucu",
       "nedenler": [
-        "K1 kavraması hattında açık devre"
+        "K1 kavraması hattında açık devre",
+        "K1 kavraması hattında açık devre hattında kopukluk",
+        "Konnektör piminde temassızlık",
+        "Kablo demetinde ezilme veya kesik",
+        "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın."
+        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın.",
+        "K1 kavraması hattında açık devre hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -549,10 +728,18 @@
       "makineTepkisi": "TCU şanzımanı boşa alır.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "K2 kavraması hattında akü (+) kısa devresi"
+        "K2 kavraması hattında akü (+) kısa devresi",
+        "K2 kavraması hattında akü (+) kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
+        "K2 kavraması hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -572,10 +759,18 @@
       "makineTepkisi": "TCU şanzımanı boşa alır.",
       "siddet": "durdurucu",
       "nedenler": [
-        "K2 kavraması hattında şase kısa devresi"
+        "K2 kavraması hattında şase kısa devresi",
+        "K2 kavraması hattında şase kısa devresi hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
+        "K2 kavraması hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -595,10 +790,18 @@
       "makineTepkisi": "TCU şanzımanı boşa alır.",
       "siddet": "durdurucu",
       "nedenler": [
-        "K2 kavraması hattında açık devre"
+        "K2 kavraması hattında açık devre",
+        "K2 kavraması hattında açık devre hattında kopukluk",
+        "Konnektör piminde temassızlık",
+        "Kablo demetinde ezilme veya kesik",
+        "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın."
+        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın.",
+        "K2 kavraması hattında açık devre hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -618,10 +821,18 @@
       "makineTepkisi": "TCU şanzımanı boşa alır.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "K3 kavraması hattında akü (+) kısa devresi"
+        "K3 kavraması hattında akü (+) kısa devresi",
+        "K3 kavraması hattında akü (+) kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
+        "K3 kavraması hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -641,10 +852,18 @@
       "makineTepkisi": "TCU şanzımanı boşa alır.",
       "siddet": "durdurucu",
       "nedenler": [
-        "K3 kavraması hattında şase kısa devresi"
+        "K3 kavraması hattında şase kısa devresi",
+        "K3 kavraması hattında şase kısa devresi hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
+        "K3 kavraması hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -664,10 +883,18 @@
       "makineTepkisi": "TCU şanzımanı boşa alır.",
       "siddet": "durdurucu",
       "nedenler": [
-        "K2 kavraması hattında açık devre"
+        "K2 kavraması hattında açık devre",
+        "K3 kavraması hattında açık devre hattında kopukluk",
+        "Konnektör piminde temassızlık",
+        "Kablo demetinde ezilme veya kesik",
+        "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın."
+        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın.",
+        "K3 kavraması hattında açık devre hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -687,10 +914,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Konvertör kavraması hattında akü (+) kısa devresi"
+        "Konvertör kavraması hattında akü (+) kısa devresi",
+        "Konvertör kavraması hattında akü (+) kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
+        "Konvertör kavraması hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -710,10 +945,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Konvertör kavraması hattında şase kısa devresi"
+        "Konvertör kavraması hattında şase kısa devresi",
+        "Konvertör kavraması hattında şase kısa devresi hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
+        "Konvertör kavraması hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -733,10 +976,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Konvertör kavraması hattında açık devre"
+        "Konvertör kavraması hattında açık devre",
+        "Converter clutch hattında açık devre hattında kopukluk",
+        "Konnektör piminde temassızlık",
+        "Kablo demetinde ezilme veya kesik",
+        "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın."
+        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın.",
+        "Converter clutch hattında açık devre hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -756,10 +1007,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "K4 kavraması hattında akü (+) kısa devresi"
+        "K4 kavraması hattında akü (+) kısa devresi",
+        "K4 kavraması hattında akü (+) kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
+        "K4 kavraması hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -779,10 +1038,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "durdurucu",
       "nedenler": [
-        "K4 kavraması hattında şase kısa devresi"
+        "K4 kavraması hattında şase kısa devresi",
+        "K4 kavraması hattında şase kısa devresi hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
+        "K4 kavraması hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -802,10 +1069,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "durdurucu",
       "nedenler": [
-        "K4 kavraması hattında açık devre"
+        "K4 kavraması hattında açık devre",
+        "K4 kavraması hattında açık devre hattında kopukluk",
+        "Konnektör piminde temassızlık",
+        "Kablo demetinde ezilme veya kesik",
+        "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın."
+        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın.",
+        "K4 kavraması hattında açık devre hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -825,10 +1100,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "KV kavraması hattında akü (+) kısa devresi"
+        "KV kavraması hattında akü (+) kısa devresi",
+        "KV kavraması hattında akü (+) kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
+        "KV kavraması hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -848,10 +1131,18 @@
       "makineTepkisi": "TCU şanzımanı boşa alır.",
       "siddet": "durdurucu",
       "nedenler": [
-        "KV kavraması hattında şase kısa devresi"
+        "KV kavraması hattında şase kısa devresi",
+        "KV kavraması hattında şase kısa devresi hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
+        "KV kavraması hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -871,10 +1162,18 @@
       "makineTepkisi": "TCU şanzımanı boşa alır.",
       "siddet": "durdurucu",
       "nedenler": [
-        "KV kavraması hattında açık devre"
+        "KV kavraması hattında açık devre",
+        "KV kavraması hattında açık devre hattında kopukluk",
+        "Konnektör piminde temassızlık",
+        "Kablo demetinde ezilme veya kesik",
+        "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın."
+        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın.",
+        "KV kavraması hattında açık devre hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -894,10 +1193,18 @@
       "makineTepkisi": "TCU şanzımanı boşa alır.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "KR kavraması hattında akü (+) kısa devresi"
+        "KR kavraması hattında akü (+) kısa devresi",
+        "KR kavraması hattında akü (+) kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
+        "KR kavraması hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -917,10 +1224,18 @@
       "makineTepkisi": "TCU şanzımanı boşa alır.",
       "siddet": "durdurucu",
       "nedenler": [
-        "KR kavraması hattında şase kısa devresi"
+        "KR kavraması hattında şase kısa devresi",
+        "KR kavraması hattında şase kısa devresi hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
+        "KR kavraması hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -940,10 +1255,18 @@
       "makineTepkisi": "TCU şanzımanı boşa alır.",
       "siddet": "durdurucu",
       "nedenler": [
-        "KR kavraması hattında açık devre"
+        "KR kavraması hattında açık devre",
+        "KR kavraması hattında açık devre hattında kopukluk",
+        "Konnektör piminde temassızlık",
+        "Kablo demetinde ezilme veya kesik",
+        "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın."
+        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın.",
+        "KR kavraması hattında açık devre hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -963,10 +1286,18 @@
       "makineTepkisi": "Geri vites ikaz uyarısı aktif kalır.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Geri vites ikaz rölesi hattında şase kısa devresi"
+        "Geri vites ikaz rölesi hattında şase kısa devresi",
+        "Geri vites ikaz rölesi hattında şase kısa devresi hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "TCU'dan geri vites ikaz cihazına giden kabloyu kontrol edin; TCU çıkışta hatalı gerilim algıladı. Gevşek bağlantıyı ve S görünümlü pimi inceleyin."
+        "TCU'dan geri vites ikaz cihazına giden kabloyu kontrol edin; TCU çıkışta hatalı gerilim algıladı. Gevşek bağlantıyı ve S görünümlü pimi inceleyin.",
+        "Geri vites ikaz rölesi hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -986,10 +1317,18 @@
       "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Geri vites ikaz rölesi hattında akü (+) kısa devresi"
+        "Geri vites ikaz rölesi hattında akü (+) kısa devresi",
+        "Geri vites ikaz rölesi hattında akü (+) kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "TCU'dan geri vites ikaz cihazına giden kabloyu ve konnektörleri kontrol edin; OP modu normaldir, çıkışta hatalı gerilim algılandı."
+        "TCU'dan geri vites ikaz cihazına giden kabloyu ve konnektörleri kontrol edin; OP modu normaldir, çıkışta hatalı gerilim algılandı.",
+        "Geri vites ikaz rölesi hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1009,10 +1348,18 @@
       "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Geri vites ikaz rölesi hattında açık devre"
+        "Geri vites ikaz rölesi hattında açık devre",
+        "Geri vites ikaz rölesi hattında açık devre hattında kopukluk",
+        "Konnektör piminde temassızlık",
+        "Kablo demetinde ezilme veya kesik",
+        "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "TCU çıkış hattını ve konnektörleri kontrol edin; OP modu normaldir, geri vites ikaz devresinde hatalı gerilim algılandı."
+        "TCU çıkış hattını ve konnektörleri kontrol edin; OP modu normaldir, geri vites ikaz devresinde hatalı gerilim algılandı.",
+        "Geri vites ikaz rölesi hattında açık devre hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1032,10 +1379,18 @@
       "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Marş kilitleme rölesi hattında şase kısa devresi"
+        "Marş kilitleme rölesi hattında şase kısa devresi",
+        "Marş kilitleme rölesi hattında şase kısa devresi hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "TCU çıkış hattını ve marş kilitleme rölesi konnektörlerini kontrol edin; OP modu normaldir, çıkışta hatalı gerilim algılandı."
+        "TCU çıkış hattını ve marş kilitleme rölesi konnektörlerini kontrol edin; OP modu normaldir, çıkışta hatalı gerilim algılandı.",
+        "Marş kilitleme rölesi hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1055,10 +1410,18 @@
       "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Marş kilitleme rölesi hattında akü (+) kısa devresi"
+        "Marş kilitleme rölesi hattında akü (+) kısa devresi",
+        "Marş kilitleme rölesi hattında akü (+) kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "TCU'dan marş kilitleme rölesine giden kabloyu ve konnektörleri kontrol edin; OP modu normaldir, çıkışta hatalı gerilim algılandı."
+        "TCU'dan marş kilitleme rölesine giden kabloyu ve konnektörleri kontrol edin; OP modu normaldir, çıkışta hatalı gerilim algılandı.",
+        "Marş kilitleme rölesi hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1078,10 +1441,18 @@
       "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Marş kilitleme rölesi hattında açık devre"
+        "Marş kilitleme rölesi hattında açık devre",
+        "Marş kilitleme rölesi hattında açık devre hattında kopukluk",
+        "Konnektör piminde temassızlık",
+        "Kablo demetinde ezilme veya kesik",
+        "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "TCU çıkış hattını ve konnektörleri kontrol edin; OP modu normaldir, marş kilitleme rölesi hattında hatalı gerilim algılandı."
+        "TCU çıkış hattını ve konnektörleri kontrol edin; OP modu normaldir, marş kilitleme rölesi hattında hatalı gerilim algılandı.",
+        "Marş kilitleme rölesi hattında açık devre hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1101,10 +1472,18 @@
       "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Park freni solenoidi hattında şase kısa devresi"
+        "Park freni solenoidi hattında şase kısa devresi",
+        "Park freni solenoidi hattında şase kısa devresi hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "TCU çıkış hattını ve park freni solenoidi konnektörlerini kontrol edin; OP modu normaldir, çıkışta hatalı gerilim algılandı."
+        "TCU çıkış hattını ve park freni solenoidi konnektörlerini kontrol edin; OP modu normaldir, çıkışta hatalı gerilim algılandı.",
+        "Park freni solenoidi hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1124,10 +1503,18 @@
       "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Park freni solenoidi hattında akü (+) kısa devresi"
+        "Park freni solenoidi hattında akü (+) kısa devresi",
+        "Park freni solenoidi hattında akü (+) kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "TCU'dan park freni solenoidine giden kabloyu ve konnektörleri kontrol edin; hatalı çıkış gerilimi TCU'nun boşa geçmesine yol açabilir."
+        "TCU'dan park freni solenoidine giden kabloyu ve konnektörleri kontrol edin; hatalı çıkış gerilimi TCU'nun boşa geçmesine yol açabilir.",
+        "Park freni solenoidi hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1147,10 +1534,18 @@
       "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Park freni solenoidi hattında açık devre"
+        "Park freni solenoidi hattında açık devre",
+        "Park freni solenoidi hattında açık devre hattında kopukluk",
+        "Konnektör piminde temassızlık",
+        "Kablo demetinde ezilme veya kesik",
+        "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "TCU çıkış hattını ve park freni solenoidi konektörlerini kontrol edin; çıkışta hatalı gerilim algılandı."
+        "TCU çıkış hattını ve park freni solenoidi konektörlerini kontrol edin; çıkışta hatalı gerilim algılandı.",
+        "Park freni solenoidi hattında açık devre hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1170,10 +1565,17 @@
       "makineTepkisi": "TCU şanzımanı boşa alır.",
       "siddet": "durdurucu",
       "nedenler": [
-        "K1 kavramasında kayma"
+        "K1 kavramasında kayma",
+        "K1 kavramasında kayma ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "K1 kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home."
+        "K1 kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home.",
+        "K1 kavramasında kayma ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1193,10 +1595,17 @@
       "makineTepkisi": "TCU şanzımanı boşa alır.",
       "siddet": "durdurucu",
       "nedenler": [
-        "K2 kavramasında kayma"
+        "K2 kavramasında kayma",
+        "K2 kavramasında kayma ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "K2 kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home."
+        "K2 kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home.",
+        "K2 kavramasında kayma ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1216,10 +1625,17 @@
       "makineTepkisi": "TCU şanzımanı boşa alır.",
       "siddet": "durdurucu",
       "nedenler": [
-        "K3 kavramasında kayma"
+        "K3 kavramasında kayma",
+        "K3 kavramasında kayma ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "K3 kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home."
+        "K3 kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home.",
+        "K3 kavramasında kayma ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1239,10 +1655,17 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "durdurucu",
       "nedenler": [
-        "K4 kavramasında kayma"
+        "K4 kavramasında kayma",
+        "K4 kavramasında kayma ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "İlgili kavramanın hidrolik basıncını ve sürtünme disklerini kontrol edin."
+        "İlgili kavramanın hidrolik basıncını ve sürtünme disklerini kontrol edin.",
+        "K4 kavramasında kayma ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1262,10 +1685,17 @@
       "makineTepkisi": "TCU şanzımanı boşa alır.",
       "siddet": "durdurucu",
       "nedenler": [
-        "KV kavramasında kayma"
+        "KV kavramasında kayma",
+        "KV kavramasında kayma ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "KV kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home."
+        "KV kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home.",
+        "KV kavramasında kayma ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1285,10 +1715,17 @@
       "makineTepkisi": "TCU şanzımanı boşa alır.",
       "siddet": "durdurucu",
       "nedenler": [
-        "KR kavramasında kayma"
+        "KR kavramasında kayma",
+        "KR kavramasında kayma ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "KR kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home."
+        "KR kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home.",
+        "KR kavramasında kayma ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1308,10 +1745,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sensör besleme hattında akü (+) kısa devresi"
+        "Sensör besleme hattında akü (+) kısa devresi",
+        "Sensör beslemesi hattında akü (+) kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
+        "Sensör beslemesi hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1331,10 +1776,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sensör besleme hattında şase kısa devresi"
+        "Sensör besleme hattında şase kısa devresi",
+        "Sensör beslemesi hattında şase kısa devresi hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
+        "Sensör beslemesi hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1354,10 +1807,18 @@
       "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Akü gerilimi düşük"
+        "Akü gerilimi düşük",
+        "Akü geriliminin izin verilen aralığın dışında olması",
+        "Akü gerilimi düşük besleme konnektöründe temassızlık",
+        "Ana sigorta veya besleme hattında direnç",
+        "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
       "kontroller": [
-        "Akü gerilimini, klemeleri ve şarj sistemini kontrol edin."
+        "Akü gerilimini, klemeleri ve şarj sistemini kontrol edin.",
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "Akü gerilimi düşük besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1377,10 +1838,18 @@
       "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Akü gerilimi yüksek"
+        "Akü gerilimi yüksek",
+        "Akü geriliminin izin verilen aralığın dışında olması",
+        "Akü gerilimi yüksek besleme konnektöründe temassızlık",
+        "Ana sigorta veya besleme hattında direnç",
+        "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
       "kontroller": [
-        "Akülerden TCU'ya giden kabloları ve besleme gerilimini kontrol edin (32 V sınırı)."
+        "Akülerden TCU'ya giden kabloları ve besleme gerilimini kontrol edin (32 V sınırı).",
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "Akü gerilimi yüksek besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1400,10 +1869,18 @@
       "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
       "siddet": "kisitlayici",
       "nedenler": [
-        "VPS1 valf besleme hatası"
+        "VPS1 valf besleme hatası",
+        "Valf besleme 1 hatası bobininde açık veya kısa devre",
+        "Selenoid besleme hattında kopukluk",
+        "Valf gövdesinde sıkışma veya kirlenme",
+        "Selenoid konnektöründe gevşeme"
       ],
       "kontroller": [
-        "İlgili valf besleme hattını ve konnektörlerini kontrol edin."
+        "İlgili valf besleme hattını ve konnektörlerini kontrol edin.",
+        "Valf besleme 1 hatası bobin direncini ölçün",
+        "Selenoid besleme hattında süreklilik kontrolü yapın",
+        "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
+        "Gerekirse selenoidi veya valfi değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1423,10 +1900,18 @@
       "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
       "siddet": "kisitlayici",
       "nedenler": [
-        "VPS2 valf besleme hatası"
+        "VPS2 valf besleme hatası",
+        "Valf besleme 2 hatası bobininde açık veya kısa devre",
+        "Selenoid besleme hattında kopukluk",
+        "Valf gövdesinde sıkışma veya kirlenme",
+        "Selenoid konnektöründe gevşeme"
       ],
       "kontroller": [
-        "İlgili valf besleme hattını ve konnektörlerini kontrol edin."
+        "İlgili valf besleme hattını ve konnektörlerini kontrol edin.",
+        "Valf besleme 2 hatası bobin direncini ölçün",
+        "Selenoid besleme hattında süreklilik kontrolü yapın",
+        "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
+        "Gerekirse selenoidi veya valfi değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1446,10 +1931,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hız göstergesi çıkışında akü (+) kısa devresi"
+        "Hız göstergesi çıkışında akü (+) kısa devresi",
+        "Hız göstergesi çıkışı hattında akü (+) kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
+        "Hız göstergesi çıkışı hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1469,10 +1962,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hız göstergesi çıkışında şase kısa devresi veya açık devre"
+        "Hız göstergesi çıkışında şase kısa devresi veya açık devre",
+        "Hız göstergesi çıkışında şase kısa devresi veya açık devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
+        "Hız göstergesi çıkışında şase kısa devresi veya açık devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1492,10 +1993,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Gösterge çıkışında akü (+) kısa devresi"
+        "Gösterge çıkışında akü (+) kısa devresi",
+        "Gösterge çıkışı hattında akü (+) kısa devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın.",
+        "Gösterge çıkışı hattında akü (+) kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1515,10 +2024,18 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Gösterge çıkışında şase kısa devresi"
+        "Gösterge çıkışında şase kısa devresi",
+        "Gösterge çıkışı hattında şase kısa devresi hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın.",
+        "Gösterge çıkışı hattında şase kısa devresi hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1538,10 +2055,17 @@
       "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "DeviceNet hattı iletişim hatası"
+        "DeviceNet hattı iletişim hatası",
+        "DeviceNet iletişim hatası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "İlgili devreyi ve konnektörleri kontrol edin; gerekirse bileşeni değiştirin."
+        "İlgili devreyi ve konnektörleri kontrol edin; gerekirse bileşeni değiştirin.",
+        "DeviceNet iletişim hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1561,10 +2085,18 @@
       "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Genel EEPROM arızası"
+        "Genel EEPROM arızası",
+        "Genel EEPROM arızası belleğinde veri bozulması",
+        "Bellek besleme geriliminde düşme",
+        "Kart üzerinde donanım arızası",
+        "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "İlgili devreyi ve konnektörleri kontrol edin; gerekirse bileşeni değiştirin."
+        "İlgili devreyi ve konnektörleri kontrol edin; gerekirse bileşeni değiştirin.",
+        "Kontak aç/kapat yaparak kartı yeniden başlatın",
+        "Kart besleme gerilimini ölçün",
+        "Parametre setini yeniden yükleyin",
+        "Arıza sürerse kartı değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1584,10 +2116,17 @@
       "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
       "siddet": "kisitlayici",
       "nedenler": [
-        "TCU yapılandırmasını kaybettiği için şanzıman boşta kalır; doğru yapılandırma yeniden programlanmalıdır"
+        "TCU yapılandırmasını kaybettiği için şanzıman boşta kalır; doğru yapılandırma yeniden programlanmalıdır",
+        "Yapılandırma kaybı ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "İlgili devreyi ve konnektörleri kontrol edin; gerekirse bileşeni değiştirin."
+        "İlgili devreyi ve konnektörleri kontrol edin; gerekirse bileşeni değiştirin.",
+        "Yapılandırma kaybı ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1607,10 +2146,17 @@
       "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
       "siddet": "kisitlayici",
       "nedenler": [
-        "TCU uygulama yazılımında hata var; şanzıman boşta kalır ve belirli test sırasında arıza oluşur"
+        "TCU uygulama yazılımında hata var; şanzıman boşta kalır ve belirli test sırasında arıza oluşur",
+        "Uygulama hatası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "İlgili devreyi ve konnektörleri kontrol edin; gerekirse bileşeni değiştirin."
+        "İlgili devreyi ve konnektörleri kontrol edin; gerekirse bileşeni değiştirin.",
+        "Uygulama hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,

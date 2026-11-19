@@ -22,7 +22,10 @@
         "CAN bağlantısı veya modül arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "ACCESS 7 beslemeliyken ACCESS 3 güç kaybı ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "109",
@@ -47,7 +50,10 @@
         "Access7 modülünün kendisi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "ACCESS 7 CAN iletişim kaybı konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
+        "İlgili kartın besleme gerilimini ölçün",
+        "Kart yazılım sürümlerini karşılaştırın"
       ],
       "ilgiliKodlar": [
         "108",
@@ -72,7 +78,10 @@
         "Valf mekanizması (kanıt bekler)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "PVP1 pivot saat yönü valfinde aşırı akım bobin direncini ölçün",
+        "Selenoid besleme hattında süreklilik kontrolü yapın",
+        "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
+        "Gerekirse selenoidi veya valfi değiştirin"
       ],
       "ilgiliKodlar": [
         "741",
@@ -97,7 +106,10 @@
         "Sürücü/tesisat hasarı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "PVP2 pivot saat yönü tersi valfinde aşırı akım bobin direncini ölçün",
+        "Selenoid besleme hattında süreklilik kontrolü yapın",
+        "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
+        "Gerekirse selenoidi veya valfi değiştirin"
       ],
       "ilgiliKodlar": [
         "740",
@@ -122,7 +134,10 @@
         "Sürücü kademesi arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "PVF2 çatallı geri çekme valfinde aşırı akım bobin direncini ölçün",
+        "Selenoid besleme hattında süreklilik kontrolü yapın",
+        "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
+        "Gerekirse selenoidi veya valfi değiştirin"
       ],
       "ilgiliKodlar": [
         "740",
@@ -147,7 +162,10 @@
         "ACCESS7 sürücü kademesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "PVLH yardımcı emniyet (relief) valfinde aşırı akım bobin direncini ölçün",
+        "Selenoid besleme hattında süreklilik kontrolü yapın",
+        "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
+        "Gerekirse selenoidi veya valfi değiştirin"
       ],
       "ilgiliKodlar": [
         "743",
@@ -172,7 +190,10 @@
         "Kontrolör arızası (hidrolik relieften bağımsız)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "SVAL yardımcı silindir indirme solenoidinde açık sürücü hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "745",
@@ -197,7 +218,10 @@
         "Mast tesisatı veya FLS sinyal uyumsuzluğu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "ACCESS4: mast yükseklik anahtarı HGTRS2 açık, serbest kaldırma anahtarı FLS kapalı hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "109",
@@ -222,7 +246,10 @@
         "FU3 sigortası/PCB ve kontrol anahtarı plauzibilitesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "X10 kolda gaz uyumsuzluğu / potansiyometre konum çelişkisi potansiyometresinin çıkış gerilimini ölçün",
+        "Potansiyometre konnektörünü ve kablo demetini kontrol edin",
+        "Potansiyometre değerlerini yeniden kalibre edin",
+        "Gerekirse potansiyometreyi değiştirin"
       ],
       "ilgiliKodlar": [
         "817",

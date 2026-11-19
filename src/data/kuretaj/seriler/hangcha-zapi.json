@@ -20,10 +20,17 @@
       "makineTepkisi": "Sürücü çıkışı keser, makine çalışmaz.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Kontrol ünitesi arızası"
+        "Kontrol ünitesi arızası",
+        "Donanım hata emniyeti / watchdog arızası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kontrol ünitesini kontrol edin; gerekirse değiştirin."
+        "Kontrol ünitesini kontrol edin; gerekirse değiştirin.",
+        "Donanım hata emniyeti / watchdog arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -46,10 +53,18 @@
         "Motor alan kablosunun gevşemesi",
         "Alan sargısı açık",
         "Armatür/alan akım sensörü arızası",
-        "Kontrol ünitesi arızası"
+        "Kontrol ünitesi arızası",
+        "Motor M- kısa devre / alan sargısı arızası hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "Motor sargı kablolarını ve akım sensörlerini kontrol edin."
+        "Motor sargı kablolarını ve akım sensörlerini kontrol edin.",
+        "Motor M- kısa devre / alan sargısı arızası hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -72,10 +87,17 @@
         "VSC referans kablosunun açık olması",
         "VSC girişinin B+ veya B-'ye kısa devre olması",
         "Gaz potansiyometresi arızası",
-        "Yanlış gaz tipi parametresi"
+        "Yanlış gaz tipi parametresi",
+        "Hız referans (VSC) sinyali arızası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "VSC hattını ve gaz potansiyometresini kontrol edin."
+        "VSC hattını ve gaz potansiyometresini kontrol edin.",
+        "Hız referans (VSC) sinyali arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -98,10 +120,17 @@
         "Yön ve gaz girişlerinin yanlış sıralanması",
         "Yanlış START LOCKOUT tipi",
         "Gaz potansiyometresi ayarsız",
-        "Sıralama gecikmesi çok kısa"
+        "Sıralama gecikmesi çok kısa",
+        "Start sequence (kilitleme) hatası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Gaz potansiyometresini ve sıralama parametrelerini kontrol edin."
+        "Gaz potansiyometresini ve sıralama parametrelerini kontrol edin.",
+        "Start sequence (kilitleme) hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -121,10 +150,18 @@
       "makineTepkisi": "Kontaktör enerjilenmez, güç devresi açıktır.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Kontaktör bobininde kısa devre"
+        "Kontaktör bobininde kısa devre",
+        "Kontaktör sürücü çıkışı aşırı akım bobininde açık devre",
+        "Kontaktör kontaklarında yapışma veya aşınma",
+        "Bobin besleme hattında kopukluk",
+        "Kontaktör sürücü çıkışında arıza"
       ],
       "kontroller": [
-        "Bobin devresini ve sürücü çıkışını kontrol edin."
+        "Bobin devresini ve sürücü çıkışını kontrol edin.",
+        "Kontaktör sürücü çıkışı aşırı akım bobin direncini ölçün",
+        "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
+        "Bobin besleme hattında süreklilik ölçün",
+        "Gerekirse kontaktörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -145,10 +182,18 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Ana kontaktörün yapışık kalması",
-        "Kontaktör sürücüsünde kısa devre"
+        "Kontaktör sürücüsünde kısa devre",
+        "Ana kontaktör yapışık bobininde açık devre",
+        "Kontaktör kontaklarında yapışma veya aşınma",
+        "Bobin besleme hattında kopukluk",
+        "Kontaktör sürücü çıkışında arıza"
       ],
       "kontroller": [
-        "Kontaktörü ve sürücü devresini hemen kontrol edin."
+        "Kontaktörü ve sürücü devresini hemen kontrol edin.",
+        "Ana kontaktör yapışık bobin direncini ölçün",
+        "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
+        "Bobin besleme hattında süreklilik ölçün",
+        "Gerekirse kontaktörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -169,10 +214,18 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Kontrol ünitesi arızası",
-        "B+ hattında B-'ye dış kısa devre veya kaçak yolu"
+        "B+ hattında B-'ye dış kısa devre veya kaçak yolu",
+        "Akü şarj seviyesinin düşük olması",
+        "Akü hücresinde zayıflama",
+        "Akü bağlantı veya konnektöründe temassızlık",
+        "Şarj cihazı veya şarj devresinde arıza"
       ],
       "kontroller": [
-        "Ön şarj devresini ve dış kablolamayı kontrol edin."
+        "Ön şarj devresini ve dış kablolamayı kontrol edin.",
+        "Akü gerilimini ve şarj seviyesini ölçün",
+        "Akü kutup başlarını ve konnektörleri temizleyip sıkın",
+        "Akü hücrelerini yük testiyle kontrol edin",
+        "Gerekirse aküyü şarj edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -193,10 +246,18 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Kontaktör bobinlerinden birinin açık veya bağlantısız olması",
-        "Ana kontaktör eksik veya bobin kablosu kopuk"
+        "Ana kontaktör eksik veya bobin kablosu kopuk",
+        "Kontaktör algılanamadı / kapanmadı bobininde açık devre",
+        "Kontaktör kontaklarında yapışma veya aşınma",
+        "Bobin besleme hattında kopukluk",
+        "Kontaktör sürücü çıkışında arıza"
       ],
       "kontroller": [
-        "Bobin kablolarını ve kontaktörü kontrol edin."
+        "Bobin kablolarını ve kontaktörü kontrol edin.",
+        "Kontaktör algılanamadı / kapanmadı bobin direncini ölçün",
+        "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
+        "Bobin besleme hattında süreklilik ölçün",
+        "Gerekirse kontaktörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -218,10 +279,18 @@
       "nedenler": [
         "Akü geriliminin aşırı gerilim kapanma sınırını aşması",
         "Şarj cihazı bağlı çalışma",
-        "Rejeneratif frenleme sırasında akü bağlantısının kopması"
+        "Rejeneratif frenleme sırasında akü bağlantısının kopması",
+        "Akü geriliminin izin verilen aralığın dışında olması",
+        "Aşırı gerilim besleme konnektöründe temassızlık",
+        "Ana sigorta veya besleme hattında direnç",
+        "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
       "kontroller": [
-        "Akü gerilimini ve şarj bağlantısını kontrol edin."
+        "Akü gerilimini ve şarj bağlantısını kontrol edin.",
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "Aşırı gerilim besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -244,10 +313,18 @@
         "Sıcaklığın 85°C üzeri veya -25°C altına çıkması",
         "Aşırı yük",
         "Kontrolörün hatalı montajı",
-        "Aşırı ortam koşullarında çalışma"
+        "Aşırı ortam koşullarında çalışma",
+        "Termal kesme üzerinde aşırı yük",
+        "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
+        "Yüksek ortam sıcaklığı",
+        "Termik sensör sapması"
       ],
       "kontroller": [
-        "Sıcaklığı, yükü ve kontrolör montajını kontrol edin."
+        "Sıcaklığı, yükü ve kontrolör montajını kontrol edin.",
+        "Termal kesme sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,

@@ -17,10 +17,16 @@
       "makineTepkisi": "Teşhis kodu ekranda görünür; yetkili servis çağrılması önerilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "VCM iletişim hatası sargısında arıza",
+        "Motor faz kablolarında kopukluk veya kısa devre",
+        "Motor sıcaklık sensörü arızası",
+        "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "VCM iletişim hatası sargı direncini ve yalıtımını ölçün",
+        "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
+        "Motor sıcaklık sensörü direncini ölçün",
+        "Gerekirse motoru servise gönderin"
       ],
       "ilgiliKodlar": [
         "E-04",
@@ -40,10 +46,15 @@
       "makineTepkisi": "Ekran kodu yanıp söner; motorlu çalışma kısıtlanabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "ECM iletişim hatası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "ECM iletişim hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "E-03",
@@ -63,10 +74,15 @@
       "makineTepkisi": "İletişim kodu ekrana düşer",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "MP (makine paketi) iletişim hatası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "MP (makine paketi) iletişim hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "F-07",
@@ -86,10 +102,15 @@
       "makineTepkisi": "Hata kodu motora ait uyarı grubunda görünür",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Hava akış ölçer hatalı sinyal üretiyor ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hava akış ölçer hatalı sinyal üretiyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "E-22",
@@ -109,10 +130,16 @@
       "makineTepkisi": "Sensör hatası kodu ekranda listelenir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Su sıcaklık sensörü hatalı sinyal üzerinde aşırı yük",
+        "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
+        "Yüksek ortam sıcaklığı",
+        "Termik sensör sapması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Su sıcaklık sensörü hatalı sinyal sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "E-32",
@@ -132,10 +159,16 @@
       "makineTepkisi": "Rölanti ve gaz tepkisi bozulabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Gaz kelebeği sensörü hatalı sinyal arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Gaz kelebeği sensörü hatalı sinyal besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "E-24",
@@ -155,10 +188,16 @@
       "makineTepkisi": "Pedal hareketi motora doğru yansımaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Gaz pedalı sensörü hatalı sinyal arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Gaz pedalı sensörü hatalı sinyal besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "E-23"
@@ -177,10 +216,16 @@
       "makineTepkisi": "Karışım kontrolü açık döngüye dönebilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "O2 (oksijen) sensörü hatalı sinyal arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "O2 (oksijen) sensörü hatalı sinyal besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "E-26"
@@ -199,10 +244,16 @@
       "makineTepkisi": "Isınma sonrası kapalı döngü gecikir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "O2 sensörü ısıtıcı devresi hatası arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "O2 sensörü ısıtıcı devresi hatası besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "E-25"
@@ -221,10 +272,16 @@
       "makineTepkisi": "Çalıştırma güçleşir veya motor stop edebilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "POS (krank konum) sensörü hatalı sinyal arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "POS (krank konum) sensörü hatalı sinyal besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "E-28",
@@ -244,10 +301,16 @@
       "makineTepkisi": "Zamanlama referansı kaybolabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "PHASE (kam konum) sensörü hatalı sinyal arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "PHASE (kam konum) sensörü hatalı sinyal besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "E-27"
@@ -266,10 +329,15 @@
       "makineTepkisi": "Otomatik durdurma davranışı güvensiz kalabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kendiliğinden durdurma sistemi hatası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kendiliğinden durdurma sistemi hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "E-30"
@@ -288,10 +356,15 @@
       "makineTepkisi": "Motor kontrol performans düşebilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "ECCS kontrol ünitesi hatalı sinyal ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "ECCS kontrol ünitesi hatalı sinyal ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "E-29",
@@ -311,10 +384,15 @@
       "makineTepkisi": "Gaz komutu güvenli konuma sabitlenebilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Elektronik gaz kontrolü hata sinyali ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Elektronik gaz kontrolü hata sinyali ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "E-23",
@@ -334,10 +412,16 @@
       "makineTepkisi": "Motor koruma mantığı devreye girer; yük azaltılmalıdır",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Aşırı ısınma sinyali üzerinde aşırı yük",
+        "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
+        "Yüksek ortam sıcaklığı",
+        "Termik sensör sapması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Aşırı ısınma sinyali sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "E-33",
@@ -357,10 +441,16 @@
       "makineTepkisi": "Motor stop ettirme/kilitleme mantığı beklenebilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Aşırı ısınma sinyali üzerinde aşırı yük",
+        "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
+        "Yüksek ortam sıcaklığı",
+        "Termik sensör sapması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Aşırı ısınma sinyali sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "E-32"
@@ -379,10 +469,15 @@
       "makineTepkisi": "Tek silindirde ateşlemesizlik gözlenebilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Ateşleme (kıvılcım) sistemi hata sinyali ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Ateşleme (kıvılcım) sistemi hata sinyali ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "E-27"
@@ -401,10 +496,15 @@
       "makineTepkisi": "Gaz modunda yakıt kesintisi oluşabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "LPG enjektör ayrılma teşhis sonucu sinyali ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "LPG enjektör ayrılma teşhis sonucu sinyali ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "E-36",
@@ -424,10 +524,16 @@
       "makineTepkisi": "Gaz modunda güç düşebilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "LPG yakıt basıncı sensörü teşhis sonucu sinyali arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "LPG yakıt basıncı sensörü teşhis sonucu sinyali besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "E-35",
@@ -447,10 +553,15 @@
       "makineTepkisi": "Gaz fazı beslemesi düzensizleşebilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "LPG buharlaştırıcı teşhis sonucu sinyali ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "LPG buharlaştırıcı teşhis sonucu sinyali ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "E-36"
@@ -469,10 +580,15 @@
       "makineTepkisi": "Mast üst limiti izleme güvenilmez kalır",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Mast yüksek şalteri teşhis sonucu sinyali ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Mast yüksek şalteri teşhis sonucu sinyali ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "F-32"
@@ -491,10 +607,16 @@
       "makineTepkisi": "Yağlama izleme fonksiyonu kısıtlanabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Yağ basıncı sensörü teşhis sonucu sinyali arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yağ basıncı sensörü teşhis sonucu sinyali besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "E-22"
@@ -513,10 +635,15 @@
       "makineTepkisi": "Fren lambası ve ilgili lojikler etkilenir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Fren (durma lambası) şalteri hata sinyali ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Fren (durma lambası) şalteri hata sinyali ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "E-40"
@@ -535,10 +662,15 @@
       "makineTepkisi": "Yakıt sistemi izlemesi uyarı üretir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Gaz yakıt sistemi teşhis sonucu sinyali ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Gaz yakıt sistemi teşhis sonucu sinyali ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "E-43"
@@ -557,10 +689,15 @@
       "makineTepkisi": "Araç benzin moduna geçebilir veya güç düşebilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "LPG yakıt sistemi teşhis sonucu sinyali ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "LPG yakıt sistemi teşhis sonucu sinyali ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "E-42",

@@ -22,7 +22,10 @@
         "Verici kalibrasyonu/devresi, tesisat veya aşırı yüklenme"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Motor soğutma suyu sıcaklığı aşama 2 eşiğini aştı ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "188",
@@ -48,7 +51,10 @@
         "Kontrol valfi/gaz kelebeği geri bildirimi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Motor devri izin verilen maksimum govde değerini aştı ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "217",
@@ -74,7 +80,10 @@
         "Gaz kelebeği bağlantısı, tesisat veya sensör kalibrasyonu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "TPS1-TPS2 toplam gaz konumu beklenenin üzerinde ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "219",
@@ -100,7 +109,10 @@
         "Gaz kelebeği bağlantısı, tesisat veya sensör kalibrasyonu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "TPS2 kanalı gerilimi düşük besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "221",
@@ -126,7 +138,10 @@
         "Gaz kelebeği bağlantısı, tesisat veya sensör kalibrasyonu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "TPS2 kanalı gerilimi yüksek besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "222",
@@ -152,7 +167,10 @@
         "Emme hattı kısıtlamaları/kaçakları ve varsa turbo kontrol opsiyonu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Boost kontrolü aşırı basınç (overboost) hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "223",
@@ -178,7 +196,10 @@
         "Emme hattı kısıtlamaları/kaçakları ve varsa turbo kontrol opsiyonu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Gaz kelebeği giriş basıncı (TIP) aktif durum bilgisi ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "234",
@@ -204,7 +225,10 @@
         "Emme hattı kısıtlamaları/kaçakları ve varsa turbo kontrol opsiyonu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "TIP sensörü gerilimi düşük besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "236",
@@ -230,7 +254,10 @@
         "Emme hattı kısıtlamaları/kaçakları ve varsa turbo kontrol opsiyonu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "TIP sensörü gerilimi yüksek besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "237",
@@ -256,7 +283,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 1 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "238",
@@ -282,7 +312,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 1 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "261",
@@ -308,7 +341,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 2 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "262",
@@ -334,7 +370,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 2 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "264",
@@ -360,7 +399,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 3 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "265",
@@ -386,7 +428,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 3 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "267",
@@ -412,7 +457,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 4 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "268",
@@ -438,7 +486,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 4 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "270",
@@ -464,7 +515,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 5 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "271",
@@ -490,7 +544,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 5 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "273",
@@ -516,7 +573,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 6 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "274",
@@ -542,7 +602,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 6 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "276",
@@ -568,7 +631,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 7 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "277",
@@ -594,7 +660,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 7 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "279",
@@ -620,7 +689,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 8 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "280",
@@ -646,7 +718,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 8 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "282",
@@ -672,7 +747,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 9 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "283",
@@ -698,7 +776,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 9 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "285",
@@ -724,7 +805,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 10 devresi açık veya şase kısa hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "286",
@@ -750,7 +834,10 @@
         "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Enjektör 10 bobini kısa devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "288",

@@ -20,10 +20,17 @@
       "makineTepkisi": "Yürüyüş ve kaldırma çalışmaz; N lambası yanıp söner.",
       "siddet": "durdurucu",
       "nedenler": [
-        "SEAT_SW1/SEAT_SW2 koltuk şalteri devresi açık veya kısa devre (OFF-OFF → Error1 açık, ON-ON → Error1 kısa)"
+        "SEAT_SW1/SEAT_SW2 koltuk şalteri devresi açık veya kısa devre (OFF-OFF → Error1 açık, ON-ON → Error1 kısa)",
+        "Koltuk şalteri arızası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "SEAT_SW koltuk şalteri devresini kontrol edin ve gerekirse onarın."
+        "SEAT_SW koltuk şalteri devresini kontrol edin ve gerekirse onarın.",
+        "Koltuk şalteri arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -43,10 +50,17 @@
       "makineTepkisi": "Yürüyüş çalışmaz, kaldırma çalışabilir.",
       "siddet": "durdurucu",
       "nedenler": [
-        "F_SW1/R_SW2 yön şalteri aynı anda kapalı (kisa devre/yanlış sinyal)"
+        "F_SW1/R_SW2 yön şalteri aynı anda kapalı (kisa devre/yanlış sinyal)",
+        "İleri/geri yön kolu arızası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "F/R kol devresini kontrol edip onarın."
+        "F/R kol devresini kontrol edip onarın.",
+        "İleri/geri yön kolu arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -66,10 +80,18 @@
       "siddet": "kisitlayici",
       "nedenler": [
         "N_LAMP/MAST_LAMP açık ya da kısa devre",
-        "İş ekipmanı kilit rölesi anormal çıkışı"
+        "İş ekipmanı kilit rölesi anormal çıkışı",
+        "Lamba ve ekipman interlock röle hatası bobininde açık devre",
+        "Kontaktör kontaklarında yapışma veya aşınma",
+        "Bobin besleme hattında kopukluk",
+        "Kontaktör sürücü çıkışında arıza"
       ],
       "kontroller": [
-        "Lambaları ve lamba devresini kontrol edin; hatalıysa onarın."
+        "Lambaları ve lamba devresini kontrol edin; hatalıysa onarın.",
+        "Lamba ve ekipman interlock röle hatası bobin direncini ölçün",
+        "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
+        "Bobin besleme hattında süreklilik ölçün",
+        "Gerekirse kontaktörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -89,10 +111,18 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Kontrolör kaldırma çıkış transistörü açık ya da röle kopuk",
-        "MAST/F/R rölelerinden biri kısa devreli"
+        "MAST/F/R rölelerinden biri kısa devreli",
+        "Kaldırma rölesi / sürücü çıkış hatası bobininde açık devre",
+        "Kontaktör kontaklarında yapışma veya aşınma",
+        "Bobin besleme hattında kopukluk",
+        "Kontaktör sürücü çıkışında arıza"
       ],
       "kontroller": [
-        "MAST_RELAY ve röle devresini kontrol edin."
+        "MAST_RELAY ve röle devresini kontrol edin.",
+        "Kaldırma rölesi / sürücü çıkış hatası bobin direncini ölçün",
+        "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
+        "Bobin besleme hattında süreklilik ölçün",
+        "Gerekirse kontaktörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -112,10 +142,18 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Kontrolör yürüyüş çıkış transistörü açık ya da röle kopuk",
-        "F/R/MAST röle kısa devresi"
+        "F/R/MAST röle kısa devresi",
+        "Yürüyüş rölesi / sürücü çıkış hatası bobininde açık devre",
+        "Kontaktör kontaklarında yapışma veya aşınma",
+        "Bobin besleme hattında kopukluk",
+        "Kontaktör sürücü çıkışında arıza"
       ],
       "kontroller": [
-        "F_RELAY, R_RELAY ve röle devresini kontrol edin."
+        "F_RELAY, R_RELAY ve röle devresini kontrol edin.",
+        "Yürüyüş rölesi / sürücü çıkış hatası bobin direncini ölçün",
+        "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
+        "Bobin besleme hattında süreklilik ölçün",
+        "Gerekirse kontaktörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -134,10 +172,18 @@
       "makineTepkisi": "Tüm fonksiyonlar durur; kontalı kapatıp açmak gerekir.",
       "siddet": "durdurucu",
       "nedenler": [
-        "MAIN_RELAY çıkışı açık veya kısa devre"
+        "MAIN_RELAY çıkışı açık veya kısa devre",
+        "Ana röle (MAIN_RELAY) hatası bobininde açık devre",
+        "Kontaktör kontaklarında yapışma veya aşınma",
+        "Bobin besleme hattında kopukluk",
+        "Kontaktör sürücü çıkışında arıza"
       ],
       "kontroller": [
-        "MAIN_RELAY ve röle devresini kontrol edip onarın."
+        "MAIN_RELAY ve röle devresini kontrol edip onarın.",
+        "Ana röle (MAIN_RELAY) hatası bobin direncini ölçün",
+        "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
+        "Bobin besleme hattında süreklilik ölçün",
+        "Gerekirse kontaktörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -157,10 +203,17 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Kontrol ünitesi iç arızası",
-        "Besleme hattı arızası"
+        "Besleme hattı arızası",
+        "Kontrol ünitesi arızası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Besleme devresini kontrol edin; üniteyi iade edip inceletin, gerekirse değiştirin."
+        "Besleme devresini kontrol edin; üniteyi iade edip inceletin, gerekirse değiştirin.",
+        "Kontrol ünitesi arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,

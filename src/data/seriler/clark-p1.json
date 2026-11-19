@@ -22,7 +22,10 @@
         "Demonte tesisat veya ECM senkronizasyon kaybı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Emme eksantrik mili / distribütör konum hatalı sinyal ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "87",
@@ -48,7 +51,10 @@
         "Tesisat hataları ve araçta takılı yakıt sistemi opsiyonları"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yakıt basıncı kontrolör beklentisinin altında ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "11",
@@ -74,7 +80,10 @@
         "Tesisat hataları ve araçta takılı yakıt sistemi opsiyonları"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yakıt basıncı kontrolör beklentisinin üstünde ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "87",
@@ -100,7 +109,10 @@
         "Regülatör ve takılı yakıt sistemi opsiyonları"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yakıt basıncı sensör devresi gerilimi düşük besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "88",
@@ -126,7 +138,10 @@
         "Regülatör ve takılı yakıt sistemi opsiyonları"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yakıt basıncı sensör devresi gerilimi yüksek besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "91",
@@ -152,7 +167,10 @@
         "Emme hattı kısıtlaması/kaçaklığı veya kontrolör plauzibilite denetimi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "MAP sensör devresi gerilimi düşük besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "92",
@@ -178,7 +196,10 @@
         "Emme hattı kısıtlaması/kaçaklığı veya kontrolör plauzibilite denetimi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Manifold basıncı beklenenin üzerinde ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "107",
@@ -204,7 +225,10 @@
         "Tesisat hataları veya aşırı motor yükü"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Emme havası sıcaklığı beklenenin üzerinde ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "108",
@@ -230,7 +254,10 @@
         "Tesisat hataları veya aşırı motor yükü"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Emme havası sıcaklık sensörü gerilimi düşük sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "111",
@@ -256,7 +283,10 @@
         "Tesisat hataları veya aşırı motor yükü"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Emme havası sıcaklık sensörü gerilimi yüksek sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "112",
@@ -282,7 +312,10 @@
         "Verici kalibrasyonu/devresi, tesisat veya aşırı yüklenme"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Motor soğutma suyu sıcaklığı beklenenin üzerinde ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "113",
@@ -308,7 +341,10 @@
         "Verici kalibrasyonu/devresi, tesisat veya aşırı yüklenme"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Soğutma suyu sıcaklık sensörü gerilimi düşük sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "116",
@@ -334,7 +370,10 @@
         "Verici kalibrasyonu/devresi, tesisat veya aşırı yüklenme"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Soğutma suyu sıcaklık sensörü gerilimi yüksek sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "117",
@@ -360,7 +399,10 @@
         "Gaz kelebeği bağlantısı, tesisat veya sensör kalibrasyonu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "TPS1-TPS2 konum ilişkisi beklenenin altında ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "118",
@@ -386,7 +428,10 @@
         "Gaz kelebeği bağlantısı, tesisat veya sensör kalibrasyonu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "TPS1 kanalı gerilimi düşük besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "121",
@@ -412,7 +457,10 @@
         "Gaz kelebeği bağlantısı, tesisat veya sensör kalibrasyonu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "TPS1 kanalı gerilimi yüksek besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "122",
@@ -438,7 +486,10 @@
         "Tesisat hataları veya aşırı motor yükü"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Emme havası sıcaklığı aşama 2 eşiğini aştı ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "123",
@@ -464,7 +515,10 @@
         "Emme hattı kısıtlaması/kaçaklığı veya kontrolör plauzibilite denetimi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Barometrik basınç (BP) değeri düşük ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "127",
@@ -490,7 +544,10 @@
         "Egzoz kaçağı, yakıt karışımı veya sensör-banka konfigürasyonu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Ego1 oksijen sensörü açık devre veya yavaş yanıt hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "129",
@@ -516,7 +573,10 @@
         "Egzoz kaçağı, yakıt karışımı veya sensör-banka konfigürasyonu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Ego3 oksijen sensörü açık devre veya yavaş yanıt hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "134",
@@ -542,7 +602,10 @@
         "Egzoz kaçağı, yakıt karışımı veya sensör-banka konfigürasyonu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Ego2 oksijen sensörü açık devre veya yavaş yanıt hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "140",
@@ -568,7 +631,10 @@
         "Egzoz kaçağı, yakıt karışımı veya sensör-banka konfigürasyonu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Ego4 oksijen sensörü açık devre veya yavaş yanıt hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "154",
@@ -594,7 +660,10 @@
         "Oksijen sensörü, emme kaçağı veya takılı benzin-banka modu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Benzin adaptif yakıt düzeltmesi banka 1 yüksek ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "160",
@@ -620,7 +689,10 @@
         "Oksijen sensörü, emme kaçağı veya takılı benzin-banka modu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Benzin adaptif yakıt düzeltmesi banka 2 yüksek ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "171",
@@ -646,7 +718,10 @@
         "Oksijen sensörü, emme kaçağı veya takılı benzin-banka modu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Benzin adaptif yakıt düzeltmesi banka 2 düşük ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "174",
@@ -672,7 +747,10 @@
         "Takılı yakıt sistemi donanım seçeneği"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "Yakıt sıcaklığı (FT) sinyali gerilimi düşük besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "175",
@@ -698,7 +776,10 @@
         "Takılı yakıt sistemi donanım seçeneği"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "Yakıt sıcaklığı (FT) sinyali gerilimi yüksek besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "182",
@@ -724,7 +805,10 @@
         "Kontrolör besleme/referans hataları"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Gaz yakıt sıcaklık vericisi gerilimi düşük sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "183",
@@ -750,7 +834,10 @@
         "Kontrolör besleme/referans hataları"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Gaz yakıt sıcaklık vericisi gerilimi yüksek sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [
         "187",

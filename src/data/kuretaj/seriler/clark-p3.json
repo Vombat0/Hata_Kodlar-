@@ -22,7 +22,10 @@
         "Emme hattı kısıtlamaları/kaçakları ve varsa turbo kontrol opsiyonu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Boost kontrolü yetersiz basınç (underboost) hatası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "289",
@@ -48,7 +51,10 @@
         "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Silindir 1 emisyon/katalizör zarar veren tekler ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "299",
@@ -74,7 +80,10 @@
         "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Silindir 2 emisyon/katalizör zarar veren tekler ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "301",
@@ -100,7 +109,10 @@
         "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Silindir 3 emisyon/katalizör zarar veren tekler ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "302",
@@ -126,7 +138,10 @@
         "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Silindir 4 emisyon/katalizör zarar veren tekler ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "303",
@@ -152,7 +167,10 @@
         "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Silindir 5 emisyon/katalizör zarar veren tekler ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "304",
@@ -178,7 +196,10 @@
         "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Silindir 6 emisyon/katalizör zarar veren tekler ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "305",
@@ -204,7 +225,10 @@
         "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Silindir 7 emisyon/katalizör zarar veren tekler ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "306",
@@ -230,7 +254,10 @@
         "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Silindir 8 emisyon/katalizör zarar veren tekler ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "307",
@@ -256,7 +283,10 @@
         "Devre sürekliliği veya gerçek motor vuruşu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Vuruş sensörü kanal 1 aşırı veya düzensiz sinyal besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "308",
@@ -282,7 +312,10 @@
         "Devre sürekliliği veya gerçek motor vuruşu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Vuruş sensörü 1 devresi açık veya sensör takılı değil hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "326",
@@ -308,7 +341,10 @@
         "Devre sürekliliği veya gerçek motor vuruşu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Vuruş sensörü kanal 2 aşırı veya düzensiz sinyal besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [
         "327",
@@ -334,7 +370,10 @@
         "Devre sürekliliği veya gerçek motor vuruşu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Vuruş sensörü 2 devresi açık veya sensör takılı değil hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "331",
@@ -359,7 +398,10 @@
         "Demonte tesisat veya ECM senkronizasyon kaybı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Krank mili giriş sinyalinde gürültü ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "332",
@@ -384,7 +426,10 @@
         "ECM senkronizasyonu, sensör besleme/şase, ekranlama veya ilgili tesisat"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Krank mili konum sinyali kaybı ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "336",
@@ -410,7 +455,10 @@
         "ECM senkronizasyonu, sensör besleme/şase, ekranlama veya ilgili tesisat"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kam mili giriş sinyalinde gürültü ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "342",
@@ -435,7 +483,10 @@
         "ECM senkronizasyonu, sensör besleme/şase, ekranlama veya ilgili tesisat"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kam mili konum giriş sinyali kaybı ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "341",
@@ -460,7 +511,10 @@
         "ECU ayarları, yakıt basıncı algılama veya hortum bağlantıları"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yakıt bitme süresi beklenenden uzun ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "87",
@@ -484,7 +538,10 @@
         "Yakıt/kontrol yazılımı opsiyon uyumsuzluğu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Benzin katalizörü devre dışı, banka 1 ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "430",
@@ -508,7 +565,10 @@
         "Yakıt/kontrol yazılımı opsiyon uyumsuzluğu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Benzin katalizörü devre dışı, banka 2 ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "420",
@@ -533,7 +593,10 @@
         "Seyir hızı sensörleri veya kontrol yanıtı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kara hızı (road-speed) sinyali kayboldu ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "219"
@@ -557,7 +620,10 @@
         "Sensör besleme/şase, ekranlama veya ilgili tesisat"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Rölanti hava kontrol devresi şaseye kısa hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "509",
@@ -582,7 +648,10 @@
         "Sensör besleme/şase, ekranlama veya ilgili tesisat"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Rölanti hava aktüatörü bobini açık veya kısa hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "508"
@@ -606,7 +675,10 @@
         "Pompa/emniyet sistemi, gerçek yağlama basıncı veya ECU sensör referansı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yağ basıncı vericisi düşük basınç uyarısı ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "521",
@@ -631,7 +703,10 @@
         "Pompa/emniyet sistemi, gerçek yağlama basıncı veya ECU sensör referansı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yağ basıncı vericisi yüksek basınç bildirimi ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "520"

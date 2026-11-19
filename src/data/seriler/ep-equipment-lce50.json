@@ -124,10 +124,18 @@
       "makineTepkisi": "Güç kesilir, araç çalıştırılamaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Batarya gerilimi 13,8 V'un altında"
+        "Batarya gerilimi 13,8 V'un altında",
+        "Akü geriliminin izin verilen aralığın dışında olması",
+        "Şiddetli Düşük Gerilim besleme konnektöründe temassızlık",
+        "Ana sigorta veya besleme hattında direnç",
+        "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
       "kontroller": [
-        "Bataryayı hemen şarj et veya değiştir"
+        "Bataryayı hemen şarj et veya değiştir",
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "Şiddetli Düşük Gerilim besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F1.6",
@@ -208,10 +216,18 @@
       "siddet": "uyari",
       "nedenler": [
         "Dahili röle kaynamış",
-        "Kontrolcü arızalı"
+        "Kontrolcü arızalı",
+        "Ana Röle Kaynamış bobininde açık devre",
+        "Kontaktör kontaklarında yapışma veya aşınma",
+        "Bobin besleme hattında kopukluk",
+        "Kontaktör sürücü çıkışında arıza"
       ],
       "kontroller": [
-        "Kontrolcüyü değiştir (dahili röle hasarlı)"
+        "Kontrolcüyü değiştir (dahili röle hasarlı)",
+        "Ana Röle Kaynamış bobin direncini ölçün",
+        "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
+        "Bobin besleme hattında süreklilik ölçün",
+        "Gerekirse kontaktörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F2.4",
@@ -228,10 +244,18 @@
       "siddet": "uyari",
       "nedenler": [
         "Dahili röle kapanmadı",
-        "Röle kontakları oksitlenmiş"
+        "Röle kontakları oksitlenmiş",
+        "Ana Röle Kapanmadı bobininde açık devre",
+        "Kontaktör kontaklarında yapışma veya aşınma",
+        "Bobin besleme hattında kopukluk",
+        "Kontaktör sürücü çıkışında arıza"
       ],
       "kontroller": [
-        "Röle kontaklarını temizle veya kontrolcüyü değiştir"
+        "Röle kontaklarını temizle veya kontrolcüyü değiştir",
+        "Ana Röle Kapanmadı bobin direncini ölçün",
+        "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
+        "Bobin besleme hattında süreklilik ölçün",
+        "Gerekirse kontaktörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F2.5",
@@ -247,10 +271,17 @@
       "makineTepkisi": "Kaldırma ve indirme devreye girmez, araç başlatılamaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Anahtar açılmadan önce kaldırma veya indirme anahtarına basıldı"
+        "Anahtar açılmadan önce kaldırma veya indirme anahtarına basıldı",
+        "Pompa SRO Arızası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Çalıştırmadan önce tüm hidrolik kumandaları bırak"
+        "Çalıştırmadan önce tüm hidrolik kumandaları bırak",
+        "Pompa SRO Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F2.6",
@@ -289,10 +320,17 @@
       "siddet": "uyari",
       "nedenler": [
         "Elektromanyetik fren sürücüsü kısa devre",
-        "Fren bobini açık devre"
+        "Fren bobini açık devre",
+        "Fren Uygulama Arızası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Fren bobini direncini ve sürücü devresini kontrol et"
+        "Fren bobini direncini ve sürücü devresini kontrol et",
+        "Fren Uygulama Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F3.2",
@@ -308,10 +346,18 @@
       "makineTepkisi": "Ön şarj tamamlanmaz, ana kontaktör kapanmaz ve araç çalışmaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Kontrolcü arızalı"
+        "Kontrolcü arızalı",
+        "Akü şarj seviyesinin düşük olması",
+        "Akü hücresinde zayıflama",
+        "Akü bağlantı veya konnektöründe temassızlık",
+        "Şarj cihazı veya şarj devresinde arıza"
       ],
       "kontroller": [
-        "Kontrolcüyü bakıma gönder veya değiştir"
+        "Kontrolcüyü bakıma gönder veya değiştir",
+        "Akü gerilimini ve şarj seviyesini ölçün",
+        "Akü kutup başlarını ve konnektörleri temizleyip sıkın",
+        "Akü hücrelerini yük testiyle kontrol edin",
+        "Gerekirse aküyü şarj edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F3.3",
@@ -348,11 +394,18 @@
       "makineTepkisi": "Yüksek pedal durumunda araç çalıştırılamaz veya hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Gaz ve emniyet kilidi girişlerinin sırası hatalı"
+        "Gaz ve emniyet kilidi girişlerinin sırası hatalı",
+        "HPD (Yüksek Pedal Devre Dışı) Arızası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
         "Doğru çalıştırma sırasını uygula",
-        "Gaz sinyali girişini kontrol et"
+        "Gaz sinyali girişini kontrol et",
+        "HPD (Yüksek Pedal Devre Dışı) Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F3.5",
@@ -368,10 +421,17 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kontrolcü arızalı"
+        "Kontrolcü arızalı",
+        "Akım Algılama Arızası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kontrolcüyü değiştir"
+        "Kontrolcüyü değiştir",
+        "Akım Algılama Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F4.1",
@@ -387,11 +447,18 @@
       "makineTepkisi": "Aşırı akım koruması devreye girer, motor gücü kesilir.",
       "siddet": "uyari",
       "nedenler": [
-        "Kontrolcü arızalı"
+        "Kontrolcü arızalı",
+        "Kontrolcü Aşırı Akımı ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
         "Motor bağlantılarını kontrol et",
-        "Gerekirse kontrolcüyü değiştir"
+        "Gerekirse kontrolcüyü değiştir",
+        "Kontrolcü Aşırı Akımı ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F4.2",
@@ -407,10 +474,17 @@
       "makineTepkisi": "Motor istenen gücü üretemez, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Motor gerilimi gaz pedalı talebiyle uyuşmuyor"
+        "Motor gerilimi gaz pedalı talebiyle uyuşmuyor",
+        "Donanım Arızası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Kontrolcüyü değiştir (donanım arızası)"
+        "Kontrolcüyü değiştir (donanım arızası)",
+        "Donanım Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F4.3",
@@ -427,10 +501,18 @@
       "siddet": "uyari",
       "nedenler": [
         "Yazılım arızalı",
-        "Kontrolcü arızalı"
+        "Kontrolcü arızalı",
+        "Parametre setinin bozulması veya kaybolması",
+        "Kart yazılım sürümleri arasında uyumsuzluk",
+        "Kalibrasyon değerlerinin geçersiz olması",
+        "Bellek yazma işleminin yarıda kesilmesi"
       ],
       "kontroller": [
-        "Kontrolcüyü yeniden programla veya değiştir"
+        "Kontrolcüyü yeniden programla veya değiştir",
+        "Parametre setini okuyup geçerliliğini doğrulayın",
+        "Kart yazılım sürümlerini karşılaştırın",
+        "Kalibrasyonu yeniden yapın",
+        "Gerekirse fabrika parametrelerini yükleyin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F4.4",
@@ -447,10 +529,18 @@
       "siddet": "uyari",
       "nedenler": [
         "Batarya bağlı değil",
-        "Batarya bağlantısı zayıf"
+        "Batarya bağlantısı zayıf",
+        "Akü şarj seviyesinin düşük olması",
+        "Akü hücresinde zayıflama",
+        "Akü bağlantı veya konnektöründe temassızlık",
+        "Şarj cihazı veya şarj devresinde arıza"
       ],
       "kontroller": [
-        "Tüm batarya bağlantılarını ve terminalleri kontrol et"
+        "Tüm batarya bağlantılarını ve terminalleri kontrol et",
+        "Akü gerilimini ve şarj seviyesini ölçün",
+        "Akü kutup başlarını ve konnektörleri temizleyip sıkın",
+        "Akü hücrelerini yük testiyle kontrol edin",
+        "Gerekirse aküyü şarj edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F4.5",
@@ -466,11 +556,19 @@
       "makineTepkisi": "Motor aşırı ısındığı için güç kısıtlanır.",
       "siddet": "uyari",
       "nedenler": [
-        "Motor sıcaklığı yüksek"
+        "Motor sıcaklığı yüksek",
+        "Motor Arızası sargısında arıza",
+        "Motor faz kablolarında kopukluk veya kısa devre",
+        "Motor sıcaklık sensörü arızası",
+        "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
         "Motorun soğumasını bekle",
-        "Aşırı yük veya tıkanmış havalandırma olup olmadığını kontrol et"
+        "Aşırı yük veya tıkanmış havalandırma olup olmadığını kontrol et",
+        "Motor Arızası sargı direncini ve yalıtımını ölçün",
+        "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
+        "Motor sıcaklık sensörü direncini ölçün",
+        "Gerekirse motoru servise gönderin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F4.6",
@@ -486,10 +584,18 @@
       "makineTepkisi": "Batarya boşaldığı için güç kısıtlanır veya araç kapanır.",
       "siddet": "uyari",
       "nedenler": [
-        "Batarya deşarjı programlanmış eşiğin altında"
+        "Batarya deşarjı programlanmış eşiğin altında",
+        "Akü şarj seviyesinin düşük olması",
+        "Akü hücresinde zayıflama",
+        "Akü bağlantı veya konnektöründe temassızlık",
+        "Şarj cihazı veya şarj devresinde arıza"
       ],
       "kontroller": [
-        "Bataryayı hemen şarj et"
+        "Bataryayı hemen şarj et",
+        "Akü gerilimini ve şarj seviyesini ölçün",
+        "Akü kutup başlarını ve konnektörleri temizleyip sıkın",
+        "Akü hücrelerini yük testiyle kontrol edin",
+        "Gerekirse aküyü şarj edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F5.1",
@@ -548,11 +654,19 @@
       "makineTepkisi": "Kısa devre koruması devreye girer, motor çalışmaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Motor kabloları kısa devre yapmış"
+        "Motor kabloları kısa devre yapmış",
+        "Motor Kısa Devresi hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
         "Motor faz kablolarını incele",
-        "Yalıtım hasarı olup olmadığını kontrol et"
+        "Yalıtım hasarı olup olmadığını kontrol et",
+        "Motor Kısa Devresi hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F6.1",
@@ -570,10 +684,18 @@
       "nedenler": [
         "Motor kabloları açık devre",
         "Motor kablosu arızalı",
-        "Kontrolcü arızalı"
+        "Kontrolcü arızalı",
+        "Motor Açık Devresi hattında kopukluk",
+        "Konnektör piminde temassızlık",
+        "Kablo demetinde ezilme veya kesik",
+        "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Motor bağlantılarını ve kablo sürekliliğini kontrol et"
+        "Motor bağlantılarını ve kablo sürekliliğini kontrol et",
+        "Motor Açık Devresi hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F6.2",

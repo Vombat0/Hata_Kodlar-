@@ -17,10 +17,17 @@
       "makineTepkisi": "Normal: MIL sönük kalır.",
       "siddet": "bilgi",
       "nedenler": [
-        "Aktif arıza yok; tanımlama listesinin sonunda kullanılır"
+        "Aktif arıza yok; tanımlama listesinin sonunda kullanılır",
+        "Flash dizisi sonu ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Flaş kodu listesini baştan izleyin; aktif arıza yoksa işlem gerekmez."
+        "Flaş kodu listesini baştan izleyin; aktif arıza yoksa işlem gerekmez.",
+        "Flash dizisi sonu ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -144,10 +151,18 @@
       "siddet": "kisitlayici",
       "nedenler": [
         "ECT sensör arızası",
-        "sinyal hattının GND'ye kısa devresi"
+        "sinyal hattının GND'ye kısa devresi",
+        "Soğutma suyu sensörü düşük aralık hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
-        "ECT konnektör ve kablosunda GND kısa devresi kontrolü (SECM B15 sinyali)"
+        "ECT konnektör ve kablosunda GND kısa devresi kontrolü (SECM B15 sinyali)",
+        "Soğutma suyu sensörü düşük aralık hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -167,10 +182,18 @@
       "siddet": "kisitlayici",
       "nedenler": [
         "sensör konnektörü çıkmış",
-        "açık devre"
+        "açık devre",
+        "Soğutma suyu sensörü yüksek aralık hattında kopukluk",
+        "Konnektör piminde temassızlık",
+        "Kablo demetinde ezilme veya kesik",
+        "Bileşen içinde açık devre"
       ],
       "kontroller": [
-        "Sensör konnektörü ve sinyal kablosunda açık devre kontrolü"
+        "Sensör konnektörü ve sinyal kablosunda açık devre kontrolü",
+        "Soğutma suyu sensörü yüksek aralık hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -216,10 +239,18 @@
       "siddet": "uyari",
       "nedenler": [
         "takalı termostat",
-        "soğutma sistemi sorunu"
+        "soğutma sistemi sorunu",
+        "Sensör ısınma beklentisi karşılanmıyor arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Termostat ve soğutma devresi kontrolü"
+        "Termostat ve soğutma devresi kontrolü",
+        "Sensör ısınma beklentisi karşılanmıyor besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -239,10 +270,17 @@
       "siddet": "uyari",
       "nedenler": [
         "Yakıt seçimi şalterinde kısa devre",
-        "Kablo çakışması"
+        "Kablo çakışması",
+        "Yakıt seçimi sinyal çakışması ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Yakıt seçimi şalteri bağlantılarında GND kısa kontrolü (SECM A12/A15)"
+        "Yakıt seçimi şalteri bağlantılarında GND kısa kontrolü (SECM A12/A15)",
+        "Yakıt seçimi sinyal çakışması ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -262,10 +300,18 @@
       "siddet": "durdurucu",
       "nedenler": [
         "CAM sensör kabloları kopuk",
-        "CAM sensörü arızalı"
+        "CAM sensörü arızalı",
+        "Kam (CAM) sensörü sinyali yok arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "CAM sensör bağlantıları kontrolü (SECM B10 sinyal, B3 GND, 12V besleme)"
+        "CAM sensör bağlantıları kontrolü (SECM B10 sinyal, B3 GND, 12V besleme)",
+        "Kam (CAM) sensörü sinyali yok besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -285,10 +331,18 @@
       "siddet": "kisitlayici",
       "nedenler": [
         "sinyal gürültüsü",
-        "sensör bağlantı kopukluğu"
+        "sensör bağlantı kopukluğu",
+        "Kam sensörü senkron kaybı arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "CAM sensör bağlantı ve kablo kontrolü"
+        "CAM sensör bağlantı ve kablo kontrolü",
+        "Kam sensörü senkron kaybı besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -308,10 +362,18 @@
       "siddet": "durdurucu",
       "nedenler": [
         "krank sensör kabloları kopuk",
-        "krank sensörü arızalı"
+        "krank sensörü arızalı",
+        "Krank sensörü sinyali yok arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Krank sensör bağlantıları kontrolü (SECM B5 sinyal, B1 GND, 12V)"
+        "Krank sensör bağlantıları kontrolü (SECM B5 sinyal, B1 GND, 12V)",
+        "Krank sensörü sinyali yok besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -331,10 +393,18 @@
       "siddet": "kisitlayici",
       "nedenler": [
         "sinyal gürültüsü",
-        "sensör bağlantı kopukluğu"
+        "sensör bağlantı kopukluğu",
+        "Krank sensörü senkron kaybı arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
-        "Krank sensör bağlantı ve kablo kontrolü"
+        "Krank sensör bağlantı ve kablo kontrolü",
+        "Krank sensörü senkron kaybı besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,

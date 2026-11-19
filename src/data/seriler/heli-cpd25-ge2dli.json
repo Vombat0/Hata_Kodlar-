@@ -17,12 +17,19 @@
       "makineTepkisi": "Kontrolcüler birlikte çalışamaz, araç çalışmaz veya kısıtlı modda kalır.",
       "siddet": "uyari",
       "nedenler": [
-        "Kontrolcü modülleri arasında iletişim kaybı"
+        "Kontrolcü modülleri arasında iletişim kaybı",
+        "Kontrolcüler Arası İletişim Yok ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
         "CAN hattı kablolarını ve bağlantılarını kontrol et",
         "Tüm kontrolcü beslemelerini doğrula",
-        "Sistemi sıfırla"
+        "Sistemi sıfırla",
+        "Kontrolcüler Arası İletişim Yok ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/02",
@@ -60,11 +67,19 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kontrolcü bellek verisi bozulmuş veya geçersiz"
+        "Kontrolcü bellek verisi bozulmuş veya geçersiz",
+        "EEPROM Veri Hatası belleğinde veri bozulması",
+        "Bellek besleme geriliminde düşme",
+        "Kart üzerinde donanım arızası",
+        "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
         "Kontrolcü parametrelerini yeniden programla",
-        "Sorun sürerse EEPROM'u veya kontrolcü ünitesini değiştir"
+        "Sorun sürerse EEPROM'u veya kontrolcü ünitesini değiştir",
+        "Kontak aç/kapat yaparak kartı yeniden başlatın",
+        "Kart besleme gerilimini ölçün",
+        "Parametre setini yeniden yükleyin",
+        "Arıza sürerse kartı değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/10",
@@ -80,11 +95,19 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kontrolcü EEPROM bellek çipi arızası"
+        "Kontrolcü EEPROM bellek çipi arızası",
+        "EEPROM Arızası belleğinde veri bozulması",
+        "Bellek besleme geriliminde düşme",
+        "Kart üzerinde donanım arızası",
+        "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
         "Kontrolcüyü değiştir",
-        "Bellek çipinin kalıcı olarak arızalandığını doğrula"
+        "Bellek çipinin kalıcı olarak arızalandığını doğrula",
+        "Kontak aç/kapat yaparak kartı yeniden başlatın",
+        "Kart besleme gerilimini ölçün",
+        "Parametre setini yeniden yükleyin",
+        "Arıza sürerse kartı değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/13",
@@ -100,12 +123,20 @@
       "makineTepkisi": "Ana güç sürekli bağlı kalır, araç istenmeden hareket edebilir.",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış sırasında ana kontaktör kapalı konumda sıkışmış"
+        "Açılış sırasında ana kontaktör kapalı konumda sıkışmış",
+        "Kontaktör Kapalı Kalma Arızası bobininde açık devre",
+        "Kontaktör kontaklarında yapışma veya aşınma",
+        "Bobin besleme hattında kopukluk",
+        "Kontaktör sürücü çıkışında arıza"
       ],
       "kontroller": [
         "Kontaktörde mekanik sıkışma olup olmadığını kontrol et",
         "Bobini ve kontakları incele",
-        "Kaynamışsa kontaktörü değiştir"
+        "Kaynamışsa kontaktörü değiştir",
+        "Kontaktör Kapalı Kalma Arızası bobin direncini ölçün",
+        "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
+        "Bobin besleme hattında süreklilik ölçün",
+        "Gerekirse kontaktörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/37",
@@ -121,13 +152,21 @@
       "makineTepkisi": "Ana güç bağlanamaz, araç çalışmaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Komut verildiğinde ana kontaktör kapanmadı"
+        "Komut verildiğinde ana kontaktör kapanmadı",
+        "Kontaktör Açık Kalma Arızası hattında kopukluk",
+        "Konnektör piminde temassızlık",
+        "Kablo demetinde ezilme veya kesik",
+        "Bileşen içinde açık devre"
       ],
       "kontroller": [
         "Kontaktör bobin beslemesini kontrol et",
         "Kabloları doğrula",
         "Bobin direncini ölç",
-        "Bobin açıksa değiştir"
+        "Bobin açıksa değiştir",
+        "Kontaktör Açık Kalma Arızası hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/38",
@@ -143,12 +182,19 @@
       "makineTepkisi": "Fren tutmaz, araç istenmeden hareket edebilir.",
       "siddet": "uyari",
       "nedenler": [
-        "Elektromanyetik fren devreye girmedi"
+        "Elektromanyetik fren devreye girmedi",
+        "Fren Kapanmadı ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
         "Fren bobini kablolarını ve beslemesini kontrol et",
         "Fren mekanizmasını incele",
-        "Fren tertibatını ayarla veya değiştir"
+        "Fren tertibatını ayarla veya değiştir",
+        "Fren Kapanmadı ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/39",
@@ -164,12 +210,20 @@
       "makineTepkisi": "Fren bırakılamaz, araç hareket edemez.",
       "siddet": "uyari",
       "nedenler": [
-        "Fren bırakma kontaktörü çalışmadı"
+        "Fren bırakma kontaktörü çalışmadı",
+        "Fren Kontaktörü Açık hattında kopukluk",
+        "Konnektör piminde temassızlık",
+        "Kablo demetinde ezilme veya kesik",
+        "Bileşen içinde açık devre"
       ],
       "kontroller": [
         "Fren kontaktörünün bobin ve kontaklarını incele",
         "Fren sistemine giden kabloları kontrol et",
-        "Kontaktörü değiştir"
+        "Kontaktörü değiştir",
+        "Fren Kontaktörü Açık hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/40",
@@ -185,12 +239,20 @@
       "makineTepkisi": "Ana güç kesilemez, araç istenmeden çalışabilir.",
       "siddet": "uyari",
       "nedenler": [
-        "Ana güç kontaktörü beklenmedik şekilde kapalı kaldı"
+        "Ana güç kontaktörü beklenmedik şekilde kapalı kaldı",
+        "Ana Kontaktör Beklenmedik Şekilde Kapalı bobininde açık devre",
+        "Kontaktör kontaklarında yapışma veya aşınma",
+        "Bobin besleme hattında kopukluk",
+        "Kontaktör sürücü çıkışında arıza"
       ],
       "kontroller": [
         "KRİTİK: Aracı çalıştırma",
         "Kontaktörün kaynamış olabileceğini dikkate al",
-        "Bataryayı ayır ve kontaktörü değiştir"
+        "Bataryayı ayır ve kontaktörü değiştir",
+        "Ana Kontaktör Beklenmedik Şekilde Kapalı bobin direncini ölçün",
+        "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
+        "Bobin besleme hattında süreklilik ölçün",
+        "Gerekirse kontaktörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/47",
@@ -206,13 +268,21 @@
       "makineTepkisi": "Ana güç bağlanamaz, araç çalışmaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Ana güç kontaktörü kapanmadı"
+        "Ana güç kontaktörü kapanmadı",
+        "Ana Kontaktör Açık Kaldı hattında kopukluk",
+        "Konnektör piminde temassızlık",
+        "Kablo demetinde ezilme veya kesik",
+        "Bileşen içinde açık devre"
       ],
       "kontroller": [
         "Ana kontaktör bobinini kontrol et",
         "Batarya gerilimini doğrula",
         "Kontaktör kontaklarını incele",
-        "Gerekirse kontaktörü değiştir"
+        "Gerekirse kontaktörü değiştir",
+        "Ana Kontaktör Açık Kaldı hattında süreklilik ölçümü yapın",
+        "Konnektör pimlerinde temassızlık olup olmadığını kontrol edin",
+        "Kablo demetini görsel olarak inceleyin",
+        "Kopan hattı onarın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/48",
@@ -228,13 +298,20 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Motor alan sargısı akımı güvenli sınırı aşıyor"
+        "Motor alan sargısı akımı güvenli sınırı aşıyor",
+        "Yüksek Alan Sargısı Akımı ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
         "Motor alan sargısı bağlantılarını kontrol et",
         "Kısa devre olup olmadığını incele",
         "Motor izolasyonunu ölç",
-        "Motoru değiştir"
+        "Motoru değiştir",
+        "Yüksek Alan Sargısı Akımı ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/57",
@@ -250,12 +327,19 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Motor alan sargısına akım gitmiyor"
+        "Motor alan sargısına akım gitmiyor",
+        "Alan Sargısı Akımı Yok ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
         "Alan sargısı bağlantılarını kontrol et",
         "Kabloların sürekliliğini ölç",
-        "Kontrolcünün alan çıkışını incele"
+        "Kontrolcünün alan çıkışını incele",
+        "Alan Sargısı Akımı Yok ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/58",
@@ -271,12 +355,20 @@
       "makineTepkisi": "Aşırı sıcaklık nedeniyle güç kısıtlanır.",
       "siddet": "uyari",
       "nedenler": [
-        "Kontrolcü veya motor sıcaklığı sınırı aşıyor"
+        "Kontrolcü veya motor sıcaklığı sınırı aşıyor",
+        "Yüksek Sıcaklık üzerinde aşırı yük",
+        "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
+        "Yüksek ortam sıcaklığı",
+        "Termik sensör sapması"
       ],
       "kontroller": [
         "Çalışmayı durdur ve soğumasını bekle",
         "Havalandırmayı ve fanı kontrol et",
-        "Soğutuculardaki tozu temizle"
+        "Soğutuculardaki tozu temizle",
+        "Yüksek Sıcaklık sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/61",
@@ -292,13 +384,20 @@
       "makineTepkisi": "Motor gücü kısılır, yavaş çalışma.",
       "siddet": "uyari",
       "nedenler": [
-        "Bileşenleri korumak için termal güç kısıtlama devreye girdi"
+        "Bileşenleri korumak için termal güç kısıtlama devreye girdi",
+        "Termal Koruma Aktif ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
         "Çalışma döngüsünü (görev oranını) azalt",
         "Soğumasını bekle",
         "Havalandırmanın tıkanıklığını kontrol et",
-        "Termal sensörleri incele"
+        "Termal sensörleri incele",
+        "Termal Koruma Aktif ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/62",
@@ -314,12 +413,20 @@
       "makineTepkisi": "Motor gücü kısılır, araç yavaşlar.",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru aşırı ısınıyor"
+        "Yürüyüş motoru aşırı ısınıyor",
+        "Yürüyüş Motoru Sıcaklığı Yüksek sargısında arıza",
+        "Motor faz kablolarında kopukluk veya kısa devre",
+        "Motor sıcaklık sensörü arızası",
+        "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
         "Motorun soğumasını bekle",
         "Motor havalandırmasını kontrol et",
-        "Aşırı yük koşullarını incele"
+        "Aşırı yük koşullarını incele",
+        "Yürüyüş Motoru Sıcaklığı Yüksek sargı direncini ve yalıtımını ölçün",
+        "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
+        "Motor sıcaklık sensörü direncini ölçün",
+        "Gerekirse motoru servise gönderin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/65",
@@ -335,12 +442,20 @@
       "makineTepkisi": "Güç kısıtlama veya kapatma devreye girer, araç çalışmaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Batarya gerilimi kritik düzeyde düşük"
+        "Batarya gerilimi kritik düzeyde düşük",
+        "Akü şarj seviyesinin düşük olması",
+        "Akü hücresinde zayıflama",
+        "Akü bağlantı veya konnektöründe temassızlık",
+        "Şarj cihazı veya şarj devresinde arıza"
       ],
       "kontroller": [
         "Bataryayı hemen şarj et",
         "Çalışmaya devam etme",
-        "Batarya kapasitesini ölç"
+        "Batarya kapasitesini ölç",
+        "Akü gerilimini ve şarj seviyesini ölçün",
+        "Akü kutup başlarını ve konnektörleri temizleyip sıkın",
+        "Akü hücrelerini yük testiyle kontrol edin",
+        "Gerekirse aküyü şarj edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/66",
@@ -356,11 +471,19 @@
       "makineTepkisi": "Performans düşer, güç kısıtlama başlar.",
       "siddet": "uyari",
       "nedenler": [
-        "Batarya gerilimi uyarı eşiğinin altında"
+        "Batarya gerilimi uyarı eşiğinin altında",
+        "Akü şarj seviyesinin düşük olması",
+        "Akü hücresinde zayıflama",
+        "Akü bağlantı veya konnektöründe temassızlık",
+        "Şarj cihazı veya şarj devresinde arıza"
       ],
       "kontroller": [
         "Kısa sürede şarj planla",
-        "Batarya göstergesini izle"
+        "Batarya göstergesini izle",
+        "Akü gerilimini ve şarj seviyesini ölçün",
+        "Akü kutup başlarını ve konnektörleri temizleyip sıkın",
+        "Akü hücrelerini yük testiyle kontrol edin",
+        "Gerekirse aküyü şarj edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/67",
@@ -376,10 +499,18 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Batarya gerilimi düşük eşiğe yaklaşıyor"
+        "Batarya gerilimi düşük eşiğe yaklaşıyor",
+        "Akü şarj seviyesinin düşük olması",
+        "Akü hücresinde zayıflama",
+        "Akü bağlantı veya konnektöründe temassızlık",
+        "Şarj cihazı veya şarj devresinde arıza"
       ],
       "kontroller": [
-        "Şarj etmeyi değerlendir"
+        "Şarj etmeyi değerlendir",
+        "Akü gerilimini ve şarj seviyesini ölçün",
+        "Akü kutup başlarını ve konnektörleri temizleyip sıkın",
+        "Akü hücrelerini yük testiyle kontrol edin",
+        "Gerekirse aküyü şarj edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/68",
@@ -417,11 +548,19 @@
       "makineTepkisi": "Kontrolcü hasarlı, araç çalıştırılamaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Güç katmanı sürücü devresinde kısa devre"
+        "Güç katmanı sürücü devresinde kısa devre",
+        "Güç Sürücüsü Kısa Devre hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
         "KRİTİK: Aracı çalıştırma; kontrolcü hasarlı olabilir",
-        "Kontrolcü modülünü değiştir"
+        "Kontrolcü modülünü değiştir",
+        "Güç Sürücüsü Kısa Devre hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/74",
@@ -437,12 +576,20 @@
       "makineTepkisi": "Kontaktör kapanamaz, araç çalışmaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Kontaktör sürücü devresi arızası"
+        "Kontaktör sürücü devresi arızası",
+        "Kontaktör Sürücü Arızası bobininde açık devre",
+        "Kontaktör kontaklarında yapışma veya aşınma",
+        "Bobin besleme hattında kopukluk",
+        "Kontaktör sürücü çıkışında arıza"
       ],
       "kontroller": [
         "Kontaktör sürücü çıkışını kontrol et",
         "Sürücü devresini ölç",
-        "Sürücü arızalıysa kontrolcüyü değiştir"
+        "Sürücü arızalıysa kontrolcüyü değiştir",
+        "Kontaktör Sürücü Arızası bobin direncini ölçün",
+        "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
+        "Bobin besleme hattında süreklilik ölçün",
+        "Gerekirse kontaktörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/75",
@@ -458,12 +605,20 @@
       "makineTepkisi": "Bobin çalışmaz, ilgili kontaktör veya solenoid devreye girmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Kontaktör veya solenoid bobininde kısa devre"
+        "Kontaktör veya solenoid bobininde kısa devre",
+        "Bobin Kısa Devresi hattında şaseye kısa devre",
+        "Konnektörde nem veya oksitlenme kaynaklı kısa",
+        "Kablo demetinde ezilme",
+        "Besleme hattına kısa devre"
       ],
       "kontroller": [
         "Bobin direncini ölç",
         "Kısa devreyi gösteren düşük direnci kontrol et",
-        "Kısa devre yapmış bobini değiştir"
+        "Kısa devre yapmış bobini değiştir",
+        "Bobin Kısa Devresi hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/76",
@@ -479,12 +634,20 @@
       "makineTepkisi": "Bobin enerjilenemez, ilgili bileşen çalışmaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Kontaktör veya solenoid bobininde açık devre"
+        "Kontaktör veya solenoid bobininde açık devre",
+        "Bobin Devresi Kopuk bobininde açık veya kısa devre",
+        "Selenoid besleme hattında kopukluk",
+        "Valf gövdesinde sıkışma veya kirlenme",
+        "Selenoid konnektöründe gevşeme"
       ],
       "kontroller": [
         "Bobin sürekliliğini ölç",
         "Bağlantıları kontrol et",
-        "Açık devre varsa bobini değiştir"
+        "Açık devre varsa bobini değiştir",
+        "Bobin Devresi Kopuk bobin direncini ölçün",
+        "Selenoid besleme hattında süreklilik kontrolü yapın",
+        "Valf gövdesinde sıkışma veya kirlenme olup olmadığını inceleyin",
+        "Gerekirse selenoidi veya valfi değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/77",
@@ -500,12 +663,19 @@
       "makineTepkisi": "Gaz komutu algılanamaz, araç hızlanmaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Gaz pedalı sinyali geçerli aralığın dışında"
+        "Gaz pedalı sinyali geçerli aralığın dışında",
+        "Gaz Pedalı Sinyali Geçersiz ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
         "Gaz pedalı potansiyometresinin kablolarını kontrol et",
         "Pedali kalibre et",
-        "Arızalıysa pedal tertibatını değiştir"
+        "Arızalıysa pedal tertibatını değiştir",
+        "Gaz Pedalı Sinyali Geçersiz ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/78",
@@ -542,12 +712,19 @@
       "makineTepkisi": "Yön seçimi belirsiz, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "İleri ve geri aynı anda seçildi"
+        "İleri ve geri aynı anda seçildi",
+        "İleri ve Geri Aynı Anda Seçili ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
         "Yön anahtarı kontaklarını kontrol et",
         "Kablolarda kısa devre olup olmadığını incele",
-        "Sıkışmışsa anahtarı değiştir"
+        "Sıkışmışsa anahtarı değiştir",
+        "İleri ve Geri Aynı Anda Seçili ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/80",
@@ -563,12 +740,20 @@
       "makineTepkisi": "Hız geri beslemesi hatalı, araç düzensiz çalışır veya durur.",
       "siddet": "uyari",
       "nedenler": [
-        "Motor hız enkoderi sinyali geçersiz"
+        "Motor hız enkoderi sinyali geçersiz",
+        "Enkoder Hatası arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
         "Enkoder bağlantılarını kontrol et",
         "Enkoder diski ve sensörü incele",
-        "Hasarlıysa enkoderi değiştir"
+        "Hasarlıysa enkoderi değiştir",
+        "Enkoder Hatası besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/82",
@@ -584,12 +769,19 @@
       "makineTepkisi": "Gaz sinyali iletilmez, araç hızlanmaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Gaz pedalı kablolamasında arıza"
+        "Gaz pedalı kablolamasında arıza",
+        "Gaz Pedalı Kablo Arızası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
         "Pedal kablolarında hasar olup olmadığını incele",
         "Konnektör pimlerini kontrol et",
-        "Kablo demetini onar veya değiştir"
+        "Kablo demetini onar veya değiştir",
+        "Gaz Pedalı Kablo Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/86",
@@ -605,12 +797,19 @@
       "makineTepkisi": "Gaz sinyali alınamaz, araç hızlanmaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Gaz pedalı potansiyometresi arızası"
+        "Gaz pedalı potansiyometresi arızası",
+        "Gaz Pedalı Arızası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
         "Pedal potansiyometresi direncini ölç",
         "Düzensiz okuma olup olmadığını kontrol et",
-        "Pedal tertibatını değiştir"
+        "Pedal tertibatını değiştir",
+        "Gaz Pedalı Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/87",
@@ -626,12 +825,20 @@
       "makineTepkisi": "Motor gücü düşer, çalışma düzensizleşir.",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru fırçaları aşınmış veya hasarlı"
+        "Yürüyüş motoru fırçaları aşınmış veya hasarlı",
+        "Yürüyüş Motoru Fırçaları sargısında arıza",
+        "Motor faz kablolarında kopukluk veya kısa devre",
+        "Motor sıcaklık sensörü arızası",
+        "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
         "Motor fırçalarını aşınma açısından incele",
         "Minimum altına aşınmışsa fırçaları değiştir",
-        "Komütatörü kontrol et"
+        "Komütatörü kontrol et",
+        "Yürüyüş Motoru Fırçaları sargı direncini ve yalıtımını ölçün",
+        "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
+        "Motor sıcaklık sensörü direncini ölçün",
+        "Gerekirse motoru servise gönderin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/88",

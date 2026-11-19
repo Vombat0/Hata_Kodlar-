@@ -257,11 +257,18 @@
       "makineTepkisi": "Yaklaşık bir dakika boyunca sürüş ve hidrolik çalışmaz, sonra kendiliğinden açılır",
       "siddet": "bilgi",
       "nedenler": [
-        "Yeni kontrolöre saat sayar belleğinin MDI'den aktarılması (gerçekleşen bir arıza yoktur)"
+        "Yeni kontrolöre saat sayar belleğinin MDI'den aktarılması (gerçekleşen bir arıza yoktur)",
+        "Kontrolör, MDI'den saat sayar belleğini devralıyor ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
         "Müdahale gerekmez",
-        "Veri aktarımı bitince araç kendiliğinden çalışmaya başlar; beklenir"
+        "Veri aktarımı bitince araç kendiliğinden çalışmaya başlar; beklenir",
+        "Kontrolör, MDI'den saat sayar belleğini devralıyor ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "AL99"

@@ -22,7 +22,10 @@
         "ACCESS3/ACCESS1 arayüz arızası (kod tek başına parça condemn etmez)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "ACCESS 1 ile ACCESS 3 arası CAN iletişimi zaman aşımı konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
+        "İlgili kartın besleme gerilimini ölçün",
+        "Kart yazılım sürümlerini karşılaştırın"
       ],
       "ilgiliKodlar": [
         "112",
@@ -47,7 +50,10 @@
         "Kontrolör arızası (kanıtlanmış ACCESS2 değişimi gerektirmez)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "ACCESS 1 ile ACCESS 2 arası CAN iletişimi zaman aşımı konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
+        "İlgili kartın besleme gerilimini ölçün",
+        "Kart yazılım sürümlerini karşılaştırın"
       ],
       "ilgiliKodlar": [
         "111",
@@ -72,7 +78,10 @@
         "Eşleşmeyen kontrolör konfigürasyonu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Modele bağlı: ACCESS1 besleme elektrik hatası veya ayak varlığı anahtarı uyumsuzluğu ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "108",
@@ -97,7 +106,10 @@
         "Tesisat hataları (otomatik yanık motor anlamına gelmez)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "DC kaldırma motoru M2 aşırı sıcak sargı direncini ve yalıtımını ölçün",
+        "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
+        "Motor sıcaklık sensörü direncini ölçün",
+        "Gerekirse motoru servise gönderin"
       ],
       "ilgiliKodlar": [
         "204",
@@ -122,7 +134,10 @@
         "Model-seri kimliği doğrulanmadan kod yorumlanamaz"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Modele bağlı: ACCESS2 iç akım aşımı veya hidrolik güç modülü kısa devresi hattının şaseye karşı direncini ölçün",
+        "Konnektörleri söküp nem ve oksitlenme olup olmadığını inceleyin",
+        "Kablo demetinde ezilme veya aşınma kontrolü yapın",
+        "Arızalı bölümü onarın veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [
         "202",
@@ -147,7 +162,10 @@
         "Geri bildirim algılama veya ACCESS2 kontrol kademesi sorunu"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "ACCESS2 kaldırma motoru M2 gerilim geri bildirimi aralık dışı sargı direncini ve yalıtımını ölçün",
+        "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
+        "Motor sıcaklık sensörü direncini ölçün",
+        "Gerekirse motoru servise gönderin"
       ],
       "ilgiliKodlar": [
         "204",
@@ -172,7 +190,10 @@
         "ACCESS2 çıkışı, motor kablosu kısa devresi veya kaldırma motoru arızası (yalnız fırça aşınması değildir)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kaldırma motoru M2 güç çıkışlarında düşük gerilim sargı direncini ve yalıtımını ölçün",
+        "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
+        "Motor sıcaklık sensörü direncini ölçün",
+        "Gerekirse motoru servise gönderin"
       ],
       "ilgiliKodlar": [
         "317",
@@ -196,7 +217,10 @@
         "ESR: batarya/rejenerasyon koşulları ve modül güç devresi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Modele bağlı: ACCESS 2 CAN alım hatası veya hidrolik modül aşırı gerilimi konnektörlerini söküp pin yüzeylerini kontrol edin",
+        "CAN hattı terminasyon direncini ölçün (yaklaşık 120 ohm)",
+        "İlgili kartın besleme gerilimini ölçün",
+        "Kart yazılım sürümlerini karşılaştırın"
       ],
       "ilgiliKodlar": [
         "201",
@@ -220,7 +244,10 @@
         "ACCESS3 geri bildirim kademesi arızası (yanlış motor/modül teşhisi riski taşır)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "ACCESS3 seyr motoru M1 gerilim geri bildirimi aralık dışı sargı direncini ve yalıtımını ölçün",
+        "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
+        "Motor sıcaklık sensörü direncini ölçün",
+        "Gerekirse motoru servise gönderin"
       ],
       "ilgiliKodlar": [
         "305",
@@ -246,7 +273,10 @@
         "ACCESS3 giriş kademesi arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "ACCESS3 kontak girişi aşırı veya düşük gerilimde besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "307",
@@ -271,7 +301,10 @@
         "FU1/konjektör koşulları (M1 tek başına suçlanamaz)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Seyr motoru M1 güç terminallerinde yüksek gerilim sargı direncini ve yalıtımını ölçün",
+        "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
+        "Motor sıcaklık sensörü direncini ölçün",
+        "Gerekirse motoru servise gönderin"
       ],
       "ilgiliKodlar": [
         "302",
@@ -296,7 +329,10 @@
         "ACCESS3 güç yolu arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Akü gerilimini ve şarj seviyesini ölçün",
+        "Akü kutup başlarını ve konnektörleri temizleyip sıkın",
+        "Akü hücrelerini yük testiyle kontrol edin",
+        "Gerekirse aküyü şarj edin veya değiştirin"
       ],
       "ilgiliKodlar": [
         "309",
@@ -321,7 +357,10 @@
         "ACCESS3 traction modülü arızası (yalnız FC serisi kaynağı)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Akü gerilimini ve şarj seviyesini ölçün",
+        "Akü kutup başlarını ve konnektörleri temizleyip sıkın",
+        "Akü hücrelerini yük testiyle kontrol edin",
+        "Gerekirse aküyü şarj edin veya değiştirin"
       ],
       "ilgiliKodlar": [
         "307",
@@ -346,7 +385,10 @@
         "Motorun mekanik durumu (kanıtlanmış enkoder arızası varsaymayın)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "ACCESS3 seyr motoru M1 hız geri bildirimi komutla uyuşmuyor sargı direncini ve yalıtımını ölçün",
+        "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
+        "Motor sıcaklık sensörü direncini ölçün",
+        "Gerekirse motoru servise gönderin"
       ],
       "ilgiliKodlar": [
         "302",
@@ -371,7 +413,10 @@
         "ACCESS3 gerilim algılama kademesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "ACCESS3 hatalı yapılandırılmış veya ölçülen batarya gerilimi besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "303",
@@ -396,7 +441,10 @@
         "Kontrolör arızası (motor arızası doğrulanmış değildir)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "ACCESS 3 seyr güç köprüsünde düşük akım uyarısı ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [
         "204",
@@ -421,7 +469,10 @@
         "ACCESS3 modül arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kontak aç/kapat yaparak kartı yeniden başlatın",
+        "Kart besleme gerilimini ölçün",
+        "Parametre setini yeniden yükleyin",
+        "Arıza sürerse kartı değiştirin"
       ],
       "ilgiliKodlar": [
         "317",

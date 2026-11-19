@@ -17,12 +17,20 @@
       "makineTepkisi": "Aşırı gerilim koruması nedeniyle güç çıkışı kesilir veya kısıtlanır.",
       "siddet": "uyari",
       "nedenler": [
-        "Batarya gerilimi 63 V'yi aşıyor"
+        "Batarya gerilimi 63 V'yi aşıyor",
+        "Akü geriliminin izin verilen aralığın dışında olması",
+        "Batarya Aşırı Gerilim Koruması besleme konnektöründe temassızlık",
+        "Ana sigorta veya besleme hattında direnç",
+        "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
       "kontroller": [
         "Batarya bağlantılarını kontrol et",
         "Batarya gerilim seviyesini ölç",
-        "Gerekirse kontrolcüyü değiştir"
+        "Gerekirse kontrolcüyü değiştir",
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "Batarya Aşırı Gerilim Koruması besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/1",
@@ -38,12 +46,20 @@
       "makineTepkisi": "Pompa gücü kısıtlanır, kaldırma yavaşlar.",
       "siddet": "uyari",
       "nedenler": [
-        "Güç modülü sıcaklığı 90°C'yi aşıyor"
+        "Güç modülü sıcaklığı 90°C'yi aşıyor",
+        "Pompa Motoru Güç Modülü Aşırı Isınma üzerinde aşırı yük",
+        "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
+        "Yüksek ortam sıcaklığı",
+        "Termik sensör sapması"
       ],
       "kontroller": [
         "Isı dağıtımını kontrol et",
         "Termal gresi uygula",
-        "Çalışma döngüsünü (görev oranını) azalt"
+        "Çalışma döngüsünü (görev oranını) azalt",
+        "Pompa Motoru Güç Modülü Aşırı Isınma sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/10",
@@ -59,10 +75,18 @@
       "makineTepkisi": "Batarya gerilimi düşük olduğu için güç kısıtlanır.",
       "siddet": "uyari",
       "nedenler": [
-        "Batarya gerilimi deşarj koruma değerinin altında"
+        "Batarya gerilimi deşarj koruma değerinin altında",
+        "Akü geriliminin izin verilen aralığın dışında olması",
+        "Batarya Düşük Gerilim Uyarısı besleme konnektöründe temassızlık",
+        "Ana sigorta veya besleme hattında direnç",
+        "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
       "kontroller": [
-        "Bataryayı sıfırlama değerinin üzerine şarj et"
+        "Bataryayı sıfırlama değerinin üzerine şarj et",
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "Batarya Düşük Gerilim Uyarısı besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/12",
@@ -78,12 +102,20 @@
       "makineTepkisi": "Motor gücü kısılır, araç yavaş çalışır.",
       "siddet": "uyari",
       "nedenler": [
-        "Motor sıcaklığı azami değere yaklaşıyor"
+        "Motor sıcaklığı azami değere yaklaşıyor",
+        "Yürüyüş Motoru Aşırı Isınma Uyarısı üzerinde aşırı yük",
+        "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
+        "Yüksek ortam sıcaklığı",
+        "Termik sensör sapması"
       ],
       "kontroller": [
         "Motor sıcaklık sensörünü kontrol et",
         "Motorun soğumasını bekle",
-        "Fren kilitlenmesi olup olmadığını kontrol et"
+        "Fren kilitlenmesi olup olmadığını kontrol et",
+        "Yürüyüş Motoru Aşırı Isınma Uyarısı sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/13",
@@ -99,12 +131,20 @@
       "makineTepkisi": "Pompa gücü kısıtlanır, kaldırma yavaşlar.",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motoru sıcaklığı azami değere yaklaşıyor"
+        "Pompa motoru sıcaklığı azami değere yaklaşıyor",
+        "Pompa Motoru Aşırı Isınma Uyarısı üzerinde aşırı yük",
+        "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
+        "Yüksek ortam sıcaklığı",
+        "Termik sensör sapması"
       ],
       "kontroller": [
         "Potansiyometre sıfırlamasını kontrol et",
         "Soğutmayı doğrula",
-        "Arızalıysa sıcaklık sensörünü değiştir"
+        "Arızalıysa sıcaklık sensörünü değiştir",
+        "Pompa Motoru Aşırı Isınma Uyarısı sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/14",
@@ -120,11 +160,19 @@
       "makineTepkisi": "Yürüyüş motorunda tork oluşmaz, araç hareket etmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Başlatma sırasında faz akımı sıfır değil"
+        "Başlatma sırasında faz akımı sıfır değil",
+        "Yürüyüş Motoru Akım Kaybı sargısında arıza",
+        "Motor faz kablolarında kopukluk veya kısa devre",
+        "Motor sıcaklık sensörü arızası",
+        "Motor yataklarında aşırı yük"
       ],
       "kontroller": [
         "26 pinli kablo bağlantılarını kontrol et",
-        "Gerekirse güç modülünü değiştir"
+        "Gerekirse güç modülünü değiştir",
+        "Yürüyüş Motoru Akım Kaybı sargı direncini ve yalıtımını ölçün",
+        "Motor faz kablolarında süreklilik ve kısa devre kontrolü yapın",
+        "Motor sıcaklık sensörü direncini ölçün",
+        "Gerekirse motoru servise gönderin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/15",
@@ -140,11 +188,19 @@
       "makineTepkisi": "Ana kontaktör devreye giremez, araç çalışmaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Kontaktör akımı çok yüksek"
+        "Kontaktör akımı çok yüksek",
+        "Ana Kontaktör Bobini Aşırı Akımı bobininde açık devre",
+        "Kontaktör kontaklarında yapışma veya aşınma",
+        "Bobin besleme hattında kopukluk",
+        "Kontaktör sürücü çıkışında arıza"
       ],
       "kontroller": [
         "Harici kısa devre olup olmadığını kontrol et",
-        "Kontaktörü değiştir"
+        "Kontaktörü değiştir",
+        "Ana Kontaktör Bobini Aşırı Akımı bobin direncini ölçün",
+        "Kontaktör kontaklarında yapışma veya aşınma kontrolü yapın",
+        "Bobin besleme hattında süreklilik ölçün",
+        "Gerekirse kontaktörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/17",
@@ -160,12 +216,20 @@
       "makineTepkisi": "Güç çıkışı kesilir, araç çalışmaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Batarya gerilimi 24 V'in altında"
+        "Batarya gerilimi 24 V'in altında",
+        "Akü geriliminin izin verilen aralığın dışında olması",
+        "Batarya Düşük Gerilim Koruması besleme konnektöründe temassızlık",
+        "Ana sigorta veya besleme hattında direnç",
+        "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
       "kontroller": [
         "Batarya kablolarını kontrol et",
         "Pozitif/negatif kontaklarda korozyon olup olmadığını doğrula",
-        "Bataryayı şarj et veya değiştir"
+        "Bataryayı şarj et veya değiştir",
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "Batarya Düşük Gerilim Koruması besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/2",
@@ -181,11 +245,19 @@
       "makineTepkisi": "Motor gücü kısılır, yavaş çalışma.",
       "siddet": "uyari",
       "nedenler": [
-        "Modül sıcaklığı 90°C'yi aşıyor"
+        "Modül sıcaklığı 90°C'yi aşıyor",
+        "Yürüyüş Motoru Güç Modülü Aşırı Isınma üzerinde aşırı yük",
+        "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
+        "Yüksek ortam sıcaklığı",
+        "Termik sensör sapması"
       ],
       "kontroller": [
         "Isı dağıtımını ve termal gresi kontrol et",
-        "Motor çalışmasını kontrol et"
+        "Motor çalışmasını kontrol et",
+        "Yürüyüş Motoru Güç Modülü Aşırı Isınma sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/20",
@@ -201,11 +273,18 @@
       "makineTepkisi": "Çalıştırma engellenir, açılış testi başlatılamaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış kendini testi sırasında gaz pedalına basıldı"
+        "Açılış kendini testi sırasında gaz pedalına basıldı",
+        "Çalıştırmadan Önce Gaz Pedalına Basılması ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
         "Gaz pedalını bırakıp yeniden başlat",
-        "Gerekirse gaz pedalını yeniden kalibre et"
+        "Gerekirse gaz pedalını yeniden kalibre et",
+        "Çalıştırmadan Önce Gaz Pedalına Basılması ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/3",
@@ -221,11 +300,18 @@
       "makineTepkisi": "5 V ile beslenen devreler hatalı çalışır.",
       "siddet": "uyari",
       "nedenler": [
-        "K1-16 gerilimi 4,3 V'un altında"
+        "K1-16 gerilimi 4,3 V'un altında",
+        "Kontrol Ünitesi 5 V Çıkış Arızası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
         "5 V toprak kısa devresi olup olmadığını kontrol et",
-        "Enkoder kablolarını doğrula"
+        "Enkoder kablolarını doğrula",
+        "Kontrol Ünitesi 5 V Çıkış Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/37",
@@ -241,10 +327,17 @@
       "makineTepkisi": "12 V beslemeli sensör ve gösterge devreleri hatalı çalışır.",
       "siddet": "uyari",
       "nedenler": [
-        "K1-17 gerilimi 10,5 V'un altında"
+        "K1-17 gerilimi 10,5 V'un altında",
+        "Kontrol Ünitesi 12 V Çıkış Arızası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
-        "Gaz pedalı sensörlerinde veya göstergede 12 V toprak kısa devresi olup olmadığını kontrol et"
+        "Gaz pedalı sensörlerinde veya göstergede 12 V toprak kısa devresi olup olmadığını kontrol et",
+        "Kontrol Ünitesi 12 V Çıkış Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/38",
@@ -260,11 +353,19 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kontrol parametre değeri izin verilen aralığın dışında"
+        "Kontrol parametre değeri izin verilen aralığın dışında",
+        "Flaş Bellek Hata Uyarısı belleğinde veri bozulması",
+        "Bellek besleme geriliminde düşme",
+        "Kart üzerinde donanım arızası",
+        "Yazılım yükleme işleminin yarıda kesilmesi"
       ],
       "kontroller": [
         "İzleme yazılımıyla sistem varsayılanlarını geri yükle",
-        "Sorun çözülmezse kontrolcüyü değiştir"
+        "Sorun çözülmezse kontrolcüyü değiştir",
+        "Kontak aç/kapat yaparak kartı yeniden başlatın",
+        "Kart besleme gerilimini ölçün",
+        "Parametre setini yeniden yükleyin",
+        "Arıza sürerse kartı değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/5",
@@ -280,11 +381,19 @@
       "makineTepkisi": "Ön şarj tamamlanmadığı için araç çalıştırılamaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Motor çalışırken kapasitör gerilimi batarya geriliminin %70'inin altında"
+        "Motor çalışırken kapasitör gerilimi batarya geriliminin %70'inin altında",
+        "Akü geriliminin izin verilen aralığın dışında olması",
+        "Ön Şarj Kapasitörü Düşük Gerilimi besleme konnektöründe temassızlık",
+        "Ana sigorta veya besleme hattında direnç",
+        "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
       "kontroller": [
         "Ana kontaktör bobini bağlantılarını kontrol et",
-        "Kontaktör çalışmasını doğrula"
+        "Kontaktör çalışmasını doğrula",
+        "Akü gerilimini yüklü ve yüksüz durumda ölçün",
+        "Ön Şarj Kapasitörü Düşük Gerilimi besleme konnektörünü ve ana sigortayı kontrol edin",
+        "Hattaki gerilim kaybını ölçün",
+        "Gerekirse bağlantıları sıkın veya bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/6",
@@ -300,12 +409,20 @@
       "makineTepkisi": "Motor gücü kesilir, araç durur.",
       "siddet": "uyari",
       "nedenler": [
-        "Motor sıcaklığı azami değeri aşıyor"
+        "Motor sıcaklığı azami değeri aşıyor",
+        "Yürüyüş Motoru Aşırı Isınma Kapatması üzerinde aşırı yük",
+        "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
+        "Yüksek ortam sıcaklığı",
+        "Termik sensör sapması"
       ],
       "kontroller": [
         "Çalışmayı durdur",
         "Motorun iyice soğumasını bekle",
-        "Sensörü ve soğutmayı kontrol et"
+        "Sensörü ve soğutmayı kontrol et",
+        "Yürüyüş Motoru Aşırı Isınma Kapatması sıcaklığını ve akım değerini ölçün",
+        "Soğutma fanını ve hava kanallarını kontrol edin",
+        "Yük ve çalışma döngüsünü gözden geçirin",
+        "Termik sensör direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/61",
@@ -321,11 +438,19 @@
       "makineTepkisi": "Hız geri beslemesi kaybolur, araç düzgün çalışmaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Motor çalışırken enkoder sinyali kayboldu"
+        "Motor çalışırken enkoder sinyali kayboldu",
+        "Yürüyüş Motoru Enkoder Arızası arızası",
+        "Sensör besleme veya sinyal hattında kopukluk",
+        "Konnektörde gevşek temas",
+        "Sensör hedefinden uzaklaşması veya kirlenme"
       ],
       "kontroller": [
         "Enkoder bağlantılarını ve kablolarını kontrol et",
-        "Arızalıysa enkoderi değiştir"
+        "Arızalıysa enkoderi değiştir",
+        "Yürüyüş Motoru Enkoder Arızası besleme ve sinyal gerilimini ölçün",
+        "Sensör konnektörünü ve kablo demetini inceleyin",
+        "Sensör ile hedef arasındaki mesafeyi ve kirlenmeyi kontrol edin",
+        "Gerekirse sensörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/74",
@@ -363,12 +488,19 @@
       "makineTepkisi": "Gaz sinyali okunamaz, araç hareket etmez veya düzensiz hızlanır.",
       "siddet": "uyari",
       "nedenler": [
-        "Pedal kapalıyken gaz geri besleme gerilimi hatalı"
+        "Pedal kapalıyken gaz geri besleme gerilimi hatalı",
+        "Gaz Pedalı Arızası ile ilgili bileşen arızası",
+        "İlgili kablo veya konnektörde temassızlık",
+        "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
       "kontroller": [
         "Gaz pedalını yeniden kalibre et",
         "Kabloları kontrol et",
-        "Gerekirse pedalı değiştir"
+        "Gerekirse pedalı değiştir",
+        "Gaz Pedalı Arızası ile ilgili kablo ve konnektörleri kontrol edin",
+        "İlgili bileşenin besleme gerilimini ölçün",
+        "Bileşeni görsel olarak inceleyin",
+        "Gerekirse bileşeni değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/92",
@@ -384,11 +516,19 @@
       "makineTepkisi": "Ön şarj süresi uzar, sistem çalışmaya hazır hale gelmez.",
       "siddet": "uyari",
       "nedenler": [
-        "Ön şarj gerilimi çok yavaş artıyor"
+        "Ön şarj gerilimi çok yavaş artıyor",
+        "Akü şarj seviyesinin düşük olması",
+        "Akü hücresinde zayıflama",
+        "Akü bağlantı veya konnektöründe temassızlık",
+        "Şarj cihazı veya şarj devresinde arıza"
       ],
       "kontroller": [
         "Güç modülü bağlantılarını kontrol et",
-        "Arızayı ayırt etmek için modülleri tek tek değiştir"
+        "Arızayı ayırt etmek için modülleri tek tek değiştir",
+        "Akü gerilimini ve şarj seviyesini ölçün",
+        "Akü kutup başlarını ve konnektörleri temizleyip sıkın",
+        "Akü hücrelerini yük testiyle kontrol edin",
+        "Gerekirse aküyü şarj edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/98",
