@@ -1,0 +1,1621 @@
+{
+  "marka": "hyundai",
+  "seri": "hdf-ecomatic",
+  "modelAdi": "HDF/HDD 50-70 ağır hizmet dizisi ZF EST-37 güç aktarma kontrolörü (TCU)",
+  "kaynakBelge": "Hyundai HDF50/70 Servis Manuali — hata kodu listesi (forkliftpdfmanuals.com PDF)",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+  "kodlar": [
+    {
+      "kod": "11",
+      "kodNormal": "11",
+      "aliaslar": [
+        "11 hex",
+        "11HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Vites konum sinyali mantık hatası",
+      "aciklama": "Vites konum sinyali sinyali mantık hatası. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Vites konum sinyali mantık hatası"
+      ],
+      "kontroller": [
+        "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "12",
+      "kodNormal": "12",
+      "aliaslar": [
+        "12 hex",
+        "12HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Yön seçme sinyali mantık hatası",
+      "aciklama": "Yön seçme sinyali sinyali mantık hatası. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yön seçme sinyali mantık hatası"
+      ],
+      "kontroller": [
+        "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "21",
+      "kodNormal": "21",
+      "aliaslar": [
+        "21 hex",
+        "21HEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "Kavrama kesme girişi hattında akü (+) kısa devre",
+      "aciklama": "Kavrama kesme girişi hattında akü (+) kısa devre. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Kavrama kesme girişinde akü (+) kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "22",
+      "kodNormal": "22",
+      "aliaslar": [
+        "22 hex",
+        "22HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama kesme girişinde şase kısa devresi veya açık devre",
+      "aciklama": "Kavrama kesme girişi hattında şase kısa devresi ya da açık devre",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kavrama kesme girişinde şase kısa devresi veya açık devre"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "23",
+      "kodNormal": "23",
+      "aliaslar": [
+        "23 hex",
+        "23HEX"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Yük sensörü girişi hattında akü (+) kısa devre",
+      "aciklama": "Yük sensörü girişi hattında akü (+) kısa devre (Bu kod bu konfigürasyon kullanılmıyor olarak işaretlenmiştir.)",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Yük sensörü girişinde akü (+) kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "24",
+      "kodNormal": "24",
+      "aliaslar": [
+        "24 hex",
+        "24HEX"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Yük sensörü girişinde şase kısa devresi veya açık devre",
+      "aciklama": "Yük sensörü girişi hattında şase kısa devresi ya da açık devre (Bu kod bu konfigürasyon kullanılmıyor olarak işaretlenmiştir.)",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Yük sensörü girişinde şase kısa devresi veya açık devre"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "25",
+      "kodNormal": "25",
+      "aliaslar": [
+        "25 hex",
+        "25HEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "Şanzıman sıcaklık sensörü girişi sinyal hatası",
+      "aciklama": "Şanzıman sıcaklık sensörü girişinde akü (+) kısa devresi veya açık devre algılandı; kontrolör varsayılan değere geçer.",
+      "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Şanzıman sıcaklık sensörü girişinde akü (+) kısa devresi veya açık devre"
+      ],
+      "kontroller": [
+        "İlgili devreyi ve konnektörleri kontrol edin; gerekirse bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "26",
+      "kodNormal": "26",
+      "aliaslar": [
+        "26 hex",
+        "26HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Sıcaklık sensörü girişi hattında şase kısa devresi",
+      "aciklama": "Şanzıman sıcaklık sensörü girişinde akü (+) kısa devresi veya açık devre algılandı; kontrolör varsayılan değere geçer.",
+      "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Şanzıman sıcaklık sensörü girişinde akü (+) kısa devresi veya açık devre"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "31",
+      "kodNormal": "31",
+      "aliaslar": [
+        "31 hex",
+        "31HEX"
+      ],
+      "sistem": "motor",
+      "baslik": "Motor devri girişi hattında akü (+) kısa devre",
+      "aciklama": "Motor devri girişinde akü (+) kısa devresi veya açık devre algılandı; OP modunda ikame kavrama kontrolü uygulanır.",
+      "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Motor devri girişinde akü (+) kısa devresi veya açık devre"
+      ],
+      "kontroller": [
+        "TCU'dan hız sensörüne giden kabloyu kontrol edin; TCU girişinde 7 V üzeri gerilim ölçülüyor."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "32",
+      "kodNormal": "32",
+      "aliaslar": [
+        "32 hex",
+        "32HEX"
+      ],
+      "sistem": "motor",
+      "baslik": "Motor devri girişinde şase kısa devresi veya açık devre",
+      "aciklama": "Motor devri girişi hattında şase kısa devresi",
+      "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Motor devri girişinde şase kısa devresi"
+      ],
+      "kontroller": [
+        "TCU kablo bağlantısını kontrol edin; TCU girişinde 0 V altında gerilim ölçülüyor."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "33",
+      "kodNormal": "33",
+      "aliaslar": [
+        "33 hex",
+        "33HEX"
+      ],
+      "sistem": "motor",
+      "baslik": "Motor devri girişi sinyali mantık hatası",
+      "aciklama": "Motor devri girişi sinyali mantık hatası. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Motor devri girişi sinyal mantık hatası"
+      ],
+      "kontroller": [
+        "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "34",
+      "kodNormal": "34",
+      "aliaslar": [
+        "34 hex",
+        "34HEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "Türbin devri girişi hattında akü (+) kısa devre",
+      "aciklama": "Türbin devri girişinde akü (+) kısa devresi veya açık devre algılandı; OP modunda sınırlı çalışma uygulanır.",
+      "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Türbin devri girişinde akü (+) kısa devresi veya açık devre"
+      ],
+      "kontroller": [
+        "TCU'dan hız sensörüne giden kabloyu kontrol edin; çıkışta arıza varsa TCU 7 V üzeri gerilim ölçer."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "35",
+      "kodNormal": "35",
+      "aliaslar": [
+        "35 hex",
+        "35HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Türbin devri girişinde şase kısa devresi veya açık devre",
+      "aciklama": "Türbin devri girişi hattında şase kısa devresi",
+      "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Türbin devri girişinde şase kısa devresi"
+      ],
+      "kontroller": [
+        "TCU kablo bağlantısını kontrol edin; güç kesilip verildiğinde arıza sıfırlanır, girişte 0 V altı gerilim ölçülür."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "36",
+      "kodNormal": "36",
+      "aliaslar": [
+        "36 hex",
+        "36HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Türbin devri girişi sinyali mantık hatası",
+      "aciklama": "Türbin devri girişi sinyali mantık hatası. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Türbin devri girişi sinyal mantık hatası"
+      ],
+      "kontroller": [
+        "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "37",
+      "kodNormal": "37",
+      "aliaslar": [
+        "37 hex",
+        "37HEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "İç devir girişi hattında akü (+) kısa devre",
+      "aciklama": "İç devir girişinde akü (+) kısa devresi veya açık devre algılandı; OP modunda sınırlı çalışma uygulanır.",
+      "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "İç devir girişinde akü (+) kısa devresi veya açık devre"
+      ],
+      "kontroller": [
+        "TCU'dan hız sensörüne giden kabloyu kontrol edin; TCU girişinde 7 V üzeri gerilim ölçülüyor."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "38",
+      "kodNormal": "38",
+      "aliaslar": [
+        "38 hex",
+        "38HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "İç devir girişinde şase kısa devresi veya açık devre",
+      "aciklama": "İç devir girişinde şase kısa devresi algılandı; OP modunda sınırlı çalışma uygulanır.",
+      "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Türbin devri girişinde şase kısa devresi"
+      ],
+      "kontroller": [
+        "TCU kablo bağlantısını kontrol edin; TCU girişinde 0 V altında gerilim ölçülüyor."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "39",
+      "kodNormal": "39",
+      "aliaslar": [
+        "39 hex",
+        "39HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "İç devir girişi sinyali mantık hatası",
+      "aciklama": "İç devir girişi sinyali mantık hatası. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "İç devir girişi sinyal mantık hatası"
+      ],
+      "kontroller": [
+        "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "3A",
+      "kodNormal": "3A",
+      "aliaslar": [
+        "3A hex",
+        "3AHEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "Çıkış devri girişinde akü (+) kısa devre veya açık devre",
+      "aciklama": "Çıkış devri girişinde akü (+) kısa devresi veya açık devre algılandı; vites seçimi özel moda geçer.",
+      "makineTepkisi": "Vites seçimi özel moda geçer.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Çıkış devri girişinde akü (+) kısa devresi veya açık devre"
+      ],
+      "kontroller": [
+        "TCU'dan hız sensörüne giden kabloyu kontrol edin; OP modunda ikame kavrama kontrolü aktiftir, girişte 12 V üzeri gerilim ölçülür."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "3B",
+      "kodNormal": "3B",
+      "aliaslar": [
+        "3B hex",
+        "3BHEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Çıkış devri girişinde şase kısa devresi veya açık devre",
+      "aciklama": "Çıkış devri girişi hattında şase kısa devresi",
+      "makineTepkisi": "Vites seçimi özel moda geçer.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Çıkış devri girişinde şase kısa devresi"
+      ],
+      "kontroller": [
+        "TCU kablo bağlantısını kontrol edin; girişte 1 V altında gerilim ölçülüyor."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "3C",
+      "kodNormal": "3C",
+      "aliaslar": [
+        "3C hex",
+        "3CHEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Çıkış devri girişi sinyali mantık hatası",
+      "aciklama": "Çıkış devri girişi sinyali mantık hatası. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Vites seçimi özel moda geçer.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Çıkış devri girişi sinyal mantık hatası"
+      ],
+      "kontroller": [
+        "İlgili sinyal devresini ve sensör çıkışını kontrol edin; mantık durumlarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "71",
+      "kodNormal": "71",
+      "aliaslar": [
+        "71 hex",
+        "71HEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "K1 kavraması hattında akü (+) kısa devre",
+      "aciklama": "K1 kavraması hattında akü (+) kısa devre. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "K1 kavraması hattında akü (+) kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "72",
+      "kodNormal": "72",
+      "aliaslar": [
+        "72 hex",
+        "72HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "K1 kavraması hattında şase kısa devresi",
+      "aciklama": "K1 kavraması hattında şase kısa devresi. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "K1 kavraması hattında şase kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "73",
+      "kodNormal": "73",
+      "aliaslar": [
+        "73 hex",
+        "73HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "K1 kavraması hattında açık devre",
+      "aciklama": "K1 kavraması hattında açık devre. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "K1 kavraması hattında açık devre"
+      ],
+      "kontroller": [
+        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "74",
+      "kodNormal": "74",
+      "aliaslar": [
+        "74 hex",
+        "74HEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "K2 kavraması hattında akü (+) kısa devre",
+      "aciklama": "K2 kavraması hattında akü (+) kısa devre. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "TCU şanzımanı boşa alır.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "K2 kavraması hattında akü (+) kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "75",
+      "kodNormal": "75",
+      "aliaslar": [
+        "75 hex",
+        "75HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "K2 kavraması hattında şase kısa devresi",
+      "aciklama": "K2 kavraması hattında şase kısa devresi. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "TCU şanzımanı boşa alır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "K2 kavraması hattında şase kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "76",
+      "kodNormal": "76",
+      "aliaslar": [
+        "76 hex",
+        "76HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "K2 kavraması hattında açık devre",
+      "aciklama": "K2 kavraması hattında açık devre. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "TCU şanzımanı boşa alır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "K2 kavraması hattında açık devre"
+      ],
+      "kontroller": [
+        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "77",
+      "kodNormal": "77",
+      "aliaslar": [
+        "77 hex",
+        "77HEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "K3 kavraması hattında akü (+) kısa devre",
+      "aciklama": "K3 kavraması hattında akü (+) kısa devre. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "TCU şanzımanı boşa alır.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "K3 kavraması hattında akü (+) kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "78",
+      "kodNormal": "78",
+      "aliaslar": [
+        "78 hex",
+        "78HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "K3 kavraması hattında şase kısa devresi",
+      "aciklama": "K3 kavraması hattında şase kısa devresi. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "TCU şanzımanı boşa alır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "K3 kavraması hattında şase kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "79",
+      "kodNormal": "79",
+      "aliaslar": [
+        "79 hex",
+        "79HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "K3 kavraması hattında açık devre",
+      "aciklama": "K3 kavraması hattında açık devre algılandı; TCU şanzımanı boşa alır.",
+      "makineTepkisi": "TCU şanzımanı boşa alır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "K2 kavraması hattında açık devre"
+      ],
+      "kontroller": [
+        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "7A",
+      "kodNormal": "7A",
+      "aliaslar": [
+        "7A hex",
+        "7AHEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "Konvertör kavraması hattında akü (+) kısa devre",
+      "aciklama": "Konvertör kavraması hattında akü (+) kısa devre (Bu kod bu konfigürasyon kullanılmıyor olarak işaretlenmiştir.)",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Konvertör kavraması hattında akü (+) kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "7B",
+      "kodNormal": "7B",
+      "aliaslar": [
+        "7B hex",
+        "7BHEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Konvertör kavraması hattında şase kısa devresi",
+      "aciklama": "Konvertör kavraması hattında şase kısa devresi (Bu kod bu konfigürasyon kullanılmıyor olarak işaretlenmiştir.)",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Konvertör kavraması hattında şase kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "7C",
+      "kodNormal": "7C",
+      "aliaslar": [
+        "7C hex",
+        "7CHEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Converter clutch hattında açık devre",
+      "aciklama": "Converter clutch hattında açık devre (Bu kod bu konfigürasyon kullanılmıyor olarak işaretlenmiştir.)",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Konvertör kavraması hattında açık devre"
+      ],
+      "kontroller": [
+        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "81",
+      "kodNormal": "81",
+      "aliaslar": [
+        "81 hex",
+        "81HEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "K4 kavraması hattında akü (+) kısa devre",
+      "aciklama": "K4 kavraması hattında akü (+) kısa devre. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "K4 kavraması hattında akü (+) kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "82",
+      "kodNormal": "82",
+      "aliaslar": [
+        "82 hex",
+        "82HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "K4 kavraması hattında şase kısa devresi",
+      "aciklama": "K4 kavraması hattında şase kısa devresi. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "K4 kavraması hattında şase kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "83",
+      "kodNormal": "83",
+      "aliaslar": [
+        "83 hex",
+        "83HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "K4 kavraması hattında açık devre",
+      "aciklama": "K4 kavraması hattında açık devre. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "K4 kavraması hattında açık devre"
+      ],
+      "kontroller": [
+        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "84",
+      "kodNormal": "84",
+      "aliaslar": [
+        "84 hex",
+        "84HEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "KV kavraması hattında akü (+) kısa devre",
+      "aciklama": "KV kavraması hattında akü (+) kısa devre. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "KV kavraması hattında akü (+) kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "85",
+      "kodNormal": "85",
+      "aliaslar": [
+        "85 hex",
+        "85HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "KV kavraması hattında şase kısa devresi",
+      "aciklama": "KV kavraması hattında şase kısa devresi. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "TCU şanzımanı boşa alır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "KV kavraması hattında şase kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "86",
+      "kodNormal": "86",
+      "aliaslar": [
+        "86 hex",
+        "86HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "KV kavraması hattında açık devre",
+      "aciklama": "KV kavraması hattında açık devre. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "TCU şanzımanı boşa alır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "KV kavraması hattında açık devre"
+      ],
+      "kontroller": [
+        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "87",
+      "kodNormal": "87",
+      "aliaslar": [
+        "87 hex",
+        "87HEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "KR kavraması hattında akü (+) kısa devre",
+      "aciklama": "KR kavraması hattında akü (+) kısa devre. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "TCU şanzımanı boşa alır.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "KR kavraması hattında akü (+) kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "88",
+      "kodNormal": "88",
+      "aliaslar": [
+        "88 hex",
+        "88HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "KR kavraması hattında şase kısa devresi",
+      "aciklama": "KR kavraması hattında şase kısa devresi. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "TCU şanzımanı boşa alır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "KR kavraması hattında şase kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "89",
+      "kodNormal": "89",
+      "aliaslar": [
+        "89 hex",
+        "89HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "KR kavraması hattında açık devre",
+      "aciklama": "KR kavraması hattında açık devre. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "TCU şanzımanı boşa alır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "KR kavraması hattında açık devre"
+      ],
+      "kontroller": [
+        "İlgili devrenin kablolarını ve konnektörlerini kontrol edin; kopukluk varsa onarın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "91",
+      "kodNormal": "91",
+      "aliaslar": [
+        "91 hex",
+        "91HEX"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Geri vites ikaz rölesi hattında şase kısa devresi",
+      "aciklama": "Geri vites ikaz rölesi hattında şase kısa devresi. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Geri vites ikaz uyarısı aktif kalır.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Geri vites ikaz rölesi hattında şase kısa devresi"
+      ],
+      "kontroller": [
+        "TCU'dan geri vites ikaz cihazına giden kabloyu kontrol edin; TCU çıkışta hatalı gerilim algıladı. Gevşek bağlantıyı ve S görünümlü pimi inceleyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "92",
+      "kodNormal": "92",
+      "aliaslar": [
+        "92 hex",
+        "92HEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "Geri vites ikaz rölesi hattında akü (+) kısa devre",
+      "aciklama": "Geri vites ikaz rölesi hattında akü (+) kısa devre. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Geri vites ikaz rölesi hattında akü (+) kısa devresi"
+      ],
+      "kontroller": [
+        "TCU'dan geri vites ikaz cihazına giden kabloyu ve konnektörleri kontrol edin; OP modu normaldir, çıkışta hatalı gerilim algılandı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "93",
+      "kodNormal": "93",
+      "aliaslar": [
+        "93 hex",
+        "93HEX"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Geri vites ikaz rölesi hattında açık devre",
+      "aciklama": "Geri vites ikaz rölesi hattında açık devre. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Geri vites ikaz rölesi hattında açık devre"
+      ],
+      "kontroller": [
+        "TCU çıkış hattını ve konnektörleri kontrol edin; OP modu normaldir, geri vites ikaz devresinde hatalı gerilim algılandı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "94",
+      "kodNormal": "94",
+      "aliaslar": [
+        "94 hex",
+        "94HEX"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Marş kilitleme rölesi hattında şase kısa devresi",
+      "aciklama": "Marş kilitleme rölesi hattında şase kısa devresi. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Marş kilitleme rölesi hattında şase kısa devresi"
+      ],
+      "kontroller": [
+        "TCU çıkış hattını ve marş kilitleme rölesi konnektörlerini kontrol edin; OP modu normaldir, çıkışta hatalı gerilim algılandı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "95",
+      "kodNormal": "95",
+      "aliaslar": [
+        "95 hex",
+        "95HEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "Marş kilitleme rölesi hattında akü (+) kısa devre",
+      "aciklama": "Marş kilitleme rölesi hattında akü (+) kısa devre. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Marş kilitleme rölesi hattında akü (+) kısa devresi"
+      ],
+      "kontroller": [
+        "TCU'dan marş kilitleme rölesine giden kabloyu ve konnektörleri kontrol edin; OP modu normaldir, çıkışta hatalı gerilim algılandı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "96",
+      "kodNormal": "96",
+      "aliaslar": [
+        "96 hex",
+        "96HEX"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Marş kilitleme rölesi hattında açık devre",
+      "aciklama": "Marş kilitleme rölesi hattında açık devre. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Marş kilitleme rölesi hattında açık devre"
+      ],
+      "kontroller": [
+        "TCU çıkış hattını ve konnektörleri kontrol edin; OP modu normaldir, marş kilitleme rölesi hattında hatalı gerilim algılandı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "97",
+      "kodNormal": "97",
+      "aliaslar": [
+        "97 hex",
+        "97HEX"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Park freni solenoidi hattında şase kısa devresi",
+      "aciklama": "Park freni solenoidi hattında şase kısa devresi. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Park freni solenoidi hattında şase kısa devresi"
+      ],
+      "kontroller": [
+        "TCU çıkış hattını ve park freni solenoidi konnektörlerini kontrol edin; OP modu normaldir, çıkışta hatalı gerilim algılandı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "98",
+      "kodNormal": "98",
+      "aliaslar": [
+        "98 hex",
+        "98HEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "Park freni solenoidi hattında akü (+) kısa devre",
+      "aciklama": "Park freni hattında akü (+) kısa devre",
+      "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Park freni solenoidi hattında akü (+) kısa devresi"
+      ],
+      "kontroller": [
+        "TCU'dan park freni solenoidine giden kabloyu ve konnektörleri kontrol edin; hatalı çıkış gerilimi TCU'nun boşa geçmesine yol açabilir."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "99",
+      "kodNormal": "99",
+      "aliaslar": [
+        "99 hex",
+        "99HEX"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Park freni solenoidi hattında açık devre",
+      "aciklama": "Park freni solenoidi hattında açık devre. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Park freni solenoidi hattında açık devre"
+      ],
+      "kontroller": [
+        "TCU çıkış hattını ve park freni solenoidi konektörlerini kontrol edin; çıkışta hatalı gerilim algılandı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B1",
+      "kodNormal": "B1",
+      "aliaslar": [
+        "B1 hex",
+        "B1HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "K1 kavramasında kayma",
+      "aciklama": "K1 kavramasında kayma. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "TCU şanzımanı boşa alır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "K1 kavramasında kayma"
+      ],
+      "kontroller": [
+        "K1 kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B2",
+      "kodNormal": "B2",
+      "aliaslar": [
+        "B2 hex",
+        "B2HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "K2 kavramasında kayma",
+      "aciklama": "K2 kavramasında kayma. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "TCU şanzımanı boşa alır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "K2 kavramasında kayma"
+      ],
+      "kontroller": [
+        "K2 kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B3",
+      "kodNormal": "B3",
+      "aliaslar": [
+        "B3 hex",
+        "B3HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "K3 kavramasında kayma",
+      "aciklama": "K3 kavramasında kayma. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "TCU şanzımanı boşa alır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "K3 kavramasında kayma"
+      ],
+      "kontroller": [
+        "K3 kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B4",
+      "kodNormal": "B4",
+      "aliaslar": [
+        "B4 hex",
+        "B4HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "K4 kavramasında kayma",
+      "aciklama": "K4 kavramasında kayma. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "K4 kavramasında kayma"
+      ],
+      "kontroller": [
+        "İlgili kavramanın hidrolik basıncını ve sürtünme disklerini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B5",
+      "kodNormal": "B5",
+      "aliaslar": [
+        "B5 hex",
+        "B5HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "KV kavramasında kayma",
+      "aciklama": "KV kavramasında kayma. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "TCU şanzımanı boşa alır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "KV kavramasında kayma"
+      ],
+      "kontroller": [
+        "KV kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B6",
+      "kodNormal": "B6",
+      "aliaslar": [
+        "B6 hex",
+        "B6HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "KR kavramasında kayma",
+      "aciklama": "KR kavramasında kayma. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "TCU şanzımanı boşa alır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "KR kavramasında kayma"
+      ],
+      "kontroller": [
+        "KR kavramasındaki basıncı ve ana basıncı kontrol edin; TCU kapalı kavramada diferansiyel hız hesapladı. OP modu: limp home."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D1",
+      "kodNormal": "D1",
+      "aliaslar": [
+        "D1 hex",
+        "D1HEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "Sensör beslemesi hattında akü (+) kısa devre",
+      "aciklama": "Sensör besleme hattında akü (+) kısa devre algılandı; ilgili sensörler doğru beslenemiyor.",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sensör besleme hattında akü (+) kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D2",
+      "kodNormal": "D2",
+      "aliaslar": [
+        "D2 hex",
+        "D2HEX"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sensör beslemesi hattında şase kısa devresi",
+      "aciklama": "Sensör besleme hattında şase kısa devresi algılandı; ilgili sensörler doğru beslenemiyor.",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sensör besleme hattında şase kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D3",
+      "kodNormal": "D3",
+      "aliaslar": [
+        "D3 hex",
+        "D3HEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü gerilimi düşük",
+      "aciklama": "HDF50/70 güç aktarma kontrolör hatası D3: Akü gerilimi düşük",
+      "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Akü gerilimi düşük"
+      ],
+      "kontroller": [
+        "Akü gerilimini, klemeleri ve şarj sistemini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D4",
+      "kodNormal": "D4",
+      "aliaslar": [
+        "D4 hex",
+        "D4HEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü gerilimi yüksek",
+      "aciklama": "HDF50/70 güç aktarma kontrolör hatası D4: Akü gerilimi yüksek",
+      "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Akü gerilimi yüksek"
+      ],
+      "kontroller": [
+        "Akülerden TCU'ya giden kabloları ve besleme gerilimini kontrol edin (32 V sınırı)."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D5",
+      "kodNormal": "D5",
+      "aliaslar": [
+        "D5 hex",
+        "D5HEX"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Valf besleme 1 hatası",
+      "aciklama": "VPS1 valf besleme hattında hata algılandı; ilgili valfler doğru beslenemiyor.",
+      "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "VPS1 valf besleme hatası"
+      ],
+      "kontroller": [
+        "İlgili valf besleme hattını ve konnektörlerini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D6",
+      "kodNormal": "D6",
+      "aliaslar": [
+        "D6 hex",
+        "D6HEX"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Valf besleme 2 hatası",
+      "aciklama": "VPS2 valf besleme hattında hata algılandı; ilgili valfler doğru beslenemiyor.",
+      "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "VPS2 valf besleme hatası"
+      ],
+      "kontroller": [
+        "İlgili valf besleme hattını ve konnektörlerini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E1",
+      "kodNormal": "E1",
+      "aliaslar": [
+        "E1 hex",
+        "E1HEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "Hız göstergesi çıkışı hattında akü (+) kısa devre",
+      "aciklama": "Hız göstergesi çıkışı hattında akü (+) kısa devre (Bu kod bu konfigürasyon kullanılmıyor olarak işaretlenmiştir.)",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Hız göstergesi çıkışında akü (+) kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E2",
+      "kodNormal": "E2",
+      "aliaslar": [
+        "E2 hex",
+        "E2HEX"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Hız göstergesi çıkışında şase kısa devresi veya açık devre",
+      "aciklama": "Hız göstergesi çıkışı hattında şase kısa devresi ya da açık devre (Bu kod bu konfigürasyon kullanılmıyor olarak işaretlenmiştir.)",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Hız göstergesi çıkışında şase kısa devresi veya açık devre"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E3",
+      "kodNormal": "E3",
+      "aliaslar": [
+        "E3 hex",
+        "E3HEX"
+      ],
+      "sistem": "batarya",
+      "baslik": "Gösterge çıkışı hattında akü (+) kısa devre",
+      "aciklama": "Gösterge çıkışı hattında akü (+) kısa devre (Bu kod bu konfigürasyon kullanılmıyor olarak işaretlenmiştir.)",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Gösterge çıkışında akü (+) kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; B+ ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E4",
+      "kodNormal": "E4",
+      "aliaslar": [
+        "E4 hex",
+        "E4HEX"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Gösterge çıkışı hattında şase kısa devresi",
+      "aciklama": "Gösterge çıkışı hattında şase kısa devresi (Bu kod bu konfigürasyon kullanılmıyor olarak işaretlenmiştir.)",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Gösterge çıkışında şase kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili hattın kablo ve konnektörlerini kontrol edin; şase (GND) ile kısa devre olup olmadığını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E5",
+      "kodNormal": "E5",
+      "aliaslar": [
+        "E5 hex",
+        "E5HEX"
+      ],
+      "sistem": "elektrik",
+      "baslik": "DeviceNet iletişim hatası",
+      "aciklama": "DeviceNet iletişim hatası. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Vites göstergesinde anahtar simgesi yanıp söner; arıza kodu boştayken görüntülenir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "DeviceNet hattı iletişim hatası"
+      ],
+      "kontroller": [
+        "İlgili devreyi ve konnektörleri kontrol edin; gerekirse bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F1",
+      "kodNormal": "F1",
+      "aliaslar": [
+        "F1 hex",
+        "F1HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Genel EEPROM arızası",
+      "aciklama": "Genel EEPROM arızası. Hyundai EST-37 TCU iki haneli onaltılık hata kodu; ayrıntı için servis kılavuzu arıza tablosuna bakın.",
+      "makineTepkisi": "Belirgin tepki yok; kontrolör varsayılan değere geçer.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Genel EEPROM arızası"
+      ],
+      "kontroller": [
+        "İlgili devreyi ve konnektörleri kontrol edin; gerekirse bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F2",
+      "kodNormal": "F2",
+      "aliaslar": [
+        "F2 hex",
+        "F2HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Yapılandırma kaybı",
+      "aciklama": "TCU yapılandırmasını kaybettiği için şanzıman boşta kalır. Doğru yapılandırma yeniden programlanmalıdır.",
+      "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "TCU yapılandırmasını kaybettiği için şanzıman boşta kalır; doğru yapılandırma yeniden programlanmalıdır"
+      ],
+      "kontroller": [
+        "İlgili devreyi ve konnektörleri kontrol edin; gerekirse bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F3",
+      "kodNormal": "F3",
+      "aliaslar": [
+        "F3 hex",
+        "F3HEX"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Uygulama hatası",
+      "aciklama": "TCU uygulama yazılımında bir hata var; şanzıman boşta kalır. Hata test sırasında oluşuyorsa TCU değiştirilmelidir.",
+      "makineTepkisi": "OP modunda ikame kavrama kontrolü / sınırlı çalışma (limp).",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "TCU uygulama yazılımında hata var; şanzıman boşta kalır ve belirli test sırasında arıza oluşur"
+      ],
+      "kontroller": [
+        "İlgili devreyi ve konnektörleri kontrol edin; gerekirse bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6293625066/Hyundai+HDF50+70+Forklift+Trucks+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    }
+  ]
+}

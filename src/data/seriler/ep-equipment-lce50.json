@@ -1,0 +1,583 @@
+{
+  "marka": "ep-equipment",
+  "seri": "lce50",
+  "modelAdi": "EP Equipment lce50",
+  "kaynakBelge": "Web araştırması — chinaliftsupply.com",
+  "kaynakSurum": "",
+  "kaynakDil": "",
+  "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50",
+  "kodlar": [
+    {
+      "kod": "F1.1",
+      "kodNormal": "F11",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor Aşırı Isınma Güç Kısıtlama",
+      "aciklama": "Araç aşırı yüklendiğinde veya aşırı ortam sıcaklıklarında çalıştırıldığında motor sıcaklığı yükselir ve güç kısıtlama devreye girer. Sıcaklık sınırına ulaşılmasıyla tetiklenir.",
+      "makineTepkisi": "Motor gücü kısılır, araç yavaş çalışır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Araçta aşırı yük",
+        "Aşırı ortam sıcaklıklarında çalışma"
+      ],
+      "kontroller": [
+        "Yükü azalt",
+        "Motorun soğumasını bekle",
+        "Havalandırmayı ve ortam sıcaklığını kontrol et"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F1.1",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F1.2",
+      "kodNormal": "F12",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Gaz Sinyali Arızası",
+      "aciklama": "Gaz sinyali kablosunda açık veya kısa devre olduğunda ya da potansiyometre arızalandığında bu hata oluşur. Gaz sinyalinin okunamamasıyla tetiklenir.",
+      "makineTepkisi": "Gaz komutu algılanamaz, araç hızlanmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gaz sinyali kablosunda açık devre",
+        "Gaz sinyali kablosunda kısa devre",
+        "Potansiyometre arızası"
+      ],
+      "kontroller": [
+        "Gaz kablo tesisatını ve potansiyometreyi incele",
+        "Arızalıysa değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F1.2",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F1.3",
+      "kodNormal": "F13",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Düşük Gerilim Güç Kısıtlama",
+      "aciklama": "Batarya gerilimi 16,8 V'un altına düştüğünde veya batarya bağlantısı bozuk olduğunda güç kısıtlama uygulanır. Gerilimin eşik değerin altına inmesiyle tetiklenir.",
+      "makineTepkisi": "Motor gücü kısılır, araç yavaş çalışır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Batarya gerilimi 16,8 V'un altında",
+        "Batarya bağlantısı bozuk"
+      ],
+      "kontroller": [
+        "Bataryayı şarj et",
+        "Batarya bağlantılarında korozyon veya gevşeklik olup olmadığını kontrol et"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F1.3",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F1.4",
+      "kodNormal": "F14",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Aşırı Gerilim Güç Kısıtlama",
+      "aciklama": "Batarya gerilimi çok yükseldiğinde veya bağlantı aralıklı olduğunda güç kısıtlama devreye girer. Gerilimin üst sınırı aşmasıyla tetiklenir.",
+      "makineTepkisi": "Motor gücü kısılır, araç yavaş çalışır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gerilim çok yüksek",
+        "Batarya bağlantısı aralıklı"
+      ],
+      "kontroller": [
+        "Batarya gerilim seviyesini ölç",
+        "Bağlantılarda aralıklı temas olup olmadığını incele"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F1.4",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F1.5",
+      "kodNormal": "F15",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Şiddetli Aşırı Gerilim",
+      "aciklama": "Batarya gerilimi 34 V'yi aştığında veya bağlantı aralıklı olduğunda şiddetli aşırı gerilim arızası oluşur. Gerilimin kritik üst sınırı geçmesiyle tetiklenir.",
+      "makineTepkisi": "Aşırı gerilim koruması gücü keser, araç çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Batarya gerilimi 34 V'den yüksek",
+        "Batarya bağlantısı aralıklı"
+      ],
+      "kontroller": [
+        "Batarya gerilimini kontrol et (aşırı şarj olabilir)",
+        "Şarj cihazı ayarlarını doğrula"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F1.5",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F1.6",
+      "kodNormal": "F16",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Şiddetli Düşük Gerilim",
+      "aciklama": "Batarya gerilimi 13,8 V'un altına indiğinde şiddetli düşük gerilim arızası oluşur. Bataryanın kritik düzeyde boşalmasıyla tetiklenir.",
+      "makineTepkisi": "Güç kesilir, araç çalıştırılamaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Batarya gerilimi 13,8 V'un altında"
+      ],
+      "kontroller": [
+        "Bataryayı hemen şarj et veya değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F1.6",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F2.1",
+      "kodNormal": "F21",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "SRO (Kilit Anahtarı) Arızası",
+      "aciklama": "Emniyet kilidi anahtarı hasar gördüğünde veya bağlantısı koptuğunda SRO arızası oluşur. Kilit sinyalinin kontrolcüye iletilmemesiyle tetiklenir.",
+      "makineTepkisi": "Emniyet kilidi algılanamaz, araç çalıştırılamaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Emniyet kilidi anahtarı hasarlı",
+        "Anahtar bağlantısı kopuk"
+      ],
+      "kontroller": [
+        "Emniyet kilidi anahtarının kablolarını ve çalışmasını kontrol et",
+        "Hasarlıysa değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F2.1",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F2.2",
+      "kodNormal": "F22",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "EMR Sıra Hatası",
+      "aciklama": "Çalıştırmadan önce belly (gövde altı) düğmesine basıldığında veya inching anahtarı arızalandığında sıra hatası oluşur. Başlatma sırasında kontrol girişlerinin yanlış sırada gelmesiyle tetiklenir.",
+      "makineTepkisi": "Başlatma sırası hatası nedeniyle araç çalıştırılamaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Başlatma öncesinde belly düğmesine basıldı",
+        "İnching (yavaş hareket) anahtarı arızalı"
+      ],
+      "kontroller": [
+        "Başlatmadan önce tüm kumandaları bırak",
+        "İnching anahtarını kontrol et"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F2.2",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F2.3",
+      "kodNormal": "F23",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Ana Sürücü Arızası",
+      "aciklama": "Dahili röle bobini kırıldığında veya sürücü devresi açık ya da kısa devre yaptığında ana sürücü arızası oluşur. Sürücü çıkışının ana röleyi çalıştıramamasıyla tetiklenir.",
+      "makineTepkisi": "Ana röle devreye girmez, araç çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Dahili röle bobini kırık",
+        "Sürücü devresi açık",
+        "Sürücü devresi kısa devre"
+      ],
+      "kontroller": [
+        "Kontrolcü servis gerektirir",
+        "Ana röle bağlantılarını kontrol et"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F2.3",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F2.4",
+      "kodNormal": "F24",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Ana Röle Kaynamış",
+      "aciklama": "Dahili röle kontakları kaynadığında ve kontrolcü arızalandığında bu hata oluşur. Rölenin açılamamasıyla tetiklenir.",
+      "makineTepkisi": "Ana güç kesilemez, araç kapanamaz veya istenmeden çalışır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Dahili röle kaynamış",
+        "Kontrolcü arızalı"
+      ],
+      "kontroller": [
+        "Kontrolcüyü değiştir (dahili röle hasarlı)"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F2.4",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F2.5",
+      "kodNormal": "F25",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Ana Röle Kapanmadı (DNC)",
+      "aciklama": "Dahili röle kapanmadığında ve röle uçları oksitlendiğinde bu hata oluşur. Röle kontaklarının temas etmemesiyle tetiklenir.",
+      "makineTepkisi": "Ana güç bağlanamaz, araç çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Dahili röle kapanmadı",
+        "Röle kontakları oksitlenmiş"
+      ],
+      "kontroller": [
+        "Röle kontaklarını temizle veya kontrolcüyü değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F2.5",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F2.6",
+      "kodNormal": "F26",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Pompa SRO Arızası",
+      "aciklama": "Anahtar açılmadan önce kaldırma veya indirme anahtarına basıldığında pompa SRO arızası oluşur. Hidrolik kumandaların başlatma sırasında aktif olmasıyla tetiklenir.",
+      "makineTepkisi": "Kaldırma ve indirme devreye girmez, araç başlatılamaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Anahtar açılmadan önce kaldırma veya indirme anahtarına basıldı"
+      ],
+      "kontroller": [
+        "Çalıştırmadan önce tüm hidrolik kumandaları bırak"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F2.6",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F3.1",
+      "kodNormal": "F31",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Kablolama Arızası",
+      "aciklama": "Gaz pedalı yanlış ayarlandığında, potansiyometresi bozulduğunda veya mekanizma kırıldığında kablolama arızası oluşur. Gaz sinyalinin doğru üretilmemesiyle tetiklenir.",
+      "makineTepkisi": "Gaz sinyali hatalı, araç düzensiz hızlanır veya hareket etmez.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gaz pedalı yanlış ayarlanmış",
+        "Gaz potansiyometresi arızalı",
+        "Gaz mekanizması kırık"
+      ],
+      "kontroller": [
+        "Gaz pedalını yeniden kalibre et",
+        "Kabloları ve mekanik bağlantıyı incele"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F3.1",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F3.2",
+      "kodNormal": "F32",
+      "aliaslar": [],
+      "sistem": "fren",
+      "baslik": "Fren Uygulama Arızası",
+      "aciklama": "Elektromanyetik fren sürücüsünde kısa devre veya fren bobininde açık devre tespit edildiğinde bu arıza kaydedilir. Fren devresinin elektriksel durumu beklenen değerde olmadığında tetiklenir.",
+      "makineTepkisi": "Fren bırakılamaz, araç hareket etmez.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Elektromanyetik fren sürücüsü kısa devre",
+        "Fren bobini açık devre"
+      ],
+      "kontroller": [
+        "Fren bobini direncini ve sürücü devresini kontrol et"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F3.2",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F3.3",
+      "kodNormal": "F33",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Ön Şarj Arızası",
+      "aciklama": "Kontrolcü arızalandığında ön şarj işlemi tamamlanamaz ve bu hata oluşur. Ön şarj devresinin çalışmamasıyla tetiklenir.",
+      "makineTepkisi": "Ön şarj tamamlanmaz, ana kontaktör kapanmaz ve araç çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontrolcü arızalı"
+      ],
+      "kontroller": [
+        "Kontrolcüyü bakıma gönder veya değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F3.3",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F3.4",
+      "kodNormal": "F34",
+      "aliaslar": [],
+      "sistem": "fren",
+      "baslik": "Fren Bırakma Arızası",
+      "aciklama": "Elektromanyetik fren sürücüsü açık devre olduğunda veya bobin kısa devre yaptığında fren bırakma arızası oluşur. Fren devresindeki elektriksel bozuklukla tetiklenir.",
+      "makineTepkisi": "Fren bırakılamaz, araç hareket etmez.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Elektromanyetik fren sürücüsü açık devre",
+        "Fren bobini kısa devre"
+      ],
+      "kontroller": [
+        "Fren kablolarını ve bobini kontrol et",
+        "Kısa devre varsa değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F3.4",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F3.5",
+      "kodNormal": "F35",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "HPD (Yüksek Pedal Devre Dışı) Arızası",
+      "aciklama": "Gaz sinyali ile emniyet kilidi girişi yanlış sırada geldiğinde HPD arızası oluşur. Başlatma sırasındaki giriş sırasının hatalı olmasıyla tetiklenir.",
+      "makineTepkisi": "Yüksek pedal durumunda araç çalıştırılamaz veya hareket etmez.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gaz ve emniyet kilidi girişlerinin sırası hatalı"
+      ],
+      "kontroller": [
+        "Doğru çalıştırma sırasını uygula",
+        "Gaz sinyali girişini kontrol et"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F3.5",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F4.1",
+      "kodNormal": "F41",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Akım Algılama Arızası",
+      "aciklama": "Kontrolcünün akım ölçüm devresi arızalandığında bu hata oluşur. Akım geri beslemesinin okunamamasıyla tetiklenir.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontrolcü arızalı"
+      ],
+      "kontroller": [
+        "Kontrolcüyü değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F4.1",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F4.2",
+      "kodNormal": "F42",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kontrolcü Aşırı Akımı",
+      "aciklama": "Kontrolcü arızalandığında akım sınır değeri aşılır ve bu hata oluşur. Çıkış akımının izin verilen sınırı geçmesiyle tetiklenir.",
+      "makineTepkisi": "Aşırı akım koruması devreye girer, motor gücü kesilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontrolcü arızalı"
+      ],
+      "kontroller": [
+        "Motor bağlantılarını kontrol et",
+        "Gerekirse kontrolcüyü değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F4.2",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F4.3",
+      "kodNormal": "F43",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Donanım Arızası",
+      "aciklama": "Motor gerilimi gaz pedalı talebiyle uyumlu olmadığında donanım arızası algılanır. Kontrolcü çıkışının komuta yanıt vermemesiyle tetiklenir.",
+      "makineTepkisi": "Motor istenen gücü üretemez, araç hareket etmez.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor gerilimi gaz pedalı talebiyle uyuşmuyor"
+      ],
+      "kontroller": [
+        "Kontrolcüyü değiştir (donanım arızası)"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F4.3",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F4.4",
+      "kodNormal": "F44",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Yazılım Arızası",
+      "aciklama": "Kontrolcü yazılımı veya kontrolcünün kendisi arızalandığında bu hata oluşur. Yazılımın beklenen şekilde çalışmamasıyla tetiklenir.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yazılım arızalı",
+        "Kontrolcü arızalı"
+      ],
+      "kontroller": [
+        "Kontrolcüyü yeniden programla veya değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F4.4",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F4.5",
+      "kodNormal": "F45",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Batarya Bağlantısı Kesildi",
+      "aciklama": "Batarya bağlı olmadığında veya bağlantısı zayıf olduğunda bu arıza oluşur. Beslemenin kesilmesi veya temasın bozulmasıyla tetiklenir.",
+      "makineTepkisi": "Güç yok, araç çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Batarya bağlı değil",
+        "Batarya bağlantısı zayıf"
+      ],
+      "kontroller": [
+        "Tüm batarya bağlantılarını ve terminalleri kontrol et"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F4.5",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F4.6",
+      "kodNormal": "F46",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor Arızası",
+      "aciklama": "Motor sıcaklığı yüksek olduğunda bu arıza oluşur. Motorun aşırı ısınmasıyla tetiklenir.",
+      "makineTepkisi": "Motor aşırı ısındığı için güç kısıtlanır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor sıcaklığı yüksek"
+      ],
+      "kontroller": [
+        "Motorun soğumasını bekle",
+        "Aşırı yük veya tıkanmış havalandırma olup olmadığını kontrol et"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F4.6",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F5.1",
+      "kodNormal": "F51",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Düşük BDI (Deşarj Göstergesi) Arızası",
+      "aciklama": "Batarya deşarj seviyesi programlanmış eşiğin altına indiğinde düşük BDI arızası oluşur. Bataryanın belirlenen sınırın altında boşalmasıyla tetiklenir.",
+      "makineTepkisi": "Batarya boşaldığı için güç kısıtlanır veya araç kapanır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Batarya deşarjı programlanmış eşiğin altında"
+      ],
+      "kontroller": [
+        "Bataryayı hemen şarj et"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F5.1",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F5.2",
+      "kodNormal": "F52",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kontrolcü Aşırı Isınma",
+      "aciklama": "Aşırı yük veya aşırı ortam sıcaklığı kontrolcünün ısınmasına yol açtığında bu arıza oluşur. Kontrolcü sıcaklığının izin verilen sınırı aşmasıyla tetiklenir.",
+      "makineTepkisi": "Güç kısıtlama devreye girer, kontrolcü kısıtlı çalışır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Aşırı yük",
+        "Aşırı ortam sıcaklığı"
+      ],
+      "kontroller": [
+        "Yükü azalt",
+        "Havalandırmayı iyileştir",
+        "Soğumasını bekle"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F5.2",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F5.3",
+      "kodNormal": "F53",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kontrolcü Şiddetli Aşırı Isınma",
+      "aciklama": "Kontrolcü sıcaklığı kritik düzeydedeyken aşırı yük veya aşırı ortam sıcaklığı bu arızayı tetikler. Sıcaklığın şiddetli sınırı aşmasıyla oluşur.",
+      "makineTepkisi": "Kontrolcü çalışmayı durdurur, araç kapanır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Aşırı yük",
+        "Aşırı ortam sıcaklığı"
+      ],
+      "kontroller": [
+        "Çalışmayı hemen durdur",
+        "Kontrolcünün iyice soğumasını bekle"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F5.3",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F6.1",
+      "kodNormal": "F61",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor Kısa Devresi",
+      "aciklama": "Motor kablolarında kısa devre oluştuğunda bu arıza kaydedilir. Faz kablolarının birbirine temas etmesiyle tetiklenir.",
+      "makineTepkisi": "Kısa devre koruması devreye girer, motor çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor kabloları kısa devre yapmış"
+      ],
+      "kontroller": [
+        "Motor faz kablolarını incele",
+        "Yalıtım hasarı olup olmadığını kontrol et"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F6.1",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F6.2",
+      "kodNormal": "F62",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor Açık Devresi",
+      "aciklama": "Motor kablolarında açık devre olduğunda, kablo arızalandığında veya kontrolcü bozulduğunda bu arıza oluşur. Motor devresinin sürekliliğinin kesilmesiyle tetiklenir.",
+      "makineTepkisi": "Motor beslenemez, araç hareket etmez.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor kabloları açık devre",
+        "Motor kablosu arızalı",
+        "Kontrolcü arızalı"
+      ],
+      "kontroller": [
+        "Motor bağlantılarını ve kablo sürekliliğini kontrol et"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/ep-equipment/lce50/F6.2",
+      "durum": "incelemede"
+    }
+  ]
+}

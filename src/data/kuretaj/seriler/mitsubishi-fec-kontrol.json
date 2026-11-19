@@ -1,0 +1,1231 @@
+{
+  "marka": "mitsubishi",
+  "seri": "fec-kontrol",
+  "modelAdi": "Mitsubishi elektrikli sürücü ve motor kontrol aileleri referans kod tablosu",
+  "kaynakBelge": "ForkliftErrorCodes.com marka kod referansları (sayfa bazlı, üretici kapsam notlu)",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+  "kodlar": [
+    {
+      "kod": "14",
+      "kodNormal": "14",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Sağ Çekiş Motor Akım Sensör arıza",
+      "aciklama": "Mitsubishi forklift kodu 14: Sağ Çekiş Motor Akım Sensör arıza. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Right Traction Motor Current Sensor Fault"
+      ],
+      "kontroller": [
+        "Mitsubishi FB16NT/FB18NT/FB20NT electric series in the cited code table. Detailed FB16PN/FB20PN service manual is a SIMILAR but not automatically identical controller generation. Exact NT serial, installed inverter/logic board and NT-specific circuit figures NOT VERIFIED. No code meaning is carried over to Mitsubishi LPG/diesel."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "15",
+      "kodNormal": "15",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Sağ Çekiş Motor Aşırı akım",
+      "aciklama": "Mitsubishi forklift kodu 15: Sağ Çekiş Motor Aşırı akım. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Right Traction Motor Overcurrent"
+      ],
+      "kontroller": [
+        "Mitsubishi FB16NT/FB18NT/FB20NT electric series in the cited code table. Detailed FB16PN/FB20PN service manual is a SIMILAR but not automatically identical controller generation. Exact NT serial, installed inverter/logic board and NT-specific circuit figures NOT VERIFIED. No code meaning is carried over to Mitsubishi LPG/diesel."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "16",
+      "kodNormal": "16",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Sağ Çekiş Motor killenme zamanlayıcısı Exceeded",
+      "aciklama": "Mitsubishi forklift kodu 16: Sağ Çekiş Motor killenme zamanlayıcısı Exceeded. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Right Traction Motor Stall-Timer Exceeded"
+      ],
+      "kontroller": [
+        "Mitsubishi FB16NT/FB18NT/FB20NT electric series in the cited code table. Detailed FB16PN/FB20PN service manual is a SIMILAR but not automatically identical controller generation. Exact NT serial, installed inverter/logic board and NT-specific circuit figures NOT VERIFIED. No code meaning is carried over to Mitsubishi LPG/diesel."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "25",
+      "kodNormal": "25",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Sol Çekiş Motor Aşırı akım",
+      "aciklama": "Mitsubishi forklift kodu 25: Sol Çekiş Motor Aşırı akım. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Left Traction Motor Overcurrent"
+      ],
+      "kontroller": [
+        "Mitsubishi FB16NT/FB18NT/FB20NT electric series in the cited code table. Detailed FB16PN/FB20PN service manual is a SIMILAR but not automatically identical controller generation. Exact NT serial, installed inverter/logic board and NT-specific circuit figures NOT VERIFIED. No code meaning is carried over to Mitsubishi LPG/diesel."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "26",
+      "kodNormal": "26",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Sol Çekiş Motor killenme zamanlayıcısı Exceeded",
+      "aciklama": "Mitsubishi forklift kodu 26: Sol Çekiş Motor killenme zamanlayıcısı Exceeded. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Left Traction Motor Stall-Timer Exceeded"
+      ],
+      "kontroller": [
+        "Mitsubishi FB16NT/FB18NT/FB20NT electric series in the cited code table. Detailed FB16PN/FB20PN service manual is a SIMILAR but not automatically identical controller generation. Exact NT serial, installed inverter/logic board and NT-specific circuit figures NOT VERIFIED. No code meaning is carried over to Mitsubishi LPG/diesel."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "35",
+      "kodNormal": "35",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik Pompa Motor Aşırı akım",
+      "aciklama": "Mitsubishi forklift kodu 35: Hidrolik Pompa Motor Aşırı akım. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hydraulic Pump Motor Overcurrent"
+      ],
+      "kontroller": [
+        "Mitsubishi FB16NT/FB18NT/FB20NT electric series in the cited code table. Detailed FB16PN/FB20PN service manual is a SIMILAR but not automatically identical controller generation. Exact NT serial, installed inverter/logic board and NT-specific circuit figures NOT VERIFIED. No code meaning is carried over to Mitsubishi LPG/diesel."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "42",
+      "kodNormal": "42",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik Pompa Contactor Kontrol arıza",
+      "aciklama": "Mitsubishi forklift kodu 42: Hidrolik Pompa Contactor Kontrol arıza. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hydraulic Pump Contactor Control Fault"
+      ],
+      "kontroller": [
+        "Mitsubishi FB16NT/FB18NT/FB20NT electric series in the cited code table. Detailed FB16PN/FB20PN service manual is a SIMILAR but not automatically identical controller generation. Exact NT serial, installed inverter/logic board and NT-specific circuit figures NOT VERIFIED. No code meaning is carried over to Mitsubishi LPG/diesel."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "50",
+      "kodNormal": "50",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Steering Sensör sinyali/Kontrol arıza",
+      "aciklama": "Mitsubishi forklift kodu 50: Steering Sensör sinyali/Kontrol arıza. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Steering Sensor Signal/Control Fault"
+      ],
+      "kontroller": [
+        "Mitsubishi FB16NT/FB18NT/FB20NT electric series in the cited code table. Detailed FB16PN/FB20PN service manual is a SIMILAR but not automatically identical controller generation. Exact NT serial, installed inverter/logic board and NT-specific circuit figures NOT VERIFIED. No code meaning is carried over to Mitsubishi LPG/diesel."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "52",
+      "kodNormal": "52",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Sağ Çekiş Motor Hız/Darbe girişi arıza",
+      "aciklama": "Mitsubishi forklift kodu 52: Sağ Çekiş Motor Hız/Darbe girişi arıza. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Right Traction Motor Speed/Pulse Input Fault"
+      ],
+      "kontroller": [
+        "Mitsubishi FB16NT/FB18NT/FB20NT electric series in the cited code table. Detailed FB16PN/FB20PN service manual is a SIMILAR but not automatically identical controller generation. Exact NT serial, installed inverter/logic board and NT-specific circuit figures NOT VERIFIED. No code meaning is carried over to Mitsubishi LPG/diesel."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "53",
+      "kodNormal": "53",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Sol çekiş motor darbe-giriş / hız-geri besleme arızası",
+      "aciklama": "Mitsubishi forklift kodu 53: Sol çekiş motor darbe-giriş / hız-geri besleme arızası. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Left traction motor pulse-input / speed-feedback fault"
+      ],
+      "kontroller": [
+        "Mitsubishi ELECTRIC FB16NT/FB18NT/FB20NT with the controller and display code list documented by the source; NOT gas K21/K25 or other electric models. Original drive/control ECU PDF, serial/software and electrical figures not in the keyword record; verify actual unit."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "54",
+      "kodNormal": "54",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "FC (ileri-kontrol) kol giriş arızası",
+      "aciklama": "Mitsubishi forklift kodu 54: FC (ileri-kontrol) kol giriş arızası. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "FC (forward-control) lever input fault"
+      ],
+      "kontroller": [
+        "Mitsubishi ELECTRIC FB16NT/FB18NT/FB20NT with the controller and display code list documented by the source; NOT gas K21/K25 or other electric models. Original drive/control ECU PDF, serial/software and electrical figures not in the keyword record; verify actual unit."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "55",
+      "kodNormal": "55",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "FC solenoid valf çıkış arızası",
+      "aciklama": "Mitsubishi forklift kodu 55: FC solenoid valf çıkış arızası. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "FC solenoid output fault"
+      ],
+      "kontroller": [
+        "Mitsubishi ELECTRIC FB16NT/FB18NT/FB20NT with the controller and display code list documented by the source; NOT gas K21/K25 or other electric models. Original drive/control ECU PDF, serial/software and electrical figures not in the keyword record; verify actual unit."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "56",
+      "kodNormal": "56",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "FC solenoid valf akım kaçak detected",
+      "aciklama": "Mitsubishi forklift kodu 56: FC solenoid valf akım kaçak detected. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "FC solenoid current leakage detected"
+      ],
+      "kontroller": [
+        "Mitsubishi ELECTRIC FB16NT/FB18NT/FB20NT with the controller and display code list documented by the source; NOT gas K21/K25 or other electric models. Original drive/control ECU PDF, serial/software and electrical figures not in the keyword record; verify actual unit."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "57",
+      "kodNormal": "57",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik pompa motor darbe-giriş arızası",
+      "aciklama": "Mitsubishi forklift kodu 57: Hidrolik pompa motor darbe-giriş arızası. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hydraulic pump motor pulse-input fault"
+      ],
+      "kontroller": [
+        "Mitsubishi ELECTRIC FB16NT/FB18NT/FB20NT with the controller and display code list documented by the source; NOT gas K21/K25 or other electric models. Original drive/control ECU PDF, serial/software and electrical figures not in the keyword record; verify actual unit."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "62",
+      "kodNormal": "62",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kontrolör mantık-system arızası",
+      "aciklama": "Mitsubishi forklift kodu 62: Kontrolör mantık-system arızası. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Controller logic-system fault"
+      ],
+      "kontroller": [
+        "Mitsubishi ELECTRIC FB16NT/FB18NT/FB20NT with the controller and display code list documented by the source; NOT gas K21/K25 or other electric models. Original drive/control ECU PDF, serial/software and electrical figures not in the keyword record; verify actual unit."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "63",
+      "kodNormal": "63",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Sağ çekiş invertör sürücü arızası",
+      "aciklama": "Mitsubishi forklift kodu 63: Sağ çekiş invertör sürücü arızası. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Right traction inverter fault"
+      ],
+      "kontroller": [
+        "Mitsubishi ELECTRIC FB16NT/FB18NT/FB20NT with the controller and display code list documented by the source; NOT gas K21/K25 or other electric models. Original drive/control ECU PDF, serial/software and electrical figures not in the keyword record; verify actual unit."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "64",
+      "kodNormal": "64",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Sol çekiş invertör sürücü arızası",
+      "aciklama": "Mitsubishi forklift kodu 64: Sol çekiş invertör sürücü arızası. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Left traction inverter fault"
+      ],
+      "kontroller": [
+        "Mitsubishi ELECTRIC FB16NT/FB18NT/FB20NT with the controller and display code list documented by the source; NOT gas K21/K25 or other electric models. Original drive/control ECU PDF, serial/software and electrical figures not in the keyword record; verify actual unit."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "65",
+      "kodNormal": "65",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik pompa invertör sürücü arızası",
+      "aciklama": "Mitsubishi forklift kodu 65: Hidrolik pompa invertör sürücü arızası. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hydraulic pump inverter fault"
+      ],
+      "kontroller": [
+        "Mitsubishi ELECTRIC FB16NT/FB18NT/FB20NT with the controller and display code list documented by the source; NOT gas K21/K25 or other electric models. Original drive/control ECU PDF, serial/software and electrical figures not in the keyword record; verify actual unit."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "67",
+      "kodNormal": "67",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Girişi-unit arızası",
+      "aciklama": "Mitsubishi forklift kodu 67: Girişi-unit arızası. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Input-unit fault"
+      ],
+      "kontroller": [
+        "Mitsubishi ELECTRIC FB16NT/FB18NT/FB20NT with the controller and display code list documented by the source; NOT gas K21/K25 or other electric models. Original drive/control ECU PDF, serial/software and electrical figures not in the keyword record; verify actual unit."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "72",
+      "kodNormal": "72",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Contactor bobin elektriksel arızası",
+      "aciklama": "Mitsubishi forklift kodu 72: Contactor bobin elektriksel arızası. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Contactor coil electrical fault"
+      ],
+      "kontroller": [
+        "Mitsubishi ELECTRIC FB16NT/FB18NT/FB20NT with the controller and display code list documented by the source; NOT gas K21/K25 or other electric models. Original drive/control ECU PDF, serial/software and electrical figures not in the keyword record; verify actual unit."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "78",
+      "kodNormal": "78",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Akü besleme-gerilim çok düşük",
+      "aciklama": "Mitsubishi forklift kodu 78: Akü besleme-gerilim çok düşük. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Battery supply-voltage too low"
+      ],
+      "kontroller": [
+        "Mitsubishi ELECTRIC FB16NT/FB18NT/FB20NT with the controller and display code list documented by the source; NOT gas K21/K25 or other electric models. Original drive/control ECU PDF, serial/software and electrical figures not in the keyword record; verify actual unit."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D75",
+      "kodNormal": "D75",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu D75: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-26",
+      "kodNormal": "E26",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu E-26: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-41",
+      "kodNormal": "E41",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu E-41: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E0",
+      "kodNormal": "E0",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Sağ Çekiş Motor Aşırı ısınma",
+      "aciklama": "Mitsubishi forklift kodu E0: Sağ Çekiş Motor Aşırı ısınma. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Right Traction Motor Overheating"
+      ],
+      "kontroller": [
+        "Mitsubishi FB16NT/FB18NT/FB20NT electric series in the cited code table. Detailed FB16PN/FB20PN service manual is a SIMILAR but not automatically identical controller generation. Exact NT serial, installed inverter/logic board and NT-specific circuit figures NOT VERIFIED. No code meaning is carried over to Mitsubishi LPG/diesel."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E03",
+      "kodNormal": "E03",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu E03: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E1",
+      "kodNormal": "E1",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Sol Çekiş Motor Aşırı ısınma",
+      "aciklama": "Mitsubishi forklift kodu E1: Sol Çekiş Motor Aşırı ısınma. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Left Traction Motor Overheating"
+      ],
+      "kontroller": [
+        "Mitsubishi FB16NT/FB18NT/FB20NT electric series in the cited code table. Detailed FB16PN/FB20PN service manual is a SIMILAR but not automatically identical controller generation. Exact NT serial, installed inverter/logic board and NT-specific circuit figures NOT VERIFIED. No code meaning is carried over to Mitsubishi LPG/diesel."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E2",
+      "kodNormal": "E2",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik Pompa Motor Aşırı ısınma",
+      "aciklama": "Mitsubishi forklift kodu E2: Hidrolik Pompa Motor Aşırı ısınma. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hydraulic Pump Motor Overheating"
+      ],
+      "kontroller": [
+        "Mitsubishi FB16NT/FB18NT/FB20NT electric series in the cited code table. Detailed FB16PN/FB20PN service manual is a SIMILAR but not automatically identical controller generation. Exact NT serial, installed inverter/logic board and NT-specific circuit figures NOT VERIFIED. No code meaning is carried over to Mitsubishi LPG/diesel."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E21",
+      "kodNormal": "E21",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu E21: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E23",
+      "kodNormal": "E23",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu E23: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E24",
+      "kodNormal": "E24",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu E24: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E25",
+      "kodNormal": "E25",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu E25: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E27",
+      "kodNormal": "E27",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu E27: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E28",
+      "kodNormal": "E28",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu E28: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E30",
+      "kodNormal": "E30",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu E30: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E31",
+      "kodNormal": "E31",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu E31: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E32",
+      "kodNormal": "E32",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu E32: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E33",
+      "kodNormal": "E33",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu E33: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E34",
+      "kodNormal": "E34",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu E34: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E35",
+      "kodNormal": "E35",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "LPG yakıt-enjektör elektriksel/akım devre arıza",
+      "aciklama": "Mitsubishi forklift kodu E35: LPG yakıt-enjektör elektriksel/akım devre arıza. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "LPG fuel-injector electrical/current circuit malfunction"
+      ],
+      "kontroller": [
+        "Mitsubishi gasoline/LPG with installed K21/K25-compatible VCM-4 and engine ECU documented in Mitsubishi Chapter4 Controller, NOT every Mitsubishi forklift; unit model, serial, hardware and revision unknown."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E36",
+      "kodNormal": "E36",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu E36: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E38",
+      "kodNormal": "E38",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu E38: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E5",
+      "kodNormal": "E5",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Sağ Çekiş Inverter Aşırı ısınma",
+      "aciklama": "Mitsubishi forklift kodu E5: Sağ Çekiş Inverter Aşırı ısınma. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Right Traction Inverter Overheating"
+      ],
+      "kontroller": [
+        "Mitsubishi FB16NT/FB18NT/FB20NT electric series in the cited code table. Detailed FB16PN/FB20PN service manual is a SIMILAR but not automatically identical controller generation. Exact NT serial, installed inverter/logic board and NT-specific circuit figures NOT VERIFIED. No code meaning is carried over to Mitsubishi LPG/diesel."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E6",
+      "kodNormal": "E6",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Sol Çekiş Inverter Aşırı ısınma",
+      "aciklama": "Mitsubishi forklift kodu E6: Sol Çekiş Inverter Aşırı ısınma. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Left Traction Inverter Overheating"
+      ],
+      "kontroller": [
+        "Mitsubishi FB16NT/FB18NT/FB20NT electric series in the cited code table. Detailed FB16PN/FB20PN service manual is a SIMILAR but not automatically identical controller generation. Exact NT serial, installed inverter/logic board and NT-specific circuit figures NOT VERIFIED. No code meaning is carried over to Mitsubishi LPG/diesel."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E7",
+      "kodNormal": "E7",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik Pompa Inverter Aşırı ısınma",
+      "aciklama": "Mitsubishi forklift kodu E7: Hidrolik Pompa Inverter Aşırı ısınma. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hydraulic Pump Inverter Overheating"
+      ],
+      "kontroller": [
+        "Mitsubishi FB16NT/FB18NT/FB20NT electric series in the cited code table. Detailed FB16PN/FB20PN service manual is a SIMILAR but not automatically identical controller generation. Exact NT serial, installed inverter/logic board and NT-specific circuit figures NOT VERIFIED. No code meaning is carried over to Mitsubishi LPG/diesel."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-75",
+      "kodNormal": "F75",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Unload hidrolik solenoid valf akım-kontrol uyarı",
+      "aciklama": "Mitsubishi forklift kodu F-75: Unload hidrolik solenoid valf akım-kontrol uyarı. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Unload hydraulic solenoid current-control warning"
+      ],
+      "kontroller": [
+        "Mitsubishi gasoline/LPG with installed K21/K25-compatible VCM-4 and engine ECU documented in Mitsubishi Chapter4 Controller, NOT every Mitsubishi forklift; unit model, serial, hardware and revision unknown."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-88",
+      "kodNormal": "F88",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu F-88: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F02",
+      "kodNormal": "F02",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu F02: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F04",
+      "kodNormal": "F04",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu F04: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F16",
+      "kodNormal": "F16",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu F16: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F34",
+      "kodNormal": "F34",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu F34: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F36",
+      "kodNormal": "F36",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu F36: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F40",
+      "kodNormal": "F40",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu F40: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F73",
+      "kodNormal": "F73",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu F73: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F85",
+      "kodNormal": "F85",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu F85: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F87",
+      "kodNormal": "F87",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu F87: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F92",
+      "kodNormal": "F92",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Park-fren devrede iken traveling / seizure serious uyarı",
+      "aciklama": "Mitsubishi forklift kodu F92: Park-fren devrede iken traveling / seizure serious uyarı. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Parking-brake engaged while traveling / seizure serious warning"
+      ],
+      "kontroller": [
+        "Mitsubishi gasoline/LPG with installed K21/K25-compatible VCM-4 and engine ECU documented in Mitsubishi Chapter4 Controller, NOT every Mitsubishi forklift; unit model, serial, hardware and revision unknown."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F93",
+      "kodNormal": "F93",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu F93: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "P03",
+      "kodNormal": "P03",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu P03: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "P04",
+      "kodNormal": "P04",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu P04: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "P07",
+      "kodNormal": "P07",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için…",
+      "aciklama": "Mitsubishi forklift kodu P07: Üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu. Kaynak, yalnızca ilgili kontrolör/motor ailesi için doğrulanmış referans özetidir; tek başına parça arızası kanıtı sayılmaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "üretici-kontrolör eşleşmeli Mitsubishi ünitesi için doğrulanmış referans kodu"
+      ],
+      "kontroller": [
+        "Equipment scope: Mitsubishi Chapter 4 CONTROLLER, VCM-4 / meter panel / related engine ECM diagnostic families, as documented in the linked manufacturer-origin controller manual. Machine model/serial, engine, installed VCM/ECM, firmware, options and matching figures NOT independently certified. Mitsubishi FG10N chassis/mast PDF in Drive does NOT itself validate fault-code compatibility."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/mitsubishi/",
+      "durum": "incelemede"
+    }
+  ]
+}

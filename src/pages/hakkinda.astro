@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  name: 'Hakkında',
+  url: 'https://forklifthata.com/hakkinda/',
+  inLanguage: 'tr',
+  description: 'Forklift Hata Kodu projesi, bağımsızlığı ve iletişim bilgileri.',
+};
+---
+
+<BaseLayout
+  title="Hakkında ve İletişim"
+  description="Forklift Hata Kodu projesi hakkında, bağımsız hizmet uyarısı ve iletişim bilgileri."
+  canonical="/hakkinda/"
+  jsonLd={jsonLd}
+>
+  <div class="sarmal">
+    <div class="breadcrumb" style="padding-inline:0">
+      <a href="/">Ana Sayfa</a><span aria-hidden="true">/</span><span aria-current="page">Hakkında</span>
+    </div>
+
+    <section class="bolum" style="padding-top:1.5rem">
+      <span class="eyek">// PROJE</span>
+      <h1>Hakkında</h1>
+      <p class="muted" style="max-width:70ch">
+        Forklift Hata Kodu, sahada hata koduyla karşılaşan operatör ve teknisyenler için hazırlanmış ücretsiz, statik bir Türkçe referanstır. Arama, marka → seri → sistem gezinmesi ve kaynak atıflarıyla teşhis sürecini hızlandırmayı hedefler.
+      </p>
+    </section>
+
+    <section class="bolum">
+      <div class="kartlar">
+        <div class="ozellik-kart">
+          <div class="ozellik-no">01 / AMAÇ</div>
+          <h3>Anlaşılır teknik bilgi</h3>
+          <p>Üretici kılavuzlarındaki kodları Türkçeye çevirmek yerine, sahada ne anlama geldiğini ve hangi kontrollerin yapılması gerektiğini sade biçimde sunuyoruz.</p>
+        </div>
+        <div class="ozellik-kart">
+          <div class="ozellik-no">02 / YÖNTEM</div>
+          <h3>Atıflı ve şeffaf</h3>
+          <p>Her kayıtta kaynak belge, sürüm ve sayfa bilgisi bulunur. Doğrulanmamış kayıtlar açıkça işaretlenir; tahminler gerçek gibi sunulmaz.</p>
+        </div>
+        <div class="ozellik-kart">
+          <div class="ozellik-no">03 / ERİŞİM</div>
+          <h3>Ücretsiz ve çevrimdışı</h3>
+          <p>Site statik olarak üretilir; temel arama tarayıcıda çalışır. Reklam veya kullanıcı takibi yoktur.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bolum">
+      <div class="sarmal-dar">
+        <div class="uyari-kutusu" style="margin-bottom:1.5rem">
+          <strong>Bağımsız hizmet uyarısı.</strong> Bu site bağımsız teknik bilgi kaynağıdır; hiçbir forklift üreticisinin yetkili servisi, distribütörü veya temsilcisi değildir. Marka adları yalnızca makine kimliği amacıyla kullanılmıştır.
+        </div>
+
+        <div class="panel">
+          <h2>İletişim ve servis desteği</h2>
+          <p>
+            Teknik içerik düzeltmeleri, eksik kod bildirimleri ve telif talepleri için aşağıdaki iletişim kanallarını kullanabilirsiniz. Hata koduyla ilgili yerinde servis desteği için ASN Forklift Servis'e ulaşabilirsiniz.
+          </p>
+          <p class="kucuk muted">
+            <strong>E-posta:</strong> info@forklifthata.com<br />
+            <strong>WhatsApp:</strong> <a href="https://wa.me/905339540425" rel="noopener noreferrer" target="_blank">+90 533 954 04 25</a><br />
+            <strong>Servis:</strong> <a href="https://asnforkliftservis.com.tr" rel="noopener noreferrer" target="_blank">asnforkliftservis.com.tr ↗</a>
+          </p>
+          <div class="geri-baglanti" style="margin-top:1.5rem">
+            <a class="dugme dugme-wa" href="https://wa.me/905339540425" rel="noopener noreferrer" target="_blank">WhatsApp'tan yaz</a>
+            <a class="dugme" href="/kaynaklar/">Kaynak ve telif politikası</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

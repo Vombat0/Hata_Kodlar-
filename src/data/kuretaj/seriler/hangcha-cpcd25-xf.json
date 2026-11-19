@@ -1,0 +1,398 @@
+{
+  "marka": "hangcha",
+  "seri": "cpcd25-xf",
+  "modelAdi": "Hangcha cpcd25-xf",
+  "kaynakBelge": "Web araştırması — chinaliftsupply.com",
+  "kaynakSurum": "",
+  "kaynakDil": "",
+  "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf",
+  "kodlar": [
+    {
+      "kod": "1",
+      "kodNormal": "1",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Batarya Aşırı Gerilim Koruması",
+      "aciklama": "Batarya gerilimi 63 V'yi aştığında kontrolcü aşırı gerilim korumasını devreye sokar. Arıza, gerilimin izin verilen üst sınırı geçmesiyle tetiklenir.",
+      "makineTepkisi": "Aşırı gerilim koruması nedeniyle güç çıkışı kesilir veya kısıtlanır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Batarya gerilimi 63 V'yi aşıyor"
+      ],
+      "kontroller": [
+        "Batarya bağlantılarını kontrol et",
+        "Batarya gerilim seviyesini ölç",
+        "Gerekirse kontrolcüyü değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/1",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "10",
+      "kodNormal": "10",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Pompa Motoru Güç Modülü Aşırı Isınma",
+      "aciklama": "Pompa motorunun güç modülü sıcaklığı 90°C'yi aştığında aşırı ısınma uyarısı verilir. Uzun süreli yüksek yük altında modül sıcaklığı güvenli sınırı aşar.",
+      "makineTepkisi": "Pompa gücü kısıtlanır, kaldırma yavaşlar.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Güç modülü sıcaklığı 90°C'yi aşıyor"
+      ],
+      "kontroller": [
+        "Isı dağıtımını kontrol et",
+        "Termal gresi uygula",
+        "Çalışma döngüsünü (görev oranını) azalt"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/10",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "12",
+      "kodNormal": "12",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Batarya Düşük Gerilim Uyarısı",
+      "aciklama": "Batarya gerilimi deşarj koruma değerinin altına düştüğünde düşük gerilim alarmı verilir. Bu durum bataryanın boşalmak üzere olduğunu gösterir.",
+      "makineTepkisi": "Batarya gerilimi düşük olduğu için güç kısıtlanır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Batarya gerilimi deşarj koruma değerinin altında"
+      ],
+      "kontroller": [
+        "Bataryayı sıfırlama değerinin üzerine şarj et"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/12",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "13",
+      "kodNormal": "13",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş Motoru Aşırı Isınma Uyarısı",
+      "aciklama": "Yürüyüş motoru sıcaklığı azami değere yaklaştığında aşırı ısınma alarmı verilir. Motor sıcaklığının yükselmesiyle tetiklenir.",
+      "makineTepkisi": "Motor gücü kısılır, araç yavaş çalışır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor sıcaklığı azami değere yaklaşıyor"
+      ],
+      "kontroller": [
+        "Motor sıcaklık sensörünü kontrol et",
+        "Motorun soğumasını bekle",
+        "Fren kilitlenmesi olup olmadığını kontrol et"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/13",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "14",
+      "kodNormal": "14",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Pompa Motoru Aşırı Isınma Uyarısı",
+      "aciklama": "Pompa motoru sıcaklığı azami değere yaklaştığında aşırı ısınma alarmı verilir. Pompa motorunun aşırı ısınmasıyla tetiklenir.",
+      "makineTepkisi": "Pompa gücü kısıtlanır, kaldırma yavaşlar.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Pompa motoru sıcaklığı azami değere yaklaşıyor"
+      ],
+      "kontroller": [
+        "Potansiyometre sıfırlamasını kontrol et",
+        "Soğutmayı doğrula",
+        "Arızalıysa sıcaklık sensörünü değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/14",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "15",
+      "kodNormal": "15",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş Motoru Akım Kaybı",
+      "aciklama": "Motor çalıştırmada faz akımı sıfır olmadığında akım kaybı algılanır. Başlatma sırasında faz akımının beklenen değerde olmamasıyla tetiklenir.",
+      "makineTepkisi": "Yürüyüş motorunda tork oluşmaz, araç hareket etmez.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Başlatma sırasında faz akımı sıfır değil"
+      ],
+      "kontroller": [
+        "26 pinli kablo bağlantılarını kontrol et",
+        "Gerekirse güç modülünü değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/15",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "17",
+      "kodNormal": "17",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Ana Kontaktör Bobini Aşırı Akımı",
+      "aciklama": "Ana kontaktör bobininden geçen akım çok yükseldiğinde aşırı akım arızası oluşur. Bobin akımı izin verilen değeri aştığında tetiklenir.",
+      "makineTepkisi": "Ana kontaktör devreye giremez, araç çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontaktör akımı çok yüksek"
+      ],
+      "kontroller": [
+        "Harici kısa devre olup olmadığını kontrol et",
+        "Kontaktörü değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/17",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "2",
+      "kodNormal": "2",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Batarya Düşük Gerilim Koruması",
+      "aciklama": "Batarya gerilimi 24 V'in altına düştüğünde düşük gerilim koruması devreye girer. Gerilimin güvenli sınırın altına inmesiyle tetiklenir.",
+      "makineTepkisi": "Güç çıkışı kesilir, araç çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Batarya gerilimi 24 V'in altında"
+      ],
+      "kontroller": [
+        "Batarya kablolarını kontrol et",
+        "Pozitif/negatif kontaklarda korozyon olup olmadığını doğrula",
+        "Bataryayı şarj et veya değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/2",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "20",
+      "kodNormal": "20",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş Motoru Güç Modülü Aşırı Isınma",
+      "aciklama": "Yürüyüş motoru güç modülünün sıcaklığı 90°C'yi aştığında aşırı ısınma uyarısı oluşur. Modül sıcaklığının güvenli sınırı aşmasıyla tetiklenir.",
+      "makineTepkisi": "Motor gücü kısılır, yavaş çalışma.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Modül sıcaklığı 90°C'yi aşıyor"
+      ],
+      "kontroller": [
+        "Isı dağıtımını ve termal gresi kontrol et",
+        "Motor çalışmasını kontrol et"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/20",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "3",
+      "kodNormal": "3",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Çalıştırmadan Önce Gaz Pedalına Basılması",
+      "aciklama": "Açılış kendini testi sırasında sürücü gaz pedalına bastığında bu arıza kaydedilir. Anahtar açma sırasında gaz sinyali aktifse tetiklenir.",
+      "makineTepkisi": "Çalıştırma engellenir, açılış testi başlatılamaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Açılış kendini testi sırasında gaz pedalına basıldı"
+      ],
+      "kontroller": [
+        "Gaz pedalını bırakıp yeniden başlat",
+        "Gerekirse gaz pedalını yeniden kalibre et"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/3",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "37",
+      "kodNormal": "37",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Kontrol Ünitesi 5 V Çıkış Arızası",
+      "aciklama": "Kontrol ünitesinin 5 V çıkışı (K1-16) 4,3 V'un altına düştüğünde besleme arızası algılanır. Çıkış geriliminin düşmesiyle tetiklenir.",
+      "makineTepkisi": "5 V ile beslenen devreler hatalı çalışır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "K1-16 gerilimi 4,3 V'un altında"
+      ],
+      "kontroller": [
+        "5 V toprak kısa devresi olup olmadığını kontrol et",
+        "Enkoder kablolarını doğrula"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/37",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "38",
+      "kodNormal": "38",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Kontrol Ünitesi 12 V Çıkış Arızası",
+      "aciklama": "Kontrol ünitesinin 12 V çıkışı (K1-17) 10,5 V'un altına düştüğünde besleme arızası oluşur. Çıkış gerilimi izin verilen sınırın altına indiğinde tetiklenir.",
+      "makineTepkisi": "12 V beslemeli sensör ve gösterge devreleri hatalı çalışır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "K1-17 gerilimi 10,5 V'un altında"
+      ],
+      "kontroller": [
+        "Gaz pedalı sensörlerinde veya göstergede 12 V toprak kısa devresi olup olmadığını kontrol et"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/38",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "5",
+      "kodNormal": "5",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Flaş Bellek Hata Uyarısı",
+      "aciklama": "Kontrol parametrelerinden biri izin verilen aralığın dışında kaldığında flaş bellek hatası uyarısı verilir. Kaydedilen parametre değeri geçerli sınırları aştığında tetiklenir.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontrol parametre değeri izin verilen aralığın dışında"
+      ],
+      "kontroller": [
+        "İzleme yazılımıyla sistem varsayılanlarını geri yükle",
+        "Sorun çözülmezse kontrolcüyü değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/5",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "6",
+      "kodNormal": "6",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Ön Şarj Kapasitörü Düşük Gerilimi",
+      "aciklama": "Motor çalışırken ön şarj kapasitörünün gerilimi batarya geriliminin %70'inin altına düştüğünde arıza oluşur. Kapasitör geriliminin beklenen seviyeye ulaşmamasıyla tetiklenir.",
+      "makineTepkisi": "Ön şarj tamamlanmadığı için araç çalıştırılamaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor çalışırken kapasitör gerilimi batarya geriliminin %70'inin altında"
+      ],
+      "kontroller": [
+        "Ana kontaktör bobini bağlantılarını kontrol et",
+        "Kontaktör çalışmasını doğrula"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/6",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "61",
+      "kodNormal": "61",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş Motoru Aşırı Isınma Kapatması",
+      "aciklama": "Yürüyüş motoru sıcaklığı azami değeri aştığında aşırı ısınma koruması çalışmayı durdurur. Motor sıcaklığı güvenli sınırı geçtiğinde tetiklenir.",
+      "makineTepkisi": "Motor gücü kesilir, araç durur.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor sıcaklığı azami değeri aşıyor"
+      ],
+      "kontroller": [
+        "Çalışmayı durdur",
+        "Motorun iyice soğumasını bekle",
+        "Sensörü ve soğutmayı kontrol et"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/61",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "74",
+      "kodNormal": "74",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş Motoru Enkoder Arızası",
+      "aciklama": "Motor çalışırken enkoder sinyali kaybolduğunda enkoder arızası kaydedilir. Hız ve pozisyon geri besleme sinyalinin kesilmesiyle tetiklenir.",
+      "makineTepkisi": "Hız geri beslemesi kaybolur, araç düzgün çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor çalışırken enkoder sinyali kayboldu"
+      ],
+      "kontroller": [
+        "Enkoder bağlantılarını ve kablolarını kontrol et",
+        "Arızalıysa enkoderi değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/74",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "8",
+      "kodNormal": "8",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş Motoru Güç Modülü Aşırı Akımı",
+      "aciklama": "Güç modülünün gerçek akımı sınır değeri aştığında aşırı akım arızası oluşur. Motor kısa devresi veya parametre uyumsuzluğu akımın yükselmesine yol açar.",
+      "makineTepkisi": "Aşırı akım koruması devreye girer, motor gücü kısıtlanır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gerçek akım sınır değerini aşıyor",
+        "Motor kısa devresi",
+        "Parametre uyumsuzluğu"
+      ],
+      "kontroller": [
+        "Motor UVW bağlantılarında kısa devre olup olmadığını kontrol et",
+        "Motor parametrelerini doğrula"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/8",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "92",
+      "kodNormal": "92",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Gaz Pedalı Arızası",
+      "aciklama": "Pedal kapalıyken gaz geri besleme gerilimi hatalı olduğunda gaz pedalı arızası algılanır. Pedal konumu ile sinyal değeri uyuşmadığında tetiklenir.",
+      "makineTepkisi": "Gaz sinyali okunamaz, araç hareket etmez veya düzensiz hızlanır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Pedal kapalıyken gaz geri besleme gerilimi hatalı"
+      ],
+      "kontroller": [
+        "Gaz pedalını yeniden kalibre et",
+        "Kabloları kontrol et",
+        "Gerekirse pedalı değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/92",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "98",
+      "kodNormal": "98",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Kapasitör Ön Şarjı Çok Yavaş",
+      "aciklama": "Ön şarj sırasında kapasitör gerilimi çok yavaş yükseldiğinde ön şarj arızası oluşur. Gerilimin beklenen sürede artmamasıyla tetiklenir.",
+      "makineTepkisi": "Ön şarj süresi uzar, sistem çalışmaya hazır hale gelmez.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ön şarj gerilimi çok yavaş artıyor"
+      ],
+      "kontroller": [
+        "Güç modülü bağlantılarını kontrol et",
+        "Arızayı ayırt etmek için modülleri tek tek değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/hangcha/cpcd25-xf/98",
+      "durum": "incelemede"
+    }
+  ]
+}

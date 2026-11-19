@@ -1,0 +1,22 @@
+{
+  "name": "Forklift Hata Kodu",
+  "short_name": "FH Kodu",
+  "description": "Türkçe forklift hata kodu referansı — kod, marka, seri ve sistem bazlı teknik bilgi.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0B1017",
+  "theme_color": "#0B1017",
+  "lang": "tr",
+  "categories": ["utilities", "reference"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

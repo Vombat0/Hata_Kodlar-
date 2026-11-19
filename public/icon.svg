@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Forklift Hata Kodu">
+  <rect width="512" height="512" rx="96" fill="#0B1017"/>
+  <g stroke="#243140" stroke-width="2" opacity="0.8">
+    <path d="M0 128H512M0 256H512M0 384H512M128 0V512M256 0V512M384 0V512"/>
+  </g>
+  <rect x="64" y="176" width="384" height="160" rx="32" fill="#F59E0B"/>
+  <text x="256" y="292" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="118" font-weight="800" fill="#0B1017">FH</text>
+</svg>

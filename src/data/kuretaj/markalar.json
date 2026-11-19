@@ -1,0 +1,98 @@
+[
+  {
+    "id": "crown",
+    "ad": "Crown",
+    "grup": "Crown Equipment Corporation",
+    "aciklama": "Amerikan Crown Equipment Corporation markası; elektrikli counterbalance forkliftler, reach truck ve istifleyici serileriyle depo ekipmanlarında geniş bir ürün ailesi sunar.",
+    "not": "",
+    "renk": "#EAB308"
+  },
+  {
+    "id": "doosan",
+    "ad": "Doosan",
+    "grup": "Doosan Bobcat",
+    "aciklama": "Güney Kore merkezli Doosan, dizel ve elektrikli forkliftler, reach truck ve ağır seri istif makineleri üretir.",
+    "not": "",
+    "renk": "#0EA5E9"
+  },
+  {
+    "id": "ep-equipment",
+    "ad": "EP Equipment",
+    "grup": "EP Equipment Co., Ltd.",
+    "aciklama": "Çin merkezli EP Equipment, hafif elektrikli istifleyici, palet taşıyıcı ve depo ekipmanlarında geniş bir lityum akülü ürün ailesi sunar.",
+    "not": "",
+    "renk": "#06B6D4"
+  },
+  {
+    "id": "hangcha",
+    "ad": "Hangcha",
+    "grup": "Hangcha Group Co., Ltd.",
+    "aciklama": "Çin'in en büyük istif makinesi üreticilerinden Hangcha; dizel, LPG ve elektrikli forkliftler, reach truck ve ağır seri makineler üretir. Türkiye'de yaygın olarak kullanılır.",
+    "not": "",
+    "renk": "#F59E0B"
+  },
+  {
+    "id": "heli",
+    "ad": "Heli",
+    "grup": "Anhui Heli Co., Ltd.",
+    "aciklama": "Anhui Heli, Çin merkezli büyük istif makinesi üreticisidir; elektrikli ve içten yanmalı forkliftler, depo ekipmanları ve ağır seri makineler üretir.",
+    "not": "",
+    "renk": "#F97316"
+  },
+  {
+    "id": "hyster",
+    "ad": "Hyster",
+    "grup": "Hyster-Yale Materials Handling",
+    "aciklama": "Hyster, Hyster-Yale Materials Handling bünyesinde ağır hizmet forkliftleri, konteyner elleçleyiciler ve depo ekipmanları üreten Amerikan markasıdır.",
+    "not": "Hyster, Hyster-Yale Materials Handling markasıdır.",
+    "renk": "#F59E0B"
+  },
+  {
+    "id": "jungheinrich",
+    "ad": "Jungheinrich",
+    "grup": "Jungheinrich AG",
+    "aciklama": "Alman Jungheinrich AG; elektrikli forklift, reach truck, istifleyici ve otomatik depo sistemleriyle Avrupa iç lojistik pazarının önde gelen markalarından biridir.",
+    "not": "",
+    "renk": "#FACC15"
+  },
+  {
+    "id": "linde",
+    "ad": "Linde",
+    "grup": "KION Group",
+    "aciklama": "Linde Material Handling, KION Group bünyesinde hidrostatik tahrikli dizel forkliftler ve elektrikli counterbalance makineleriyle tanınan Alman markasıdır.",
+    "not": "Linde, KION Group markasıdır.",
+    "renk": "#1D4ED8"
+  },
+  {
+    "id": "still",
+    "ad": "Still",
+    "grup": "KION Group",
+    "aciklama": "Still, KION Group bünyesinde forklift, reach truck, çekici ve depo ekipmanı üreten Alman markasıdır.",
+    "not": "Still, KION Group markasıdır.",
+    "renk": "#111827"
+  },
+  {
+    "id": "toyota",
+    "ad": "Toyota",
+    "grup": "Toyota Material Handling",
+    "aciklama": "Toyota endüstriyel forkliftler; 8FBE/8FBM elektrikli counterbalance (CE375 servis kılavuzu) ve 7FG/7FD 35-45 dizel/LPG serisi (CE032) hata kodu kayıtlarını içerir.",
+    "not": "",
+    "renk": "#E11D48"
+  },
+  {
+    "id": "traigo",
+    "ad": "Traigo",
+    "grup": "Toyota Material Handling Europe",
+    "aciklama": "Traigo 48 ve Traigo 80 elektrikli forklift serilerinin gösterge panelinde görülen hata ve alarm kodları; kart bazlı açıklama, makine tepkisi ve çözüm bilgisi içerir.",
+    "not": "Traigo, Toyota Material Handling Europe'un elektrikli forklift markasıdır.",
+    "renk": "#0EA5E9"
+  },
+  {
+    "id": "yale",
+    "ad": "Yale",
+    "grup": "Hyster-Yale Materials Handling",
+    "aciklama": "Yale, Hyster-Yale Materials Handling bünyesinde depo ekipmanları ve elektrikli forkliftler üreten Amerikan markasıdır.",
+    "not": "Yale, Hyster-Yale Materials Handling markasıdır.",
+    "renk": "#2563EB"
+  }
+]

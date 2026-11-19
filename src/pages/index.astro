@@ -1,0 +1,251 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AramaFormu from '../components/AramaFormu.astro';
+import MarkaKarti from '../components/MarkaKarti.astro';
+import { getMarkalar, istatistik, sikArananKodlar, sistemAdi, kodAdresi } from '../lib/veri';
+
+const tumMarkalar = getMarkalar();
+const ist = istatistik();
+// Veri içermeyen markalar ana sayfada listelenmez; boş kart güven kırıcıdır.
+const markalar = tumMarkalar.filter((m) => (ist.markalar.find((x) => x.id === m.id)?.kodSayisi ?? 0) > 0);
+const sikAranan = sikArananKodlar(6);
+const ornekler = ['30-1', 'A1-1', 'E001', '1201'];
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Forklift Hata Kodu',
+  url: 'https://forklifthata.com',
+  inLanguage: 'tr',
+  description: 'Türkçe forklift hata kodu referansı: marka, seri ve sistem bazlı arıza kodu açıklamaları.',
+  publisher: { '@type': 'Organization', name: 'Forklift Hata Kodu' },
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: 'https://forklifthata.com/arama/?q={search_term_string}',
+    },
+    'query-input': 'required name=search_term_string',
+  },
+};
+---
+
+<BaseLayout jsonLd={jsonLd}>
+  <section class="hero">
+    <div class="sarmal">
+      <span class="eyek">// BAĞIMSIZ TEKNİK REFERANS</span>
+      <h1>Forklift hata kodunu<br />saniyeler içinde çöz.</h1>
+      <p class="giris">
+        Kodunu veya gördüğün arıza belirtisini yaz. Marka, seri ve sistem bazlı açıklamaya;
+        olası nedenlere ve sahada uygulanabilir kontrol adımlarına ulaş.
+      </p>
+
+      <div class="arama-alani" style="position:relative">
+        <AramaFormu />
+        <div class="oneriler" id="arama-onerileri" hidden role="listbox" aria-label="Arama önerileri"></div>
+      </div>
+
+      <div class="arama-ornekleri">
+        <span>Örnek aramalar:</span>
+        {ornekler.map((ornek) => <a href={`/arama/?q=${encodeURIComponent(ornek)}`}>{ornek}</a>)}
+        <span>· Klavye kısayolu: <kbd>/</kbd></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="bolum">
+    <div class="sarmal">
+      <div class="bolum-basligi">
+        <div>
+          <span class="eyek">01 / MARKALAR</span>
+          <h2>Markaya göre incele</h2>
+        </div>
+        <p>Makinenin markasını seçerek serilere ve o seriye ait hata kodlarına göz atın.</p>
+      </div>
+
+      <div class="kartlar">
+        {markalar.map((marka) => {
+          const bilgi = ist.markalar.find((m) => m.id === marka.id);
+          return (
+            <MarkaKarti
+              marka={marka}
+              seriSayisi={bilgi?.seriSayisi ?? 0}
+              kodSayisi={bilgi?.kodSayisi ?? 0}
+            />
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <section class="bolum">
+    <div class="sarmal">
+      <div class="bolum-basligi">
+        <div>
+          <span class="eyek">02 / HIZLI ERİŞİM</span>
+          <h2>Sık aranan kodlar</h2>
+        </div>
+        <p>En çok karşılaşılan arızalar için doğrudan kayıtlar.</p>
+      </div>
+
+      <div class="kartlar">
+        {sikAranan.map((sonuc) => (
+          <a class="kart" href={kodAdresi(sonuc.marka, sonuc.seri, sonuc.kod.kod)}>
+            <div class="kart-ust">
+              <span class="kod-hucre">{sonuc.kod.kod}</span>
+              <span class="sistem-etiket">{sistemAdi(sonuc.kod.sistem)}</span>
+            </div>
+            <div class="tablo-baslik">{sonuc.kod.baslik}</div>
+            <div class="kart-alt" style="margin-top:0.9rem">
+              <span>{sonuc.markaAd} · {sonuc.modelAdi}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="bolum">
+    <div class="sarmal">
+      <div class="bolum-basligi">
+        <div>
+          <span class="eyek">03 / NASIL ÇALIŞIR</span>
+          <h2>Üç adımda teşhis</h2>
+        </div>
+        <p>Bilgiyi bulun, anlayın ve sahada güvenle kontrol edin.</p>
+      </div>
+
+      <div class="kartlar">
+        <div class="ozellik-kart">
+          <div class="ozellik-no">ADIM 01</div>
+          <h3>Kodu veya belirtiyi arayın</h3>
+          <p>Tam kod ("30-1"), alias ("301") ya da "fren yapmıyor" gibi serbest metin araması yapabilirsiniz. Türkçe karakterler sorun çıkarmaz.</p>
+        </div>
+        <div class="ozellik-kart">
+          <div class="ozellik-no">ADIM 02</div>
+          <h3>Kaydı ve şiddetini okuyun</h3>
+          <p>Her kodda açıklama, makinenin tepkisi, olası nedenler ve doğrulama durumu yer alır. Durdurucu arızalar önceliklidir.</p>
+        </div>
+        <div class="ozellik-kart">
+          <div class="ozellik-no">ADIM 03</div>
+          <h3>Kontrolleri uygulayın</h3>
+          <p>Numaralı kontrol adımlarını sırayla izleyin. Gerekirse kaynak belge ve sayfa bilgisinden orijinal referansa ulaşın.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bolum">
+    <div class="sarmal">
+      <div class="bolum-basligi">
+        <div>
+          <span class="eyek">04 / KAPSAM</span>
+          <h2>Veri tabanı özeti</h2>
+        </div>
+        <p>Toplanan kayıtların güncel dağılımı. Ayrıntılar için <a href="/kapsam/">kapsam panosuna</a> bakın.</p>
+      </div>
+
+      <div class="istatistik-kutulari">
+        <div class="istatistik-kutusu">
+          <div class="istatistik-deger">{ist.toplamKod}</div>
+          <div class="istatistik-etiket">toplam hata kodu</div>
+        </div>
+        <div class="istatistik-kutusu">
+          <div class="istatistik-deger">{ist.seriSayisi}</div>
+          <div class="istatistik-etiket">tanımlı seri</div>
+        </div>
+        <div class="istatistik-kutusu">
+          <div class="istatistik-deger">{ist.markaSayisi}</div>
+          <div class="istatistik-etiket">takip edilen marka</div>
+        </div>
+        <div class="istatistik-kutusu">
+          <div class="istatistik-deger">{ist.sistemler.length}</div>
+          <div class="istatistik-etiket">sistem kategorisi</div>
+        </div>
+      </div>
+
+      <div class="kartlar" style="margin-top:1.5rem">
+        {ist.sistemler.slice(0, 6).map((sistem) => (
+          <div class="ozellik-kart">
+            <div class="ozellik-no">SİSTEM</div>
+            <h3>{sistem.ad}</h3>
+            <p><span class="mono" style="color:var(--accent);font-size:1.2rem;font-weight:700">{sistem.sayi}</span> kayıtlı kod</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="bolum">
+    <div class="sarmal-dar">
+      <div class="uyari-kutusu">
+        <strong>Yasal uyarı.</strong> Bağımsız teknik bilgi kaynağıdır; hiçbir üreticinin yetkili servisi, distribütörü veya temsilcisi değildir. Marka adları yalnızca makine kimliği amacıyla kullanılmıştır. Kayıtlar başlangıç rehberidir; kesin teşhis ve onarım için yetkili servis ve orijinal servis kılavuzuna başvurun. Ayrıntı: <a href="/kaynaklar/">kaynaklar ve telif politikası</a>.
+      </div>
+    </div>
+  </section>
+
+  <script>
+    import { trNormalize, kodAnahtar } from '../lib/normalize';
+
+    type Kayit = { kodNormal: string; marka: string; seri: string; baslik: string; siddet: string };
+    const alan = document.getElementById('arama-alani') as HTMLInputElement | null;
+    const kutu = document.getElementById('arama-onerileri');
+    let indeks: Kayit[] | null = null;
+
+    async function yukle() {
+      if (indeks) return;
+      try {
+        const yanit = await fetch('/veri/indeks.json');
+        indeks = yanit.ok ? await yanit.json() : [];
+      } catch (hata) {
+        indeks = [];
+      }
+    }
+
+    function gizle() {
+      if (kutu) kutu.hidden = true;
+    }
+
+    function goster() {
+      if (!alan || !kutu) return;
+      const sorgu = alan.value.trim();
+      if (sorgu.length < 2) { gizle(); return; }
+      const anahtar = kodAnahtar(sorgu);
+      const normalize = trNormalize(sorgu);
+      const eslesenler = (indeks ?? [])
+        .filter((k) => k.kodNormal.includes(anahtar) || trNormalize(k.baslik).includes(normalize))
+        .slice(0, 6);
+
+      if (!eslesenler.length) { gizle(); return; }
+
+      kutu.replaceChildren();
+      for (const kayit of eslesenler) {
+        const baglanti = document.createElement('a');
+        baglanti.href = `/arama/?q=${encodeURIComponent(kayit.kodNormal)}`;
+        baglanti.setAttribute('role', 'option');
+
+        const kod = document.createElement('span');
+        kod.className = 'onerikod';
+        kod.textContent = kayit.kodNormal;
+
+        const baslik = document.createElement('span');
+        baslik.textContent = kayit.baslik;
+
+        const ad = document.createElement('span');
+        ad.className = 'oneriad';
+        ad.textContent = `${kayit.marka} · ${kayit.seri}`;
+
+        baglanti.append(kod, baslik, ad);
+        kutu.append(baglanti);
+      }
+      kutu.hidden = false;
+    }
+
+    alan?.addEventListener('focus', () => { yukle().then(goster); });
+    alan?.addEventListener('input', () => { yukle().then(goster); });
+    alan?.addEventListener('keydown', (olay) => { if (olay.key === 'Escape') gizle(); });
+    document.addEventListener('click', (olay) => {
+      if (!kutu?.contains(olay.target as Node) && olay.target !== alan) gizle();
+    });
+  </script>
+</BaseLayout>

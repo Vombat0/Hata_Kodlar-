@@ -1,0 +1,132 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  canonical?: string;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  ogType?: string;
+  noIndex?: boolean;
+}
+
+const {
+  title = 'Forklift Hata Kodu — Türkçe Hata Kodu Referansı',
+  description = 'Forklift hata kodlarını Türkçe olarak arayın; marka, seri ve sistem bazlı teknik açıklamalar, olası nedenler ve kontrol adımları.',
+  canonical,
+  jsonLd,
+  ogType = 'website',
+  noIndex = false,
+} = Astro.props;
+
+const SITE = 'https://forklifthata.com';
+const yol = Astro.url.pathname.replace(/\/{2,}/g, '/');
+const tamBaslik = title.includes('Forklift Hata Kodu') ? title : `${title} | Forklift Hata Kodu`;
+const kanonikURL = canonical ? new URL(canonical, SITE).href : new URL(yol, SITE).href;
+const resimURL = new URL('/og-cover.svg', SITE).href;
+const jsonLdDizisi = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+---
+
+<!doctype html>
+<html lang="tr" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script is:inline>
+      (function () {
+        var tema = 'dark';
+        try {
+          var kayitli = localStorage.getItem('fhk-tema');
+          if (kayitli === 'light' || kayitli === 'dark') tema = kayitli;
+        } catch (e) {}
+        document.documentElement.setAttribute('data-theme', tema);
+      })();
+    </script>
+
+    <title>{tamBaslik}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content={noIndex ? 'noindex, nofollow' : 'index, follow'} />
+    <link rel="canonical" href={kanonikURL} />
+
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content="Forklift Hata Kodu" />
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:title" content={tamBaslik} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={kanonikURL} />
+    <meta property="og:image" content={resimURL} />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={tamBaslik} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={resimURL} />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#0B1017" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    {jsonLdDizisi.map((veri) => (
+      <script type="application/ld+json" set:html={JSON.stringify(veri)} />
+    ))}
+  </head>
+  <body>
+    <a class="skip-link" href="#icerik">İçeriğe geç</a>
+    <Header />
+    <main id="icerik">
+      <slot />
+    </main>
+    <Footer />
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('/sw.js').catch(function () {});
+        });
+      }
+
+      function gorunenAramaAlani(): HTMLInputElement | null {
+        const alanlar = Array.from(
+          document.querySelectorAll<HTMLInputElement>('[data-arama-input]'),
+        );
+        return (
+          alanlar.find((alan) => {
+            const dikdortgen = alan.getBoundingClientRect();
+            return dikdortgen.width > 0 && dikdortgen.height > 0;
+          }) ?? null
+        );
+      }
+
+      document.addEventListener('keydown', (olay) => {
+        const hedef = olay.target as HTMLElement | null;
+        const yaziyor =
+          hedef instanceof HTMLInputElement ||
+          hedef instanceof HTMLTextAreaElement ||
+          Boolean(hedef?.isContentEditable);
+
+        if (olay.key === '/' && !yaziyor && !olay.metaKey && !olay.ctrlKey && !olay.altKey) {
+          const alan = gorunenAramaAlani();
+          if (alan) {
+            olay.preventDefault();
+            alan.focus();
+            alan.select();
+          }
+        }
+
+        if (olay.key === 'Escape') {
+          const alan = yaziyor && hedef instanceof HTMLInputElement ? hedef : gorunenAramaAlani();
+          if (alan && alan.value) {
+            alan.value = '';
+            alan.dispatchEvent(new Event('input', { bubbles: true }));
+          } else if (alan) {
+            alan.blur();
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

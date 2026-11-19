@@ -1,0 +1,488 @@
+{
+  "marka": "tcm",
+  "seri": "fb7",
+  "modelAdi": "TCM FB10-8 – FB35-8S elektrikli serisi",
+  "kaynakBelge": "TCM FB-7 hata kodları tablosu (forkliftpdfmanuals.com)",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+  "kodlar": [
+    {
+      "kod": "301",
+      "kodNormal": "301",
+      "aliaslar": [
+        "17",
+        "LED17"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Gaz çıkış sinyali hatalı",
+      "aciklama": "Gaz girişi/çıkışı beklenen aralıkta değil.",
+      "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Gaz sinyali çıkışının hatalı olması"
+      ],
+      "kontroller": [
+        "Gaz sinyali potansiyometresini ve kablo bağlantılarını kontrol edin.",
+        "Çıkış sinyalini ölçün."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "302",
+      "kodNormal": "302",
+      "aliaslar": [
+        "19",
+        "LED19"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş akım sensörü çıkışı hatalı",
+      "aciklama": "Seyir akım sensörü sinyali arıza bandında.",
+      "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Seyir akım sensörü çıkışının arızalı olması"
+      ],
+      "kontroller": [
+        "Akım sensörü kablo ve konnektörünü kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "303",
+      "kodNormal": "303",
+      "aliaslar": [
+        "01",
+        "02",
+        "69",
+        "LED01",
+        "LED02",
+        "LED69"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş FET güç modülü hatalı",
+      "aciklama": "FET güç modülü kısa devre (LED01) ya da açık (LED02); hızlı şarj hatası LED69.",
+      "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yürüyüş FET güç modülünde kısa devre",
+        "Yürüyüş FET güç modülünde açık devre",
+        "Hızlı şarj hatası"
+      ],
+      "kontroller": [
+        "FET güç modülünü ve mosfet kısa devresi olup olmadığını kontrol edin.",
+        "Hızlı şarj devresini doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "305",
+      "kodNormal": "305",
+      "aliaslar": [
+        "03",
+        "LED03"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Yürüyüş kontaktörü kısa devre",
+      "aciklama": "Yürüyüş kontaktörü devre dışı kalacak şekilde kısa devreli.",
+      "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yürüyüş kontaktöründe kısa devre"
+      ],
+      "kontroller": [
+        "Kontaktör kontaklarını ve sürücü devresini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "306",
+      "kodNormal": "306",
+      "aliaslar": [
+        "04",
+        "LED04"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Yürüyüş kontaktörü açık",
+      "aciklama": "Kontaktör kapanmıyor/beklenen pozisyonda değil.",
+      "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yürüyüş kontaktörünün açık kalması"
+      ],
+      "kontroller": [
+        "Kontaktör bobinini ve kablo bağlantılarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "307",
+      "kodNormal": "307",
+      "aliaslar": [
+        "20",
+        "LED20"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Yürüyüş ana sigortası atmış",
+      "aciklama": "Yürüyüş hattı ana sigortası kopmuş.",
+      "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yürüyüş ana sigortasının atması"
+      ],
+      "kontroller": [
+        "Ana sigortayı kontrol edin, gerekirse değiştirin.",
+        "Sigorta atma nedeni olan kısa devreyi inceleyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "308",
+      "kodNormal": "308",
+      "aliaslar": [
+        "41",
+        "42",
+        "LED41",
+        "LED42"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Dönüş (rotasyon) sensörü A/B hatalı",
+      "aciklama": "Motor dönüş sensörü A (LED41) ya da B (LED42) sinyali bozuk.",
+      "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Dönüş sensörü A sinyalinin bozuk olması",
+        "Dönüş sensörü B sinyalinin bozuk olması"
+      ],
+      "kontroller": [
+        "Dönüş sensörü A ve B kablolarını kontrol edin.",
+        "Sensörleri doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "401",
+      "kodNormal": "401",
+      "aliaslar": [
+        "35",
+        "LED35"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma potansiyometresi arızalı",
+      "aciklama": "Yükleme kaldırma potansiyometresi geçersiz sinyal veriyor.",
+      "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Yükleme kaldırma potansiyometresinin arızalı olması"
+      ],
+      "kontroller": [
+        "Potansiyometre kablo ve konnektörünü kontrol edin.",
+        "Gerekirse potansiyometreyi değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "402",
+      "kodNormal": "402",
+      "aliaslar": [
+        "34",
+        "LED34"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Yükleme akım sensörü hatalı",
+      "aciklama": "Yükleme motoru akım sensörü çıkışı arızalı.",
+      "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yükleme akım sensörü çıkışının arızalı olması"
+      ],
+      "kontroller": [
+        "Akım sensörü ve kablolarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "403",
+      "kodNormal": "403",
+      "aliaslar": [
+        "30",
+        "50",
+        "70",
+        "LED30",
+        "LED50",
+        "LED70"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Yükleme FET modülü kısa devre / direksiyon transistörü kısa",
+      "aciklama": "Yükleme FET kısa devre (30), hızlı şarj hatası (70) veya güç direksiyon transistörü kısa devre (50).",
+      "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yükleme FET güç modülünde kısa devre",
+        "Hızlı şarj hatası",
+        "Güç direksiyon transistöründe kısa devre"
+      ],
+      "kontroller": [
+        "Yükleme FET modülünü ve güç direksiyon transistörünü kontrol edin.",
+        "Hızlı şarj devresini doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "404",
+      "kodNormal": "404",
+      "aliaslar": [
+        "31",
+        "56",
+        "LED31",
+        "LED56"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Yükleme FET modülü açık / direksiyon transistörü açık",
+      "aciklama": "Yükleme FET açık devre (31) ya da güç direksiyon transistörü açık (56).",
+      "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yükleme FET güç modülünde açık devre",
+        "Güç direksiyon transistöründe açık devre"
+      ],
+      "kontroller": [
+        "Yükleme FET modülünü ve güç direksiyon transistörünü kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "405",
+      "kodNormal": "405",
+      "aliaslar": [
+        "37",
+        "51",
+        "LED37",
+        "LED51"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Yükleme kontaktörü kısa devre",
+      "aciklama": "Yükleme kontaktörü (37) veya güç direksiyon kontaktörü (51) kısa devre.",
+      "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yükleme kontaktöründe kısa devre",
+        "Güç direksiyon kontaktöründe kısa devre"
+      ],
+      "kontroller": [
+        "Yükleme ve direksiyon kontaktörlerini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "406",
+      "kodNormal": "406",
+      "aliaslar": [
+        "33",
+        "52",
+        "LED33",
+        "LED52"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Yükleme kontaktörü açık",
+      "aciklama": "Yükleme kontaktörü açık (33) ya da direksiyon sigorta/kontaktör açık (52).",
+      "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yükleme kontaktörünün açık kalması",
+        "Güç direksiyon sigorta/kontaktörünün açık kalması"
+      ],
+      "kontroller": [
+        "Yükleme ve direksiyon kontaktör/sigortalarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "07",
+      "kodNormal": "07",
+      "aliaslar": [
+        "45",
+        "LED45"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Yükleme ana sigortası atmış",
+      "aciklama": "Yükleme hattı ana sigortası yanmış (LED45). Tabloda kod '07' olarak listelenmiştir.",
+      "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yükleme ana sigortasının atması"
+      ],
+      "kontroller": [
+        "Yükleme hattı ana sigortasını kontrol edin, gerekirse değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "501",
+      "kodNormal": "501",
+      "aliaslar": [
+        "07",
+        "16",
+        "38",
+        "53",
+        "82",
+        "83",
+        "86",
+        "LED07",
+        "LED16",
+        "LED38",
+        "LED53",
+        "LED82",
+        "LED83",
+        "LED86"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör sürücü bobin/eprom/genel ciddi hatalar",
+      "aciklama": "MD kontaktör sürücü bobini (07), F/R şalteri (16), yük boşaltma/akü aşırı gerilim (86), yükleme kontaktör sürücü (38), EPROM toplam/ACK hataları (82/83), direksiyon kontaktör bobini (53).",
+      "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "MD kontaktör sürücü bobini arızası",
+        "F/R şalteri arızası",
+        "Yük boşaltma (akü aşırı gerilim) hatası",
+        "Yükleme kontaktör sürücü bobini arızası",
+        "EPROM toplam hatası",
+        "EPROM onay (ACK) hatası",
+        "Güç direksiyon kontaktör sürücü bobini arızası"
+      ],
+      "kontroller": [
+        "Kontaktör sürücü bobinlerini ve F/R şalterini kontrol edin.",
+        "EPROM verisini doğrulayın; gerekirse kontrolörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "502",
+      "kodNormal": "502",
+      "aliaslar": [
+        "25",
+        "27",
+        "67",
+        "91",
+        "LED25",
+        "LED27",
+        "LED67",
+        "LED91"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru sıcaklık/sensör/kademeli sürüş/aşırı hız hataları",
+      "aciklama": "Motor sıcaklık artışı (25), motor termik sensör arızası (27), kademeli sürüş aşımı (67), motor aşırı hız (91).",
+      "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Yürüyüş motoru sıcaklık artışı",
+        "Yürüyüş motoru termik sensörü arızası",
+        "Kademeli sürüş aşımı",
+        "Yürüyüş motoru aşırı hızı"
+      ],
+      "kontroller": [
+        "Motor sıcaklığını ve termik sensörü kontrol edin.",
+        "Kademeli sürüş ayarını ve aşırı hız sınırını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "503",
+      "kodNormal": "503",
+      "aliaslar": [
+        "54",
+        "LED54"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Güç direksiyon tork sensörü hatalı",
+      "aciklama": "Direksiyon tork sensörü çıkışı arızalı.",
+      "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Güç direksiyon tork sensörü çıkışının arızalı olması"
+      ],
+      "kontroller": [
+        "Direksiyon tork sensörü ve kablolarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "504",
+      "kodNormal": "504",
+      "aliaslar": [
+        "22",
+        "36",
+        "LED22",
+        "LED36"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sürücü termik sensör hatalı",
+      "aciklama": "Yürüyüş (22) veya yükleme (36) sürücü sıcaklık sensörü arızalı.",
+      "makineTepkisi": "LED hata kodu ile eşzamanlı gösterilir; sürücü korumaya geçer.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yürüyüş kontrolörü termik sensörü arızası",
+        "Yükleme kontrolörü termik sensörü arızası"
+      ],
+      "kontroller": [
+        "Yürüyüş ve yükleme kontrolörlerinin sıcaklık sensörlerini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+---
+import type { Marka } from '../lib/veri';
+
+interface Props {
+  marka: Marka;
+  seriSayisi: number;
+  kodSayisi: number;
+}
+const { marka, seriSayisi, kodSayisi } = Astro.props;
+---
+
+<a class="kart" href={`/${marka.id}/`}>
+  <div class="kart-ust">
+    <span class="kart-ad">{marka.ad}</span>
+    <span class="kart-nokta" style={`background:${marka.renk || 'var(--accent)'}`} aria-hidden="true"></span>
+  </div>
+  <div class="kart-grup">{marka.grup}</div>
+  <p class="kart-aciklama">{marka.aciklama}</p>
+  <div class="kart-alt">
+    <span><strong>{seriSayisi}</strong> seri</span>
+    <span><strong>{kodSayisi}</strong> kod</span>
+    <span style="margin-left:auto">İncele →</span>
+  </div>
+</a>

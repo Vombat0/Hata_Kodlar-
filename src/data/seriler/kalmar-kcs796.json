@@ -1,0 +1,1116 @@
+{
+  "marka": "kalmar",
+  "seri": "kcs796",
+  "modelAdi": "DCE/ECE dizisi ECU796 hidrolik kontrol ünitesi",
+  "kaynakBelge": "Kalmar DCE hata kodları tablosu (forkliftpdfmanuals.com)",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+  "kodlar": [
+    {
+      "kod": "601",
+      "kodNormal": "601",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "ECU 796 besleme gerilimi hatası",
+      "aciklama": "ECU 796 besleme gerilimi hatası. Besleme gerilimi aralık dışında; çalışmaya devam edilemez veya motor devri düşürülür.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ECU 796 besleme gerilimi hatası"
+      ],
+      "kontroller": [
+        "ECU 796 besleme sigortalarını ve kablo bağlantılarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "602",
+      "kodNormal": "602",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "ECU 796 bellek toplam (checksum) hatası",
+      "aciklama": "ECU 796 bellek toplam (checksum) hatası. Bellek verisi bozuk; çalışmaya devam edilemez. Kontayı kapatıp açarak üniteyi yeniden başlatıp programı yükleyin.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ECU 796 bellek toplam (checksum) hatası"
+      ],
+      "kontroller": [
+        "Kontayı kapatıp açarak ECU 796'yı yeniden başlatın ve programı yükleyin.",
+        "Hata sürerse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "603",
+      "kodNormal": "603",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "ECU 796 10V referans gerilim hatası",
+      "aciklama": "ECU 796 10V referans gerilim hatası. Referans gerilim aralık dışında; çalışmaya devam edilemez veya motor devri düşürülür.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ECU 796 10V referans gerilim hatası"
+      ],
+      "kontroller": [
+        "10V referans hattını ve bağlı sensörleri kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "604",
+      "kodNormal": "604",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "ECU 796 PWM çıkış besleme hatası",
+      "aciklama": "ECU 796 PWM çıkış besleme hatası. Hidrolik çalışmıyor; hidrolik fonksiyonları kapatın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "ECU 796 PWM çıkış besleme hatası"
+      ],
+      "kontroller": [
+        "Hidrolik fonksiyonları kapatın.",
+        "Elektrikli servo için yük kaldırma hattı kesici şalterinin basılı olup olmadığını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "605",
+      "kodNormal": "605",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "XA-PWM K2 iletişim hatası",
+      "aciklama": "XA-PWM K2 iletişim hatası. Hidrolik fonksiyonlar çalışmıyor. Kontayı açıp kapatarak ECU 796'yı yeniden başlatın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "XA-PWM K2 iletişim hatası"
+      ],
+      "kontroller": [
+        "Kontayı açıp kapatarak ECU 796'yı yeniden başlatın.",
+        "Hata sürerse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "606",
+      "kodNormal": "606",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "XA-PWM K3 iletişim hatası",
+      "aciklama": "XA-PWM K3 iletişim hatası. Hidrolik fonksiyonlar çalışmıyor. Kontayı açıp kapatarak ECU 796'yı yeniden başlatın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "XA-PWM K3 iletişim hatası"
+      ],
+      "kontroller": [
+        "Kontayı açıp kapatarak ECU 796'yı yeniden başlatın.",
+        "Hata sürerse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "610",
+      "kodNormal": "610",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik fonksiyon 1 kol giriş sinyali hatası",
+      "aciklama": "Hidrolik fonksiyon 1 kol giriş sinyali hatası. Hidrolik fonksiyon 1 çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Hidrolik fonksiyon 1 kol giriş sinyali hatası"
+      ],
+      "kontroller": [
+        "Hidrolik fonksiyon 1 kullanılmamalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "611",
+      "kodNormal": "611",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik fonksiyon 2 kol giriş sinyali hatası",
+      "aciklama": "Hidrolik fonksiyon 2 kol giriş sinyali hatası. Hidrolik fonksiyon 2 çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Hidrolik fonksiyon 2 kol giriş sinyali hatası"
+      ],
+      "kontroller": [
+        "Hidrolik fonksiyon 2 kullanılmamalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "612",
+      "kodNormal": "612",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik fonksiyon 3 kol giriş sinyali hatası",
+      "aciklama": "Hidrolik fonksiyon 3 kol giriş sinyali hatası. Hidrolik fonksiyon 3 çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Hidrolik fonksiyon 3 kol giriş sinyali hatası"
+      ],
+      "kontroller": [
+        "Hidrolik fonksiyon 3 kullanılmamalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "613",
+      "kodNormal": "613",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik fonksiyon 4 kol giriş sinyali hatası",
+      "aciklama": "Hidrolik fonksiyon 4 kol giriş sinyali hatası. Hidrolik fonksiyon 4 çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Hidrolik fonksiyon 4 kol giriş sinyali hatası"
+      ],
+      "kontroller": [
+        "Hidrolik fonksiyon 4 kullanılmamalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "614",
+      "kodNormal": "614",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik fonksiyon 5 kol giriş sinyali hatası",
+      "aciklama": "Hidrolik fonksiyon 5 kol giriş sinyali hatası. Hidrolik fonksiyon 5 çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Hidrolik fonksiyon 5 kol giriş sinyali hatası"
+      ],
+      "kontroller": [
+        "Hidrolik fonksiyon 5 kullanılmamalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "615",
+      "kodNormal": "615",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Hidrolik fonksiyon 1A yön valfi kısa/açık devre (K2:3)",
+      "aciklama": "Hidrolik fonksiyon 1A yön valfi kısa/açık devre (K2:3). Hidrolik fonksiyon 1 çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Hidrolik fonksiyon 1A yön valfi kısa/açık devre (K2:3)"
+      ],
+      "kontroller": [
+        "Hidrolik fonksiyon 1 kullanılmamalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "616",
+      "kodNormal": "616",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Hidrolik fonksiyon 1B yön valfi kısa/açık devre (K2:4)",
+      "aciklama": "Hidrolik fonksiyon 1B yön valfi kısa/açık devre (K2:4). Hidrolik fonksiyon 1 çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Hidrolik fonksiyon 1B yön valfi kısa/açık devre (K2:4)"
+      ],
+      "kontroller": [
+        "Hidrolik fonksiyon 1 kullanılmamalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "617",
+      "kodNormal": "617",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Hidrolik fonksiyon 2A yön valfi kısa/açık devre (K2:5)",
+      "aciklama": "Hidrolik fonksiyon 2A yön valfi kısa/açık devre (K2:5). Hidrolik fonksiyon 2 çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Hidrolik fonksiyon 2A yön valfi kısa/açık devre (K2:5)"
+      ],
+      "kontroller": [
+        "Hidrolik fonksiyon 2 kullanılmamalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "618",
+      "kodNormal": "618",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Hidrolik fonksiyon 2B yön valfi kısa/açık devre (K2:6)",
+      "aciklama": "Hidrolik fonksiyon 2B yön valfi kısa/açık devre (K2:6). Hidrolik fonksiyon 2 çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Hidrolik fonksiyon 2B yön valfi kısa/açık devre (K2:6)"
+      ],
+      "kontroller": [
+        "Hidrolik fonksiyon 2 kullanılmamalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "619",
+      "kodNormal": "619",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Hidrolik fonksiyon 3A yön valfi kısa/açık devre (K2:7)",
+      "aciklama": "Hidrolik fonksiyon 3A yön valfi kısa/açık devre (K2:7). Hidrolik fonksiyon 3 çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Hidrolik fonksiyon 3A yön valfi kısa/açık devre (K2:7)"
+      ],
+      "kontroller": [
+        "Hidrolik fonksiyon 3 kullanılmamalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "620",
+      "kodNormal": "620",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Hidrolik fonksiyon 3B yön valfi kısa/açık devre (K2:8)",
+      "aciklama": "Hidrolik fonksiyon 3B yön valfi kısa/açık devre (K2:8). Hidrolik fonksiyon 3 çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Hidrolik fonksiyon 3B yön valfi kısa/açık devre (K2:8)"
+      ],
+      "kontroller": [
+        "Hidrolik fonksiyon 3 kullanılmamalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "621",
+      "kodNormal": "621",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Hidrolik fonksiyon 4A yön valfi kısa/açık devre (K2:11)",
+      "aciklama": "Hidrolik fonksiyon 4A yön valfi kısa/açık devre (K2:11). Hidrolik fonksiyon 4 çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Hidrolik fonksiyon 4A yön valfi kısa/açık devre (K2:11)"
+      ],
+      "kontroller": [
+        "Hidrolik fonksiyon 4 kullanılmamalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "622",
+      "kodNormal": "622",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Hidrolik fonksiyon 4B yön valfi kısa/açık devre (K2:12)",
+      "aciklama": "Hidrolik fonksiyon 4B yön valfi kısa/açık devre (K2:12). Hidrolik fonksiyon 4 çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Hidrolik fonksiyon 4B yön valfi kısa/açık devre (K2:12)"
+      ],
+      "kontroller": [
+        "Hidrolik fonksiyon 4 kullanılmamalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "623",
+      "kodNormal": "623",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Hidrolik fonksiyon 5A yön valfi kısa/açık devre (K2:13)",
+      "aciklama": "Hidrolik fonksiyon 5A yön valfi kısa/açık devre (K2:13). Hidrolik fonksiyon 5 çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Hidrolik fonksiyon 5A yön valfi kısa/açık devre (K2:13)"
+      ],
+      "kontroller": [
+        "Hidrolik fonksiyon 5 kullanılmamalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "624",
+      "kodNormal": "624",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Hidrolik fonksiyon 5B yön valfi kısa/açık devre (K2:14)",
+      "aciklama": "Hidrolik fonksiyon 5B yön valfi kısa/açık devre (K2:14). Hidrolik fonksiyon 5 çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Hidrolik fonksiyon 5B yön valfi kısa/açık devre (K2:14)"
+      ],
+      "kontroller": [
+        "Hidrolik fonksiyon 5 kullanılmamalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "626",
+      "kodNormal": "626",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Dikey tutuş (vertical hold) sensör hatası",
+      "aciklama": "Dikey tutuş (vertical hold) sensör hatası. Dikey tutuş çalışmıyor; bu fonksiyonu kapatın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Dikey tutuş (vertical hold) sensör hatası"
+      ],
+      "kontroller": [
+        "Dikey tutuş fonksiyonunu kapatın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "627",
+      "kodNormal": "627",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Ön seçilen kaldırma yüksekliği sensör hatası",
+      "aciklama": "Ön seçilen kaldırma yüksekliği sensör hatası. Kaldırma yüksekliği ön seçimi çalışmıyor; ön seçimi kapatın.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Ön seçilen kaldırma yüksekliği sensör hatası"
+      ],
+      "kontroller": [
+        "Kaldırma yüksekliği ön seçimini kapatın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "628",
+      "kodNormal": "628",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "CTX iletişim hatası",
+      "aciklama": "CTX iletişim hatası. Sıkıştırma kontrolü yanıt vermiyor; yalnızca manuel sıkıştırma yapılabilir.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "CTX iletişim hatası"
+      ],
+      "kontroller": [
+        "CTX sıkıştırma ünitesi yerine manuel sıkıştırma kontrolüne geçin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "630",
+      "kodNormal": "630",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıkıştırma ataşmanı P1 basınç sensörü arızalı",
+      "aciklama": "Sıkıştırma ataşmanı P1 basınç sensörü arızalı. Seçilen ataşman basıncı yalnızca yaklaşık değerdir; basınç düşerse otomatik artış olmaz.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma ataşmanı P1 basınç sensörü arızalı"
+      ],
+      "kontroller": [
+        "Basınç sensörünü ve bağlantılarını kontrol edin; gerekirse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "631",
+      "kodNormal": "631",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıkıştırma ataşmanı P2 basınç sensörü arızalı",
+      "aciklama": "Sıkıştırma ataşmanı P2 basınç sensörü arızalı. Seçilen ataşman basıncı yalnızca yaklaşık değerdir; basınç düşerse otomatik artış olmaz.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma ataşmanı P2 basınç sensörü arızalı"
+      ],
+      "kontroller": [
+        "Basınç sensörünü ve bağlantılarını kontrol edin.",
+        "Servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "632",
+      "kodNormal": "632",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Sıkıştırma ataşmanı yön valfi kısa/açık devre (K3:3)",
+      "aciklama": "Sıkıştırma ataşmanı yön valfi kısa/açık devre (K3:3). İlgili hidrolik fonksiyon çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma ataşmanı yön valfi kısa/açık devre (K3:3)"
+      ],
+      "kontroller": [
+        "Sıkıştırma ataşmanı fonksiyonunu kullanmayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "633",
+      "kodNormal": "633",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Ataşman basıncı ON/OFF yön valfi kısa/açık devre",
+      "aciklama": "Ataşman basıncı ON/OFF yön valfi kısa/açık devre. İlgili hidrolik fonksiyon çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Ataşman basıncı ON/OFF yön valfi kısa/açık devre"
+      ],
+      "kontroller": [
+        "Sıkıştırma ataşmanı fonksiyonunu kullanmayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "634",
+      "kodNormal": "634",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Sol kol ON/OFF yön valfi kısa/açık devre",
+      "aciklama": "Sol kol ON/OFF yön valfi kısa/açık devre. İlgili hidrolik fonksiyon çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sol kol ON/OFF yön valfi kısa/açık devre"
+      ],
+      "kontroller": [
+        "Sol kol fonksiyonunu kullanmayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "635",
+      "kodNormal": "635",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Sağ kol ON/OFF yön valfi kısa/açık devre",
+      "aciklama": "Sağ kol ON/OFF yön valfi kısa/açık devre. İlgili hidrolik fonksiyon çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sağ kol ON/OFF yön valfi kısa/açık devre"
+      ],
+      "kontroller": [
+        "Sağ kol fonksiyonunu kullanmayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "636",
+      "kodNormal": "636",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Üst sol kol ON/OFF yön valfi kısa/açık devre",
+      "aciklama": "Üst sol kol ON/OFF yön valfi kısa/açık devre. İlgili hidrolik fonksiyon çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Üst sol kol ON/OFF yön valfi kısa/açık devre"
+      ],
+      "kontroller": [
+        "Üst sol kol fonksiyonunu kullanmayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "637",
+      "kodNormal": "637",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Orta sağ kol ON/OFF yön valfi kısa/açık devre",
+      "aciklama": "Orta sağ kol ON/OFF yön valfi kısa/açık devre. İlgili hidrolik fonksiyon çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Orta sağ kol ON/OFF yön valfi kısa/açık devre"
+      ],
+      "kontroller": [
+        "Orta sağ kol fonksiyonunu kullanmayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "638",
+      "kodNormal": "638",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Orta sol kol ON/OFF yön valfi kısa/açık devre",
+      "aciklama": "Orta sol kol ON/OFF yön valfi kısa/açık devre. İlgili hidrolik fonksiyon çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Orta sol kol ON/OFF yön valfi kısa/açık devre"
+      ],
+      "kontroller": [
+        "Orta sol kol fonksiyonunu kullanmayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "639",
+      "kodNormal": "639",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Üst sağ kol ON/OFF yön valfi kısa/açık devre",
+      "aciklama": "Üst sağ kol ON/OFF yön valfi kısa/açık devre. İlgili hidrolik fonksiyon çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Üst sağ kol ON/OFF yön valfi kısa/açık devre"
+      ],
+      "kontroller": [
+        "Üst sağ kol fonksiyonunu kullanmayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "642",
+      "kodNormal": "642",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıkıştırma ataşmanı açma basınç sensörü arızalı",
+      "aciklama": "Sıkıştırma ataşmanı açma basınç sensörü arızalı. Sıkıştırma ataşmanı fonksiyonu çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma ataşmanı açma basınç sensörü arızalı"
+      ],
+      "kontroller": [
+        "Sıkıştırma ataşmanı fonksiyonunu kullanmayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "643",
+      "kodNormal": "643",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıkıştırma ataşmanı kapama basınç sensörü arızalı",
+      "aciklama": "Sıkıştırma ataşmanı kapama basınç sensörü arızalı. Sıkıştırma ataşmanı fonksiyonu çalışmıyor; bu fonksiyonu kullanmayın.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma ataşmanı kapama basınç sensörü arızalı"
+      ],
+      "kontroller": [
+        "Sıkıştırma ataşmanı fonksiyonunu kullanmayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "644",
+      "kodNormal": "644",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Sol/sağ kol hattı kesici şalteri arızalı",
+      "aciklama": "Sol/sağ kol hattı kesici şalteri arızalı. Sağ/sol kol kapatma hattı çalışmıyor; bu hattı kullanmayın.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sol/sağ kol hattı kesici şalteri arızalı"
+      ],
+      "kontroller": [
+        "Sağ/sol kol kapatma hattını kullanmayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "645",
+      "kodNormal": "645",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Maksimum yük aşıldı",
+      "aciklama": "Maksimum yük aşıldı. Hız en fazla 1 km/s'ye düşürülür; yükü indirin.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Maksimum yük aşıldı"
+      ],
+      "kontroller": [
+        "Yükü indirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "646",
+      "kodNormal": "646",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıkıştırma ataşmanı üst sol baypas valfi çalışmıyor",
+      "aciklama": "Sıkıştırma ataşmanı üst sol baypas valfi çalışmıyor. Sıkıştırma ataşmanının sol tarafı çalışmıyor.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma ataşmanı üst sol baypas valfi çalışmıyor"
+      ],
+      "kontroller": [
+        "İlgili valfi ve devresini kontrol edin; gerekirse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "647",
+      "kodNormal": "647",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıkıştırma ataşmanı orta sol baypas valfi çalışmıyor",
+      "aciklama": "Sıkıştırma ataşmanı orta sol baypas valfi çalışmıyor. Sıkıştırma ataşmanının sol tarafı çalışmıyor.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma ataşmanı orta sol baypas valfi çalışmıyor"
+      ],
+      "kontroller": [
+        "İlgili valfi ve devresini kontrol edin; gerekirse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "648",
+      "kodNormal": "648",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıkıştırma ataşmanı sol sıralama valfi çalışmıyor",
+      "aciklama": "Sıkıştırma ataşmanı sol sıralama valfi çalışmıyor. Sıkıştırma ataşmanının sol tarafı çalışmıyor.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma ataşmanı sol sıralama valfi çalışmıyor"
+      ],
+      "kontroller": [
+        "İlgili valfi ve devresini kontrol edin; gerekirse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "650",
+      "kodNormal": "650",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıkıştırma ataşmanı üst sağ baypas valfi çalışmıyor",
+      "aciklama": "Sıkıştırma ataşmanı üst sağ baypas valfi çalışmıyor. Sıkıştırma ataşmanının sağ tarafı çalışmıyor.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma ataşmanı üst sağ baypas valfi çalışmıyor"
+      ],
+      "kontroller": [
+        "İlgili valfi ve devresini kontrol edin; gerekirse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "651",
+      "kodNormal": "651",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıkıştırma ataşmanı orta sağ baypas valfi çalışmıyor",
+      "aciklama": "Sıkıştırma ataşmanı orta sağ baypas valfi çalışmıyor. Sıkıştırma ataşmanının sağ tarafı çalışmıyor.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma ataşmanı orta sağ baypas valfi çalışmıyor"
+      ],
+      "kontroller": [
+        "İlgili valfi ve devresini kontrol edin; gerekirse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "652",
+      "kodNormal": "652",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıkıştırma ataşmanı sağ sıralama valfi çalışmıyor",
+      "aciklama": "Sıkıştırma ataşmanı sağ sıralama valfi çalışmıyor. Sıkıştırma ataşmanının sağ tarafı çalışmıyor.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma ataşmanı sağ sıralama valfi çalışmıyor"
+      ],
+      "kontroller": [
+        "İlgili valfi ve devresini kontrol edin; gerekirse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "654",
+      "kodNormal": "654",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıkıştırma ataşmanı uzun sol kol P3 basınç sensörü arızalı",
+      "aciklama": "Sıkıştırma ataşmanı uzun sol kol P3 basınç sensörü arızalı. Sıkıştırma ataşmanının sol tarafı çalışmıyor.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma ataşmanı uzun sol kol P3 basınç sensörü arızalı"
+      ],
+      "kontroller": [
+        "İlgili basınç sensörünü ve devresini kontrol edin; gerekirse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "655",
+      "kodNormal": "655",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıkıştırma ataşmanı kısa sol kol P3 basınç sensörü arızalı",
+      "aciklama": "Sıkıştırma ataşmanı kısa sol kol P3 basınç sensörü arızalı. Sıkıştırma ataşmanının sol tarafı çalışmıyor.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma ataşmanı kısa sol kol P3 basınç sensörü arızalı"
+      ],
+      "kontroller": [
+        "İlgili basınç sensörünü ve devresini kontrol edin; gerekirse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "656",
+      "kodNormal": "656",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıkıştırma ataşmanı uzun sağ kol P3 basınç sensörü arızalı",
+      "aciklama": "Sıkıştırma ataşmanı uzun sağ kol P3 basınç sensörü arızalı. Sıkıştırma ataşmanının sağ tarafı çalışmıyor.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma ataşmanı uzun sağ kol P3 basınç sensörü arızalı"
+      ],
+      "kontroller": [
+        "İlgili basınç sensörünü ve devresini kontrol edin; gerekirse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "657",
+      "kodNormal": "657",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıkıştırma ataşmanı kısa sağ kol P3 basınç sensörü arızalı",
+      "aciklama": "Sıkıştırma ataşmanı kısa sağ kol P3 basınç sensörü arızalı. Sıkıştırma ataşmanının sağ tarafı çalışmıyor.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma ataşmanı kısa sağ kol P3 basınç sensörü arızalı"
+      ],
+      "kontroller": [
+        "İlgili basınç sensörünü ve devresini kontrol edin; gerekirse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "658",
+      "kodNormal": "658",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıkıştırma basıncı seçim şalteri hatası",
+      "aciklama": "Sıkıştırma basıncı seçim şalteri hatası. Birinci sıkıştırma basıncı seçili kalır.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma basıncı seçim şalteri hatası"
+      ],
+      "kontroller": [
+        "Seçim şalterini ve devresini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "659",
+      "kodNormal": "659",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıkıştırma ataşmanı sol kol P1 basınç sensörü arızalı",
+      "aciklama": "Sıkıştırma ataşmanı sol kol P1 basınç sensörü arızalı. Sıkıştırma basıncı otomatik artırılmaz.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma ataşmanı sol kol P1 basınç sensörü arızalı"
+      ],
+      "kontroller": [
+        "İlgili basınç sensörünü ve devresini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "660",
+      "kodNormal": "660",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıkıştırma ataşmanı sol kol P2 basınç sensörü arızalı",
+      "aciklama": "Sıkıştırma ataşmanı sol kol P2 basınç sensörü arızalı. Sıkıştırma basıncı otomatik artırılmaz.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma ataşmanı sol kol P2 basınç sensörü arızalı"
+      ],
+      "kontroller": [
+        "İlgili basınç sensörünü ve devresini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "661",
+      "kodNormal": "661",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıkıştırma ataşmanı sağ kol P1 basınç sensörü arızalı",
+      "aciklama": "Sıkıştırma ataşmanı sağ kol P1 basınç sensörü arızalı. Sıkıştırma basıncı otomatik artırılmaz.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma ataşmanı sağ kol P1 basınç sensörü arızalı"
+      ],
+      "kontroller": [
+        "İlgili basınç sensörünü ve devresini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "662",
+      "kodNormal": "662",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıkıştırma ataşmanı sağ kol P3 basınç sensörü arızalı",
+      "aciklama": "Sıkıştırma ataşmanı sağ kol P3 basınç sensörü arızalı. Sıkıştırma basıncı otomatik artırılmaz.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıkıştırma ataşmanı sağ kol P3 basınç sensörü arızalı"
+      ],
+      "kontroller": [
+        "İlgili basınç sensörünü ve devresini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "900",
+      "kodNormal": "900",
+      "aliaslar": [],
+      "sistem": "sanziman",
+      "baslik": "Şanzıman kontrol ünitesinden gelen hata kodu",
+      "aciklama": "Şanzıman kontrol ünitesinden gelen hata kodu. Sınırlı çalışma uygulanabilir; şanzıman hata kodlarına bakın.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Şanzıman kontrol ünitesinden gelen hata kodu"
+      ],
+      "kontroller": [
+        "Şanzıman hata kodları tablosuna bakın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "1200",
+      "kodNormal": "1200",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Motor kontrol ünitesinden gelen hata kodu",
+      "aciklama": "Motor kontrol ünitesinden gelen hata kodu. Sınırlı çalışma uygulanabilir; motor kontrol ünitesi arıza kodlarına bakın.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Motor kontrol ünitesinden gelen hata kodu"
+      ],
+      "kontroller": [
+        "Motor kontrol ünitesi hata kodlarına bakın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    }
+  ]
+}

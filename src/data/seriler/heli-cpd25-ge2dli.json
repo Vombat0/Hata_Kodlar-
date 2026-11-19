@@ -1,0 +1,641 @@
+{
+  "marka": "heli",
+  "seri": "cpd25-ge2dli",
+  "modelAdi": "Heli cpd25-ge2dli",
+  "kaynakBelge": "Web araştırması — chinaliftsupply.com",
+  "kaynakSurum": "",
+  "kaynakDil": "",
+  "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli",
+  "kodlar": [
+    {
+      "kod": "02",
+      "kodNormal": "02",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "Kontrolcüler Arası İletişim Yok",
+      "aciklama": "Kontrolcü modülleri arasındaki iletişim kesildiğinde bu arıza oluşur. Veri alışverişinin belirli süre içinde gerçekleşmemesiyle tetiklenir.",
+      "makineTepkisi": "Kontrolcüler birlikte çalışamaz, araç çalışmaz veya kısıtlı modda kalır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontrolcü modülleri arasında iletişim kaybı"
+      ],
+      "kontroller": [
+        "CAN hattı kablolarını ve bağlantılarını kontrol et",
+        "Tüm kontrolcü beslemelerini doğrula",
+        "Sistemi sıfırla"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/02",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "08",
+      "kodNormal": "08",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Watchdog (Koru) Zaman Aşımı",
+      "aciklama": "Kontrolcünün watchdog (koru) zamanlayıcısı süresi içinde sıfırlanmadığında işlemci arızası algılanır. Yazılımın beklenen sürede yanıt vermemesiyle tetiklenir.",
+      "makineTepkisi": "Kontrolcü kilitlenir, araç çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontrolcü watchdog zamanlayıcısının süresi doldu",
+        "İşlemci arızası"
+      ],
+      "kontroller": [
+        "Beslemeyi kesip yeniden başlat",
+        "Sorun sürerse kontrolcü yazılımını kontrol et",
+        "Gerekirse kontrolcüyü değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/08",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "10",
+      "kodNormal": "10",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "EEPROM Veri Hatası",
+      "aciklama": "Kontrolcü EEPROM belleğindeki veriler bozulduğunda veya geçersiz olduğunda bu arıza kaydedilir. Kayıtlı parametrelerin okunamamasıyla tetiklenir.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontrolcü bellek verisi bozulmuş veya geçersiz"
+      ],
+      "kontroller": [
+        "Kontrolcü parametrelerini yeniden programla",
+        "Sorun sürerse EEPROM'u veya kontrolcü ünitesini değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/10",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "13",
+      "kodNormal": "13",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "EEPROM Arızası",
+      "aciklama": "Kontrolcünün EEPROM bellek çipi kalıcı olarak arızalandığında bu hata oluşur. Bellek çipi artık veri saklayamadığında tetiklenir.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontrolcü EEPROM bellek çipi arızası"
+      ],
+      "kontroller": [
+        "Kontrolcüyü değiştir",
+        "Bellek çipinin kalıcı olarak arızalandığını doğrula"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/13",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "37",
+      "kodNormal": "37",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kontaktör Kapalı Kalma Arızası",
+      "aciklama": "Açılış sırasında ana kontaktör kapalı konumda sıkışmışsa bu arıza oluşur. Kontaktörün açılması gereken durumda kapalı kalmasıyla tetiklenir.",
+      "makineTepkisi": "Ana güç sürekli bağlı kalır, araç istenmeden hareket edebilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Açılış sırasında ana kontaktör kapalı konumda sıkışmış"
+      ],
+      "kontroller": [
+        "Kontaktörde mekanik sıkışma olup olmadığını kontrol et",
+        "Bobini ve kontakları incele",
+        "Kaynamışsa kontaktörü değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/37",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "38",
+      "kodNormal": "38",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kontaktör Açık Kalma Arızası",
+      "aciklama": "Kapanma komutu verilmesine rağmen ana kontaktör kapanmadığında bu arıza oluşur. Kontaktörün komuta yanıt vermemesiyle tetiklenir.",
+      "makineTepkisi": "Ana güç bağlanamaz, araç çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Komut verildiğinde ana kontaktör kapanmadı"
+      ],
+      "kontroller": [
+        "Kontaktör bobin beslemesini kontrol et",
+        "Kabloları doğrula",
+        "Bobin direncini ölç",
+        "Bobin açıksa değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/38",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "39",
+      "kodNormal": "39",
+      "aliaslar": [],
+      "sistem": "fren",
+      "baslik": "Fren Kapanmadı",
+      "aciklama": "Elektromanyetik fren devreye giremediğinde bu arıza oluşur. Frenin tutması gereken durumda açık kalmasıyla tetiklenir.",
+      "makineTepkisi": "Fren tutmaz, araç istenmeden hareket edebilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Elektromanyetik fren devreye girmedi"
+      ],
+      "kontroller": [
+        "Fren bobini kablolarını ve beslemesini kontrol et",
+        "Fren mekanizmasını incele",
+        "Fren tertibatını ayarla veya değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/39",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "40",
+      "kodNormal": "40",
+      "aliaslar": [],
+      "sistem": "fren",
+      "baslik": "Fren Kontaktörü Açık",
+      "aciklama": "Fren bırakma kontaktörü çalışmadığında bu arıza oluşur. Kontaktörün gerekli komutla kapanmamasıyla tetiklenir.",
+      "makineTepkisi": "Fren bırakılamaz, araç hareket edemez.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Fren bırakma kontaktörü çalışmadı"
+      ],
+      "kontroller": [
+        "Fren kontaktörünün bobin ve kontaklarını incele",
+        "Fren sistemine giden kabloları kontrol et",
+        "Kontaktörü değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/40",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "47",
+      "kodNormal": "47",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Ana Kontaktör Beklenmedik Şekilde Kapalı",
+      "aciklama": "Ana güç kontaktörü beklenmedik şekilde kapalı kaldığında bu arıza oluşur. Kontaktörün kaynamış olabileceği durumda tetiklenir.",
+      "makineTepkisi": "Ana güç kesilemez, araç istenmeden çalışabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ana güç kontaktörü beklenmedik şekilde kapalı kaldı"
+      ],
+      "kontroller": [
+        "KRİTİK: Aracı çalıştırma",
+        "Kontaktörün kaynamış olabileceğini dikkate al",
+        "Bataryayı ayır ve kontaktörü değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/47",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "48",
+      "kodNormal": "48",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Ana Kontaktör Açık Kaldı",
+      "aciklama": "Ana güç kontaktörü kapanmadığında bu arıza oluşur. Kapanma komutuna rağmen kontaktörün açık kalmasıyla tetiklenir.",
+      "makineTepkisi": "Ana güç bağlanamaz, araç çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ana güç kontaktörü kapanmadı"
+      ],
+      "kontroller": [
+        "Ana kontaktör bobinini kontrol et",
+        "Batarya gerilimini doğrula",
+        "Kontaktör kontaklarını incele",
+        "Gerekirse kontaktörü değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/48",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "57",
+      "kodNormal": "57",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Yüksek Alan Sargısı Akımı",
+      "aciklama": "Motor alan sargısından geçen akım güvenli sınırı aştığında bu arıza oluşur. Sargı akımının izin verilen değerin üzerine çıkmasıyla tetiklenir.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor alan sargısı akımı güvenli sınırı aşıyor"
+      ],
+      "kontroller": [
+        "Motor alan sargısı bağlantılarını kontrol et",
+        "Kısa devre olup olmadığını incele",
+        "Motor izolasyonunu ölç",
+        "Motoru değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/57",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "58",
+      "kodNormal": "58",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Alan Sargısı Akımı Yok",
+      "aciklama": "Motor alan sargısına akım gitmediğinde bu arıza oluşur. Sargı beslemesinin kesilmesiyle tetiklenir.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor alan sargısına akım gitmiyor"
+      ],
+      "kontroller": [
+        "Alan sargısı bağlantılarını kontrol et",
+        "Kabloların sürekliliğini ölç",
+        "Kontrolcünün alan çıkışını incele"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/58",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "61",
+      "kodNormal": "61",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Yüksek Sıcaklık",
+      "aciklama": "Kontrolcü veya motor sıcaklığı izin verilen sınırı aştığında bu arıza oluşur. Sıcaklığın güvenli değerin üzerine çıkmasıyla tetiklenir.",
+      "makineTepkisi": "Aşırı sıcaklık nedeniyle güç kısıtlanır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontrolcü veya motor sıcaklığı sınırı aşıyor"
+      ],
+      "kontroller": [
+        "Çalışmayı durdur ve soğumasını bekle",
+        "Havalandırmayı ve fanı kontrol et",
+        "Soğutuculardaki tozu temizle"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/61",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "62",
+      "kodNormal": "62",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Termal Koruma Aktif",
+      "aciklama": "Bileşenleri korumak için güç kısıtlama devreye girdiğinde bu arıza oluşur. Sıcaklık sınırına ulaşıldığında koruma otomatik olarak etkinleşir.",
+      "makineTepkisi": "Motor gücü kısılır, yavaş çalışma.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Bileşenleri korumak için termal güç kısıtlama devreye girdi"
+      ],
+      "kontroller": [
+        "Çalışma döngüsünü (görev oranını) azalt",
+        "Soğumasını bekle",
+        "Havalandırmanın tıkanıklığını kontrol et",
+        "Termal sensörleri incele"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/62",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "65",
+      "kodNormal": "65",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş Motoru Sıcaklığı Yüksek",
+      "aciklama": "Yürüyüş motoru aşırı ısındığında bu arıza kaydedilir. Motor sıcaklığının izin verilen sınırı aşmasıyla tetiklenir.",
+      "makineTepkisi": "Motor gücü kısılır, araç yavaşlar.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yürüyüş motoru aşırı ısınıyor"
+      ],
+      "kontroller": [
+        "Motorun soğumasını bekle",
+        "Motor havalandırmasını kontrol et",
+        "Aşırı yük koşullarını incele"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/65",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "66",
+      "kodNormal": "66",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Batarya Düşük",
+      "aciklama": "Batarya gerilimi kritik düzeyde düşük olduğunda bu arıza oluşur. Gerilimin çalışma için yeterli olmamasıyla tetiklenir.",
+      "makineTepkisi": "Güç kısıtlama veya kapatma devreye girer, araç çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Batarya gerilimi kritik düzeyde düşük"
+      ],
+      "kontroller": [
+        "Bataryayı hemen şarj et",
+        "Çalışmaya devam etme",
+        "Batarya kapasitesini ölç"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/66",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "67",
+      "kodNormal": "67",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Batarya Uyarı Seviyesi 2",
+      "aciklama": "Batarya gerilimi ikinci uyarı eşiğinin altına düştüğünde bu uyarı oluşur. Gerilimin azalmasıyla performans düşüşü başlar.",
+      "makineTepkisi": "Performans düşer, güç kısıtlama başlar.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Batarya gerilimi uyarı eşiğinin altında"
+      ],
+      "kontroller": [
+        "Kısa sürede şarj planla",
+        "Batarya göstergesini izle"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/67",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "68",
+      "kodNormal": "68",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Batarya Uyarı Seviyesi 1",
+      "aciklama": "Batarya gerilimi düşük eşiğe yaklaştığında birinci seviye uyarı verilir. Batarya zayıflamaya başlar ancak çalışma normaldir.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Batarya gerilimi düşük eşiğe yaklaşıyor"
+      ],
+      "kontroller": [
+        "Şarj etmeyi değerlendir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/68",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "69",
+      "kodNormal": "69",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Akım Sensörü Hatası",
+      "aciklama": "Motor akım sensörü arızalandığında veya ölçüm aralığının dışına çıktığında bu hata oluşur. Sensör okumasının geçersiz olmasıyla tetiklenir.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor akım sensörü arızası",
+        "Ölçüm aralığı dışında okuma"
+      ],
+      "kontroller": [
+        "Akım sensörü kablolarını kontrol et",
+        "Sensörü kalibre et",
+        "Okumalar hatalıysa sensörü değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/69",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "74",
+      "kodNormal": "74",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Güç Sürücüsü Kısa Devre",
+      "aciklama": "Güç katmanındaki sürücü devresinde kısa devre algılandığında bu arıza oluşur. Sürücü devresinin kısa devre yapmasıyla tetiklenir.",
+      "makineTepkisi": "Kontrolcü hasarlı, araç çalıştırılamaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Güç katmanı sürücü devresinde kısa devre"
+      ],
+      "kontroller": [
+        "KRİTİK: Aracı çalıştırma; kontrolcü hasarlı olabilir",
+        "Kontrolcü modülünü değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/74",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "75",
+      "kodNormal": "75",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kontaktör Sürücü Arızası",
+      "aciklama": "Kontaktörü süren devre arızalandığında bu hata oluşur. Sürücü çıkışının kontaktörü çalıştıramamasıyla tetiklenir.",
+      "makineTepkisi": "Kontaktör kapanamaz, araç çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontaktör sürücü devresi arızası"
+      ],
+      "kontroller": [
+        "Kontaktör sürücü çıkışını kontrol et",
+        "Sürücü devresini ölç",
+        "Sürücü arızalıysa kontrolcüyü değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/75",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "76",
+      "kodNormal": "76",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Bobin Kısa Devresi",
+      "aciklama": "Kontaktör veya solenoid bobininde kısa devre oluştuğunda bu arıza kaydedilir. Bobin direncinin düşmesiyle tetiklenir.",
+      "makineTepkisi": "Bobin çalışmaz, ilgili kontaktör veya solenoid devreye girmez.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontaktör veya solenoid bobininde kısa devre"
+      ],
+      "kontroller": [
+        "Bobin direncini ölç",
+        "Kısa devreyi gösteren düşük direnci kontrol et",
+        "Kısa devre yapmış bobini değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/76",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "77",
+      "kodNormal": "77",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Bobin Devresi Kopuk",
+      "aciklama": "Kontaktör veya solenoid bobininde açık devre oluştuğunda bu arıza oluşur. Bobin sürekliliğinin kesilmesiyle tetiklenir.",
+      "makineTepkisi": "Bobin enerjilenemez, ilgili bileşen çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontaktör veya solenoid bobininde açık devre"
+      ],
+      "kontroller": [
+        "Bobin sürekliliğini ölç",
+        "Bağlantıları kontrol et",
+        "Açık devre varsa bobini değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/77",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "78",
+      "kodNormal": "78",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Gaz Pedalı Sinyali Geçersiz",
+      "aciklama": "Gaz pedalı sinyali geçerli aralığın dışında olduğunda bu arıza oluşur. Pedal konum sinyalinin beklenen değerlerde olmamasıyla tetiklenir.",
+      "makineTepkisi": "Gaz komutu algılanamaz, araç hızlanmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gaz pedalı sinyali geçerli aralığın dışında"
+      ],
+      "kontroller": [
+        "Gaz pedalı potansiyometresinin kablolarını kontrol et",
+        "Pedali kalibre et",
+        "Arızalıysa pedal tertibatını değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/78",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "79",
+      "kodNormal": "79",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Hatalı Çalıştırma Sırası",
+      "aciklama": "Geçersiz bir açılış sırası emniyet kilidini tetiklediğinde bu arıza oluşur. Çalıştırma sırasında güvenlik koşullarının sağlanmamasıyla tetiklenir.",
+      "makineTepkisi": "Çalıştırma engellenir, araç açılamaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Geçersiz çalıştırma sırası",
+        "Emniyet kilidi devreye girdi"
+      ],
+      "kontroller": [
+        "Anahtarı çevirmeden önce gaz pedalını bırak",
+        "Koltuk anahtarını ve nötr kilidini kontrol et"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/79",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "80",
+      "kodNormal": "80",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "İleri ve Geri Aynı Anda Seçili",
+      "aciklama": "İleri ve geri yönler aynı anda seçildiğinde bu arıza oluşur. Yön anahtarından çelişkili sinyal gelmesiyle tetiklenir.",
+      "makineTepkisi": "Yön seçimi belirsiz, araç hareket etmez.",
+      "siddet": "uyari",
+      "nedenler": [
+        "İleri ve geri aynı anda seçildi"
+      ],
+      "kontroller": [
+        "Yön anahtarı kontaklarını kontrol et",
+        "Kablolarda kısa devre olup olmadığını incele",
+        "Sıkışmışsa anahtarı değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/80",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "82",
+      "kodNormal": "82",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Enkoder Hatası",
+      "aciklama": "Motor hız enkoderinin sinyali geçersiz olduğunda bu arıza oluşur. Hız geri besleme sinyalinin okunamamasıyla tetiklenir.",
+      "makineTepkisi": "Hız geri beslemesi hatalı, araç düzensiz çalışır veya durur.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor hız enkoderi sinyali geçersiz"
+      ],
+      "kontroller": [
+        "Enkoder bağlantılarını kontrol et",
+        "Enkoder diski ve sensörü incele",
+        "Hasarlıysa enkoderi değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/82",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "86",
+      "kodNormal": "86",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Gaz Pedalı Kablo Arızası",
+      "aciklama": "Gaz pedalı kablolarında arıza algılandığında bu hata oluşur. Kablo hasarı veya bağlantı kopukluğuyla tetiklenir.",
+      "makineTepkisi": "Gaz sinyali iletilmez, araç hızlanmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gaz pedalı kablolamasında arıza"
+      ],
+      "kontroller": [
+        "Pedal kablolarında hasar olup olmadığını incele",
+        "Konnektör pimlerini kontrol et",
+        "Kablo demetini onar veya değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/86",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "87",
+      "kodNormal": "87",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Gaz Pedalı Arızası",
+      "aciklama": "Gaz pedalı potansiyometresi arızalandığında bu hata oluşur. Pedal konumunun doğru okunamamasıyla tetiklenir.",
+      "makineTepkisi": "Gaz sinyali alınamaz, araç hızlanmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gaz pedalı potansiyometresi arızası"
+      ],
+      "kontroller": [
+        "Pedal potansiyometresi direncini ölç",
+        "Düzensiz okuma olup olmadığını kontrol et",
+        "Pedal tertibatını değiştir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/87",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "88",
+      "kodNormal": "88",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş Motoru Fırçaları",
+      "aciklama": "Yürüyüş motorunun fırçaları aşındığında veya hasar gördüğünde bu arıza oluşur. Fırça aşınmasının sınırı geçmesiyle tetiklenir.",
+      "makineTepkisi": "Motor gücü düşer, çalışma düzensizleşir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yürüyüş motoru fırçaları aşınmış veya hasarlı"
+      ],
+      "kontroller": [
+        "Motor fırçalarını aşınma açısından incele",
+        "Minimum altına aşınmışsa fırçaları değiştir",
+        "Komütatörü kontrol et"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/heli/cpd25-ge2dli/88",
+      "durum": "incelemede"
+    }
+  ]
+}

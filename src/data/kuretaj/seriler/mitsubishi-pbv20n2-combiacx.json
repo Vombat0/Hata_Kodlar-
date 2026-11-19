@@ -1,0 +1,1864 @@
+{
+  "marka": "mitsubishi",
+  "seri": "pbv20n2-combiacx",
+  "modelAdi": "PBV20N2 (ve COMBIACX kombinasyon sürücülü Mitsubishi elektrikli üniteler)",
+  "kaynakBelge": "Mitsubishi PBV20N2 Servis Manuali Rev.B Bölüm 13 Alarm codes (forkliftpdfmanuals.com PDF)",
+  "kaynakSurum": "Revision B / 2013",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+  "kodlar": [
+    {
+      "kod": "8",
+      "kodNormal": "8",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Kendini test hatası (watchdog)",
+      "aciklama": "Kendini test hatası (watchdog). kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored WATCHDOG This is a safety-related self diagnosis test within the logic between the master (drive) and slave (pump) microcontrollers."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "13",
+      "kodNormal": "13",
+      "aliaslar": [
+        "Warning",
+        "kayıtlı"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontrolör bellek hatası",
+      "aciklama": "Kontrolör bellek hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Warning) Stored EEPROM KO This warning is caused by a hardware or software defect of the non-volatile embedded memory supporting the controller parameters."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "17",
+      "kodNormal": "17",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Donanımsal aşırı akım koruması hatası",
+      "aciklama": "Donanımsal aşırı akım koruması hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored LOGIC FAILURE #3 This alarm is caused by a hardware problem in the logic card circuit for high current (overload) protection."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "18",
+      "kodNormal": "18",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Motor gerilim geri besleme devresi hasarlı",
+      "aciklama": "Motor gerilim geri besleme devresi hasarlı. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored LOGIC FAILURE #2 This alarm is caused by a fault in the logic board managing the phase’s voltage feedback."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "19",
+      "kodNormal": "19",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "batarya",
+      "baslik": "Aşırı ya da düşük gerilim algılandı",
+      "aciklama": "Aşırı ya da düşük gerilim algılandı. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored LOGIC FAILURE #1 This alarm is displayed when the controller detects an overvoltage or undervoltage condition."
+      ],
+      "kontroller": [
+        "• The key input signal voltage drops below theth e undervoltage threshold due external loads, such as DC/DC converters starting up or relays or contactors energizing or de-energizing.",
+        "• If no voltage transient is detected on the supply line and the alarm is displayed every time the key is switched ON, the problem is in the COMBIACX controller.",
+        "• If the alarm occurs during traction acceleration or driving hydraulic functions, it is caused by an undervoltage condition."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "28",
+      "kodNormal": "28",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motoru çıkış gerilimi hatası (düşük)",
+      "aciklama": "Pompa motoru çıkış gerilimi hatası (düşük). kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored PUMP VMN LOW Cause 1: Startup test Before switching the main contactor on, the software checks the power bridge."
+      ],
+      "kontroller": [
+        "• Motor internal connections (ohmic continuity) • Motor power connections • Motor leakage to the truck frame If the motor connections are OK, the problem is in the COMBIACX controller.",
+        "• Motor connections • Whether the motor’s phase windings or cables have leakages towards the truck frame • That the main contactor closes properly, with a good contact If no faults are found, the problem is in the COMBIACX controller."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "29",
+      "kodNormal": "29",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motoru çıkış gerilimi hatası (yüksek)",
+      "aciklama": "Pompa motoru çıkış gerilimi hatası (yüksek). kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored PUMP VMN HIGH This test is carried out when the pump motor is turning."
+      ],
+      "kontroller": [
+        "• Motor connections • If the motor windings or cables have leakages towards to wards the truck frame If no problems are found on the motor, the problem is in the COMBIAX controller."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "30",
+      "kodNormal": "30",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Çekiş motoru çıkış gerilimi hatası",
+      "aciklama": "Çekiş motoru çıkış gerilimi hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored (low) VMN LOW Cause 1: Startup test Before switching the main contactor on, the software checks the power bridge."
+      ],
+      "kontroller": [
+        "• Motor internal connections (ohmic continuity) • Motor power connections • Motor leakage to the truck frame If the motor connections are OK, the problem is in the COMBIACX controller.",
+        "• Motor connections • Whether the motor’s phase windings or cables have leakages towards the truck t ruck frame • That the main contactor closes properly, with a good contact."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "31",
+      "kodNormal": "31",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Çekiş motoru çıkış gerilimi hatası",
+      "aciklama": "Çekiş motoru çıkış gerilimi hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored (high) VMN HIGH Cause 1: Before switching the main contactor on, the software checks the power bridge."
+      ],
+      "kontroller": [
+        "• Motor internal connections (ohmic continuity) • Motor power connections • Motor leakage to the truck frame If the motor connections are OK, the problem is in the COMBIACX controller.",
+        "• Motor connections • Whether the motor’s phase windings or cables have leakages towards the truck t ruck frame • That the main contactor closes properly, with a good contact If no faults are found, the problem is in the COMBIACX controller."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "37",
+      "kodNormal": "37",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör yapışık kapalı",
+      "aciklama": "Kontaktör yapışık kapalı. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored CONTACTOR CLOSED Before driving the main contactor coil, the controller checks that the contactor is not stuck (closed)."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "38",
+      "kodNormal": "38",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör devreyi kapatmıyor",
+      "aciklama": "Kontaktör devreyi kapatmıyor. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored CONTACTOR OPEN This alarm occurs if the main contactor has been driven by the controller, but the contactor does not close."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "52",
+      "kodNormal": "52",
+      "aliaslar": [
+        "Warning",
+        "kayıtlı"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa çalışırken pompa akımı 0A",
+      "aciklama": "Pompa çalışırken pompa akımı 0A. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Warning) Stored PUMP I=0 EVER This test is carried out when the pump motor is running, and it verifies that the current feedback sensor is not constantly stuck to 0."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "53",
+      "kodNormal": "53",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Kontrolör akım sensörü arızası",
+      "aciklama": "Kontrolör akım sensörü arızası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored STBY I HIGH This alarm is displayed if the current transducer or the current feedback circuit is damaged in the controller."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "60",
+      "kodNormal": "60",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Güç kondansatörü şarj hatası",
+      "aciklama": "Güç kondansatörü şarj hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored CAPACITOR CHARGE When the main contactor is open, the rail capacitors are charged from the key line through a charging resistor."
+      ],
+      "kontroller": [
+        "• Another device connected connected in parallel with the rail capacitors has failed.",
+        "• Something is draining the current between the main contactor and the controller when the main contactor is open.",
+        "• There is a problem in the charging section (for example, a bad contact in the key line)."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "62",
+      "kodNormal": "62",
+      "aliaslar": [
+        "Warning",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Kontrolör aşırı ısındı",
+      "aciklama": "Kontrolör aşırı ısındı. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "PROTECTION This alarm indicates that the controller temperature is over 85°C."
+      ],
+      "kontroller": [
+        "• There is a fault in the thermal sensor wiring.",
+        "• There is a failure in the thermal sensor.",
+        "• There is a failure in the logic."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "65",
+      "kodNormal": "65",
+      "aliaslar": [
+        "Warning",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Çekiş motoru aşırı ısındı",
+      "aciklama": "Çekiş motoru aşırı ısındı. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Warning) Stored MOTOR TEMPERAT."
+      ],
+      "kontroller": [
+        "• The thermal sensor inside the motor and the outside wiring.",
+        "• If the warning occurs when the motor is cold and the thermal sensor is OK, the problem is in the COMBIACX controller.",
+        "• If the motor is overheating, check that air ventilates freely in the motor compartment."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "66",
+      "kodNormal": "66",
+      "aliaslar": [
+        "Warning",
+        "kayıtlı"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü şarjı %10'un altında",
+      "aciklama": "Akü şarjı %10'un altında. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Warning) Stored BATTERY LOW This warning occurs when the battery charge is calculated as being less or equal to 10% of a full charge and the BATTERY CHECK parameter is set to a value other than 0 (located in the SET OPTION menu)."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "74",
+      "kodNormal": "74",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör sürücü devresi hatası",
+      "aciklama": "Kontaktör sürücü devresi hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored DRIVER SHORTED This alarm occurs if the driver of the main contactor coil is shorted or the coil is disconnected."
+      ],
+      "kontroller": [
+        "• If there is a short circuit between the connector XA1 C pin 6 and –Batt.",
+        "• Condition of the wiring of the main contactor related harness."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "75",
+      "kodNormal": "75",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör sürücüsü hasarlı",
+      "aciklama": "Kontaktör sürücüsü hasarlı. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored CONTACTOR DRIVER This alarm indicates that the main contactor driver is not able to drive the load."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "78",
+      "kodNormal": "78",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Gaz pedalı gerilimi geçersiz OK",
+      "aciklama": "Gaz pedalı gerilimi geçersiz OK. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "OK (Alarm) Stored VACC NOT OK This alarm occurs when the accelerator output voltage differs more than 1 V from the acquired minimum during PROGRAM VACC."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "79",
+      "kodNormal": "79",
+      "aliaslar": [
+        "Warning"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Geçersiz açılış sırası",
+      "aciklama": "Geçersiz açılış sırası. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Warning) INCORRECT START This warning occurs because of an incorrect starting sequence."
+      ],
+      "kontroller": [
+        "• Incorrect sequence made by the operator.",
+        "• Accelerator was active active at startup.",
+        "• Tiller sensor was active at startup."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "80",
+      "kodNormal": "80",
+      "aliaslar": [
+        "Warning"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yön anahtarları aktif",
+      "aciklama": "Yön anahtarları aktif. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Warning) simultaneously FORW+BACK This warning occurs when both travel demands are active at the same time."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "82",
+      "kodNormal": "82",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Encoder (devir sensörü) hatası",
+      "aciklama": "Encoder (devir sensörü) hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored ENCODER ERROR This alarm occurs if the frequency supplied to the motor is higher than 40 Hz and the feedback fee dback signal from the encoder has a jump higher than 40 Hz within 20-40 milliseconds."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "86",
+      "kodNormal": "86",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Pedal kablosu arızası",
+      "aciklama": "Pedal kablosu arızası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored PEDAL WIRE KO The software checks for the connection of the two t wo supply ends of the accelerator’s potentiometer."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "185",
+      "kodNormal": "185",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Yükseklik sensörü uyumsuzluğu",
+      "aciklama": "Yükseklik sensörü uyumsuzluğu. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "MISM If the truck is not equipped with side stabilizers, check that the parameter INITIAL LIFT is not set to 2."
+      ],
+      "kontroller": [
+        "• Check the wiring of the height sensor.",
+        "• Disconnect the height sensor and test the redundant switches.",
+        "• Check that the magnet counterpart (attached to the lifting carriage) is intact."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "186",
+      "kodNormal": "186",
+      "aliaslar": [
+        "Warning"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Motor sıcaklık bildirimi",
+      "aciklama": "Motor sıcaklık bildirimi. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "TEMP This is only a notification."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "187",
+      "kodNormal": "187",
+      "aliaslar": [
+        "Warning"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Kontrolör sıcaklık bildirimi",
+      "aciklama": "Kontrolör sıcaklık bildirimi. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "PROTECT T This is only a notification."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "188",
+      "kodNormal": "188",
+      "aliaslar": [
+        "Warning",
+        "kayıtlı"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Yük sensörü değeri aralık dışında",
+      "aciklama": "Yük sensörü değeri aralık dışında. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "OUT RNG This warning indicates a pressure sensor problem."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "189",
+      "kodNormal": "189",
+      "aliaslar": [
+        "Alarm"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Akü kilit sensörü kapalı değil",
+      "aciklama": "Akü kilit sensörü kapalı değil. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) BATTERY LOCK This alarm indicates that the battery lock is not closed."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "190",
+      "kodNormal": "190",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Motor frenleme hatası",
+      "aciklama": "Motor frenleme hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored BRK TIMEOUT One possible cause for this alarm is too steep braking ramp (parameter)."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "192",
+      "kodNormal": "192",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "EPS (elektro-hidrolik direksiyon) bekleniyor",
+      "aciklama": "EPS (elektro-hidrolik direksiyon) bekleniyor. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored EPS RELAY OPEN This alarmhttps://www."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "193",
+      "kodNormal": "193",
+      "aliaslar": [
+        "Alarm"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Yan koruma girişi geçersiz durumda",
+      "aciklama": "Yan koruma girişi geçersiz durumda. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) SIDEGUARD INPUTS This alarm is caused by an invalid combination of side guard inputs."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "194",
+      "kodNormal": "194",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Platform girişi geçersiz durumda",
+      "aciklama": "Platform girişi geçersiz durumda. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored PLATFORM INPUTS This alarm is caused by an invalid combination of operator’s platform inputs."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "195",
+      "kodNormal": "195",
+      "aliaslar": [
+        "Warning"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Platform girişleri pasif",
+      "aciklama": "Platform girişleri pasif. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Warning) WAITING DRIVER This is a general warning indicating only that the truck is waiting for an operator."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "196",
+      "kodNormal": "196",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Geçersiz motor direnci",
+      "aciklama": "Geçersiz motor direnci. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored MISMATCHED RM This alarm occurs if the motor resistance is different than the value of the parameter MOTOR RESIST."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "197",
+      "kodNormal": "197",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Motor direnci ölçümü başarısız",
+      "aciklama": "Motor direnci ölçümü başarısız. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored WRONG ACQ This warning occurs if the controller did not acquire the motor resistance value correctly."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "198",
+      "kodNormal": "198",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sensörsüz geri besleme donanım hatası",
+      "aciklama": "Sensörsüz geri besleme donanım hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored ERROR FEEDBACK This alarm indicates damage to the controller’s hardware which provides feedback for the sensorless motor control."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "199",
+      "kodNormal": "199",
+      "aliaslar": [
+        "Warning"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "PIN öğretim modu",
+      "aciklama": "PIN öğretim modu. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Warning) TEACHING PIN This warning is displayed when the PIN code teaching procedure is active."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "200",
+      "kodNormal": "200",
+      "aliaslar": [
+        "Warning"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Geçerli PIN kodu bekleniyor",
+      "aciklama": "Geçerli PIN kodu bekleniyor. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Warning) WAITING FOR PIN This warning indicates that the controller is waiting for a valid PIN code."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "201",
+      "kodNormal": "201",
+      "aliaslar": [
+        "Alarm"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Gaz kolu öğretim modu mode",
+      "aciklama": "Gaz kolu öğretim modu mode. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) LEVER TEACH IN This alarm indicates that the controller entered the throttle lever teaching mode."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "202",
+      "kodNormal": "202",
+      "aliaslar": [
+        "Warning"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma kesme zamanlayıcısı aktif",
+      "aciklama": "Kaldırma kesme zamanlayıcısı aktif. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Warning) LIFT TIMEOUT This warning is displayed when the lifting cut off timer has expired (the default value is seven seconds)."
+      ],
+      "kontroller": [
+        "• The lift inputs are correct in the tester menu.",
+        "• Operation of the tiller and the lift buttons is correct.",
+        "• There are no short circuits in the lift button wirings."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "203",
+      "kodNormal": "203",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa gerilim hatası",
+      "aciklama": "Pompa gerilim hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored PUMP VMN NOT OK Cause 1: At startup The software checks the voltage on the –P terminal and expects it to remain at a steady value."
+      ],
+      "kontroller": [
+        "• Pump motor internal connections • Pump motor power cable connections • Pump motor leakage to the truck frame If the pump motor connections are OK, the problem is in the COMBIACX controller."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "204",
+      "kodNormal": "204",
+      "aliaslar": [
+        "Warning"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa gerilim uyarısı",
+      "aciklama": "Pompa gerilim uyarısı. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "P STILL See the description of the alarm 203 PUMP VMN NOT OK."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "206",
+      "kodNormal": "206",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Açılışta yüksek motor gerilimi",
+      "aciklama": "Açılışta yüksek motor gerilimi. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored INIT VMN HIGH Before switching the main contactor on, the software checks the power bridge voltage without driving it."
+      ],
+      "kontroller": [
+        "• Motor internal connections • Motor power cable connections • Motor leakage to the truck frame If the motor connections are OK, the problem is in the COMBIACX controller."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "207",
+      "kodNormal": "207",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Açılışta düşük motor gerilimi",
+      "aciklama": "Açılışta düşük motor gerilimi. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored INIT VMN LOW Before switching the LC on, the software checks the power bridge voltage without driving it."
+      ],
+      "kontroller": [
+        "• Motor internal connections (ohm continuity) • Motor power cable connections • Motor leakage to the truck frame If the motor connections are OK, the problem is in the COMBIACX controller."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "208",
+      "kodNormal": "208",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontrolör bellek hatası (EEPROM)",
+      "aciklama": "Kontrolör bellek hatası (EEPROM). kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored EEPROM KO This alarm is caused by a hardware or software defect in the non-volatile embedded memory supporting the controller parameters."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "210",
+      "kodNormal": "210",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontrolör bellek hatası (RAM)",
+      "aciklama": "Kontrolör bellek hatası (RAM). kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored WRONG RAM MEM."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "211",
+      "kodNormal": "211",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Çekiş motoru sıkıştı",
+      "aciklama": "Çekiş motoru sıkıştı. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored STALL ROTOR This alarm indicates that the traction rotor is stuck or the encoder signal is not correctly received by the controller."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "212",
+      "kodNormal": "212",
+      "aliaslar": [
+        "Alarm"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontrolör bellek hatası (RAM yanlış)",
+      "aciklama": "Kontrolör bellek hatası (RAM yanlış). PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) WRONG RAM This alarm indicates that the used program, etc."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "213",
+      "kodNormal": "213",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yardımcı çıkış sürücü hatası",
+      "aciklama": "Yardımcı çıkış sürücü hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "If this alarm occurs, the POSITIVE EB parameter is probably not set correctly."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "214",
+      "kodNormal": "214",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "İndirme valfi devresi açık",
+      "aciklama": "İndirme valfi devresi açık. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored EVP COIL OPEN This alarm is displayed if the solenoid valve circuit is open."
+      ],
+      "kontroller": [
+        "• Wiring, verify that the solenoid valve coil circuit is in order between XA1_B/3 and fuse 3F1.",
+        "• Solenoid valve coil If the wiring and the solenoid valve coil are OK, the problem is in the COMBIACX controller."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "215",
+      "kodNormal": "215",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "İndirme valfi bobini ya da sürücüsü kısa devreli",
+      "aciklama": "İndirme valfi bobini ya da sürücüsü kısa devreli. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "This alarm is displayed if the microcontroller detects a mismatch between the valve set-point and the voltage measured on the solenoid valve output."
+      ],
+      "kontroller": [
+        "• The solenoid valve coil circuit is shorted.",
+        "• The COMBIACX solenoid valve driver is shorted."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "217",
+      "kodNormal": "217",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa akım geri besleme sensörü",
+      "aciklama": "Pompa akım geri besleme sensörü. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored damaged PUMP I NO ZERO This alarm indicates that the pump motor’s current feedback sensor has detected current flowing in the circuit while the pump motor is not running."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "218",
+      "kodNormal": "218",
+      "aliaslar": [
+        "Warning",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Motor termik sensör hatası",
+      "aciklama": "Motor termik sensör hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Warning) Stored SENS MOT TEMP KO This warning indicates a motor thermal sensor knockout, meaning that the motor thermal t hermal sensor has either short or open circuited."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "219",
+      "kodNormal": "219",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Oransal valf hatası",
+      "aciklama": "Oransal valf hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored PEV NOT OK This alarm indicates that the voltage on the positive line of the EV outputs (B2) is too high or too low."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "220",
+      "kodNormal": "220",
+      "aliaslar": [
+        "Alarm"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Kontal hattı açılış teşhisi başarısız",
+      "aciklama": "Kontal hattı açılış teşhisi başarısız. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) KEY OFF SHORTED This is a startup diagnostic for the key line."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "222",
+      "kodNormal": "222",
+      "aliaslar": [
+        "Alarm"
+      ],
+      "sistem": "fren",
+      "baslik": "Manyetik fren sürücü devresi hatası",
+      "aciklama": "Manyetik fren sürücü devresi hatası. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) SMARTDRIVER KO This alarm indicates that the built-in smart driver is open and not able to provide the magnetic brake positive."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "223",
+      "kodNormal": "223",
+      "aliaslar": [
+        "Alarm"
+      ],
+      "sistem": "fren",
+      "baslik": "Kısa devre main cont. or magn. fren",
+      "aciklama": "Kısa devre main cont. or magn. fren. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "MC-EB This alarm occurs when there is a short circuit in the main contactor or magnetic brake coil."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "224",
+      "kodNormal": "224",
+      "aliaslar": [
+        "Warning"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Başka bir cihaz kontrolörü engelliyor",
+      "aciklama": "Başka bir cihaz kontrolörü engelliyor. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Warning) WAITING FOR NODE This warning indicates that the controller has received a message from the CAN bus that another controller or device in the network has experienced a failure."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "226",
+      "kodNormal": "226",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Gaz pedalı gerilimi aralık dışında aralık",
+      "aciklama": "Gaz pedalı gerilimi aralık dışında aralık. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored VACC OUT RANGE This alarm is displayed if accelerator voltage is out of range."
+      ],
+      "kontroller": [
+        "• Teach the accelerator values again.",
+        "• Check that the connectors and cables are in order.",
+        "• Replace the accelerator and teach the accelerator new values."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "228",
+      "kodNormal": "228",
+      "aliaslar": [
+        "Warning"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Tiller (dirsek) şalteri açık",
+      "aciklama": "Tiller (dirsek) şalteri açık. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Warning) Not shown in the display TILLER OPEN This warning occurs when the tiller is released after a fixed time in the standby mode with the main contactor open (30 seconds)."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "229",
+      "kodNormal": "229",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "fren",
+      "baslik": "Manyetik fren sürücü devresi çıkış hatası",
+      "aciklama": "Manyetik fren sürücü devresi çıkış hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "SHORTED This alarm is displayed when the output of the built-in smart driver, which supplies the positive to the electromechanical brake coil, is high when the tiller and the brake release switch are open."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "231",
+      "kodNormal": "231",
+      "aliaslar": [
+        "Alarm"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Watchdog #2 hatası",
+      "aciklama": "Watchdog #2 hatası. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) WATCHDOG#2 This is a safety related, self-diagnosis test within the logic."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "230",
+      "kodNormal": "230",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Motor kontrol hatası",
+      "aciklama": "Motor kontrol hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored LOW TORQUE This alarm indicates a failure in the motor control."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "232",
+      "kodNormal": "232",
+      "aliaslar": [
+        "Alarm"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yardımcı çıkış yükü fazla yüksek",
+      "aciklama": "Yardımcı çıkış yükü fazla yüksek. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "EV This alarm is displayed if the hydraulic valve coil load is too high for the controller valve driver circuit."
+      ],
+      "kontroller": [
+        "• Hydraulic valve coil condition • Wiring If the device or its it s driving circuit is damaged, replace the controller."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "233",
+      "kodNormal": "233",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontrolörde güç MOSFET hatası",
+      "aciklama": "Kontrolörde güç MOSFET hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored POWER MOS SHORT Before switching the main contactor on, the software checks the power bridge."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "234",
+      "kodNormal": "234",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Elektrovalf sürücüsü kısa devreli",
+      "aciklama": "Elektrovalf sürücüsü kısa devreli. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "EV This alarm is displayed if the solenoid valve EVXX (XX = 01, 02 or 03) driver is shorted."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "235",
+      "kodNormal": "235",
+      "aliaslar": [
+        "Warning",
+        "kayıtlı"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Elektrovalf bobini kısa devreli",
+      "aciklama": "Elektrovalf bobini kısa devreli. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "This warning is displayed if one of the solenoid valve’s EV (XY1 or XY2) coils is shorted."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "236",
+      "kodNormal": "236",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontrolör başlatma hatası",
+      "aciklama": "Kontrolör başlatma hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored manufacturer CURRENT GAIN This alarm indicates that the maximum current gain parameters are at their default values, meaning that the maximum current procedure has not been carried out."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "237",
+      "kodNormal": "237",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Analog giriş değerlerinde hata",
+      "aciklama": "Analog giriş değerlerinde hata. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored ANALOG INPUT INPUT This alarm occurs when the conversion of the analogue inputs i nputs provides frozen values."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "238",
+      "kodNormal": "238",
+      "aliaslar": [
+        "Alarm"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Tiller (dirsek kolu) hatası",
+      "aciklama": "Tiller (dirsek kolu) hatası. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) TILLER ERROR This alarm indicates that there is a mismatch between the brake release input and the till tiller er switch input."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "239",
+      "kodNormal": "239",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yazılım kontrolörle uyumsuz",
+      "aciklama": "Yazılım kontrolörle uyumsuz. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored CONTROLLER MISM."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "240",
+      "kodNormal": "240",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "İndirme valfi bobin/sürücü hatası",
+      "aciklama": "İndirme valfi bobin/sürücü hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored EVP DRIVER OPEN This alarm is displayed if the solenoid valve driver is damaged or the solenoid valve coil impedance is too low."
+      ],
+      "kontroller": [
+        "• Solenoid valve coil impedance • Wiring If the solenoid valve driver circuit is damaged, replace the controller."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "241",
+      "kodNormal": "241",
+      "aliaslar": [
+        "Warning"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldır ve indir komutları birlikte aktif",
+      "aciklama": "Kaldır ve indir komutları birlikte aktif. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Warning) simultaneously LIFT + LOWER This alarm occurs when lifting and lowering demands are active at the same time."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "242",
+      "kodNormal": "242",
+      "aliaslar": [
+        "Warning"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Yanlış pompa starting sequence",
+      "aciklama": "Yanlış pompa starting sequence. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Warning) PUMP INC START This warning indicates an incorrect pump starting sequence."
+      ],
+      "kontroller": [
+        "• Pump request is active at startup.",
+        "• Pump request is active but the tiller arm is not in the driving position.",
+        "• Wirings • Micro-switches • The alarm may also be caused by an error sequence made by the operator."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "243",
+      "kodNormal": "243",
+      "aliaslar": [
+        "Alarm"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa komut değeri aralığı hatası",
+      "aciklama": "Pompa komut değeri aralığı hatası. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) PUMP VACC RANGE This alarm indicates that the lift lever voltage is out of range."
+      ],
+      "kontroller": [
+        "• Teach the lift lever values again.",
+        "• Check that the connectors and cables are in order.",
+        "• Replace the lift lever and teach t each the new values."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "245",
+      "kodNormal": "245",
+      "aliaslar": [
+        "Alarm"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa komut değeri hatası",
+      "aciklama": "Pompa komut değeri hatası. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) PUMP VACC NOT OK This alarm occurs when the lift lever output voltage differs from the values acquired at calibration."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "246",
+      "kodNormal": "246",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "fren",
+      "baslik": "Hata in manyetik fren sürücü devresi hatası",
+      "aciklama": "Hata in manyetik fren sürücü devresi hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "OPEN This alarm indicates that the driver of the electromagnetic brake coil is not able to drive the load."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "247",
+      "kodNormal": "247",
+      "aliaslar": [
+        "Warning"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Acquisition of gain values",
+      "aciklama": "Acquisition of gain values. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Warning) DATA ACQUISITION This warning indicates acquisition of the current gains."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "248",
+      "kodNormal": "248",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Curtis gösterge ünitesi bağlı değil",
+      "aciklama": "Curtis gösterge ünitesi bağlı değil. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "This alarm is displayed where there is no CAN message from the Curtis display."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "249",
+      "kodNormal": "249",
+      "aliaslar": [
+        "Warning"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Call for programmed maintenance",
+      "aciklama": "Call for programmed maintenance. PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Warning) CHECK UP NEEDED This is just a warning calling for programmed maintenance."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "250",
+      "kodNormal": "250",
+      "aliaslar": [
+        "Warning",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Kontrolör termal sensör arızası",
+      "aciklama": "Kontrolör termal sensör arızası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Warning' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Uyarı: rejeneratif frenle durdurma ya da performans düşüşü; kontaktör açılmaz.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Warning) Stored THERMIC SENS."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "251",
+      "kodNormal": "251",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "batarya",
+      "baslik": "Yanlış akü gerilim",
+      "aciklama": "Yanlış akü gerilim. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored WRONG BATTERY At startup, the controller checks checks the battery vo voltage ltage and verifies that it is within a c certain ertain window around the nominal value."
+      ],
+      "kontroller": [
+        "• Check that the controller’s SET BATTERY parameter value matches the battery nominal voltage.",
+        "• Check from the tester menu that the BATTERY VOLTAGE parameter shows the same value as the battery voltage measured with a voltmeter.",
+        "• Replace the battery."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "252",
+      "kodNormal": "252",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Çekiş motor geri besleme amplifier",
+      "aciklama": "Çekiş motor geri besleme amplifier. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored failure WRONG ZERO The outputs of the amplifiers (used to measure the traction motor voltage) are checked to be within a certain range."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "253",
+      "kodNormal": "253",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Motor kontrol parametreleri hatası",
+      "aciklama": "Motor kontrol parametreleri hatası. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alarm) Stored SLIP_PROFILE This alarm indicates that there is an error in the chosen slip profile parameters."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "254",
+      "kodNormal": "254",
+      "aliaslar": [
+        "Alarm",
+        "kayıtlı"
+      ],
+      "sistem": "fren",
+      "baslik": "Manyetik fren sürücü devresi is kısa devreli",
+      "aciklama": "Manyetik fren sürücü devresi is kısa devreli. kayıtlı PBV20N2 COMBIACX kombinasyon kontrolörünün alarm tablosunda 'Alarm' olarak sınıflandırılmıştır.",
+      "makineTepkisi": "Alarm: güç köprüsü açılır, mümkünse ana kontaktör açılır ve manyetik fren devreye girer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "This alarm indicates that the driver of the magnetic brake is shorted."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294667466/Mitsubishi+PBV20N2+Lift+Truck+Service+Manual+PDF.pdf",
+      "durum": "incelemede"
+    }
+  ]
+}

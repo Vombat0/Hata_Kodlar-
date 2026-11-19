@@ -1,0 +1,40 @@
+---
+interface Props {
+  deger?: string;
+  yerTutucu?: string;
+  marka?: string;
+  seri?: string;
+  sistem?: string;
+  kimlik?: string;
+  kisaltma?: boolean;
+}
+
+const {
+  deger = '',
+  yerTutucu = 'Kod veya arıza belirtisi yazın — ör. 30-1, A1-1, E001',
+  marka = '',
+  seri = '',
+  sistem = '',
+  kimlik = 'arama-alani',
+  kisaltma = false,
+} = Astro.props;
+---
+
+<form class="arama-kutusu" action="/arama/" method="get" role="search" id={`${kimlik}-form`}>
+  {marka && <input type="hidden" name="marka" value={marka} />}
+  {seri && <input type="hidden" name="seri" value={seri} />}
+  {sistem && <input type="hidden" name="sistem" value={sistem} />}
+  <input
+    type="search"
+    name="q"
+    id={kimlik}
+    data-arama-input
+    value={deger}
+    placeholder={yerTutucu}
+    autocomplete="off"
+    enterkeyhint="search"
+    aria-label="Hata kodu veya arıza belirtisi ara"
+  />
+  {!kisaltma && <span class="arama-ipucu" aria-hidden="true">/</span>}
+  <button class="dugme dugme-birincil" type="submit">Ara</button>
+</form>

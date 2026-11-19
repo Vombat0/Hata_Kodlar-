@@ -1,0 +1,97 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { getMarkalar, getSeriler, istatistik, type Marka } from '../../lib/veri';
+
+export function getStaticPaths() {
+  return getMarkalar().map((marka) => ({ params: { marka: marka.id }, props: { marka } }));
+}
+
+interface Props { marka: Marka }
+const { marka } = Astro.props;
+const seriler = getSeriler(marka.id);
+const ist = istatistik();
+const ozet = ist.markalar.find((m) => m.id === marka.id);
+const toplamKod = ozet?.kodSayisi ?? 0;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `${marka.ad} hata kodları`,
+  url: `https://forklifthata.com/${marka.id}/`,
+  inLanguage: 'tr',
+  description: marka.aciklama,
+  breadcrumb: {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://forklifthata.com/' },
+      { '@type': 'ListItem', position: 2, name: marka.ad, item: `https://forklifthata.com/${marka.id}/` },
+    ],
+  },
+};
+---
+
+<BaseLayout
+  title={`${marka.ad} Hata Kodları`}
+  description={`${marka.ad} forklift hata kodları, seriler ve teknik açıklamalar. ${marka.aciklama}`}
+  canonical={`/${marka.id}/`}
+  jsonLd={jsonLd}
+>
+  <Breadcrumb ogeler={[{ ad: 'Ana Sayfa', href: '/' }, { ad: marka.ad }]} />
+
+  <section class="bolum" style="padding-top:1.5rem">
+    <span class="eyek">// MARKA</span>
+    <div class="kart-ust" style="max-width:640px">
+      <h1 style="margin-bottom:0.25rem">{marka.ad} hata kodları</h1>
+      <span class="kart-nokta" style={`background:${marka.renk || 'var(--accent)'};width:14px;height:14px`} aria-hidden="true"></span>
+    </div>
+    <p class="muted">{marka.grup}</p>
+    <p style="max-width:70ch">{marka.aciklama}</p>
+    {marka.not && <div class="uyari-kutusu" style="margin-top:1.25rem;max-width:70ch">{marka.not}</div>}
+
+    <div class="istatistik-kutulari" style="margin-top:2rem;max-width:640px">
+      <div class="istatistik-kutusu">
+        <div class="istatistik-deger">{seriler.length}</div>
+        <div class="istatistik-etiket">seri</div>
+      </div>
+      <div class="istatistik-kutusu">
+        <div class="istatistik-deger">{toplamKod}</div>
+        <div class="istatistik-etiket">hata kodu</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bolum">
+    <div class="bolum-basligi">
+      <div>
+        <span class="eyek">01 / SERİLER</span>
+        <h2>Seri seçin</h2>
+      </div>
+      <p>Model ailesini seçerek o seriye ait tüm kodları tablo halinde görün.</p>
+    </div>
+
+    {seriler.length ? (
+      <div class="kartlar">
+        {seriler.map((seri) => (
+          <a class="kart" href={`/${marka.id}/${seri.seri}/`}>
+            <div class="kart-ust">
+              <span class="kod-hucre">{seri.seri.toUpperCase()}</span>
+              <span class="sistem-etiket">{seri.kodlar.length} kod</span>
+            </div>
+            <div class="tablo-baslik">{seri.modelAdi}</div>
+            <p class="kart-aciklama" style="margin-top:0.75rem">Kaynak belge: <span class="mono">{seri.kaynakBelge}</span> · {seri.kaynakSurum ?? 'sürüm belirtilmedi'}</p>
+            <div class="kart-alt">
+              <span><strong>{seri.kodlar.filter((k) => k.durum === 'dogrulandi').length}</strong> doğrulandı</span>
+              <span style="margin-left:auto">Kodları gör →</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <div class="bos-durum">
+        <strong>Bu marka için henüz seri verisi yok.</strong>
+        Veri workstream'i tamamlandığında seriler burada listelenecek. Tüm mevcut kodlar için <a href="/arama/">arama sayfasını</a> kullanabilirsiniz.
+      </div>
+    )}
+  </section>
+</BaseLayout>

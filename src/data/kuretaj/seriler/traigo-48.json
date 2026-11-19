@@ -1,0 +1,3740 @@
+{
+  "marka": "traigo",
+  "seri": "48",
+  "modelAdi": "Traigo 48 (Toyota Material Handling Europe)",
+  "kaynakBelge": "TRAIGO 48 Arıza Kodu Listesi PDF",
+  "kaynakSurum": "2016",
+  "kaynakDil": "TR",
+  "kaynakUrl": "",
+  "kodlar": [
+    {
+      "kod": "A0-1",
+      "kodNormal": "A01",
+      "aliaslar": [
+        "A01",
+        "DCR",
+        "a0-1"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "AC yürüyüş sürücüsü güç devresi aşırı ısınma anormalliği",
+      "aciklama": "AC yürüyüş sürücüsü güç devresi aşırı ısınma anormalliği.",
+      "makineTepkisi": "Yürüyüş fonksiyonu durur Kaldırma fonksiyonu durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "A0-2",
+      "kodNormal": "A02",
+      "aliaslar": [
+        "A02",
+        "PCR",
+        "a0-2"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "AC Kaldırma sürücüsü güç devresi aşırı ısınma anormalliği",
+      "aciklama": "AC Kaldırma sürücüsü güç devresi aşırı ısınma anormalliği.",
+      "makineTepkisi": "Direksiyon sertleşir Yürüyüş fonksiyonu durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "A1-1",
+      "kodNormal": "A11",
+      "aliaslar": [
+        "A11",
+        "a1-1"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ana kart yüksek voltaj",
+      "aciklama": "Ana kart yüksek voltaj.",
+      "makineTepkisi": "Kaldırma fonksiyonu durur Direksiyon sertleşir",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "A1-2",
+      "kodNormal": "A12",
+      "aliaslar": [
+        "A12",
+        "a1-2"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "AC yürüyüş sürücüsü (Sol) güç kaynağı devresi alçak gerilim",
+      "aciklama": "AC yürüyüş sürücüsü (Sol) güç kaynağı devresi alçak gerilim.",
+      "makineTepkisi": "Yürüyüş motoru (Sol) durduruldu, bir teker sadece yürür",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "A1-3",
+      "kodNormal": "A13",
+      "aliaslar": [
+        "A13",
+        "a1-3"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "AC yürüyüş sürücüsü (Sağ) güç kaynağı devresi alçak gerilim",
+      "aciklama": "AC yürüyüş sürücüsü (Sağ) güç kaynağı devresi alçak gerilim.",
+      "makineTepkisi": "Yürüyüş motoru (Sağ) durduruldu, bir teker sadece yürür Kaldırma fonksiyonu durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "A1-4",
+      "kodNormal": "A14",
+      "aliaslar": [
+        "A14",
+        "a1-4"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "AC Kaldırma sürücüsü güç kaynağı devresi alçak gerilim",
+      "aciklama": "AC Kaldırma sürücüsü güç kaynağı devresi alçak gerilim.",
+      "makineTepkisi": "Direksiyon sertleşir Kaldırma fonksiyonu durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "A2-1",
+      "kodNormal": "A21",
+      "aliaslar": [
+        "A21",
+        "C/R",
+        "a2-1"
+      ],
+      "sistem": "diger",
+      "baslik": "Ana kart aşırı ısınma anormalliği",
+      "aciklama": "Ana kart aşırı ısınma anormalliği.",
+      "makineTepkisi": "Yavaş yürür Yürüyüş fonksiyonu durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "A3-1",
+      "kodNormal": "A31",
+      "aliaslar": [
+        "A31",
+        "a3-1"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü bağlantısı hatalı",
+      "aciklama": "Akü bağlantısı hatalı.",
+      "makineTepkisi": "Kaldırma fonksiyonu durur Direksiyon sertleşir OPS fonksiyonu geçersiz hale gelir.",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "A5-1",
+      "kodNormal": "A51",
+      "aliaslar": [
+        "A51",
+        "a5-1"
+      ],
+      "sistem": "diger",
+      "baslik": "Koltuk switch (NGD short) anormalliği",
+      "aciklama": "Koltuk switch (NGD short) anormalliği.",
+      "makineTepkisi": "Park freni aktif",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "A8-1",
+      "kodNormal": "A81",
+      "aliaslar": [
+        "A81",
+        "a8-1"
+      ],
+      "sistem": "elektrik",
+      "baslik": "F1,F2 veya F3 sigorta anormalliği (açık)",
+      "aciklama": "F1,F2 veya F3 sigorta anormalliği (açık).",
+      "makineTepkisi": "TYürüyüş fonksiyonu durur Kaldırma fonksiyonu durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "A8-2",
+      "kodNormal": "A82",
+      "aliaslar": [
+        "A82",
+        "a8-2"
+      ],
+      "sistem": "elektrik",
+      "baslik": "F6 sigorta anormalliği (açık)",
+      "aciklama": "F6 sigorta anormalliği (açık).",
+      "makineTepkisi": "Direksiyon sertleşir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "A9-2",
+      "kodNormal": "A92",
+      "aliaslar": [
+        "A92",
+        "a9-2"
+      ],
+      "sistem": "elektrik",
+      "baslik": "F7 sigorta anormalliği (açık) Ana kart sıcaklık sensör anormalliği (açık)/VCC kısa",
+      "aciklama": "F7 sigorta anormalliği (açık) Ana kart sıcaklık sensör anormalliği (açık)/VCC kısa.",
+      "makineTepkisi": "Kaldırma fonksiyonu durur Yavaş yürür",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "AA-1",
+      "kodNormal": "AA1",
+      "aliaslar": [
+        "AA1",
+        "aa-1"
+      ],
+      "sistem": "diger",
+      "baslik": "Devre",
+      "aciklama": "devre. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "Yürüyüş sürücüsü soğutma fanı durur .Yavaş yürüyüş",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "AB-1",
+      "kodNormal": "AB1",
+      "aliaslar": [
+        "AB1",
+        "ab-1"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "AC yürüyüş sürücüsü soğutma fan devresi anormalliği",
+      "aciklama": "AC yürüyüş sürücüsü soğutma fan devresi anormalliği.",
+      "makineTepkisi": "AC yürüyüş sürücüsü soğutma fanı durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "AB-2",
+      "kodNormal": "AB2",
+      "aliaslar": [
+        "AB2",
+        "ab-2"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "AC kaldırma sürücüsü soğutma fanı aşırı akım",
+      "aciklama": "AC kaldırma sürücüsü soğutma fanı aşırı akım.",
+      "makineTepkisi": "AC kaldırma sürücüsü soğutma fanı durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "AC-1",
+      "kodNormal": "AC1",
+      "aliaslar": [
+        "AC1",
+        "ac-1"
+      ],
+      "sistem": "diger",
+      "baslik": "AC sürücü güç kaynağı devresi anormalliği",
+      "aciklama": "AC sürücü güç kaynağı devresi anormalliği.",
+      "makineTepkisi": "ve servo direksiyon fonksiyonları durur . Direksiyon sertleşir. Yavaş yürür, tek teker (Sağ) tarafından tahrik. Knob",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "AD-1",
+      "kodNormal": "AD1",
+      "aliaslar": [
+        "AD1",
+        "ad-1"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sol) - Ana kart haberleşme anormalliği",
+      "aciklama": "Yürüyüş motoru (Sol) - Ana kart haberleşme anormalliği.",
+      "makineTepkisi": "(direksiyon topuz konumu) fonksiyonu durur Yavaş yürür, tek teker (Sağ) tarafından tahrik.",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "AD-2",
+      "kodNormal": "AD2",
+      "aliaslar": [
+        "AD2",
+        "ad-2"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sol) - Ana kart haberleşme anormalliği",
+      "aciklama": "Yürüyüş motoru (Sol) - Ana kart haberleşme anormalliği.",
+      "makineTepkisi": "Knob (direksiyon topuz konumu) fonksiyonu durur Yavaş yürür, tek teker (Sol) tarafından tahrik.",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "AD-3",
+      "kodNormal": "AD3",
+      "aliaslar": [
+        "AD3",
+        "ad-3"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sağ) - Ana kart haberleşme anormalliği",
+      "aciklama": "Yürüyüş motoru (Sağ) - Ana kart haberleşme anormalliği.",
+      "makineTepkisi": "Knob (direksiyon topuz konumu) fonksiyonu durur Yavaş yürür, tek teker (Sol) tarafından tahrik. Knob",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "AD-4",
+      "kodNormal": "AD4",
+      "aliaslar": [
+        "AD4",
+        "ad-4"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sağ) - Ana kart haberleşme anormalliği",
+      "aciklama": "Yürüyüş motoru (Sağ) - Ana kart haberleşme anormalliği.",
+      "makineTepkisi": "(direksiyon topuz konumu) fonksiyonu durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "AD-5",
+      "kodNormal": "AD5",
+      "aliaslar": [
+        "AD5",
+        "ad-5"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "AC kaldırma sürücüsü - Ana kart haberleşme anormalliği",
+      "aciklama": "AC kaldırma sürücüsü - Ana kart haberleşme anormalliği.",
+      "makineTepkisi": "Kaldırma fonksiyonu durur. Direksiyon sertleşir",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "AD-6",
+      "kodNormal": "AD6",
+      "aliaslar": [
+        "AD6",
+        "ad-6"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "AC kaldırma sürücüsü - Ana kart haberleşme anormalliği",
+      "aciklama": "AC kaldırma sürücüsü - Ana kart haberleşme anormalliği.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "AF-1",
+      "kodNormal": "AF1",
+      "aliaslar": [
+        "AF1",
+        "af-1"
+      ],
+      "sistem": "diger",
+      "baslik": "CPU hatası",
+      "aciklama": "CPU hatası. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "Yürüyüş durur.",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "AF-2",
+      "kodNormal": "AF2",
+      "aliaslar": [
+        "AF2",
+        "af-2"
+      ],
+      "sistem": "diger",
+      "baslik": "CPU hatası",
+      "aciklama": "CPU hatası. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "Kaldırma fonksiyonu durur. Direksiyon sertleşir",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "AF-3",
+      "kodNormal": "AF3",
+      "aliaslar": [
+        "AF3",
+        "af-3"
+      ],
+      "sistem": "diger",
+      "baslik": "CPU hatası",
+      "aciklama": "CPU hatası. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "AF-4",
+      "kodNormal": "AF4",
+      "aliaslar": [
+        "AF4",
+        "af-4"
+      ],
+      "sistem": "diger",
+      "baslik": "CPU hatası",
+      "aciklama": "CPU hatası. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "AF-5",
+      "kodNormal": "AF5",
+      "aliaslar": [
+        "AF5",
+        "af-5"
+      ],
+      "sistem": "diger",
+      "baslik": "CPU hatası",
+      "aciklama": "CPU hatası. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "AF-6",
+      "kodNormal": "AF6",
+      "aliaslar": [
+        "AF6",
+        "af-6"
+      ],
+      "sistem": "diger",
+      "baslik": "CPU hatası",
+      "aciklama": "CPU hatası. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "Bazı kontrol işlemleri stabil değil.",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "AF-7",
+      "kodNormal": "AF7",
+      "aliaslar": [
+        "AF7",
+        "af-7"
+      ],
+      "sistem": "diger",
+      "baslik": "CPU hatası",
+      "aciklama": "CPU hatası. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "AF-8",
+      "kodNormal": "AF8",
+      "aliaslar": [
+        "AF8",
+        "af-8"
+      ],
+      "sistem": "diger",
+      "baslik": "CPU hatası",
+      "aciklama": "CPU hatası. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C0-1",
+      "kodNormal": "C01",
+      "aliaslar": [
+        "C01",
+        "c0-1"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sol) anormalliği",
+      "aciklama": "Yürüyüş motoru (Sol) anormalliği.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C0-2",
+      "kodNormal": "C02",
+      "aliaslar": [
+        "C02",
+        "c0-2"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sol) güç devresi anormalliği",
+      "aciklama": "Yürüyüş motoru (Sol) güç devresi anormalliği.",
+      "makineTepkisi": "Azaltılan max. hız, yavaş ilerleme",
+      "siddet": "kisitlayici",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C0-3",
+      "kodNormal": "C03",
+      "aliaslar": [
+        "C03",
+        "c0-3"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sağ) anormalliği",
+      "aciklama": "Yürüyüş motoru (Sağ) anormalliği.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C0-4",
+      "kodNormal": "C04",
+      "aliaslar": [
+        "C04",
+        "c0-4"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sağ) güç devresi anormalliği",
+      "aciklama": "Yürüyüş motoru (Sağ) güç devresi anormalliği.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C1-1",
+      "kodNormal": "C11",
+      "aliaslar": [
+        "C11",
+        "c1-1"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sol) akım sensörü nötr gerilim hatası",
+      "aciklama": "Yürüyüş motoru (Sol) akım sensörü nötr gerilim hatası.",
+      "makineTepkisi": "Azaltılan max. hız, yavaş ilerleme",
+      "siddet": "kisitlayici",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C1-3",
+      "kodNormal": "C13",
+      "aliaslar": [
+        "C13",
+        "c1-3"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sağ) akım sensörü nötr gerilim hatası",
+      "aciklama": "Yürüyüş motoru (Sağ) akım sensörü nötr gerilim hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C2-1",
+      "kodNormal": "C21",
+      "aliaslar": [
+        "C21",
+        "DM",
+        "c2-1"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motor sıcaklık sensör anormalliği",
+      "aciklama": "Yürüyüş motor sıcaklık sensör anormalliği.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C2-2",
+      "kodNormal": "C22",
+      "aliaslar": [
+        "C22",
+        "c2-2"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motor (Sol) sıcaklık sensör anormalliği",
+      "aciklama": "Yürüyüş motor (Sol) sıcaklık sensör anormalliği.",
+      "makineTepkisi": "Azaltılan max. hız, yavaş ilerleme",
+      "siddet": "kisitlayici",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C2-3",
+      "kodNormal": "C23",
+      "aliaslar": [
+        "C23",
+        "c2-3"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motor (Sağ) sıcaklık sensör anormalliği",
+      "aciklama": "Yürüyüş motor (Sağ) sıcaklık sensör anormalliği.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C3-1",
+      "kodNormal": "C31",
+      "aliaslar": [
+        "C31",
+        "c3-1"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sol) güç devresi sıcaklık sensör anormalliği (Açık/Kısa)",
+      "aciklama": "Yürüyüş motoru (Sol) güç devresi sıcaklık sensör anormalliği (Açık/Kısa).",
+      "makineTepkisi": "Azaltılan max. hız, yavaş ilerleme",
+      "siddet": "kisitlayici",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C3-2",
+      "kodNormal": "C32",
+      "aliaslar": [
+        "C32",
+        "c3-2"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sağ) güç devresi sıcaklık sensör anormalliği (Açık/Kısa)",
+      "aciklama": "Yürüyüş motoru (Sağ) güç devresi sıcaklık sensör anormalliği (Açık/Kısa).",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C4-1",
+      "kodNormal": "C41",
+      "aliaslar": [
+        "C41",
+        "c4-1"
+      ],
+      "sistem": "diger",
+      "baslik": "İlerleme pedal sensörü POT1 açık",
+      "aciklama": "İlerleme pedal sensörü POT1 açık.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C4-2",
+      "kodNormal": "C42",
+      "aliaslar": [
+        "C42",
+        "c4-2"
+      ],
+      "sistem": "diger",
+      "baslik": "İlerleme pedal sensörü POT2 açık",
+      "aciklama": "İlerleme pedal sensörü POT2 açık.",
+      "makineTepkisi": "Sadece ekrandan.",
+      "siddet": "bilgi",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C4-3",
+      "kodNormal": "C43",
+      "aliaslar": [
+        "C43",
+        "c4-3"
+      ],
+      "sistem": "diger",
+      "baslik": "İlerleme pedal sensörü POT1 VCC kısa",
+      "aciklama": "İlerleme pedal sensörü POT1 VCC kısa.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C4-4",
+      "kodNormal": "C44",
+      "aliaslar": [
+        "C44",
+        "c4-4"
+      ],
+      "sistem": "diger",
+      "baslik": "İlerleme pedal sensörü POT2 VCC kısa",
+      "aciklama": "İlerleme pedal sensörü POT2 VCC kısa.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C4-5",
+      "kodNormal": "C45",
+      "aliaslar": [
+        "C45",
+        "c4-5"
+      ],
+      "sistem": "diger",
+      "baslik": "İlerleme pedal sensörü dengeleme anormalliği",
+      "aciklama": "İlerleme pedal sensörü dengeleme anormalliği.",
+      "makineTepkisi": "Yürüyüş durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C4-6",
+      "kodNormal": "C46",
+      "aliaslar": [
+        "C46",
+        "c4-6"
+      ],
+      "sistem": "diger",
+      "baslik": "İlerleme pedal sensörü eşleşme değeri hatası",
+      "aciklama": "İlerleme pedal sensörü eşleşme değeri hatası.",
+      "makineTepkisi": "Yürüyüş motor gücü kısıtlı",
+      "siddet": "kisitlayici",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C5-1",
+      "kodNormal": "C51",
+      "aliaslar": [
+        "C51",
+        "c5-1"
+      ],
+      "sistem": "fren",
+      "baslik": "Fren sensörü POT1 açık",
+      "aciklama": "Fren sensörü POT1 açık.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 4,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C5-2",
+      "kodNormal": "C52",
+      "aliaslar": [
+        "C52",
+        "c5-2"
+      ],
+      "sistem": "fren",
+      "baslik": "Fren sensörü POT2 açık",
+      "aciklama": "Fren sensörü POT2 açık.",
+      "makineTepkisi": "Sadece ekrandan",
+      "siddet": "bilgi",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 4,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C5-3",
+      "kodNormal": "C53",
+      "aliaslar": [
+        "C53",
+        "c5-3"
+      ],
+      "sistem": "fren",
+      "baslik": "Fren sensörü POT1 VCC kısa",
+      "aciklama": "Fren sensörü POT1 VCC kısa.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 4,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C5-4",
+      "kodNormal": "C54",
+      "aliaslar": [
+        "C54",
+        "c5-4"
+      ],
+      "sistem": "fren",
+      "baslik": "Fren sensörü POT2 VCC kısa",
+      "aciklama": "Fren sensörü POT2 VCC kısa.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 4,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C5-5",
+      "kodNormal": "C55",
+      "aliaslar": [
+        "C55",
+        "c5-5"
+      ],
+      "sistem": "fren",
+      "baslik": "Fren sensörü dengeleme anormalliği",
+      "aciklama": "Fren sensörü dengeleme anormalliği.",
+      "makineTepkisi": "Azaltılan max. hız, yavaş ilerleme Yürüyüş fonksiyonları durur.",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 4,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C5-6",
+      "kodNormal": "C56",
+      "aliaslar": [
+        "C56",
+        "c5-6"
+      ],
+      "sistem": "fren",
+      "baslik": "Fren sensörü eşleşme değeri hatası",
+      "aciklama": "Fren sensörü eşleşme değeri hatası.",
+      "makineTepkisi": "Fren lambası sürekli yanar.",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 4,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C8-1",
+      "kodNormal": "C81",
+      "aliaslar": [
+        "C81",
+        "c8-1"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sol) hız (dönüş) sensörü açık",
+      "aciklama": "Yürüyüş motoru (Sol) hız (dönüş) sensörü açık.",
+      "makineTepkisi": "Azaltılan max. hız, yavaş ilerleme",
+      "siddet": "kisitlayici",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 4,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C8-3",
+      "kodNormal": "C83",
+      "aliaslar": [
+        "C83",
+        "c8-3"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sağ) hız (dönüş) sensörü açık",
+      "aciklama": "Yürüyüş motoru (Sağ) hız (dönüş) sensörü açık.",
+      "makineTepkisi": "Yürüyüş durur.",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 4,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CB-1",
+      "kodNormal": "CB1",
+      "aliaslar": [
+        "CB1",
+        "cb-1"
+      ],
+      "sistem": "diger",
+      "baslik": "Ana kontaktör (MB) açık",
+      "aciklama": "Ana kontaktör (MB) açık.",
+      "makineTepkisi": "Kaldırma fonksiyonu durur. Direksiyon sertleşir",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 4,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CB-2",
+      "kodNormal": "CB2",
+      "aliaslar": [
+        "CB2",
+        "cb-2"
+      ],
+      "sistem": "diger",
+      "baslik": "Ana kontaktör (MB) kısa",
+      "aciklama": "Ana kontaktör (MB) kısa.",
+      "makineTepkisi": "Sadece ekrandan",
+      "siddet": "bilgi",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 4,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CB-3",
+      "kodNormal": "CB3",
+      "aliaslar": [
+        "CB3",
+        "cb-3"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ana kontaktör (MB) bobin devresi açık",
+      "aciklama": "Ana kontaktör (MB) bobin devresi açık.",
+      "makineTepkisi": "Yürüyüş durur.",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 4,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CB-4",
+      "kodNormal": "CB4",
+      "aliaslar": [
+        "CB4",
+        "cb-4"
+      ],
+      "sistem": "diger",
+      "baslik": "Ana kontaktör (MB) sürücü devre anormalliği",
+      "aciklama": "Ana kontaktör (MB) sürücü devre anormalliği.",
+      "makineTepkisi": "Kaldırma fonksiyonu durur. Direksiyon sertleşir",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 4,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CB-5",
+      "kodNormal": "CB5",
+      "aliaslar": [
+        "CB5",
+        "cb-5"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ana kontaktör (MB) bobin devresi kısa",
+      "aciklama": "Ana kontaktör (MB) bobin devresi kısa.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 4,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CC-1",
+      "kodNormal": "CC1",
+      "aliaslar": [
+        "CC1",
+        "cc-1"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sol) CPU hatası",
+      "aciklama": "Yürüyüş motoru (Sol) CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CC-2",
+      "kodNormal": "CC2",
+      "aliaslar": [
+        "CC2",
+        "cc-2"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sol) CPU hatası",
+      "aciklama": "Yürüyüş motoru (Sol) CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CC-3",
+      "kodNormal": "CC3",
+      "aliaslar": [
+        "CC3",
+        "cc-3"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sol) CPU hatası",
+      "aciklama": "Yürüyüş motoru (Sol) CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CC-4",
+      "kodNormal": "CC4",
+      "aliaslar": [
+        "CC4",
+        "cc-4"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sol) CPU hatası",
+      "aciklama": "Yürüyüş motoru (Sol) CPU hatası.",
+      "makineTepkisi": "Azaltılan max. hız, yavaş ilerleme",
+      "siddet": "kisitlayici",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CC-5",
+      "kodNormal": "CC5",
+      "aliaslar": [
+        "CC5",
+        "cc-5"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sol) CPU hatası",
+      "aciklama": "Yürüyüş motoru (Sol) CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CC-6",
+      "kodNormal": "CC6",
+      "aliaslar": [
+        "CC6",
+        "cc-6"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sol) CPU hatası",
+      "aciklama": "Yürüyüş motoru (Sol) CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CC-7",
+      "kodNormal": "CC7",
+      "aliaslar": [
+        "CC7",
+        "cc-7"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sol) CPU hatası",
+      "aciklama": "Yürüyüş motoru (Sol) CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CC-8",
+      "kodNormal": "CC8",
+      "aliaslar": [
+        "CC8",
+        "cc-8"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sol) CPU hatası",
+      "aciklama": "Yürüyüş motoru (Sol) CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CD-1",
+      "kodNormal": "CD1",
+      "aliaslar": [
+        "CD1",
+        "cd-1"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sağ) CPU hatası",
+      "aciklama": "Yürüyüş motoru (Sağ) CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CD-2",
+      "kodNormal": "CD2",
+      "aliaslar": [
+        "CD2",
+        "cd-2"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sağ) CPU hatası",
+      "aciklama": "Yürüyüş motoru (Sağ) CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CD-3",
+      "kodNormal": "CD3",
+      "aliaslar": [
+        "CD3",
+        "cd-3"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sağ) CPU hatası",
+      "aciklama": "Yürüyüş motoru (Sağ) CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CD-4",
+      "kodNormal": "CD4",
+      "aliaslar": [
+        "CD4",
+        "cd-4"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sağ) CPU hatası",
+      "aciklama": "Yürüyüş motoru (Sağ) CPU hatası.",
+      "makineTepkisi": "Azaltılan max. hız, yavaş ilerleme",
+      "siddet": "kisitlayici",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CD-5",
+      "kodNormal": "CD5",
+      "aliaslar": [
+        "CD5",
+        "cd-5"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sağ) CPU hatası",
+      "aciklama": "Yürüyüş motoru (Sağ) CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CD-6",
+      "kodNormal": "CD6",
+      "aliaslar": [
+        "CD6",
+        "cd-6"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sağ) CPU hatası",
+      "aciklama": "Yürüyüş motoru (Sağ) CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CD-7",
+      "kodNormal": "CD7",
+      "aliaslar": [
+        "CD7",
+        "cd-7"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sağ) CPU hatası",
+      "aciklama": "Yürüyüş motoru (Sağ) CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "CD-8",
+      "kodNormal": "CD8",
+      "aliaslar": [
+        "CD8",
+        "cd-8"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru (Sağ) CPU hatası",
+      "aciklama": "Yürüyüş motoru (Sağ) CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E0-1",
+      "kodNormal": "E01",
+      "aliaslar": [
+        "E01",
+        "e0-1"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motor anormalliği",
+      "aciklama": "Pompa motor anormalliği.",
+      "makineTepkisi": "Kaldırma fonksiyonu durur. Servo direksiyon fonksiyonu durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E0-2",
+      "kodNormal": "E02",
+      "aliaslar": [
+        "E02",
+        "e0-2"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma AC sürücü anormalliği",
+      "aciklama": "Kaldırma AC sürücü anormalliği.",
+      "makineTepkisi": "Kaldırma fonksiyonu durur.",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E1-1",
+      "kodNormal": "E11",
+      "aliaslar": [
+        "E11",
+        "e1-1"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motoru akım sensörü nötr gerilim hatası",
+      "aciklama": "Pompa motoru akım sensörü nötr gerilim hatası.",
+      "makineTepkisi": "Servo direksiyon fonksiyonu durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E2-1",
+      "kodNormal": "E21",
+      "aliaslar": [
+        "E21",
+        "PM",
+        "e2-1"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motor sıcaklık anormalliği",
+      "aciklama": "Pompa motor sıcaklık anormalliği.",
+      "makineTepkisi": "Kaldırma hızı sınırlanmıştır",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E2-2",
+      "kodNormal": "E22",
+      "aliaslar": [
+        "E22",
+        "e2-2"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motor sıcaklık sensör anormalliği",
+      "aciklama": "Pompa motor sıcaklık sensör anormalliği.",
+      "makineTepkisi": "Kaldırma fonksiyonu durur.",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E8-1",
+      "kodNormal": "E81",
+      "aliaslar": [
+        "E3-1",
+        "E81",
+        "e8-1"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma AC sürücü güç devresi anormalliği / Pompa motor hız (dönüş) sensörü açık",
+      "aciklama": "Kaldırma AC sürücü güç devresi anormalliği / Pompa motor hız (dönüş) sensörü açık.",
+      "makineTepkisi": "Direksiyon sertleşir Kaldırma fonksiyonu durur.",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "EC-1",
+      "kodNormal": "EC1",
+      "aliaslar": [
+        "EC1",
+        "ec-1"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motor CPU hatası",
+      "aciklama": "Pompa motor CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "EC-2",
+      "kodNormal": "EC2",
+      "aliaslar": [
+        "EC2",
+        "ec-2"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motor CPU hatası",
+      "aciklama": "Pompa motor CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "EC-3",
+      "kodNormal": "EC3",
+      "aliaslar": [
+        "EC3",
+        "ec-3"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motor CPU hatası",
+      "aciklama": "Pompa motor CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "EC-4",
+      "kodNormal": "EC4",
+      "aliaslar": [
+        "EC4",
+        "ec-4"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motor CPU hatası",
+      "aciklama": "Pompa motor CPU hatası.",
+      "makineTepkisi": "Kaldırma fonksiyonu durur. Direksiyon sertleşir",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "EC-5",
+      "kodNormal": "EC5",
+      "aliaslar": [
+        "EC5",
+        "ec-5"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motor CPU hatası",
+      "aciklama": "Pompa motor CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "EC-6",
+      "kodNormal": "EC6",
+      "aliaslar": [
+        "EC6",
+        "ec-6"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motor CPU hatası",
+      "aciklama": "Pompa motor CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "EC-7",
+      "kodNormal": "EC7",
+      "aliaslar": [
+        "EC7",
+        "ec-7"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motor CPU hatası",
+      "aciklama": "Pompa motor CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "EC-8",
+      "kodNormal": "EC8",
+      "aliaslar": [
+        "EC8",
+        "ec-8"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motor CPU hatası",
+      "aciklama": "Pompa motor CPU hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "EE-1",
+      "kodNormal": "EE1",
+      "aliaslar": [
+        "EE1",
+        "ee-1"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Ekran → Ana kart haberleşme hatası",
+      "aciklama": "Ekran → Ana kart haberleşme hatası.",
+      "makineTepkisi": "Ekrandan ayar değiştirilmesi engellenmiştir.",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "EE-2",
+      "kodNormal": "EE2",
+      "aliaslar": [
+        "EE2",
+        "ee-2"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Ekran → Ana kart haberleşme hatası",
+      "aciklama": "Ekran → Ana kart haberleşme hatası.",
+      "makineTepkisi": "Ekran kullanımı engellenmiştir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "F1-1",
+      "kodNormal": "F11",
+      "aliaslar": [
+        "F11",
+        "f1-1"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Ana kart → Ekran haberleşme hatası",
+      "aciklama": "Ana kart → Ekran haberleşme hatası.",
+      "makineTepkisi": "Ekrandan araç ayarlarının değiştirilmesi engellenmiştir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "F1-2",
+      "kodNormal": "F12",
+      "aliaslar": [
+        "F12",
+        "f1-2"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Ana kart → Ekran haberleşme hatası",
+      "aciklama": "Ana kart → Ekran haberleşme hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "F4-1",
+      "kodNormal": "F41",
+      "aliaslar": [
+        "F41",
+        "f4-1"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Ekran CPU hatası",
+      "aciklama": "Ekran CPU hatası. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "Yürüyüş ve kaldırma eşzamanlı operasyonları engellenmiştir.",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "F4-2",
+      "kodNormal": "F42",
+      "aliaslar": [
+        "F42",
+        "f4-2"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Ekran CPU hatası",
+      "aciklama": "Ekran CPU hatası. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "Yürüyüş sınırlama fonksiyorun devre dışı. PIN KODUYLA GİRİŞ SİSTEMİ: PIN kodu giriş sistemi",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "F4-3",
+      "kodNormal": "F43",
+      "aliaslar": [
+        "F43",
+        "f4-3"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Ekran CPU hatası",
+      "aciklama": "Ekran CPU hatası. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "F4-4",
+      "kodNormal": "F44",
+      "aliaslar": [
+        "F44",
+        "f4-4"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Ekran CPU hatası",
+      "aciklama": "Ekran CPU hatası. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "Sadece ekrandan",
+      "siddet": "bilgi",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "F4-5",
+      "kodNormal": "F45",
+      "aliaslar": [
+        "F45",
+        "f4-5"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Ekran CPU hatası",
+      "aciklama": "Ekran CPU hatası. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "Ekran fonksiyonu kararsız",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "F4-6",
+      "kodNormal": "F46",
+      "aliaslar": [
+        "F46",
+        "f4-6"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Ekran CPU hatası",
+      "aciklama": "Ekran CPU hatası. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "F4-7",
+      "kodNormal": "F47",
+      "aliaslar": [
+        "F47",
+        "f4-7"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Ekran CPU hatası",
+      "aciklama": "Ekran CPU hatası. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "Kontrol operasyonları kararsız",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "F4-8",
+      "kodNormal": "F48",
+      "aliaslar": [
+        "F48",
+        "f4-8"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Ekran CPU hatası",
+      "aciklama": "Ekran CPU hatası. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "FB-1",
+      "kodNormal": "FB1",
+      "aliaslar": [
+        "FB1",
+        "fb-1"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü akım sensörü nötr voltaj hatası",
+      "aciklama": "Akü akım sensörü nötr voltaj hatası.",
+      "makineTepkisi": "Akü şarjı sonrası şarj seviyesinde büyük sapma",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "FB-2",
+      "kodNormal": "FB2",
+      "aliaslar": [
+        "FB2",
+        "fb-2"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü akım sensörü aşırı akım",
+      "aciklama": "Akü akım sensörü aşırı akım.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "FF-1",
+      "kodNormal": "FF1",
+      "aliaslar": [
+        "FF1",
+        "ff-1"
+      ],
+      "sistem": "diger",
+      "baslik": "D7V güç kaynağı devresi aşırı akım",
+      "aciklama": "D7V güç kaynağı devresi aşırı akım.",
+      "makineTepkisi": "Ekran kapanır Knob (direksiyon topuz ) konumu doğrulaması durur.",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "FF-2",
+      "kodNormal": "FF2",
+      "aliaslar": [
+        "FF2",
+        "ff-2"
+      ],
+      "sistem": "diger",
+      "baslik": "SSTR+ güç kaynağı devresi aşırı akım",
+      "aciklama": "SSTR+ güç kaynağı devresi aşırı akım.",
+      "makineTepkisi": "Direksiyon sertleşir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "32-1",
+      "kodNormal": "321",
+      "aliaslar": [
+        "321"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "AC Yürüyüş sürücüsü (Sol) EEPROM anormalliği",
+      "aciklama": "AC Yürüyüş sürücüsü (Sol) EEPROM anormalliği.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "32-2",
+      "kodNormal": "322",
+      "aliaslar": [
+        "322"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "AC Yürüyüş sürücüsü (Sağ) EEPROM anormalliği",
+      "aciklama": "AC Yürüyüş sürücüsü (Sağ) EEPROM anormalliği.",
+      "makineTepkisi": "Sadece ekrandan",
+      "siddet": "bilgi",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "32-3",
+      "kodNormal": "323",
+      "aliaslar": [
+        "323"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "AC Kaldırma sürücüsü EEPROM anormalliği",
+      "aciklama": "AC Kaldırma sürücüsü EEPROM anormalliği.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "33-1",
+      "kodNormal": "331",
+      "aliaslar": [
+        "331"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Ana kart → AC yürüyüş sürücüsü (Sol) CAN haberleşme hatası",
+      "aciklama": "Ana kart → AC yürüyüş sürücüsü (Sol) CAN haberleşme hatası.",
+      "makineTepkisi": "Sadece tek tekerden (Sağ) yürüyüş yavaş.",
+      "siddet": "kisitlayici",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "33-2",
+      "kodNormal": "332",
+      "aliaslar": [
+        "332"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Main controller → Traveling AC driver (RH) CAN communication error",
+      "aciklama": "Main controller → Traveling AC driver (RH) CAN communication error.",
+      "makineTepkisi": "Sadece tek tekerden (Sol) yürüyüş yavaş. Kaldırma fonksiyonu durur.",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "33-3",
+      "kodNormal": "333",
+      "aliaslar": [
+        "333"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ana kart → AC kaldırma sürücüsü CAN haberleşme hatası",
+      "aciklama": "Ana kart → AC kaldırma sürücüsü CAN haberleşme hatası.",
+      "makineTepkisi": "Direksiyon sertleşir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "54-1",
+      "kodNormal": "541",
+      "aliaslar": [
+        "541"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Salınım kilitleme solenoidi açık",
+      "aciklama": "Salınım kilitleme solenoidi açık.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "54-2",
+      "kodNormal": "542",
+      "aliaslar": [
+        "542"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Salınım kilitleme solenoidi kısa",
+      "aciklama": "Salınım kilitleme solenoidi kısa.",
+      "makineTepkisi": "Arka teker salınım kontrol fonksiyonu kısmi sınırlama",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "54-3",
+      "kodNormal": "543",
+      "aliaslar": [
+        "543"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Salınım kilitleme solenoidi sürücü devre anormalliği",
+      "aciklama": "Salınım kilitleme solenoidi sürücü devre anormalliği.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "54-4",
+      "kodNormal": "544",
+      "aliaslar": [
+        "544"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Salınım kilitleme solenoidi anormalliği (açık/kısa)",
+      "aciklama": "Salınım kilitleme solenoidi anormalliği (açık/kısa).",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "61-1",
+      "kodNormal": "611",
+      "aliaslar": [
+        "611"
+      ],
+      "sistem": "diger",
+      "baslik": "Yük sensörü açık",
+      "aciklama": "Yük sensörü açık. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "Mast control function partially restricted. Lifting and load sensing travel control function restricted. Deceleration speed decreases with OPS operating.",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "61-2",
+      "kodNormal": "612",
+      "aliaslar": [
+        "612"
+      ],
+      "sistem": "diger",
+      "baslik": "Yük sensörü açık",
+      "aciklama": "Yük sensörü açık. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "Load alarm inoperable.",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "62-1",
+      "kodNormal": "621",
+      "aliaslar": [
+        "621"
+      ],
+      "sistem": "diger",
+      "baslik": "Tilt (eğim) açı sensörü açık",
+      "aciklama": "Tilt (eğim) açı sensörü açık.",
+      "makineTepkisi": "Mast control function partially restricted.",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "62-2",
+      "kodNormal": "622",
+      "aliaslar": [
+        "622"
+      ],
+      "sistem": "diger",
+      "baslik": "Tilt (eğim) açı sensörü kısa",
+      "aciklama": "Tilt (eğim) açı sensörü kısa.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "64-1",
+      "kodNormal": "641",
+      "aliaslar": [
+        "641"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Lift kilit solenoidi açık",
+      "aciklama": "Lift kilit solenoidi açık.",
+      "makineTepkisi": "Lift indirme durabilir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "64-2",
+      "kodNormal": "642",
+      "aliaslar": [
+        "642"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Lift kilit solenoidi kısa",
+      "aciklama": "Lift kilit solenoidi kısa.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "64-3",
+      "kodNormal": "643",
+      "aliaslar": [
+        "643"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Lift kilit solenoidi sürücü devre anormalliği",
+      "aciklama": "Lift kilit solenoidi sürücü devre anormalliği.",
+      "makineTepkisi": "Sadece ekrandan",
+      "siddet": "bilgi",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "64-4",
+      "kodNormal": "644",
+      "aliaslar": [
+        "644"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Lift kilit solenoidi anormalliği (açık/kısa)",
+      "aciklama": "Lift kilit solenoidi anormalliği (açık/kısa).",
+      "makineTepkisi": "Lift indirme durabilir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "65-1",
+      "kodNormal": "651",
+      "aliaslar": [
+        "651"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Tilt kontrol solenoidi açık",
+      "aciklama": "Tilt kontrol solenoidi açık.",
+      "makineTepkisi": "Öne tilt(eğim) durabilir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "65-2",
+      "kodNormal": "652",
+      "aliaslar": [
+        "652"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Lift kilit solenoidi kısa",
+      "aciklama": "Lift kilit solenoidi kısa.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "65-3",
+      "kodNormal": "653",
+      "aliaslar": [
+        "653"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Lift kilit solenoidi sürücü devre anormalliği",
+      "aciklama": "Lift kilit solenoidi sürücü devre anormalliği.",
+      "makineTepkisi": "Sadece ekrandan",
+      "siddet": "bilgi",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "65-4",
+      "kodNormal": "654",
+      "aliaslar": [
+        "654"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Lift kilit solenoidi anormalliği (açık/kısa)",
+      "aciklama": "Lift kilit solenoidi anormalliği (açık/kısa).",
+      "makineTepkisi": "Öne tilt(eğim) durabilir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "66-1",
+      "kodNormal": "661",
+      "aliaslar": [
+        "661"
+      ],
+      "sistem": "diger",
+      "baslik": "Tilt açısının dışında eşleşen değer hatası",
+      "aciklama": "Tilt açısının dışında eşleşen değer hatası.",
+      "makineTepkisi": "Partial limitation of mast control function. Mast kontrol fonksiyonlarına kısmi sınırlama.",
+      "siddet": "kisitlayici",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "67-1",
+      "kodNormal": "671",
+      "aliaslar": [
+        "671"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma yükseklik switch anormalliği (açık/kısa)",
+      "aciklama": "Kaldırma yükseklik switch anormalliği (açık/kısa).",
+      "makineTepkisi": "Yük alarmı kararsız.",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "68-1",
+      "kodNormal": "681",
+      "aliaslar": [
+        "681"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma yükseklik sensör açık",
+      "aciklama": "Kaldırma yükseklik sensör açık.",
+      "makineTepkisi": "Maksimum kaldırma yükseklik sınırlama fonksiyonu etkinleştirildiğinde kaldırma hızı sınırlanmıştır.",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "68-2",
+      "kodNormal": "682",
+      "aliaslar": [
+        "682"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma yükseklik sensör kısa",
+      "aciklama": "Kaldırma yükseklik sensör kısa.",
+      "makineTepkisi": "Maksimum kaldırma yükseklik sınırı devre dışı bırakıldığında basit kaldırma yükseklik sınırı ve basit",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "68-3",
+      "kodNormal": "683",
+      "aliaslar": [
+        "683"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma yükseklik sensör zaman aşımı hatası",
+      "aciklama": "Kaldırma yükseklik sensör zaman aşımı hatası.",
+      "makineTepkisi": "kaldırma durdurma fonksiyonları devre dışıdır",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "71-1",
+      "kodNormal": "711",
+      "aliaslar": [
+        "711"
+      ],
+      "sistem": "diger",
+      "baslik": "Teker açı sensörü açık",
+      "aciklama": "Teker açı sensörü açık.",
+      "makineTepkisi": "Salınım kilidi çalışamaz.",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "71-2",
+      "kodNormal": "712",
+      "aliaslar": [
+        "712"
+      ],
+      "sistem": "diger",
+      "baslik": "Teker açı sensörü kısa",
+      "aciklama": "Teker açı sensörü kısa.",
+      "makineTepkisi": "Direksiyon topuz pozisyon doğrulaması durur Yürüyüş yavaşlar.",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "71-3",
+      "kodNormal": "713",
+      "aliaslar": [
+        "713"
+      ],
+      "sistem": "diger",
+      "baslik": "Teker açı sensörü sabit",
+      "aciklama": "Teker açı sensörü sabit.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "72-1",
+      "kodNormal": "721",
+      "aliaslar": [
+        "721"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon açı sensörü SS1 açık",
+      "aciklama": "Direksiyon açı sensörü SS1 açık.",
+      "makineTepkisi": "Direksiyon topuz pozisyon doğrulaması durur Direksiyon sertleşir",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "72-2",
+      "kodNormal": "722",
+      "aliaslar": [
+        "722"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon açı sensörü SS2 açık",
+      "aciklama": "Direksiyon açı sensörü SS2 açık.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "72-3",
+      "kodNormal": "723",
+      "aliaslar": [
+        "723"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon açı sensörü SSC açık",
+      "aciklama": "Direksiyon açı sensörü SSC açık.",
+      "makineTepkisi": "Direksiyon topuz pozisyon doğrulaması durur Direksiyon topuz pozisyon doğrulaması durur .",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "72-4",
+      "kodNormal": "724",
+      "aliaslar": [
+        "724"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon açı sensörü güç kaynağı devresi açık",
+      "aciklama": "Direksiyon açı sensörü güç kaynağı devresi açık.",
+      "makineTepkisi": "Direksiyon sertleşir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "73-1",
+      "kodNormal": "731",
+      "aliaslar": [
+        "731"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Knob(direksiyon topuz konumu doğrulama solenoidi açık",
+      "aciklama": "Knob(direksiyon topuz konumu doğrulama solenoidi açık.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "73-2",
+      "kodNormal": "732",
+      "aliaslar": [
+        "732"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Knob(direksiyon topuz konumu doğrulama solenoidi kısa Knob(direksiyon topuz konumu doğru…",
+      "aciklama": "Knob(direksiyon topuz konumu doğrulama solenoidi kısa Knob(direksiyon topuz konumu doğrulama solenoidi güç kaynağı devresi.",
+      "makineTepkisi": "Direksiyon topuz pozisyon doğrulaması durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "73-3",
+      "kodNormal": "733",
+      "aliaslar": [
+        "733"
+      ],
+      "sistem": "diger",
+      "baslik": "Anormalliği",
+      "aciklama": "anormalliği. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "73-4",
+      "kodNormal": "734",
+      "aliaslar": [
+        "734"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Knob(direksiyon topuz konumu doğrulama solenoidi anormalliği (açık/kısa)",
+      "aciklama": "Knob(direksiyon topuz konumu doğrulama solenoidi anormalliği (açık/kısa).",
+      "makineTepkisi": "Salınım kilidi çalışamaz.",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "74-1",
+      "kodNormal": "741",
+      "aliaslar": [
+        "741"
+      ],
+      "sistem": "diger",
+      "baslik": "Teker açı değer aralığı eşleşme dışı hatası",
+      "aciklama": "Teker açı değer aralığı eşleşme dışı hatası.",
+      "makineTepkisi": "Direksiyon topuz pozisyon doğrulaması durur Yürüyüş yavaşlar.",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H1-1",
+      "kodNormal": "H11",
+      "aliaslar": [
+        "H11",
+        "h1-1"
+      ],
+      "sistem": "diger",
+      "baslik": "Lift kol potansiyometre açık",
+      "aciklama": "Lift kol potansiyometre açık.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H1-2",
+      "kodNormal": "H12",
+      "aliaslar": [
+        "H12",
+        "h1-2"
+      ],
+      "sistem": "diger",
+      "baslik": "Lift kol potansiyometre kısa",
+      "aciklama": "Lift kol potansiyometre kısa.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H1-3",
+      "kodNormal": "H13",
+      "aliaslar": [
+        "H13",
+        "h1-3"
+      ],
+      "sistem": "diger",
+      "baslik": "Lift kol potansiyometre çıkış sinyal anormalliği",
+      "aciklama": "Lift kol potansiyometre çıkış sinyal anormalliği.",
+      "makineTepkisi": "Kaldırma durur.",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H1-4",
+      "kodNormal": "H14",
+      "aliaslar": [
+        "H14",
+        "h1-4"
+      ],
+      "sistem": "diger",
+      "baslik": "Lift kol potansiyometre nötr hatası",
+      "aciklama": "Lift kol potansiyometre nötr hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H1-5",
+      "kodNormal": "H15",
+      "aliaslar": [
+        "H15",
+        "h1-5"
+      ],
+      "sistem": "diger",
+      "baslik": "Lift kol potansiyometre karşılaştırma değer hatası",
+      "aciklama": "Lift kol potansiyometre karşılaştırma değer hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H2-1",
+      "kodNormal": "H21",
+      "aliaslar": [
+        "H21",
+        "h2-1"
+      ],
+      "sistem": "diger",
+      "baslik": "Tilt kol potansiyometre açık",
+      "aciklama": "Tilt kol potansiyometre açık.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H2-2",
+      "kodNormal": "H22",
+      "aliaslar": [
+        "H22",
+        "h2-2"
+      ],
+      "sistem": "diger",
+      "baslik": "Tilt kol potansiyometre kısa",
+      "aciklama": "Tilt kol potansiyometre kısa.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H2-3",
+      "kodNormal": "H23",
+      "aliaslar": [
+        "H23",
+        "h2-3"
+      ],
+      "sistem": "diger",
+      "baslik": "Tilt kol potansiyometre çıkış sinyal anormalliği",
+      "aciklama": "Tilt kol potansiyometre çıkış sinyal anormalliği.",
+      "makineTepkisi": "Tilt durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H2-4",
+      "kodNormal": "H24",
+      "aliaslar": [
+        "H24",
+        "h2-4"
+      ],
+      "sistem": "diger",
+      "baslik": "Tilt kol potansiyometre nötr hatası",
+      "aciklama": "Tilt kol potansiyometre nötr hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H2-5",
+      "kodNormal": "H25",
+      "aliaslar": [
+        "H25",
+        "h2-5"
+      ],
+      "sistem": "diger",
+      "baslik": "Tilt kol potansiyometre eşleşme değer hatası",
+      "aciklama": "Tilt kol potansiyometre eşleşme değer hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H3-1",
+      "kodNormal": "H31",
+      "aliaslar": [
+        "H31",
+        "h3-1"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 1 kol potansiyometre açık",
+      "aciklama": "Ataşman 1 kol potansiyometre açık.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H3-2",
+      "kodNormal": "H32",
+      "aliaslar": [
+        "H32",
+        "h3-2"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 1 kol potansiyometre kısa",
+      "aciklama": "Ataşman 1 kol potansiyometre kısa.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H3-3",
+      "kodNormal": "H33",
+      "aliaslar": [
+        "H33",
+        "h3-3"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 1 kol potansiyometre çıkış sinyal anormalliği",
+      "aciklama": "Ataşman 1 kol potansiyometre çıkış sinyal anormalliği.",
+      "makineTepkisi": "Ataşman 1 durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H3-4",
+      "kodNormal": "H34",
+      "aliaslar": [
+        "H34",
+        "h3-4"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 1 kol potansiyometre nötr hatası",
+      "aciklama": "Ataşman 1 kol potansiyometre nötr hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H3-5",
+      "kodNormal": "H35",
+      "aliaslar": [
+        "H35",
+        "h3-5"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 1 kol potansiyometre eşleşme değer hatası",
+      "aciklama": "Ataşman 1 kol potansiyometre eşleşme değer hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H4-1",
+      "kodNormal": "H41",
+      "aliaslar": [
+        "H41",
+        "h4-1"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 2 kol potansiyometre açık",
+      "aciklama": "Ataşman 2 kol potansiyometre açık.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H4-2",
+      "kodNormal": "H42",
+      "aliaslar": [
+        "H42",
+        "h4-2"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 2 kol potansiyometre kısa",
+      "aciklama": "Ataşman 2 kol potansiyometre kısa.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H4-3",
+      "kodNormal": "H43",
+      "aliaslar": [
+        "H43",
+        "h4-3"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 2 kol potansiyometre çıkış sinyal anormalliği",
+      "aciklama": "Ataşman 2 kol potansiyometre çıkış sinyal anormalliği.",
+      "makineTepkisi": "Ataşman 2 durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H4-4",
+      "kodNormal": "H44",
+      "aliaslar": [
+        "H44",
+        "h4-4"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 2 kol potansiyometre nötr hatası",
+      "aciklama": "Ataşman 2 kol potansiyometre nötr hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H4-5",
+      "kodNormal": "H45",
+      "aliaslar": [
+        "H45",
+        "h4-5"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 2 kol potansiyometre eşleşme değer hatası",
+      "aciklama": "Ataşman 2 kol potansiyometre eşleşme değer hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H5-1",
+      "kodNormal": "H51",
+      "aliaslar": [
+        "H51",
+        "h5-1"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Lift PULL(çekme) solenoid açık",
+      "aciklama": "Lift PULL(çekme) solenoid açık.",
+      "makineTepkisi": "Yukarı kaldırma durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H5-2",
+      "kodNormal": "H52",
+      "aliaslar": [
+        "H52",
+        "h5-2"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Lift PULL (çekme) solenoid kısa",
+      "aciklama": "Lift PULL (çekme) solenoid kısa.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H5-3",
+      "kodNormal": "H53",
+      "aliaslar": [
+        "H53",
+        "h5-3"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Lift PUSH (itme) solenoid açık",
+      "aciklama": "Lift PUSH (itme) solenoid açık.",
+      "makineTepkisi": "Aşağı indirme durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H5-4",
+      "kodNormal": "H54",
+      "aliaslar": [
+        "H54",
+        "h5-4"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Lift PUSH (itme) solenoid kısa",
+      "aciklama": "Lift PUSH (itme) solenoid kısa.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H5-5",
+      "kodNormal": "H55",
+      "aliaslar": [
+        "H55",
+        "h5-5"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Lift PULL/PUSH solenoid güç kaynağı devresi anormalliği",
+      "aciklama": "Lift PULL/PUSH solenoid güç kaynağı devresi anormalliği.",
+      "makineTepkisi": "Malzeme taşıma fonksiyonu durabilir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H5-6",
+      "kodNormal": "H56",
+      "aliaslar": [
+        "H56",
+        "h5-6"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Lift PULL/PUSH solenoid anormalliği(açık/kısa)",
+      "aciklama": "Lift PULL/PUSH solenoid anormalliği(açık/kısa).",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H6-1",
+      "kodNormal": "H61",
+      "aliaslar": [
+        "H61",
+        "h6-1"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Tilt PULL (çekme) solenoid açık",
+      "aciklama": "Tilt PULL (çekme) solenoid açık.",
+      "makineTepkisi": "Geriye tilt durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H6-2",
+      "kodNormal": "H62",
+      "aliaslar": [
+        "H62",
+        "h6-2"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Tilt PULL (çekme) solenoid kısa",
+      "aciklama": "Tilt PULL (çekme) solenoid kısa.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H6-3",
+      "kodNormal": "H63",
+      "aliaslar": [
+        "H63",
+        "h6-3"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Tilt PUSH (itme) solenoid açık",
+      "aciklama": "Tilt PUSH (itme) solenoid açık.",
+      "makineTepkisi": "Öne tilt durur",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H6-4",
+      "kodNormal": "H64",
+      "aliaslar": [
+        "H64",
+        "h6-4"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Tilt PUSH (itme) solenoid kısa",
+      "aciklama": "Tilt PUSH (itme) solenoid kısa.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H6-5",
+      "kodNormal": "H65",
+      "aliaslar": [
+        "H65",
+        "h6-5"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Tilt PULL/PUSH solenoid güç kaynağı devresi anormalliği",
+      "aciklama": "Tilt PULL/PUSH solenoid güç kaynağı devresi anormalliği.",
+      "makineTepkisi": "Malzeme taşıma fonksiyonu durabilir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H6-6",
+      "kodNormal": "H66",
+      "aliaslar": [
+        "H66",
+        "h6-6"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Tilt PULL/PUSH solenoid anormalliği(açık/kısa)",
+      "aciklama": "Tilt PULL/PUSH solenoid anormalliği(açık/kısa).",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H7-1",
+      "kodNormal": "H71",
+      "aliaslar": [
+        "H71",
+        "h7-1"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Ataşman 1 PULL (çekme) solenoid açık",
+      "aciklama": "Ataşman 1 PULL (çekme) solenoid açık.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H7-2",
+      "kodNormal": "H72",
+      "aliaslar": [
+        "H72",
+        "h7-2"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Ataşman 1 PULL (çekme) solenoid kısa",
+      "aciklama": "Ataşman 1 PULL (çekme) solenoid kısa.",
+      "makineTepkisi": "Ataşman 1 durur.",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H7-3",
+      "kodNormal": "H73",
+      "aliaslar": [
+        "H73",
+        "h7-3"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 1 PUSH (itme) solenoid açık",
+      "aciklama": "Ataşman 1 PUSH (itme) solenoid açık.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H7-4",
+      "kodNormal": "H74",
+      "aliaslar": [
+        "H74",
+        "h7-4"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 1 PUSH (itme) solenoid kısa",
+      "aciklama": "Ataşman 1 PUSH (itme) solenoid kısa.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H7-5",
+      "kodNormal": "H75",
+      "aliaslar": [
+        "H75",
+        "h7-5"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman1 PULL/PUSH solenoid güç kaynağı devresi anormalliği",
+      "aciklama": "Ataşman1 PULL/PUSH solenoid güç kaynağı devresi anormalliği.",
+      "makineTepkisi": "Malzeme taşıma fonksiyonu durabilir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H7-6",
+      "kodNormal": "H76",
+      "aliaslar": [
+        "H76",
+        "h7-6"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman1 PULL/PUSH solenoid anormalliği(açık/kısa)",
+      "aciklama": "Ataşman1 PULL/PUSH solenoid anormalliği(açık/kısa).",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H8-1",
+      "kodNormal": "H81",
+      "aliaslar": [
+        "H81",
+        "h8-1"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Ataşman 2 PULL (çekme) solenoid açık",
+      "aciklama": "Ataşman 2 PULL (çekme) solenoid açık.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H8-2",
+      "kodNormal": "H82",
+      "aliaslar": [
+        "H82",
+        "h8-2"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Ataşman 2 PULL (çekme) solenoid kısa",
+      "aciklama": "Ataşman 2 PULL (çekme) solenoid kısa.",
+      "makineTepkisi": "Ataşman2 durur.",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H8-3",
+      "kodNormal": "H83",
+      "aliaslar": [
+        "H83",
+        "h8-3"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 2 PUSH (itme) solenoid açık",
+      "aciklama": "Ataşman 2 PUSH (itme) solenoid açık.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H8-4",
+      "kodNormal": "H84",
+      "aliaslar": [
+        "H84",
+        "h8-4"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 2 PUSH (itme) solenoid kısa",
+      "aciklama": "Ataşman 2 PUSH (itme) solenoid kısa.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H8-5",
+      "kodNormal": "H85",
+      "aliaslar": [
+        "H85",
+        "h8-5"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman2 PULL/PUSH solenoid güç kaynağı devresi anormalliği",
+      "aciklama": "Ataşman2 PULL/PUSH solenoid güç kaynağı devresi anormalliği.",
+      "makineTepkisi": "Malzeme taşıma fonksiyonu durabilir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "H8-6",
+      "kodNormal": "H86",
+      "aliaslar": [
+        "H86",
+        "h8-6"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman2 PULL/PUSH solenoid anormalliği(açık/kısa)",
+      "aciklama": "Ataşman2 PULL/PUSH solenoid anormalliği(açık/kısa).",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "HB-1",
+      "kodNormal": "HB1",
+      "aliaslar": [
+        "HB1",
+        "hb-1"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Solenoid güç kaynağı devresi RY1 açık",
+      "aciklama": "Solenoid güç kaynağı devresi RY1 açık.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "HB-2",
+      "kodNormal": "HB2",
+      "aliaslar": [
+        "HB2",
+        "hb-2"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Solenoid güç kaynağı devresi kısa",
+      "aciklama": "Solenoid güç kaynağı devresi kısa.",
+      "makineTepkisi": "Malzeme taşıma fonksiyonu durabilir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "HB-3",
+      "kodNormal": "HB3",
+      "aliaslar": [
+        "HB3",
+        "hb-3"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Solenoid güç kaynağı devresi RY1 aşırı akım",
+      "aciklama": "Solenoid güç kaynağı devresi RY1 aşırı akım.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "G5-1",
+      "kodNormal": "G51",
+      "aliaslar": [
+        "G51",
+        "g5-1"
+      ],
+      "sistem": "diger",
+      "baslik": "Şok sensör 1 açık",
+      "aciklama": "Şok sensör 1 açık. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "G5-2",
+      "kodNormal": "G52",
+      "aliaslar": [
+        "G52",
+        "g5-2"
+      ],
+      "sistem": "diger",
+      "baslik": "Şok sensör 1 kısa",
+      "aciklama": "Şok sensör 1 kısa. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "G5-3",
+      "kodNormal": "G53",
+      "aliaslar": [
+        "G53",
+        "g5-3"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Şok sensör 1 nötr voltaj hatası",
+      "aciklama": "Şok sensör 1 nötr voltaj hatası.",
+      "makineTepkisi": "Şok sensörü devre dışı kalır",
+      "siddet": "durdurucu",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "G5-4",
+      "kodNormal": "G54",
+      "aliaslar": [
+        "G54",
+        "g5-4"
+      ],
+      "sistem": "diger",
+      "baslik": "Şok sensör 2 açık",
+      "aciklama": "Şok sensör 2 açık. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "G5-5",
+      "kodNormal": "G55",
+      "aliaslar": [
+        "G55",
+        "g5-5"
+      ],
+      "sistem": "diger",
+      "baslik": "Şok sensör 2 kısa",
+      "aciklama": "Şok sensör 2 kısa. Traigo 48 arıza kodu listesinde kayıtlıdır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "G5-6",
+      "kodNormal": "G56",
+      "aliaslar": [
+        "G56",
+        "g5-6"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Şok sensör 2 nötr voltaj hatası",
+      "aciklama": "Şok sensör 2 nötr voltaj hatası.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    }
+  ]
+}

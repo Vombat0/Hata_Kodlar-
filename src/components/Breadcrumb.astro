@@ -1,0 +1,17 @@
+---
+interface Props {
+  ogeler: { ad: string; href?: string }[];
+}
+const { ogeler } = Astro.props;
+---
+
+<nav class="breadcrumb sarmal" aria-label="Konum">
+  {ogeler.map((og, i) => (
+    <>
+      {i > 0 && <span aria-hidden="true">/</span>}
+      {og.href
+        ? <a href={og.href}>{og.ad}</a>
+        : <span aria-current="page">{og.ad}</span>}
+    </>
+  ))}
+</nav>

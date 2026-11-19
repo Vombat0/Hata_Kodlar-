@@ -1,0 +1,1586 @@
+{
+  "marka": "nissan-unicarriers",
+  "seri": "fec-egmc",
+  "modelAdi": "Nissan/UniCarriers elektrikli + K/D/E motor aileleri referans kod tablosu",
+  "kaynakBelge": "ForkliftErrorCodes.com marka kod referansları (sayfa bazlı, üretici kapsam notlu)",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+  "kodlar": [
+    {
+      "kod": "405",
+      "kodNormal": "405",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Akü aşırı gerilimi (yürüyüş/yükleme invertörü)",
+      "aciklama": "Elektrikli forkliftin yürüyüş/yükleme invertöründe akü gerilimi izin verilen üst sınırı aştı. Sürüş gücü kısıtlanabilir; akü ve şarj sistemini kontrol edin.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Akü geriliminin invertör için belirlenen üst sınırı aşması"
+      ],
+      "kontroller": [
+        "Akü gerilimini ölçün ve şarj cihazını kontrol edin.",
+        "İnvertör besleme klemelerini ve topraklamayı doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "408",
+      "kodNormal": "408",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş invertörü MOSFET kısa devresi",
+      "aciklama": "Yürüyüş invertörünün güç modülünde MOSFET kısa devresi algılandı. Bu durum sürüş çıkışını durdurur; invertör güç modülünün kontrolü gerekir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yürüyüş invertörü güç modülünde mosfet kısa devresi"
+      ],
+      "kontroller": [
+        "İnvertörün güç modülünü ve mosfet çıkışlarını kontrol edin.",
+        "Motor faz kablolarında kısa devre olup olmadığını inceleyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "436",
+      "kodNormal": "436",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Pompa/yükleme kontrolcüsü sıcaklık sensörü hatası",
+      "aciklama": "Pompa ve yükleme kontrolcüsünün sıcaklık sensörü anormal sinyal veriyor. Sürücü, aşırı ısınmaya karşı güç kısıtlama uygulayabilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Pompa/yükleme kontrolcüsü sıcaklık sensörünün bozuk sinyali"
+      ],
+      "kontroller": [
+        "Sıcaklık sensörünün kablo ve konnektörünü kontrol edin.",
+        "Gerekirse sensörü veya kontrolcüyü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "558",
+      "kodNormal": "558",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "Gösterge paneli iletişim hatası (yazılım bülteni istisnası)",
+      "aciklama": "Elektrikli modelin gösterge panelinde iletişim/hata mesajı görüldü; Nissan yazılım bülteninde bu kod için bir istisna tanımlanmıştır. Panel yazılım sürümünü doğrulayın.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gösterge paneli iletişim hatası ve ilgili yazılım bülteni istisnası"
+      ],
+      "kontroller": [
+        "Gösterge paneli yazılım sürümünü kontrol edin.",
+        "Panel soketini ve CAN hattı bağlantısını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D73",
+      "kodNormal": "D73",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor devir (RPM) sensörü sinyal hatası",
+      "aciklama": "Motor devir sensöründen gelen sinyal geçersiz ya da kesik. Kontrolör motor hızını doğru okuyamadığı için çalışma düzensizleşebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor devir (RPM) sensörü sinyal hatası"
+      ],
+      "kontroller": [
+        "Devir sensörünün kablo ve konnektörünü kontrol edin.",
+        "Sensörü ve flywheel dişlerini inceleyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D75",
+      "kodNormal": "D75",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor rölanti şalteri giriş hatası",
+      "aciklama": "Motor rölanti şalterinin giriş sinyali beklenen durumda değil. Rölanti tespiti hatalı olduğundan gaz sinyali kontrolü etkilenebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor rölanti şalteri giriş sinyali hatası"
+      ],
+      "kontroller": [
+        "Rölanti şalteri devresini ve ayarını kontrol edin.",
+        "Gerekirse şalteri değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D76",
+      "kodNormal": "D76",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Gaz sinyali minimum konum giriş hatası",
+      "aciklama": "Gaz sinyali minimum (kapalı) konum girişi beklenen aralıkta değil. Kontrolör gazın kapalı olduğunu doğrulayamaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gaz sinyali minimum konum giriş hatası"
+      ],
+      "kontroller": [
+        "Gaz sinyali sensörünün kablo ve konektörünü kontrol edin.",
+        "Boşta konum ayarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D77",
+      "kodNormal": "D77",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Gaz sinyali maksimum konum giriş hatası",
+      "aciklama": "Gaz sinyali maksimum (tam gaz) konum girişi geçersiz. Kontrolör üst gaz konumunu okuyamadığı için güç çıkışı sınırlanabilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gaz sinyali maksimum konum giriş hatası"
+      ],
+      "kontroller": [
+        "Gaz sinyali sensörünü ve kablo demetini kontrol edin.",
+        "Tam gaz ayarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D78",
+      "kodNormal": "D78",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Gaz sinyali orijinal (home) konum sinyal hatası",
+      "aciklama": "Gaz sinyalinin başlangıç (home) konum sinyali bozuk. Kontrolör referans konumu belirleyemediği için gaz sinyali kalibrasyonu gerekir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gaz sinyali orijinal (home) konum sinyal hatası"
+      ],
+      "kontroller": [
+        "Gaz sinyali sensörü referans sinyalini kontrol edin.",
+        "Kalibrasyon prosedürünü yeniden uygulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D79",
+      "kodNormal": "D79",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Gaz sinyali minimum şalter sinyal hatası",
+      "aciklama": "Gaz sinyali minimum şalterinden gelen sinyal hatalı. Kontrolör gazın kapalı konumunu güvenilir biçimde algılayamaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gaz sinyali minimum şalter sinyal hatası"
+      ],
+      "kontroller": [
+        "Minimum şalter devresini ve ayarını kontrol edin.",
+        "Gerekirse şalteri değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D91",
+      "kodNormal": "D91",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Gaz sinyali aktüatör motoru hatası",
+      "aciklama": "Elektronik gaz sinyali aktüatör motoru beklenen konuma ulaşamıyor veya akım çekişi anormal. Motor ve konum geri beslemesi kontrol edilmelidir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gaz sinyali aktüatör motoru arızası"
+      ],
+      "kontroller": [
+        "Aktüatör motorunun beslemesini ve kablolarını kontrol edin.",
+        "Konum geri besleme devresini doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-28",
+      "kodNormal": "E28",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Motor faz (PHASE) sensörü senkronizasyon hatası",
+      "aciklama": "Motor faz (kam) sensörünün sinyali krank referansıyla uyumlu değil. E-28, K21/K25 motorlarda E28 PHASE sensörünün tireli gösterim olabilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor faz sensörü senkronizasyon sinyali anormalliği"
+      ],
+      "kontroller": [
+        "Faz (kam) sensörü kablo ve konnektörünü kontrol edin.",
+        "Sensör hizasını ve krank referansını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E03",
+      "kodNormal": "E03",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Araç kontrol modülü (VCM) CAN iletişim uyarısı",
+      "aciklama": "Araç kontrol modülüyle (VCM) CAN hattı üzerinden veri alışverişi kesildi. P03 kodu aynı hatanın gösterge paneli tarafındaki karşılığıdır.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "VCM CAN iletişim uyarısı (motor/kontrolör tarafı)"
+      ],
+      "kontroller": [
+        "VCM beslemesini ve CAN hattı konektörlerini kontrol edin.",
+        "Hata kalırsa kontrolörü kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E04",
+      "kodNormal": "E04",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "Motor ECM iletişim hatası",
+      "aciklama": "Motor elektronik kontrol modülüyle (ECM) iletişim kurulamıyor. Kontrolör, motor verilerini okuyamadığı için koruma moduna geçebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor ECM iletişim hatası"
+      ],
+      "kontroller": [
+        "ECM beslemesini ve CAN hattı bağlantısını kontrol edin.",
+        "Konektörleri yeniden takıp hatayı tekrar okuyun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E05",
+      "kodNormal": "E05",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "DCM kontrolcüsü iletişim hatası",
+      "aciklama": "DCM kontrolcüsüyle veri alışverişi kesildi. Takılı modüllere bağlı olarak ilgili fonksiyonlar sınırlanabilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "DCM kontrolcüsü iletişim hatası"
+      ],
+      "kontroller": [
+        "DCM besleme ve iletişim konektörlerini kontrol edin.",
+        "Aracın takılı modül listesini doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E06",
+      "kodNormal": "E06",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "HST kontrolcüsü iletişim hatası",
+      "aciklama": "Hidrostatik şanzıman (HST) kontrolcüsüyle veri alışverişi kesildi. Yürüyüş kontrolü etkilenebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "HST kontrolcüsü iletişim hatası"
+      ],
+      "kontroller": [
+        "HST kontrolcüsünün beslemesini ve CAN hattını kontrol edin.",
+        "Konektörleri ve topraklamayı doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E07",
+      "kodNormal": "E07",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "Gösterge paneli iletişim hatası",
+      "aciklama": "Gösterge paneliyle (meter panel) iletişim kesildi. Panel, kontrolörden gelen verileri gösteremeyebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gösterge paneli iletişim hatası"
+      ],
+      "kontroller": [
+        "Panel soketini ve iletişim hattını kontrol edin.",
+        "Panel beslemesini doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E08",
+      "kodNormal": "E08",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "TMS kontrolcüsü iletişim hatası",
+      "aciklama": "TMS kontrolcüsüyle (şanzıman yönetim sistemi) veri alışverişi kesildi. İlgili fonksiyonlar kısıtlanabilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "TMS kontrolcüsü iletişim hatası"
+      ],
+      "kontroller": [
+        "TMS besleme ve iletişim konektörlerini kontrol edin.",
+        "Aracın takılı modül listesini doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E21",
+      "kodNormal": "E21",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Motor hava akış (MAF) sensörü elektrik sinyali hatası",
+      "aciklama": "Motor hava akış ölçerinin (MAF) elektrik sinyali aralık dışında. E21, K21/K25 motorlarda MAF girişini ifade eder; E22 su sıcaklığı, E23 gaz sinyalidir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hava akış ölçer (MAF) elektrik sinyal hatası"
+      ],
+      "kontroller": [
+        "MAF sensörü kablo ve konnektörünü kontrol edin.",
+        "Sensör kirlenmesini inceleyin, gerekirse değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E22",
+      "kodNormal": "E22",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor soğutma suyu sıcaklık sensörü sinyal hatası",
+      "aciklama": "Motor soğutma suyu sıcaklık sensörünün sinyali geçersiz. Kontrolör motor sıcaklığını doğru okuyamadığı için koruma stratejisi devreye girebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Soğutma suyu sıcaklık sensörü sinyal hatası"
+      ],
+      "kontroller": [
+        "ECT sensörünün kablo ve konnektörünü kontrol edin.",
+        "Soğutma suyu seviyesini doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E23",
+      "kodNormal": "E23",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Gaz sinyali konum sensörü (TPS) giriş uyarısı",
+      "aciklama": "Gaz gövdesindeki konum sensörünün (TPS) girişi uyarı sınırında. E24 hızlandırıcı pedalı, E31 ise gaz motorunu ifade eder.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gaz gövdesi TPS giriş uyarısı"
+      ],
+      "kontroller": [
+        "TPS kablo ve konnektörünü kontrol edin.",
+        "Gaz gövdesi konum ayarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E24",
+      "kodNormal": "E24",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Hızlandırıcı pedal çift devre sinyal/korelasyon uyarısı",
+      "aciklama": "Hızlandırıcı pedalının çift devre sinyalleri arasında elektriksel uyum veya korelasyon hatası var. Pedal konum güvenilirliği azalmıştır.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hızlandırıcı pedal çift devre korelasyon uyarısı"
+      ],
+      "kontroller": [
+        "Pedal sensörü kablo demetini ve konnektörünü kontrol edin.",
+        "İki sinyal hattını birlikte doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E25",
+      "kodNormal": "E25",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Oksijen sensörü egzoz sinyali elektrik hatası",
+      "aciklama": "Oksijen sensörünün egzoz sinyali elektriksel olarak hatalı. Yakıt dengesi ve emisyon kontrolü etkilenebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Oksijen sensörü egzoz sinyali elektrik hatası"
+      ],
+      "kontroller": [
+        "Oksijen sensörü kablo ve konnektörünü kontrol edin.",
+        "Egzoz kaçağı olup olmadığını inceleyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E26",
+      "kodNormal": "E26",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Isıtmalı oksijen sensörü ısıtıcı devresi uyarısı",
+      "aciklama": "Isıtmalı oksijen sensörünün ısıtıcı devresi aralık dışında. Sensör soğukken doğru okuma yapamayabilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Oksijen sensörü ısıtıcı devresi uyarısı"
+      ],
+      "kontroller": [
+        "Isıtıcı besleme ve kablo devresini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E27",
+      "kodNormal": "E27",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor krank (POS) referans sinyal hatası",
+      "aciklama": "Motor krank pozisyon (POS) referans sinyali bozuk. Kontrolör motor açısını belirleyemediği için ateşleme zamanlaması etkilenebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Krank referans sinyal hatası"
+      ],
+      "kontroller": [
+        "Krank sensörü kablo ve konnektörünü kontrol edin.",
+        "Sensör hizasını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E29",
+      "kodNormal": "E29",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor otomatik kapanma teşhis sonucu hatası",
+      "aciklama": "Motorun kendi kendini kapatma (self-shutdown) teşhis sonucu hatalı. Kontrolör kapanma nedenini doğrulayamadı.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor otomatik kapanma teşhis sonucu hatası"
+      ],
+      "kontroller": [
+        "Motor kapanma geçmişini ve ilgili sensörleri kontrol edin.",
+        "Besleme ve topraklama bağlantılarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E30",
+      "kodNormal": "E30",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "K-motor ECCS kontrol ünitesi elektronik uyarısı",
+      "aciklama": "K serisi motorun ECCS kontrol ünitesinde elektronik bir anomali algılandı. Kontrolörün dahili durumu kontrol edilmelidir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "ECCS kontrol ünitesi elektronik uyarısı"
+      ],
+      "kontroller": [
+        "ECCS kontrol ünitesinin beslemesini kontrol edin.",
+        "Konektörleri doğrulayıp gerekirse üniteyi değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E31",
+      "kodNormal": "E31",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Elektronik gaz sinyali motor/konum takip uyarısı",
+      "aciklama": "Elektronik gaz sinyali motorunun konum takibi beklenenle uyumlu değil. E31 gaz motorunu ifade eder; E23 TPS girişidir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Elektronik gaz motoru konum takip uyarısı"
+      ],
+      "kontroller": [
+        "Gaz motorunun besleme ve kablo devresini kontrol edin.",
+        "Konum geri besleme sinyalini doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E32",
+      "kodNormal": "E32",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "K-motor soğutma suyu aşırı ısınma uyarısı (aşama 1)",
+      "aciklama": "K serisi motorun soğutma suyu sıcaklığı birinci aşama aşırı ısınma eşiğine ulaştı. E33 daha yüksek şiddetli ikinci aşamadır.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Soğutma suyu aşırı ısınma uyarısı, aşama 1"
+      ],
+      "kontroller": [
+        "Soğutma suyu seviyesini ve radyatörü kontrol edin.",
+        "Termostat ve fan çalışmasını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E33",
+      "kodNormal": "E33",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Motor soğutma suyu aşırı ısınma uyarısı (aşama 2)",
+      "aciklama": "Motor soğutma suyu ikinci aşama aşırı ısınma eşiğine ulaştı; E32'den daha yüksek şiddettedir. K21/K25 benzinli motorlar için geçerlidir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Soğutma suyu aşırı ısınma uyarısı, aşama 2"
+      ],
+      "kontroller": [
+        "Soğutma sistemini ve su seviyesini hemen kontrol edin.",
+        "Yük altında çalıştırmayı durdurup soğutun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E34",
+      "kodNormal": "E34",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Ateşleme sinyal hattı arızası",
+      "aciklama": "Ateşleme sinyal hattında arıza var; buji ateşleme komutu iletilemiyor. Motor teklemesi veya çalışmama görülebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ateşleme sinyal hattı arızası"
+      ],
+      "kontroller": [
+        "Ateşleme bobini kablo ve konektörünü kontrol edin.",
+        "Buji ve bobin durumunu inceleyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E35",
+      "kodNormal": "E35",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "LPG enjektör devresi açık/kopuk uyarısı",
+      "aciklama": "LPG enjektör devresi açık veya bağlantı kopuk. Enjektör yakıt veremediği için motor düzensiz çalışabilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "LPG enjektör devresi açık/kopuk uyarısı"
+      ],
+      "kontroller": [
+        "Enjektör kablo ve konnektörünü kontrol edin.",
+        "Enjektör direncini ölçün, gerekirse değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E36",
+      "kodNormal": "E36",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "LPG yakıt basınç sensörü giriş devresi hatası",
+      "aciklama": "LPG yakıt basınç sensörünün giriş devresi hatalı. Kontrolör yakıt basıncını doğru okuyamaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "LPG yakıt basınç sensörü giriş devresi hatası"
+      ],
+      "kontroller": [
+        "Basınç sensörü kablo ve konnektörünü kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E37",
+      "kodNormal": "E37",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "LPG yakıt sıcaklık sensörü sinyal hatası",
+      "aciklama": "LPG yakıt sıcaklık sensörünün teşhis sinyali hatalı. Yakıt sıcaklığına bağlı besleme düzeltmesi etkilenebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "LPG yakıt sıcaklık sensörü sinyal hatası"
+      ],
+      "kontroller": [
+        "Sıcaklık sensörü kablo ve konnektörünü kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E38",
+      "kodNormal": "E38",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "LPG buharlaştırıcı yakıt basıncı anormalliği",
+      "aciklama": "LPG buharlaştırıcısında yakıt basıncı anormal. Buharlaştırıcı çıkış basıncı kontrol edilmelidir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "LPG buharlaştırıcı yakıt basıncı anormalliği"
+      ],
+      "kontroller": [
+        "Buharlaştırıcı çıkış basıncını kontrol edin.",
+        "Buharlaştırıcı ve hatları inceleyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E39",
+      "kodNormal": "E39",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Direk yükseklik şalteri sinyal hatası",
+      "aciklama": "Direk (mast) yükseklik şalterinin teşhis sinyali hatalı. Kontrolör yükseklik bilgisini doğru alamaz.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Direk yükseklik şalteri sinyal hatası"
+      ],
+      "kontroller": [
+        "Yükseklik şalteri kablo ve konnektörünü kontrol edin.",
+        "Şalter montajını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E40",
+      "kodNormal": "E40",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor yağ basınç sensörü sinyal hatası",
+      "aciklama": "Motor yağ basınç sensörünün teşhis sinyali hatalı. Yağ basıncı bilgisi güvenilir olmadığından koruma devreye girebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor yağ basınç sensörü sinyal hatası"
+      ],
+      "kontroller": [
+        "Yağ basınç sensörü kablo ve konnektörünü kontrol edin.",
+        "Yağ seviyesini ve basıncını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E41",
+      "kodNormal": "E41",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Stop lambası şalteri giriş hatası",
+      "aciklama": "Stop lambası şalterinin giriş sinyali hatalı. E43 yakıt karışımı, fren basıncı ise farklı bir devredir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Stop lambası şalteri giriş hatası"
+      ],
+      "kontroller": [
+        "Stop lambası şalteri devresini kontrol edin.",
+        "Lamba ve kablo bağlantılarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F01",
+      "kodNormal": "F01",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "VCM kontrolcüsü bellek kontrol uyarısı",
+      "aciklama": "VCM kontrolcüsünün bellek bütünlük kontrolü uyarı verdi. Kontrolör verilerinin geçerliliği doğrulanmalıdır.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "VCM bellek bütünlük kontrol uyarısı"
+      ],
+      "kontroller": [
+        "Kontrolörü yeniden başlatıp hatayı tekrar okuyun.",
+        "Hata sürerse kontrolörü kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F02",
+      "kodNormal": "F02",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Araç kontrolcüsü akü/besleme gerilimi hatası",
+      "aciklama": "Araç kontrolcüsünün besleme gerilimi beklenen aralık dışında. Düşük veya yüksek gerilim kontrolör davranışını etkiler.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Araç kontrolcüsü besleme gerilimi hatası"
+      ],
+      "kontroller": [
+        "Akü gerilimini ve şarj sistemini kontrol edin.",
+        "Besleme sigortalarını ve klemeleri doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F03",
+      "kodNormal": "F03",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "VCM kontrolcüsü CAN iletişim hatası",
+      "aciklama": "VCM kontrolcüsünün CAN hattı iletişimi kesildi. Araç genelinde iletişime bağlı fonksiyonlar etkilenebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "VCM CAN iletişim hatası"
+      ],
+      "kontroller": [
+        "CAN hattı konektörlerini ve uç dirençlerini kontrol edin.",
+        "VCM beslemesini doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F04",
+      "kodNormal": "F04",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "ECM CAN iletişim hatası",
+      "aciklama": "Motor ECM'sinin CAN hattı iletişimi kesildi. Motor verileri diğer kontrolörlere iletilemiyor.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "ECM CAN iletişim hatası"
+      ],
+      "kontroller": [
+        "ECM CAN konektörlerini ve kablolarını kontrol edin.",
+        "ECM besleme sigortalarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F05",
+      "kodNormal": "F05",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "DCM kontrolcüsü iletişim hatası",
+      "aciklama": "DCM kontrolcüsüyle CAN iletişimi kesildi. Takılı modüllere bağlı fonksiyonlar sınırlanabilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "DCM kontrolcüsü iletişim hatası"
+      ],
+      "kontroller": [
+        "DCM besleme ve CAN bağlantılarını kontrol edin.",
+        "Takılı modül listesini doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F06",
+      "kodNormal": "F06",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "HST kontrolcüsü iletişim hatası",
+      "aciklama": "Hidrostatik şanzıman (HST) kontrolcüsüyle CAN iletişimi kesildi. Yürüyüş kontrolü etkilenebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "HST kontrolcüsü CAN iletişim hatası"
+      ],
+      "kontroller": [
+        "HST kontrolcüsü besleme ve CAN hattını kontrol edin.",
+        "Konektörleri ve topraklamayı doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F07",
+      "kodNormal": "F07",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Gösterge paneli iletişim hatası (F kodu)",
+      "aciklama": "F kodu grubunda gösterge paneli iletişim hatası kaydedildi. F04 ECM, F03 VCM ile ilgilidir; P07 panel tarafındaki mesajdır.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gösterge paneli iletişim hatası (F kodu grubu)"
+      ],
+      "kontroller": [
+        "Panel beslemesini ve CAN bağlantısını kontrol edin.",
+        "Panel yazılım sürümünü doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F08",
+      "kodNormal": "F08",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "TMS kontrolcüsü iletişim hatası",
+      "aciklama": "TMS kontrolcüsüyle CAN iletişimi kesildi. Şanzımanla ilgili fonksiyonlar kısıtlanabilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "TMS kontrolcüsü iletişim hatası"
+      ],
+      "kontroller": [
+        "TMS besleme ve CAN bağlantılarını kontrol edin.",
+        "Takılı modül listesini doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F10",
+      "kodNormal": "F10",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma kolu nötrde değil / nötr giriş hatası",
+      "aciklama": "Kaldırma kolu nötr konumda değil veya nötr giriş sinyali hatalı. Kontrolör kolu nötr kabul etmediği için kaldırma devreye girmeyebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma kolu nötr giriş hatası"
+      ],
+      "kontroller": [
+        "Kaldırma kolu nötr şalterini ve ayarını kontrol edin.",
+        "Kol kablo bağlantılarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F11",
+      "kodNormal": "F11",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Eğme kolu nötrde değil / nötr giriş hatası",
+      "aciklama": "Eğme (tilt) kolu nötr konumda değil veya nötr giriş sinyali hatalı. Eğme fonksiyonu etkilenebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Eğme kolu nötr giriş hatası"
+      ],
+      "kontroller": [
+        "Eğme kolu nötr şalterini ve ayarını kontrol edin.",
+        "Kol kablo bağlantılarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F12",
+      "kodNormal": "F12",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Ataşman-1 kolu nötr giriş hatası",
+      "aciklama": "Birinci ataşman kolunun nötr giriş sinyali hatalı. Ataşman fonksiyonu güvenli şekilde devreye girmeyebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman-1 kolu nötr giriş hatası"
+      ],
+      "kontroller": [
+        "Ataşman-1 kol şalterini kontrol edin.",
+        "Kablo ve konnektör bağlantılarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F13",
+      "kodNormal": "F13",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Ataşman-2 kolu nötr giriş hatası",
+      "aciklama": "İkinci ataşman kolunun nötr giriş sinyali hatalı. Ataşman fonksiyonu güvenli şekilde devreye girmeyebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman-2 kolu nötr giriş hatası"
+      ],
+      "kontroller": [
+        "Ataşman-2 kol şalterini kontrol edin.",
+        "Kablo ve konnektör bağlantılarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F14",
+      "kodNormal": "F14",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Ataşman-3 kolu nötr giriş hatası",
+      "aciklama": "Üçüncü ataşman kolunun nötr giriş sinyali hatalı. Ataşman fonksiyonu güvenli şekilde devreye girmeyebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman-3 kolu nötr giriş hatası"
+      ],
+      "kontroller": [
+        "Ataşman-3 kol şalterini kontrol edin.",
+        "Kablo ve konnektör bağlantılarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F16",
+      "kodNormal": "F16",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "İleri-nötr-geri vites kolu giriş uyarısı",
+      "aciklama": "İleri-nötr-geri (FNR) vites kolunun giriş sinyali geçersiz. Kontrolör yön seçimini doğrulayamıyor.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "İleri-nötr-geri vites kolu giriş uyarısı"
+      ],
+      "kontroller": [
+        "FNR kolu şalter devresini kontrol edin.",
+        "Kol konum ayarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F17",
+      "kodNormal": "F17",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Araç hız sinyali / aşırı hız durumu hatası",
+      "aciklama": "Araç hız sinyali veya aşırı hız durumu hatalı. Kontrolör gerçek hızı doğru değerlendiremediği için hız sınırlaması etkilenebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Araç hız sinyali / aşırı hız durumu hatası"
+      ],
+      "kontroller": [
+        "Hız sensörü sinyalini ve kablo demetini kontrol edin.",
+        "Aşırı hız eşiği parametresini doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F20",
+      "kodNormal": "F20",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma kolu çalışma girişi hatası",
+      "aciklama": "Kaldırma kolunun çalışma (operating) giriş sinyali hatalı. Kontrolör kol komutunu algılayamıyor.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma kolu çalışma girişi hatası"
+      ],
+      "kontroller": [
+        "Kaldırma kolu çalışma şalterini kontrol edin.",
+        "Kablo ve konnektör bağlantılarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F22",
+      "kodNormal": "F22",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Eğme kolu çalışma girişi hatası",
+      "aciklama": "Eğme kolu çalışma giriş sinyali hatalı. Kontrolör eğme komutunu algılayamıyor.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Eğme kolu çalışma girişi hatası"
+      ],
+      "kontroller": [
+        "Eğme kolu çalışma şalterini kontrol edin.",
+        "Kablo ve konnektör bağlantılarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F24",
+      "kodNormal": "F24",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Ataşman-1 kolu çalışma girişi hatası",
+      "aciklama": "Birinci ataşman kolunun çalışma giriş sinyali hatalı. Ataşman komutu kontrolöre iletilemiyor.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman-1 kolu çalışma girişi hatası"
+      ],
+      "kontroller": [
+        "Ataşman-1 çalışma şalterini kontrol edin.",
+        "Kablo ve konnektör bağlantılarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F26",
+      "kodNormal": "F26",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Ataşman-2 kolu çalışma girişi hatası",
+      "aciklama": "İkinci ataşman kolunun çalışma giriş sinyali hatalı. Ataşman komutu kontrolöre iletilemiyor.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman-2 kolu çalışma girişi hatası"
+      ],
+      "kontroller": [
+        "Ataşman-2 çalışma şalterini kontrol edin.",
+        "Kablo ve konnektör bağlantılarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F28",
+      "kodNormal": "F28",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Ataşman-3 kolu çalışma girişi hatası",
+      "aciklama": "Üçüncü ataşman kolunun çalışma giriş sinyali hatalı. Ataşman komutu kontrolöre iletilemiyor.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman-3 kolu çalışma girişi hatası"
+      ],
+      "kontroller": [
+        "Ataşman-3 çalışma şalterini kontrol edin.",
+        "Kablo ve konnektör bağlantılarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F30",
+      "kodNormal": "F30",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Ana hidrolik yağ basınç sensörü hatası",
+      "aciklama": "Ana hidrolik besleme hattındaki yağ basınç sensörü hatalı. F32 kaldırma yağı basıncını ifade eder; kaynak farklıdır.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ana hidrolik yağ basınç sensörü hatası"
+      ],
+      "kontroller": [
+        "Ana hat basınç sensörünün kablo ve konnektörünü kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F32",
+      "kodNormal": "F32",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma devresi hidrolik yağ basınç sensörü hatası",
+      "aciklama": "Kaldırma devresinin hidrolik yağ basınç sensörü hatalı. Kaldırma basıncı doğru okunamadığı için fonksiyon sınırlanabilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma devresi yağ basınç sensörü hatası"
+      ],
+      "kontroller": [
+        "Kaldırma hattı basınç sensörünü kontrol edin.",
+        "Hidrolik yağ seviyesini doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F34",
+      "kodNormal": "F34",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Araç hız sensörü elektrik/geri besleme uyarısı",
+      "aciklama": "Araç hız sensörünün elektrik sinyali veya geri beslemesi hatalı. Hız bilgisi güvenilir olmadığından sınırlama uygulanabilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Araç hız sensörü elektrik/geri besleme uyarısı"
+      ],
+      "kontroller": [
+        "Hız sensörü kablo ve konnektörünü kontrol edin.",
+        "Sensör çıkış sinyalini doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F36",
+      "kodNormal": "F36",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Direksiyon/tekerlek açı sensörü sinyal hatası",
+      "aciklama": "Direksiyon ve tekerlek açı sensörünün sinyali hatalı. Direksiyon geri beslemesi doğru okunamıyor.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Direksiyon/tekerlek açı sensörü sinyal hatası"
+      ],
+      "kontroller": [
+        "Açı sensörü kablo ve konnektörünü kontrol edin.",
+        "Sensör montaj yönünü doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F38",
+      "kodNormal": "F38",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Direk eğim açı sensörü sinyal hatası",
+      "aciklama": "Direk (mast) eğim açı sensörünün sinyali hatalı. Direk açısı bilgisi kullanılarak yapılan korumalar etkilenebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Direk eğim açı sensörü sinyal hatası"
+      ],
+      "kontroller": [
+        "Eğim sensörü kablo ve konnektörünü kontrol edin.",
+        "Sensör montajını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F40",
+      "kodNormal": "F40",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon sistemi hatası",
+      "aciklama": "Direksiyon sisteminde genel bir arıza algılandı. Direksiyon desteği veya geri beslemesi etkilenmiş olabilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Direksiyon sistemi hatası"
+      ],
+      "kontroller": [
+        "Direksiyon sensör ve devrelerini kontrol edin.",
+        "Gerekirse kontrolörü kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F50",
+      "kodNormal": "F50",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma hidrolik solenoidi hatası",
+      "aciklama": "Kaldırma yönündeki hidrolik solenoid arızalı. Solenoid komutu yerine getirmediği için kaldırma yapılamayabilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma hidrolik solenoidi hatası"
+      ],
+      "kontroller": [
+        "Solenoid bobin ve kablo bağlantılarını kontrol edin.",
+        "Gerekirse solenoidi değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F52",
+      "kodNormal": "F52",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "İndirme hidrolik solenoidi hatası",
+      "aciklama": "İndirme yönündeki hidrolik solenoid arızalı. İndirme komutu yerine getirilemeyebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "İndirme hidrolik solenoidi hatası"
+      ],
+      "kontroller": [
+        "Solenoid bobin ve kablo bağlantılarını kontrol edin.",
+        "Gerekirse solenoidi değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F54",
+      "kodNormal": "F54",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Kaldırma solenoidi kaçak/kapalı durum sürücü hatası",
+      "aciklama": "Kaldırma hidrolik solenoidinin kapalı durum kaçağı veya sürücü çıkışı hatalı. Solenoid beklenmedik şekilde enerjileniyor olabilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma solenoidi kapalı durum sürücü hatası"
+      ],
+      "kontroller": [
+        "Solenoid sürücü devresini ve kabloları kontrol edin.",
+        "Kaçak olup olmadığını inceleyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F55",
+      "kodNormal": "F55",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "İleri eğme hidrolik solenoidi elektrik hatası",
+      "aciklama": "İleri eğme hidrolik solenoidinin elektrik devresi hatalı. Eğme komutu iletilemeyebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "İleri eğme hidrolik solenoidi elektrik hatası"
+      ],
+      "kontroller": [
+        "Solenoid kablo ve konnektörünü kontrol edin.",
+        "Bobin direncini ölçün."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F75",
+      "kodNormal": "F75",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik boşaltma solenoidi akım kontrol uyarısı",
+      "aciklama": "Hidrolik boşaltma (unload) solenoidinin akım kontrolü uyarı verdi. Solenoid sürücü akımı beklenen aralıkta değil.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hidrolik boşaltma solenoidi akım kontrol uyarısı"
+      ],
+      "kontroller": [
+        "Solenoid sürücü akımını ve kabloları kontrol edin.",
+        "Gerekirse sürücüyü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F77",
+      "kodNormal": "F77",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kaldırma kilit solenoidi elektrik hatası",
+      "aciklama": "Kaldırma kilit solenoidinin elektrik devresi hatalı. F75 boşaltma solenoidi, F79 ise kapalı durum kaçağıdır.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma kilit solenoidi elektrik hatası"
+      ],
+      "kontroller": [
+        "Kilit solenoidi kablo ve konnektörünü kontrol edin.",
+        "Bobin direncini ölçün."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F85",
+      "kodNormal": "F85",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Şanzıman ileri solenoidi hatası",
+      "aciklama": "Şanzımanın ileri (forward) kavrama solenoidi arızalı. F87 geri solenoidi, F16 ise vites kolu girişidir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Şanzıman ileri solenoidi hatası"
+      ],
+      "kontroller": [
+        "İleri kavrama solenoidi devresini kontrol edin.",
+        "Gerekirse solenoidi değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F89",
+      "kodNormal": "F89",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Şanzıman solenoidi kaçak/kapalı durum akım uyarısı",
+      "aciklama": "Şanzıman solenoidinin kapalı durum kaçak akımı uyarı sınırında. Sürücü çıkışında beklenmeyen akım var.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Şanzıman solenoidi kapalı durum akım uyarısı"
+      ],
+      "kontroller": [
+        "Solenoid sürücü devresini ve kabloları kontrol edin.",
+        "Kaçak akım olup olmadığını inceleyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "P03",
+      "kodNormal": "P03",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "Gösterge paneli VCM iletişimini alamıyor",
+      "aciklama": "Gösterge paneli, VCM'den gelen iletişim mesajını alamıyor. P04 ECM alıcı tarafı, P07 ise panel mesaj/çıkış hatasıdır.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gösterge paneli VCM mesajı eksik"
+      ],
+      "kontroller": [
+        "Panelin CAN alıcı hattını ve konektörlerini kontrol edin.",
+        "VCM beslemesini doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "P04",
+      "kodNormal": "P04",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "Gösterge paneli motor ECM CAN mesajı eksik",
+      "aciklama": "Gösterge paneli, motor ECM'sinden gelen CAN mesajını alamıyor. Motor bilgileri panelde gösterilemeyebilir.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gösterge paneli ECM CAN mesajı eksik"
+      ],
+      "kontroller": [
+        "ECM CAN hattını ve panel konektörünü kontrol edin.",
+        "ECM beslemesini doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "P07",
+      "kodNormal": "P07",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Gösterge paneli CAN iletişim/iletim hatası",
+      "aciklama": "Gösterge panelinin CAN mesaj gönderiminde hata var. P03'ten farklı olarak VCM alma hatası değil, panel çıkış hatasıdır.",
+      "makineTepkisi": "Arıza türüne göre uyarı lambası/kesinti; ünite sınırlamaları modele göre değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gösterge paneli CAN iletim hatası"
+      ],
+      "kontroller": [
+        "Panel CAN çıkış hattını ve konektörleri kontrol edin.",
+        "Panel yazılım sürümünü doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/nissan/",
+      "durum": "incelemede"
+    }
+  ]
+}

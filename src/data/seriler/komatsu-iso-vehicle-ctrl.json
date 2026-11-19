@@ -1,0 +1,171 @@
+{
+  "marka": "komatsu",
+  "seri": "iso-vehicle-ctrl",
+  "modelAdi": "FG/FD AX50-BX50 (FG10-30-16/20, FD10-30-16/20) ISO araç kontrolörü hata lambası kodları",
+  "kaynakBelge": "Komatsu FG/FD AX50-BX50 Shop Manual BEB16E1-01 — Vehicle controller & power steering troubleshooting (forkliftpdfmanuals.com PDF)",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294234066/Komatsu+FD+FG+Forklift+Trucks+Shop+Manual+PDF.pdf",
+  "kodlar": [
+    {
+      "kod": "1",
+      "kodNormal": "1",
+      "aliaslar": [
+        "1 blink",
+        "Error No.1"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Koltuk şalteri arızası",
+      "aciklama": "Koltuk şalteri açık ya da kısa devre; hata lambası 1 kez yanıp söner ve yürüyüş ile iş ekipmanı kilitlenir.",
+      "makineTepkisi": "Yürüyüş ve kaldırma çalışmaz; N lambası yanıp söner.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "SEAT_SW1/SEAT_SW2 koltuk şalteri devresi açık veya kısa devre (OFF-OFF → Error1 açık, ON-ON → Error1 kısa)"
+      ],
+      "kontroller": [
+        "SEAT_SW koltuk şalteri devresini kontrol edin ve gerekirse onarın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294234066/Komatsu+FD+FG+Forklift+Trucks+Shop+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "2",
+      "kodNormal": "2",
+      "aliaslar": [
+        "2 blink",
+        "Error No.2"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "İleri/geri yön kolu arızası",
+      "aciklama": "F/R yön kolu kısa devre; hata lambası 2 kez yanıp söner, yürüyüş engellenir.",
+      "makineTepkisi": "Yürüyüş çalışmaz, kaldırma çalışabilir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "F_SW1/R_SW2 yön şalteri aynı anda kapalı (kisa devre/yanlış sinyal)"
+      ],
+      "kontroller": [
+        "F/R kol devresini kontrol edip onarın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294234066/Komatsu+FD+FG+Forklift+Trucks+Shop+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "3",
+      "kodNormal": "3",
+      "aliaslar": [
+        "3 blink"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Lamba ve ekipman interlock röle hatası",
+      "aciklama": "N lambası / kaldırma (mast) lambası ya da ekipman kilit rölesi anormal çıkış veriyor; lamba 3 kez yanıp söner.",
+      "makineTepkisi": "Lambalar yanlış durumda kalır, ekipman kilidi hatalı çalışır.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "N_LAMP/MAST_LAMP açık ya da kısa devre",
+        "İş ekipmanı kilit rölesi anormal çıkışı"
+      ],
+      "kontroller": [
+        "Lambaları ve lamba devresini kontrol edin; hatalıysa onarın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294234066/Komatsu+FD+FG+Forklift+Trucks+Shop+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "4",
+      "kodNormal": "4",
+      "aliaslar": [
+        "4 blink"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma rölesi / sürücü çıkış hatası",
+      "aciklama": "MAST_RELAY ya da kontrolör kaldırma çıkışı açık/kısa devre; yalnızca iş ekipmanı ya da her ikisi de çalışmaz.",
+      "makineTepkisi": "Kaldırma fonksiyonu devre dışı; 5 kez blink durumunda yürüyüş de kilitlenebilir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kontrolör kaldırma çıkış transistörü açık ya da röle kopuk",
+        "MAST/F/R rölelerinden biri kısa devreli"
+      ],
+      "kontroller": [
+        "MAST_RELAY ve röle devresini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294234066/Komatsu+FD+FG+Forklift+Trucks+Shop+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "5",
+      "kodNormal": "5",
+      "aliaslar": [
+        "5 blink"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş rölesi / sürücü çıkış hatası",
+      "aciklama": "İleri veya geri yürüyüş rölesi ya da kontrolör çıkışı açık/kısa devre; yürüyüş ya da her iki fonksiyon çalışmaz.",
+      "makineTepkisi": "Yürüyüş devre dışı kalabilir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kontrolör yürüyüş çıkış transistörü açık ya da röle kopuk",
+        "F/R/MAST röle kısa devresi"
+      ],
+      "kontroller": [
+        "F_RELAY, R_RELAY ve röle devresini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294234066/Komatsu+FD+FG+Forklift+Trucks+Shop+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "6",
+      "kodNormal": "6",
+      "aliaslar": [
+        "6 blink"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ana röle (MAIN_RELAY) hatası",
+      "aciklama": "Ana röle devresi açık ya da kısa devre; yürüyüş ve iş ekipmanı tamamen kilitlenir.",
+      "makineTepkisi": "Tüm fonksiyonlar durur; kontalı kapatıp açmak gerekir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "MAIN_RELAY çıkışı açık veya kısa devre"
+      ],
+      "kontroller": [
+        "MAIN_RELAY ve röle devresini kontrol edip onarın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294234066/Komatsu+FD+FG+Forklift+Trucks+Shop+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "7",
+      "kodNormal": "7",
+      "aliaslar": [
+        "7 blink"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontrol ünitesi arızası",
+      "aciklama": "Araç kontrolörü (ISO interlock ünite) arızası; yürüyüş ve iş ekipmanı çalışmaz.",
+      "makineTepkisi": "Tüm fonksiyonlar durur; ünite değişimi gerekir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kontrol ünitesi iç arızası",
+        "Besleme hattı arızası"
+      ],
+      "kontroller": [
+        "Besleme devresini kontrol edin; üniteyi iade edip inceletin, gerekirse değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294234066/Komatsu+FD+FG+Forklift+Trucks+Shop+Manual+PDF.pdf",
+      "durum": "incelemede"
+    }
+  ]
+}

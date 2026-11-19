@@ -1,0 +1,12 @@
+---
+import { DURUMLAR } from '../lib/veri';
+
+interface Props {
+  durum: string;
+}
+const { durum } = Astro.props;
+const bilgi = DURUMLAR[durum] ?? { ad: durum || 'Bilinmiyor', renk: '#64748B' };
+const sinif = ['dogrulandi', 'incelemede', 'taslak'].includes(durum) ? durum : 'taslak';
+---
+
+<span class={`durum-rozet durum-${sinif}`} title={`Doğrulama durumu: ${bilgi.ad}`}>{bilgi.ad}</span>

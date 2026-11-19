@@ -1,0 +1,248 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiddetRozet from '../components/SiddetRozet.astro';
+import { aramaYap, getMarkalar, getSeriler, markaAdi, sistemAdi, SISTEMLER, trNormalize, kodAnahtar, kodAdresi } from '../lib/veri';
+
+const q = Astro.url.searchParams.get('q') ?? '';
+const marka = Astro.url.searchParams.get('marka') ?? '';
+const seri = Astro.url.searchParams.get('seri') ?? '';
+const sistem = Astro.url.searchParams.get('sistem') ?? '';
+
+const filtreler = { marka, seri, sistem };
+const tumKayitlar = aramaYap('');
+const ilkSonuclar = aramaYap(q, filtreler);
+const ilkAnahtarlar = new Set(
+  ilkSonuclar.map((s) => `${s.marka}|${s.seri}|${kodAnahtar(s.kod.kod)}`),
+);
+
+const markalar = getMarkalar();
+const seriler = getSeriler();
+const sistemler = Object.entries(SISTEMLER);
+
+const sonucAnahtar = (markaId: string, seriId: string, kod: string) =>
+  `${markaId}|${seriId}|${kodAnahtar(kod)}`;
+
+const aramaMetni = (sonuc: (typeof tumKayitlar)[number]) =>
+  trNormalize(
+    [
+      sonuc.kod.baslik,
+      sonuc.kod.aciklama,
+      sistemAdi(sonuc.kod.sistem),
+      sonuc.kod.sistem,
+    ].join(' '),
+  );
+
+const kodAnahtarlari = (sonuc: (typeof tumKayitlar)[number]) =>
+  [sonuc.kod.kod, sonuc.kod.kodNormal ?? '', ...(sonuc.kod.aliaslar ?? [])]
+    .map(kodAnahtar)
+    .filter(Boolean)
+    .join(' ');
+---
+
+<BaseLayout
+  title="Arama Sonuçları"
+  description="Forklift hata kodu ve arıza belirtisi arama sonuçları. Marka, seri ve sistem filtreleriyle daraltın."
+  canonical="/arama/"
+>
+  <div class="sarmal">
+    <div class="breadcrumb" style="padding-inline:0">
+      <a href="/">Ana Sayfa</a><span aria-hidden="true">/</span><span aria-current="page">Arama</span>
+    </div>
+
+    <section class="bolum" style="padding-top:1.5rem">
+      <span class="eyek">// ARAMA</span>
+      <h1>Hata kodu ara</h1>
+      <p class="muted">Kod, alias veya arıza belirtisi yazın. Sonuçlar yazarken anında süzülür.</p>
+
+      <form id="arama-form" action="/arama/" method="get" role="search">
+        <div class="arama-kutusu">
+          <input
+            type="search"
+            name="q"
+            id="arama-alani"
+            data-arama-input
+            value={q}
+            placeholder="Ör. 30-1, A1-1, E001, 'fren yapmıyor'"
+            autocomplete="off"
+            enterkeyhint="search"
+            aria-label="Hata kodu veya arıza belirtisi ara"
+          />
+          <span class="arama-ipucu" aria-hidden="true">/</span>
+          <button class="dugme dugme-birincil" type="submit">Ara</button>
+        </div>
+
+        <div class="filtre-cubugu">
+          <label for="f-marka">Marka</label>
+          <select id="f-marka" name="marka">
+            <option value="">Tüm markalar</option>
+            {markalar.map((m) => (
+              <option value={m.id} selected={marka === m.id}>{m.ad}</option>
+            ))}
+          </select>
+
+          <label for="f-seri">Seri</label>
+          <select id="f-seri" name="seri">
+            <option value="">Tüm seriler</option>
+            {seriler.map((s) => (
+              <option value={s.seri} selected={seri === s.seri}>{markaAdi(s.marka)} · {s.modelAdi}</option>
+            ))}
+          </select>
+
+          <label for="f-sistem">Sistem</label>
+          <select id="f-sistem" name="sistem">
+            <option value="">Tüm sistemler</option>
+            {sistemler.map(([id, ad]) => (
+              <option value={id} selected={sistem === id}>{ad}</option>
+            ))}
+          </select>
+
+          <button class="dugme dugme-ikincil" type="reset" id="filtre-sifirla">Sıfırla</button>
+          <span class="sonuc-sayisi" id="sonuc-sayisi" aria-live="polite">{ilkSonuclar.length} sonuç</span>
+        </div>
+      </form>
+
+      <div id="sonuc-listesi">
+        {tumKayitlar.map((sonuc) => {
+          const gizli = !ilkAnahtarlar.has(sonucAnahtar(sonuc.marka, sonuc.seri, sonuc.kod.kod));
+          const href = kodAdresi(sonuc.marka, sonuc.seri, sonuc.kod.kod);
+          return (
+            <a
+              class="sonuc-kart"
+              href={href}
+              hidden={gizli}
+              data-marka={sonuc.marka}
+              data-seri={sonuc.seri}
+              data-sistem={sonuc.kod.sistem}
+              data-kod-key={kodAnahtarlari(sonuc)}
+              data-metin={aramaMetni(sonuc)}
+            >
+              <div class="sonuc-ust">
+                <span class="sonuc-kod">{sonuc.kod.kod}</span>
+                <SiddetRozet siddet={sonuc.kod.siddet} />
+                <span class="sonuc-yol">{sonuc.markaAd} · {sonuc.modelAdi}</span>
+              </div>
+              <div class="sonuc-baslik">{sonuc.kod.baslik}</div>
+              <p class="sonuc-aciklama">{sonuc.kod.aciklama}</p>
+            </a>
+          );
+        })}
+
+        <div class="bos-durum" id="bos-durum" hidden>
+          <strong>Sonuç bulunamadı.</strong>
+          Arama terimini kısaltın veya filtreleri temizleyin. <a href="/kapsam/">Kapsam panosuna</a> göz atabilirsiniz.
+        </div>
+      </div>
+
+      <section id="tam-metin" style="margin-top:2.5rem" hidden aria-label="Tam metin arama sonuçları">
+        <span class="eyek">// TAM METİN</span>
+        <h2>Diğer ilgili sayfalar</h2>
+        <div id="tam-metin-listesi"></div>
+      </section>
+    </section>
+  </div>
+
+  <script>
+    import { trNormalize, kodAnahtar } from '../lib/normalize';
+
+    const form = document.getElementById('arama-form') as HTMLFormElement | null;
+    const giris = document.getElementById('arama-alani') as HTMLInputElement | null;
+    const kartlar = Array.from(document.querySelectorAll<HTMLAnchorElement>('.sonuc-kart'));
+    const sayac = document.getElementById('sonuc-sayisi');
+    const bosDurum = document.getElementById('bos-durum');
+    const fMarka = document.getElementById('f-marka') as HTMLSelectElement | null;
+    const fSeri = document.getElementById('f-seri') as HTMLSelectElement | null;
+    const fSistem = document.getElementById('f-sistem') as HTMLSelectElement | null;
+
+    function uygula() {
+      const sorgu = trNormalize(giris?.value ?? '').trim();
+      const anahtar = kodAnahtar(giris?.value ?? '');
+      let sayi = 0;
+
+      for (const kart of kartlar) {
+        const markaOk = !fMarka?.value || kart.dataset.marka === fMarka.value;
+        const seriOk = !fSeri?.value || kart.dataset.seri === fSeri.value;
+        const sistemOk = !fSistem?.value || kart.dataset.sistem === fSistem.value;
+
+        const kodler = (kart.dataset.kodKey ?? '').split(' ').filter(Boolean);
+        const kodOk = Boolean(anahtar) && kodler.some(
+          (k) => k === anahtar || (anahtar.length >= 3 && k.includes(anahtar)),
+        );
+        const metinOk = Boolean(sorgu) && (kart.dataset.metin ?? '').includes(sorgu);
+        const aramaOk = !sorgu || kodOk || metinOk;
+
+        const goster = markaOk && seriOk && sistemOk && aramaOk;
+        kart.hidden = !goster;
+        if (goster) sayi += 1;
+      }
+
+      if (sayac) sayac.textContent = `${sayi} sonuç`;
+      if (bosDurum) bosDurum.hidden = sayi !== 0;
+
+      const url = new URL(window.location.href);
+      const deger = giris?.value ?? '';
+      if (deger) url.searchParams.set('q', deger); else url.searchParams.delete('q');
+      for (const [ad, eleman] of [['marka', fMarka], ['seri', fSeri], ['sistem', fSistem]] as const) {
+        const secim = eleman?.value ?? '';
+        if (secim) url.searchParams.set(ad, secim); else url.searchParams.delete(ad);
+      }
+      window.history.replaceState(null, '', url.pathname + url.search);
+    }
+
+    let zamanlayici: number | undefined;
+    giris?.addEventListener('input', () => {
+      window.clearTimeout(zamanlayici);
+      zamanlayici = window.setTimeout(uygula, 60);
+    });
+
+    for (const secim of [fMarka, fSeri, fSistem]) {
+      secim?.addEventListener('change', uygula);
+    }
+
+    form?.addEventListener('reset', () => {
+      window.setTimeout(() => {
+        if (giris) giris.value = '';
+        uygula();
+      }, 0);
+    });
+
+    // Pagefind tam metin araması — derleme çıktısında varsa devreye girer, yoksa sessizce atlanır.
+    const bolum = document.getElementById('tam-metin');
+    const liste = document.getElementById('tam-metin-listesi');
+    let pfZamanlayici: number | undefined;
+
+    async function tamMetin() {
+      const sorgu = (giris?.value ?? '').trim();
+      if (!liste || !bolum) return;
+      if (sorgu.length < 3) {
+        bolum.hidden = true;
+        liste.innerHTML = '';
+        return;
+      }
+      try {
+        const modulYolu = '/pagefind/pagefind.js';
+        const pagefind = await import(/* @vite-ignore */ modulYolu);
+        await pagefind.init();
+        const sonuc = await pagefind.search(sorgu);
+        const ilk = await Promise.all(sonuc.results.slice(0, 6).map((r: { data: () => Promise<unknown> }) => r.data()));
+        const kayitlar = ilk as { url?: string; meta?: { title?: string }; excerpt?: string }[];
+        const mevcut = new Set(kartlar.map((k) => k.getAttribute('href')));
+        const filtrelenen = kayitlar.filter((k) => k.url && !mevcut.has(k.url));
+        if (!filtrelenen.length) {
+          bolum.hidden = true;
+          return;
+        }
+        liste.innerHTML = filtrelenen.map((k) =>
+          `<a class="sonuc-kart" href="${k.url}"><div class="sonuc-baslik">${k.meta?.title ?? k.url}</div><p class="sonuc-aciklama">${k.excerpt ?? ''}</p></a>`
+        ).join('');
+        bolum.hidden = false;
+      } catch (e) {
+        bolum.hidden = true;
+      }
+    }
+
+    giris?.addEventListener('input', () => {
+      window.clearTimeout(pfZamanlayici);
+      pfZamanlayici = window.setTimeout(tamMetin, 320);
+    });
+  </script>
+</BaseLayout>

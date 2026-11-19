@@ -1,0 +1,148 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import KodTablosu from '../../../components/KodTablosu.astro';
+import { getMarka, getSeriler, sistemAdi, seriEtiket, type Seri, type Marka } from '../../../lib/veri';
+
+export function getStaticPaths() {
+  return getSeriler().map((seri) => ({
+    params: { marka: seri.marka, seri: seri.seri },
+    props: { seri, marka: getMarka(seri.marka) },
+  }));
+}
+
+interface Props { seri: Seri; marka?: Marka }
+const { seri, marka } = Astro.props;
+const markaAd = marka?.ad ?? seri.marka;
+const seriAd = seriEtiket(markaAd, seri.modelAdi);
+const sistemler = [...new Set(seri.kodlar.map((k) => k.sistem))].sort((a, b) =>
+  sistemAdi(a).localeCompare(sistemAdi(b), 'tr'),
+);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `${seri.modelAdi} hata kodları`,
+  url: `https://forklifthata.com/${seri.marka}/${seri.seri}/`,
+  inLanguage: 'tr',
+  description: `${seriAd} serisi hata kodları ve teknik açıklamalar.`,
+  breadcrumb: {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://forklifthata.com/' },
+      { '@type': 'ListItem', position: 2, name: markaAd, item: `https://forklifthata.com/${seri.marka}/` },
+      { '@type': 'ListItem', position: 3, name: seri.modelAdi, item: `https://forklifthata.com/${seri.marka}/${seri.seri}/` },
+    ],
+  },
+};
+---
+
+<BaseLayout
+  title={`${seri.modelAdi} Hata Kodları`}
+  description={`${seriAd} serisine ait ${seri.kodlar.length} hata kodu: açıklama, şiddet ve doğrulama durumu.`}
+  canonical={`/${seri.marka}/${seri.seri}/`}
+  jsonLd={jsonLd}
+>
+  <Breadcrumb ogeler={[
+    { ad: 'Ana Sayfa', href: '/' },
+    { ad: markaAd, href: `/${seri.marka}/` },
+    { ad: seri.modelAdi },
+  ]} />
+
+  <section class="bolum" style="padding-top:1.5rem">
+    <span class="eyek">// SERİ / {seri.seri.toUpperCase()}</span>
+    <h1>{seri.modelAdi}</h1>
+    <p class="muted">{seri.kodlar.length} hata kodu kayıtlı. Tabloyu kod, başlık veya sistem bazında süzebilirsiniz.</p>
+
+    <div class="panel" style="margin-top:1.5rem">
+      <h2>Kaynak bilgileri</h2>
+      <div class="kaynak-satiri"><span>Belge</span><span class="mono">{seri.kaynakBelge}</span></div>
+      <div class="kaynak-satiri"><span>Sürüm</span><span class="mono">{seri.kaynakSurum ?? '—'}</span></div>
+      <div class="kaynak-satiri"><span>Belge dili</span><span>{seri.kaynakDil ?? '—'}</span></div>
+      {seri.kaynakUrl && (
+        <div class="kaynak-satiri"><span>Orijinal belge</span><a href={seri.kaynakUrl} rel="noopener noreferrer" target="_blank">Belgeyi aç ↗</a></div>
+      )}
+      <div class="kaynak-satiri"><span>Sistemler</span><span>{sistemler.map((s) => sistemAdi(s)).join(', ')}</span></div>
+    </div>
+  </section>
+
+  <div class="sayfa-arama">
+    <div class="sarmal">
+      <div class="arama-kutusu" style="min-height:48px">
+        <input
+          type="search"
+          id="seri-arama"
+          data-arama-input
+          placeholder="Bu serideki kodlarda ara…"
+          aria-label="Bu serideki hata kodlarında ara"
+          autocomplete="off"
+        />
+        <span class="arama-ipucu" aria-hidden="true">/</span>
+      </div>
+    </div>
+  </div>
+
+  <section class="bolum" style="padding-top:1.5rem">
+    <div class="filtre-cubugu">
+      <label for="seri-sistem">Sistem</label>
+      <select id="seri-sistem">
+        <option value="">Tüm sistemler</option>
+        {sistemler.map((s) => <option value={s}>{sistemAdi(s)}</option>)}
+      </select>
+      <label for="seri-siddet">Şiddet</label>
+      <select id="seri-siddet">
+        <option value="">Tüm seviyeler</option>
+        <option value="durdurucu">Durdurucu</option>
+        <option value="kisitlayici">Kısıtlayıcı</option>
+        <option value="uyari">Uyarı</option>
+        <option value="bilgi">Bilgi</option>
+      </select>
+      <span class="sonuc-sayisi" id="seri-sayac" aria-live="polite">{seri.kodlar.length} kod</span>
+    </div>
+
+    <KodTablosu kodlar={seri.kodlar} marka={seri.marka} seri={seri.seri} />
+
+    <div class="bos-durum" id="seri-bos" hidden style="margin-top:1rem">
+      <strong>Bu filtrelerle eşleşen kod yok.</strong>
+      Arama terimini veya filtreleri değiştirin.
+    </div>
+
+    <p class="dokunulmaz" style="margin-top:1.25rem">
+      Kod adları ve açıklamalar bilgilendirme amaçlıdır. Bağımsız teknik bilgi kaynağıdır; üretici onayı veya yetkili servis temsilciliği söz konusu değildir. <a href="/kaynaklar/">Kaynak politikası →</a>
+    </p>
+  </section>
+
+  <script>
+    import { trNormalize, kodAnahtar } from '../../../lib/normalize';
+
+    const giris = document.getElementById('seri-arama') as HTMLInputElement | null;
+    const fSistem = document.getElementById('seri-sistem') as HTMLSelectElement | null;
+    const fSiddet = document.getElementById('seri-siddet') as HTMLSelectElement | null;
+    const satirlar = Array.from(document.querySelectorAll<HTMLTableRowElement>('#seri-tablo tbody tr, .tablo-sarmal tbody tr'));
+    const sayac = document.getElementById('seri-sayac');
+    const bos = document.getElementById('seri-bos');
+
+    function uygula() {
+      const sorgu = trNormalize(giris?.value ?? '').trim();
+      const anahtar = kodAnahtar(giris?.value ?? '');
+      let sayi = 0;
+
+      for (const satir of satirlar) {
+        const sistemOk = !fSistem?.value || satir.dataset.sistem === fSistem.value;
+        const siddetOk = !fSiddet?.value || satir.dataset.siddet === fSiddet.value;
+        const metin = satir.dataset.arama ?? '';
+        const eslesiyor = !sorgu || metin.includes(sorgu) || (anahtar.length > 0 && metin.includes(anahtar));
+        const goster = sistemOk && siddetOk && eslesiyor;
+        satir.hidden = !goster;
+        if (goster) sayi += 1;
+      }
+
+      if (sayac) sayac.textContent = `${sayi} kod`;
+      if (bos) bos.hidden = sayi !== 0;
+    }
+
+    giris?.addEventListener('input', uygula);
+    fSistem?.addEventListener('change', uygula);
+    fSiddet?.addEventListener('change', uygula);
+  </script>
+</BaseLayout>

@@ -1,0 +1,43 @@
+---
+import type { Kod } from '../lib/veri';
+import { sistemAdi, trNormalize, kodAdresi } from '../lib/veri';
+import SiddetRozet from './SiddetRozet.astro';
+import DurumRozet from './DurumRozet.astro';
+
+interface Props {
+  kodlar: Kod[];
+  marka: string;
+  seri: string;
+}
+const { kodlar, marka, seri } = Astro.props;
+const yol = (kod: string) => kodAdresi(marka, seri, kod);
+---
+
+<div class="tablo-sarmal">
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Kod</th>
+        <th scope="col">Sistem</th>
+        <th scope="col">Açıklama</th>
+        <th scope="col">Şiddet</th>
+        <th scope="col">Durum</th>
+      </tr>
+    </thead>
+    <tbody>
+      {kodlar.map((kod) => (
+        <tr
+          data-sistem={kod.sistem}
+          data-siddet={kod.siddet}
+          data-arama={trNormalize([kod.kod, kod.kodNormal ?? '', ...(kod.aliaslar ?? []), kod.baslik, kod.aciklama, sistemAdi(kod.sistem)].join(' '))}
+        >
+          <td class="kod-hucre"><a href={yol(kod.kod)}>{kod.kod}</a></td>
+          <td><span class="sistem-etiket">{sistemAdi(kod.sistem)}</span></td>
+          <td class="tablo-baslik"><a href={yol(kod.kod)}>{kod.baslik}</a></td>
+          <td><SiddetRozet siddet={kod.siddet} /></td>
+          <td><DurumRozet durum={kod.durum} /></td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

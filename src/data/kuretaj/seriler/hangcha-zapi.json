@@ -1,0 +1,258 @@
+{
+  "marka": "hangcha",
+  "seri": "zapi",
+  "modelAdi": "Elektrikli modellerde ZAPI tip yürüyüş sürücüsü (LED + programcı LCD)",
+  "kaynakBelge": "Hangcha yürüyüş sürücüsü hata tablosu (forkliftpdfmanuals.com)",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+  "kodlar": [
+    {
+      "kod": "1,2",
+      "kodNormal": "12",
+      "aliaslar": [
+        "12",
+        "HW FAIL SAFE1-2-3"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Donanım hata emniyeti / watchdog arızası",
+      "aciklama": "Sürücü açılış öz testi veya watchdog denetimini geçemedi; kontrol ünitesinin kendi arızasıdır.",
+      "makineTepkisi": "Sürücü çıkışı keser, makine çalışmaz.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kontrol ünitesi arızası"
+      ],
+      "kontroller": [
+        "Kontrol ünitesini kontrol edin; gerekirse değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "1,3",
+      "kodNormal": "13",
+      "aliaslar": [
+        "13",
+        "M-SHORTED / FIELD OPEN / ARM SENSOR / FLD SENSOR"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Motor M- kısa devre / alan sargısı arızası",
+      "aciklama": "Motor M- ucu B-'ye kısa devre etmiş ya da alan sargısı/akım sensörleri hatalı; LED 1,3 altında alt alarm olarak da görünür.",
+      "makineTepkisi": "Yürüyüş güç çıkışı engellenir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Motor alan kablosunun gevşemesi",
+        "Alan sargısı açık",
+        "Armatür/alan akım sensörü arızası",
+        "Kontrol ünitesi arızası"
+      ],
+      "kontroller": [
+        "Motor sargı kablolarını ve akım sensörlerini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "2,1",
+      "kodNormal": "21",
+      "aliaslar": [
+        "21",
+        "SPEED CONTROL FAULT"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Hız referans (VSC) sinyali arızası",
+      "aciklama": "Hız komut sinyali (VSC) geçerli aralığın dışında; gaz girişi okunamıyor.",
+      "makineTepkisi": "Yürüyüş izni verilmez ya da sınırlı çalışır.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "VSC referans kablosunun açık olması",
+        "VSC girişinin B+ veya B-'ye kısa devre olması",
+        "Gaz potansiyometresi arızası",
+        "Yanlış gaz tipi parametresi"
+      ],
+      "kontroller": [
+        "VSC hattını ve gaz potansiyometresini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "2,3",
+      "kodNormal": "23",
+      "aliaslar": [
+        "23",
+        "START LOCKOUT"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Start sequence (kilitleme) hatası",
+      "aciklama": "Yön ve gaz girişleri yanlış sıralandı; kontal sonrası önce yön ya da gaz boş olmalı.",
+      "makineTepkisi": "Kaldırma ve yürüyüş geçici kilitlenir, doğru sıralama yapılınca çözülür.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Yön ve gaz girişlerinin yanlış sıralanması",
+        "Yanlış START LOCKOUT tipi",
+        "Gaz potansiyometresi ayarsız",
+        "Sıralama gecikmesi çok kısa"
+      ],
+      "kontroller": [
+        "Gaz potansiyometresini ve sıralama parametrelerini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "3,1",
+      "kodNormal": "31",
+      "aliaslar": [
+        "31",
+        "CONT DRVR OC"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör sürücü çıkışı aşırı akım",
+      "aciklama": "Kontaktör sürücü çıkışında beklenmeyen aşırı akım var; genelde bobin kısa devrelidir.",
+      "makineTepkisi": "Kontaktör enerjilenmez, güç devresi açıktır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kontaktör bobininde kısa devre"
+      ],
+      "kontroller": [
+        "Bobin devresini ve sürücü çıkışını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "3,2",
+      "kodNormal": "32",
+      "aliaslar": [
+        "32",
+        "MAIN CONT WELDED"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ana kontaktör yapışık",
+      "aciklama": "Açılma komutuna rağmen ana kontaktör kapalı kalıyor; kontaklar kaynamış olabilir.",
+      "makineTepkisi": "KRİTİK: hat gerilim altında kalabilir, makine durdurulmalı.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Ana kontaktörün yapışık kalması",
+        "Kontaktör sürücüsünde kısa devre"
+      ],
+      "kontroller": [
+        "Kontaktörü ve sürücü devresini hemen kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "3,3",
+      "kodNormal": "33",
+      "aliaslar": [
+        "33",
+        "PRECHARGE FAULT"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ön şarj (precharge) hatası",
+      "aciklama": "Açılışta dahili bara gerilimi hedefin altında kaldı; ön şarj devresi tamamlanamıyor.",
+      "makineTepkisi": "Sistem hazır olmaz, sürücü kapanır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kontrol ünitesi arızası",
+        "B+ hattında B-'ye dış kısa devre veya kaçak yolu"
+      ],
+      "kontroller": [
+        "Ön şarj devresini ve dış kablolamayı kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "3,4",
+      "kodNormal": "34",
+      "aliaslar": [
+        "34",
+        "MISSING CONTACTOR / CONTINC"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör algılanamadı / kapanmadı",
+      "aciklama": "Beklenen kontaktör kapalı sinyeri gelmiyor; bobin kopuk ya da bağlantısız olabilir.",
+      "makineTepkisi": "Ana güç devreye girmedigi için çalışma yok.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kontaktör bobinlerinden birinin açık veya bağlantısız olması",
+        "Ana kontaktör eksik veya bobin kablosu kopuk"
+      ],
+      "kontroller": [
+        "Bobin kablolarını ve kontaktörü kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "4,2",
+      "kodNormal": "42",
+      "aliaslar": [
+        "42",
+        "OVERVOLTAGE"
+      ],
+      "sistem": "batarya",
+      "baslik": "Aşırı gerilim",
+      "aciklama": "Akü gerilimi aşırı gerilim kapanma sınırını aştı; genelde şarj bağlantılı çalışma ya da rejeneratif tepmede akü kopması.",
+      "makineTepkisi": "Güç kesilir (cutback), gerilim düşünce otomatik çıkılır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Akü geriliminin aşırı gerilim kapanma sınırını aşması",
+        "Şarj cihazı bağlı çalışma",
+        "Rejeneratif frenleme sırasında akü bağlantısının kopması"
+      ],
+      "kontroller": [
+        "Akü gerilimini ve şarj bağlantısını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "4,3",
+      "kodNormal": "43",
+      "aliaslar": [
+        "43",
+        "THERMAL CUTBACK"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Termal kesme (aşırı/çok düşük sıcaklık)",
+      "aciklama": "Sürücü sıcaklığı 85°C üzeri veya -25°C altına çıktı; güç kademeli kırpılır.",
+      "makineTepkisi": "Tork/hız belirgin düşer, sıcaklık normalize olunca açılır.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sıcaklığın 85°C üzeri veya -25°C altına çıkması",
+        "Aşırı yük",
+        "Kontrolörün hatalı montajı",
+        "Aşırı ortam koşullarında çalışma"
+      ],
+      "kontroller": [
+        "Sıcaklığı, yükü ve kontrolör montajını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    }
+  ]
+}

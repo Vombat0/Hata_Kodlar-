@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Sayfa bulunamadı"
+  description="Aradığınız forklift hata kodu sayfası bulunamadı."
+  canonical="/404/"
+  noIndex
+>
+  <section class="hata-sayfa sarmal">
+    <div class="hata-kod">404</div>
+    <h1>Bu sayfa bulunamadı</h1>
+    <p class="muted" style="max-width:52ch;margin-inline:auto">
+      Aradığınız kod veya sayfa taşınmış olabilir. Hata kodunu doğrudan arayabilir veya marka listesinden devam edebilirsiniz.
+    </p>
+    <div style="display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;margin-top:2rem">
+      <a class="dugme dugme-birincil" href="/">Ana sayfaya dön</a>
+      <a class="dugme" href="/arama/">Kod ara</a>
+      <a class="dugme" href="/kapsam/">Kapsam panosu</a>
+    </div>
+  </section>
+</BaseLayout>

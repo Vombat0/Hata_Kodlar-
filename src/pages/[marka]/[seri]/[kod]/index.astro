@@ -1,0 +1,250 @@
+---
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../../../components/Breadcrumb.astro';
+import SiddetRozet from '../../../../components/SiddetRozet.astro';
+import DurumRozet from '../../../../components/DurumRozet.astro';
+import { getMarka, getSeriler, getKod, sistemAdi, seriEtiket, SIDDETLER, DURUMLAR, kodYolu, kodAdresi, type Kod, type Seri, type Marka } from '../../../../lib/veri';
+
+export function getStaticPaths() {
+  const yollar: { params: { marka: string; seri: string; kod: string }; props: { kod: Kod; seri: Seri; marka?: Marka } }[] = [];
+  for (const seri of getSeriler()) {
+    const marka = getMarka(seri.marka);
+    for (const kod of seri.kodlar) {
+      yollar.push({
+        params: { marka: seri.marka, seri: seri.seri, kod: kodYolu(kod.kod) },
+        props: { kod, seri, marka },
+      });
+    }
+  }
+  return yollar;
+}
+
+
+interface Props { kod: Kod; seri: Seri; marka?: Marka }
+const { kod, seri, marka } = Astro.props;
+const markaAd = marka?.ad ?? seri.marka;
+const seriAd = seriEtiket(markaAd, seri.modelAdi);
+const temelYol = `/${seri.marka}/${seri.seri}`;
+const kanonik = kodAdresi(seri.marka, seri.seri, kod.kod);
+
+const aliaslar = kod.aliaslar ?? [];
+const ilgiliKodlar = (kod.ilgiliKodlar ?? [])
+  .map((ilgili) => getKod(seri.marka, seri.seri, ilgili))
+  .filter((bulunan): bulunan is Kod => Boolean(bulunan) && bulunan!.kod !== kod.kod);
+
+const sevAd = SIDDETLER[kod.siddet]?.ad ?? kod.siddet;
+const durumAd = DURUMLAR[kod.durum]?.ad ?? kod.durum;
+const waMetin = `Forklift hata kodu desteği: ${seriAd} — kod ${kod.kod} (${kod.baslik})`;
+const waURL = `https://wa.me/905339540425?text=${encodeURIComponent(waMetin)}`;
+const geriBildirimMetin = `Geri bildirim — ${seriAd} / ${kod.kod}: `;
+
+const aciklamaKisa = `${kod.baslik}. ${kod.aciklama}`;
+
+const breadcrumbLd = {
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://forklifthata.com/' },
+    { '@type': 'ListItem', position: 2, name: markaAd, item: `https://forklifthata.com/${seri.marka}/` },
+    { '@type': 'ListItem', position: 3, name: seri.modelAdi, item: `https://forklifthata.com/${temelYol}/` },
+    { '@type': 'ListItem', position: 4, name: kod.kod, item: `https://forklifthata.com${kanonik}` },
+  ],
+};
+
+const definedTermLd = {
+  '@context': 'https://schema.org',
+  '@type': 'DefinedTerm',
+  name: kod.kod,
+  alternateName: kod.aliaslar ?? [],
+  description: aciklamaKisa,
+  inDefinedTermSet: {
+    '@type': 'DefinedTermSet',
+    name: `${seriAd} Hata Kodları`,
+    url: `https://forklifthata.com/${temelYol}/`,
+  },
+  url: `https://forklifthata.com${kanonik}`,
+};
+
+const sorular: { s: string; c: string }[] = [
+  { s: `${kod.kod} hata kodu ne anlama geliyor?`, c: kod.aciklama },
+  { s: `${kod.kod} kodunda makine nasıl tepki verir?`, c: kod.makineTepkisi || 'Bu kayıt için makine tepkisi ayrıca belirtilmemiştir. Gösterge panelindeki uyarıyı ve makinenin davranışını dikkate alın.' },
+];
+if (kod.nedenler?.length) {
+  sorular.push({ s: `${kod.kod} hata kodunun olası nedenleri nelerdir?`, c: `Olası nedenler: ${kod.nedenler.join('; ')}.` });
+}
+if (kod.kontroller?.length) {
+  sorular.push({ s: `${kod.kod} hata kodu için hangi kontroller yapılmalı?`, c: `Önerilen kontroller: ${kod.kontroller.join('; ')}.` });
+}
+
+const faqLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: sorular.map(({ s, c }) => ({
+    '@type': 'Question',
+    name: s,
+    acceptedAnswer: { '@type': 'Answer', text: c },
+  })),
+};
+
+const jsonLd = [breadcrumbLd, definedTermLd, faqLd];
+---
+
+<BaseLayout
+  title={`${kod.kod} — ${kod.baslik} | ${markaAd}`}
+  description={`${seriAd} hata kodu ${kod.kod}: ${aciklamaKisa.slice(0, 180)} Olası nedenler ve kontrol adımları.`}
+  canonical={kanonik}
+  jsonLd={jsonLd}
+>
+  <Breadcrumb ogeler={[
+    { ad: 'Ana Sayfa', href: '/' },
+    { ad: markaAd, href: `/${seri.marka}/` },
+    { ad: seri.modelAdi, href: temelYol },
+    { ad: kod.kod },
+  ]} />
+
+  <div class="sayfa-arama">
+    <div class="sarmal">
+      <form class="arama-kutusu" style="min-height:48px" action="/arama/" method="get" role="search">
+        <input
+          type="search"
+          name="q"
+          data-arama-input
+          placeholder="Başka bir hata kodu ara…"
+          aria-label="Başka bir hata kodu ara"
+          autocomplete="off"
+        />
+        <span class="arama-ipucu" aria-hidden="true">/</span>
+        <button class="dugme dugme-birincil" type="submit">Ara</button>
+      </form>
+    </div>
+  </div>
+
+  <section class="bolum" style="padding-top:2rem">
+    <span class="eyek">// HATA KODU / {seri.kaynakBelge}</span>
+    <div class="kod-detay-baslik">
+      <h1 class="kod-buyuk">{kod.kod}</h1>
+      <SiddetRozet siddet={kod.siddet} />
+      <DurumRozet durum={kod.durum} />
+    </div>
+    <h2 style="font-size:clamp(1.2rem,3vw,1.7rem);margin-bottom:0.75rem">{kod.baslik}</h2>
+    <p class="muted" style="max-width:76ch;margin-bottom:1rem">{kod.aciklama}</p>
+    <div class="kod-detay-alt">
+      <span class="sistem-etiket">{sistemAdi(kod.sistem)}</span>
+      <a href={temelYol}>{markaAd} · {seri.modelAdi}</a>
+      {aliaslar.length > 0 && (
+        <span class="kucuk muted">
+          Alias: {aliaslar.map((a, i) => (
+            <><code class="mono">{a}</code>{i < aliaslar.length - 1 && ', '}</>
+          ))}
+        </span>
+      )}
+    </div>
+  </section>
+
+  <div class="sarmal">
+    <div class="icerik-iki-sutun">
+      <div>
+        <div class="panel">
+          <h2>Kodun anlamı</h2>
+          <p class="aciklama-metin">{kod.aciklama}</p>
+        </div>
+
+        {kod.makineTepkisi && (
+          <div class="panel">
+            <h2>Makinenin tepkisi</h2>
+            <p class="aciklama-metin">{kod.makineTepkisi}</p>
+          </div>
+        )}
+
+        {kod.nedenler && kod.nedenler.length > 0 && (
+          <div class="panel">
+            <h2>Olası nedenler</h2>
+            <ul class="neden-listesi">
+              {kod.nedenler.map((neden) => <li>{neden}</li>)}
+            </ul>
+          </div>
+        )}
+
+        {kod.kontroller && kod.kontroller.length > 0 && (
+          <div class="panel">
+            <h2>Kontrol adımları</h2>
+            <ol class="kontrol-listesi">
+              {kod.kontroller.map((kontrol) => <li>{kontrol}</li>)}
+            </ol>
+          </div>
+        )}
+
+        {ilgiliKodlar.length > 0 && (
+          <div class="panel">
+            <h2>İlgili kodlar</h2>
+            <div class="kartlar">
+              {ilgiliKodlar.map((ilgili) => (
+                <a class="kart" href={`${temelYol}/${encodeURIComponent(ilgili.kod)}/`}>
+                  <div class="kart-ust">
+                    <span class="kod-hucre">{ilgili.kod}</span>
+                    <SiddetRozet siddet={ilgili.siddet} />
+                  </div>
+                  <div class="tablo-baslik">{ilgili.baslik}</div>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <div class="panel">
+          <h2>Geri bildirim</h2>
+          <p class="kucuk muted">Bu kaydın doğruluğunu kontrol etmemize yardımcı olun. Hatalı veya eksik bir bilgiyi bildirmek için aşağıdaki kısayolları kullanabilirsiniz.</p>
+          <div class="geri-baglanti">
+            <button class="dugme" type="button" id="geri-bildirim-dogru">Bilgi doğru ✓</button>
+            <button class="dugme" type="button" id="geri-bildirim-duzeltme">Düzeltme bildir</button>
+          </div>
+        </div>
+      </div>
+
+      <aside class="kenar-panel" aria-label="Kaynak ve destek">
+        <div class="panel">
+          <h2>Kaynak atfı</h2>
+          <div class="kaynak-satiri"><span>Belge</span><span class="mono">{seri.kaynakBelge}</span></div>
+          <div class="kaynak-satiri"><span>Sürüm</span><span class="mono">{seri.kaynakSurum ?? '—'}</span></div>
+          <div class="kaynak-satiri"><span>Sayfa</span><span class="mono">{kod.kaynakSayfa ?? '—'}</span></div>
+          <div class="kaynak-satiri"><span>Dil</span><span>{seri.kaynakDil ?? '—'}</span></div>
+          {seri.kaynakUrl && (
+            <div class="kaynak-satiri"><span>Belge</span><a href={seri.kaynakUrl} rel="noopener noreferrer" target="_blank">Orijinali aç ↗</a></div>
+          )}
+          <div style="margin-top:1rem"><DurumRozet durum={kod.durum} /></div>
+          <p class="kucuk muted" style="margin-top:0.75rem;margin-bottom:0">
+            Bu kayıt {durumAd.toLowerCase()} durumundadır. Şiddet seviyesi: {sevAd}.
+          </p>
+        </div>
+
+        <div class="panel">
+          <h2>Servis desteği</h2>
+          <p class="kucuk muted">Kodunuzla ilgili yerinde destek için doğrudan WhatsApp üzerinden yazabilirsiniz.</p>
+          <a class="dugme dugme-wa" style="width:100%" href={waURL} rel="noopener noreferrer" target="_blank">
+            Bu kodla ilgili servis desteği al
+          </a>
+          <p class="kucuk muted" style="margin-top:0.85rem;margin-bottom:0">
+            Bağımsız teknik bilgi kaynağıdır; hiçbir üreticinin yetkili servisi, distribütörü veya temsilcisi değildir.
+          </p>
+        </div>
+
+        <div class="uyari-kutusu">
+          Kesin teşhis ve onarım için orijinal servis kılavuzuna ve nitelikli personele başvurun. <a href="/kaynaklar/">Kaynak politikası →</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <script define:vars={{ geriBildirimMetin }}>
+    const dogru = document.getElementById('geri-bildirim-dogru');
+    const duzeltme = document.getElementById('geri-bildirim-duzeltme');
+
+    function ac(ek: string) {
+      const metin = `${geriBildirimMetin}${ek}`;
+      const url = `https://wa.me/905339540425?text=${encodeURIComponent(metin)}`;
+      window.open(url, '_blank', 'noopener,noreferrer');
+    }
+
+    dogru?.addEventListener('click', () => ac('Kayıt doğru görünüyor.'));
+    duzeltme?.addEventListener('click', () => ac('Kayıtta düzeltme gerekiyor.'));
+  </script>
+</BaseLayout>

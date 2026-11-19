@@ -1,0 +1,14 @@
+{
+  "aciklama": "Bu listedeki SERİLER otomatik birleştirmeye hiç girmez. Kaynak veri birebir kopya veya kalitesiz olduğu için karantinaya alınmıştır. Marka bazlı karantina KULLANILMAZ; aksi halde aynı markanın kaliteli serileri de engellenir.",
+  "seriler": [
+    "mitsubishi-genel",
+    "nissan-genel",
+    "ep-lce",
+    "ep-equipment-lce",
+    "hangcha-cpcd-xf",
+    "heli-cpd-ge2dli",
+    "hangcha-cpcd25-xf-mcii",
+    "tcm-fb6-dup"
+  ],
+  "markalar": []
+}

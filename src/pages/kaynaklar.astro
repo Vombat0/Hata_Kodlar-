@@ -1,0 +1,129 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getSeriler, istatistik } from '../lib/veri';
+
+const seriler = getSeriler();
+const ist = istatistik();
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Kaynaklar ve telif politikası',
+  url: 'https://forklifthata.com/kaynaklar/',
+  inLanguage: 'tr',
+  description: 'Forklift hata kodu kayıtlarının kaynak belgeleri, doğrulama yöntemi ve telif politikası.',
+};
+---
+
+<BaseLayout
+  title="Kaynaklar ve Telif Politikası"
+  description="Hata kodu kayıtlarının dayandığı belgeler, doğrulama yöntemi, yasal uyarı ve telif politikası."
+  canonical="/kaynaklar/"
+  jsonLd={jsonLd}
+>
+  <div class="sarmal">
+    <div class="breadcrumb" style="padding-inline:0">
+      <a href="/">Ana Sayfa</a><span aria-hidden="true">/</span><span aria-current="page">Kaynaklar</span>
+    </div>
+
+    <section class="bolum" style="padding-top:1.5rem">
+      <span class="eyek">// KAYNAK POLİTİKASI</span>
+      <h1>Kaynaklar ve telif</h1>
+      <p class="muted" style="max-width:72ch">
+        Bu site bağımsız bir teknik bilgi kaynağıdır. Kayıtlar, makine kimliği taşıyan servis ve tanılama belgelerinden derlenen bilgilerin Türkçe karşılıklarını içerir. Üreticilerle resmî bir bağlantımız yoktur.
+      </p>
+    </section>
+
+    <section class="bolum">
+      <div class="bolum-basligi">
+        <div>
+          <span class="eyek">01 / KAYNAK BELGELER</span>
+          <h2>Atıf yapılan belgeler</h2>
+        </div>
+        <p>Her hata kodu kaydı, ait olduğu serinin belgesi ve sayfa numarasıyla ilişkilendirilir.</p>
+      </div>
+
+      <div class="tablo-sarmal">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Seri</th>
+              <th scope="col">Belge</th>
+              <th scope="col">Sürüm</th>
+              <th scope="col">Dil</th>
+              <th scope="col">Kayıt</th>
+            </tr>
+          </thead>
+          <tbody>
+            {seriler.map((seri) => (
+              <tr>
+                <td><a href={`/${seri.marka}/${seri.seri}/`}>{seri.modelAdi}</a></td>
+                <td class="mono">{seri.kaynakBelge}</td>
+                <td class="mono">{seri.kaynakSurum ?? '—'}</td>
+                <td>{seri.kaynakDil ?? '—'}</td>
+                <td class="mono">{seri.kodlar.length}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <p class="kucuk muted" style="margin-top:1rem">
+        Toplam {ist.toplamKod} kayıt, {ist.seriSayisi} seriye dağılmıştır. Kaynak belge bağlantısı mevcutsa ilgili kayıtta "orijinal belge" bağlantısı olarak gösterilir; bağlantı yoksa yalnızca belge adı ve sayfa numarası belirtilir.
+      </p>
+    </section>
+
+    <section class="bolum">
+      <div class="bolum-basligi">
+        <div>
+          <span class="eyek">02 / DOĞRULAMA</span>
+          <h2>Kayıt durumları</h2>
+        </div>
+      </div>
+
+      <div class="kartlar">
+        <div class="ozellik-kart">
+          <div class="ozellik-no">DURUM 01</div>
+          <h3>Doğrulandı</h3>
+          <p>Kod, açıklama ve makine tepkisi en az bir kaynak belgeyle karşılaştırılmış ve Türkçe karşılık kontrol edilmiştir.</p>
+        </div>
+        <div class="ozellik-kart">
+          <div class="ozellik-no">DURUM 02</div>
+          <h3>İncelemede</h3>
+          <p>Kayıt oluşturulmuş ancak kaynak belgeyle birebir doğrulama veya saha geri bildirimi tamamlanmamıştır.</p>
+        </div>
+        <div class="ozellik-kart">
+          <div class="ozellik-no">DURUM 03</div>
+          <h3>Taslak</h3>
+          <p>Bilgi geçicidir. Teknik karar vermeden önce orijinal servis kılavuzuna başvurmanız gerekir.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bolum">
+      <div class="bolum-basligi">
+        <div>
+          <span class="eyek">03 / YASAL</span>
+          <h2>Telif ve sorumluluk</h2>
+        </div>
+      </div>
+
+      <div class="sarmal-dar">
+        <div class="panel">
+          <h2>Bağımsızlık beyanı</h2>
+          <p>
+            Bağımsız teknik bilgi kaynağıdır; hiçbir üreticinin yetkili servisi, distribütörü veya temsilcisi değildir. Marka adları yalnızca makine kimliği amacıyla kullanılmıştır. Site içeriği üretici tarafından onaylanmış veya desteklenmiş değildir.
+          </p>
+          <h2>Kullanım sınırı</h2>
+          <p>
+            İçerik bilgilendirme amaçlıdır; onarım talimatı veya güvenlik garantisi değildir. Yüksek voltaj, hidrolik basınç ve ağır yük sistemlerinde çalışma yalnızca nitelikli personel tarafından yapılmalıdır. Kesin teşhis için orijinal servis kılavuzu esas alınmalıdır.
+          </p>
+          <h2>Telif hakkı talepleri</h2>
+          <p>
+            Kaynak belgelerin telif hakları ilgili hak sahiplerine aittir. Bu site yalnızca tanımlayıcı atıf ve kısa teknik açıklama içerir. Hak sahibi olduğunu düşündüğünüz bir içerik için <a href="/hakkinda/">iletişim sayfasındaki</a> adreslerden bildirimde bulunabilirsiniz; talepler değerlendirilerek gerekli düzeltme yapılır.
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

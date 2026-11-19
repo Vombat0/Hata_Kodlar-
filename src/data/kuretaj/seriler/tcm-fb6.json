@@ -1,0 +1,284 @@
+{
+  "marka": "tcm",
+  "seri": "fb6",
+  "modelAdi": "TCM FB-6 transistor kontrollü elektrikli serisi",
+  "kaynakBelge": "TCM FB-6 hata kodları listesi (forkliftpdfmanuals.com)",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+  "kodlar": [
+    {
+      "kod": "101",
+      "kodNormal": "101",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Gaz kolu kablosu kopuk",
+      "aciklama": "Gaz kolu kablosu kopuk veya bağlantısı çıkmış; kontrolör gaz sinyali alamıyor. Sürüş gücü devreye girmeyebilir.",
+      "makineTepkisi": "Sürücü arızaya karşılık veren koruma moduna geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Gaz kolu kablosunun kopması"
+      ],
+      "kontroller": [
+        "Gaz kolu kablosunu ve bağlantısını kontrol edin.",
+        "Gaz sinyali sensörünü doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "102",
+      "kodNormal": "102",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Yürüyüş motoru akım sensörü arızalı",
+      "aciklama": "Yürüyüş motoru akım sensörü hatalı sinyal veriyor; kontrolör motor akımını doğru ölçemiyor.",
+      "makineTepkisi": "Sürücü arızaya karşılık veren koruma moduna geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yürüyüş motoru akım sensörü arızası"
+      ],
+      "kontroller": [
+        "Akım sensörü kablo ve konnektörünü kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "103",
+      "kodNormal": "103",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Yürüyüş emniyet devresi açıldı",
+      "aciklama": "Yürüyüş emniyet devresi tetiklendi; güvenlik koşulları sağlanmadığı için sürüş durduruldu.",
+      "makineTepkisi": "Sürücü arızaya karşılık veren koruma moduna geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yürüyüş emniyet devresinin açılması"
+      ],
+      "kontroller": [
+        "Koltuk anahtarı ve kapak şalterlerini kontrol edin.",
+        "Emniyet devresi kablolarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "105",
+      "kodNormal": "105",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Rejeneratif devre anormal tıkanma",
+      "aciklama": "Rejeneratif (enerji geri kazanım) devresinde anormal tıkanma algılandı; geri kazanım akımı beklenen seviyede değil.",
+      "makineTepkisi": "Sürücü arızaya karşılık veren koruma moduna geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Rejeneratif devrede anormal tıkanma"
+      ],
+      "kontroller": [
+        "Rejeneratif devre kablolarını ve kontrolörü kontrol edin.",
+        "Akü ve şarj durumunu doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "106",
+      "kodNormal": "106",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Sürücü termik sensörü arızalı",
+      "aciklama": "Sürücü kontrolörünün sıcaklık sensörü arızalı; aşırı ısınma koruması güvenilir çalışmayabilir.",
+      "makineTepkisi": "Sürücü arızaya karşılık veren koruma moduna geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kontrolör termik sensörü arızası"
+      ],
+      "kontroller": [
+        "Termik sensörü ve kablo bağlantısını kontrol edin.",
+        "Gerekirse kontrolörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "107",
+      "kodNormal": "107",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Kontak açılışında/çalışmada yürüyüş akımı anormal",
+      "aciklama": "Kontak açıldığında veya çalışma sırasında yürüyüş motoru akımı anormal; kablo kısa devresi ya da motor arızası olabilir.",
+      "makineTepkisi": "Sürücü arızaya karşılık veren koruma moduna geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yürüyüş akımının kontak açılışında/çalışmada anormal olması"
+      ],
+      "kontroller": [
+        "Yürüyüş motoru kablolarını ve konektörlerini kontrol edin.",
+        "Motor sargılarını inceleyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "201",
+      "kodNormal": "201",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma kolu sensör kablosu kopuk",
+      "aciklama": "Kaldırma kolu sensörünün kablosu kopuk veya bağlantısı çıkmış; kontrolör kaldırma komutunu alamıyor.",
+      "makineTepkisi": "Sürücü arızaya karşılık veren koruma moduna geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kaldırma kolu sensör kablosunun kopması"
+      ],
+      "kontroller": [
+        "Kaldırma kolu sensör kablosunu kontrol edin.",
+        "Konnektörü yeniden takıp doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "202",
+      "kodNormal": "202",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Yükleme motoru akımı anormal",
+      "aciklama": "Yükleme (pompa) motorunun akımı beklenen aralık dışında; pompa sürücüsü veya motor arızalanmış olabilir.",
+      "makineTepkisi": "Sürücü arızaya karşılık veren koruma moduna geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yükleme motoru akımının anormal olması"
+      ],
+      "kontroller": [
+        "Yükleme motoru akım sensörünü ve kabloları kontrol edin.",
+        "Motor ve pompayı inceleyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "203",
+      "kodNormal": "203",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Yükleme emniyet devresi açıldı",
+      "aciklama": "Yükleme emniyet devresi tetiklendi; güvenlik koşulları sağlanmadığı için iş ekipmanı durduruldu.",
+      "makineTepkisi": "Sürücü arızaya karşılık veren koruma moduna geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yükleme emniyet devresinin açılması"
+      ],
+      "kontroller": [
+        "Yükleme emniyet şalterlerini kontrol edin.",
+        "Emniyet devresi kablolarını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "301",
+      "kodNormal": "301",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Gaz kolu kablosu kopuk (yürüyüş)",
+      "aciklama": "Yürüyüş modunda gaz kolu kablosu kopuk; hız komutu kontrolöre iletilemiyor.",
+      "makineTepkisi": "Sürücü arızaya karşılık veren koruma moduna geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yürüyüş modunda gaz kolu kablosunun kopması"
+      ],
+      "kontroller": [
+        "Yürüyüş gaz kolu kablosunu kontrol edin.",
+        "Gaz sinyali bağlantısını doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "303",
+      "kodNormal": "303",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Yürüyüş emniyet devresi açıldı (yürüyüş)",
+      "aciklama": "Yürüyüş modunda emniyet devresi açıldı; sürüş izni verilmediği için araç hareket etmez.",
+      "makineTepkisi": "Sürücü arızaya karşılık veren koruma moduna geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yürüyüş modunda emniyet devresinin açılması"
+      ],
+      "kontroller": [
+        "Yürüyüş emniyet şalterlerini ve kablolarını kontrol edin.",
+        "Koltuk anahtarı ve yön kolu durumunu doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "401",
+      "kodNormal": "401",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma sensör kablosu kopuk (yükleme)",
+      "aciklama": "Yükleme modunda kaldırma kolu sensör kablosu kopuk; kontrolör kaldırma komutunu algılayamıyor.",
+      "makineTepkisi": "Sürücü arızaya karşılık veren koruma moduna geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yükleme modunda kaldırma sensör kablosunun kopması"
+      ],
+      "kontroller": [
+        "Kaldırma sensör kablosunu kontrol edin.",
+        "Konnektörü yeniden takıp doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "403",
+      "kodNormal": "403",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Yükleme emniyet devresi açıldı",
+      "aciklama": "Yükleme modunda emniyet devresi tetiklendi; iş ekipmanı için güvenlik koşulları sağlanmadı.",
+      "makineTepkisi": "Sürücü arızaya karşılık veren koruma moduna geçer.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yükleme emniyet devresinin açılması"
+      ],
+      "kontroller": [
+        "Yükleme emniyet şalterlerini ve kablolarını kontrol edin.",
+        "Koltuk anahtarı durumunu doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/tcm-error-codes/",
+      "durum": "incelemede"
+    }
+  ]
+}

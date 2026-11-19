@@ -1,0 +1,148 @@
+{
+  "marka": "komatsu",
+  "seri": "eps-led",
+  "modelAdi": "AX50/BX50 elektrikli güç direksiyon (EPS) LED yanıp sönme kodları",
+  "kaynakBelge": "Komatsu FG/FD AX50-BX50 Shop Manual BEB16E1-01 — Vehicle controller & power steering troubleshooting (forkliftpdfmanuals.com PDF)",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294234066/Komatsu+FD+FG+Forklift+Trucks+Shop+Manual+PDF.pdf",
+  "kodlar": [
+    {
+      "kod": "1F",
+      "kodNormal": "1F",
+      "aliaslar": [
+        "1 FLASH"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "EPS ilk ayar modu / ayar tamamlanmamış",
+      "aciklama": "Elektrikli güç direksiyon kontrolörü ilk ayar modunda ya da ayar tamamlanmamış; 1 yanıp sönme.",
+      "makineTepkisi": "Direksiyon normal duyarlılıkta olmayabilir; ayar tamamlanmalı.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Kontrolör ilk ayar modunda (1)",
+        "Tamamlanmamış kalibrasyon"
+      ],
+      "kontroller": [
+        "İlk ayar prosedürünü baştan uygulayın.",
+        "Tekerlek sensörü montajını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294234066/Komatsu+FD+FG+Forklift+Trucks+Shop+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "2F",
+      "kodNormal": "2F",
+      "aliaslar": [
+        "2 FLASH"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "EPS öğrenme (teaching) modu",
+      "aciklama": "Kontrolör sürüş hızı/açı öğrenme modunda; 2 yanıp sönme. Her zaman arıza değildir.",
+      "makineTepkisi": "Ayar tamamlanınca normal moda döner.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Başlatma modu sürüyor"
+      ],
+      "kontroller": [
+        "Ayar işlemini tamamlayın; orbit rol rotor gevşekse sıkın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294234066/Komatsu+FD+FG+Forklift+Trucks+Shop+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "3F",
+      "kodNormal": "3F",
+      "aliaslar": [
+        "3 FLASH"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon açısı sensörü hatası",
+      "aciklama": "Direksiyon açısı sensörü hatalı sinyal üretiyor; 3 yanıp sönme.",
+      "makineTepkisi": "Alternatif direksiyon desteği kapanır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Direksiyon sensörü kısa devresi ya da arızası"
+      ],
+      "kontroller": [
+        "Kontrolör beslemesini kontrol edin; gerekirse kontrolörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294234066/Komatsu+FD+FG+Forklift+Trucks+Shop+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "4F",
+      "kodNormal": "4F",
+      "aliaslar": [
+        "4 FLASH"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Tekerlek devir sensörü hatası",
+      "aciklama": "Tekerlek (wheel/tire angle) sensörü sinyali kopuk ya da kısa devre; 4 yanıp sönme.",
+      "makineTepkisi": "Alternatif direksiyon desteği kapanır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Tekerlek sensörü bağlantısı kopuk/kısa",
+        "Sensör yanlış monte edilmiş"
+      ],
+      "kontroller": [
+        "Tekerlek sensörü ve devresini kontrol edin; montaj yönünü doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294234066/Komatsu+FD+FG+Forklift+Trucks+Shop+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "LEDOFF",
+      "kodNormal": "LEDOFF",
+      "aliaslar": [
+        "LED OFF"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "EPS ünite arızası / ayar modu dışı",
+      "aciklama": "EPS LED'i sönükse kontrolör arızalı ya da istenen ilk ayar dışı durumdadır.",
+      "makineTepkisi": "Güç direksiyon desteği çalışmaz.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kontrolör arızası",
+        "Valf sürücü devresi hatası",
+        "Orbit rol rotor boşluğu"
+      ],
+      "kontroller": [
+        "Klemeleri kontrol edin; gerekirse kontrolörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294234066/Komatsu+FD+FG+Forklift+Trucks+Shop+Manual+PDF.pdf",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "LEDON",
+      "kodNormal": "LEDON",
+      "aliaslar": [
+        "LED ON"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "EPS normal çalışma",
+      "aciklama": "LED sürekli yanıyorsa ilk ayar tamamdır; sistem normaldir.",
+      "makineTepkisi": "Kısıtlama yoktur.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/app/download/6294234066/Komatsu+FD+FG+Forklift+Trucks+Shop+Manual+PDF.pdf",
+      "durum": "incelemede"
+    }
+  ]
+}

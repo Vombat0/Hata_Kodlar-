@@ -1,0 +1,23 @@
+{
+  "name": "forklift-hata-kodlari",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bağımsız forklift hata kodu referansı — Türkçe, statik.",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "node tools/birlestir.mjs && node tools/indeks-uret.mjs && astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "veri:birlestir": "node tools/birlestir.mjs",
+    "veri:dogrula": "node tools/dogrula.mjs",
+    "veri:kaynak-raporu": "node tools/kaynak-raporu.mjs",
+    "veri:kuretaj": "node tools/kuretaj-al.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "latest",
+    "astro": "latest"
+  },
+  "devDependencies": {
+    "pagefind": "latest"
+  }
+}

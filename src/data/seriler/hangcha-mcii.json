@@ -1,0 +1,280 @@
+{
+  "marka": "hangcha",
+  "seri": "mcii",
+  "modelAdi": "Kaldirma (hydraulic pompa) sürücüsü MCII",
+  "kaynakBelge": "Hangcha kaldirma surucusu hata tablosu (forkliftpdfmanuals.com)",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+  "kodlar": [
+    {
+      "kod": "OFF/ON",
+      "kodNormal": "OFFON",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Gerilim yok / sürücü çalışmıyor",
+      "aciklama": "LED sönük LCD kapalıysa besleme gerilimi yok ya da kaldırma sürücüsü (MCII) arızalı.",
+      "makineTepkisi": "Kaldırma fonksiyonları tamamen ölü.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Besleme gerilimi yok",
+        "Kaldırma sürücüsü (MCII) arızalı"
+      ],
+      "kontroller": [
+        "Besleme gerilimini ve sigortaları kontrol edin.",
+        "MCII sürücüsünü doğrulayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "0,1",
+      "kodNormal": "01",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Normal çalışma",
+      "aciklama": "LED yeşil yanar ve ekranda hata yoktur; sürücü normal çalışıyor durumu.",
+      "makineTepkisi": "Herhangi kısıtlama yoktur.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "1,1",
+      "kodNormal": "11",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "EEPROM arızası",
+      "aciklama": "Kalıcı bellek verisi eksik ya da toplam hatalı; parametre yazarak hata temizlenebilir.",
+      "makineTepkisi": "Parametreler geçersiz olabilir, kaldırma durabilir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "EEPROM veri kaybı",
+        "EEPROM veri toplam (checksum) hatası"
+      ],
+      "kontroller": [
+        "Parametreleri yeniden yazın.",
+        "Hata sürerse kontrol ünitesini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "1,2",
+      "kodNormal": "12",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Donanım arızası",
+      "aciklama": "Çıkış MOSFET'i kısa devreli ya da motor devresi açık; ünite hasarlı.",
+      "makineTepkisi": "Pompa çıkışı çalışmaz.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Mosfet kısa devresi",
+        "Motor devresi açık"
+      ],
+      "kontroller": [
+        "Mosfet çıkışını ve motor kablolarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "2,1",
+      "kodNormal": "21",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Düşük gerilim uyarısı",
+      "aciklama": "Akü gerilimi düşük; kaldırma akımı sınırlanmaya başlar.",
+      "makineTepkisi": "Kaldırma hızı düşer.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Akü geriliminin düşük olması"
+      ],
+      "kontroller": [
+        "Akü gerilimini ölçün ve gerekirse şarj edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "2,2",
+      "kodNormal": "22",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma kilidi devrede",
+      "aciklama": "Kontrol ünitesinin kaldırma kilidi fonksiyonu tetiklendi; kaldırma geçici engellenir.",
+      "makineTepkisi": "Kaldırma yapılamaz, yürüyüş sürebilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Kaldırma kilidi fonksiyonunun tetiklenmesi"
+      ],
+      "kontroller": [
+        "Kaldırma kilidi koşullarını ve şalterleri kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "2,3",
+      "kodNormal": "23",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Sıra hatası (start lockout)",
+      "aciklama": "SS1-SS4 şalterlerinden biri KSI/INTERLOCK'tan önce kapandı; açılış sırası hatalı.",
+      "makineTepkisi": "Kaldırma devreye giremez.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "SS1-SS4 şalterlerinden birinin KSI/INTERLOCK'tan önce kapanması"
+      ],
+      "kontroller": [
+        "Açılış sırasını ve şalter ayarlarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "3,2",
+      "kodNormal": "32",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör hatası (yapışık)",
+      "aciklama": "Ana kontaktör yapışık ya da CONTACT CNTRL parametresi yanlış ayarlı.",
+      "makineTepkisi": "Güç devresi denetlenemez, kaldırma kilitlenebilir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Ana kontaktörün yapışması",
+        "CONTACT CNTRL parametresinin yanlış ayarlanması"
+      ],
+      "kontroller": [
+        "Kontaktörü ve ilgili parametreyi kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "3,3",
+      "kodNormal": "33",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Ön şarj hatası",
+      "aciklama": "Ön şarj devresi hatalı çalışıyor ya da motor kısa devreli.",
+      "makineTepkisi": "Kaldırma sürücüsü hazır olmaz.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Ön şarj devresi hatası",
+        "Motor kısa devresi"
+      ],
+      "kontroller": [
+        "Ön şarj devresini ve motor yalıtımını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "3,4",
+      "kodNormal": "34",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör yok / kapanmıyor",
+      "aciklama": "Ana kontaktör bobin bağlantısı gevşek ya da kontaktör arızalı; kapanma doğrulanamıyor.",
+      "makineTepkisi": "Kaldırma gücü açılmaz.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Ana kontaktör bobin bağlantısının gevşemesi",
+        "Kontaktör arızası"
+      ],
+      "kontroller": [
+        "Bobin bağlantısını ve kontaktörü kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "4,1",
+      "kodNormal": "41",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Düşük gerilim koruması",
+      "aciklama": "Akü gerilimi LOVOLT CUTBACK ayar değerinin altına indi.",
+      "makineTepkisi": "Kaldırma kesilir; şarj gerekir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Akü geriliminin LOVOLT CUTBACK ayarının altına düşmesi"
+      ],
+      "kontroller": [
+        "Akü gerilimini ölçün; düşükse şarj edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "4,2",
+      "kodNormal": "42",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Aşırı gerilim koruması",
+      "aciklama": "Akü gerilimi izin verilen üst sınırın üzerinde.",
+      "makineTepkisi": "Kaldırma/rejeneratif çıkış kesilir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Akü geriliminin izin verilen üst sınırı aşması"
+      ],
+      "kontroller": [
+        "Şarj sistemini ve akü gerilimini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "4,3",
+      "kodNormal": "43",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Sıcaklık koruması",
+      "aciklama": "Sürücü sıcaklığı aşırı ya da çok düşük; sıcaklık sensörü de hatalı olabilir.",
+      "makineTepkisi": "Kaldırma performansı kesilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Kontrolör sıcaklığının çok yüksek veya çok düşük olması",
+        "Sıcaklık sensörü arızası"
+      ],
+      "kontroller": [
+        "Sıcaklık sensörünü ve soğutma koşullarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hangcha-error-codes/",
+      "durum": "incelemede"
+    }
+  ]
+}

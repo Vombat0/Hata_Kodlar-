@@ -1,0 +1,68 @@
+---
+const yol = Astro.url.pathname;
+
+const baglantilar = [
+  { href: '/', ad: 'Ana Sayfa' },
+  { href: '/kapsam/', ad: 'Kapsam' },
+  { href: '/kaynaklar/', ad: 'Kaynaklar' },
+  { href: '/hakkinda/', ad: 'Hakkında' },
+];
+
+const ustSayfalar = ['arama', 'kapsam', 'kaynaklar', 'hakkinda', '404'];
+
+function aktif(href: string): boolean {
+  if (href === '/') {
+    const bolum = yol.split('/').filter(Boolean)[0] ?? '';
+    return bolum === '' || !ustSayfalar.includes(bolum);
+  }
+  return yol.startsWith(href);
+}
+---
+
+<header class="site-header">
+  <div class="sarmal">
+    <a class="marka" href="/" aria-label="Forklift Hata Kodu ana sayfa">
+      <span class="marka-isaret" aria-hidden="true">FH</span>
+      <span>Forklift Hata Kodu <span class="marka-alt">/ TR</span></span>
+    </a>
+
+    <nav class="ana-nav" aria-label="Ana menü">
+      {baglantilar.map((b) => (
+        <a href={b.href} aria-current={aktif(b.href) ? 'page' : undefined}>{b.ad}</a>
+      ))}
+    </nav>
+
+    <button
+      class="tema-dugmesi"
+      id="tema-dugmesi"
+      type="button"
+      aria-label="Açık tema geç"
+      title="Temayı değiştir"
+    >
+      <span id="tema-simge" aria-hidden="true">☾</span>
+    </button>
+  </div>
+</header>
+
+<script>
+  const dugme = document.getElementById('tema-dugmesi');
+  const simge = document.getElementById('tema-simge');
+
+  function guncelle(tema: string) {
+    if (!dugme || !simge) return;
+    const acik = tema === 'light';
+    simge.textContent = acik ? '☀' : '☾';
+    dugme.setAttribute('aria-label', acik ? 'Koyu tema geç' : 'Açık tema geç');
+    dugme.setAttribute('title', acik ? 'Koyu temaya geç' : 'Açık temaya geç');
+  }
+
+  guncelle(document.documentElement.getAttribute('data-theme') || 'dark');
+
+  dugme?.addEventListener('click', () => {
+    const suAnki = document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+    const yeni = suAnki === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', yeni);
+    try { localStorage.setItem('fhk-tema', yeni); } catch (e) {}
+    guncelle(yeni);
+  });
+</script>

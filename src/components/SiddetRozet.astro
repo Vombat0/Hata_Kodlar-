@@ -1,0 +1,12 @@
+---
+import { SIDDETLER } from '../lib/veri';
+
+interface Props {
+  siddet: string;
+}
+const { siddet } = Astro.props;
+const bilgi = SIDDETLER[siddet] ?? { ad: siddet || 'Bilinmiyor', renk: '#64748B' };
+const sinif = ['durdurucu', 'kisitlayici', 'uyari', 'bilgi'].includes(siddet) ? siddet : 'bilgi';
+---
+
+<span class={`rozet rozet-${sinif}`} title={`Şiddet: ${bilgi.ad}`}>{bilgi.ad}</span>

@@ -1,0 +1,1059 @@
+{
+  "marka": "kalmar",
+  "seri": "kcs790",
+  "modelAdi": "DCE/ECE dizisi KCS gösterge (EDU795) + ECU790 + ECU792 üniteleri",
+  "kaynakBelge": "Kalmar DCE hata kodları tablosu (forkliftpdfmanuals.com)",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+  "kodlar": [
+    {
+      "kod": "1",
+      "kodNormal": "1",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Servis aralığı aşıldı",
+      "aciklama": "Servis aralığı aşıldı. Bakım zamanı geldi; çalışmaya devam edilebilir.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Servis aralığı aşıldı"
+      ],
+      "kontroller": [
+        "Servis aralığını ve bakım kayıtlarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "10",
+      "kodNormal": "10",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "ECU 790 ile iletişim hatası",
+      "aciklama": "ECU 790 ile iletişim hatası. İletişim kurulamadığı için çalışmaya devam edilemez.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ECU 790 ile iletişim hatası"
+      ],
+      "kontroller": [
+        "ECU 790 beslemesini ve CAN hattı konektörlerini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "11",
+      "kodNormal": "11",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "ECU 790 - EDU 795 iletişim kablosu arızalı",
+      "aciklama": "ECU 790 - EDU 795 iletişim kablosu arızalı. Kablo arızası nedeniyle çalışmaya devam edilemez.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "ECU 790 - EDU 795 iletişim kablosu arızalı"
+      ],
+      "kontroller": [
+        "ECU 790 ile EDU 795 arasındaki iletişim kablosunu kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "12",
+      "kodNormal": "12",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "ECU 793 ile iletişim hatası",
+      "aciklama": "ECU 793 ile iletişim hatası. İletişim kurulamadığı için çalışmaya devam edilemez.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ECU 793 ile iletişim hatası"
+      ],
+      "kontroller": [
+        "ECU 793 beslemesini ve iletişim hattını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "13",
+      "kodNormal": "13",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "ECU 794 ile iletişim hatası",
+      "aciklama": "ECU 794 ile iletişim hatası. İletişim kurulamadığı için çalışmaya devam edilemez.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ECU 794 ile iletişim hatası"
+      ],
+      "kontroller": [
+        "ECU 794 beslemesini ve iletişim hattını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "14",
+      "kodNormal": "14",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "ECU 796 yanıt vermiyor",
+      "aciklama": "ECU 796 yanıt vermiyor. Ünite yanıt vermediği için çalışmaya devam edilemez.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ECU 796 yanıt vermiyor"
+      ],
+      "kontroller": [
+        "ECU 796 beslemesini ve iletişim hattını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "15",
+      "kodNormal": "15",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "ECU 795 - ECU 796 iletişim kablosu arızalı",
+      "aciklama": "ECU 795 - ECU 796 iletişim kablosu arızalı. Kablo arızası nedeniyle sınırlı çalışma uygulanır.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "ECU 795 - ECU 796 iletişim kablosu arızalı"
+      ],
+      "kontroller": [
+        "ECU 795 ile ECU 796 arasındaki iletişim kablosunu kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "16",
+      "kodNormal": "16",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "ECU 796 - ECU 790 iletişim kablosu arızalı",
+      "aciklama": "ECU 796 - ECU 790 iletişim kablosu arızalı. Kablo arızası nedeniyle sınırlı çalışma uygulanır.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "ECU 796 - ECU 790 iletişim kablosu arızalı"
+      ],
+      "kontroller": [
+        "ECU 796 ile ECU 790 arasındaki iletişim kablosunu kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "17",
+      "kodNormal": "17",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "EDU 795 bellek toplam (checksum) hatası",
+      "aciklama": "EDU 795 bellek toplam (checksum) hatası. Bellek verisi bozuk; çalışmaya devam edilemez ve gösterge çalışmıyor.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "EDU 795 bellek toplam (checksum) hatası"
+      ],
+      "kontroller": [
+        "EDU 795 yazılımını yeniden yükleyin; hata sürerse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "18",
+      "kodNormal": "18",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "ECU 792 yanıt vermiyor",
+      "aciklama": "ECU 792 yanıt vermiyor. Ünite yanıt vermediği için çalışmaya devam edilemez.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ECU 792 yanıt vermiyor"
+      ],
+      "kontroller": [
+        "ECU 792 beslemesini ve iletişim hattını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "301",
+      "kodNormal": "301",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "ECU 790 besleme gerilimi hatası",
+      "aciklama": "ECU 790 besleme gerilimi hatası. Motor devri düşürülür. Operatör el kitabına göre sigortaları, akü gerilimi ve elektrolit yoğunluğunu kontrol edin. Hata sürerse servise başvurun.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ECU 790 besleme gerilimi hatası"
+      ],
+      "kontroller": [
+        "Sigortaları, akü gerilimini ve elektrolit yoğunluğunu kontrol edin.",
+        "Hata sürerse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "303",
+      "kodNormal": "303",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "ECU 790 5V referans gerilim hatası",
+      "aciklama": "ECU 790 5V referans gerilim hatası. Referans gerilim aralık dışında; motor devri düşürülür.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ECU 790 5V referans gerilim hatası"
+      ],
+      "kontroller": [
+        "5V referans hattını ve bağlı sensörleri kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "304",
+      "kodNormal": "304",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "Elektrikli yük tartım sensörü arızası",
+      "aciklama": "Elektrikli yük tartım sensörü arızası. Yük tartım bilgisi güvenilir değil; sınırlı çalışma uygulanır.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Elektrikli yük tartım sensörü arızası"
+      ],
+      "kontroller": [
+        "Yük tartım sensörünü ve kablo bağlantılarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "305",
+      "kodNormal": "305",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Hız sensörü arızası",
+      "aciklama": "Hız sensörü arızası. Hız bilgisi okunamadığı için motor devri düşürülür.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Hız sensörü arızası"
+      ],
+      "kontroller": [
+        "Hız sensörünü ve kablo bağlantılarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "306",
+      "kodNormal": "306",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor devir sensörü arızası",
+      "aciklama": "Motor devir sensörü arızası. Motor devri okunamadığı için motor devri düşürülür.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Motor devir sensörü arızası"
+      ],
+      "kontroller": [
+        "Motor devir sensörünü ve kablolarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "307",
+      "kodNormal": "307",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Vites seçici kolu arızası",
+      "aciklama": "Vites seçici kolu arızası. Vites seçimi algılanamıyor; motor devri düşürülür.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Vites seçici kolu arızası"
+      ],
+      "kontroller": [
+        "Vites seçici kolunu ve şalter devresini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "320",
+      "kodNormal": "320",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Hidrostatik ileri çalışma basıncı sensörü arızası",
+      "aciklama": "Hidrostatik ileri çalışma basıncı sensörü arızası. İleri çalışma basıncı okunamıyor; motor devri düşürülür.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Hidrostatik ileri çalışma basıncı sensörü arızası"
+      ],
+      "kontroller": [
+        "İleri devre basınç sensörünü ve kablolarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "321",
+      "kodNormal": "321",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Hidrostatik geri çalışma basıncı sensörü arızası",
+      "aciklama": "Hidrostatik geri çalışma basıncı sensörü arızası. Geri çalışma basıncı okunamıyor; motor devri düşürülür.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Hidrostatik geri çalışma basıncı sensörü arızası"
+      ],
+      "kontroller": [
+        "Geri devre basınç sensörünü ve kablolarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "322",
+      "kodNormal": "322",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Kaldırma kolunun hidrolik basınç sensörü arızası",
+      "aciklama": "Kaldırma kolunun hidrolik basınç sensörü arızası. Kaldırma kolu kullanıldığında motor devri yükselmiyor.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Kaldırma kolunun hidrolik basınç sensörü arızası"
+      ],
+      "kontroller": [
+        "Kaldırma kolu basınç sensörünü ve kablolarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "323",
+      "kodNormal": "323",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "EDC pompa valfi ileri çıkışında kısa/açık devre",
+      "aciklama": "EDC pompa valfi ileri çıkışında kısa/açık devre. Motor devri düşürülür.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "EDC pompa valfi ileri çıkışında kısa/açık devre"
+      ],
+      "kontroller": [
+        "EDC pompa valfi ileri çıkış hattını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "324",
+      "kodNormal": "324",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "EDC pompa valfi geri çıkışında kısa/açık devre",
+      "aciklama": "EDC pompa valfi geri çıkışında kısa/açık devre. Motor devri düşürülür.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "EDC pompa valfi geri çıkışında kısa/açık devre"
+      ],
+      "kontroller": [
+        "EDC pompa valfi geri çıkış hattını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "325",
+      "kodNormal": "325",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "PDC hidrolik motor valfi çıkışında kısa/açık devre",
+      "aciklama": "PDC hidrolik motor valfi çıkışında kısa/açık devre. Motor devri düşürülür.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "PDC hidrolik motor valfi çıkışında kısa/açık devre"
+      ],
+      "kontroller": [
+        "PDC hidrolik motor valfi çıkış hattını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "350",
+      "kodNormal": "350",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Akü gerilimi düşük",
+      "aciklama": "Akü gerilimi düşük. Sınırlı çalışma uygulanır.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Akü gerilimi düşük"
+      ],
+      "kontroller": [
+        "Akü gerilimini ve şarj sistemini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "351",
+      "kodNormal": "351",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Akü gerilimi yüksek",
+      "aciklama": "Akü gerilimi yüksek. Sınırlı çalışma uygulanır.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Akü gerilimi yüksek"
+      ],
+      "kontroller": [
+        "Akü gerilimini ve şarj sistemini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "352",
+      "kodNormal": "352",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Yakıt seviyesi düşük",
+      "aciklama": "Yakıt seviyesi düşük. Çalışmaya devam edilebilir; yakıt ikmali gerekir.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Yakıt seviyesi düşük"
+      ],
+      "kontroller": [
+        "Yakıt ikmali yapın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "353",
+      "kodNormal": "353",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Yakıt seviye sensörü arızası",
+      "aciklama": "Yakıt seviye sensörü arızası. Çalışmaya devam edilebilir.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Yakıt seviye sensörü arızası"
+      ],
+      "kontroller": [
+        "Yakıt seviye sensörünü ve kablolarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "354",
+      "kodNormal": "354",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Soğutma suyu seviyesi düşük",
+      "aciklama": "Soğutma suyu seviyesi düşük. Motor devri düşürülür; soğutma suyu ekleyin.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Soğutma suyu seviyesi düşük"
+      ],
+      "kontroller": [
+        "Soğutma suyu seviyesini kontrol edip ekleyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "355",
+      "kodNormal": "355",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik yağ sıcaklığı yüksek",
+      "aciklama": "Hidrolik yağ sıcaklığı yüksek. Yağ 70°C altına düşene kadar hidrolik fonksiyonları kullanmayın. Hata sürerse servise başvurun.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Hidrolik yağ sıcaklığı yüksek"
+      ],
+      "kontroller": [
+        "Yağ 70°C altına düşene kadar hidrolik fonksiyonları kullanmayın.",
+        "Hata sürerse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "356",
+      "kodNormal": "356",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik yağ sıcaklık sensörü hatası",
+      "aciklama": "Hidrolik yağ sıcaklık sensörü hatası. Çalışmaya devam edilebilir.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Hidrolik yağ sıcaklık sensörü hatası"
+      ],
+      "kontroller": [
+        "Hidrolik yağ sıcaklık sensörünü ve kablolarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "357",
+      "kodNormal": "357",
+      "aliaslar": [],
+      "sistem": "fren",
+      "baslik": "Fren sisteminde akümülatör basıncı düşük",
+      "aciklama": "Fren akümülatöründeki basınç çok düşük; servis freni kapasitesi sınırlı. Basınç oluşmuyor veya korunmuyorsa akümülatör sızdırmazlığını kontrol edin.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Fren sisteminde akümülatör basıncı düşük"
+      ],
+      "kontroller": [
+        "Akümülatör sızdırmazlığını ve basıncı kontrol edin.",
+        "Hata sürerse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "370",
+      "kodNormal": "370",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor partikül filtresi: 30 dakika içinde temizlenmeli",
+      "aciklama": "Motor partikül filtresi: 30 dakika içinde temizlenmeli. Filtreyi 30 dakika içinde temizleyin.",
+      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Motor partikül filtresi: 30 dakika içinde temizlenmeli"
+      ],
+      "kontroller": [
+        "Filtreyi 30 dakika içinde temizleyin.",
+        "Partikül filtresi el kitabına bakın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "371",
+      "kodNormal": "371",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor partikül filtresi: hemen temizlenmeli",
+      "aciklama": "Motor partikül filtresi: hemen temizlenmeli. Filtreyi hemen temizleyin; motor devri düşürülür.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Motor partikül filtresi: hemen temizlenmeli"
+      ],
+      "kontroller": [
+        "Filtreyi hemen temizleyin.",
+        "Partikül filtresi el kitabına bakın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "372",
+      "kodNormal": "372",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor partikül filtresi basıncı yüksek",
+      "aciklama": "Motor partikül filtresi basıncı yüksek. Filtreyi temizleyin; motor devri düşürülür.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Motor partikül filtresi basıncı yüksek"
+      ],
+      "kontroller": [
+        "Partikül filtresini temizleyin; gerekirse durdurma bölümüne bakın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "380",
+      "kodNormal": "380",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Sol ön gaz pedalı hatası",
+      "aciklama": "Sol ön gaz pedalı hatası. Motor devri düşürülür.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sol ön gaz pedalı hatası"
+      ],
+      "kontroller": [
+        "Sol ön gaz pedalı devresini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "381",
+      "kodNormal": "381",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Sağ ön gaz pedalı hatası",
+      "aciklama": "Sağ ön gaz pedalı hatası. Motor devri düşürülür.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sağ ön gaz pedalı hatası"
+      ],
+      "kontroller": [
+        "Sağ ön gaz pedalı devresini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "382",
+      "kodNormal": "382",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Sol arka gaz pedalı hatası",
+      "aciklama": "Sol arka gaz pedalı hatası. Motor devri düşürülür.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sol arka gaz pedalı hatası"
+      ],
+      "kontroller": [
+        "Sol arka gaz pedalı devresini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "383",
+      "kodNormal": "383",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Sağ arka gaz pedalı hatası",
+      "aciklama": "Sağ arka gaz pedalı hatası. Motor devri düşürülür.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sağ arka gaz pedalı hatası"
+      ],
+      "kontroller": [
+        "Sağ arka gaz pedalı devresini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "384",
+      "kodNormal": "384",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Enjektör pompası servo motoru hatası",
+      "aciklama": "Enjektör pompası servo motoru hatası. Motor devri düşürülür.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Enjektör pompası servo motoru hatası"
+      ],
+      "kontroller": [
+        "Enjektör pompası servo motorunu ve kablolarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "390",
+      "kodNormal": "390",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Değişken pompa valfinde hata (optimum hız/devir)",
+      "aciklama": "Değişken pompa valfinde hata (optimum hız/devir). Klemede kısa veya açık devre; sınırlı çalışma uygulanır.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Değişken pompa valfinde hata (optimum hız/devir)"
+      ],
+      "kontroller": [
+        "Valf klemesi ve kablo bağlantılarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "400",
+      "kodNormal": "400",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Yön değiştiren operatör koltuğu sensörü arızalı",
+      "aciklama": "Yön değiştiren operatör koltuğu sensörü arızalı. Yalnızca ileri yönde çalışılabilir. Makineyi durdurun ve koltuğu ileri sürüş konumuna çevirin.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Yön değiştiren operatör koltuğu sensörü arızalı"
+      ],
+      "kontroller": [
+        "Makineyi durdurun.",
+        "Koltuğu ileri sürüş konumuna çevirin.",
+        "Hata sürerse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "401",
+      "kodNormal": "401",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Kaldırma ve eğme aşırı yüklenmesi",
+      "aciklama": "Kaldırma ve eğme aşırı yüklenmesi. Hız düşürülür.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Kaldırma ve eğme aşırı yüklenmesi"
+      ],
+      "kontroller": [
+        "Yükü azaltın ve yük dağılımını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "402",
+      "kodNormal": "402",
+      "aliaslar": [],
+      "sistem": "fren",
+      "baslik": "Park freni hatası",
+      "aciklama": "Park freni hatası. Park freni çözülemiyor.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Park freni hatası"
+      ],
+      "kontroller": [
+        "Park freni solenoidini ve devresini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "404",
+      "kodNormal": "404",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Soğutma suyu seviye sensörü arızalı",
+      "aciklama": "Soğutma suyu seviye sensörü arızalı. Sınırlı çalışma uygulanır.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Soğutma suyu seviye sensörü arızalı"
+      ],
+      "kontroller": [
+        "Soğutma suyu seviye sensörünü ve kablolarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "405",
+      "kodNormal": "405",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Koltuk yön değiştirme konum sensörü arızalı",
+      "aciklama": "Koltuk yön değiştirme konum sensörü arızalı. Fonksiyon sınırlıdır.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Koltuk yön değiştirme konum sensörü arızalı"
+      ],
+      "kontroller": [
+        "Koltuk konum sensörünü ve devresini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "406",
+      "kodNormal": "406",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Güç ünitesi aks mili veya eğme silindiri sinyal hatası",
+      "aciklama": "Güç ünitesi aks mili veya eğme silindiri sinyal hatası. Aşırı yük koruması çalışmıyor; sınırlı çalışma uygulanır.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Güç ünitesi aks mili veya eğme silindiri sinyal hatası"
+      ],
+      "kontroller": [
+        "Aks mili ve eğme silindiri sinyal devrelerini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "1501",
+      "kodNormal": "1501",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Geri beslemeli yönlendirme sensör hatası",
+      "aciklama": "Geri beslemeli yönlendirme sensör hatası. Alternatif yönlendirme kapanır; standart direksiyonu kullanın.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Geri beslemeli yönlendirme sensör hatası"
+      ],
+      "kontroller": [
+        "Geri beslemeli yönlendirme sensörünü ve kablolarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "1502",
+      "kodNormal": "1502",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Joystick hatası",
+      "aciklama": "Joystick hatası. Alternatif yönlendirme kapanır; standart direksiyonu kullanın.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Joystick hatası"
+      ],
+      "kontroller": [
+        "Joystick ve kablo bağlantılarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "1503",
+      "kodNormal": "1503",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Mini tekerlek potansiyometresi hatası",
+      "aciklama": "Mini tekerlek potansiyometresi hatası. Alternatif yönlendirme kapanır; standart direksiyonu kullanın.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Mini tekerlek potansiyometresi hatası"
+      ],
+      "kontroller": [
+        "Mini tekerlek potansiyometresini ve kablolarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "1504",
+      "kodNormal": "1504",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Sağ yönlendirme valfi çıkışında kısa/açık devre",
+      "aciklama": "Sağ yönlendirme valfi çıkışında kısa/açık devre. Alternatif yönlendirme kapanır; standart direksiyonu kullanın.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sağ yönlendirme valfi çıkışında kısa/açık devre"
+      ],
+      "kontroller": [
+        "Sağ yönlendirme valfi çıkış hattını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "1505",
+      "kodNormal": "1505",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Sol yönlendirme valfi çıkışında kısa/açık devre",
+      "aciklama": "Sol yönlendirme valfi çıkışında kısa/açık devre. Alternatif yönlendirme kapanır; standart direksiyonu kullanın.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sol yönlendirme valfi çıkışında kısa/açık devre"
+      ],
+      "kontroller": [
+        "Sol yönlendirme valfi çıkış hattını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "1506",
+      "kodNormal": "1506",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "ECU 792 besleme gerilimi hatası",
+      "aciklama": "ECU 792 besleme gerilimi hatası. Motor devri düşürülür. Operatör el kitabına göre sigortaları kontrol edin; hata sürerse servise başvurun.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ECU 792 besleme gerilimi hatası"
+      ],
+      "kontroller": [
+        "Operatör el kitabına göre sigortaları kontrol edin.",
+        "Hata sürerse servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "1507",
+      "kodNormal": "1507",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "ECU 792 5V referans gerilim hatası",
+      "aciklama": "ECU 792 5V referans gerilim hatası. Referans gerilim aralık dışında; motor devri düşürülür.",
+      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ECU 792 5V referans gerilim hatası"
+      ],
+      "kontroller": [
+        "5V referans hattını ve bağlı sensörleri kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    }
+  ]
+}
