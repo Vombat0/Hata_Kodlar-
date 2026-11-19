@@ -118,27 +118,28 @@ const jsonLd = [breadcrumbLd, definedTermLd, faqLd];
     </div>
   </div>
 
-  <section class="bolum" style="padding-top:2rem">
+  <div class="sarmal">
+  <section class="bolum" style="padding-top:2rem;padding-bottom:1.25rem">
     <span class="eyek">// HATA KODU / {seri.kaynakBelge}</span>
     <div class="kod-detay-baslik">
       <h1 class="kod-buyuk">{kod.kod}</h1>
       <SiddetRozet siddet={kod.siddet} />
       <DurumRozet durum={kod.durum} />
     </div>
-    <h2 style="font-size:clamp(1.2rem,3vw,1.7rem);margin-bottom:0.75rem">{kod.baslik}</h2>
-    <p class="muted" style="max-width:76ch;margin-bottom:1rem">{kod.aciklama}</p>
+    <h2 style="font-size:clamp(1.2rem,3vw,1.7rem);margin-bottom:1rem">{kod.baslik}</h2>
     <div class="kod-detay-alt">
       <span class="sistem-etiket">{sistemAdi(kod.sistem)}</span>
       <a href={temelYol}>{markaAd} · {seri.modelAdi}</a>
       {aliaslar.length > 0 && (
         <span class="kucuk muted">
-          Alias: {aliaslar.map((a, i) => (
+          Diğer yazımlar: {aliaslar.map((a, i) => (
             <><code class="mono">{a}</code>{i < aliaslar.length - 1 && ', '}</>
           ))}
         </span>
       )}
     </div>
   </section>
+  </div>
 
   <div class="sarmal">
     <div class="icerik-iki-sutun">

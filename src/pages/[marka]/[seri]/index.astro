@@ -49,6 +49,7 @@ const jsonLd = {
     { ad: seri.modelAdi },
   ]} />
 
+  <div class="sarmal">
   <section class="bolum" style="padding-top:1.5rem">
     <span class="eyek">// SERİ / {seri.seri.toUpperCase()}</span>
     <h1>{seri.modelAdi}</h1>
@@ -65,6 +66,7 @@ const jsonLd = {
       <div class="kaynak-satiri"><span>Sistemler</span><span>{sistemler.map((s) => sistemAdi(s)).join(', ')}</span></div>
     </div>
   </section>
+  </div>
 
   <div class="sayfa-arama">
     <div class="sarmal">
@@ -82,21 +84,26 @@ const jsonLd = {
     </div>
   </div>
 
+  <div class="sarmal">
   <section class="bolum" style="padding-top:1.5rem">
     <div class="filtre-cubugu">
-      <label for="seri-sistem">Sistem</label>
-      <select id="seri-sistem">
-        <option value="">Tüm sistemler</option>
-        {sistemler.map((s) => <option value={s}>{sistemAdi(s)}</option>)}
-      </select>
-      <label for="seri-siddet">Şiddet</label>
-      <select id="seri-siddet">
-        <option value="">Tüm seviyeler</option>
-        <option value="durdurucu">Durdurucu</option>
-        <option value="kisitlayici">Kısıtlayıcı</option>
-        <option value="uyari">Uyarı</option>
-        <option value="bilgi">Bilgi</option>
-      </select>
+      <div class="filtre">
+        <label for="seri-sistem">Sistem</label>
+        <select id="seri-sistem">
+          <option value="">Tüm sistemler</option>
+          {sistemler.map((s) => <option value={s}>{sistemAdi(s)}</option>)}
+        </select>
+      </div>
+      <div class="filtre">
+        <label for="seri-siddet">Şiddet</label>
+        <select id="seri-siddet">
+          <option value="">Tüm seviyeler</option>
+          <option value="durdurucu">Durdurucu</option>
+          <option value="kisitlayici">Kısıtlayıcı</option>
+          <option value="uyari">Uyarı</option>
+          <option value="bilgi">Bilgi</option>
+        </select>
+      </div>
       <span class="sonuc-sayisi" id="seri-sayac" aria-live="polite">{seri.kodlar.length} kod</span>
     </div>
 
@@ -111,6 +118,7 @@ const jsonLd = {
       Kod adları ve açıklamalar bilgilendirme amaçlıdır. Bağımsız teknik bilgi kaynağıdır; üretici onayı veya yetkili servis temsilciliği söz konusu değildir. <a href="/kaynaklar/">Kaynak politikası →</a>
     </p>
   </section>
+  </div>
 
   <script>
     import { trNormalize, kodAnahtar } from '../../../lib/normalize';

@@ -64,29 +64,35 @@ const sozlukler = {
         </div>
 
         <div class="filtre-cubugu">
-          <label for="f-marka">Marka</label>
-          <select id="f-marka" name="marka">
-            <option value="">Tüm markalar</option>
-            {markalar.map((m) => (
-              <option value={m.id} selected={marka === m.id}>{m.ad}</option>
-            ))}
-          </select>
+          <div class="filtre">
+            <label for="f-marka">Marka</label>
+            <select id="f-marka" name="marka">
+              <option value="">Tüm markalar</option>
+              {markalar.map((m) => (
+                <option value={m.id} selected={marka === m.id}>{m.ad}</option>
+              ))}
+            </select>
+          </div>
 
-          <label for="f-seri">Seri</label>
-          <select id="f-seri" name="seri">
-            <option value="">Tüm seriler</option>
-            {seriler.map((s) => (
-              <option value={s.seri} selected={seri === s.seri}>{markaAdi(s.marka)} · {s.modelAdi}</option>
-            ))}
-          </select>
+          <div class="filtre filtre-genis">
+            <label for="f-seri">Seri</label>
+            <select id="f-seri" name="seri">
+              <option value="">Tüm seriler</option>
+              {seriler.map((s) => (
+                <option value={s.seri} selected={seri === s.seri}>{markaAdi(s.marka)} · {s.modelAdi}</option>
+              ))}
+            </select>
+          </div>
 
-          <label for="f-sistem">Sistem</label>
-          <select id="f-sistem" name="sistem">
-            <option value="">Tüm sistemler</option>
-            {sistemler.map(([id, ad]) => (
-              <option value={id} selected={sistem === id}>{ad}</option>
-            ))}
-          </select>
+          <div class="filtre">
+            <label for="f-sistem">Sistem</label>
+            <select id="f-sistem" name="sistem">
+              <option value="">Tüm sistemler</option>
+              {sistemler.map(([id, ad]) => (
+                <option value={id} selected={sistem === id}>{ad}</option>
+              ))}
+            </select>
+          </div>
 
           <button class="dugme dugme-ikincil" type="reset" id="filtre-sifirla">Sıfırla</button>
           <span class="sonuc-sayisi" id="sonuc-sayisi" aria-live="polite">{ilkSonuclar.length} sonuç</span>

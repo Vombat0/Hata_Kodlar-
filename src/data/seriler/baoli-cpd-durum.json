@@ -204,7 +204,7 @@
       "kodNormal": "11",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "başlatma şalteri kontak sonrası kapalı kaldı",
+      "baslik": "Başlatma şalteri kontak sonrası kapalı kaldı",
       "aciklama": "İlk kontak kapanışından sonra power-up anında başlatma şalteri kapalı görünüyor; başlatma rölesi yapışık olabilir.",
       "makineTepkisi": "",
       "siddet": "uyari",

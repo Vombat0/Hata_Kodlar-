@@ -608,6 +608,13 @@ tbody tr:hover { background: color-mix(in srgb, var(--surface-2) 60%, transparen
   border-bottom: 1px solid var(--border);
 }
 .filtre-cubugu label { font-size: 0.8rem; color: var(--muted); font-weight: 650; }
+.filtre { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.filtre select { width: 100%; max-width: 100%; }
+.filtre-genis { flex: 1 1 320px; }
+@media (max-width: 620px) {
+  .filtre { flex: 1 1 140px; }
+  .filtre-genis { flex-basis: 100%; }
+}
 select, .filtre-cubugu select {
   background: var(--surface);
   color: var(--text);
@@ -674,6 +681,15 @@ select, .filtre-cubugu select {
 @media (max-width: 860px) {
   .icerik-iki-sutun { grid-template-columns: 1fr; }
 }
+@media (max-width: 620px) {
+  .site-header .sarmal { gap: 0.4rem; }
+  /* Dar ekranda marka yazisi yerine yalnizca FH isareti kalir; menuye yer acilir. */
+  .marka > span:not(.marka-isaret) { display: none; }
+  .ana-nav { gap: 0; }
+  .ana-nav a { padding: 8px 10px; font-size: 0.82rem; }
+  .ana-nav a:first-child { display: none; }
+}
+
 
 .panel {
   background: var(--surface);

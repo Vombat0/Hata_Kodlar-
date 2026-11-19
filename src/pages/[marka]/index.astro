@@ -43,6 +43,7 @@ const jsonLd = {
 >
   <Breadcrumb ogeler={[{ ad: 'Ana Sayfa', href: '/' }, { ad: marka.ad }]} />
 
+  <div class="sarmal">
   <section class="bolum" style="padding-top:1.5rem">
     <span class="eyek">// MARKA</span>
     <div class="kart-ust" style="max-width:640px">
@@ -85,7 +86,11 @@ const jsonLd = {
             <div class="tablo-baslik">{seri.modelAdi}</div>
             <p class="kart-aciklama" style="margin-top:0.75rem">Kaynak belge: <span class="mono">{seri.kaynakBelge}</span> · {seri.kaynakSurum ?? 'sürüm belirtilmedi'}</p>
             <div class="kart-alt">
-              <span><strong>{seri.kodlar.filter((k) => k.durum === 'dogrulandi').length}</strong> doğrulandı</span>
+              <span>
+                {seri.kodlar.filter((k) => k.durum === 'dogrulandi').length > 0
+                  ? <><strong>{seri.kodlar.filter((k) => k.durum === 'dogrulandi').length}</strong> doğrulandı</>
+                  : <>Kaynak belgeye dayalı</>}
+              </span>
               <span style="margin-left:auto">Kodları gör →</span>
             </div>
           </a>
@@ -98,4 +103,5 @@ const jsonLd = {
       </div>
     )}
   </section>
+  </div>
 </BaseLayout>
