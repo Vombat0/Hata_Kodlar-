@@ -19,7 +19,6 @@
       "nedenler": [
         "Batarya gerilimi 63 V'yi aşıyor",
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Batarya Aşırı Gerilim Koruması besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -47,7 +46,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Güç modülü sıcaklığı 90°C'yi aşıyor",
-        "Pompa Motoru Güç Modülü Aşırı Isınma üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -77,7 +75,6 @@
       "nedenler": [
         "Batarya gerilimi deşarj koruma değerinin altında",
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Batarya Düşük Gerilim Uyarısı besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -103,7 +100,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Motor sıcaklığı azami değere yaklaşıyor",
-        "Yürüyüş Motoru Aşırı Isınma Uyarısı üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -132,7 +128,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Pompa motoru sıcaklığı azami değere yaklaşıyor",
-        "Pompa Motoru Aşırı Isınma Uyarısı üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -161,7 +156,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Başlatma sırasında faz akımı sıfır değil",
-        "Yürüyüş Motoru Akım Kaybı sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -189,7 +183,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Kontaktör akımı çok yüksek",
-        "Ana Kontaktör Bobini Aşırı Akımı bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -218,7 +211,6 @@
       "nedenler": [
         "Batarya gerilimi 24 V'in altında",
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Batarya Düşük Gerilim Koruması besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -246,7 +238,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Modül sıcaklığı 90°C'yi aşıyor",
-        "Yürüyüş Motoru Güç Modülü Aşırı Isınma üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -274,7 +265,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Açılış kendini testi sırasında gaz pedalına basıldı",
-        "Çalıştırmadan Önce Gaz Pedalına Basılması ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -301,7 +291,6 @@
       "siddet": "uyari",
       "nedenler": [
         "K1-16 gerilimi 4,3 V'un altında",
-        "Kontrol Ünitesi 5 V Çıkış Arızası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -328,7 +317,6 @@
       "siddet": "uyari",
       "nedenler": [
         "K1-17 gerilimi 10,5 V'un altında",
-        "Kontrol Ünitesi 12 V Çıkış Arızası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -354,7 +342,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Kontrol parametre değeri izin verilen aralığın dışında",
-        "Flaş Bellek Hata Uyarısı belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -383,7 +370,6 @@
       "nedenler": [
         "Motor çalışırken kapasitör gerilimi batarya geriliminin %70'inin altında",
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Ön Şarj Kapasitörü Düşük Gerilimi besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -410,7 +396,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Motor sıcaklığı azami değeri aşıyor",
-        "Yürüyüş Motoru Aşırı Isınma Kapatması üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -439,7 +424,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Motor çalışırken enkoder sinyali kayboldu",
-        "Yürüyüş Motoru Enkoder Arızası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -489,7 +473,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Pedal kapalıyken gaz geri besleme gerilimi hatalı",
-        "Gaz Pedalı Arızası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],

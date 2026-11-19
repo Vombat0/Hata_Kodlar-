@@ -17,9 +17,7 @@
       "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
       "siddet": "durdurucu",
       "nedenler": [
-        "ECU 796 besleme gerilimi hatası",
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "ECU 796 besleme gerilimi hatası besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -45,8 +43,6 @@
       "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
       "siddet": "durdurucu",
       "nedenler": [
-        "ECU 796 bellek toplam (checksum) hatası",
-        "ECU 796 bellek toplam (checksum) hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -74,9 +70,7 @@
       "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
       "siddet": "durdurucu",
       "nedenler": [
-        "ECU 796 10V referans gerilim hatası",
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "ECU 796 10V referans gerilim hatası besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -102,8 +96,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "ECU 796 PWM çıkış besleme hatası",
-        "ECU 796 PWM çıkış besleme hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -130,8 +122,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "XA-PWM K2 iletişim hatası",
-        "XA-PWM K2 iletişim hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -158,8 +148,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "XA-PWM K3 iletişim hatası",
-        "XA-PWM K3 iletişim hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -186,8 +174,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 1 kol giriş sinyali hatası",
-        "Hidrolik fonksiyon 1 kol giriş sinyali hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -213,8 +199,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 2 kol giriş sinyali hatası",
-        "Hidrolik fonksiyon 2 kol giriş sinyali hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -240,8 +224,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 3 kol giriş sinyali hatası",
-        "Hidrolik fonksiyon 3 kol giriş sinyali hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -267,8 +249,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 4 kol giriş sinyali hatası",
-        "Hidrolik fonksiyon 4 kol giriş sinyali hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -294,8 +274,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 5 kol giriş sinyali hatası",
-        "Hidrolik fonksiyon 5 kol giriş sinyali hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -321,7 +299,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 1A yön valfi kısa/açık devre (K2:3)",
         "Hidrolik fonksiyon 1A yön valfi kısa/açık devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
@@ -349,7 +326,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 1B yön valfi kısa/açık devre (K2:4)",
         "Hidrolik fonksiyon 1B yön valfi kısa/açık devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
@@ -377,7 +353,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 2A yön valfi kısa/açık devre (K2:5)",
         "Hidrolik fonksiyon 2A yön valfi kısa/açık devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
@@ -405,7 +380,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 2B yön valfi kısa/açık devre (K2:6)",
         "Hidrolik fonksiyon 2B yön valfi kısa/açık devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
@@ -433,7 +407,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 3A yön valfi kısa/açık devre (K2:7)",
         "Hidrolik fonksiyon 3A yön valfi kısa/açık devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
@@ -461,7 +434,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 3B yön valfi kısa/açık devre (K2:8)",
         "Hidrolik fonksiyon 3B yön valfi kısa/açık devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
@@ -489,7 +461,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 4A yön valfi kısa/açık devre (K2:11)",
         "Hidrolik fonksiyon 4A yön valfi kısa/açık devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
@@ -517,7 +488,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 4B yön valfi kısa/açık devre (K2:12)",
         "Hidrolik fonksiyon 4B yön valfi kısa/açık devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
@@ -545,7 +515,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 5A yön valfi kısa/açık devre (K2:13)",
         "Hidrolik fonksiyon 5A yön valfi kısa/açık devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
@@ -573,7 +542,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik fonksiyon 5B yön valfi kısa/açık devre (K2:14)",
         "Hidrolik fonksiyon 5B yön valfi kısa/açık devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
@@ -601,8 +569,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Dikey tutuş (vertical hold) sensör hatası",
-        "Dikey tutuş (vertical hold) sensör hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -629,8 +595,6 @@
       "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
       "siddet": "bilgi",
       "nedenler": [
-        "Ön seçilen kaldırma yüksekliği sensör hatası",
-        "Ön seçilen kaldırma yüksekliği sensör hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -657,8 +621,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "CTX iletişim hatası",
-        "CTX iletişim hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -684,8 +646,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı P1 basınç sensörü arızalı",
-        "Sıkıştırma ataşmanı P1 basınç sensörü arızalı arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -712,8 +672,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı P2 basınç sensörü arızalı",
-        "Sıkıştırma ataşmanı P2 basınç sensörü arızalı arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -741,7 +699,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı yön valfi kısa/açık devre (K3:3)",
         "Sıkıştırma ataşmanı yön valfi kısa/açık devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
@@ -769,8 +726,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Ataşman basıncı ON/OFF yön valfi kısa/açık devre",
-        "Ataşman basıncı ON/OFF yön valfi kısa/açık devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -797,8 +752,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sol kol ON/OFF yön valfi kısa/açık devre",
-        "Sol kol ON/OFF yön valfi kısa/açık devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -825,8 +778,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sağ kol ON/OFF yön valfi kısa/açık devre",
-        "Sağ kol ON/OFF yön valfi kısa/açık devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -853,8 +804,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Üst sol kol ON/OFF yön valfi kısa/açık devre",
-        "Üst sol kol ON/OFF yön valfi kısa/açık devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -881,8 +830,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Orta sağ kol ON/OFF yön valfi kısa/açık devre",
-        "Orta sağ kol ON/OFF yön valfi kısa/açık devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -909,8 +856,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Orta sol kol ON/OFF yön valfi kısa/açık devre",
-        "Orta sol kol ON/OFF yön valfi kısa/açık devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -937,8 +882,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Üst sağ kol ON/OFF yön valfi kısa/açık devre",
-        "Üst sağ kol ON/OFF yön valfi kısa/açık devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -965,8 +908,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı açma basınç sensörü arızalı",
-        "Sıkıştırma ataşmanı açma basınç sensörü arızalı arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -993,8 +934,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı kapama basınç sensörü arızalı",
-        "Sıkıştırma ataşmanı kapama basınç sensörü arızalı arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -1021,8 +960,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sol/sağ kol hattı kesici şalteri arızalı",
-        "Sol/sağ kol hattı kesici şalteri arızalı ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1048,8 +985,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Maksimum yük aşıldı",
-        "Maksimum yük aşıldı ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1075,8 +1010,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı üst sol baypas valfi çalışmıyor",
-        "Sıkıştırma ataşmanı üst sol baypas valfi çalışmıyor bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -1103,8 +1036,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı orta sol baypas valfi çalışmıyor",
-        "Sıkıştırma ataşmanı orta sol baypas valfi çalışmıyor bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -1131,8 +1062,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı sol sıralama valfi çalışmıyor",
-        "Sıkıştırma ataşmanı sol sıralama valfi çalışmıyor bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -1159,8 +1088,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı üst sağ baypas valfi çalışmıyor",
-        "Sıkıştırma ataşmanı üst sağ baypas valfi çalışmıyor bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -1187,8 +1114,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı orta sağ baypas valfi çalışmıyor",
-        "Sıkıştırma ataşmanı orta sağ baypas valfi çalışmıyor bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -1215,8 +1140,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı sağ sıralama valfi çalışmıyor",
-        "Sıkıştırma ataşmanı sağ sıralama valfi çalışmıyor bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -1243,8 +1166,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı uzun sol kol P3 basınç sensörü arızalı",
-        "Sıkıştırma ataşmanı uzun sol kol P3 basınç sensörü arızalı arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -1271,8 +1192,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı kısa sol kol P3 basınç sensörü arızalı",
-        "Sıkıştırma ataşmanı kısa sol kol P3 basınç sensörü arızalı hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -1299,8 +1218,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı uzun sağ kol P3 basınç sensörü arızalı",
-        "Sıkıştırma ataşmanı uzun sağ kol P3 basınç sensörü arızalı arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -1327,8 +1244,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı kısa sağ kol P3 basınç sensörü arızalı",
-        "Sıkıştırma ataşmanı kısa sağ kol P3 basınç sensörü arızalı hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -1355,8 +1270,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma basıncı seçim şalteri hatası",
-        "Sıkıştırma basıncı seçim şalteri hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1382,8 +1295,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı sol kol P1 basınç sensörü arızalı",
-        "Sıkıştırma ataşmanı sol kol P1 basınç sensörü arızalı arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -1410,8 +1321,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı sol kol P2 basınç sensörü arızalı",
-        "Sıkıştırma ataşmanı sol kol P2 basınç sensörü arızalı arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -1438,8 +1347,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı sağ kol P1 basınç sensörü arızalı",
-        "Sıkıştırma ataşmanı sağ kol P1 basınç sensörü arızalı arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -1466,8 +1373,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Sıkıştırma ataşmanı sağ kol P3 basınç sensörü arızalı",
-        "Sıkıştırma ataşmanı sağ kol P3 basınç sensörü arızalı arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -1494,8 +1399,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Şanzıman kontrol ünitesinden gelen hata kodu",
-        "Şanzıman kontrol ünitesinden gelen hata kodu ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1521,8 +1424,6 @@
       "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Motor kontrol ünitesinden gelen hata kodu",
-        "Motor kontrol ünitesinden gelen hata kodu sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"

@@ -21,7 +21,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Kontrol ünitesi arızası",
-        "Donanım hata emniyeti / watchdog arızası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -54,7 +53,6 @@
         "Alan sargısı açık",
         "Armatür/alan akım sensörü arızası",
         "Kontrol ünitesi arızası",
-        "Motor M- kısa devre / alan sargısı arızası hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -88,7 +86,6 @@
         "VSC girişinin B+ veya B-'ye kısa devre olması",
         "Gaz potansiyometresi arızası",
         "Yanlış gaz tipi parametresi",
-        "Hız referans (VSC) sinyali arızası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -121,7 +118,6 @@
         "Yanlış START LOCKOUT tipi",
         "Gaz potansiyometresi ayarsız",
         "Sıralama gecikmesi çok kısa",
-        "Start sequence (kilitleme) hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -151,7 +147,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Kontaktör bobininde kısa devre",
-        "Kontaktör sürücü çıkışı aşırı akım bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -183,7 +178,6 @@
       "nedenler": [
         "Ana kontaktörün yapışık kalması",
         "Kontaktör sürücüsünde kısa devre",
-        "Ana kontaktör yapışık bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -247,7 +241,6 @@
       "nedenler": [
         "Kontaktör bobinlerinden birinin açık veya bağlantısız olması",
         "Ana kontaktör eksik veya bobin kablosu kopuk",
-        "Kontaktör algılanamadı / kapanmadı bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -281,7 +274,6 @@
         "Şarj cihazı bağlı çalışma",
         "Rejeneratif frenleme sırasında akü bağlantısının kopması",
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Aşırı gerilim besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],

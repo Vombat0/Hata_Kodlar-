@@ -82,7 +82,6 @@
       "nedenler": [
         "CAN tesisatı",
         "Gösterge paneli konnektörleri",
-        "DCM (gösterge modülü) iletişim kaybı ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -114,7 +113,6 @@
       "siddet": "uyari",
       "nedenler": [
         "E-03/E-04 ile aynı: besleme-toprak ve CAN tesisatı",
-        "Genel CAN veriyolü arızası kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -148,7 +146,6 @@
       "nedenler": [
         "MAF üzerinde kopuk kablo",
         "Emme borusundaki sensörün gevşek konnektörü",
-        "Sıcak tel hava akış sensörü (MAF) sinyal arızası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -263,7 +260,6 @@
       "nedenler": [
         "O2 sensör konnektöründe temas sorunu",
         "Sensörün kendisi",
-        "O2 sensörü sinyal devresi hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -298,7 +294,6 @@
       "nedenler": [
         "Isıtıcı devre süreksizliği",
         "Sensör iç ısıtıcısının arızası",
-        "O2 sensörü ısıtıcı devresi hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -359,7 +354,6 @@
       "nedenler": [
         "Kam sensörü arızası",
         "Sensör tesisatı",
-        "Kam milı konum sensörü arızası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -449,7 +443,6 @@
       "nedenler": [
         "ETC rölesinde korozyon",
         "Röleye su girişi",
-        "Elektronik gaz kontrol aktüatörü devre hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -604,7 +597,6 @@
       "nedenler": [
         "Sensörde kopuk kablo",
         "Gevşek konnektör",
-        "LPG yakıt basıncı sensörü devre hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -637,7 +629,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Vaporizer/regülatör ayar veya diyofram arızası",
-        "LPG buharlaştırıcı çıkış basıncı yüksek ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -668,7 +659,6 @@
       "siddet": "bilgi",
       "nedenler": [
         "Sensör veya devre sapması (kaynak ayrıntı vermez)",
-        "Yağ basıncı sensörü izleme hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -700,7 +690,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Fren şalterinin ayar kayması",
-        "Fren (stop lambası) şalteri ayarsız ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -795,7 +784,6 @@
       "nedenler": [
         "Sensörde kopuk kablo",
         "Gevşek konnektör",
-        "Atmosfer basıncı sensörü devre hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"

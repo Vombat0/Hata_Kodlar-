@@ -501,7 +501,6 @@
         "Akü hücreleri arası sıcaklık sensörünün kopması",
         "Sensör kısa devresi",
         "Modül girişi arızası",
-        "Akü sıcaklık geri beslemesi geçersiz üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -926,7 +925,6 @@
       "nedenler": [
         "Başka araca ait güvenlik veri kaydının yüklenmesi",
         "Dongle seri numarası hatası",
-        "Güvenlik veri kaydındaki seri numarası dongle ile eşleşmiyor ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1017,7 +1015,6 @@
       "nedenler": [
         "Yanlış kablo demeti veya parametrenin seçilmesi",
         "Araç tipi kodlamasının değiştirilmesi",
-        "Kişisel koruma şalteri işlevi kablo kodlamasıyla çelişiyor ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1133,7 +1130,6 @@
       "siddet": "uyari",
       "nedenler": [
         "JUDIT parametre girişinde hatalı alan numarası",
-        "Depo alanı numarası geçersiz ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1334,7 +1330,6 @@
       "nedenler": [
         "Acil stop devresi kablolamasında kopukluk",
         "İlgili ünitelerden birinin geç yanıt vermesi",
-        "Dur izleme: acil stop devresi geri beslemeleri eksik ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1393,7 +1388,6 @@
       "nedenler": [
         "Tahrik motoru hız sensörü gürültüsü/arızası",
         "Frenin tam tutmaması",
-        "Durur pozisyonda istem dışı kalkışa karşı koruma ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1797,7 +1791,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Güvenlik yüksekliği switchi ile kolun birlikte kullanımı",
-        "'Kaldırma/indirme' ve 'güvenlik yüksekliği' geçersiz kombinasyonu ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1855,7 +1848,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Kontağın şaltere basılı halde çevrilmesi",
-        "Açılışta operatör koruma şalteri basılı ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2018,7 +2010,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Servis personelinin fren testi başlatması",
-        "'Servis freni testi' servis fonksiyonu ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2049,7 +2040,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Servis personelinin test başlatması",
-        "'Mekanik servis freni testi' servis fonksiyonu ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2106,7 +2096,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Hidrolik kolların aynı anda yük altında kullanılması",
-        "Motor stop önleme (anti-stall) aktif sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -2224,7 +2213,6 @@
       "nedenler": [
         "Yağ kaçağı",
         "Eksik yağlama/bakım",
-        "Rezervuar seviyesi çok düşük ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2281,7 +2269,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Kontak açılırken kollara/butonlara basılması",
-        "Açılış testinde kumanda butonlarına basılı ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],

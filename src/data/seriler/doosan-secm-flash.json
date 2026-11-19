@@ -240,7 +240,6 @@
       "nedenler": [
         "takalı termostat",
         "soğutma sistemi sorunu",
-        "Sensör ısınma beklentisi karşılanmıyor arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -271,7 +270,6 @@
       "nedenler": [
         "Yakıt seçimi şalterinde kısa devre",
         "Kablo çakışması",
-        "Yakıt seçimi sinyal çakışması ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -301,7 +299,6 @@
       "nedenler": [
         "CAM sensör kabloları kopuk",
         "CAM sensörü arızalı",
-        "Kam (CAM) sensörü sinyali yok arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -332,7 +329,6 @@
       "nedenler": [
         "sinyal gürültüsü",
         "sensör bağlantı kopukluğu",
-        "Kam sensörü senkron kaybı arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -363,7 +359,6 @@
       "nedenler": [
         "krank sensör kabloları kopuk",
         "krank sensörü arızalı",
-        "Krank sensörü sinyali yok arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -394,7 +389,6 @@
       "nedenler": [
         "sinyal gürültüsü",
         "sensör bağlantı kopukluğu",
-        "Krank sensörü senkron kaybı arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"

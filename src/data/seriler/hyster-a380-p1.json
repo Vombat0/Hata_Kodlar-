@@ -20,7 +20,6 @@
         "Gaz kelebeği plağı veya motoru",
         "TPS çift kanalı",
         "Ortak 5 V/return devresi, konnektör/kablo ve ECU",
-        "TPS1 ve TPS2 gaz konumu birbiriyle çelişiyor ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -51,7 +50,6 @@
         "Gaz kelebeği plağı veya motoru",
         "TPS çift kanalı",
         "Ortak 5 V/return devresi, konnektör/kablo ve ECU",
-        "Gaz konumu komut edilen değere ulaşmıyor ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -82,7 +80,6 @@
         "Gaz kelebeği plağı veya motoru",
         "TPS çift kanalı",
         "Ortak 5 V/return devresi, konnektör/kablo ve ECU",
-        "Her iki gaz konumu sensörü gerilimi aralık dışında arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -114,7 +111,6 @@
         "APP1/APP2 kanal çelişkisi",
         "Gaz pedalı sensörü",
         "Tesisat/şase/referans veya ECU işleme",
-        "Gaz pedalı sensör kanalları konum uyuşmazlığı arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -146,7 +142,6 @@
         "Yakıt basıncı sensörü konnektörü/tesisatı",
         "Yakıt tedariği basıncında düzensizlik",
         "ECU arızası",
-        "Primer yakıt basıncı beklenen aralığın üzerinde ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -178,7 +173,6 @@
         "Yakıt basıncı sensörü konnektörü/tesisatı",
         "Yakıt tedariği basıncında düzensizlik",
         "ECU arızası",
-        "Primer yakıt basıncı beklenen aralığın altında ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -209,7 +203,6 @@
         "Sensör konnektörü/tesisatı",
         "Devre gerilimi aralık dışı",
         "ECU giriş kademesi",
-        "Primer yakıt basıncı devre sinyali yüksek ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -240,7 +233,6 @@
         "Sensör konnektörü/tesisatı",
         "Devre gerilimi aralık dışı",
         "ECU giriş kademesi",
-        "Primer yakıt basıncı devre sinyali düşük ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -271,7 +263,6 @@
         "Yağ basıncı vericisi",
         "353-A nolu devre tesisatı/konnektörü",
         "Sinyal/referans hatası veya ECU girişi",
-        "Motor yağ basıncı sensör sinyali yüksek arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -300,7 +291,6 @@
       "makineTepkisi": "Uyarı lambası yanabilir; kontrolör basınç bilgisini yedekler",
       "siddet": "uyari",
       "nedenler": [
-        "Motor yağ basıncı sensörü gerilimi düşük arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -331,7 +321,6 @@
         "IAT sensörü gerilim/sıcaklık sinyali",
         "Tesisat",
         "Gerçek aşırı emme havası sıcaklığı",
-        "Emme havası sıcaklık sensörü sinyali yüksek üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -363,7 +352,6 @@
         "IAT sensörü gerilim/sıcaklık sinyali",
         "Tesisat",
         "Gerçek aşırı emme havası sıcaklığı",
-        "Emme havası sıcaklığı beklenenin üzerinde ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -393,7 +381,6 @@
         "TMAP sinyal hattı",
         "Referans besleme/şase tesisatı",
         "Sensör arızası",
-        "Manifold basıncı sensörü gerilimi yüksek arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -425,7 +412,6 @@
         "TMAP sinyal hattı",
         "Referans besleme/şase tesisatı",
         "Sensör arızası",
-        "Manifold basıncı sensörü gerilimi düşük arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -456,7 +442,6 @@
         "TMAP sinyal hattı",
         "Referans besleme/şase tesisatı",
         "Sensör arızası",
-        "Barometrik basınç alt sınırın altında ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -487,7 +472,6 @@
         "ECT sensör devresi açıklığı/kısayolu",
         "Sinyal/referans tesisatı",
         "ECT sensörü hatası",
-        "Motor soğutma suyu sıcaklık sensörü sinyali yüksek/açık üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -519,7 +503,6 @@
         "ECT sensör devresi açıklığı/kısayolu",
         "Sinyal/referans tesisatı",
         "ECT sensörü hatası",
-        "Motor soğutma suyu sıcaklık sensörü sinyali düşük üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -551,7 +534,6 @@
         "Kısa şarj çevrimi",
         "Kontak kapalıyken aşırı akım çekişi (ölçüm gerekir, akü suçlanamaz)",
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Akü gerilimi yüksek besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -581,7 +563,6 @@
         "Sensör beslemesinde kısa veya çapraz besleme",
         "Tesisat hatası",
         "Sensörlerin referansı yüklemesi veya ECU referans kademesi",
-        "Beş voltluk sensör besleme devresi yüksek arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -610,7 +591,6 @@
       "makineTepkisi": "Ağdaki modüllerle veri akışı kesilir; motor/şanzıman koordinasyonu bozulur",
       "siddet": "uyari",
       "nedenler": [
-        "ECU CAN iletişim gönderme/alma hatası kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -641,7 +621,6 @@
         "ECU besleme/toprak hattı",
         "CAN-H/CAN-L tesisatı",
         "İletişim kademesi veya ECU arızası",
-        "ECU CAN adres çakışması kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"

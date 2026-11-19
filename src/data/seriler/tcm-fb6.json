@@ -18,7 +18,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Gaz kolu kablosunun kopması",
-        "Gaz kolu kablosu kopuk ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -46,7 +45,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Yürüyüş motoru akım sensörü arızası",
-        "Yürüyüş motoru akım sensörü arızalı arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -75,7 +73,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Yürüyüş emniyet devresinin açılması",
-        "Yürüyüş emniyet devresi açıldı ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -103,7 +100,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Rejeneratif devrede anormal tıkanma",
-        "Rejeneratif devre anormal tıkanma ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -131,7 +127,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Kontrolör termik sensörü arızası",
-        "Sürücü termik sensörü arızalı üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -160,7 +155,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Yürüyüş akımının kontak açılışında/çalışmada anormal olması",
-        "Kontak açılışında/çalışmada yürüyüş akımı anormal ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -188,7 +182,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Kaldırma kolu sensör kablosunun kopması",
-        "Kaldırma kolu sensör kablosu kopuk arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -217,7 +210,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Yükleme motoru akımının anormal olması",
-        "Yükleme motoru akımı anormal sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -246,7 +238,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Yükleme emniyet devresinin açılması",
-        "Yükleme emniyet devresi açıldı ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -359,7 +350,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Yükleme emniyet devresinin açılması",
-        "Yükleme emniyet devresi açıldı ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],

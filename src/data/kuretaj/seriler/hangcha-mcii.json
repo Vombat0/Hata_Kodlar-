@@ -39,7 +39,6 @@
       "makineTepkisi": "Herhangi kısıtlama yoktur.",
       "siddet": "bilgi",
       "nedenler": [
-        "Normal çalışma ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -88,7 +87,6 @@
       "nedenler": [
         "Mosfet kısa devresi",
         "Motor devresi açık",
-        "Donanım arızası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -116,7 +114,6 @@
       "nedenler": [
         "Akü geriliminin düşük olması",
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Düşük gerilim uyarısı besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -143,7 +140,6 @@
       "siddet": "kisitlayici",
       "nedenler": [
         "Kaldırma kilidi fonksiyonunun tetiklenmesi",
-        "Kaldırma kilidi devrede ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -256,7 +252,6 @@
       "nedenler": [
         "Ana kontaktör bobin bağlantısının gevşemesi",
         "Kontaktör arızası",
-        "Kontaktör yok / kapanmıyor bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -285,7 +280,6 @@
       "nedenler": [
         "Akü geriliminin LOVOLT CUTBACK ayarının altına düşmesi",
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Düşük gerilim koruması besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -313,7 +307,6 @@
       "nedenler": [
         "Akü geriliminin izin verilen üst sınırı aşması",
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Aşırı gerilim koruması besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -341,7 +334,6 @@
       "nedenler": [
         "Kontrolör sıcaklığının çok yüksek veya çok düşük olması",
         "Sıcaklık sensörü arızası",
-        "Sıcaklık koruması üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"

@@ -21,7 +21,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "SEAT_SW1/SEAT_SW2 koltuk şalteri devresi açık veya kısa devre (OFF-OFF → Error1 açık, ON-ON → Error1 kısa)",
-        "Koltuk şalteri arızası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -51,7 +50,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "F_SW1/R_SW2 yön şalteri aynı anda kapalı (kisa devre/yanlış sinyal)",
-        "İleri/geri yön kolu arızası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -81,7 +79,6 @@
       "nedenler": [
         "N_LAMP/MAST_LAMP açık ya da kısa devre",
         "İş ekipmanı kilit rölesi anormal çıkışı",
-        "Lamba ve ekipman interlock röle hatası bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -112,7 +109,6 @@
       "nedenler": [
         "Kontrolör kaldırma çıkış transistörü açık ya da röle kopuk",
         "MAST/F/R rölelerinden biri kısa devreli",
-        "Kaldırma rölesi / sürücü çıkış hatası bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -143,7 +139,6 @@
       "nedenler": [
         "Kontrolör yürüyüş çıkış transistörü açık ya da röle kopuk",
         "F/R/MAST röle kısa devresi",
-        "Yürüyüş rölesi / sürücü çıkış hatası bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -173,7 +168,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "MAIN_RELAY çıkışı açık veya kısa devre",
-        "Ana röle (MAIN_RELAY) hatası bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -204,7 +198,6 @@
       "nedenler": [
         "Kontrol ünitesi iç arızası",
         "Besleme hattı arızası",
-        "Kontrol ünitesi arızası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],

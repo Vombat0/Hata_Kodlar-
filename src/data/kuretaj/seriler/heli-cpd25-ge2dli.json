@@ -18,7 +18,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Kontrolcü modülleri arasında iletişim kaybı",
-        "Kontrolcüler Arası İletişim Yok ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -68,7 +67,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Kontrolcü bellek verisi bozulmuş veya geçersiz",
-        "EEPROM Veri Hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -96,7 +94,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Kontrolcü EEPROM bellek çipi arızası",
-        "EEPROM Arızası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -124,7 +121,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Açılış sırasında ana kontaktör kapalı konumda sıkışmış",
-        "Kontaktör Kapalı Kalma Arızası bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -153,7 +149,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Komut verildiğinde ana kontaktör kapanmadı",
-        "Kontaktör Açık Kalma Arızası hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -183,7 +178,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Elektromanyetik fren devreye girmedi",
-        "Fren Kapanmadı ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -211,7 +205,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Fren bırakma kontaktörü çalışmadı",
-        "Fren Kontaktörü Açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -240,7 +233,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Ana güç kontaktörü beklenmedik şekilde kapalı kaldı",
-        "Ana Kontaktör Beklenmedik Şekilde Kapalı bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -269,7 +261,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Ana güç kontaktörü kapanmadı",
-        "Ana Kontaktör Açık Kaldı hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -299,7 +290,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Motor alan sargısı akımı güvenli sınırı aşıyor",
-        "Yüksek Alan Sargısı Akımı ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -328,7 +318,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Motor alan sargısına akım gitmiyor",
-        "Alan Sargısı Akımı Yok ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -356,7 +345,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Kontrolcü veya motor sıcaklığı sınırı aşıyor",
-        "Yüksek Sıcaklık üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -385,7 +373,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Bileşenleri korumak için termal güç kısıtlama devreye girdi",
-        "Termal Koruma Aktif ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -414,7 +401,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Yürüyüş motoru aşırı ısınıyor",
-        "Yürüyüş Motoru Sıcaklığı Yüksek sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -549,7 +535,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Güç katmanı sürücü devresinde kısa devre",
-        "Güç Sürücüsü Kısa Devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -577,7 +562,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Kontaktör sürücü devresi arızası",
-        "Kontaktör Sürücü Arızası bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -606,7 +590,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Kontaktör veya solenoid bobininde kısa devre",
-        "Bobin Kısa Devresi hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -635,7 +618,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Kontaktör veya solenoid bobininde açık devre",
-        "Bobin Devresi Kopuk bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -664,7 +646,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Gaz pedalı sinyali geçerli aralığın dışında",
-        "Gaz Pedalı Sinyali Geçersiz ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -713,7 +694,6 @@
       "siddet": "uyari",
       "nedenler": [
         "İleri ve geri aynı anda seçildi",
-        "İleri ve Geri Aynı Anda Seçili ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -741,7 +721,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Motor hız enkoderi sinyali geçersiz",
-        "Enkoder Hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -770,7 +749,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Gaz pedalı kablolamasında arıza",
-        "Gaz Pedalı Kablo Arızası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -798,7 +776,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Gaz pedalı potansiyometresi arızası",
-        "Gaz Pedalı Arızası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -825,8 +802,6 @@
       "makineTepkisi": "Motor gücü düşer, çalışma düzensizleşir.",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru fırçaları aşınmış veya hasarlı",
-        "Yürüyüş Motoru Fırçaları sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"

@@ -181,8 +181,8 @@
       "makineTepkisi": "Sürüş ve hidrolik kesilir",
       "siddet": "uyari",
       "nedenler": [
-        "Sürülen bileşende aşırı akım",
-        "Ana kontaktör, fren ve valf bobini demetinde hasar"
+        "Ana kontaktör, fren ve valf bobini demetinde hasar",
+        "Bobin veya motor sargısında kısa devre"
       ],
       "kontroller": [
         "Ana demetteki bağlantılar incelenir",

@@ -21,7 +21,6 @@
       "siddet": "kisitlayici",
       "nedenler": [
         "Gaz sinyali çıkışının hatalı olması",
-        "Gaz çıkış sinyali hatalı ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -52,7 +51,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Seyir akım sensörü çıkışının arızalı olması",
-        "Yürüyüş akım sensörü çıkışı hatalı arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -114,7 +112,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Yürüyüş kontaktöründe kısa devre",
-        "Yürüyüş kontaktörü kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -145,7 +142,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Yürüyüş kontaktörünün açık kalması",
-        "Yürüyüş kontaktörü açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -176,7 +172,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Yürüyüş ana sigortasının atması",
-        "Yürüyüş ana sigortası atmış atmasına yol açan aşırı akım",
         "Sigorta yuvasında gevşeme veya oksitlenme",
         "Sigorta sonrası devrede kısa devre"
       ],
@@ -234,7 +229,6 @@
       "siddet": "kisitlayici",
       "nedenler": [
         "Yükleme kaldırma potansiyometresinin arızalı olması",
-        "Kaldırma potansiyometresi arızalı potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -266,7 +260,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Yükleme akım sensörü çıkışının arızalı olması",
-        "Yükleme akım sensörü hatalı arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -330,7 +323,6 @@
       "nedenler": [
         "Yükleme FET güç modülünde açık devre",
         "Güç direksiyon transistöründe açık devre",
-        "Yükleme FET modülü açık / direksiyon transistörü açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -364,7 +356,6 @@
       "nedenler": [
         "Yükleme kontaktöründe kısa devre",
         "Güç direksiyon kontaktöründe kısa devre",
-        "Yükleme kontaktörü kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -398,7 +389,6 @@
       "nedenler": [
         "Yükleme kontaktörünün açık kalması",
         "Güç direksiyon sigorta/kontaktörünün açık kalması",
-        "Yükleme kontaktörü açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -429,7 +419,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Yükleme ana sigortasının atması",
-        "Yükleme ana sigortası atmış atmasına yol açan aşırı akım",
         "Sigorta yuvasında gevşeme veya oksitlenme",
         "Sigorta sonrası devrede kısa devre"
       ],
@@ -534,7 +523,6 @@
       "siddet": "kisitlayici",
       "nedenler": [
         "Güç direksiyon tork sensörü çıkışının arızalı olması",
-        "Güç direksiyon tork sensörü hatalı arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -568,7 +556,6 @@
       "nedenler": [
         "Yürüyüş kontrolörü termik sensörü arızası",
         "Yükleme kontrolörü termik sensörü arızası",
-        "Sürücü termik sensör hatalı üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"

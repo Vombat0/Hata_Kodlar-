@@ -17,7 +17,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş kartı ilk açılış kontrolü sırasında hata ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -43,7 +42,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Akü voltajı düşük besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -68,7 +66,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Lojik kart besleme hattında yüksek akım koruması ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -93,7 +90,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Motor fazlarından gelen voltaj değerlerinde hata sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -120,7 +116,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Lojik kart besleme hattında düşük voltaj algılandı besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -145,7 +140,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Düşük motor voltajı algılandı sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -171,7 +165,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yüksek motor voltajı algılandı sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -197,7 +190,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "K7 kontaktörü karttan kapat sinyali çıktığı halde hala açık konumda hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -223,7 +215,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Bekleme modundayken yürüyüş motorundan yüksek akım değeri algılandı sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -251,7 +242,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış sıralamasında sorun var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -278,7 +268,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Hafızaya kaydedilen tork değerlerinde uygunsuzluk var belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -306,7 +295,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İlk açılışta hem ileri hem de geri yön kumandasının aktif olduğu ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -333,7 +321,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş kartı besleme hattında problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -360,7 +347,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş sürücüsü güç mosfetlerinde kısa devre var hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -386,7 +372,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş sürücü kartı kondansatörleri ilk açılışta istenen şarj seviyesine ulaşmıyor: Akü şarj seviyesinin düşük olması",
         "Akü hücresinde zayıflama",
         "Akü bağlantı veya konnektöründe temassızlık",
         "Şarj cihazı veya şarj devresinde arıza"
@@ -412,7 +397,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş sürücü kartı sıcaklığı 85 dereceyi aşmış ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -437,7 +421,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motor sıcaklığı 150 dereceyi aşmış sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -463,7 +446,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru devir sensörü problemli arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -489,7 +471,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru sıcaklık sensöründen anormal değer algılandı üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -515,7 +496,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş pedal potansiyometresi hafızada kayıtlı min-max değerlerin dışında değer veriyor potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -541,7 +521,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş kartından veri yolu üzerinden haber alınamıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -619,7 +598,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "K7 kontaktörü problemli bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -647,7 +625,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş Lojik kartı konfigürasyonunda ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -674,7 +651,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru sıcaklık sensöründen anormal değer algılandı üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -703,7 +679,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Düşük DC giriş voltajı besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -730,7 +705,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Devir sensörü bozuk ya da yürüyüş motor rotoru sıkışmış arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -758,7 +732,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kontak açıldığında K7 kontaktörün kapalı konumda olduğu algılandı bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -786,7 +759,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş sürücü kartının algıladığı değer ile İşlemci kartının algıladığı sinyal örtüşmüyor ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -811,7 +783,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "K7 kontaaktör devresinde problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -836,7 +807,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "K7 Kontaktör bobini kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -862,7 +832,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş pedal potansiyometresi hafızada kayıtlı min-max değerlerin dışında değer veriyor potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -913,7 +882,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş sürücü kartı motorun yüksek voltaja maruz kaldığını algıladı sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -940,7 +908,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Akü voltaj değeri nominal değerden %20 daha yüksek besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -965,7 +932,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş sürücü kartı motora düşük voltaj geldiğini algıladı sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -991,7 +957,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Fabrika parametrelerinin yüklendiği algılandı: Parametre setinin bozulması veya kaybolması",
         "Kart yazılım sürümleri arasında uyumsuzluk",
         "Kalibrasyon değerlerinin geçersiz olması",
         "Bellek yazma işleminin yarıda kesilmesi"
@@ -1018,7 +983,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "DC voltaj max değer aşımı besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -1043,7 +1007,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "K7 kontaktörüne gelen güç hattında problem bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -1127,7 +1090,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş kartı akım kontrol devresinde problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1154,7 +1116,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "L9 negatif fren bobini açık devre hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -1183,7 +1144,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Yürüyüş kartı voltaj dönüştürücüsünden +24V besleme almıyor besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -1210,7 +1170,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş lojik kartı diğer ünitelerden veri yolu üzerinden veri alamıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -1237,7 +1196,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Yürüyüş kartı voltaj dönüştürücüsünden +24V besleme almıyor besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -1262,7 +1220,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kontak besleme hattında problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1287,7 +1244,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kalibrasyon yapılması gereklidir: Parametre setinin bozulması veya kaybolması",
         "Kart yazılım sürümleri arasında uyumsuzluk",
         "Kalibrasyon değerlerinin geçersiz olması",
         "Bellek yazma işleminin yarıda kesilmesi"
@@ -1313,7 +1269,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kalibrasyon yapılması gereklidir: Parametre setinin bozulması veya kaybolması",
         "Kart yazılım sürümleri arasında uyumsuzluk",
         "Kalibrasyon değerlerinin geçersiz olması",
         "Bellek yazma işleminin yarıda kesilmesi"
@@ -1339,7 +1294,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş sürücü kartı iç arızası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1364,7 +1318,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Direksiyon potansiyometresi değeri hafızadaki min max potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -1390,7 +1343,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "El freni çekili iken makine yürüyüş fonksiyonu seçilmiştir ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1415,7 +1367,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "K7 kontaktör bobini açık devre hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -1441,7 +1392,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "L9 negatif fren valfi kontrol devresinde problem var bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -1467,7 +1417,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "L9 negatif fren valfi kontrol devresinde problem var bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -1495,7 +1444,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "L9 negatif fren valf solenoidi kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -1523,7 +1471,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş kartı ile pompa kartına gelen koltuk svici sinyallerinde tutarsızlık var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1550,7 +1497,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş sürücü kartı analog kontrol devresinde problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1577,7 +1523,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş sürücü kartı konfigürasyonlarında problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1631,7 +1576,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş sürücü kartı ilave hidrolik yol çıkışında kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -1657,7 +1601,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş lojik ünitesinin MASTER ve SLAVE modüllerinden gelen akım değerlerinde örtüşmez… ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1682,7 +1625,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "L9 negatif fren valfi solenoid bobini açık devre hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -1708,7 +1650,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "L9 negatif fren valfi kontrol devresinde problem var bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -1734,7 +1675,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Bakım zamanı yeniden programlanmalıdır ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1759,7 +1699,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş kartı sürücü devresinde problem ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1784,7 +1723,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "L9 negatif fren valfi sürücü devresinde kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -1810,7 +1748,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "L9 negatif fren valfi sürücü devresinde kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -1837,7 +1774,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Yürüyüş lojik ünitesinin MASTER ve SLAVE modüllerinden gelen voltaj değerlerinde örtüşm… besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -1862,7 +1798,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş kartı ilk açılış kontrolü sırasında hata ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1887,7 +1822,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş lojik ünitesinin SLAVE modülünde yazılımsal problem var: Parametre setinin bozulması veya kaybolması",
         "Kart yazılım sürümleri arasında uyumsuzluk",
         "Kalibrasyon değerlerinin geçersiz olması",
         "Bellek yazma işleminin yarıda kesilmesi"
@@ -1913,7 +1847,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş lojik ünitesi RAM’inden uygun olmayan değerler okundu ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1939,7 +1872,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Yürüyüş sürücü kartı besleme devresinde düşük voltaj algılandı besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -1964,7 +1896,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş lojik ünitesi CAN veriyolu üzerinden diğer ünitelerden mesaj alamıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -1990,7 +1921,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş lojik ünitesi son kapamadan önce fabrika ayarlarına geri yüklendi ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2016,7 +1946,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Yüksek voltaj algılandı besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -2043,7 +1972,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş kartı konfigürasyonunda uygunsuzluk var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2070,7 +1998,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş lojik ünitesi MASTER ve SLAVE ünitelerince okunan değerler arasında örtüşmezlik… ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2097,7 +2024,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş lojik ünitesi kontrol devresinde problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2124,7 +2050,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş kartı konfigürasyonunda uygunsuzluk var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2149,7 +2074,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş sürücü kartının algıladığı değer ile İşlemci kartının algıladığı sinyal örtüşmüyor ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2174,7 +2098,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş lojik ünitesi MASTER ve SLAVE ünitelerince okunan değerler arasında örtüşmezlik… ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2199,7 +2122,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş lojik kartı SLAVE modülünden okunan verilerde problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2226,7 +2148,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Asansör yükseklik svici K4’ten alınan sinyalde problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2253,7 +2174,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İşlemci Yaw Rate sensör çıkışında problem var arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -2279,7 +2199,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İşlemci hafızasında problem var belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -2305,7 +2224,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İşlemci hafızasında problem var belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -2333,7 +2251,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İşlemci kartı gösterge kartından haber alamıyor ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2360,7 +2277,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Başlangıç hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2387,7 +2303,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş pedal potansiyometresinden yanlış değer alındı potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -2415,7 +2330,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş pedal mikrosivisi ya da yön kol svicinde problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2442,7 +2356,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Akü kilit svici açık konumda kalmış hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -2470,7 +2383,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş potansiyometresinden gelen sinyal değerleri hafızada kayıtlı değerlerin dışında potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -2498,7 +2410,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Koltuk ya da emniyet kemeri svicinde problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2525,7 +2436,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş yön sinyal değeri uygun değil ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2552,7 +2462,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kontak açıldığı sırada park fren svicinin açık konumda olduğu algılandı hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -2580,7 +2489,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İşlemci kartı parametre hafızasında problem var: Parametre setinin bozulması veya kaybolması",
         "Kart yazılım sürümleri arasında uyumsuzluk",
         "Kalibrasyon değerlerinin geçersiz olması",
         "Bellek yazma işleminin yarıda kesilmesi"
@@ -2608,7 +2516,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş lojik ünitesinde problem olduğu algılandı ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2635,7 +2542,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İşlemci 1 kartı CAN veri yolu üzerinden diğer kartlardan sinyal alamıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -2663,7 +2569,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İşlemci1 kartı Armrest(minilever kontrol kartı) kartından sinyal alamıyor ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2690,7 +2595,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İlk açılışta ileri ve geri yön sviçlerinden aynı anda sinyal alındı ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2717,7 +2621,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Direksiyon encoder E1’den sinyal alınamıyor ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2744,7 +2647,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Direksiyon encoder E1’den sinyal alınamıyor ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2771,7 +2673,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Direksiyon encoder E1’den sinyal alınamıyor ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2798,7 +2699,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İşlemci 1 ilave çıkışı açık devre hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -2826,7 +2726,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İşlemci1 ilave çıkışı kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -2854,7 +2753,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İşlemci 1 ilave çıkışı açık devre hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -2882,7 +2780,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İşlemci1 ilave çıkışı kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -2910,7 +2807,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İşlemci1 24v besleme girişinde problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2935,7 +2831,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Asansör kartı ilk açılış kontrolü sırasında hata ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2961,7 +2856,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Akü voltajı düşük besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -2986,7 +2880,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Lojik kart besleme hattında yüksek akım koruması ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -3011,7 +2904,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Motor fazlarından gelen voltaj değerlerinde hata sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -3038,7 +2930,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Lojik kart besleme hattında düşük voltaj algılandı besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -3063,7 +2954,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Düşük motor voltajı algılandı sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -3089,7 +2979,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yüksek motor voltajı algılandı sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -3115,7 +3004,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "K7 kontaktörü karttan kapat sinyali çıktığı halde hala açık konumda hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -3141,7 +3029,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Bekleme modundayken pompa motorundan yüksek akım değeri algılandı sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -3169,7 +3056,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Açılış sıralamasında sorun var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -3196,7 +3082,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Hafızaya kaydedilen tork değerlerinde uygunsuzluk var belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -3224,7 +3109,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İlk açılışta hem ileri hem de geri yön kumandasının aktif olduğu ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -3251,7 +3135,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Popma kartı besleme hattında problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -3278,7 +3161,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa sürücüsü güç mosfetlerinde kısa devre var hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -3304,7 +3186,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa sürücü kartı kondansatörleri ilk açılışta istenen şarj seviyesine ulaşmıyor: Akü şarj seviyesinin düşük olması",
         "Akü hücresinde zayıflama",
         "Akü bağlantı veya konnektöründe temassızlık",
         "Şarj cihazı veya şarj devresinde arıza"
@@ -3330,7 +3211,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa sürücü kartı sıcaklığı 85 dereceyi aşmış ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -3355,7 +3235,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motor sıcaklığı 150 dereceyi aşmış sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -3381,7 +3260,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motoru devir sensörü problemli arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -3407,7 +3285,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motoru sıcaklık sensöründen anormal değer algılandı üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -3433,7 +3310,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa pedal potansiyometresi hafızada kayıtlı min-max değerlerin dışında değer veriyor potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -3459,7 +3335,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa kartından veri yolu üzerinden haber alınamıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -3537,7 +3412,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "K7 kontaktörü problemli bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -3565,7 +3439,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa Lojik kartı konfigürasyonunda ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -3592,7 +3465,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motoru sıcaklık sensöründen anormal değer algılandı üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -3621,7 +3493,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Düşük DC giriş voltajı besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -3648,7 +3519,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Devir sensörü bozuk ya da pompa motor rotoru sıkışmış arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -3676,7 +3546,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kontak açıldığında K7 kontaktörün kapalı konumda olduğu algılandı bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -3704,7 +3573,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa sürücü kartının algıladığı değer ile İşlemci kartının algıladığı sinyal örtüşmüyor ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -3729,7 +3597,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "K7 kontaaktör devresinde problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -3754,7 +3621,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "K7 Kontaktör bobini kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -3780,7 +3646,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Asansör minilever potansiyometresii hafızada kayıtlı min-max değerlerin dışında değer v… potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -3831,7 +3696,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş sürücü kartı motorun yüksek voltaja maruz kaldığını algıladı sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -3858,7 +3722,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Akü voltaj değeri nominal değerden %20 daha yüksek besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -3883,7 +3746,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa sürücü kartı motora düşük voltaj geldiğini algıladı sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -3909,7 +3771,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Fabrika parametrelerinin yüklendiği algılandı: Parametre setinin bozulması veya kaybolması",
         "Kart yazılım sürümleri arasında uyumsuzluk",
         "Kalibrasyon değerlerinin geçersiz olması",
         "Bellek yazma işleminin yarıda kesilmesi"
@@ -3936,7 +3797,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "DC voltaj max değer aşımı besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -3961,7 +3821,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "K7 kontaktörüne gelen güç hattında problem bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -3989,7 +3848,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İlave çıkış bibini açık devre hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -4017,7 +3875,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İlave çıkış bobini açık devre hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -4045,7 +3902,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa kartı akım kontrol devresinde problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4072,7 +3928,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İlave çıkış bobini açık devre hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -4101,7 +3956,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Pompa kartı voltaj dönüştürücüsünden +24V besleme almıyor besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -4128,7 +3982,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik kartı diğer ünitelerden veri yolu üzerinden veri alamıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -4155,7 +4008,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Pompa kartı voltaj dönüştürücüsünden +24V besleme almıyor besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -4180,7 +4032,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kontak besleme hattında problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4205,7 +4056,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kalibrasyon yapılması gereklidir: Parametre setinin bozulması veya kaybolması",
         "Kart yazılım sürümleri arasında uyumsuzluk",
         "Kalibrasyon değerlerinin geçersiz olması",
         "Bellek yazma işleminin yarıda kesilmesi"
@@ -4231,7 +4081,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kalibrasyon yapılması gereklidir: Parametre setinin bozulması veya kaybolması",
         "Kart yazılım sürümleri arasında uyumsuzluk",
         "Kalibrasyon değerlerinin geçersiz olması",
         "Bellek yazma işleminin yarıda kesilmesi"
@@ -4257,7 +4106,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa sürücü kartı iç arızası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4282,7 +4130,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Direksiyon potansiyometresi değeri hafızadaki min max potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -4308,7 +4155,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "El freni çekili iken makine yürüyüş fonksiyonu seçilmiştir ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4333,7 +4179,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "K7 kontaktör bobini açık devre hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -4359,7 +4204,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "L9 negatif fren valfi kontrol devresinde problem var bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -4385,7 +4229,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "L9 negatif fren valfi kontrol devresinde problem var bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -4413,7 +4256,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "L9 negatif fren valf solenoidi kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -4441,7 +4283,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa kartı ile yürüyüş kartına gelen koltuk svici sinyallerinde tutarsızlık var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4468,7 +4309,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa sürücü kartı analog kontrol devresinde problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4495,7 +4335,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa sürücü kartı konfigürasyonlarında problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4522,7 +4361,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İlave hidrolik yol sürücü devresinde problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4549,7 +4387,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa sürücü kartı ilave hidrolik yol çıkışında kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -4575,7 +4412,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İlave hidrolik yol çıkışında bobin algılanmadı bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -4601,7 +4437,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesinin MASTER ve SLAVE modüllerinden gelen akım değerlerinde örtüşmezli… ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4626,7 +4461,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa sürücü kartı ilave hidrolik yol çıkışında problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4651,7 +4485,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Bakım zamanı yeniden programlanmalıdır ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4676,7 +4509,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa kartı sürücü devresinde problem ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4701,7 +4533,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa kartı ilave hidrolik yol çıkış kontrol devresinde problem ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4726,7 +4557,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa kartı ilave hidrolik yol çıkış kontrol devresinde problem ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4752,7 +4582,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Pompa lojik ünitesinin MASTER ve SLAVE modüllerinden gelen voltaj değerlerinde örtüşmez… besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -4777,7 +4606,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa kartı ilk açılış kontrolü sırasında hata ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4802,7 +4630,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesinin SLAVE modülünde yazılımsal problem var: Parametre setinin bozulması veya kaybolması",
         "Kart yazılım sürümleri arasında uyumsuzluk",
         "Kalibrasyon değerlerinin geçersiz olması",
         "Bellek yazma işleminin yarıda kesilmesi"
@@ -4828,7 +4655,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi RAM’inden uygun olmayan değerler okundu ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4854,7 +4680,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Pompa sürücü kartı besleme devresinde düşük voltaj besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -4879,7 +4704,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi CAN veri yolu üzerinden diğer ünitelerden mesaj alamıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -4905,7 +4729,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi son kapamadan önce fabrika ayarlarına geri yüklendi ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4931,7 +4754,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Yüksek voltaj algılandı besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -4958,7 +4780,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa kartı konfigürasyonunda uygunsuzluk var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4985,7 +4806,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi MASTER ve SLAVE ünitelerince okunan değerler arasında örtüşmezlik var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -5012,7 +4832,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi kontrol devresinde problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -5039,7 +4858,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa kartı konfigürasyonunda uygunsuzluk var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -5064,7 +4882,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Direksiyon potansiyometresinden okunan değerlerde potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -5090,7 +4907,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi MASTER ve SLAVE modüllerinden gelen sinyallerde tutarsızlık var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -5115,7 +4931,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi SLAVE modül den okunan değerlerde problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -5142,7 +4957,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi kontrol devresinde problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -5169,7 +4983,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İlave hidrolik yol çıkışına bağlı solenoid bobinde problem var bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -5197,7 +5010,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi güç devresinde problem-yüksek akım koruması ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -5224,7 +5036,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa kartı kondansatörleri ilk açılışta şarj edilemedi: Akü şarj seviyesinin düşük olması",
         "Akü hücresinde zayıflama",
         "Akü bağlantı veya konnektöründe temassızlık",
         "Şarj cihazı veya şarj devresinde arıza"
@@ -5253,7 +5064,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Pompa lojik ünitesi güç devresinde problem-düşük voltaj girişi besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -5280,7 +5090,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "K7 kontaktörü sürücü devresinde problem var bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -5308,7 +5117,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "K7 kontaktör bobininde sorun var bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -5337,7 +5145,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Pompa lojik ünitesi güç devresinde problem-yüksek voltaj girişi besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -5364,7 +5171,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motorunda bekleme modundayken yüksek akım algılandı sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -5392,7 +5198,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesinden kapama sinyali gelmiş olmasına rağmen K7 kontaktörü açık konumd… hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -5420,7 +5225,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi ilave hidrolik yol çıkışı kontrol devresinde problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -5448,7 +5252,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Pompa lojik ünitesi güç devresinde problem-düşük voltaj algılandı besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -5475,7 +5278,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesinde Motor faz uçlarından gelen sinyalleri kontrol eden donanımda pro… sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -5530,7 +5332,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesinde85 derecenin üstünde sıcaklık algılandı üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -5558,7 +5359,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi hafızasında problem belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -5586,7 +5386,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motor sıcaklık değeri 150 dereceye ulaşmış üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -5615,7 +5414,6 @@
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Akü voltaj değeri nominal değerden %20 daha yüksek besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -5642,7 +5440,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motoru sıcaklık sensöründen anormal değer algılandı üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -5670,7 +5467,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi ilave hidrolik yol çıkışına bağlı solenoid bobin kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -5698,7 +5494,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Bakım zamanı yeniden programlanmalıdır ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -5725,7 +5520,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi CAN veri yolu üzerinden diğer modüllerden sinyal alamıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -5753,7 +5547,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi ilave hidrolik yol çıkışına bağlı solenoid bobin açık devre hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -5808,7 +5601,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kontak besleme hattında problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -5835,7 +5627,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kopma lojik ünitesinde donanımsal arıza ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -5862,7 +5653,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa kartı güç mosfetlerinde kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -5890,7 +5680,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi ilk açılışta K7 kontaktörünün kapalı olduğunu algıladı bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -5918,7 +5707,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motoru devir sensöründen anormal değer algılandı arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -5946,7 +5734,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi ilk açılış emniyet testi sırasında problem ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -5973,7 +5760,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi ilk açılış emniyet testi sırasında problem ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -6000,7 +5786,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi hafıza hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -6028,7 +5813,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi hafıza hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -6056,7 +5840,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motoru sıcaklık sensöründen uygun olmayan değer okunuyor üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -6084,7 +5867,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesi akım kontrol devresinde problem var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -6111,7 +5893,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Popma pojik kartının motor faz uçlarından gelen sinyallerin kontrolünü sağlayan kontrol… sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -6139,7 +5920,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Hafızaya kaydedilen tork değerlerinde uygunsuzluk var belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -6167,7 +5947,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motoru devir sensöründen anormal veriler okunuyor arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -6195,7 +5974,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş lojik ünitesi ile pompa lojik ünitesine koltuk svicinden gelen sinyallerde uyuş… ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -6222,7 +6000,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motoru akım kontrol devresinde problem var sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -6250,7 +6027,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesinden oknan verilerde anormallik var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -6277,7 +6053,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş potansiuyometresi R3’den gelen veriler ile kartın hafızasındaki veriler arasınd… potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -6332,7 +6107,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Direksiyon potansiuyometresi R1’den gelen veriler ile kartın potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -6360,7 +6134,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa lojik ünitesinde direksiyon potansiyometresi R1 kalibrasyon değerleri kayıtlı değ… potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -6386,7 +6159,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Basınç sensörü R7 problemli arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -6414,7 +6186,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Asansör yükseklik svici K4 problemli ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -6441,7 +6212,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Tilt açı sensörü R4 problemli arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -6469,7 +6239,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Tilt açı sensörü R4 veya basınç sensörü R7 problemli arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -6497,7 +6266,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Çatal yükseklik sensöründe problem var arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -6525,7 +6293,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Aynı anda iki ayrı yağ hattına da komut gelmiş ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -6552,7 +6319,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Son kapatmadan önce işlemci2 parametreleri fabrika ayarlarına döndürülmüş: Parametre setinin bozulması veya kaybolması",
         "Kart yazılım sürümleri arasında uyumsuzluk",
         "Kalibrasyon değerlerinin geçersiz olması",
         "Bellek yazma işleminin yarıda kesilmesi"
@@ -6580,7 +6346,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İşlemci2 kartı hafızasında problem var belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -6608,7 +6373,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Can Bus hattında problem var-işlemci2 hiçbir mesaj almıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -6636,7 +6400,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İşlemci kartı komut beklemekte ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -6663,7 +6426,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İndirme valf bobini takılı değil bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -6691,7 +6453,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaldırma bobini takılı değil bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -6719,7 +6480,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Tilt bobini takılı değil bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -6747,7 +6507,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Tilt bobini takılı değil bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -6775,7 +6534,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaydırma bobini takılı değil bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -6803,7 +6561,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaydırma bobini takılı değil bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -6887,7 +6644,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İndirme veya kaldırma valf tesisatında kısa devre var hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -6915,7 +6671,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Tilt valf tesisatında kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -6943,7 +6698,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaydırma valf tesisatnında kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -6971,7 +6725,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Dördüncü yol tesisatında kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -6999,7 +6752,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İşlemci 2 göstergeden CAN veri yolu üzerinden veri alamıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -7027,7 +6779,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yanlış ilk açılış durumu ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -7054,7 +6805,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İşlemci 2 armrest minilever kartından CAN veriyolu üzerinden veri alamıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -7082,7 +6832,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Solenoid valfler kontro devresinde problem bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -7110,7 +6859,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İndirme veya kaldırma valf solenoidinde kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -7138,7 +6886,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Tilt valf solenoitlerinden birinde kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -7166,7 +6913,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaydırma valf solenoidlerinden birinde kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -7194,7 +6940,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Dördüncü yol valf solenoidlerinden birinde kısa devre hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -7222,7 +6967,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İlk açılış kontrolünde problem saptandı ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -7249,7 +6993,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İşlemci2 pompa lojik ünitesinden CAN veriyolu üzerinden veri alamıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -7277,7 +7020,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İşlemci2 kartı hafızasında tilt açı sensörü R4 kalibrasyon değerleri kayıtlı değil arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -7305,7 +7047,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İlk açılışta hata algılandı ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -7332,7 +7073,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İlk açılışta hata algılandı ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -7359,7 +7099,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaldırma potansiyometresi değerinde problem potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -7387,7 +7126,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Tilt potansiyometresi değerinde problem potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -7415,7 +7153,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaydırma potansiyometresi değerinde problem potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -7499,7 +7236,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Asansör fonksiyonu çalıştırılırken koltuk svici açık devre hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -7527,7 +7263,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Armrest kartı hafıza problemi belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -7555,7 +7290,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Armrest kartı hafıza problemi belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -7583,7 +7317,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Son kapanıştan önce fabrika parametreleri yüklenmiş: Parametre setinin bozulması veya kaybolması",
         "Kart yazılım sürümleri arasında uyumsuzluk",
         "Kalibrasyon değerlerinin geçersiz olması",
         "Bellek yazma işleminin yarıda kesilmesi"
@@ -7611,7 +7344,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Armreste bağlı potansiyometreler yeniden kalibre edilmeli potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -7639,7 +7371,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Armrest kartı hafıza problemi belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -7667,7 +7398,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CAN veriyolunad problem- Armrest kartı işlemci kartından mesaj alamıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -7749,7 +7479,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaldırma potansiyometresinden okunan değerde problem var potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -7777,7 +7506,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Tilt potansiyometresinden okunan değerde problem var potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -7805,7 +7533,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaydırma potansiyometresinden okunan değerde problem var potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -7889,7 +7616,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Armrest potansiyometreleri kalibrasyon hatası potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -7917,7 +7643,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Armrest kartı Master ve Slave üniteleri üzerindeki verilerde örtüşmezlik var ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -7944,7 +7669,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Gsöterge CAN veri yolu üzerinden Yürüyüş lojik kartından mesaj alamıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -7972,7 +7696,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Gösterge CAN veri yolu üzerinden işlemci kartından mesaj alamıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -8000,7 +7723,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Gösterge CAN veri yolu üzerinden pompa kartından mesaj alamıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -8028,7 +7750,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Gösterge CAN veri yolu üzerinden işlemci kartından mesaj alamıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -8056,7 +7777,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Gösterge CAN veri yolu üzerinden armrest kol kartından mesaj alamıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -8084,7 +7804,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Gösterge CAN veri yolu üzerinden armrest kol kartından mesaj alamıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -8139,7 +7858,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kartlar arasında yazılım versiyon uyuşmazlığı var: Parametre setinin bozulması veya kaybolması",
         "Kart yazılım sürümleri arasında uyumsuzluk",
         "Kalibrasyon değerlerinin geçersiz olması",
         "Bellek yazma işleminin yarıda kesilmesi"
@@ -8167,7 +7885,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Fren yağ seviyesi düşük ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -8194,7 +7911,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yükseklik seçici kalibrasyonu yapılmalı: Parametre setinin bozulması veya kaybolması",
         "Kart yazılım sürümleri arasında uyumsuzluk",
         "Kalibrasyon değerlerinin geçersiz olması",
         "Bellek yazma işleminin yarıda kesilmesi"
@@ -8250,7 +7966,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Şok sensörü sinyal gönderidği için hız düşürüldü arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -8278,7 +7993,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Son kontak kapama sırasında kapasitör tam deşarj olmamış: Akü şarj seviyesinin düşük olması",
         "Akü hücresinde zayıflama",
         "Akü bağlantı veya konnektöründe temassızlık",
         "Şarj cihazı veya şarj devresinde arıza"
@@ -8306,7 +8020,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Opsiyon çıkışında problem ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -8333,7 +8046,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "K3 röle çıkışında problem bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -8361,7 +8073,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Gösterge hafızasında problem belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -8389,7 +8100,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Gösterge Can veriyolu üzerinden şok sensörden sinyal alamıyor kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"

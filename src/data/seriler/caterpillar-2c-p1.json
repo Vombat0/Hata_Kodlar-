@@ -46,7 +46,6 @@
       "makineTepkisi": "Ekran kodu yanıp söner; motorlu çalışma kısıtlanabilir",
       "siddet": "uyari",
       "nedenler": [
-        "ECM iletişim hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -74,7 +73,6 @@
       "makineTepkisi": "İletişim kodu ekrana düşer",
       "siddet": "uyari",
       "nedenler": [
-        "MP (makine paketi) iletişim hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -102,7 +100,6 @@
       "makineTepkisi": "Hata kodu motora ait uyarı grubunda görünür",
       "siddet": "uyari",
       "nedenler": [
-        "Hava akış ölçer hatalı sinyal üretiyor ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -130,7 +127,6 @@
       "makineTepkisi": "Sensör hatası kodu ekranda listelenir",
       "siddet": "uyari",
       "nedenler": [
-        "Su sıcaklık sensörü hatalı sinyal üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -159,7 +155,6 @@
       "makineTepkisi": "Rölanti ve gaz tepkisi bozulabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Gaz kelebeği sensörü hatalı sinyal arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -188,7 +183,6 @@
       "makineTepkisi": "Pedal hareketi motora doğru yansımaz",
       "siddet": "uyari",
       "nedenler": [
-        "Gaz pedalı sensörü hatalı sinyal arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -216,7 +210,6 @@
       "makineTepkisi": "Karışım kontrolü açık döngüye dönebilir",
       "siddet": "uyari",
       "nedenler": [
-        "O2 (oksijen) sensörü hatalı sinyal arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -244,7 +237,6 @@
       "makineTepkisi": "Isınma sonrası kapalı döngü gecikir",
       "siddet": "uyari",
       "nedenler": [
-        "O2 sensörü ısıtıcı devresi hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -272,7 +264,6 @@
       "makineTepkisi": "Çalıştırma güçleşir veya motor stop edebilir",
       "siddet": "uyari",
       "nedenler": [
-        "POS (krank konum) sensörü hatalı sinyal arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -301,7 +292,6 @@
       "makineTepkisi": "Zamanlama referansı kaybolabilir",
       "siddet": "uyari",
       "nedenler": [
-        "PHASE (kam konum) sensörü hatalı sinyal arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -329,7 +319,6 @@
       "makineTepkisi": "Otomatik durdurma davranışı güvensiz kalabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kendiliğinden durdurma sistemi hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -356,7 +345,6 @@
       "makineTepkisi": "Motor kontrol performans düşebilir",
       "siddet": "uyari",
       "nedenler": [
-        "ECCS kontrol ünitesi hatalı sinyal ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -384,7 +372,6 @@
       "makineTepkisi": "Gaz komutu güvenli konuma sabitlenebilir",
       "siddet": "uyari",
       "nedenler": [
-        "Elektronik gaz kontrolü hata sinyali ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -469,7 +456,6 @@
       "makineTepkisi": "Tek silindirde ateşlemesizlik gözlenebilir",
       "siddet": "uyari",
       "nedenler": [
-        "Ateşleme (kıvılcım) sistemi hata sinyali ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -496,7 +482,6 @@
       "makineTepkisi": "Gaz modunda yakıt kesintisi oluşabilir",
       "siddet": "uyari",
       "nedenler": [
-        "LPG enjektör ayrılma teşhis sonucu sinyali ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -524,7 +509,6 @@
       "makineTepkisi": "Gaz modunda güç düşebilir",
       "siddet": "uyari",
       "nedenler": [
-        "LPG yakıt basıncı sensörü teşhis sonucu sinyali arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -553,7 +537,6 @@
       "makineTepkisi": "Gaz fazı beslemesi düzensizleşebilir",
       "siddet": "uyari",
       "nedenler": [
-        "LPG buharlaştırıcı teşhis sonucu sinyali ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -580,7 +563,6 @@
       "makineTepkisi": "Mast üst limiti izleme güvenilmez kalır",
       "siddet": "uyari",
       "nedenler": [
-        "Mast yüksek şalteri teşhis sonucu sinyali ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -607,7 +589,6 @@
       "makineTepkisi": "Yağlama izleme fonksiyonu kısıtlanabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Yağ basıncı sensörü teşhis sonucu sinyali arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -635,7 +616,6 @@
       "makineTepkisi": "Fren lambası ve ilgili lojikler etkilenir",
       "siddet": "uyari",
       "nedenler": [
-        "Fren (durma lambası) şalteri hata sinyali ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -662,7 +642,6 @@
       "makineTepkisi": "Yakıt sistemi izlemesi uyarı üretir",
       "siddet": "uyari",
       "nedenler": [
-        "Gaz yakıt sistemi teşhis sonucu sinyali ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -689,7 +668,6 @@
       "makineTepkisi": "Araç benzin moduna geçebilir veya güç düşebilir",
       "siddet": "uyari",
       "nedenler": [
-        "LPG yakıt sistemi teşhis sonucu sinyali ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],

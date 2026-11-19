@@ -21,7 +21,6 @@
       "makineTepkisi": "Yürüyüş fonksiyonu durur Kaldırma fonksiyonu durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "AC yürüyüş sürücüsü güç devresi aşırı ısınma anormalliği üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -51,7 +50,6 @@
       "makineTepkisi": "Direksiyon sertleşir Yürüyüş fonksiyonu durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "AC Kaldırma sürücüsü güç devresi aşırı ısınma anormalliği üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -81,7 +79,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Ana kart yüksek voltaj besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -110,7 +107,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "AC yürüyüş sürücüsü (Sol) güç kaynağı devresi alçak gerilim besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -139,7 +135,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "AC yürüyüş sürücüsü (Sağ) güç kaynağı devresi alçak gerilim besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -168,7 +163,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "AC Kaldırma sürücüsü güç kaynağı devresi alçak gerilim besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -197,7 +191,6 @@
       "makineTepkisi": "Yavaş yürür Yürüyüş fonksiyonu durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "Ana kart aşırı ısınma anormalliği üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -226,7 +219,6 @@
       "makineTepkisi": "Kaldırma fonksiyonu durur Direksiyon sertleşir OPS fonksiyonu geçersiz hale gelir.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Akü bağlantısı hatalı: Akü şarj seviyesinin düşük olması",
         "Akü hücresinde zayıflama",
         "Akü bağlantı veya konnektöründe temassızlık",
         "Şarj cihazı veya şarj devresinde arıza"
@@ -255,7 +247,6 @@
       "makineTepkisi": "Park freni aktif",
       "siddet": "durdurucu",
       "nedenler": [
-        "Koltuk switch (NGD short) anormalliği ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -339,7 +330,6 @@
       "makineTepkisi": "Kaldırma fonksiyonu durur Yavaş yürür",
       "siddet": "durdurucu",
       "nedenler": [
-        "F7 sigorta anormalliği (açık) Ana kart sıcaklık sensör anormalliği (açık)/VCC kısa atmasına yol açan aşırı akım",
         "Sigorta yuvasında gevşeme veya oksitlenme",
         "Sigorta sonrası devrede kısa devre"
       ],
@@ -367,7 +357,6 @@
       "makineTepkisi": "Yürüyüş sürücüsü soğutma fanı durur .Yavaş yürüyüş",
       "siddet": "durdurucu",
       "nedenler": [
-        "Devre ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -395,7 +384,6 @@
       "makineTepkisi": "AC yürüyüş sürücüsü soğutma fanı durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "AC yürüyüş sürücüsü soğutma fan devresi anormalliği ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -423,7 +411,6 @@
       "makineTepkisi": "AC kaldırma sürücüsü soğutma fanı durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "AC kaldırma sürücüsü soğutma fanı aşırı akım ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -451,7 +438,6 @@
       "makineTepkisi": "ve servo direksiyon fonksiyonları durur . Direksiyon sertleşir. Yavaş yürür, tek teker (Sağ) tarafından tahrik. Knob",
       "siddet": "durdurucu",
       "nedenler": [
-        "AC sürücü güç kaynağı devresi anormalliği ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -479,7 +465,6 @@
       "makineTepkisi": "(direksiyon topuz konumu) fonksiyonu durur Yavaş yürür, tek teker (Sağ) tarafından tahrik.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Yürüyüş motoru (Sol) - Ana kart haberleşme anormalliği kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -508,7 +493,6 @@
       "makineTepkisi": "Knob (direksiyon topuz konumu) fonksiyonu durur Yavaş yürür, tek teker (Sol) tarafından tahrik.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Yürüyüş motoru (Sol) - Ana kart haberleşme anormalliği kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -537,7 +521,6 @@
       "makineTepkisi": "Knob (direksiyon topuz konumu) fonksiyonu durur Yavaş yürür, tek teker (Sol) tarafından tahrik. Knob",
       "siddet": "durdurucu",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) - Ana kart haberleşme anormalliği kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -566,7 +549,6 @@
       "makineTepkisi": "(direksiyon topuz konumu) fonksiyonu durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) - Ana kart haberleşme anormalliği kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -595,7 +577,6 @@
       "makineTepkisi": "Kaldırma fonksiyonu durur. Direksiyon sertleşir",
       "siddet": "durdurucu",
       "nedenler": [
-        "AC kaldırma sürücüsü - Ana kart haberleşme anormalliği kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -624,7 +605,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "AC kaldırma sürücüsü - Ana kart haberleşme anormalliği kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -653,7 +633,6 @@
       "makineTepkisi": "Yürüyüş durur.",
       "siddet": "durdurucu",
       "nedenler": [
-        "CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -682,7 +661,6 @@
       "makineTepkisi": "Kaldırma fonksiyonu durur. Direksiyon sertleşir",
       "siddet": "durdurucu",
       "nedenler": [
-        "CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -711,7 +689,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -740,7 +717,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -769,7 +745,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -798,7 +773,6 @@
       "makineTepkisi": "Bazı kontrol işlemleri stabil değil.",
       "siddet": "uyari",
       "nedenler": [
-        "CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -827,7 +801,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -856,7 +829,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -885,7 +857,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sol) anormalliği sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -914,7 +885,6 @@
       "makineTepkisi": "Azaltılan max. hız, yavaş ilerleme",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Yürüyüş motoru (Sol) güç devresi anormalliği sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -943,7 +913,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) anormalliği sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -972,7 +941,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) güç devresi anormalliği sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -1001,7 +969,6 @@
       "makineTepkisi": "Azaltılan max. hız, yavaş ilerleme",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Yürüyüş motoru (Sol) akım sensörü nötr gerilim hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -1030,7 +997,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) akım sensörü nötr gerilim hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -1060,7 +1026,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motor sıcaklık sensör anormalliği üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -1089,7 +1054,6 @@
       "makineTepkisi": "Azaltılan max. hız, yavaş ilerleme",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Yürüyüş motor (Sol) sıcaklık sensör anormalliği üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -1118,7 +1082,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motor (Sağ) sıcaklık sensör anormalliği üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -1205,7 +1168,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İlerleme pedal sensörü POT1 açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -1234,7 +1196,6 @@
       "makineTepkisi": "Sadece ekrandan.",
       "siddet": "bilgi",
       "nedenler": [
-        "İlerleme pedal sensörü POT2 açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -1263,7 +1224,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İlerleme pedal sensörü POT1 VCC kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -1292,7 +1252,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "İlerleme pedal sensörü POT2 VCC kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -1321,7 +1280,6 @@
       "makineTepkisi": "Yürüyüş durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "İlerleme pedal sensörü dengeleme anormalliği arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -1350,7 +1308,6 @@
       "makineTepkisi": "Yürüyüş motor gücü kısıtlı",
       "siddet": "kisitlayici",
       "nedenler": [
-        "İlerleme pedal sensörü eşleşme değeri hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -1379,7 +1336,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Fren sensörü POT1 açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -1408,7 +1364,6 @@
       "makineTepkisi": "Sadece ekrandan",
       "siddet": "bilgi",
       "nedenler": [
-        "Fren sensörü POT2 açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -1437,7 +1392,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Fren sensörü POT1 VCC kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -1466,7 +1420,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Fren sensörü POT2 VCC kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -1495,7 +1448,6 @@
       "makineTepkisi": "Azaltılan max. hız, yavaş ilerleme Yürüyüş fonksiyonları durur.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Fren sensörü dengeleme anormalliği arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -1524,7 +1476,6 @@
       "makineTepkisi": "Fren lambası sürekli yanar.",
       "siddet": "uyari",
       "nedenler": [
-        "Fren sensörü eşleşme değeri hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -1553,7 +1504,6 @@
       "makineTepkisi": "Azaltılan max. hız, yavaş ilerleme",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Yürüyüş motoru (Sol) hız (dönüş) sensörü açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -1582,7 +1532,6 @@
       "makineTepkisi": "Yürüyüş durur.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) hız (dönüş) sensörü açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -1611,7 +1560,6 @@
       "makineTepkisi": "Kaldırma fonksiyonu durur. Direksiyon sertleşir",
       "siddet": "durdurucu",
       "nedenler": [
-        "Ana kontaktör (MB) açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -1640,7 +1588,6 @@
       "makineTepkisi": "Sadece ekrandan",
       "siddet": "bilgi",
       "nedenler": [
-        "Ana kontaktör (MB) kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -1669,7 +1616,6 @@
       "makineTepkisi": "Yürüyüş durur.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Ana kontaktör (MB) bobin devresi açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -1698,7 +1644,6 @@
       "makineTepkisi": "Kaldırma fonksiyonu durur. Direksiyon sertleşir",
       "siddet": "durdurucu",
       "nedenler": [
-        "Ana kontaktör (MB) sürücü devre anormalliği bobininde açık devre",
         "Kontaktör kontaklarında yapışma veya aşınma",
         "Bobin besleme hattında kopukluk",
         "Kontaktör sürücü çıkışında arıza"
@@ -1727,7 +1672,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ana kontaktör (MB) bobin devresi kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -1756,7 +1700,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sol) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -1785,7 +1728,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sol) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -1814,7 +1756,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sol) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -1843,7 +1784,6 @@
       "makineTepkisi": "Azaltılan max. hız, yavaş ilerleme",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Yürüyüş motoru (Sol) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -1872,7 +1812,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sol) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -1901,7 +1840,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sol) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -1930,7 +1868,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sol) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -1959,7 +1896,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sol) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -1988,7 +1924,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -2017,7 +1952,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -2046,7 +1980,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -2075,7 +2008,6 @@
       "makineTepkisi": "Azaltılan max. hız, yavaş ilerleme",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -2104,7 +2036,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -2133,7 +2064,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -2162,7 +2092,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -2191,7 +2120,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Yürüyüş motoru (Sağ) CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -2220,7 +2148,6 @@
       "makineTepkisi": "Kaldırma fonksiyonu durur. Servo direksiyon fonksiyonu durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "Pompa motor anormalliği sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -2249,7 +2176,6 @@
       "makineTepkisi": "Kaldırma fonksiyonu durur.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Kaldırma AC sürücü anormalliği ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -2277,7 +2203,6 @@
       "makineTepkisi": "Servo direksiyon fonksiyonu durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "Pompa motoru akım sensörü nötr gerilim hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -2307,7 +2232,6 @@
       "makineTepkisi": "Kaldırma hızı sınırlanmıştır",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motor sıcaklık anormalliği üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -2336,7 +2260,6 @@
       "makineTepkisi": "Kaldırma fonksiyonu durur.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Pompa motor sıcaklık sensör anormalliği üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -2366,7 +2289,6 @@
       "makineTepkisi": "Direksiyon sertleşir Kaldırma fonksiyonu durur.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Kaldırma AC sürücü güç devresi anormalliği / Pompa motor hız (dönüş) sensörü açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -2395,7 +2317,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motor CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -2424,7 +2345,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motor CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -2453,7 +2373,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motor CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -2482,7 +2401,6 @@
       "makineTepkisi": "Kaldırma fonksiyonu durur. Direksiyon sertleşir",
       "siddet": "durdurucu",
       "nedenler": [
-        "Pompa motor CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -2511,7 +2429,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motor CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -2540,7 +2457,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motor CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -2569,7 +2485,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motor CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -2598,7 +2513,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Pompa motor CPU hatası sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -2627,7 +2541,6 @@
       "makineTepkisi": "Ekrandan ayar değiştirilmesi engellenmiştir.",
       "siddet": "uyari",
       "nedenler": [
-        "Ekran → Ana kart haberleşme hatası kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -2656,7 +2569,6 @@
       "makineTepkisi": "Ekran kullanımı engellenmiştir",
       "siddet": "uyari",
       "nedenler": [
-        "Ekran → Ana kart haberleşme hatası kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -2685,7 +2597,6 @@
       "makineTepkisi": "Ekrandan araç ayarlarının değiştirilmesi engellenmiştir",
       "siddet": "uyari",
       "nedenler": [
-        "Ana kart → Ekran haberleşme hatası kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -2714,7 +2625,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ana kart → Ekran haberleşme hatası kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -2743,7 +2653,6 @@
       "makineTepkisi": "Yürüyüş ve kaldırma eşzamanlı operasyonları engellenmiştir.",
       "siddet": "uyari",
       "nedenler": [
-        "Ekran CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -2772,7 +2681,6 @@
       "makineTepkisi": "Yürüyüş sınırlama fonksiyorun devre dışı. PIN KODUYLA GİRİŞ SİSTEMİ: PIN kodu giriş sistemi",
       "siddet": "durdurucu",
       "nedenler": [
-        "Ekran CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -2801,7 +2709,6 @@
       "makineTepkisi": "devre dışı",
       "siddet": "durdurucu",
       "nedenler": [
-        "Ekran CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -2830,7 +2737,6 @@
       "makineTepkisi": "Sadece ekrandan",
       "siddet": "bilgi",
       "nedenler": [
-        "Ekran CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -2859,7 +2765,6 @@
       "makineTepkisi": "Ekran fonksiyonu kararsız",
       "siddet": "uyari",
       "nedenler": [
-        "Ekran CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -2888,7 +2793,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ekran CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -2917,7 +2821,6 @@
       "makineTepkisi": "Kontrol operasyonları kararsız",
       "siddet": "uyari",
       "nedenler": [
-        "Ekran CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -2946,7 +2849,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ekran CPU hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -2975,7 +2877,6 @@
       "makineTepkisi": "Akü şarjı sonrası şarj seviyesinde büyük sapma",
       "siddet": "uyari",
       "nedenler": [
-        "Akü akım sensörü nötr voltaj hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -3004,7 +2905,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Akü akım sensörü aşırı akım arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -3033,7 +2933,6 @@
       "makineTepkisi": "Ekran kapanır Knob (direksiyon topuz ) konumu doğrulaması durur.",
       "siddet": "durdurucu",
       "nedenler": [
-        "D7V güç kaynağı devresi aşırı akım ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -3061,7 +2960,6 @@
       "makineTepkisi": "Direksiyon sertleşir",
       "siddet": "uyari",
       "nedenler": [
-        "SSTR+ güç kaynağı devresi aşırı akım ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -3088,7 +2986,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "AC Yürüyüş sürücüsü (Sol) EEPROM anormalliği belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -3116,7 +3013,6 @@
       "makineTepkisi": "Sadece ekrandan",
       "siddet": "bilgi",
       "nedenler": [
-        "AC Yürüyüş sürücüsü (Sağ) EEPROM anormalliği belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -3144,7 +3040,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "AC Kaldırma sürücüsü EEPROM anormalliği belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -3172,7 +3067,6 @@
       "makineTepkisi": "Sadece tek tekerden (Sağ) yürüyüş yavaş.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Ana kart → AC yürüyüş sürücüsü (Sol) CAN haberleşme hatası kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -3200,7 +3094,6 @@
       "makineTepkisi": "Sadece tek tekerden (Sol) yürüyüş yavaş. Kaldırma fonksiyonu durur.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Main controller → Traveling AC driver (RH) CAN communication error kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -3228,7 +3121,6 @@
       "makineTepkisi": "Direksiyon sertleşir",
       "siddet": "uyari",
       "nedenler": [
-        "Ana kart → AC kaldırma sürücüsü CAN haberleşme hatası kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -3256,7 +3148,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Salınım kilitleme solenoidi açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -3284,7 +3175,6 @@
       "makineTepkisi": "Arka teker salınım kontrol fonksiyonu kısmi sınırlama",
       "siddet": "uyari",
       "nedenler": [
-        "Salınım kilitleme solenoidi kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -3312,7 +3202,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Salınım kilitleme solenoidi sürücü devre anormalliği bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -3368,7 +3257,6 @@
       "makineTepkisi": "Mast control function partially restricted. Lifting and load sensing travel control function restricted. Deceleration speed decreases with OPS operating.",
       "siddet": "uyari",
       "nedenler": [
-        "Yük sensörü açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -3396,7 +3284,6 @@
       "makineTepkisi": "Load alarm inoperable.",
       "siddet": "uyari",
       "nedenler": [
-        "Yük sensörü açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -3424,7 +3311,6 @@
       "makineTepkisi": "Mast control function partially restricted.",
       "siddet": "uyari",
       "nedenler": [
-        "Tilt (eğim) açı sensörü açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -3452,7 +3338,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Tilt (eğim) açı sensörü kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -3480,7 +3365,6 @@
       "makineTepkisi": "Lift indirme durabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Lift kilit solenoidi açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -3508,7 +3392,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Lift kilit solenoidi kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -3536,7 +3419,6 @@
       "makineTepkisi": "Sadece ekrandan",
       "siddet": "bilgi",
       "nedenler": [
-        "Lift kilit solenoidi sürücü devre anormalliği bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -3592,7 +3474,6 @@
       "makineTepkisi": "Öne tilt(eğim) durabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Tilt kontrol solenoidi açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -3620,7 +3501,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Lift kilit solenoidi kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -3648,7 +3528,6 @@
       "makineTepkisi": "Sadece ekrandan",
       "siddet": "bilgi",
       "nedenler": [
-        "Lift kilit solenoidi sürücü devre anormalliği bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -3704,7 +3583,6 @@
       "makineTepkisi": "Partial limitation of mast control function. Mast kontrol fonksiyonlarına kısmi sınırlama.",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Tilt açısının dışında eşleşen değer hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -3759,7 +3637,6 @@
       "makineTepkisi": "Maksimum kaldırma yükseklik sınırlama fonksiyonu etkinleştirildiğinde kaldırma hızı sınırlanmıştır.",
       "siddet": "uyari",
       "nedenler": [
-        "Kaldırma yükseklik sensör açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -3787,7 +3664,6 @@
       "makineTepkisi": "Maksimum kaldırma yükseklik sınırı devre dışı bırakıldığında basit kaldırma yükseklik sınırı ve basit",
       "siddet": "durdurucu",
       "nedenler": [
-        "Kaldırma yükseklik sensör kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -3815,7 +3691,6 @@
       "makineTepkisi": "kaldırma durdurma fonksiyonları devre dışıdır",
       "siddet": "durdurucu",
       "nedenler": [
-        "Kaldırma yükseklik sensör zaman aşımı hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -3843,7 +3718,6 @@
       "makineTepkisi": "Salınım kilidi çalışamaz.",
       "siddet": "uyari",
       "nedenler": [
-        "Teker açı sensörü açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -3871,7 +3745,6 @@
       "makineTepkisi": "Direksiyon topuz pozisyon doğrulaması durur Yürüyüş yavaşlar.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Teker açı sensörü kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -3899,7 +3772,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Teker açı sensörü sabit arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -3927,7 +3799,6 @@
       "makineTepkisi": "Direksiyon topuz pozisyon doğrulaması durur Direksiyon sertleşir",
       "siddet": "durdurucu",
       "nedenler": [
-        "Direksiyon açı sensörü SS1 açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -3955,7 +3826,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Direksiyon açı sensörü SS2 açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -3983,7 +3853,6 @@
       "makineTepkisi": "Direksiyon topuz pozisyon doğrulaması durur Direksiyon topuz pozisyon doğrulaması durur .",
       "siddet": "durdurucu",
       "nedenler": [
-        "Direksiyon açı sensörü SSC açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -4011,7 +3880,6 @@
       "makineTepkisi": "Direksiyon sertleşir",
       "siddet": "uyari",
       "nedenler": [
-        "Direksiyon açı sensörü güç kaynağı devresi açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -4039,7 +3907,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Knob(direksiyon topuz konumu doğrulama solenoidi açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -4067,7 +3934,6 @@
       "makineTepkisi": "Direksiyon topuz pozisyon doğrulaması durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "Knob(direksiyon topuz konumu doğrulama solenoidi kısa Knob(direksiyon topuz konumu doğru… hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -4095,7 +3961,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Anormalliği ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4150,7 +4015,6 @@
       "makineTepkisi": "Direksiyon topuz pozisyon doğrulaması durur Yürüyüş yavaşlar.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Teker açı değer aralığı eşleşme dışı hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -4178,7 +4042,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Lift kol potansiyometre açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -4207,7 +4070,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Lift kol potansiyometre kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -4236,7 +4098,6 @@
       "makineTepkisi": "Kaldırma durur.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Lift kol potansiyometre çıkış sinyal anormalliği potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -4265,7 +4126,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Lift kol potansiyometre nötr hatası potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -4294,7 +4154,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Lift kol potansiyometre karşılaştırma değer hatası potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -4323,7 +4182,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Tilt kol potansiyometre açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -4352,7 +4210,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Tilt kol potansiyometre kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -4381,7 +4238,6 @@
       "makineTepkisi": "Tilt durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "Tilt kol potansiyometre çıkış sinyal anormalliği potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -4410,7 +4266,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Tilt kol potansiyometre nötr hatası potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -4439,7 +4294,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Tilt kol potansiyometre eşleşme değer hatası potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -4468,7 +4322,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman 1 kol potansiyometre açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -4497,7 +4350,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman 1 kol potansiyometre kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -4526,7 +4378,6 @@
       "makineTepkisi": "Ataşman 1 durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "Ataşman 1 kol potansiyometre çıkış sinyal anormalliği potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -4555,7 +4406,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman 1 kol potansiyometre nötr hatası potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -4584,7 +4434,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman 1 kol potansiyometre eşleşme değer hatası potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -4613,7 +4462,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman 2 kol potansiyometre açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -4642,7 +4490,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman 2 kol potansiyometre kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -4671,7 +4518,6 @@
       "makineTepkisi": "Ataşman 2 durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "Ataşman 2 kol potansiyometre çıkış sinyal anormalliği potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -4700,7 +4546,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman 2 kol potansiyometre nötr hatası potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -4729,7 +4574,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman 2 kol potansiyometre eşleşme değer hatası potansiyometresinde aşınma",
         "Sinyal hattında kopukluk veya kısa devre",
         "Konnektörde gevşek temas",
         "Kalibrasyon değerlerinin kaybolması"
@@ -4758,7 +4602,6 @@
       "makineTepkisi": "Yukarı kaldırma durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "Lift PULL(çekme) solenoid açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -4787,7 +4630,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Lift PULL (çekme) solenoid kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -4816,7 +4658,6 @@
       "makineTepkisi": "Aşağı indirme durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "Lift PUSH (itme) solenoid açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -4845,7 +4686,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Lift PUSH (itme) solenoid kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -4874,7 +4714,6 @@
       "makineTepkisi": "Malzeme taşıma fonksiyonu durabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Lift PULL/PUSH solenoid güç kaynağı devresi anormalliği bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -4932,7 +4771,6 @@
       "makineTepkisi": "Geriye tilt durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "Tilt PULL (çekme) solenoid açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -4961,7 +4799,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Tilt PULL (çekme) solenoid kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -4990,7 +4827,6 @@
       "makineTepkisi": "Öne tilt durur",
       "siddet": "durdurucu",
       "nedenler": [
-        "Tilt PUSH (itme) solenoid açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -5019,7 +4855,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Tilt PUSH (itme) solenoid kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -5048,7 +4883,6 @@
       "makineTepkisi": "Malzeme taşıma fonksiyonu durabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Tilt PULL/PUSH solenoid güç kaynağı devresi anormalliği bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -5106,7 +4940,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman 1 PULL (çekme) solenoid açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -5135,7 +4968,6 @@
       "makineTepkisi": "Ataşman 1 durur.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Ataşman 1 PULL (çekme) solenoid kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -5164,7 +4996,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman 1 PUSH (itme) solenoid açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -5193,7 +5024,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman 1 PUSH (itme) solenoid kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -5222,7 +5052,6 @@
       "makineTepkisi": "Malzeme taşıma fonksiyonu durabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman1 PULL/PUSH solenoid güç kaynağı devresi anormalliği bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -5280,7 +5109,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman 2 PULL (çekme) solenoid açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -5309,7 +5137,6 @@
       "makineTepkisi": "Ataşman2 durur.",
       "siddet": "durdurucu",
       "nedenler": [
-        "Ataşman 2 PULL (çekme) solenoid kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -5338,7 +5165,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman 2 PUSH (itme) solenoid açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -5367,7 +5193,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman 2 PUSH (itme) solenoid kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -5396,7 +5221,6 @@
       "makineTepkisi": "Malzeme taşıma fonksiyonu durabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Ataşman2 PULL/PUSH solenoid güç kaynağı devresi anormalliği bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -5454,7 +5278,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Solenoid güç kaynağı devresi RY1 açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -5483,7 +5306,6 @@
       "makineTepkisi": "Malzeme taşıma fonksiyonu durabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Solenoid güç kaynağı devresi kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -5512,7 +5334,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Solenoid güç kaynağı devresi RY1 aşırı akım bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -5541,7 +5362,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Şok sensör 1 açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -5570,7 +5390,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Şok sensör 1 kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -5599,7 +5418,6 @@
       "makineTepkisi": "Şok sensörü devre dışı kalır",
       "siddet": "durdurucu",
       "nedenler": [
-        "Şok sensör 1 nötr voltaj hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -5628,7 +5446,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Şok sensör 2 açık hattında kopukluk",
         "Konnektör piminde temassızlık",
         "Kablo demetinde ezilme veya kesik",
         "Bileşen içinde açık devre"
@@ -5657,7 +5474,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Şok sensör 2 kısa hattında şaseye kısa devre",
         "Konnektörde nem veya oksitlenme kaynaklı kısa",
         "Kablo demetinde ezilme",
         "Besleme hattına kısa devre"
@@ -5686,7 +5502,6 @@
       "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Şok sensör 2 nötr voltaj hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"

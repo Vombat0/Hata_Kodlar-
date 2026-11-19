@@ -44,7 +44,6 @@
       "siddet": "bilgi",
       "nedenler": [
         "Başlatma modu sürüyor",
-        "EPS öğrenme (teaching) modu ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -73,7 +72,6 @@
       "siddet": "durdurucu",
       "nedenler": [
         "Direksiyon sensörü kısa devresi ya da arızası",
-        "Direksiyon açısı sensörü hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -104,7 +102,6 @@
       "nedenler": [
         "Tekerlek sensörü bağlantısı kopuk/kısa",
         "Sensör yanlış monte edilmiş",
-        "Tekerlek devir sensörü hatası arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -136,7 +133,6 @@
         "Kontrolör arızası",
         "Valf sürücü devresi hatası",
         "Orbit rol rotor boşluğu",
-        "EPS ünite arızası / ayar modu dışı ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -164,7 +160,6 @@
       "makineTepkisi": "Kısıtlama yoktur.",
       "siddet": "bilgi",
       "nedenler": [
-        "EPS normal çalışma ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],

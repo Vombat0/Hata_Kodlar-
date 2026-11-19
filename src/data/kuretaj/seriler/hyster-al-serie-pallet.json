@@ -182,7 +182,7 @@
       "siddet": "uyari",
       "nedenler": [
         "Ana kontaktör, fren veya elektrikli valf bobinlerine giden demette hasar",
-        "Sürülen bileşende aşırı akım çekişi"
+        "Bobin veya motor sargısında kısa devre"
       ],
       "kontroller": [
         "Ana demet temas noktaları gözden geçirilir",

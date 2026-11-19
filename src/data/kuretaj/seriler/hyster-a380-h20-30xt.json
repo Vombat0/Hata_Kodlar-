@@ -20,7 +20,6 @@
         "Gaz kelebeği plağı veya motoru",
         "TPS çift kanalı",
         "Ortak 5 V/return devresi, konnektör/kablo ve ECU",
-        "TPS1 ve TPS2 gaz konumu birbiriyle çelişiyor ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -51,7 +50,6 @@
         "Gaz kelebeği plağı veya motoru",
         "TPS çift kanalı",
         "Ortak 5 V/return devresi, konnektör/kablo ve ECU",
-        "Gaz konumu komut edilen değere ulaşmıyor ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -82,7 +80,6 @@
         "Gaz kelebeği plağı veya motoru",
         "TPS çift kanalı",
         "Ortak 5 V/return devresi, konnektör/kablo ve ECU",
-        "Her iki gaz konumu sensörü gerilimi aralık dışında arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -114,7 +111,6 @@
         "APP1/APP2 kanal çelişkisi",
         "Gaz pedalı sensörü",
         "Tesisat/şase/referans veya ECU işleme",
-        "Gaz pedalı sensör kanalları konum uyuşmazlığı arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -146,7 +142,6 @@
         "Yakıt basıncı sensörü konnektörü/tesisatı",
         "Yakıt tedariği basıncında düzensizlik",
         "ECU arızası",
-        "Primer yakıt basıncı beklenen aralığın üzerinde ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -178,7 +173,6 @@
         "Yakıt basıncı sensörü konnektörü/tesisatı",
         "Yakıt tedariği basıncında düzensizlik",
         "ECU arızası",
-        "Primer yakıt basıncı beklenen aralığın altında ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -209,7 +203,6 @@
         "Sensör konnektörü/tesisatı",
         "Devre gerilimi aralık dışı",
         "ECU giriş kademesi",
-        "Primer yakıt basıncı devre sinyali yüksek ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -240,7 +233,6 @@
         "Sensör konnektörü/tesisatı",
         "Devre gerilimi aralık dışı",
         "ECU giriş kademesi",
-        "Primer yakıt basıncı devre sinyali düşük ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -271,7 +263,6 @@
         "Yağ basıncı vericisi",
         "353-A nolu devre tesisatı/konnektörü",
         "Sinyal/referans hatası veya ECU girişi",
-        "Motor yağ basıncı sensör sinyali yüksek arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -300,7 +291,6 @@
       "makineTepkisi": "Uyarı lambası yanabilir; kontrolör basınç bilgisini yedekler",
       "siddet": "uyari",
       "nedenler": [
-        "Motor yağ basıncı sensörü gerilimi düşük arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -331,7 +321,6 @@
         "IAT sensörü gerilim/sıcaklık sinyali",
         "Tesisat",
         "Gerçek aşırı emme havası sıcaklığı",
-        "Emme havası sıcaklık sensörü sinyali yüksek üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -363,7 +352,6 @@
         "IAT sensörü gerilim/sıcaklık sinyali",
         "Tesisat",
         "Gerçek aşırı emme havası sıcaklığı",
-        "Emme havası sıcaklığı beklenenin üzerinde ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -393,7 +381,6 @@
         "TMAP sinyal hattı",
         "Referans besleme/şase tesisatı",
         "Sensör arızası",
-        "Manifold basıncı sensörü gerilimi yüksek arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -425,7 +412,6 @@
         "TMAP sinyal hattı",
         "Referans besleme/şase tesisatı",
         "Sensör arızası",
-        "Manifold basıncı sensörü gerilimi düşük arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -456,7 +442,6 @@
         "TMAP sinyal hattı",
         "Referans besleme/şase tesisatı",
         "Sensör arızası",
-        "Barometrik basınç alt sınırın altında ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -487,7 +472,6 @@
         "ECT sensör devresi açıklığı/kısayolu",
         "Sinyal/referans tesisatı",
         "ECT sensörü hatası",
-        "Motor soğutma suyu sıcaklık sensörü sinyali yüksek/açık üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -519,7 +503,6 @@
         "ECT sensör devresi açıklığı/kısayolu",
         "Sinyal/referans tesisatı",
         "ECT sensörü hatası",
-        "Motor soğutma suyu sıcaklık sensörü sinyali düşük üzerinde aşırı yük",
         "Soğutma fanı arızası veya hava kanalı tıkanıklığı",
         "Yüksek ortam sıcaklığı",
         "Termik sensör sapması"
@@ -551,7 +534,6 @@
         "Kısa şarj çevrimi",
         "Kontak kapalıyken aşırı akım çekişi (ölçüm gerekir, akü suçlanamaz)",
         "Akü geriliminin izin verilen aralığın dışında olması",
-        "Akü gerilimi yüksek besleme konnektöründe temassızlık",
         "Ana sigorta veya besleme hattında direnç",
         "Kontrolcü gerilim ölçüm devresinde sapma"
       ],
@@ -581,7 +563,6 @@
         "Sensör beslemesinde kısa veya çapraz besleme",
         "Tesisat hatası",
         "Sensörlerin referansı yüklemesi veya ECU referans kademesi",
-        "Beş voltluk sensör besleme devresi yüksek arızası",
         "Sensör besleme veya sinyal hattında kopukluk",
         "Konnektörde gevşek temas",
         "Sensör hedefinden uzaklaşması veya kirlenme"
@@ -610,7 +591,6 @@
       "makineTepkisi": "Ağdaki modüllerle veri akışı kesilir; motor/şanzıman koordinasyonu bozulur",
       "siddet": "uyari",
       "nedenler": [
-        "ECU CAN iletişim gönderme/alma hatası kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -641,7 +621,6 @@
         "ECU besleme/toprak hattı",
         "CAN-H/CAN-L tesisatı",
         "İletişim kademesi veya ECU arızası",
-        "ECU CAN adres çakışması kablo demetinde kopukluk veya gevşek konnektör",
         "CAN hattı terminasyon direnci hatalı",
         "İlgili kartın besleme gerilimi düşük",
         "Kart yazılım sürümleri uyumsuz"
@@ -672,7 +651,6 @@
         "İleri/geri solenoid tesisatı",
         "Solenoid bobini",
         "V-ECU çıkış kademesi",
-        "İleri valf (solenoid) hatası bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -704,7 +682,6 @@
         "İleri/geri solenoid tesisatı",
         "Solenoid bobini",
         "V-ECU çıkış kademesi",
-        "Geri valf (solenoid) hatası bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -736,7 +713,6 @@
         "Kaldırma/indirme solenoid tesisatı",
         "Solenoid bobini",
         "V-ECU çıkışı",
-        "Kaldırma (lift) solenoidi hatası bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -768,7 +744,6 @@
         "Kaldırma/indirme solenoid tesisatı",
         "Solenoid bobini",
         "V-ECU çıkışı",
-        "İndirme (lower) solenoidi hatası bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -800,7 +775,6 @@
         "Kaldırma/indirme/boşaltma solenoid tesisatı",
         "Solenoid bobini",
         "V-ECU çıkışı (unload devresi şema incelemesi ister)",
-        "Boşaltma (unload) solenoidi hatası bobininde açık veya kısa devre",
         "Selenoid besleme hattında kopukluk",
         "Valf gövdesinde sıkışma veya kirlenme",
         "Selenoid konnektöründe gevşeme"
@@ -832,7 +806,6 @@
         "Kumanda kolu besleme/referans devresi",
         "Kol kontakları",
         "V-ECU giriş kademesi",
-        "İleri/geri kumanda kolu hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -863,7 +836,6 @@
         "Takılan (basılı kalan) gösterge tuşu",
         "Gösterge kartı arızası",
         "Kontrol yüzeyi/konnektör teması",
-        "Gösterge veya ayar değeri değişmiyor ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -894,7 +866,6 @@
         "Gösterge kartı veya kart bağlantısı",
         "Yük ölçer giriş sinyali",
         "Konnektör temas hatası",
-        "Yük ölçer gösterge hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -924,7 +895,6 @@
         "Akü durumu",
         "Şarj sistemi",
         "Kontak kapalıyken aşırı akım çekişi (ölçülmeden akü suçlanamaz)",
-        "Motor çalışmıyor sargısında arıza",
         "Motor faz kablolarında kopukluk veya kısa devre",
         "Motor sıcaklık sensörü arızası",
         "Motor yataklarında aşırı yük"
@@ -955,7 +925,6 @@
         "Takılan gösterge tuşu",
         "Gösterge kartı arızası",
         "Kontrol yüzeyi/konnektör bağlantısı",
-        "Sağ ok tuşu hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -986,7 +955,6 @@
         "Takılan gösterge tuşu",
         "Gösterge kartı arızası",
         "Kontrol yüzeyi/konnektör bağlantısı",
-        "Sol ok tuşu hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1017,7 +985,6 @@
         "Takılan menü tuşu",
         "Gösterge kartı arızası",
         "Konnektör/gezinti zemini teması",
-        "Menü tuşu hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1045,7 +1012,6 @@
       "makineTepkisi": "Ekran güncellemeleri aksayabilir",
       "siddet": "uyari",
       "nedenler": [
-        "İletişim verisi hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1073,7 +1039,6 @@
       "makineTepkisi": "Kayıtlı gösterge ayarları okunamaz",
       "siddet": "uyari",
       "nedenler": [
-        "Gösterge EEPROM okuma hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -1102,7 +1067,6 @@
       "makineTepkisi": "Saat sayar toplamı güncellenmeyebilir",
       "siddet": "bilgi",
       "nedenler": [
-        "Saat sayar EEPROM yazma hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -1131,7 +1095,6 @@
       "makineTepkisi": "Gösterge yapılandırması güncel kalmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kontrolör talimat verisi EEPROM yazma hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -1160,7 +1123,6 @@
       "makineTepkisi": "Araç ayar verisi başlangıçta eksik kalabilir",
       "siddet": "bilgi",
       "nedenler": [
-        "Kontrolör talimat verisi EEPROM okuma hatası belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -1188,7 +1150,6 @@
       "makineTepkisi": "Servis ekranı aktarım uyarısı verir",
       "siddet": "bilgi",
       "nedenler": [
-        "Saat sayar değeri servis modunda kopyalanamadı ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1216,7 +1177,6 @@
       "makineTepkisi": "Veri aktarımı tekrar denenir veya reddedilir",
       "siddet": "bilgi",
       "nedenler": [
-        "Saat sayar verisi kopyalama hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1244,7 +1204,6 @@
       "makineTepkisi": "Ayarlar varsayılan kalabilir",
       "siddet": "bilgi",
       "nedenler": [
-        "Araç ayar verisi kopyalama hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1271,7 +1230,6 @@
       "makineTepkisi": "Seyir saati istatistiği güncellenmez",
       "siddet": "bilgi",
       "nedenler": [
-        "Seyir saat sayar verisi kopyalama hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1299,7 +1257,6 @@
       "makineTepkisi": "Mesafe göstergesi geride kalabilir",
       "siddet": "bilgi",
       "nedenler": [
-        "Mesafe (kilometre) verisi kopyalama hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1327,7 +1284,6 @@
       "makineTepkisi": "Blok aktarım tekrar gerektirir",
       "siddet": "bilgi",
       "nedenler": [
-        "Toplu (batch) saat sayar verisi kopyalama hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1355,7 +1311,6 @@
       "makineTepkisi": "Seyir istatistik bloğu güncellenmez",
       "siddet": "bilgi",
       "nedenler": [
-        "Toplu seyir verisi kopyalama hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1383,7 +1338,6 @@
       "makineTepkisi": "Bakım göstergesi güncellenmeyebilir",
       "siddet": "bilgi",
       "nedenler": [
-        "Bakım verisi hatası ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1411,7 +1365,6 @@
       "makineTepkisi": "Ayarlar güç kesince kaybolabilir",
       "siddet": "bilgi",
       "nedenler": [
-        "Gösterge EEPROM verisi yazılmadı belleğinde veri bozulması",
         "Bellek besleme geriliminde düşme",
         "Kart üzerinde donanım arızası",
         "Yazılım yükleme işleminin yarıda kesilmesi"
@@ -1440,7 +1393,6 @@
       "makineTepkisi": "Korumalı menülere erişim açılmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Parola izin verilmiyor ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1467,7 +1419,6 @@
       "makineTepkisi": "Geri yönde yumuşatma/limitleme davranışı beklenebilir",
       "siddet": "uyari",
       "nedenler": [
-        "Şanzıman geri vites basıncı komut edilenin üzerinde ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1495,7 +1446,6 @@
       "makineTepkisi": "İleri yön kalkışı sertleşebilir",
       "siddet": "uyari",
       "nedenler": [
-        "Şanzıman ileri basıncı komut edilenin üzerinde ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1523,7 +1473,6 @@
       "makineTepkisi": "Geri yönde kayma/gecikme hissedilebilir",
       "siddet": "uyari",
       "nedenler": [
-        "Şanzıman geri vites basıncı komut edilenin altında ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1550,7 +1499,6 @@
       "makineTepkisi": "Kalkışta kayma ve gecikme olabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Şanzıman ileri basıncı komut edilenin altında ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
@@ -1577,7 +1525,6 @@
       "makineTepkisi": "Karışım yönetimi sınırlandırılabilir",
       "siddet": "uyari",
       "nedenler": [
-        "EPR basıncı komut edilenin üzerinde ile ilgili bileşen arızası",
         "İlgili kablo veya konnektörde temassızlık",
         "Besleme gerilimi veya şase bağlantısı sorunu"
       ],
