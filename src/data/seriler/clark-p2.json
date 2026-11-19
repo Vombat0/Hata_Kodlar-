@@ -1,0 +1,765 @@
+{
+  "marka": "clark",
+  "seri": "p2",
+  "modelAdi": "Clark p2",
+  "kaynakBelge": "Web araştırması — forklifterrorcodes.com",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "",
+  "kodlar": [
+    {
+      "kod": "217",
+      "kodNormal": "217",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor soğutma suyu sıcaklığı aşama 2 eşiğini aştı",
+      "aciklama": "Hararet ilk uyarıyı geçip ikinci, daha ağır limite ulaştı; kaynak bu durumda motorun durdurulmasını öngören koşulları ayrıca listeler",
+      "makineTepkisi": "Uyarı lambası yanar; kontrolör güç kesme/durdurma mantığı devreye girebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gerçek soğutma suyu sıcaklığı",
+        "Soğutma suyu debisi ve fanlar",
+        "Verici kalibrasyonu/devresi, tesisat veya aşırı yüklenme"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "188",
+        "219",
+        "221"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-217/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "219",
+      "kodNormal": "219",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor devri izin verilen maksimum govde değerini aştı",
+      "aciklama": "Gerçek motor devresi regülatörün izin verdiği üst sınırı aşar; devir sinyali ve gaz/kontrol valfi geri bildirimi ayrıştılmalıdır",
+      "makineTepkisi": "Aşırı devir koruması devreye girer; motor stop ettirilebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor devrinin regülatör referansla karşılaştırması",
+        "Devir sinyali bütünlüğü",
+        "Kontrol valfi/gaz kelebeği geri bildirimi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "217",
+        "221",
+        "222"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-219/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "221",
+      "kodNormal": "221",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "TPS1-TPS2 toplam gaz konumu beklenenin üzerinde",
+      "aciklama": "İki kanalın birlikte ürettiği gaz konumu, pedal/mekanik konumla açıklanamayacak kadar yüksek; korelasyon bandı üst yönde ihlal edilir",
+      "makineTepkisi": "Arıza lambası yanar; devir sınırlama veya rölantiye düşme görülebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "İki kanallı TPS korelasyonu",
+        "Sinyal besleme/return hattı",
+        "Gaz kelebeği bağlantısı, tesisat veya sensör kalibrasyonu"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "219",
+        "222",
+        "223"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-221/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "222",
+      "kodNormal": "222",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "TPS2 kanalı gerilimi düşük",
+      "aciklama": "Gaz kelebeği ikinci kanal sinyali alt sınırı altına iner; güvenlik kanalı düşük okuması, üst kanal arızasından bağımsız değerlendirilir",
+      "makineTepkisi": "Arıza lambası yanar; gaz algılama geçersiz sayılabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "İki kanallı TPS korelasyonu",
+        "Sinyal besleme/return hattı",
+        "Gaz kelebeği bağlantısı, tesisat veya sensör kalibrasyonu"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "221",
+        "223",
+        "234"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-222/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "223",
+      "kodNormal": "223",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "TPS2 kanalı gerilimi yüksek",
+      "aciklama": "İkinci gaz kanalı üst sınır aşımı verir; emniyet kanalının yüksek sapması kontrolör tarafından tutarsızlık olarak kaydedilir",
+      "makineTepkisi": "Arıza lambası yanar; limpw benzeri sınırlama uygulanabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "İki kanallı TPS korelasyonu",
+        "Sinyal besleme/return hattı",
+        "Gaz kelebeği bağlantısı, tesisat veya sensör kalibrasyonu"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "222",
+        "234",
+        "236"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-223/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "234",
+      "kodNormal": "234",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Boost kontrolü aşırı basınç (overboost) hatası",
+      "aciklama": "Manifold basınç değeri hedefin kalıcı biçimde üzerine çıkar; tabloda boost/TIP donanımı takılı araçlar için geçerlidir",
+      "makineTepkisi": "Arıza lambası yanar; tork limitleme uygulanabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Araçta boost/TIP sisteminin gerçekten bulunduğunun doğrulanması",
+        "Basınç sensörü devresi",
+        "Emme hattı kısıtlamaları/kaçakları ve varsa turbo kontrol opsiyonu"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "223",
+        "236",
+        "237"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-234/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "236",
+      "kodNormal": "236",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Gaz kelebeği giriş basıncı (TIP) aktif durum bilgisi",
+      "aciklama": "TIP sensörü izlemesi etkin duruma geçti; durum kodu tek başına arızalı parça göstermez, basınç okumalarıyla birlikte yorumlanmalıdır",
+      "makineTepkisi": "Durum/uyarı göstergesi güncellenir; sürücüye yansıyan belirgin performans değişimi beklenmez",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Araçta boost/TIP sisteminin gerçekten bulunduğunun doğrulanması",
+        "Basınç sensörü devresi",
+        "Emme hattı kısıtlamaları/kaçakları ve varsa turbo kontrol opsiyonu"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "234",
+        "237",
+        "238"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-236/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "237",
+      "kodNormal": "237",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "TIP sensörü gerilimi düşük",
+      "aciklama": "Kelebek girişi basınç sensörü sinyali alt bant dışına düşer; devre açıklığı ile gerçek düşük basınç ayrımı ölçümle yapılmalıdır",
+      "makineTepkisi": "Arıza lambası yanabilir; boost yönetimi temkinli moda geçer",
+      "siddet": "uyari",
+      "nedenler": [
+        "Araçta boost/TIP sisteminin gerçekten bulunduğunun doğrulanması",
+        "Basınç sensörü devresi",
+        "Emme hattı kısıtlamaları/kaçakları ve varsa turbo kontrol opsiyonu"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "236",
+        "238",
+        "261"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-237/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "238",
+      "kodNormal": "238",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "TIP sensörü gerilimi yüksek",
+      "aciklama": "TIP basınç sinyali üst bandı aşar; sensör/devre şüphesi ile gerçek aşırı basınç durumu birlikte araştırılır",
+      "makineTepkisi": "Arıza lambası yanabilir; turbo kontrolü devre dışı kalabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Araçta boost/TIP sisteminin gerçekten bulunduğunun doğrulanması",
+        "Basınç sensörü devresi",
+        "Emme hattı kısıtlamaları/kaçakları ve varsa turbo kontrol opsiyonu"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "237",
+        "261",
+        "262"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-238/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "261",
+      "kodNormal": "261",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Enjektör 1 devresi açık veya şase kısa",
+      "aciklama": "Birinci silindirin enjektör besleme devresinde kopukluk ya da şaseye kısa devre saptandı; sürücü kanalı akım ölçemez duruma düşer",
+      "makineTepkisi": "Arıza lambası yanar; silindir 1 yakıt almaz, teklemeye bağlı sarsıntı belirginleşir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "238",
+        "262",
+        "264"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-261/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "262",
+      "kodNormal": "262",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Enjektör 1 bobini kısa devre",
+      "aciklama": "Birinci enjektör bobininde kısa devre teşhisi; sürücü aşırı akım saptar ve kanalı koruma amacıyla kesebilir",
+      "makineTepkisi": "Arıza lambası yanar; silindir 1 çalışmaz, motor titreşimli çalışır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "261",
+        "264",
+        "265"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-262/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "264",
+      "kodNormal": "264",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Enjektör 2 devresi açık veya şase kısa",
+      "aciklama": "İkinci silindir enjektörünün sürücü devresi kopuk ya da şaseye kısa; devre sürekliliği ve konnektör teması ilk şüphelilerdir",
+      "makineTepkisi": "Arıza lambası yanar; 2 numaralı silindir yakıtsız kalır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "262",
+        "265",
+        "267"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-264/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "265",
+      "kodNormal": "265",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Enjektör 2 bobini kısa devre",
+      "aciklama": "İkinci enjektör bobin sargısında kısa devre; aşırı akım tespiti üzerine kontrolör kanalı sınırlar",
+      "makineTepkisi": "Arıza lambası yanar; tek silindir kaybı nedeniyle düzensiz çalışma",
+      "siddet": "uyari",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "264",
+        "267",
+        "268"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-265/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "267",
+      "kodNormal": "267",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Enjektör 3 devresi açık veya şase kısa",
+      "aciklama": "Üçüncü enjektör kanalında açık devre/şase kısa durumu; üç ve üzeri silindirli tabloda kanal mevcudiyeti önce doğrulanmalıdır",
+      "makineTepkisi": "Arıza lambası yanar; silindir 3 enjeksiyonu durur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "265",
+        "268",
+        "270"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-267/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "268",
+      "kodNormal": "268",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Enjektör 3 bobini kısa devre",
+      "aciklama": "Üçüncü enjektör bobini kısa devre izlemesi; sürücü aşırı akım penceresi ihlal edilir",
+      "makineTepkisi": "Arıza lambası yanar; motor üç silindirle sarsıntılı çalışır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "267",
+        "270",
+        "271"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-268/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "270",
+      "kodNormal": "270",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Enjektör 4 devresi açık veya şase kısa",
+      "aciklama": "Dördüncü silindir enjektör devresi kopuk ya da şaseye kısa; 4G64 için tabloda fiilen bulunan kanallardan biridir",
+      "makineTepkisi": "Arıza lambası yanar; silindir 4 yakıt alamaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "268",
+        "271",
+        "273"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-270/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "271",
+      "kodNormal": "271",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Enjektör 4 bobini kısa devre",
+      "aciklama": "Dördüncü enjektör bobininde kısa devre saptandı; bobin direnci ve tesisat izolasyonu birlikte ölçülmelidir",
+      "makineTepkisi": "Arıza lambası yanar; silindir kaybına bağlı titreşim ve çekiş düşüklüğü",
+      "siddet": "uyari",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "270",
+        "273",
+        "274"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-271/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "273",
+      "kodNormal": "273",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Enjektör 5 devresi açık veya şase kısa",
+      "aciklama": "Beşinci kanal enjektör devresi açık/şase-kısa izlemesi; genel tabloda yer alır, sıralı 4 silindirli 4G64'te bu kanalın takılı olmadığı doğrulanmalıdır",
+      "makineTepkisi": "Arıza lambası yanabilir; donanım yoksa kod izole bırakılmalıdır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "271",
+        "274",
+        "276"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-273/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "274",
+      "kodNormal": "274",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Enjektör 5 bobini kısa devre",
+      "aciklama": "Beşinci enjektör bobini kısa devre izlemesi; mevcut olmayan kanal için yazılım donanım uyumsuzluğu ihtimali de değerlendirilmelidir",
+      "makineTepkisi": "Donanım mevcutsa silindir durar; değilse yalnız kayıt/uyarı beklenir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "273",
+        "276",
+        "277"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-274/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "276",
+      "kodNormal": "276",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Enjektör 6 devresi açık veya şase kısa",
+      "aciklama": "Altıncı enjektör kanalı devre sürekliliği kaybı ya da şase kısa izlemesi; altı silindirli varyantlar için tasarlanmış tablo satırıdır",
+      "makineTepkisi": "Donanım takılıysa ilgili silindir çalışmaz; uyarı lambası yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "274",
+        "277",
+        "279"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-276/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "277",
+      "kodNormal": "277",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Enjektör 6 bobini kısa devre",
+      "aciklama": "Altıncı enjektör bobin kısa devre teşhisi; montajı olan araçlarda bobin ve sürücü kademesi ölçülmelidir",
+      "makineTepkisi": "İlgili silindir yakıtsız kalabilir; çalışma düzensizleşir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "276",
+        "279",
+        "280"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-277/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "279",
+      "kodNormal": "279",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Enjektör 7 devresi açık veya şase kısa",
+      "aciklama": "Yedinci kanal enjektör devresi kopuk/kısa izlemesi; sıralı dört silindirli bu araç için donanım varlığı kanıtlanmadan parça kararı verilmemelidir",
+      "makineTepkisi": "LPG versiyonunda çoğunlukla yalnız hafıza kaydı beklenir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "277",
+        "280",
+        "282"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-279/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "280",
+      "kodNormal": "280",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Enjektör 7 bobini kısa devre",
+      "aciklama": "Yedinci enjektör bobini kısa devre izlemesi; tabloda bulunması bu kanalın takılı olduğu anlamına gelmez",
+      "makineTepkisi": "Donanımsa kanal kesilir; değilse kod sessiz kalabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "279",
+        "282",
+        "283"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-280/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "282",
+      "kodNormal": "282",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Enjektör 8 devresi açık veya şase kısa",
+      "aciklama": "Sekizinci enjektör kanalı açık devre veya şase kısa sinyali; sekiz silindirli tablo varyantına ait genel satırdır",
+      "makineTepkisi": "Donanım mevcutsa silindir sekizi kaybeder; aksi halde yalnız kayıt",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "280",
+        "283",
+        "285"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-282/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "283",
+      "kodNormal": "283",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Enjektör 8 bobini kısa devre",
+      "aciklama": "Sekizinci enjektör bobin kısa devresi; sürücü akım penceresinin aşılması ile oluşur ve kanal geçici kapatılabilir",
+      "makineTepkisi": "İlgili enjektör kanalı devre dışı kalabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "282",
+        "285",
+        "286"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-283/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "285",
+      "kodNormal": "285",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Enjektör 9 devresi açık veya şase kısa",
+      "aciklama": "Dokuzuncu kanal enjektör devresi süreklilik kaybı/şase kısa izlemesi; bu sınıf 4G64 araçlarda donanım teyidi bekleyen tablo satırıdır",
+      "makineTepkisi": "Kod yalnız ilgili V8/V10 varyantlarında anlamlı tepki üretir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "283",
+        "286",
+        "288"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-285/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "286",
+      "kodNormal": "286",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Enjektör 9 bobini kısa devre",
+      "aciklama": "Dokuzuncu enjektör bobini kısa devre izlemesi; montaj donanımı doğrulanmadan enjektör değişimi önerilmez",
+      "makineTepkisi": "Uygulanan varyantta kanal kesilebilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "285",
+        "288",
+        "289"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-286/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "288",
+      "kodNormal": "288",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Enjektör 10 devresi açık veya şase kısa",
+      "aciklama": "Onuncu enjektör kanalı açık devre/şase kısa teşhisi; genel ECM tablosunun üst silindir numaralı satırıdır",
+      "makineTepkisi": "Donanımı taşımayan araçta sürücü etkilenmez",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "286",
+        "289",
+        "299"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-288/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "289",
+      "kodNormal": "289",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Enjektör 10 bobini kısa devre",
+      "aciklama": "Onuncu enjektör bobin kısa devresi; tabloda yer alması LPG'li 4G64'te bu kanalın varlığını kanıtlamaz",
+      "makineTepkisi": "Yalnız ilgili varyantta kanal korumaya girer",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Enjektör kanalı tesisatı",
+        "Enjektör bobini",
+        "ECM sürücü akımı; takılı silindir sayısının doğrulanması gerekir"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "288",
+        "299",
+        "301"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-289/",
+      "durum": "incelemede"
+    }
+  ]
+}

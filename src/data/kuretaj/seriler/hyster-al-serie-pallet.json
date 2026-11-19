@@ -1,0 +1,250 @@
+{
+  "marka": "hyster",
+  "seri": "al-serie-pallet",
+  "modelAdi": "Hyster elektrikli palet kamyonu / istifleyici (AL kodlu kontrolör gösterge serisi)",
+  "kaynakBelge": "Hyster Pallet Lift Trucks Fault Codes DTC listesi — forkliftpdfmanuals.com derlemesi",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://forkliftpdfmanuals.com/hyster-error-codes/",
+  "kodlar": [
+    {
+      "kod": "AL01",
+      "kodNormal": "AL01",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Sürüş ve kaldırma fonksiyonları çalışmıyor",
+      "aciklama": "Kontrol kartı ile sürücü arasındaki bağlantı veya yön değiştirme devresi zinciri bozulur; her iki ana fonksiyon birden düşer",
+      "makineTepkisi": "Ne sürüş ne kaldırma çalışır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontrol kartı ile kontrolör arasındaki eksik bağlantı",
+        "Sürüş yön değiştirme şalterinin bağlanmamış olması",
+        "Hasarlı veya arızalı tiller kartı"
+      ],
+      "kontroller": [
+        "Kontrol kartı-kontrolör bağlantıları gözden geçirilir",
+        "El termineriyle yön değiştirme şalteri çalışması test edilir",
+        "Tiller kartı hasarlıysa kontrol kartı değiştirilir"
+      ],
+      "ilgiliKodlar": [
+        "AL02"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/hyster-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL02",
+      "kodNormal": "AL02",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Sürüş ve hidrolik fonksiyonlar çalışmıyor",
+      "aciklama": "Ana kontaktör kontakları kaynamış kapanmış veya motor uyartım (field) devresi açık kalmış olabilir",
+      "makineTepkisi": "Sürüş ve hidrolik tamamen devre dışı",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ana kontaktör kontaklarının kaynak yaparak yapışması",
+        "Motor alan (field) devresinin kopması"
+      ],
+      "kontroller": [
+        "Kontaktör güç kabloları sökülüp açık devre testi yapılır",
+        "Motor alan devresi-kontrolör bağlantıları kontrol edilir"
+      ],
+      "ilgiliKodlar": [
+        "AL01",
+        "AL8"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/hyster-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL4",
+      "kodNormal": "AL4",
+      "aliaslar": [
+        "AL04"
+      ],
+      "sistem": "diger",
+      "baslik": "İndirme valfi devresi hatası",
+      "aciklama": "İndirme valfi bobinine giden bağlantı veya bobin/kartuş arızalanır; sürüş ve hidrolik kilitlenir",
+      "makineTepkisi": "Sürüş ve hidrolik çalışmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "İndirme valfine giden bağlantıda hasar",
+        "İndirme bobini veya valf kartuşu arızası"
+      ],
+      "kontroller": [
+        "Valf bobinesi ile kontrolör arası elektrik bağlantısı ölçülür",
+        "Bobin direnci yaklaşık 17,7 ohm değilse bobin değiştirilir",
+        "Gerekirse indirme valfi kartuşu yenilenir"
+      ],
+      "ilgiliKodlar": [
+        "AL5",
+        "AL8"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/hyster-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL5",
+      "kodNormal": "AL5",
+      "aliaslar": [
+        "AL05"
+      ],
+      "sistem": "fren",
+      "baslik": "Elektrikli fren devresi hatası",
+      "aciklama": "Fren bobini veya bağlantısı arızalı; sistem sürüş ve hidroliği emniyet nedeniyle keser",
+      "makineTepkisi": "Sürüş ve hidrolik fonksiyonları durur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Frene giden bağlantıda hasar",
+        "Fren bobini yanığı/açık devresi"
+      ],
+      "kontroller": [
+        "Elektrikli fren ile kontrolör arası bağlantı kontrol edilir",
+        "Fren bobini direnci her iki yönde ölçülür; 27,36-30,24 ohm dışındaysa değiştirilir"
+      ],
+      "ilgiliKodlar": [
+        "AL4",
+        "AL6"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/hyster-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL6",
+      "kodNormal": "AL6",
+      "aliaslar": [
+        "AL06"
+      ],
+      "sistem": "diger",
+      "baslik": "Sürüş motoru devresi hatası",
+      "aciklama": "Motora giden bağlantılar, armatür veya alan sargısı değerleri sınır dışındadır; kontaktör bobin değeri de bu kodla izlenir",
+      "makineTepkisi": "Sürüş ve hidrolik devre dışı kalır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sürüş motoru bağlantısında hasar",
+        "Armatür direncinin aşırı düşük olması",
+        "Gevşek/hasarlı alan kabloları veya kısa devreli alan sargısı"
+      ],
+      "kontroller": [
+        "Motor-alan kabloları-kontrolör elektriksel bağlantısı gözden geçirilir",
+        "Armatür kısa devre testi yapılır",
+        "Alan direnci 0,5-1,5 ohm dışındaysa düzeltilir; kontaktör bobini 52 ohm kontrol edilir"
+      ],
+      "ilgiliKodlar": [
+        "AL8",
+        "AL02"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/hyster-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL7",
+      "kodNormal": "AL7",
+      "aliaslar": [
+        "AL07"
+      ],
+      "sistem": "diger",
+      "baslik": "Kontrolör sıcaklığı sınır dışında",
+      "aciklama": "-14°F/167°F dışında performans düşer, 194°F üstünde sürüş çalışmaz; sensör kalibrasyonu da şüphelidir",
+      "makineTepkisi": "Sıcaklık bandı dışında sürüş limitlemesi veya kilitleme",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontrolörün aşırı sıcak/soğuk ortamda çalışması",
+        "Sıcaklık kalibrasyonunun bozuk olması",
+        "Kontrolör sıcaklık sensörü veya kartının hasarı"
+      ],
+      "kontroller": [
+        "Araç daha sıcak/soğuk ortama alınarak davranış izlenir",
+        "El termineri kontrolör sıcaklığı ile ortam sıcaklığı karşılaştırılır; tutmuyorsa kontrolör değişir"
+      ],
+      "ilgiliKodlar": [
+        "AL8"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/hyster-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL8",
+      "kodNormal": "AL8",
+      "aliaslar": [
+        "AL08"
+      ],
+      "sistem": "fren",
+      "baslik": "Sürülen bileşende aşırı akım",
+      "aciklama": "Kontrolör, tahrik edilen bir bileşende aşırı akım saptar; ana demette kontaktör, fren ve valf bobini bağlantıları şüphelidir",
+      "makineTepkisi": "Sürüş ve hidrolik fonksiyonları kesilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ana kontaktör, fren veya elektrikli valf bobinlerine giden demette hasar",
+        "Sürülen bileşende aşırı akım çekişi"
+      ],
+      "kontroller": [
+        "Ana demet temas noktaları gözden geçirilir",
+        "Kontaktör ve fren bileşenleri ayrı ayrı test edilir"
+      ],
+      "ilgiliKodlar": [
+        "AL6",
+        "AL02"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/hyster-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL66",
+      "kodNormal": "AL66",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Hidrolik fonksiyon çalışmıyor (düşük akü gerilimi)",
+      "aciklama": "Akü gerilimi düşüktür ya da kontrolör gerilim kalibrasyonu kaymıştır; iki okuma karşılaştırılarak karar verilir",
+      "makineTepkisi": "Hidrolik çalışmaz, sürüş etkilenebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Düşük akü gerilimi",
+        "Kontrolör gerilim kalibrasyonunun hatalı olması"
+      ],
+      "kontroller": [
+        "Akü şarj edilir veya değiştirilir",
+        "El termineri ile kontrolörün okuduğu gerilim multimetre değerinin yanında ölçülür; 1,5 volttan fazla fark varsa kontrolör değişir"
+      ],
+      "ilgiliKodlar": [
+        "AL99"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/hyster-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL99",
+      "kodNormal": "AL99",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Sürüş ve hidrolik çalışmıyor (batarya seçimi/bağlantısı)",
+      "aciklama": "Yanlış gerilim sınıfı akü, hasarlı akü veya bozuk batarya bağlantısı sürücü beslemesini kesintiye uğratır",
+      "makineTepkisi": "Araçta sürüş ve hidrolik yok",
+      "siddet": "uyari",
+      "nedenler": [
+        "Araca uygun olmayan akü seçimi",
+        "Hasarlı akü",
+        "Batarya bağlantı uçlarında/kablolarında hasar"
+      ],
+      "kontroller": [
+        "Araç için doğru gerilim sınıfı doğrulanır",
+        "Akü gerilimi el ile ölçülür",
+        "Akü gövdesi, pabuç ve kablolar hasar açısından denetlenir"
+      ],
+      "ilgiliKodlar": [
+        "AL66"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/hyster-error-codes/",
+      "durum": "incelemede"
+    }
+  ]
+}

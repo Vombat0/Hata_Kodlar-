@@ -1,0 +1,561 @@
+{
+  "marka": "crown",
+  "seri": "esr-p2",
+  "modelAdi": "Crown esr-p2",
+  "kaynakBelge": "Web araştırması — forklifterrorcodes.com",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "",
+  "kodlar": [
+    {
+      "kod": "220",
+      "kodNormal": "220",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Hidrolik sürücü modülü aşırı sıcaklık (115°C üstü)",
+      "aciklama": "HDM soğutucu sıcaklığı 115°C kesme eşiğini aşar; 222 uyarı kademesinden sonra gelen termal durdurma basamağıdır",
+      "makineTepkisi": "Hidrolik sürücü termal korumaya girer; kaldırma/uzatma durur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Aşırı duty ve yüksek ortam sıcaklığı",
+        "Yetersiz havalandırma/fan arızası",
+        "Kirli soğutma kanatçıkları veya hidrolik inverter iç kaybı"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "222",
+        "120"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-220/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "221",
+      "kodNormal": "221",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik motor aşırı sıcak",
+      "aciklama": "Pompa motorunun termal sensörü limit aşımı bildirir; yüksek hidrolik sıcaklıkla birlikte değerlendirilmelidir",
+      "makineTepkisi": "Hidrolik çevrim yavaşlatılır veya durdurulur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sürekli yüksek basınçlı çalışma",
+        "Motor soğutma hava akımının bozulması",
+        "Termal sensör/devre sapması"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "220",
+        "186"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-221/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "222",
+      "kodNormal": "222",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Hidrolik sürücü modülü yüksek sıcaklık güç düşürümü (derate)",
+      "aciklama": "HDM sıcaklığı derate eşiğini geçti; kılavuz ağır duty, kötü havalandırma, kirli kanatçıklar ve hidrolik inverter sorununu alternatif olarak sayar",
+      "makineTepkisi": "Hidrolik performans bilinçli olarak düşürülür; uyarı gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ağır görev çevrimi veya yüksek ortam ısısı",
+        "Zayıf havalandırma/fan",
+        "Kirli soğutma kanatçıkları ya da hidrolik inverter kaynağı"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "220",
+        "223"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-222/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "223",
+      "kodNormal": "223",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Hidrolik sürücü modülü düşük sıcaklık uyarısı",
+      "aciklama": "HDM, çalışma bandının altında bir iç sıcaklık saptar; soğuk ortamda viskoz hidrolik yağı ile birlikte değerlendirilmelidir",
+      "makineTepkisi": "Isınma sağlayana kadar hidrolik hız limitleyicisi devrede kalabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Düşük ortam sıcaklığında çalışma",
+        "Sensör/devre sapması",
+        "Yanlış sıcaklık eşiği yapılandırması"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "225",
+        "222"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-223/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "225",
+      "kodNormal": "225",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Hidrolik motor sıcaklığı alt çalışma sınırının altında (-30°C)",
+      "aciklama": "Motor termal okuması kaynakta -30°C olarak verilen alt sınırın altına iner; yağ akışkanlığı ve sensör bütünlüğü birlikte ele alınır",
+      "makineTepkisi": "Soğuk bölge koruması nedeniyle kaldırma engellenebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gerçek don düzeyi ortam sıcaklığı",
+        "Termistör/devre hatalı okuması",
+        "Eşik konfigürasyonu uyumsuzluğu"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "223",
+        "221"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-225/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "230",
+      "kodNormal": "230",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "Hidrolik sürücü modülünde CAN iletişim hatası (VCM ağı)",
+      "aciklama": "HDM ile araç kontrol modülü arasındaki CAN ağı iletişimi bozulur; hidrolik komutlar hedefe ulaşamaz",
+      "makineTepkisi": "Hidrolik fonksiyonlar durur veya son bilinen değerlerde donar",
+      "siddet": "uyari",
+      "nedenler": [
+        "CAN tesisatı/sonlandırma sorunları",
+        "HDM veya VCM besleme kesintileri",
+        "Modüllerden birinin ağ kademesi arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "130",
+        "211"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-230/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "240",
+      "kodNormal": "240",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "POT2 hidrolik giriş gerilimi üst sınırı aşıyor",
+      "aciklama": "İkinci potansiyometrik hidrolik komut girişi üst gerilim limitinin dışında; giriş tesisatı ve pot ömrü sorgulanmalıdır",
+      "makineTepkisi": "İlgili hidrolik fonksiyon komutu geçersiz sayılır",
+      "siddet": "uyari",
+      "nedenler": [
+        "POT besleme/sinyal tesisat hatası",
+        "Potansiyometre aşınması/hatalı konumu",
+        "HDM giriş kademesi arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "241",
+        "213"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-240/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "241",
+      "kodNormal": "241",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "POT2 hidrolik giriş gerilimi alt sınırın altında",
+      "aciklama": "POT2 girişi beklenen alt gerilimin de altına düşer; 240'ın ters yönlü ihlalidir, aynı giriş zinceri farklı biçimde sorgulanır",
+      "makineTepkisi": "Fonksiyon komutu güvenilmez; hidrolik tepki vermez",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sinyal hattı açık devresi",
+        "Pot direnç yolunda süreksizlik",
+        "Giriş referansının düşmesi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "240",
+        "243"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-241/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "243",
+      "kodNormal": "243",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "POT3 hidrolik giriş gerilimi üst sınırı aşıyor",
+      "aciklama": "Üçüncü potansiyometrik giriş üst limit dışına taşar; joystick/kumanda kolunun hangi fonksiyona atandığı seriye göre değişir",
+      "makineTepkisi": "İlgili kumanda ekseni devre dışı kabul edilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "POT3 tesisat kısa/besleme taşması",
+        "Potansiyometre mekanik aşınması",
+        "HDM giriş kademesi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "244",
+        "240"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-243/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "244",
+      "kodNormal": "244",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "POT3 hidrolik giriş gerilimi alt sınırın altında",
+      "aciklama": "POT3 alt limit ihlali; kablo kopukluğu ve pot sıfır noktası kayması tipik başlangıç noktalarıdır",
+      "makineTepkisi": "Eksen komutu yok sayılabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sinyal/besleme hattı süreksizliği",
+        "Pot direnç yolu kopukluğu",
+        "Referans gerilim düşüklüğü"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "243",
+        "246"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-244/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "246",
+      "kodNormal": "246",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "POT4 hidrolik giriş gerilimi üst sınırı aşıyor",
+      "aciklama": "Dördüncü pot girişi üst banda kaçar; ataşman kumanda potansiyometresi ise seriye özgü şema üzerinden takip edilmelidir",
+      "makineTepkisi": "Atanan hidrolik eksen çalışmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Tesisat/besleme taşması",
+        "Pot aşınma hatası",
+        "HDM giriş kademesi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "247",
+        "243"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-246/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "247",
+      "kodNormal": "247",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "POT4 hidrolik giriş gerilimi alt sınırın altında",
+      "aciklama": "POT4 girişi alt limitin de altına iner; üst limit ihlalinden bağımsız bir devre açıklığı işareti olabilir",
+      "makineTepkisi": "Kumanda ekseni geçersiz konuma düşer",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sinyal hattı kopukluğu",
+        "Pot direnç süreksizliği",
+        "Referans/besleme düşüşü"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "246",
+        "249"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-247/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "249",
+      "kodNormal": "249",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "POT5 hidrolik giriş gerilimi üst sınırı aşıyor",
+      "aciklama": "Beşinci potansiyometrik giriş üst limit dışı; POT hattı ortak beslemesinden etkilenip etkilenmediği kontrol edilmelidir",
+      "makineTepkisi": "İlgili ataşman/hidrolik eksen engellenir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ortak POT besleme taşması",
+        "Pot arızası",
+        "Giriş kademesi hatası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "250",
+        "213"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-249/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "250",
+      "kodNormal": "250",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "POT5 hidrolik giriş gerilimi alt sınırın altında",
+      "aciklama": "POT5 alt banda düşer; seriye göre takılı olmayan POT kanalının ucu açık bırakılmış olabilir",
+      "makineTepkisi": "Kanal boşta ise işlev zaten tanımsızdır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kanalın takılı ama uçları açık bırakılması",
+        "Tesisat açıklığı",
+        "Giriş kutuplandırma hatası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "249",
+        "252"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-250/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "252",
+      "kodNormal": "252",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "POT6 hidrolik giriş gerilimi üst sınırı aşıyor",
+      "aciklama": "Altıncı pot girişi üst limit ihlali verir; kumanda kolonu donanım varyantı ve kablo demeti yönü kontrol edilmelidir",
+      "makineTepkisi": "Eksen komutu işleme alınmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Besleme/sinyal taşması",
+        "Potansiyometre ömrü",
+        "HDM giriş kademesi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "253",
+        "249"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-252/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "253",
+      "kodNormal": "253",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "POT6 hidrolik giriş gerilimi alt sınırın altında",
+      "aciklama": "POT6 alt limit dışı; bu sınıf giriş ihlallerinde gerçek kumanda sinyali ile uç boşluğu ölçümle ayrılır",
+      "makineTepkisi": "Eksene atanan hareket beklenmez",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sinyal/besleme süreksizliği",
+        "Kanal donanımının bulunmaması",
+        "Giriş referans sapması"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "252",
+        "260"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-253/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "260",
+      "kodNormal": "260",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "SVH kaldırma valfi çıkışında kısa devre",
+      "aciklama": "Lift valfi sürücü çıkışı kısa devre akımı çeker; valf bobini izolasyonu ve kablo demeti şasesi incelenmelidir",
+      "makineTepkisi": "Lift komutu uygulanmaz; kaldırma yapılamaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "SVH bobin sargısı kısa devresi",
+        "Çıkış kablosunda şaseye temas",
+        "HDM sürücü kademesi arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "261",
+        "263"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-260/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "261",
+      "kodNormal": "261",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "PVL indirme valfi çıkışında kısa devre",
+      "aciklama": "Lower valfi sürücü devresi kısa devre izler; bobin ve tesisat izolasyonu lift çıkışından ayrı doğrulanmalıdır",
+      "makineTepkisi": "Aşağı indirme komutu engellenir",
+      "siddet": "uyari",
+      "nedenler": [
+        "PVL bobin kısa devresi",
+        "Kablo izolasyon hasarı",
+        "HDM çıkış kademesi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "260",
+        "262"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-261/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "262",
+      "kodNormal": "262",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "PVRT geri çekme (retract) valfi çıkışında kısa devre",
+      "aciklama": "Retract valfine giden sürücü çıkışında kısa devre saptanır; yükleme/boşaltma çevriminde kanal devre dışı kalır",
+      "makineTepkisi": "Raf geri çekme hareketi gerçekleşmez",
+      "siddet": "uyari",
+      "nedenler": [
+        "PVRT bobin arızası",
+        "Çıkış hattı şase kısa",
+        "Sürücü kademesi hasarı"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "263",
+        "261"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-262/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "263",
+      "kodNormal": "263",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "PVRE uzatma (extend) valfi çıkışında kısa devre",
+      "aciklama": "Extend valfi sürücü çıkışı kısa devre çeker; retract kanalının tersi yöndeki hareket engellenir",
+      "makineTepkisi": "Çatalları uzatma komutu uygulanmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "PVRE bobin kısa devresi",
+        "Kablo demeti izolasyon hatası",
+        "HDM çıkış sürücüsü"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "262",
+        "260"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-263/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "264",
+      "kodNormal": "264",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "PVAL yardımcı hidrolik valf SOL çıkışında kısa devre",
+      "aciklama": "Yardımcı hidroliğin sol yön valf çıkışı kısa devre izler; ataşman donanımı takılı değilse kanal izole edilmelidir",
+      "makineTepkisi": "Yardımcı hidrolik sol yön çalışmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "PVAL bobin/kablo kısa devresi",
+        "Ataşman konnektöründe nem-kısa",
+        "Sürücü kademesi arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "265",
+        "253"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-264/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "265",
+      "kodNormal": "265",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "PVAR yardımcı hidrolik valf SAĞ çıkışında kısa devre",
+      "aciklama": "Yardımcı hidrolik sağ yön valf çıkışı kısa devre koşulu bildirir; sol kanal çıkışıyla ölçüm karşılaştırması aydınlatıcıdır",
+      "makineTepkisi": "Yardımcı hidrolik sağ yön engellenir",
+      "siddet": "uyari",
+      "nedenler": [
+        "PVAR bobin izolasyon hatası",
+        "Kablo demeti hasarı",
+        "HDM valf sürücüsü"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "264",
+        "260"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-265/",
+      "durum": "incelemede"
+    }
+  ]
+}

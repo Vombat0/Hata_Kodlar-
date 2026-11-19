@@ -1,0 +1,953 @@
+{
+  "marka": "doosan",
+  "seri": "b-serisi",
+  "modelAdi": "Doosan B Serisi elektrikli forkliftler (36/48/80 V inverter sistemli gösterge)",
+  "kaynakBelge": "Doosan B Series Forklift Truck Operator's Manual PDF — Tablo 5/6 alarm kodları (forkliftpdfmanuals.com)",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+  "kodlar": [
+    {
+      "kod": "17",
+      "kodNormal": "17",
+      "aliaslar": [
+        "CONTACTOR FAULT"
+      ],
+      "sistem": "diger",
+      "baslik": "Ana şalter/kontaktör arızası",
+      "aciklama": "Güç devresini açan ana kesici (main breaker) beklenen konumda değildir; akü hattı koruma elemanı devreyi açık bırakır.",
+      "makineTepkisi": "Kontak kapalıyken çekiş ve kaldırma devreye giremez",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "60"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "60",
+      "kodNormal": "60",
+      "aliaslar": [
+        "BATT MISMATCH"
+      ],
+      "sistem": "diger",
+      "baslik": "Akü/inverter gerilim uyumsuzluğu",
+      "aciklama": "Akü paketinin gerilim sınıfı ile inverter yazılımının beklediği gerilim sınıfı eşleşmez; yanlış akü veya yanlış parametre montajı anlamına gelir.",
+      "makineTepkisi": "Sistem güç aşamasına geçemez",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "61",
+      "kodNormal": "61",
+      "aliaslar": [
+        "R-MOTOR SHUTDOWN"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Sağ yürüyüş motoru aşırı sıcak (165 °C üzeri)",
+      "aciklama": "Sağ çekiş motorunun sargı sıcaklığı 165 °C eşiğini geçer; kontrolör bu motoru aşırı ısınmaya karşı bloke eder.",
+      "makineTepkisi": "Alarma giden motor/devre kilitlenir (shutdown); gösterge kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "62",
+        "65",
+        "E4"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "62",
+      "kodNormal": "62",
+      "aliaslar": [
+        "L-MOTOR SHUTDOWN"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Sol yürüyüş motoru aşırı sıcak (165 °C üzeri)",
+      "aciklama": "Sol çekiş motoru 165 °C termal eşiğini aşar; inverter sol motoru geçici olarak devre dışı bırakır.",
+      "makineTepkisi": "Alarma giden motor/devre kilitlenir (shutdown); gösterge kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "61",
+        "65",
+        "E5"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "65",
+      "kodNormal": "65",
+      "aliaslar": [
+        "P-MOTOR SHUTDOWN"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motoru aşırı sıcak (165 °C üzeri)",
+      "aciklama": "Hidrolik pompa motoru 165 °C'yi geçen sıcaklıkta bloke edilir; kaldırma eğme işlevleri geçici durur.",
+      "makineTepkisi": "Alarma giden motor/devre kilitlenir (shutdown); gösterge kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "61",
+        "62",
+        "E6"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "76",
+      "kodNormal": "76",
+      "aliaslar": [
+        "P-MOTOR ENCODER"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motoru enkoder hatası",
+      "aciklama": "Pompa motorunun dönüş enkoderinden gelen geri besleme sinyali güvenilir değildir; kapalı çevrim hız kontrolü yapılamaz.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Fc",
+        "Fd"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "77",
+      "kodNormal": "77",
+      "aliaslar": [
+        "R-M TEMP SENSOR"
+      ],
+      "sistem": "diger",
+      "baslik": "Sağ yürüyüş motoru termik anahtarı hatalı sinyal veriyor",
+      "aciklama": "Sağ çekiş motorundaki termik temas anahtarı beklenmeyen (yanlış) konumda okunur; sensör ya da kablosu şüphelidir.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "78",
+        "79",
+        "61"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "78",
+      "kodNormal": "78",
+      "aliaslar": [
+        "L-M TEMP SENSOR"
+      ],
+      "sistem": "diger",
+      "baslik": "Sol yürüyüş motoru termik anahtarı hatalı sinyal veriyor",
+      "aciklama": "Sol çekiş motorunun termik anahtarı hatalı durumda okunur; devre süreksizliği ya da sensör arızası olasılığı vardır.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "77",
+        "79",
+        "62"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "79",
+      "kodNormal": "79",
+      "aliaslar": [
+        "P-M TEMP SENSOR"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motoru sıcaklık probu hatalı",
+      "aciklama": "Pompa motoruna ait sıcaklık probunun okuması geçersizdir; termal koruma güvenilir çalışamaz.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "77",
+        "78",
+        "65"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "80",
+      "kodNormal": "80",
+      "aliaslar": [
+        "R-INV T SENSOR"
+      ],
+      "sistem": "diger",
+      "baslik": "Sağ inverter modülü sıcaklık probu hatalı",
+      "aciklama": "Sağ çekiş modülünün soğutucu üzerindeki sıcaklık probundan mantıksız okuma gelir; fan/soğutma denetimi risk altına girer.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E1",
+        "81",
+        "82"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "81",
+      "kodNormal": "81",
+      "aliaslar": [
+        "L-INV T SENSOR"
+      ],
+      "sistem": "diger",
+      "baslik": "Sol inverter modülü sıcaklık probu hatalı",
+      "aciklama": "Sol çekiş modülü sıcaklık probu arızalı okunur; soğutucu sıcaklık limit denetimi güvenilmez.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E2",
+        "80",
+        "82"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "82",
+      "kodNormal": "82",
+      "aliaslar": [
+        "P-INV T SENSOR"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa inverter modülü sıcaklık probu hatalı",
+      "aciklama": "Pompa modülünün sıcaklık probu geçersiz sinyal üretir; modül termal geri alma stratejisi doğru çalışamaz.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E3",
+        "80",
+        "81"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "83",
+      "kodNormal": "83",
+      "aliaslar": [
+        "CRC FAULT"
+      ],
+      "sistem": "iletisim",
+      "baslik": "CAN veri bütünlüğü (CRC) hatası",
+      "aciklama": "Kontrolörler arası CAN paketlerinde CRC kontrol toplamı tutmaz; iletişim kablosu, uçlar veya bir düğüm bozuk olabilir.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "84"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "84",
+      "kodNormal": "84",
+      "aliaslar": [
+        "CRC RESTORED"
+      ],
+      "sistem": "iletisim",
+      "baslik": "CAN CRC hatası giderildi (banka kurtarma)",
+      "aciklama": "Önceki CRC iletişim hatası sonrasinda banka yeniden tutarlı veri almaya başlamıştır; kayıt niteliğinde bir bildirimdir.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "83"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E1",
+      "kodNormal": "E1",
+      "aliaslar": [
+        "R-INV OVERTEMP"
+      ],
+      "sistem": "motor",
+      "baslik": "Sağ yürüyüş modülü aşırı ısındı",
+      "aciklama": "Sağ çekiş invertörünün güç transistörleri sıcaklık sınırını aşar; sistem akımı kısar ya da modülü durdurur.",
+      "makineTepkisi": "Çekiş gücü sınırlandırılır; aşırıysa sağ motor durur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "80",
+        "E2",
+        "E3"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E2",
+      "kodNormal": "E2",
+      "aliaslar": [
+        "L-INV OVERTEMP"
+      ],
+      "sistem": "motor",
+      "baslik": "Sol yürüyüş modülü aşırı ısındı",
+      "aciklama": "Sol çekiş invertörü aşırı sıcaklık bölgesine girer; kontrolör termal koruma için akım sınırı uygular.",
+      "makineTepkisi": "Çekiş gücü sınırlandırılır; aşırıysa sol motor durur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "81",
+        "E1",
+        "E3"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E3",
+      "kodNormal": "E3",
+      "aliaslar": [
+        "P-INV OVERTEMP"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa modülü aşırı ısındı",
+      "aciklama": "Hidrolik pompa invertörü aşırı ısınır; kaldırma performansı düşürülür veya pompa durdurulur.",
+      "makineTepkisi": "Kaldırma/eğme performansı düşer; aşırıysa pompa durur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "82",
+        "E1",
+        "E2"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E4",
+      "kodNormal": "E4",
+      "aliaslar": [
+        "R-MOTOR OVERTEMP"
+      ],
+      "sistem": "diger",
+      "baslik": "Sağ yürüyüş motoru aşırı sıcak (E serisi)",
+      "aciklama": "Sağ çekiş motorunun sıcaklık modeli alarm eşiğini aşar; 61 kodundaki kilitlenmeden önce gelen kademe olabilir.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "61",
+        "77"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E5",
+      "kodNormal": "E5",
+      "aliaslar": [
+        "L-MOTOR OVERTEMP"
+      ],
+      "sistem": "diger",
+      "baslik": "Sol yürüyüş motoru aşırı sıcak (E serisi)",
+      "aciklama": "Sol çekiş motoru sıcaklığı alarm eşiğindedir; sürekli tekrarlıyorsa soğutma ve yük profili incelenmelidir.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "62",
+        "78"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E6",
+      "kodNormal": "E6",
+      "aliaslar": [
+        "P-MOTOR OVERTEMP"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motoru aşırı sıcak (E serisi)",
+      "aciklama": "Pompa motoru sıcaklığı uyarı eşiğini geçti; hidrolik sistem uzun süreli aşırı yüke işaret edebilir.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "65",
+        "79"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "EE",
+      "kodNormal": "EE",
+      "aliaslar": [
+        "WRONG START",
+        "SEAT SW OPEN"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Hatalı sürüş başlatma / koltuk şalteri açık",
+      "aciklama": "Sistem hatalı start prosedürünü işaretler: yön şalteri güvenliyken açılmış ya da koltuk şalteri açıkyken hareket istenmiştir; kod, yön şalteri kapatılınca söner.",
+      "makineTepkisi": "Araç hareket etmez; yön şalteri kapanınca EE söner",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "EL",
+      "kodNormal": "EL",
+      "aliaslar": [
+        "LOW BATT VOLT"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü gerilimi çok düşük",
+      "aciklama": "Akü paketi tükenme sınırındadır; gösterge EL ile akünün tamamen boşaldığını bildirir.",
+      "makineTepkisi": "Akü boş göstergesi; sürüş/çalışma kısıtlanır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F1"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F0",
+      "kodNormal": "F0",
+      "aliaslar": [
+        "MAX BATT VOLT"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü gerilimi üst sınırı aştı",
+      "aciklama": "Batarya hattındaki gerilim izin verilen maksimumun üzerine çıktı; rejeneratif geri besleme veya şarj kaynaklı aşırı gerilim olasüdür.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F1"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F1",
+      "kodNormal": "F1",
+      "aliaslar": [
+        "MIN BATT VOLT"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü gerilimi alt sınırın altında",
+      "aciklama": "Batarya hattı gerilimi izin verilen minimumun altına düştü; EL alarmının sayısal karşılığı olan düşük gerilim limitidir.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "EL",
+        "F0"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F2",
+      "kodNormal": "F2",
+      "aliaslar": [
+        "ACCEL FAULT"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Gaz pedalı (potansiyometre) ayar hatası",
+      "aciklama": "Gaz pedalı potansiyometresinin başlangıç değeri kalibrasyon penceresi dışındadır; pedal veya kablo arızalı olabilir.",
+      "makineTepkisi": "Çekiş komutu alınmaz/güvenli konumda tutulur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F3",
+      "kodNormal": "F3",
+      "aliaslar": [
+        "R-INVERTER FAULT"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Sağ inverter desat/aşırı akım arızası",
+      "aciklama": "Sağ çekiş modülü çıkışında desatürasyon/aşırı akım saptandı; transistör koruması devreyi kesti.",
+      "makineTepkisi": "Alarma giden motor/devre kilitlenir (shutdown); gösterge kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F4",
+        "F5"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F4",
+      "kodNormal": "F4",
+      "aliaslar": [
+        "L-INVERTER FAULT"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Sol inverter desat/aşırı akım arızası",
+      "aciklama": "Sol çekiş modülü desatürasyon koruması tetiklendi; kısa devre akımı veya transistör arızası şüphesi vardır.",
+      "makineTepkisi": "Alarma giden motor/devre kilitlenir (shutdown); gösterge kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F3",
+        "F5"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F5",
+      "kodNormal": "F5",
+      "aliaslar": [
+        "P-INVERTER FAULT"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa inverter desat/aşırı akım arızası",
+      "aciklama": "Pompa modülü aşırı akım koruması devreye girdi; hidrolik motor hattında kısa veya modül arızası araştırılmalıdır.",
+      "makineTepkisi": "Alarma giden motor/devre kilitlenir (shutdown); gösterge kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F3",
+        "F4"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F6",
+      "kodNormal": "F6",
+      "aliaslar": [
+        "R-MOTOR I OFFSET"
+      ],
+      "sistem": "motor",
+      "baslik": "Sağ yürüyüş motoru akım sıfır noktası sapması",
+      "aciklama": "Sağ motor akım ölçümünün sıfır ofseti başlangıçta kabul penceresi dışındadır; akım sensörü veya referansı bozuk olabilir.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F7",
+        "F8"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F7",
+      "kodNormal": "F7",
+      "aliaslar": [
+        "L-MOTOR I OFFSET"
+      ],
+      "sistem": "motor",
+      "baslik": "Sol yürüyüş motoru akım sıfır noktası sapması",
+      "aciklama": "Sol motor akım sensörü sıfır ofseti hatalı; kapalı çevrim akım kontrolü güvensiz hale gelir.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F6",
+        "F8"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F8",
+      "kodNormal": "F8",
+      "aliaslar": [
+        "P-MOTOR I OFFSET"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motoru akım sıfır noktası sapması",
+      "aciklama": "Pompa motoru akım ölçümünün sıfır noktası sapması tespit edildi; sensör veya kablo hattı kontrol edilmeli.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F6",
+        "F7"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F9",
+      "kodNormal": "F9",
+      "aliaslar": [
+        "STEER SENSOR OUT"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon açı sensörü sinyali sınırlar dışında",
+      "aciklama": "Direksiyon sensörünün gerilimi tanımlı aralığın dışında okunur; sensör ayarı kaçmış veya bağlantısı bozulmuştur.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "FA",
+      "kodNormal": "FA",
+      "aliaslar": [
+        "5V NOT OK"
+      ],
+      "sistem": "diger",
+      "baslik": "Enkoder 5V referans beslemesi düşüyor",
+      "aciklama": "Enkoderleri besleyen 5V referans hattı limit altında; kısa çeken bir enkoder veya yük beslemeyi düşürüyor olabilir.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Fc",
+        "Fd",
+        "76"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Fc",
+      "kodNormal": "FC",
+      "aliaslar": [
+        "R-MOTOR ENCODER"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Sağ yürüyüş motoru enkoder hatası",
+      "aciklama": "Sağ motor enkoder sinyali geçersiz; motor kapalı çevrim sürülemez ve modül güvenlik moduna geçer.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Fd",
+        "76",
+        "FA"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Fd",
+      "kodNormal": "FD",
+      "aliaslar": [
+        "L-MOTOR ENCODER"
+      ],
+      "sistem": "motor",
+      "baslik": "Sol yürüyüş motoru enkoder hatası",
+      "aciklama": "Sol motor enkoder geri beslemesi alınamaz; hız kontrolü açıktan emniyete düşer.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Fc",
+        "76",
+        "FA"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "FE",
+      "kodNormal": "FE",
+      "aliaslar": [
+        "24V NOT OK"
+      ],
+      "sistem": "diger",
+      "baslik": "24V yardımcı çıkış gerilimi arızası",
+      "aciklama": "Kontrol ünitesinin 24V yardımcı besleme çıkışı limiti aşan/düşük durumdadır; çıkışa bağlı yükler düzensiz çalışabilir.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "FH",
+      "kodNormal": "FH",
+      "aliaslar": [
+        "12V NOT OK"
+      ],
+      "sistem": "diger",
+      "baslik": "12V yardımcı çıkış gerilimi arızası",
+      "aciklama": "12V sensör/yardımcı besleme çıkışı geçersizdir; sensör referansları bundan etkilenebilir.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "FE"
+      ],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "FL",
+      "kodNormal": "FL",
+      "aliaslar": [
+        "PUMP SIGN ON"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kontak anında pompa girişi açık",
+      "aciklama": "Kontak açıldığında hidrolik pompa giriş komutu beklenmedik şekilde aktif; yazılım/kablo hatası araştırılmalı.",
+      "makineTepkisi": "Göstergede alarm kodu yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 48,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan/",
+      "durum": "incelemede"
+    }
+  ]
+}

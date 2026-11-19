@@ -1,0 +1,1761 @@
+{
+  "marka": "bt",
+  "seri": "spe-160",
+  "modelAdi": "BT SPE 160 (SPE125/135S/160/200 serisi)",
+  "kaynakBelge": "RM_spe160",
+  "kaynakSurum": "249895-040 (2013-10-01)",
+  "kaynakDil": "EN",
+  "kaynakUrl": "",
+  "kodlar": [
+    {
+      "kod": "C3",
+      "kodNormal": "C3",
+      "aliaslar": [
+        "C3"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "TLS: darbe sensörü sınırları aştı",
+      "aciklama": "Darbe sensörleri araç toleranslarının üzerinde değerler kaydetti; sürüş çok sert olabilir. Sensör eşik değerleri ve konumlandırması kontrol edilmeli.",
+      "makineTepkisi": "Frenler devreye girer ve araç durur; TLS reset komutuyla çözülür",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Darbe sensörü araç toleranslarının üzerinde değer bildirdi; sürüş çok sert olabilir. Sensör eşik değerlerinin doğru ayarlandığını kontrol edin.",
+        "Darbe sensörünün doğru konumlandırıldığını kontrol edin."
+      ],
+      "kontroller": [
+        "Frenler devreye girer ve araç durur; TLS reset komutu aracı tekrar çalıştırır."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 185,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C4",
+      "kodNormal": "C4",
+      "aliaslar": [
+        "C4"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "TLS: araç kullanımı kilitlendi",
+      "aciklama": "TLS filo güvenlik sistemi bir komutla aracı bilinçli olarak devre dışı bıraktı; kilit yeni bir TLS komutuyla kaldırılabilir.",
+      "makineTepkisi": "Araç yeni bir TLS komutu çözülene dek kullanılamaz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Araç kullanımı bir TLS komutuyla kilitlenebilir."
+      ],
+      "kontroller": [
+        "Yeni bir TLS komutu kilidi kaldırana kadar araç kullanılamaz."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 186,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C19",
+      "kodNormal": "C19",
+      "aliaslar": [
+        "C19"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Parametre uyarısı",
+      "aciklama": "Bir veya daha fazla parametre değer normal sınırların dışına çıktığı için temel değerlere sıfırlanmış; ilgili parametre ayarlarının gözden geçirilmesi gerekebilir.",
+      "makineTepkisi": "Kod 5 saniye görüntülenir; işlev kaybı yok",
+      "siddet": "uyari",
+      "nedenler": [
+        "Bir veya daha fazla parametre değeri normal sınırların dışında olabilir; bu değerler temel değerlere sıfırlandı."
+      ],
+      "kontroller": [
+        "Bu kod göründüğünde ilgili parametre ayarlarının kontrol edilmesi gerekebilir."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 186,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C20",
+      "kodNormal": "C20",
+      "aliaslar": [
+        "C20"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Salıncak anahtar (rocker switch) uyarısı",
+      "aciklama": "Hız kumanda anahtarı sensöründe [L1] sorun var; anahtar çalıştırma sırasında hareket etmiş ya da sensör arızalı olabilir. Anahtar fonksiyonu kontrol edilmeli.",
+      "makineTepkisi": "Hız sınırlaması olabilir; dikkat kodu",
+      "siddet": "uyari",
+      "nedenler": [
+        "Salıncak anahtar sensöründe [L1] sorun; anahtar çalıştırma sırasında hareket etmiş veya sensör arızalı olabilir [A2]."
+      ],
+      "kontroller": [
+        "Salıncak anahtar (rocker switch) fonksiyonunu kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 186,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C21",
+      "kodNormal": "C21",
+      "aliaslar": [
+        "C21"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Çatal kaldırma/indirme kumandası uyarısı",
+      "aciklama": "Kaldırma/indirme kumandası çalıştırma sırasında kumanda edilmiş ya da sensör arızalı; kumanda fonksiyonu kontrol edilmeli.",
+      "makineTepkisi": "Dikkat kodu; işlev kısıtı beklenmez",
+      "siddet": "uyari",
+      "nedenler": [
+        "Çatal kaldırma/indirme kumandası çalıştırma sırasında kumanda edilmiş veya sensör arızalı olabilir."
+      ],
+      "kontroller": [
+        "Kaldırma/indirme kumandasının fonksiyonunu kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 186,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C28",
+      "kodNormal": "C28",
+      "aliaslar": [
+        "C28"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Acil stop butonu uyarısı",
+      "aciklama": "Acil stop butonu [S21] devreye girmiş; sürüş motoru transistör regülatörüne gerilim gitmiyor. Butonun basılı olup olmadığı ve kablolama kontrol edilmeli.",
+      "makineTepkisi": "Acil stop basılıysa sürüş devre dışı",
+      "siddet": "uyari",
+      "nedenler": [
+        "Acil stop butonu [S21] aktifleşti; sürüş motoru regülatörüne [A1] gerilim gitmiyor; elektrik kablolamasında sorun olabilir."
+      ],
+      "kontroller": [
+        "Acil stop butonuna basılıp basılmadığını kontrol edin.",
+        "Kablolamayı kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 186,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C29",
+      "kodNormal": "C29",
+      "aliaslar": [
+        "C29"
+      ],
+      "sistem": "diger",
+      "baslik": "Bakım uyarısı",
+      "aciklama": "Bir sonraki bakım zamanı gelmiş; bakım sayacı son bakımda sıfırlanmamış da olabilir. 25 numaralı servis parametresi kontrol edilmeli.",
+      "makineTepkisi": "Bilgi amaçlı bakım uyarısı",
+      "siddet": "uyari",
+      "nedenler": [
+        "Bir sonraki bakım zamanı geldi."
+      ],
+      "kontroller": [
+        "Bakım sayacını kontrol edin.",
+        "Son bakımda sıfırlanmamış olabilir; bakım aralığı için #25 servis parametresine bakın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 186,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C30",
+      "kodNormal": "C30",
+      "aliaslar": [
+        "C30"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Maksimum çatal yükü aşıldı",
+      "aciklama": "Çataldaki yük aracın anma kaldırma kapasitesini aştı; yük kapasite üstünde alınmamalı, kaldırma mekanik sınıra karşı yapılmamalı, mast ve zincirler serbest olmalı, basınç sensörü gerilimi ve maks. yük kalibrasyonu doğrulanmalı.",
+      "makineTepkisi": "Yük kapasitesi aşıldı uyarısı",
+      "siddet": "uyari",
+      "nedenler": [
+        "Çatallardaki yük aracın anma kaldırma kapasitesini aştı."
+      ],
+      "kontroller": [
+        "Kaldırılacak yükün anma kaldırma kapasitesini aşmadığından emin olun.",
+        "Kaldırmanın mekanik sınıra karşı yapılmadığını kontrol edin.",
+        "Bu hem çatal kaldırma hem destek kolu kaldırma için geçerlidir.",
+        "Mast bölümlerinin ve kaldırma zincirlerinin serbest hareket ettiğinden emin olun.",
+        "Boş yükte ve çatallar/destek kolları indirikken basınç sensörü çıkış geriliminin [B4] ~0,5 V olduğunu kontrol edin ve maksimum yük kalibrasyonunu yapın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 186,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C35",
+      "kodNormal": "C35",
+      "aliaslar": [
+        "C35"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme servosu iç sıcaklık uyarısı",
+      "aciklama": "Yönlendirme servosunun [A5] iç sıcaklığı +68 °C aştı; yönlendirme aşırı yoğun kullanılmış olabilir.",
+      "makineTepkisi": "Yönlendirme servosu sıcaklık uyarısı",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yönlendirme servosunun [A5] iç sıcaklığı +68 °C aştı; servo aşırı yoğun kullanılmış olabilir."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 186,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C41",
+      "kodNormal": "C41",
+      "aliaslar": [
+        "C41"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü gerilimi düşük (sürüş regülatörü)",
+      "aciklama": "Sürüş motoru transistör regülatörü [A1] akü gerilimini 17 V altında ölçtü; akü boyutu parametresi (#21) yanlış ayarlı olabilir, akü şarj edilmeli.",
+      "makineTepkisi": "Sürüş regülatöründe düşük gerilim uyarısı",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sürüş motoru transistör regülatörü [A1] akü gerilimini 17 V altında ölçtü; akü parametresi yanlış ayarlı olabilir (#21); akü şarj edilmeli."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 186,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C42",
+      "kodNormal": "C42",
+      "aliaslar": [
+        "C42"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü gerilimi yüksek (sürüş regülatörü)",
+      "aciklama": "Sürüş regülatörü akü gerilimini 33 V üzerinde ölçtü; tam şarjlı aküde ağır frenlemede rejeneratif geri besleme neden olabilir.",
+      "makineTepkisi": "Aşırı gerilim uyarısı; sınırlı işlev kaybı",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sürüş motoru transistör regülatörü [A1] akü gerilimini 33 V üzerinde ölçtü; tam şarjlı aküyle ağır frenlemede enerji geri beslemesi neden olabilir."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 187,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C43",
+      "kodNormal": "C43",
+      "aliaslar": [
+        "C43"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş regülatörü ısınma sınırı",
+      "aciklama": "Sürüş motoru zorlanmış olabilir ya da sürüş motoru transistör regülatörü [A1] arızalı; termal kesme nedeniyle güç düşer.",
+      "makineTepkisi": "Regülatör ısıl korumaya girer, güç düşer",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sürüş motoru çok zorlanmış olabilir; sürüş motoru transistör regülatörü [A1] arızalı."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 187,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C47",
+      "kodNormal": "C47",
+      "aliaslar": [
+        "C47"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü gerilimi düşük (pompa regülatörü)",
+      "aciklama": "Pompa motoru transistör regülatörü [A3] akü gerilimini 17 V altında ölçtü; akü parametresi (#21) kontrol edilmeli ve akü şarj edilmeli.",
+      "makineTepkisi": "Pompa regülatöründe düşük gerilim uyarısı",
+      "siddet": "uyari",
+      "nedenler": [
+        "Pompa motoru transistör regülatörü [A3] akü gerilimini 17 V altında ölçtü; akü parametresi yanlış ayarlı olabilir (#21); akü şarj edilmeli."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 187,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C48",
+      "kodNormal": "C48",
+      "aliaslar": [
+        "C48"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü gerilimi yüksek (pompa regülatörü)",
+      "aciklama": "Pompa motoru transistör regülatörü [A3] akü gerilimini 33 V üzerinde ölçtü.",
+      "makineTepkisi": "Pompa regülatöründe aşırı gerilim uyarısı",
+      "siddet": "uyari",
+      "nedenler": [
+        "Pompa motoru transistör regülatörü [A3] akü gerilimini 33 V üzerinde ölçtü"
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 187,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C49",
+      "kodNormal": "C49",
+      "aliaslar": [
+        "C49"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa regülatörü ısınma sınırı",
+      "aciklama": "Kaldırma işlevi aşırı yoğun kullanılmış ya da pompa transistör regülatörü [A3] arızalı; termal kesme devrede.",
+      "makineTepkisi": "Pompa regülatörü ısıl korumaya girer",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma işlevi çok yoğun kullanılmış olabilir.",
+        "Pompa transistör regülatörü [A3] arızalı."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 187,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C60",
+      "kodNormal": "C60",
+      "aliaslar": [
+        "C60"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma sistemi basınç sensörü hatası",
+      "aciklama": "Basınç sensörü girişi [B4:INP.PRESSURE LIFT] +0,3..+7,7 V tanımlı aralığında değil; sensör kablolaması ve fonksiyonu kontrol edilmeli, arızalıysa B4 değişmeli.",
+      "makineTepkisi": "Kaldırma sisteminde kısıtlama",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "[B4:INP.PRESSURE LIFT] girişi gerilimi tanımlı +0,3..+7,7 V aralığının dışında."
+      ],
+      "kontroller": [
+        "B4 basınç sensörünün kablolamasını ve fonksiyonunu kontrol edin.",
+        "B4 basınç sensörü arızalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 187,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C61",
+      "kodNormal": "C61",
+      "aliaslar": [
+        "C61"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "PowerTrak basınç sensörü hatası",
+      "aciklama": "Giriş gerilimi [B5:INP.PRESSURE PT] +0,3..+7,7 V aralığının dışında; B5 basınç sensörünün bağlantısı ve fonksiyonu kontrol edilmeli.",
+      "makineTepkisi": "PowerTrak sisteminde kısıtlama",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Giriş gerilimi [B5:INP.PRESSURE PT] +0,3 V ile +7,7 V aralığının dışında"
+      ],
+      "kontroller": [
+        "B5 basınç sensörünün kablolamasını ve fonksiyonunu kontrol edin; B5 basınç sensörü arızalı olabilir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 187,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C62",
+      "kodNormal": "C62",
+      "aliaslar": [
+        "C62"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "PowerTrak basınç hatalı",
+      "aciklama": "PowerTrak sisteminde beklenmeyen basınç seviyesi; Y58/Y59 valfleri ve B4/B5 bileşenlerine giden kablo ve bağlantılar kontrol edilmeli, valflerde mekanik arıza aranmalı.",
+      "makineTepkisi": "PowerTrak kaldırma davranışında kısıtlama",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "PowerTrak sisteminde beklenmeyen basınç seviyesi"
+      ],
+      "kontroller": [
+        "PowerTrak bileşenlerine [Y58], [Y59], [B4], [B5] giden kablo ve bağlantıları kontrol edin; PowerTrak valflerinde mekanik arıza olabilir."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 187,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C63",
+      "kodNormal": "C63",
+      "aliaslar": [
+        "C63"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "PowerTrak doldurma valfi çıkış hatası",
+      "aciklama": "Y59 valfi arızalı ya da sürüş regülatörünün POWERTRAK FILL UP VALVE çıkışında sorun var.",
+      "makineTepkisi": "PowerTrak valf kumandası kısıtlı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Y59 valfi arızalı veya regülatörün POWERTRAK FILL UP VALVE çıkışında sorun"
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 187,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C64",
+      "kodNormal": "C64",
+      "aliaslar": [
+        "C64"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "PowerTrak tahliye valfi çıkış hatası",
+      "aciklama": "Y58 valfi arızalı ya da sürüş regülatörünün POWERTRAK DRAIN VALVE çıkışında sorun var.",
+      "makineTepkisi": "PowerTrak valf kumandası kısıtlı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Y58 valfi arızalı veya regülatörün POWERTRAK DRAIN VALVE çıkışında sorun; M3 şönt alan devresi açık, kablo kopuk veya pompa regülatörü [A3] arızalı olabilir."
+      ],
+      "kontroller": [
+        "M3 şönt alan bobini kablolamasını kontrol edin; pompa regülatöründeki [A3] rotor devresi anahtar transistöründe sorun olabilir; pompa transistör regülatörü arızalı olabilir.",
+        "Pompa regülatöründeki [A3] rotor akım sensörü arızalı; ünite arızalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 187,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "C73",
+      "kodNormal": "C73",
+      "aliaslar": [
+        "C73"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Pompa regülatörü CAN zaman aşımı",
+      "aciklama": "Pompa transistör regülatörü [A3], kol başlığından [A2] beklenmedik veri akışı kaybı bildiriyor; CAN sinyalleri ve A3/A2 bağlantıları kontrol edilmeli, araç yeniden çalıştırılmalı.",
+      "makineTepkisi": "Pompa kumandası veri akışı kesilir",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Pompa transistör regülatörü [A3], kol başlığından [A2] beklenmedik veri kaybı bildiriyor."
+      ],
+      "kontroller": [
+        "CAN veriyolu sinyal kablolarını ve bağlantılarını [A3, A2] kontrol edin ve aracı yeniden çalıştırın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 188,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C74",
+      "kodNormal": "C74",
+      "aliaslar": [
+        "C74"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Pompa regülatörü verisi gelmiyor",
+      "aciklama": "A3'ten gelen veriler A2 tarafından alınamıyor; CAN kablosu kopuk olabilir, CAN bağlantıları kontrol edilip araç yeniden çalıştırılmalı.",
+      "makineTepkisi": "Pompa regülatöründen veri alınamıyor",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "A3'ten gelen veriler A2 tarafından alınamıyor; CAN kablosu kopuk; CAN sinyal kabloları ve bağlantıları kontrol edilip araç yeniden çalıştırılmalı."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 188,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C75",
+      "kodNormal": "C75",
+      "aliaslar": [
+        "C75"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Pompa regülatörüne iletim başarısız",
+      "aciklama": "A2'den gönderilen veriler A3 tarafından alamıyor; CAN kablosu kopuk ya da pompa regülatörü arızalı olabilir; CAN hatları kontrol edilip araç yeniden başlatılmalı.",
+      "makineTepkisi": "Pompa regülatörüne veri gönderilemiyor",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "A2'den gelen veriler A3 tarafından alınamıyor; CAN kablosu kopuk veya pompa transistör regülatörü [A3] arızalı.",
+        "CAN veriyolu sinyal kablolarını ve bağlantılarını [A3, A2] kontrol edin ve aracı yeniden çalıştırın."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 188,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C76",
+      "kodNormal": "C76",
+      "aliaslar": [
+        "C76"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Pompa regülatörü araç modeline uygun değil",
+      "aciklama": "Pompa motoru için yanlış tipte transistör regülatörü takılmış; doğru regülatör tipinin montajı doğrulanmalı.",
+      "makineTepkisi": "Uyumsuz donanım nedeniyle kısıtlama",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Pompa motoru için yanlış tipte transistör regülatörü takılmış."
+      ],
+      "kontroller": [
+        "Doğru transistör regülatörü tipinin monte edildiğinden emin olun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 188,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C77",
+      "kodNormal": "C77",
+      "aliaslar": [
+        "C77"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma potansiyometresi bağlantı hatası",
+      "aciklama": "Analitik kaldırma potansiyometresi [R14] algılanmadı; R14 ile A2 arasındaki kablo ve bağlantılar kontrol edilmeli.",
+      "makineTepkisi": "Kaldırma kumandası algılanmıyor",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Analitik potansiyometre kumandası algılanmadı."
+      ],
+      "kontroller": [
+        "R14 potansiyometresi ile A2 arasındaki kablolama ve bağlantıları kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 188,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C80",
+      "kodNormal": "C80",
+      "aliaslar": [
+        "C80"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme servosu referans sensör akımı hatası",
+      "aciklama": "Servo referans akımı 0,1 A altında; konum referans sensörü [S65] beslemesi hatalı ya da sensör arızalı; sensör kablosu kontrol edilmeli.",
+      "makineTepkisi": "Yönlendirme referans sinyali güvenilmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Servo referans akımı 0,1 A altında; S65 ev konumu sensörü besleme hatası veya sensör arızalı."
+      ],
+      "kontroller": [
+        "Sensöre giden kablolamayı kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 188,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C81",
+      "kodNormal": "C81",
+      "aliaslar": [
+        "C81"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme servosu sensör besleme hatası",
+      "aciklama": "Konum referans sensörüne [S65] besleme gitmiyor; 95-97 kabloları arası 12 V kontrol edilmeli, sensör kablolaması ve F50 sigortası denetlenmeli.",
+      "makineTepkisi": "Referans sensör beslemesi yok",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sensör beslemesi yok; S65 ev konumu sensörü arızalı."
+      ],
+      "kontroller": [
+        "95-97 kabloları arasında besleme geriliminin 12 V olduğunu kontrol edin",
+        "Sensör kablosunu kontrol edin ve F50 sigortasının durumuna bakın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 188,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C82",
+      "kodNormal": "C82",
+      "aliaslar": [
+        "C82"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme servosu sürüş akımı uyarısı",
+      "aciklama": "Yönlendirme motoru akımı izin verilen değerin %80'ini aştı; yönlendirme aşırı yoğun kullanılmış olabilir, E132 koduna da bakılmalı.",
+      "makineTepkisi": "Yönlendirme akımı sınırın %80'ini aştı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Yönlendirme servo sürüş akımı izin verilen değerin %80'ini aştı; yönlendirme çok yoğun kullanılmış olabilir (E132'ye bakın)."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 188,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C90",
+      "kodNormal": "C90",
+      "aliaslar": [
+        "C90"
+      ],
+      "sistem": "iletisim",
+      "baslik": "SEU 1 ünite iletişim sorunu",
+      "aciklama": "SEU 1 ünitesinin [A36] 24 VDC beslemesi ve CAN kablolaması kontrol edilmeli; yapılandırılabilir opsiyon yoksa #16-#19 servis parametreleri 0'a ayarlanmalı.",
+      "makineTepkisi": "SEU 1 ile iletişim kopuk",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "SEU 1 ünitesinin (A36) 24 VDC beslemesini ve CAN kablolamasını kontrol edin; opsiyon yoksa #16-#19 servis parametreleri 0'a ayarlanmalı."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 188,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C91",
+      "kodNormal": "C91",
+      "aliaslar": [
+        "C91"
+      ],
+      "sistem": "iletisim",
+      "baslik": "SEU 2 ünite iletişim sorunu",
+      "aciklama": "SEU 2 ünitesinin beslemesi ve CAN kablolaması kontrol edilmeli; opsiyon yoksa #16-#19 servis parametreleri 0'a ayarlanmalı.",
+      "makineTepkisi": "SEU 2 ile iletişim kopuk",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Diğer SEU ünitesinin besleme gerilimini ve CAN kablolamasını kontrol edin; yapılandırılabilir opsiyon takılı değilse #16-#19 servis parametreleri 0'a ayarlanmalı."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 189,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C92",
+      "kodNormal": "C92",
+      "aliaslar": [
+        "C92"
+      ],
+      "sistem": "elektrik",
+      "baslik": "SEU 1 programlama uyarısı",
+      "aciklama": "SEU 1 ünitesinin [A36] programlaması hatalı; opsiyon parametrelerinde (16-19) çıkış ataması yanlış yapılmış olabilir, ayarlar gözden geçirilmeli.",
+      "makineTepkisi": "Araç sürüngen hızda ilerler",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "SEU 1 ünitesinin [A36] programlaması hatalı; araç sürüngen hızda hareket eder."
+      ],
+      "kontroller": [
+        "Opsiyon parametreleri (16-19) ayarlanırken bir çıkışın yanlış atanmış olması olabilir.",
+        "Opsiyonel parametrelerin tüm ayarlarını kontrol edin.",
+        "Yapılandırılabilir opsiyon takılı değilse #16-#19 servis parametreleri 0'a ayarlanmalı"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 189,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C93",
+      "kodNormal": "C93",
+      "aliaslar": [
+        "C93"
+      ],
+      "sistem": "elektrik",
+      "baslik": "SEU 2 programlama uyarısı",
+      "aciklama": "SEU 2 ünitesinin programlaması hatalı; opsiyon parametrelerinde (16-18) çıkış ataması hatalı olabilir; tüm opsiyonel parametre ayarları kontrol edilmeli.",
+      "makineTepkisi": "Araç sürüngen hızda ilerler",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "SEU 2 ünitesinin programlaması hatalı; araç sürüngen hızda hareket eder."
+      ],
+      "kontroller": [
+        "Opsiyon parametreleri (16-18) ayarlanırken bir çıkışın yanlış atanmış olması olabilir.",
+        "Opsiyonel parametrelerin tüm ayarlarını kontrol edin.",
+        "Yapılandırılabilir opsiyon takılı değilse #16-#19 servis parametreleri 0'a ayarlanmalı"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 189,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E100",
+      "kodNormal": "E100",
+      "aliaslar": [
+        "E100"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme servosu yapılandırma hatası",
+      "aciklama": "38 numaralı parametrenin ayarı takılı yönlendirme servosuyla uyuşmuyor; parametre doğru değere ayarlanmalı.",
+      "makineTepkisi": "Sürüş ve yönlendirme kilitlenebilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "#38 parametresi ayarı takılı yönlendirme servosuyla uyuşmuyor."
+      ],
+      "kontroller": [
+        "38 numaralı parametrenin doğru ayarlandığından emin olun"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 189,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E101",
+      "kodNormal": "E101",
+      "aliaslar": [
+        "E101"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş regülatörü araç modeline uygun değil",
+      "aciklama": "Sürüş motoru için yanlış tipte transistör regülatör takılmış; doğru regülatör tipinin monte edildiği doğrulanmalı.",
+      "makineTepkisi": "Sürüş işlevi devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sürüş motoru için yanlış tipte transistör regülatörü takılmış."
+      ],
+      "kontroller": [
+        "Doğru transistör regülatörü tipinin takılı olduğundan emin olun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 189,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E104",
+      "kodNormal": "E104",
+      "aliaslar": [
+        "E104"
+      ],
+      "sistem": "fren",
+      "baslik": "Fren transistoru çıkışı kısa devre",
+      "aciklama": "Sürüş motoru transistör regülatörünün [A1] fren çıkışında kısa devre; fren bobin ohm değeri referansla karşılaştırılmalı, kablolama kontrol edilmeli, her şey normalse A1 çıkışı arızalıdır ve kart değişir.",
+      "makineTepkisi": "Sürüş işlevi kilitlenir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Fren ohm değerini ölçüp referans değerle karşılaştırın.",
+        "Değer tanımlı aralığın dışındaysa freni değiştirin."
+      ],
+      "kontroller": [
+        "Kısa devre açısından bağlantıları ve kablo demetini kontrol edin.",
+        "Frenin sıkışmadığını ve ağır kalmadığını kontrol edin.",
+        "1-3 adımlarında sorun yoksa A1 çıkışında kısa devre olduğu anlaşılır.",
+        "A1'i değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 189,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E106",
+      "kodNormal": "E106",
+      "aliaslar": [
+        "E106"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Dijital çıkış veya alan akımı limiti hatası",
+      "aciklama": "Çıkışların programlandığından fazla akım besleme denemesi ya da alan akım kontrol sorunu; sürüş motoru transistör regülatöründe [A1] iç hata.",
+      "makineTepkisi": "Sürüş işlevi durur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Çıkışların programlandığından fazla akım besleme teşebbüsü veya alan akım kontrol sorunu; sürüş motoru transistör regülatöründe [A1] iç hata."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 189,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E107",
+      "kodNormal": "E107",
+      "aliaslar": [
+        "E107"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ana kontaktör K10 çekmedi",
+      "aciklama": "Ana kontaktör [K10] anahtarları ya da kontrol kablosu açık devre; kontaktör kontrol kablosu takılı değil ya da sürücü çıkışı arızalı. Kontaktör uçları, kablolar ve A1 sürücü çıkışı kontrol edilmeli.",
+      "makineTepkisi": "Ana kontaktör çekmez; araç çalışmaz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Ana kontaktör uçlarında sorun veya kablolar açık devre; kontaktör kumanda kablosu bağlı değil; sürücü çıkışı arızalı (kesik)."
+      ],
+      "kontroller": [
+        "Ana kontaktör kontak uçlarını kontrol edin.",
+        "Ana kontaktör kumanda kablolamasını kontrol edin.",
+        "Kontaktör sürücü çıkışının alçak seviyeye geçtiğini kontrol edin [A1]."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 189,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E108",
+      "kodNormal": "E108",
+      "aliaslar": [
+        "E108"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ana kontaktör uçları kaynadı ya da bobin açık",
+      "aciklama": "Ana kontaktör [K10] kontakları birbirine kaynamış ya da bobin devresi açık; kontaktör uçları ve regülatör kontaktör sürücü çıkışının yüksek seviyeye geçişi kontrol edilmeli.",
+      "makineTepkisi": "Kontaktör açılmaz; araç hareket edemez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Ana kontaktör uçları birbirine kaynamış; regülatördeki kontaktör sürücü çıkışı arızalı (çekili)."
+      ],
+      "kontroller": [
+        "Ana kontaktör kontak uçlarını kontrol edin.",
+        "Kontaktör sürücü çıkışının yüksek seviyeye geçtiğini kontrol edin [A1]."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 190,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E110",
+      "kodNormal": "E110",
+      "aliaslar": [
+        "E110"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Rotor akım okuma hatası",
+      "aciklama": "Akım okumasında hata; regülatör [A1] arızalı olabilir ya da içine nem işlemiş olabilir. Araç yeniden çalıştırılmalı.",
+      "makineTepkisi": "Sürüş geçici olarak kilitlenebilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatör [A1] arızalı olabilir; içindeki nem fazlalığı neden olmuş olabilir."
+      ],
+      "kontroller": [
+        "Aracı yeniden çalıştırın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 190,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E112",
+      "kodNormal": "E112",
+      "aliaslar": [
+        "E112"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirilen teker konum hatası",
+      "aciklama": "Gerçek teker konumu (referans sinyali) ile servonun hesapladığı konum örtüşmüyor; S65 referans sensörü, servo dişli sürücüsünün sağlamlığı kontrol edilmeli, araç yeniden çalıştırılmalı.",
+      "makineTepkisi": "Yönlendirme işlevi durur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Gerçek yönlendirilen teker konumu (referans sinyali) ile servonun hesapladığı konum karşılaştırmasında hata."
+      ],
+      "kontroller": [
+        "S65 referans sensörünün düzgün çalıştığını kontrol edin.",
+        "Yönlendirme servo dişli tahriyesinin gevşek olmadığını ve tahrik ünitesi dişli halkasıyla tam temasta olduğunu kontrol edin.",
+        "Aracı yeniden çalıştırın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 190,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E114",
+      "kodNormal": "E114",
+      "aliaslar": [
+        "E114"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme servosu faz hatası",
+      "aciklama": "Yönlendirme motoruna giden faz bağlantılarından biri kopmuş; A5/M6 servosundaki motor kablo bağlantıları kontrol edilmeli.",
+      "makineTepkisi": "Yönlendirme devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yönlendirme servo motoruna giden faz kaybı."
+      ],
+      "kontroller": [
+        "Yönlendirme servo motorundaki [A5, M6] kablo bağlantılarını kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 190,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E115",
+      "kodNormal": "E115",
+      "aliaslar": [
+        "E115"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme servosu başlatma hatası",
+      "aciklama": "Yönlendirme servosu [A5] arızalı, dahili mantık hatası ya da yanlış parametre var; araç yeniden çalıştırılmalı.",
+      "makineTepkisi": "Servo başlatılamadı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yönlendirme servosu [A5] arızalı; dahili mantık hatası veya yanlış parametre."
+      ],
+      "kontroller": [
+        "Aracı yeniden çalıştırın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 190,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E116",
+      "kodNormal": "E116",
+      "aliaslar": [
+        "E116"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme servosu sağlama toplamı hatası",
+      "aciklama": "Yeni yazılım yüklendikten sonra ortaya çıkabilir; araç yeniden çalıştırılmalı.",
+      "makineTepkisi": "Servo geçici hatası",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Araça yeni yazılım yüklendikten sonra ortaya çıkabilir."
+      ],
+      "kontroller": [
+        "Aracı yeniden çalıştırın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 190,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E117",
+      "kodNormal": "E117",
+      "aliaslar": [
+        "E117"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme servosu iletişim hatası",
+      "aciklama": "Normal koşullarda oluşmamalı; arıza tekrarlanırsa destek organizasyonuyla iletişime geçilmeli.",
+      "makineTepkisi": "Yönlendirme devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Normal koşullarda oluşmamalı."
+      ],
+      "kontroller": [
+        "Destek organizasyonuyla iletişime geçin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 190,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E118",
+      "kodNormal": "E118",
+      "aliaslar": [
+        "E118"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Komut-konum uyumsuzluğu",
+      "aciklama": "Normal koşullarda görülmemesi gereken bir dahili servo hatası; destek organizasyonuna başvurulmalı.",
+      "makineTepkisi": "Yönlendirme komut hatası",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Normal koşullarda oluşmamalı."
+      ],
+      "kontroller": [
+        "Destek organizasyonuyla iletişime geçin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 190,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E119",
+      "kodNormal": "E119",
+      "aliaslar": [
+        "E119"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme ev konumu zaman aşımı",
+      "aciklama": "Yönlendirme tanımlı sürede düz (ev) konuma ulaşamadı; S65 referans sensörünün ayarı ve kablolaması kontrol edilmeli.",
+      "makineTepkisi": "Yönlendirme nötr konuma dönemez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Belirtilen sürede ev konumuna (düz yönlendirme) ulaşılamadı; S65 ev konumu referans sensörü yanlış ayarlı veya arızalı."
+      ],
+      "kontroller": [
+        "Referans sensör aralığının doğru ayarlandığını kontrol edin.",
+        "Sensörün kablolamasını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 190,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E120",
+      "kodNormal": "E120",
+      "aliaslar": [
+        "E120"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme servosu potansiyometre hatası",
+      "aciklama": "IN_0 ve IN_1 giriş gerilimleri karşılaştırması aralık dışında; potansiyometre girişleri kontrol edilmeli.",
+      "makineTepkisi": "Servo konum sinyali güvenilmez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "IN_0 ve IN_1 gerilimleri karşılaştırması aralık dışında."
+      ],
+      "kontroller": [
+        "Potansiyometre girişlerini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 190,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E121",
+      "kodNormal": "E121",
+      "aliaslar": [
+        "E121"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme açısı sinyal doğrulama hatası",
+      "aciklama": "Araç yeniden çalıştırılmalı; 92-94 ve 93-94 kabloları arası gerilim toplamının ~5 V olduğu kontrol edilmeli, gerekirse yönlendirme yeniden kalibre edilmeli (#36).",
+      "makineTepkisi": "Yönlendirme açısı doğrulanamadı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Aracı yeniden çalıştırın.",
+        "92-94 ve 93-94 kabloları arası gerilim toplamının ~5 V olduğunu kontrol edin ve yönlendirmeyi yeniden kalibre edin (#36)."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 190,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E122",
+      "kodNormal": "E122",
+      "aliaslar": [
+        "E122"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme servosu referans gerilimi arıza",
+      "aciklama": "Servonun referans gerilimi izin verilen toleransların dışında; 91-94 kabloları arası gerilimin 4,5-5,5 V olduğu kontrol edilmeli, arızalıysa A5 değişir.",
+      "makineTepkisi": "Servo referans gerilimi hatalı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yönlendirme servosu [A5] arızalı"
+      ],
+      "kontroller": [
+        "91-94 kabloları arası gerilimin 4,5-5,5 V olduğunu kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 190,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E123",
+      "kodNormal": "E123",
+      "aliaslar": [
+        "E123"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme servosu Hall sensör hatası",
+      "aciklama": "Servo içi bağlantılarda temas sorunu ya da A5 arızası; Hall sensörlerinden ana karta iç bağlantılar kontrol edilmeli.",
+      "makineTepkisi": "Yönlendirme devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yönlendirme servosunda kötü temas; A5 yönlendirme servosu arızalı"
+      ],
+      "kontroller": [
+        "Hall sensörlerinden yönlendirme servosu ana mantık kartına [A5] iç bağlantıları kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 191,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E124",
+      "kodNormal": "E124",
+      "aliaslar": [
+        "E124"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme servosu aşırı gerilim",
+      "aciklama": "Tam şarjlı aküyle ağır frenlemede 39 V üzerine çıkıldığında görülebilir; araç yeniden çalıştırılmalı.",
+      "makineTepkisi": "Servo aşırı gerilim koruması",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Tam şarjlı aküyle ağır frenlemede (gerilim 39 V üstü) görülebilir."
+      ],
+      "kontroller": [
+        "Aracı yeniden çalıştırın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 191,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E125",
+      "kodNormal": "E125",
+      "aliaslar": [
+        "E125"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme servosu iç kısa devre",
+      "aciklama": "Yönlendirme servosu [A5, M6] arızalı; kabloloda kısa devre kontrolü yapılmalı ve araç yeniden çalıştırılmalı.",
+      "makineTepkisi": "Yönlendirme devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yönlendirme servosu [A5, M6] arızalı."
+      ],
+      "kontroller": [
+        "Kısa devre açısından kablolamayı kontrol edin.",
+        "Aracı yeniden çalıştırın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 191,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E126",
+      "kodNormal": "E126",
+      "aliaslar": [
+        "E126"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme servosu akım ofset hatası",
+      "aciklama": "Servo akım ölçümünde ofset hatası; [A5, M6] arızalı olabilir, araç yeniden çalıştırılmalı.",
+      "makineTepkisi": "Yönlendirme devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yönlendirme servosu [A5, M6] arızalı."
+      ],
+      "kontroller": [
+        "Aracı yeniden çalıştırın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 191,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E127",
+      "kodNormal": "E127",
+      "aliaslar": [
+        "E127"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme servosu sıcaklık hatası",
+      "aciklama": "Servo iç sıcaklığı -40..+85 °C aralığının dışına çıktı; yoğun kullanım ya da A5/M6 arızası olabilir; araç yeniden çalıştırılmalı (C35'e bakınız).",
+      "makineTepkisi": "Servo termal korumada",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Servo iç sıcaklığı -40..+85 °C aralığı dışında; yönlendirme çok yoğun kullanılmış olabilir veya A5/M6 arızalı."
+      ],
+      "kontroller": [
+        "Aracı yeniden çalıştırın (C35 koduna da bakın)."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 191,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E128",
+      "kodNormal": "E128",
+      "aliaslar": [
+        "E128"
+      ],
+      "sistem": "diger",
+      "baslik": "Kod bu araçta kullanılmıyor",
+      "aciklama": "Bu hata kodu söz konusu araç konfigürasyonu için tanımlı değil; kayıt görüldüyse yazılım/araç uyumu incelenmeli.",
+      "makineTepkisi": "Bu araç için geçerli değil",
+      "siddet": "bilgi",
+      "nedenler": [],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 191,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E129",
+      "kodNormal": "E129",
+      "aliaslar": [
+        "E129"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme servosu besleme gerilimi düşük",
+      "aciklama": "Akü şarj kapasitesi düşük, servo besleme hattında temas sorunu ya da F52 sigortası yanık; F52 kontrol edilmeli ve akü şarj edilmeli.",
+      "makineTepkisi": "Yönlendirme zayıf kalır",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Akü şarj kapasitesi çok düşük; servo yönlendirme besleme devresinde [A5] kötü temas veya F52 sigortası arızalı/yanık."
+      ],
+      "kontroller": [
+        "F52 sigortasının durumunu kontrol edin.",
+        "Aküyü şarj edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 191,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E130",
+      "kodNormal": "E130",
+      "aliaslar": [
+        "E130"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Analog yönlendirme girişi hatası",
+      "aciklama": "Yönlendirme açısı potansiyometresi [R2] arızalı ya da devresinde temas sorunu var; potansiyometre kablolaması kontrol edilmeli, kol tüm yönlerde hareket ettirilerek kablo sınanmalı.",
+      "makineTepkisi": "Analog yönlendirme sinyali kullanılamaz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yönlendirme açısı potansiyometresi [R2] arızalı; potansiyometre devresinde [R2, A5] kötü temas."
+      ],
+      "kontroller": [
+        "R2 potansiyometresinin kablolamasını kontrol edin.",
+        "Kolu tüm yönlerde hareket ettirerek kablolamada sorun olmadığından emin olun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 191,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E131",
+      "kodNormal": "E131",
+      "aliaslar": [
+        "E131"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Analog yönlendirme girişi 0 hatası",
+      "aciklama": "R2 potansiyometresi arızalı ya da A5:INP.A_IN0 devresinde temas sorunu; 94-93 kabloları arası 0,4-4,8 V kontrol edilmeli, kol tüm yönlerde hareket ettirilmeli.",
+      "makineTepkisi": "Kanal 0 yönlendirme sinyali geçersiz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yönlendirme açısı potansiyometresi [R2] arızalı; potansiyometre devresinde [R2, A5:INP.A_IN0] kötü temas."
+      ],
+      "kontroller": [
+        "94-93 kabloları arasında 0,4-4,8 V olduğunu kontrol edin; R2 potansiyometresinin kablolamasını denetleyin.",
+        "Kolu tüm yönlerde hareket ettirerek kablolamada sorun olmadığından emin olun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 191,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E132",
+      "kodNormal": "E132",
+      "aliaslar": [
+        "E132"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme akım limiti aşıldı",
+      "aciklama": "Yönlendirme motoru akımı 5 saniyeden uzun süre maksimumun %80'ini aştı; yönlendirilen tekerin serbest hareketi ve teker tahriyesindeki kir/yabancı cisimler kontrol edilmeli (C82'ye bakınız).",
+      "makineTepkisi": "Servo akım limitlemeye girer",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Yönlendirme motoru akımı 5 saniyeden uzun süre maksimumun %80'ini aşıyor; yönlendirilen teker serbest hareket edemiyor."
+      ],
+      "kontroller": [
+        "Yönlendirilen tekerin zeminde serbestçe dönebildiğini kontrol edin.",
+        "Yönlendirilen teker tahriyesinde kir veya yabancı cisim olmadığını kontrol edin (C82 koduna da bakın)."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 191,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E133",
+      "kodNormal": "E133",
+      "aliaslar": [
+        "E133"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Analog yönlendirme girişi 1 hatası",
+      "aciklama": "R2 potansiyometresi arızalı ya da A5:INP.A_IN1 devresinde temas var; 94-92 kabloları arası 0,4-4,8 V olmalı, potansiyometre kablolaması sınanmalı.",
+      "makineTepkisi": "Kanal 1 yönlendirme sinyali geçersiz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yönlendirme açısı potansiyometresi [R2] arızalı; potansiyometre devresinde [R2, A5:INP.A_IN1] kötü temas."
+      ],
+      "kontroller": [
+        "94-92 kabloları arasında 0,4-4,8 V olduğunu kontrol edin; R2 potansiyometresinin kablolamasını denetleyin.",
+        "Kolu tüm yönlerde hareket ettirerek kablolamada sorun olmadığından emin olun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 192,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E134",
+      "kodNormal": "E134",
+      "aliaslar": [
+        "E134"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Analog yönlendirme girişinde kısa devre",
+      "aciklama": "R2 yönlendirme potansiyometresi arızalı ya da A5 INP.A_IN0/INP.A_IN1 devreleri arasında kısa devre var; potansiyometre kablosu kontrol edilmeli.",
+      "makineTepkisi": "Yönlendirme sinyali kısa devre",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yönlendirme açısı potansiyometresi [R2] arızalı veya A5 INP.A_IN1/INP.A_IN0 devreleri arasında kısa devre var"
+      ],
+      "kontroller": [
+        "R2 potansiyometresine giden kablolamayı kontrol edin.",
+        "Kolu tüm yönlerde hareket ettirerek kablolamada sorun olmadığından emin olun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 192,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E135",
+      "kodNormal": "E135",
+      "aliaslar": [
+        "E135"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme servosu ofset hatası",
+      "aciklama": "A5 INP.A_IN0 ile INP.A_IN1 arasındaki gerilim farkı fazla büyük; yönlendirmenin yeniden kalibre edilmesi (#36) gerekir.",
+      "makineTepkisi": "Yönlendirme sıfır noktası kaymış",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "[A5:INP.A_IN1] ile [INP.A_IN0] arasındaki gerilim farkı çok büyük; yeniden kalibrasyon gerekiyor."
+      ],
+      "kontroller": [
+        "Yönlendirmeyi yeniden kalibre edin (#36)."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 192,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E136",
+      "kodNormal": "E136",
+      "aliaslar": [
+        "E136"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme potansiyometre kalibrasyon hatası",
+      "aciklama": "Kalibre edilmiş nötr konum değeri tanımlı aralığın dışında; R2 arızalı olabilir, potansiyometre montajı kontrol edilmeli ve yönlendirme yeniden kalibre edilmeli (#36).",
+      "makineTepkisi": "Yönlendirme nötr referansı geçersiz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kalibre edilmiş nötr konum değeri tanımlı aralığın dışında; R2 potansiyometresi arızalı."
+      ],
+      "kontroller": [
+        "Potansiyometrenin doğru monte edildiğini kontrol edin.",
+        "Yönlendirmeyi yeniden kalibre edin (#36)."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 192,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E137",
+      "kodNormal": "E137",
+      "aliaslar": [
+        "E137"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Yönlendirme servosu CAN veri sağlama hatası",
+      "aciklama": "Alınan CAN verisinde checksum hatası var; A5-A2 arası CAN sinyal kabloları ve bağlantılar kontrol edilmeli, araç yeniden çalıştırılmalı.",
+      "makineTepkisi": "Servo verisi güvenilmez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kablolama arızalı."
+      ],
+      "kontroller": [
+        "CAN veriyolu sinyal kablolarını ve bağlantıları [A5, A2] kontrol edin.",
+        "Aracı yeniden çalıştırın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 192,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E138",
+      "kodNormal": "E138",
+      "aliaslar": [
+        "E138"
+      ],
+      "sistem": "iletisim",
+      "baslik": "CAN verisi alınamadı",
+      "aciklama": "Sürüş motoru transistör regülatöründen gelen veriler A2'ye ulaşmıyor; CAN kablo ve bağlantıları [A1, A2] kontrol edilip araç yeniden başlatılmalı.",
+      "makineTepkisi": "Sürüş verisi alınamıyor",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sürüş motoru transistör regülatöründen gelen veriler A2'ye ulaşmıyor; kablolama arızalı."
+      ],
+      "kontroller": [
+        "CAN veriyolu sinyal kablolarını ve bağlantıları [A1, A2] kontrol edin ve aracı yeniden çalıştırın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 192,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E139",
+      "kodNormal": "E139",
+      "aliaslar": [
+        "E139"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Servoya CAN iletimi başarısız",
+      "aciklama": "Yönlendirme servosuna CAN verisi gönderilemedi; A5-A2 CAN kablo ve bağlantıları kontrol edilmeli, araç yeniden çalıştırılmalı.",
+      "makineTepkisi": "Servoya komut gidemez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kablolama arızalı."
+      ],
+      "kontroller": [
+        "CAN veriyolu sinyal kablolarını ve bağlantıları [A5, A2] kontrol edin.",
+        "Aracı yeniden çalıştırın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 192,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E140",
+      "kodNormal": "E140",
+      "aliaslar": [
+        "E140"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sağlama toplamı hatası",
+      "aciklama": "Mikro denetleyicide [A2] dahili hata ya da yazılım hatası tespit edildi.",
+      "makineTepkisi": "Araç kontrolü kilitlenebilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Mikro denetleyicide [A2] dahili hata."
+      ],
+      "kontroller": [
+        "Yazılımda hata."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 192,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E141",
+      "kodNormal": "E141",
+      "aliaslar": [
+        "E141"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Yazılım sorunu",
+      "aciklama": "Mikro denetleyicide [A2] dahili hata / yazılım hatası var; CAN üzerinden yeni yazılım yüklenmesi gerekebilir.",
+      "makineTepkisi": "Araç kontrolü kilitlenebilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Mikro denetleyicide [A2] dahili hata; yazılımda hata."
+      ],
+      "kontroller": [
+        "CAN üzerinden yeni yazılım indirilmesi gerekebilir."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 192,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E150",
+      "kodNormal": "E150",
+      "aliaslar": [
+        "E150"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Sürüş regülatöründen veri gelmiyor",
+      "aciklama": "Sürüş motoru transistör regülatörü [A1] yanıt vermiyor; bağlantılar kötü ya da ünite arızalı olabilir.",
+      "makineTepkisi": "Sürüş kumandasına erişilemez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sürüş motoru transistör regülatörü [A1] yanıt vermiyor; bağlantılar kötü veya ünite arızalı."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 192,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E151",
+      "kodNormal": "E151",
+      "aliaslar": [
+        "E151"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Sürüş regülatörüne iletim başarısız",
+      "aciklama": "CAN kablosu kopuk ya da sürüş motoru transistör regülatörü [A1] arızalı; CAN hattı kontrol edilmeli.",
+      "makineTepkisi": "Sürüş kumandasına komut gitmez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN kablosu kopuk; sürüş motoru transistör regülatörü [A1] arızalı."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 192,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E157",
+      "kodNormal": "E157",
+      "aliaslar": [
+        "E157"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Veriyolu hatası",
+      "aciklama": "CAN veriyolunda ya da A2 donanım/kablolamasında sorun var; CAN kablolaması kontrol edilmeli.",
+      "makineTepkisi": "CAN veriyolunda kilitlenme",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN veriyolu, kablolama veya A2 donanımı sorunu."
+      ],
+      "kontroller": [
+        "CAN kablolamasını kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 192,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E159",
+      "kodNormal": "E159",
+      "aliaslar": [
+        "E159"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Taşma (overrun) hatası",
+      "aciklama": "CAN veriyolu, kablolama ya da A2 donanımında problem var; CAN kablolaması gözden geçirilmeli.",
+      "makineTepkisi": "CAN veriyolunda taşma hatası",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN veriyolu, kablolama veya A2 donanımı sorunu."
+      ],
+      "kontroller": [
+        "CAN kablolamasını kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 193,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E160",
+      "kodNormal": "E160",
+      "aliaslar": [
+        "E160"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Çarpışma sensörü hatası",
+      "aciklama": "Çarpışma sensörü Hall sensöründe hata var; anahtarın kilitli/kapalı konumda olmadığı kontrol edilmeli.",
+      "makineTepkisi": "Çarpışma algılama güvenilmez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Çarpışma sensörü Hall sensöründe hata."
+      ],
+      "kontroller": [
+        "Anahtarın kumanda edilmemiş (basılı değil) olduğunu kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 193,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E200",
+      "kodNormal": "E200",
+      "aliaslar": [
+        "E200"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş motoru alan devresi açık",
+      "aciklama": "Sürüş motoru [M1] şönt alan devresi açık ya kablo kopuk ya da A1 arızalı; M1 alan bobini kablo ve bağlantıları kontrol edilmeli.",
+      "makineTepkisi": "Sürüş motoru alan akımı yok; sürüş durur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sürüş motorunun [M1] şönt alan devresi açık, kablo kopuk veya regülatör [A1] arızalı."
+      ],
+      "kontroller": [
+        "M1 şönt alan devresine giden kablo ve bağlantıları kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 193,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E201",
+      "kodNormal": "E201",
+      "aliaslar": [
+        "E201"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "M- hatası",
+      "aciklama": "Sürüş motoru transistör regülatöründeki [A1] rotor devresi anahtar transistöründe sorun var; regülatör arızalı olabilir.",
+      "makineTepkisi": "Sürüş devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sürüş regülatöründeki [A1] rotor devresi anahtar transistöründe sorun; sürüş regülatörü arızalı."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 193,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E202",
+      "kodNormal": "E202",
+      "aliaslar": [
+        "E202"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş regülatörü akım sensörü hatası",
+      "aciklama": "Sürüş motoru transistör regülatörünün [A1] rotor akım sensörü arızalı; regülatörün değişmesi gerekir.",
+      "makineTepkisi": "Akım ölçümü güvenilmez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sürüş regülatöründeki [A1] rotor akım sensörü arızalı; ünite arızalı."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 193,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E214",
+      "kodNormal": "E214",
+      "aliaslar": [
+        "E214"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Sürüş regülatörü CAN zaman aşımı",
+      "aciklama": "Sürüş motoru transistör regülatörü [A1], kol başlığından [A2] beklenmedik veri kaybı bildiriyor; CAN sinyal kabloları ve bağlantılar kontrol edilmeli.",
+      "makineTepkisi": "Sürüş kumandasıyla bağlantı kopar",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sürüş motoru transistör regülatörü, kol başlığından [A2] beklenmedik veri akışı kaybı bildiriyor."
+      ],
+      "kontroller": [
+        "CAN veriyolu sinyal kablolarını ve bağlantılarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 193,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C70",
+      "kodNormal": "C70",
+      "aliaslar": [
+        "C70"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motoru alan devresi açık",
+      "aciklama": "Pompa motorunun [M3] şönt alan devresi açık, kablo kopuk ya da pompa transistör regülatörü [A3] arızalı; alan bobini kablolaması kontrol edilmeli. (Kaynakta C64 satırıyla bitişik basılmıştır.)",
+      "makineTepkisi": "Pompa motoru alan devresi açık; kaldırma durabilir",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Pompa motorunun [M3] şönt alan devresi açık, kablo demeti kopuk veya pompa regülatörü [A3] arızalı.",
+        "M3 şönt alan bobinine giden kablolama ve bağlantıları kontrol edin"
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 187,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "C71",
+      "kodNormal": "C71",
+      "aliaslar": [
+        "C71"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "M- hatası (pompa motoru regülatörü)",
+      "aciklama": "Pompa motoru transistör regülatöründeki [A3] rotor devresi anahtar transistöründe sorun var; regülatör arızalı olabilir. (Kaynakta C64 satırıyla bitişik basılmıştır.)",
+      "makineTepkisi": "Pompa devresinde M- hatası",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Pompa regülatöründeki [A3] rotor devresi anahtar transistöründe sorun; pompa transistör regülatörü arızalı."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 187,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "C72",
+      "kodNormal": "C72",
+      "aliaslar": [
+        "C72"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa regülatörü akım sensörü hatası",
+      "aciklama": "Pompa motoru transistör regülatöründeki [A3] rotor akım sensörü arızalı; regülatörün değiştirilmesi gerekebilir. (Kaynakta C64 satırıyla bitişik basılmıştır.)",
+      "makineTepkisi": "Pompa akım ölçümü güvenilmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Pompa regülatöründeki [A3] rotor akım sensörü arızalı; ünite arızalı."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 187,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    }
+  ]
+}

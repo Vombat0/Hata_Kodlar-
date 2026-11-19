@@ -1,0 +1,671 @@
+{
+  "marka": "baoli",
+  "seri": "cpd-durum",
+  "modelAdi": "Baoli 1–3 t CPD serisi elektrikli forklift (DC çopper kontrolör, SME göstergeli)",
+  "kaynakBelge": "Baoli 1-3 t CPD Forklift Truck Service Manual PDF — Status code tablosu 4.6.4 (forkliftpdfmanuals.com)",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+  "kodlar": [
+    {
+      "kod": "-01",
+      "kodNormal": "01",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Koltuk şalteri girişi yok",
+      "aciklama": "Operatör koltuk şalterinden giriş sinyali gelmiyor; kontrolör güvenlik nedeniyle çekişi açmaz.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-02",
+      "kodNormal": "02",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "İlk enerjilemede ileri yön şalteri kapalı",
+      "aciklama": "Kontak ilk açıldığında ileri yön şalteri kapalı konumda görüldü; şalter nötrde değilken sistem başladı.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-03",
+      "kodNormal": "03",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "İlk enerjilemede geri yön şalteri kapalı",
+      "aciklama": "Kontak açılırken geri yön şalteri kapalı bulundu; prosedür dışı start durumu.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-05",
+      "kodNormal": "05",
+      "aliaslar": [],
+      "sistem": "fren",
+      "baslik": "Marş veya fren şalteri kapanmıyor",
+      "aciklama": "Marş anahtarı ya da fren şalteri devreyi kapatmıyor; start zinciri süreksiz.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-06",
+      "kodNormal": "06",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Yön seçilmeden gaz pedalına basıldı",
+      "aciklama": "Nötr konumdayken pedal talebi algılandı; kontrolör çekiş komutunu reddeder.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-07",
+      "kodNormal": "07",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Gaz giriş gerilimi çok yüksek",
+      "aciklama": "Enerjileme anında pedal potansiyometresi üst sınır üstü okunuyor; sensör hattı incelenmeli.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-08",
+      "kodNormal": "08",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Gaz giriş gerilimi çok düşük",
+      "aciklama": "Kontak sonrası pedal giriş gerilimi alt sınırın altında; sensör veya besleme şüpheli.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-09",
+      "kodNormal": "09",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "İleri ve geri yön şalterleri aynı anda kapalı",
+      "aciklama": "Her iki yön şalteri birden kapalı okunuyor; şalter ayarı veya kablo kısa devresi.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-11",
+      "kodNormal": "11",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Start şalteri kontak sonrası kapalı kaldı",
+      "aciklama": "İlk kontak kapanışından sonra power-up anında start şalteri kapalı görünüyor; start rölesi yapışık olabilir.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-15",
+      "kodNormal": "15",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Batarya gerilimi çok düşük / kart kalibrasyonu bozuk",
+      "aciklama": "Giriş gerilimi alt limitin altında ya da kontrol kartı kalibrasyonu kaymış; gerilim okuması güvenilir değil.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-16",
+      "kodNormal": "16",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Batarya gerilimi çok yüksek / kart kalibrasyonu bozuk",
+      "aciklama": "Giriş gerilimi üst limiti aştı; alternatör/şarj düzeni veya kalibrasyon incelenmeli.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-17",
+      "kodNormal": "17",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kontrol kartı tipi seçimi geçersiz",
+      "aciklama": "Yazılımda seçilen kontrol kartı tipi gerçek donanımla eşleşmiyor; parametre seti hatalı.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-23",
+      "kodNormal": "23",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Geri yönde startta saha (field) akımı yüksek",
+      "aciklama": "Geri yön kalkışında saha akımı beklenenden yüksek ölçüldü; sürücü katı veya saha sargısı şüpheli.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-24",
+      "kodNormal": "24",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "İleri yönde startta saha (field) akımı yüksek",
+      "aciklama": "İleri kalkış anında saha akımı sınırı aştı; güç devresinde anormallik.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-27",
+      "kodNormal": "27",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kontrolör beslemesi 10V altına düştü",
+      "aciklama": "Kontrol devre beslemesi 10V DC'nin altına indi; elektronik kartlar reset bölgesinde.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-28",
+      "kodNormal": "28",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Çalışma sırasında saha akımı fazla yüksek",
+      "aciklama": "Seyir halinde saha akımı limitin üstünde; regülasyon devresi ya da sensör sapması.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-41",
+      "kodNormal": "41",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Termal koruma (TP) açık / transistör aşırı sıcak",
+      "aciklama": "Motor termik koruması açık devre ya da güç transistörleri aşırı sıcak; sürücü kısma/yakma modunda.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-42",
+      "kodNormal": "42",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Arma gerilim ofseti çok yüksek",
+      "aciklama": "Kol sargısı gerilim ölçümünün sıfır ofseti üst limiti aştı; sensör beslemesi/kart kayması.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-43",
+      "kodNormal": "43",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Arma gerilim ofseti çok düşük",
+      "aciklama": "Kol gerilim ofset okuması alt sınırın altında; hız tahmini hatalı olabilir.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-44",
+      "kodNormal": "44",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Arma transistörü normal şekilde kapanamıyor",
+      "aciklama": "Güç transistörü turn-off komutuna rağmen iletimde kaldı; kısa yapmış olabilir.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-45",
+      "kodNormal": "45",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Arma transistörü normal şekilde açılamadı",
+      "aciklama": "Transistör turn-on denemesinde devreye girmedi; sürücü katı veya bağlantı kopuk.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-46",
+      "kodNormal": "46",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Look-Ahead A2 gerilimi akünün %12'sinin altında",
+      "aciklama": "Kontak öncesi ön-izleme testi A2 hattında beklenen gerilimi göremedi; besleme yolu zayıf.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-49",
+      "kodNormal": "49",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Çalışma sırasında saha akımı fazla düşük",
+      "aciklama": "Seyir halinde saha akımı alt sınırın altında; saha devresi zayıf akım veriyor.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-51",
+      "kodNormal": "51",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kontaktör öncesi kapasitör gerilimi düşük",
+      "aciklama": "Ana kontaktör kapanmadan önce kapasitör bankı ön gerilimi yetersiz; darbe akımı riski.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-57",
+      "kodNormal": "57",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor akım sensörü girişi düşük (çalışmada)",
+      "aciklama": "Çalışma anında akım sensörü giriş gerilimi çok düşük; kapalı çevrim akım okuması geçersiz.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-64",
+      "kodNormal": "64",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Hat sürüş girişi akünün %12'sinin altında",
+      "aciklama": "Doğrudan hat giriş gerilimi batarya geriliminin %12'sinin altına düştü; besleme/şase referansı zayıf.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-65",
+      "kodNormal": "65",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Çalışma sırasında hat bobin akımı yüksek",
+      "aciklama": "Seyir halinde hat bobini akımı limiti aştı; devre aşırı yük altında.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-66",
+      "kodNormal": "66",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Saha akımı saha transistörü sınırını aştı",
+      "aciklama": "Saha sürücü transistörünün akım limiti geçildi; koruma devreye girdi.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-67",
+      "kodNormal": "67",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Arma akımı arma transistörü sınırını aştı",
+      "aciklama": "Kol devresi akımı güç transistörü sınırını aştı; kısa devre/kilitlenme olasılığı.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-69",
+      "kodNormal": "69",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Hidrolik direksiyon bobin akımı yüksek (çalışmada)",
+      "aciklama": "Power-steering bobin akımı seyirde limit üstünde; valf/kablo kısa devresi araştırılmalı.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-76",
+      "kodNormal": "76",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kapasitör (1C) gerilimi fazla yüksek",
+      "aciklama": "Birincil kapasitör gerilimi üst limiti aştı; rejeneratif enerji sönümlemesi yetersiz.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-77",
+      "kodNormal": "77",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Rejeneratif frenlemede motor akımı algılandı",
+      "aciklama": "Frenleme kademesinde beklenmeyen motor akımı ölçüldü; geri besleme devresi anormal.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "-82",
+      "kodNormal": "82",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Arma akımı 450 A / 3,5 sn aşıldı",
+      "aciklama": "Kol sürme akımı 450 amperi 3,5 saniyeden uzun sürdürdü; kontrolör arma sürmeyi kesti.",
+      "makineTepkisi": "Arma sürme akımı kesilir; araç çekiş kaybeder",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 65,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/baoli/",
+      "durum": "incelemede"
+    }
+  ]
+}

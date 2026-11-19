@@ -1,0 +1,696 @@
+{
+  "marka": "bt",
+  "seri": "swe-100-120",
+  "modelAdi": "BT SWE 100 / 120 / 120S",
+  "kaynakBelge": "RM_swe100_120_120s",
+  "kaynakSurum": "220813-040 (2006-11-17)",
+  "kaynakDil": "EN",
+  "kaynakUrl": "",
+  "kodlar": [
+    {
+      "kod": "C3",
+      "kodNormal": "C3",
+      "aliaslar": [
+        "C3"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "TLS: darbe sensörü sınırları aştı",
+      "aciklama": "Darbe sensörü araç toleranslarının üzerinde değer bildirdi; sürüş çok sert olabilir. Sensör eşik ve konum ayarları kontrol edilmeli.",
+      "makineTepkisi": "Frenler devreye girer ve araç durur; TLS reset komutuyla çözülür",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Darbe sensörü araç toleranslarının üzerinde değer bildirdi; sürüş çok sert olabilir. Sensör eşik değerlerinin doğru ayarlandığını kontrol edin.",
+        "TLS reset komutu aracı tekrar çalışır duruma getirir"
+      ],
+      "kontroller": [
+        "Darbe sensörünün doğru konumlandırıldığını kontrol edin; frenler devreye girer ve araç durur."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 114,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C4",
+      "kodNormal": "C4",
+      "aliaslar": [
+        "C4"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "TLS: araç kullanımı kilitlendi",
+      "aciklama": "TLS filo güvenlik sistemi aracı bir komutla kilitlemiş; kilit yeni bir TLS komutuyla kaldırılmalı.",
+      "makineTepkisi": "Araç yeni bir TLS komutuyla çözülene dek çalışmaz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Araç kullanımı bir TLS komutuyla kilitlenmiş; yeni bir TLS komutu kilidi kaldırana kadar araç kullanılamaz."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 114,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C19",
+      "kodNormal": "C19",
+      "aliaslar": [
+        "C19"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Parametre uyarısı",
+      "aciklama": "Program güncellemesinde parametreler otomatik olarak varsayılan değerlere dönmüş olabilir; özel parametrelerin elle yeniden girilmesi gerekir.",
+      "makineTepkisi": "Kod 5 saniye gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Parametreler muhtemelen değişti; program güncellemesinde parametreler varsayılana dönmüş olabilir (eski sürümler); yeni sürümlerde yalnızca sınırlar dışındaysa değişir."
+      ],
+      "kontroller": [
+        "Özel parametrelerin elle yeniden girilmesi gerekir."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 115,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C20",
+      "kodNormal": "C20",
+      "aliaslar": [
+        "C20"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Hız kumandası uyarısı",
+      "aciklama": "Hız kumandası sensörlerinde sorun var; anahtar çalıştırmada hareket ettirilmiş ya da kol başlığındaki sensör kartı arızalı olabilir. Kumanda nötrde yeniden başlatılmalı, gerekirse kart değişmeli.",
+      "makineTepkisi": "Hız kumandası geçersiz sayılabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hız kumandası sensörlerinde sorun; anahtar çalıştırmada tetiklenmiş olabilir veya elektronik karttaki sensörlerden biri arızalı olabilir."
+      ],
+      "kontroller": [
+        "Hız kumandası nötr konumdayken yeniden başlatın.",
+        "Elektronik kartı değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 115,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C28",
+      "kodNormal": "C28",
+      "aliaslar": [
+        "C28"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Acil stop anahtarı uyarısı",
+      "aciklama": "Acil şalter devreye girmiş; sürüş regülatörü A1/16 girişine akım yok. F51 sigortası, acil şalter, akü kablo ve kontakları kontrol edilmeli; PTC direnci R1 çok sıcaksa soğutulup yeniden başlanmalı.",
+      "makineTepkisi": "Acil stop basılıysa sürüş regülatörüne akım gitmez",
+      "siddet": "uyari",
+      "nedenler": [
+        "Acil şalter devreye girdi; sürüş regülatörü A1/16 girişine akım yok."
+      ],
+      "kontroller": [
+        "F51 sigortasını kontrol edin.",
+        "Acil stop şalterini kontrol edin.",
+        "Akülerden gelen kabloları ve akü kontaklarını kontrol edin.",
+        "PTC direnci R1 çok sıcaksa akü kontağını ayırıp direncin soğumasını bekleyin.",
+        "Yeniden başlatın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 116,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C29",
+      "kodNormal": "C29",
+      "aliaslar": [
+        "C29"
+      ],
+      "sistem": "diger",
+      "baslik": "Bakım uyarısı",
+      "aciklama": "Bakım zamanı geldi; bakım sayacı son bakımdan bu yana sıfırlanmamış.",
+      "makineTepkisi": "Bilgi amaçlı bakım uyarısı",
+      "siddet": "uyari",
+      "nedenler": [
+        "Bakım zamanı geldi; bakım sayacı son bakımdan beri sıfırlanmadı."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 116,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C41",
+      "kodNormal": "C41",
+      "aliaslar": [
+        "C41"
+      ],
+      "sistem": "batarya",
+      "baslik": "Düşük akü gerilimi uyarısı",
+      "aciklama": "Akü gerilimi 17 V altına indi; akü parametreleri yanlış ayarlı olabilir ya da şarj zamanı gelmiş. 21 numaralı akü tipi parametresi, akü kontaktları ve S17 kontakt şalteri kontrol edilmeli.",
+      "makineTepkisi": "Akü zayıf; performans düşebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Akü gerilimi 17 volt altında; akü parametreleri doğru ayarlanmamış; akünün şarj zamanı gelmiş."
+      ],
+      "kontroller": [
+        "21 numaralı parametreyi, akü boyutu ve tipini kontrol edin.",
+        "Akü kontağını ve akü kutup bağlantılarını kontrol edin",
+        "Kontakt şalteri S17'yi kontrol edin; kötü temas izin verilmeyen gerilim düşümüne yol açar.",
+        "Elektrik sistemi gerilimi sürüş regülatörü içinde ölçer."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 117,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C42",
+      "kodNormal": "C42",
+      "aliaslar": [
+        "C42"
+      ],
+      "sistem": "batarya",
+      "baslik": "Yüksek akü gerilimi uyarısı",
+      "aciklama": "Akü gerilimi 33 V üzerine çıktı; tam şarjlı aküde motor frenlemesi sırasında rejeneratif geri besleme neden olur, genelde birkaç kaldırma sonrası kaybolur. Kablolar, akü kontağı ve K10 kontaktör uçları kontrol edilmeli.",
+      "makineTepkisi": "Geçici aşırı gerilim uyarısı",
+      "siddet": "uyari",
+      "nedenler": [
+        "Akü gerilimi 33 volt üzerinde; tam şarjlı aküde motor frenlemesi sırasında aküye enerji geri beslemesi oluyor."
+      ],
+      "kontroller": [
+        "Arıza, akü biraz düştükten sonra birkaç kaldırma içinde kaybolur.",
+        "Kablolamayı, akü kontağını ve ana kontaktör K10'un kontak uçlarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 118,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C43",
+      "kodNormal": "C43",
+      "aliaslar": [
+        "C43"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş regülatörü sıcaklık koruması",
+      "aciklama": "Sürüş regülatörü aşırı sıcak (-25 °C altı / +85 °C üstü) nedeniyle kapandı ya da soğuk hatası var; M12 fanının çalıştığı ve regülatörün şasiye iyi temasla monte edildiği doğrulanmalı.",
+      "makineTepkisi": "Soğutucu flans sıcaklığına göre hız sınırlanır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Çok yoğun kullanım veya ortam sıcaklığı çok düşük; sürüş regülatöründe hata; -25 °C altı veya +85 °C üstü hızı düşürür."
+      ],
+      "kontroller": [
+        "M12 fanının çalıştığını kontrol edin.",
+        "Sürüş regülatörünün şasiyle iyi temas edecek şekilde monte edildiğini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 118,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C90",
+      "kodNormal": "C90",
+      "aliaslar": [
+        "C90"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Ekstra I/O (0) CAN iletişim hatası",
+      "aciklama": "Ekstra I/O genişleme kutusu (0) verileri A2 tarafından alınamıyor; CAN kablosu ve bağlantılar kontrol edilip araç yeniden çalıştırılmalı.",
+      "makineTepkisi": "Genişleme ünitesi 0 verisi alınamaz",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Ekstra I/O kutusu (0) verileri A2 tarafından alınamıyor; CAN kablosu ve bağlantılarını kontrol edin ve aracı yeniden çalıştırın."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 119,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C91",
+      "kodNormal": "C91",
+      "aliaslar": [
+        "C91"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Ekstra I/O (1) CAN iletişim hatası",
+      "aciklama": "Ekstra I/O genişleme kutusu (1) verileri A2'ye ulaşmıyor; CAN kablosu ve bağlantılar kontrol edilmeli, araç yeniden çalıştırılmalı.",
+      "makineTepkisi": "Genişleme ünitesi 1 verisi alınamaz",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Ekstra I/O kutusu (1) verileri A2 tarafından alınamıyor; CAN kablosu ve bağlantılarını kontrol edin ve aracı yeniden çalıştırın."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 119,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C92",
+      "kodNormal": "C92",
+      "aliaslar": [
+        "C92"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ekstra I/O (0) yapılandırma hatası",
+      "aciklama": "I/O genişleme kutusu (0) çıkış atamaları hatalı; çıkış dağılımı kontrol edilmeli.",
+      "makineTepkisi": "Ünite (0) yapılandırması geçersiz",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Ekstra I/O kutusu (0) opsiyon ayarları hatalı; çıkış atamalarını kontrol edin"
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 119,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "C93",
+      "kodNormal": "C93",
+      "aliaslar": [
+        "C93"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ekstra I/O (1) yapılandırma hatası",
+      "aciklama": "I/O genişleme kutusu (1) çıkış atamaları hatalı; çıkış dağılımı kontrol edilmeli.",
+      "makineTepkisi": "Ünite (1) yapılandırması geçersiz",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Ekstra I/O kutusu (1) opsiyon ayarları hatalı; çıkış atamalarını kontrol edin"
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 119,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E101",
+      "kodNormal": "E101",
+      "aliaslar": [
+        "E101"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sürüş regülatörü araç tipiyle uyumsuz",
+      "aciklama": "Yanlış sürüş regülatörü / elektronik kart kombinasyonu takılmış; aracın dahili kontrol işlevi uyumsuzluğu engelliyor. Sürüş regülatörü ve elektronik kart kontrol edilmeli.",
+      "makineTepkisi": "Araç sürüşe kilitlenir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yanlış sürüş regülatörü veya elektronik kart takılmış; araç, hatalı kombinasyonu engelleyen dahili bir kontrol işlevine sahiptir."
+      ],
+      "kontroller": [
+        "Sürüş regülatörünü ve elektronik kartı kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 120,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E104",
+      "kodNormal": "E104",
+      "aliaslar": [
+        "E104"
+      ],
+      "sistem": "fren",
+      "baslik": "Fren transistoru kısa devre",
+      "aciklama": "Frene giden anahtarlama transistörü kısa devre yapmış ya da 22 numaralı parametre hatalı; kablolama kontrol edilmeli, fren bobini (Y1) 13-15 ohm ölçülmeli, parametre 22 doğrulanmalı.",
+      "makineTepkisi": "Sürüş devre dışı; fren çıkışı arızalı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sürüş regülatörü A1/3 çıkışında hata; 22 numaralı parametre değeri hatalı"
+      ],
+      "kontroller": [
+        "Kablolama ve kontakları kontrol edin.",
+        "Fren mıknatıs bobininin (Y1) ohm değerini ölçün.",
+        "Değer 13-15 ohm olmalı.",
+        "22 numaralı parametreyi kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 120,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E106",
+      "kodNormal": "E106",
+      "aliaslar": [
+        "E106"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Dijital çıkışlar kısa devre / alan akımı limiti",
+      "aciklama": "Dahili izleme hatası; K10 kontaktör çıkışı (A1/4, 25-30 ohm), fren bobini çıkışı (A1/3, 13-15 ohm), korna çıkışı (A1/7) ve motor şönt sargısı (0,3 ohm, avometreyle ölçülmez) sırayla kontrol edilmeli.",
+      "makineTepkisi": "Çıkışlar devre dışı; araç çalışmaz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alan akımı regülasyonunda sorun; dahili izleme hatası."
+      ],
+      "kontroller": [
+        "Ana kontaktör K10 çıkışını (A1/4) kontrol edin; kablolama ve kontakları denetleyip bobin ohm değerini ölçün.",
+        "Değer 25-30 ohm olmalı.",
+        "Fren bobini K10 çıkışını (A1/3) kontrol edin; kablolama ve kontakları denetleyip bobin ohm değerini ölçün.",
+        "Değer 13-15 ohm olmalı.",
+        "Korna çıkışını (A1/7), kablolama ve kontakları kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 121,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E107",
+      "kodNormal": "E107",
+      "aliaslar": [
+        "E107"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör K10 kapanmıyor",
+      "aciklama": "Kontaktör kumanda kablosu çıkmış ya da regülatör A1/4 çıkışında kesinti var; kontaktörün çekip çekmediği, kontak uçları, bobin (25-30 ohm) ve A1/4 çıkışı kontrol edilmeli.",
+      "makineTepkisi": "Ana kontaktör çekmez; araç hareket edemez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Ana kontaktör uçlarında veya bobininde sorun; kumanda kablosu çıkmış/bağlı değil; sürüş regülatörü A1/4 çıkışında kesinti."
+      ],
+      "kontroller": [
+        "Kontaktörün çekip çekmediğini kontrol edin.",
+        "Kontaktör çalışıyorsa kontak uçlarını ve ilgili kablolamayı kontrol edin.",
+        "Kontaktör çalışmıyorsa bobini ve ilgili kablolamayı kontrol edin.",
+        "Bobinin ohm değerini ölçün.",
+        "Değer 25-30 ohm olmalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 122,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E108",
+      "kodNormal": "E108",
+      "aliaslar": [
+        "E108"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör K10 açılmıyor",
+      "aciklama": "Kontaktör uçları kaynamış ya da regülatör A1/4 çıkışında kısa devre var; kontak uçları, R1 direnci, 64 numaralı kablo ve A1/4 çıkışı kontrol edilmeli.",
+      "makineTepkisi": "Kontaktör açılmaz; araç kilitli kalır",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Ana kontaktör uçları kaynamış; sürüş regülatörü A1/4 çıkışında kısa devre."
+      ],
+      "kontroller": [
+        "Kontaktör kontak uçlarının birbirine kaynamadığını kontrol edin.",
+        "R1 direncinin kısa devre yapmadığını kontrol edin.",
+        "Kontak uçları sağlamsa ama kontaktör çekili kalıyorsa 64 numaralı kabloyu ve A1/4 çıkışını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 123,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E110",
+      "kodNormal": "E110",
+      "aliaslar": [
+        "E110"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sistem hatası",
+      "aciklama": "Sürüş regülatöründe geçici ya da dahili sistem hatası; makine yeniden çalıştırılmalı, sürerse sürüş regülatörü değiştirilmeli.",
+      "makineTepkisi": "Sistem arızası; sürüş durur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sürüş regülatöründe geçici hata/arıza."
+      ],
+      "kontroller": [
+        "Makineyi yeniden başlatın.",
+        "Sürüş regülatörünü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 123,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E140",
+      "kodNormal": "E140",
+      "aliaslar": [
+        "E140"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontrol toplamı hatası",
+      "aciklama": "Kol başlığındaki dahili mikro gözetimde (micro-monitoring) hata ya da hatalı yazılım/devre kartı söz konusu.",
+      "makineTepkisi": "Kontrol toplamı geçersiz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kol başlığındaki dahili mikro gözetimde hata; hatalı yazılım veya devre kartı."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 123,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E141",
+      "kodNormal": "E141",
+      "aliaslar": [
+        "E141"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Yazılım sorunu",
+      "aciklama": "Hatalı yazılım ya da devre kartı; makine yeniden çalıştırılmalı, program yeniden yüklenmeli, sürerse elektronik kart değiştirilmeli.",
+      "makineTepkisi": "Yazılım doğrulaması başarısız",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kol başlığındaki dahili gözetimde hata; hatalı yazılım veya devre kartı."
+      ],
+      "kontroller": [
+        "Makineyi yeniden başlatın.",
+        "Programı yeniden indirin.",
+        "Elektronik kartı değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 124,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E150",
+      "kodNormal": "E150",
+      "aliaslar": [
+        "E150"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Veri iletişimi hatası",
+      "aciklama": "CAN kablosunda kopukluk var; 119 ve 120 numaralı kablolar ve kontakları kontrol edilmeli, sürüş regülatörü arızalıysa değiştirilmeli.",
+      "makineTepkisi": "Veri iletişimi kopar; sürüş durur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN kablosunda kopukluk."
+      ],
+      "kontroller": [
+        "119 ve 120 kablolarını ve kontaklarını kontrol edin.",
+        "Sürüş regülatörünü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 124,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E151",
+      "kodNormal": "E151",
+      "aliaslar": [
+        "E151"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Veri iletişiminde Tx hatası",
+      "aciklama": "Sürüş regülatörü yanıt vermiyor; 119/120 kabloları ve regülatör bağlantıları kontrol edilmeli, gerekirse regülatör değişmeli.",
+      "makineTepkisi": "Regülatör yanıt vermez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sürüş regülatörü yanıt vermiyor."
+      ],
+      "kontroller": [
+        "Sürüş regülatöründeki 119 ve 120 kablolarını ve bağlantılarını kontrol edin.",
+        "Sürüş regülatörünü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 124,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E157",
+      "kodNormal": "E157",
+      "aliaslar": [
+        "E157"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Veriyolu kapandı (bus shut off)",
+      "aciklama": "CAN veriyolunda kilitlenme; 119/120 kablo ve bağlantıları kontrol edilmeli, sürüş regülatörü ve elektronik kart sırayla denenmeli.",
+      "makineTepkisi": "CAN veriyolundan düşme",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN veriyolu sorunu."
+      ],
+      "kontroller": [
+        "Sürüş regülatöründeki 119 ve 120 kablolarını ve bağlantılarını kontrol edin.",
+        "Sürüş regülatörünü değiştirin.",
+        "Elektronik kartı değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 124,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E159",
+      "kodNormal": "E159",
+      "aliaslar": [
+        "E159"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Taşma hatası",
+      "aciklama": "CAN veriyolu sorunu; 119/120 kablolar ve bağlantılar kontrol edilmeli, sürüş regülatörü ya da elektronik kart değiştirilmeli.",
+      "makineTepkisi": "CAN veriyolu taşma hatası",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN veriyolu sorunu."
+      ],
+      "kontroller": [
+        "Sürüş regülatöründeki 119 ve 120 kablolarını ve bağlantılarını kontrol edin.",
+        "Sürüş regülatörünü değiştirin.",
+        "Elektronik kartı değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 125,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E160",
+      "kodNormal": "E160",
+      "aliaslar": [
+        "E160"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Güvenlik geri hareketi hatası",
+      "aciklama": "Kol başlığındaki güvenlik geri kaçırma (safety reversing) devresinde hata; elektronik kartın değiştirilmesi gerekir.",
+      "makineTepkisi": "Güvenlik geri hareketi devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Önemli sensör kısmında hata."
+      ],
+      "kontroller": [
+        "Elektronik kartı değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 125,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E200",
+      "kodNormal": "E200",
+      "aliaslar": [
+        "E200"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Alan devresi açık",
+      "aciklama": "Motor şönt alan devresi açık; E1-E2 alan sargısı bağlantıları (0,3 ohm, avometreyle ölçülemez), 4 ve 5 numaralı kablolar ile S1/S2 çıkışları kontrol edilmeli, sürüş regülatörü değişebilir.",
+      "makineTepkisi": "Alan akımı yok; sürüş durur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Şönt alan devresi açık."
+      ],
+      "kontroller": [
+        "Alan sargısı bağlantılarını (E1 ve E2) kontrol edin.",
+        "Alan sargısının direnci 0,3 ohm kadar düşük olduğundan standart avometreyle ölçülemez.",
+        "4 ve 5 numaralı kablolar ile S1 ve S2 çıkışlarını kontrol edin",
+        "Sürüş regülatörünü değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 125,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E201",
+      "kodNormal": "E201",
+      "aliaslar": [
+        "E201"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "M- hatası",
+      "aciklama": "Sürüş regülatörü içinde rotor devresi arızası; A1/M ile motor A2 bağlantısı arasındaki kablo kontrol edilmeli, gerekirse sürüş regülatörü değiştirilmeli.",
+      "makineTepkisi": "Rotor devresi arızalı; sürüş durur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sürüş regülatörü içindeki endüvi devresi anahtar transistöründe sorun."
+      ],
+      "kontroller": [
+        "Sürüş regülatöründeki A1/M ile sürüş motorundaki A2 bağlantısı arasındaki kabloyu ve bağlantıları kontrol edin.",
+        "Sürüş regülatörünü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 126,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E202",
+      "kodNormal": "E202",
+      "aliaslar": [
+        "E202"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş regülatörü sensör hatası",
+      "aciklama": "Sürüş regülatöründeki akım sensörü arızalı; regülatörün değiştirilmesi gerekir.",
+      "makineTepkisi": "Akım ölçümü güvenilmez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sürüş regülatöründe endüvi akım sensörü hatası"
+      ],
+      "kontroller": [
+        "Sürüş regülatörünü değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 126,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "E214",
+      "kodNormal": "E214",
+      "aliaslar": [
+        "E214"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Güç amplifikatöründe CAN zaman aşımı",
+      "aciklama": "Kol başlığındaki elektronik karttan güç amplifikatörüne veri akışı kesildi; 119/120 kablolar kontrol edilmeli, elektronik kart ve/veya sürüş regülatörü değiştirilmeli.",
+      "makineTepkisi": "Güç amplifikatörü CAN bağlantısı kopar",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Motor monitörü, kol başlığındaki elektronik karttan beklenmedik veri kaybı bildiriyor."
+      ],
+      "kontroller": [
+        "Elektronik kart ile sürüş regülatörü arasındaki 119 ve 120 kablolarını kontrol edin.",
+        "Elektronik kartı değiştirin",
+        "Sürüş regülatörünü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 126,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    }
+  ]
+}

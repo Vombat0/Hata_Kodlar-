@@ -1,0 +1,668 @@
+{
+  "marka": "byd",
+  "seri": "ecb16-ecb18",
+  "modelAdi": "BYD ECB16 / ECB18 lityum demontajlı elektrikli forkliftler",
+  "kaynakBelge": "BYD ECB16/ECB18 Forklift Trucks Operator's Manual PDF — Trouble-shooting Methods hatı mesajları tablosu ve gösterge uyarı mesajları (forkliftpdfmanuals.com)",
+  "kaynakSurum": "OM-ECB162015006-EN-US",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+  "kodlar": [
+    {
+      "kod": "Drive logic error One",
+      "kodNormal": "DRIVELOGICERRORONE",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş mantık hatası 1",
+      "aciklama": "Tahrik kontrolörü mantık denetimini geçemedi; kaynak mesajı düşük şarj ile ilişkili olabileceğini söylüyor.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Batarya şarjı %10'un altındaysa aküyü şarj edin",
+        "Şarj %30'un üzerindeyse forklifti yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Drive logic error Three"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Drive logic error Three",
+      "kodNormal": "DRIVELOGICERRORTHREE",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş mantık hatası 3",
+      "aciklama": "Tahrik yazılımının üçüncü mantık denetimi başarısız oldu; geçici bir durum söz konusuysa yeniden başlatma ile temizlenebilir.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Forklifti yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Drive logic error One"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Drive motor 3 phase wire fault",
+      "kodNormal": "DRIVEMOTOR3PHASEWIREFAULT",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Sürüş motoru 3 faz kablosu hatası",
+      "aciklama": "Çekiş motorunun U-V-W faz hattında kısa/kopukluk şüphesi; invertör faz akımlarını denetlerken hata algıladı.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Sürücü çıkışında kutupluk/kısa devre kontrolü yapın; kısa yoksa forklifti yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Drive system fault",
+        "Drive module fault"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Drive system fault",
+      "kodNormal": "DRIVESYSTEMFAULT",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş sistemi arızası",
+      "aciklama": "Tahrik sistemi genel arıza durumu; alt sistem bazında neden belirtilmemiş, sistem kendisini kilitlemiş olabilir.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Forklifti yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Drive motor 3 phase wire fault"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Drive module fault",
+      "kodNormal": "DRIVEMODULEFAULT",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Sürücü modül (invertör) arızası",
+      "aciklama": "Çekiş güç modülü dahili arıza bildirdi; IGBT/güç katı korumaya girmiş olabilir.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Forklifti yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Drive motor 3 phase wire fault",
+        "Drive module heat sensor fault"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Drive motor encoder fault",
+      "kodNormal": "DRIVEMOTORENCODERFAULT",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Sürüş motoru enkoder arızası",
+      "aciklama": "Çekiş motoru enkoder geri beslemesi alınamıyor veya hatalı; kapalı çevrim hız kontrolü yapılamaz.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Enkoder konnektörünün doğru bağlandığını kontrol edin; sorun yoksa yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Drive system fault"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Drive module initiation sequence fault",
+      "kodNormal": "DRIVEMODULEINITIATIONSEQUENCEFAULT",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Sürücü modül başlama sırası hatası",
+      "aciklama": "Güç modülü devreye alma sekansı tamamlanamadı; yön şalterinin nötr dışı konumu buna yol açabilir.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Yön kontrol şalterini nötr konuma alın ve forklifti yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Drive module heat sensor fault",
+      "kodNormal": "DRIVEMODULEHEATSENSORFAULT",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Sürücü modül sıcaklık sensörü arızası",
+      "aciklama": "Soğutucu sıcaklık sensörü okuması geçersiz; termal koruma referansı güvenilir değil.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Forklifti yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Drive module overheating",
+        "Drive module fault"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Lift logic error one",
+      "kodNormal": "LIFTLOGICERRORONE",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kaldırma mantık hatası 1",
+      "aciklama": "Kaldırma kontrolünün ilk mantık denetimi başarısız; düşük şarj ilişkili olabilir.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Akü şarjı düşükse şarj edin; normalse forklifti yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Lift logic error three"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Lift logic error three",
+      "kodNormal": "LIFTLOGICERRORTHREE",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kaldırma mantık hatası 3",
+      "aciklama": "Kaldırma üçüncü mantık denetimi hata verdi; aşırı yükleme devam ediyorsa kaldırma durdurulmalı.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Yük nominal kapasiteyi aşıyorsa kaldırmayı durdurun; aşmıyorsa yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Lift logic error one",
+        "Overloading"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Lifting motor 3 phase fault",
+      "kodNormal": "LIFTINGMOTOR3PHASEFAULT",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma motoru 3 faz hatası",
+      "aciklama": "Hidrolik pompa motorunun faz bağlantılarında kısa devre/yanlış kutupluk şüphesi.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaldırma sürücü çıkışında kutupluk/kısa kontrolü yapın; yoksa yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Lifting motor current sensor fault"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Lifting motor encoder fault",
+      "kodNormal": "LIFTINGMOTORENCODERFAULT",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kaldırma motoru enkoder arızası",
+      "aciklama": "Kaldırma motoru enkoder sinyali yok/geçersiz; konum-hız geri beslemesi çalışmıyor.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Enkoder bağlantısını kontrol edin, doğruysa yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Lifting motor heat sensor fault",
+      "kodNormal": "LIFTINGMOTORHEATSENSORFAULT",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma motoru sıcaklık sensörü arızası",
+      "aciklama": "Pompa motorunun termal sensörü hatalı okuyor; aşırı ısınma koruması devre dışı kalabilir.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Forklifti yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Lifting motor overheating"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Lifting motor current sensor fault",
+      "kodNormal": "LIFTINGMOTORCURRENTSENSORFAULT",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kaldırma motoru akım sensörü arızası",
+      "aciklama": "Kaldırma motoru akım ölçümü güvenilmez; kontrolör akım limitlemeyi doğru yapamaz.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Forklifti yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Lifting motor 3 phase fault"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Please check the lifting system",
+      "kodNormal": "PLEASECHECKTHELIFTINGSYSTEM",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kaldırma sistemini kontrol edin",
+      "aciklama": "Kaldırma sisteminde genel arıza bildirimi; kaynak bu mesaj için ek çözüm vermez.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynakta bu mesaj için çözüm belirtilmemiş — yetkili servise başvurun",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Accelerator pedal false triggering",
+      "kodNormal": "ACCELERATORPEDALFALSETRIGGERING",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Gaz pedalı hatalı tetikleme",
+      "aciklama": "Pedal, operatör basmadığı halde talep üretmiş gibi görünüyor; pedal yayı/potansiyometresi şüpheli.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Gaz pedalının normal şekilde geri döndüğünü kontrol edin; dönmüyorsa satış sonrası servise başvurun",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Accelerator pedal fault"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Accelerator pedal fault",
+      "kodNormal": "ACCELERATORPEDALFAULT",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Gaz pedalı arızası",
+      "aciklama": "Pedal sinyali tanınabilir aralık dışında; pedal sensörü veya kablosu arızalı.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Satış sonrası servise başvurun (kaynak kullanıcı müdahalesi öngörmüyor)",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Accelerator pedal false triggering"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Main contactor open circuit",
+      "kodNormal": "MAINCONTACTOROPENCIRCUIT",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Ana kontaktör açık devre",
+      "aciklama": "Ana güç kontaktörü kapanmıyor; batarya hattı sürücüye bağlanamıyor.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Ana kontaktörün kapandığını kontrol edin",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Electrical relay fault"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Electrical relay fault",
+      "kodNormal": "ELECTRICALRELAYFAULT",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Elektriksel röle arızası",
+      "aciklama": "Yardımcı röle devresinde beklenti dışı durum; röle sürüşü veya kontak geri okuması hatalı.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Forklifti yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Main contactor open circuit"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Please check gear",
+      "kodNormal": "PLEASECHECKGEAR",
+      "aliaslar": [],
+      "sistem": "sanziman",
+      "baslik": "Vites konumunu kontrol edin",
+      "aciklama": "Yön/vites seçimi beklenen konumda değil; şalter konumu ile kontrolör durumu örtüşmüyor.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Forklifti kapatın, kolu nötr konuma alın ve yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "CAN error",
+      "kodNormal": "CANERROR",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "CAN iletişim hatası",
+      "aciklama": "Gösterge, batarya BMS'i ve sürücüler arasındaki CAN veriyolunda iletişim bozuldu.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Forklifti yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Total voltage error",
+      "kodNormal": "TOTALVOLTAGEERROR",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Batarya toplam gerilim hatası",
+      "aciklama": "Lityum batarya paketinin toplam gerilimi ölçüm/paket mantığı ile tutarsız; BMS koruma isteyebilir.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Forklifti yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Drive module overheating",
+      "kodNormal": "DRIVEMODULEOVERHEATING",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Sürücü modül aşırı ısındı",
+      "aciklama": "Çekiş invertörü soğutucusu izin verilen sıcaklığı aştı; sistem termal korumada.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Forklifti 5 dakika kapatıp soğutun, ardından yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Drive module heat sensor fault",
+        "Drive motor overheating"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Drive motor overheating",
+      "kodNormal": "DRIVEMOTOROVERHEATING",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Sürüş motoru aşırı ısındı",
+      "aciklama": "Çekiş motoru sargı sıcaklığı koruma eşiğini geçti; devam edilirse yalıtım ömrü kısalır.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Forklifti 5 dakika kapatıp soğutun, ardından yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Drive module overheating"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Lifting module overheating",
+      "kodNormal": "LIFTINGMODULEOVERHEATING",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kaldırma modülü aşırı ısındı",
+      "aciklama": "Kaldırma invertörünün güç katı aşırı sıcak; kaldırma geçici kısıtlanabilir.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Forklifti 5 dakika kapatıp soğutun, ardından yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Lifting motor overheating"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Lifting motor overheating",
+      "kodNormal": "LIFTINGMOTOROVERHEATING",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma motoru aşırı ısındı",
+      "aciklama": "Hidrolik pompa motoru termal sınırda; soğutma bekleme süresi önerilir.",
+      "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Forklifti 5 dakika kapatıp soğutun, ardından yeniden başlatın",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Lifting motor heat sensor fault"
+      ],
+      "kaynakSayfa": 59,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Please return to the seat",
+      "kodNormal": "PLEASERETURNTOTHESEAT",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Lütfen koltuğunuza dönün",
+      "aciklama": "Kontak açıkken koltuk sensörü boş algılandı; operatör ağırlığı olmadan hareket kilitlenir.",
+      "makineTepkisi": "Mesaj görüntülenir ve zil sesi devreye girer; operatör yerine geçince durur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Koltuğa oturun; mesaj ve zil otomatik söner",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 56,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Overloading",
+      "kodNormal": "OVERLOADING",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Aşırı yükleme (konfor modeli)",
+      "aciklama": "Taşınan yük anlık olarak nominal kapasiteyi aştı; kaynak yalnızca comfort modellerde aktif olduğunu belirtir.",
+      "makineTepkisi": "Aşırı yükleme göstergesi yanar, zil öter; yük normalize olunca durur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Yüğü nominal kapasite altına indirin; mesaj ve zil otomatik söner",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [
+        "Lift logic error three"
+      ],
+      "kaynakSayfa": 56,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Charge the battery at once",
+      "kodNormal": "CHARGETHEBATTERYATONCE",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Bataryayı hemen şarj edin",
+      "aciklama": "Batarya şarjı %20 seviyesinin altına indi; derin deşarjı önlemek için hemen şarj önerilir.",
+      "makineTepkisi": "Mesaj görünür, zil 30 saniye öter ve her 5 dakikada bir tekrarlar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Forklifti hemen şarja alın; şarj %20 üzerine çıkınca uyarı söner",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 56,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/byd/",
+      "durum": "incelemede"
+    }
+  ]
+}

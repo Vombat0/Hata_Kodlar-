@@ -114,35 +114,171 @@ const jsonLd = {
 
   <script>
     import { trNormalize, kodAnahtar } from '../../../lib/normalize';
+    import { kodAdresi } from '../../../lib/yol';
+
+    interface Kayit {
+      k: string;
+      kod: string;
+      baslik: string;
+      sistem: string;
+      siddet: string;
+      durum: string;
+    }
 
     const giris = document.getElementById('seri-arama') as HTMLInputElement | null;
     const fSistem = document.getElementById('seri-sistem') as HTMLSelectElement | null;
     const fSiddet = document.getElementById('seri-siddet') as HTMLSelectElement | null;
-    const satirlar = Array.from(document.querySelectorAll<HTMLTableRowElement>('#seri-tablo tbody tr, .tablo-sarmal tbody tr'));
+    const govde = document.getElementById('seri-tablo-govde') as HTMLTableSectionElement | null;
+    const tablo = document.getElementById('seri-tablo') as HTMLTableElement | null;
     const sayac = document.getElementById('seri-sayac');
     const bos = document.getElementById('seri-bos');
+    const veriEl = document.getElementById('seri-veri');
+    const sozlukEl = document.getElementById('seri-sozluk');
+    const nos = document.getElementById('seri-noscript');
+    const tumunu = document.getElementById('seri-tumunu') as HTMLButtonElement | null;
+
+    const pagineli = Boolean(veriEl);
+    const sozluk = JSON.parse(sozlukEl?.textContent ?? '{}') as {
+      s: Record<string, string>;
+      v: Record<string, string>;
+      d: Record<string, string>;
+    };
+    const sistemKimligi = new Map(Object.entries(sozluk.s).map(([id, ad]) => [ad, id]));
+    const marka = tablo?.dataset.marka ?? '';
+    const seri = tablo?.dataset.seri ?? '';
+
+    let kayitlar: Kayit[] = [];
+    let gorunen = 120;
+    const PARCA = 100;
+
+    function kayittanSatir(k: Kayit): HTMLTableRowElement {
+      const tr = document.createElement('tr');
+      tr.dataset.sistem = k.sistem;
+      tr.dataset.siddet = k.siddet;
+
+      const href = kodAdresi(marka, seri, k.kod);
+
+      const tdKod = document.createElement('td');
+      tdKod.className = 'kod-hucre';
+      const aKod = document.createElement('a');
+      aKod.href = href;
+      aKod.textContent = k.kod;
+      tdKod.appendChild(aKod);
+
+      const tdSistem = document.createElement('td');
+      const etiket = document.createElement('span');
+      etiket.className = 'sistem-etiket';
+      etiket.textContent = sozluk.s[k.sistem] ?? k.sistem;
+      tdSistem.appendChild(etiket);
+
+      const tdBaslik = document.createElement('td');
+      tdBaslik.className = 'tablo-baslik';
+      const aBaslik = document.createElement('a');
+      aBaslik.href = href;
+      aBaslik.textContent = k.baslik;
+      tdBaslik.appendChild(aBaslik);
+
+      const sevAd = sozluk.v[k.siddet] ?? k.siddet;
+      const tdSiddet = document.createElement('td');
+      const rozet = document.createElement('span');
+      rozet.className = `rozet rozet-${['durdurucu', 'kisitlayici', 'uyari', 'bilgi'].includes(k.siddet) ? k.siddet : 'bilgi'}`;
+      rozet.title = `Şiddet: ${sevAd}`;
+      rozet.textContent = sevAd;
+      tdSiddet.appendChild(rozet);
+
+      const durumAd = sozluk.d[k.durum] ?? k.durum;
+      const tdDurum = document.createElement('td');
+      const durumRozet = document.createElement('span');
+      durumRozet.className = `durum-rozet durum-${['dogrulandi', 'incelemede', 'taslak'].includes(k.durum) ? k.durum : 'taslak'}`;
+      durumRozet.title = `Doğrulama durumu: ${durumAd}`;
+      durumRozet.textContent = durumAd;
+      tdDurum.appendChild(durumRozet);
+
+      tr.append(tdKod, tdSistem, tdBaslik, tdSiddet, tdDurum);
+      return tr;
+    }
+
+    function satirdanKayit(satir: HTMLTableRowElement): Kayit {
+      const kod = satir.querySelector('.kod-hucre a')?.textContent?.trim() ?? '';
+      const baslik = satir.querySelector('.tablo-baslik a')?.textContent?.trim() ?? '';
+      const sistemAd = satir.querySelector('.sistem-etiket')?.textContent?.trim() ?? '';
+      const siddet = satir.querySelector('.rozet')?.className.match(/rozet-(durdurucu|kisitlayici|uyari|bilgi)/)?.[1] ?? 'bilgi';
+      const durum = satir.querySelector('.durum-rozet')?.className.match(/durum-(dogrulandi|incelemede|taslak)/)?.[1] ?? 'taslak';
+      return {
+        k: kodAnahtar(kod),
+        kod,
+        baslik,
+        sistem: sistemKimligi.get(sistemAd) ?? sistemAd,
+        siddet,
+        durum,
+      };
+    }
 
     function uygula() {
       const sorgu = trNormalize(giris?.value ?? '').trim();
       const anahtar = kodAnahtar(giris?.value ?? '');
-      let sayi = 0;
 
-      for (const satir of satirlar) {
-        const sistemOk = !fSistem?.value || satir.dataset.sistem === fSistem.value;
-        const siddetOk = !fSiddet?.value || satir.dataset.siddet === fSiddet.value;
-        const metin = satir.dataset.arama ?? '';
-        const eslesiyor = !sorgu || metin.includes(sorgu) || (anahtar.length > 0 && metin.includes(anahtar));
-        const goster = sistemOk && siddetOk && eslesiyor;
-        satir.hidden = !goster;
-        if (goster) sayi += 1;
+      if (!pagineli) {
+        // Küçük serilerde sunucu satırları korunur; yalnızca görünürlük değişir.
+        const satirlar = Array.from(govde?.querySelectorAll<HTMLTableRowElement>('tr') ?? []);
+        let sayi = 0;
+        for (const satir of satirlar) {
+          const sistemOk = !fSistem?.value || satir.dataset.sistem === fSistem.value;
+          const siddetOk = !fSiddet?.value || satir.dataset.siddet === fSiddet.value;
+          const metin = satir.dataset.arama ?? '';
+          const eslesiyor = !sorgu || metin.includes(sorgu) || (anahtar.length > 0 && metin.includes(anahtar));
+          const goster = sistemOk && siddetOk && eslesiyor;
+          satir.hidden = !goster;
+          if (goster) sayi += 1;
+        }
+        if (sayac) sayac.textContent = `${sayi} kod`;
+        if (bos) bos.hidden = sayi !== 0;
+        return;
       }
 
-      if (sayac) sayac.textContent = `${sayi} kod`;
-      if (bos) bos.hidden = sayi !== 0;
+      // Büyük serilerde tüm kayıtlar bellekte süzülür; ekran parça parça çizilir.
+      const filtreAktif = Boolean(sorgu || fSistem?.value || fSiddet?.value);
+      const eslesenler = kayitlar.filter((k) => {
+        if (fSistem?.value && k.sistem !== fSistem.value) return false;
+        if (fSiddet?.value && k.siddet !== fSiddet.value) return false;
+        if (!sorgu) return true;
+        const kodOk = Boolean(anahtar) && [k.k, k.kod].some(
+          (x) => x === anahtar || (anahtar.length >= 3 && x.includes(anahtar)),
+        );
+        const metin = trNormalize([
+          k.k, k.kod, k.baslik, sozluk.s[k.sistem] ?? k.sistem, k.sistem,
+        ].join(' '));
+        return kodOk || metin.includes(sorgu);
+      });
+
+      const parca = document.createDocumentFragment();
+      for (const k of filtreAktif ? eslesenler : eslesenler.slice(0, gorunen)) {
+        parca.appendChild(kayittanSatir(k));
+      }
+      govde?.replaceChildren(parca);
+
+      if (tumunu) tumunu.hidden = filtreAktif || gorunen >= eslesenler.length;
+      if (sayac) sayac.textContent = `${eslesenler.length} kod`;
+      if (bos) bos.hidden = eslesenler.length !== 0;
+    }
+
+    if (pagineli) {
+      const gecici = document.createElement('div');
+      gecici.innerHTML = nos?.textContent ?? '';
+      const ilkSatirlar = Array.from(gecici.querySelectorAll<HTMLTableRowElement>('tbody tr'));
+      const rest = JSON.parse(veriEl?.textContent ?? '[]') as Kayit[];
+      kayitlar = [...ilkSatirlar.map(satirdanKayit), ...rest];
+      if (tumunu) tumunu.hidden = false;
     }
 
     giris?.addEventListener('input', uygula);
     fSistem?.addEventListener('change', uygula);
     fSiddet?.addEventListener('change', uygula);
+    tumunu?.addEventListener('click', () => {
+      gorunen += PARCA;
+      uygula();
+    });
+
+    uygula();
   </script>
 </BaseLayout>

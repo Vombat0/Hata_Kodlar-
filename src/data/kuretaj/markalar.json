@@ -1,5 +1,37 @@
 [
   {
+    "id": "baoli",
+    "ad": "Baoli",
+    "grup": "KION Group",
+    "aciklama": "KION'un giriş segment markası. KBE 15-20 akülü model kod kataloğu ve 1-3 t CPD servis manüeli DC kontrolör durum kodları.",
+    "not": "",
+    "renk": "#0D9488"
+  },
+  {
+    "id": "bt",
+    "ad": "BT",
+    "grup": "Toyota Material Handling Europe",
+    "aciklama": "BT, Toyota Material Handling Europe bünyesinde depo ekipmanları ve reach truck üreten markadır.",
+    "not": "BT, Toyota Material Handling Europe markasıdır.",
+    "renk": "#F97316"
+  },
+  {
+    "id": "byd",
+    "ad": "BYD",
+    "grup": "BYD Company",
+    "aciklama": "Lityum bataryalı akülü forklift üreticisi. ECB16/ECB18 operatör manüelindeki gösterge arıza mesajları ve çözüm adımları.",
+    "not": "Kod yerine gösterge metni kullanılır; BYD mesaj tabanlı hata gösterimi kullanır.",
+    "renk": "#15803D"
+  },
+  {
+    "id": "clark",
+    "ad": "Clark",
+    "grup": "Clark Material Handling Company",
+    "aciklama": "Clark GTS20-35L LPG serisinde MMC-PSI (Mitsubishi 4G64) motor kontrol modülünün ürettiği arıza kodları için kaynaklı referans. 83 kod, servis kılavuzu bölüm 17 DTC tablosuna dayandırıldı.",
+    "not": "",
+    "renk": "#16A34A"
+  },
+  {
     "id": "crown",
     "ad": "Crown",
     "grup": "Crown Equipment Corporation",
@@ -12,7 +44,7 @@
     "ad": "Doosan",
     "grup": "Doosan Bobcat",
     "aciklama": "Güney Kore merkezli Doosan, dizel ve elektrikli forkliftler, reach truck ve ağır seri istif makineleri üretir.",
-    "not": "",
+    "not": "Yalnızca elde edilen iki belge kapsamı yayınlandı; -7 serisi için doğrulanmış kod tablosu bulunamadı.",
     "renk": "#0EA5E9"
   },
   {
@@ -20,7 +52,7 @@
     "ad": "EP Equipment",
     "grup": "EP Equipment Co., Ltd.",
     "aciklama": "Çin merkezli EP Equipment, hafif elektrikli istifleyici, palet taşıyıcı ve depo ekipmanlarında geniş bir lityum akülü ürün ailesi sunar.",
-    "not": "",
+    "not": "Otomatik oluşturuldu — marka bilgileri doğrulanmalı.",
     "renk": "#06B6D4"
   },
   {
@@ -48,12 +80,36 @@
     "renk": "#F59E0B"
   },
   {
+    "id": "hyundai",
+    "ad": "Hyundai",
+    "grup": "HD Hyundai",
+    "aciklama": "Güney Koreli üretici. Kaynak: 50D-80D büyük tonaj modellerin ZF EST-65 şanzıman kontrolörü (TCU) onaltılık hata kod tablosu.",
+    "not": "Diğer Hyundai serileri için erişilebilir kamuya açık kod tablosu bulunamadı.",
+    "renk": "#1D4ED8"
+  },
+  {
     "id": "jungheinrich",
     "ad": "Jungheinrich",
     "grup": "Jungheinrich AG",
     "aciklama": "Alman Jungheinrich AG; elektrikli forklift, reach truck, istifleyici ve otomatik depo sistemleriyle Avrupa iç lojistik pazarının önde gelen markalarından biridir.",
     "not": "",
     "renk": "#FACC15"
+  },
+  {
+    "id": "kalmar",
+    "ad": "Kalmar",
+    "grup": "Kalmar",
+    "aciklama": "Limanağırlık ekipmanları üreticisi. D79x kontrol sisteminin EDU 795 gösterge, ECU 790 makine, ECU 796 hidrolik/ataçman ve ECU 792 direksiyon ünitelerinin kod tabloları.",
+    "not": "DRF400-450 (VDRF03.01GB) ve DCE 90-180 (VDCE10.03GB) atölye manüelleri de indirildi; farklı ünite versiyonları olduğundan ana kaynak olarak HTML D79x tablosu kullanıldı.",
+    "renk": "#0284C7"
+  },
+  {
+    "id": "komatsu",
+    "ad": "Komatsu",
+    "grup": "Komatsu",
+    "aciklama": "Komatsu forkliftler; AX50/BX50 FG-FD serisinde ISO araç kontrolörü hata lambası ve elektrikli direksiyon LED fış kodları ile arıza bildirir.",
+    "not": "",
+    "renk": "#EAB308"
   },
   {
     "id": "linde",
@@ -64,12 +120,44 @@
     "renk": "#1D4ED8"
   },
   {
+    "id": "mitsubishi",
+    "ad": "Mitsubishi / Caterpillar",
+    "grup": "Mitsubishi Logisnext",
+    "aciklama": "Mitsubishi elektrikli ve IC forkliftler; COMBIACX kombinasyon sürücüsü alarm kodları ile Mitsubishi motor/kontrolör aile referansları. Caterpillar forkliftler Mitsubishi altyapısını paylaşır.",
+    "not": "",
+    "renk": "#DC2626"
+  },
+  {
+    "id": "nissan-unicarriers",
+    "ad": "Nissan / UniCarriers",
+    "grup": "UniCarriers (KION)",
+    "aciklama": "Eski Nissan forklift markası; elektrikli modellerde sürücü sayısal kodları, LPG motorlarda VCM D/E/F flaş kodları kullanılır.",
+    "not": "",
+    "renk": "#B91C1C"
+  },
+  {
+    "id": "noblelift",
+    "ad": "Noblelift",
+    "grup": "Noblelift",
+    "aciklama": "Çinli akülü forklift üreticisi. Curtis tarzı kontrolör kodları; FE4P50N için neden + çözüm içeren katalog, FE3D için DTC tablosu.",
+    "not": "",
+    "renk": "#F97316"
+  },
+  {
     "id": "still",
     "ad": "Still",
     "grup": "KION Group",
     "aciklama": "Still, KION Group bünyesinde forklift, reach truck, çekici ve depo ekipmanı üreten Alman markasıdır.",
     "not": "Still, KION Group markasıdır.",
     "renk": "#111827"
+  },
+  {
+    "id": "tcm",
+    "ad": "TCM",
+    "grup": "KION Group (UniCarriers)",
+    "aciklama": "Japon markalı akülü forkliftler; FB-6 DC ve FB-7 transistörlü kontrolör hata kodları LED eşleştirmeleriyle birlikte.",
+    "not": "",
+    "renk": "#B91C1C"
   },
   {
     "id": "toyota",

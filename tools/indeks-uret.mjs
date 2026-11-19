@@ -41,10 +41,14 @@ for (const dosya of dosyalar) {
     if (!kod || typeof kod.kod !== 'string') continue;
     kayitlar.push({
       kodNormal: kodAnahtar(kod.kodNormal || kod.kod),
+      // Arama sonucunda gösterilen ve bağlantı üretilen asıl kod gösterimi.
+      kod: kod.kod,
       marka: seri.marka ?? '',
       seri: seri.seri ?? '',
       baslik: kod.baslik ?? '',
+      sistem: kod.sistem ?? 'diger',
       siddet: kod.siddet ?? 'bilgi',
+      durum: kod.durum ?? 'taslak',
     });
   }
 }

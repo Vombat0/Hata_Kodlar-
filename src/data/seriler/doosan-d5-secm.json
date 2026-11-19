@@ -1,0 +1,370 @@
+{
+  "marka": "doosan",
+  "seri": "d5-secm",
+  "modelAdi": "Doosan D/G/GC 20-35 -5 serisi (benzinli/LPG, GM SECM motor kontrol)",
+  "kaynakBelge": "Doosan Forklift Truck Error Flash Codes DTC listesi (forkliftpdfmanuals.com, SECM 42-teşhis tablosu)",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan-error-codes/",
+  "kodlar": [
+    {
+      "kod": "12",
+      "kodNormal": "12",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kod listesinin sonu göstergesi",
+      "aciklama": "SECM flash kod okumasında 12 kodu bir arıza değil, hata listesinin bir turunu tamamladığını bildiren sondur; okuma döngüsü bu koda ulaşınca başka kayıtlı kod yoktur.",
+      "makineTepkisi": "Yalnızca bilgilendirme gösterilir, motora müdahale edilmez",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Kalibrasyon kaybı",
+        "Besleme gerilimi hatası",
+        "Bileşen arızası"
+      ],
+      "kontroller": [
+        "Kod tekrarlıyorsa okuma prosedürünü baştan uygulayın; başka kod görünmüyorsa kayıtlı arıza yoktur",
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Arızalı bileşeni onarın veya değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "131",
+      "kodNormal": "131",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Enjektör 1 devresi açık",
+      "aciklama": "Birinci silindir benzin enjektörünün sürme devresinde açık devre tespit edilir; kablo kopuk ya da enjektörün kendisi arızalı olabilir.",
+      "makineTepkisi": "Arıza lambası (MIL) yanar, motorun çalışmaya devam eder",
+      "siddet": "uyari",
+      "nedenler": [
+        "Enjektör 1 besleme/şase kablosunda kopukluk",
+        "Enjektör 1'in kendisi arızalı"
+      ],
+      "kontroller": [
+        "SECM A5 pin ile enjektör 1 A pin arasındaki INJ1 kablosunda açık devre arayın",
+        "Enjektör 1 B ucunun B12 pinine bağlı olduğunu doğrulayın",
+        "Enjektör 1 sarım direncini soğuk halde 12-14 ohm aralığında ölçün"
+      ],
+      "ilgiliKodlar": [
+        "132",
+        "133",
+        "134"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "132",
+      "kodNormal": "132",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Enjektör 2 devresi açık",
+      "aciklama": "İkinci silindir enjektörünün sürme devresi açık devreye düşer; sebep kopuk kablo ya da bozuk enjektör olabilir.",
+      "makineTepkisi": "Arıza lambası (MIL) yanar, motorun çalışmaya devam eder",
+      "siddet": "uyari",
+      "nedenler": [
+        "Enjektör 2 kablosunda kopukluk",
+        "Enjektör 2 arızalı"
+      ],
+      "kontroller": [
+        "SECM A8 sinyal pininden enjektör 2 A pinine INJ2 kablosunu açık devre yönünde kontrol edin",
+        "B ucunun B12 piniyle sürekliliğine bakın",
+        "Enjektör 2 direncini soğukken 12-14 ohm olarak ölçün"
+      ],
+      "ilgiliKodlar": [
+        "131",
+        "133",
+        "134"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "133",
+      "kodNormal": "133",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Enjektör 3 devresi açık",
+      "aciklama": "Üçüncü silindir enjektör devresi açık devre durumundadır; kablo kopması ya da enjektörün bozulması beklenen sebeplerdir.",
+      "makineTepkisi": "Arıza lambası (MIL) yanar, motorun çalışmaya devam eder",
+      "siddet": "uyari",
+      "nedenler": [
+        "Enjektör 3 kablosunda kopukluk",
+        "Enjektör 3 arızalı"
+      ],
+      "kontroller": [
+        "SECM A4 sinyal pini ile enjektör 3 A pini arasındaki kabloda açıklık arayın",
+        "B12 bağlantısını doğrulayın",
+        "Enjektör 3 soğuk direncini 12-14 ohm sınırında ölçün"
+      ],
+      "ilgiliKodlar": [
+        "131",
+        "132",
+        "134"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "134",
+      "kodNormal": "134",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Enjektör 4 devresi açık",
+      "aciklama": "Dördüncü silindir enjektörünün sürme devresinde süreksizlik saptanır; kablo kopuğu veya hatalı enjektör tipiktir.",
+      "makineTepkisi": "Arıza lambası (MIL) yanar, motorun çalışmaya devam eder",
+      "siddet": "uyari",
+      "nedenler": [
+        "Enjektör 4 kablosunda kopukluk",
+        "Enjektör 4 arızalı"
+      ],
+      "kontroller": [
+        "SECM A7 sinyal pininden enjektör 4 A pinine INJ4 hattını kontrol edin",
+        "B12 pini bağlantısını deneyin",
+        "Enjektör 4 sarım direnci soğukta 12-14 ohm olmalı"
+      ],
+      "ilgiliKodlar": [
+        "131",
+        "132",
+        "133"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "141",
+      "kodNormal": "141",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Soğutma suyu sensörü düşük ölçüm aralığı",
+      "aciklama": "Motorun soğutma sıcaklık sensörü (ECT) beklenenin altında sinyal verir; sensör arızalıdır ya da sinyal hattı şaseye (GND) kısa yapmıştır.",
+      "makineTepkisi": "Arıza lambası (MIL) yanar, motorun çalışmaya devam eder",
+      "siddet": "uyari",
+      "nedenler": [
+        "ECT sensörü arızalı",
+        "Sensör sinyal hattı GND'ye kısa devre yapmış"
+      ],
+      "kontroller": [
+        "ECT konnektöründe ve kablosunda GND'ye kısa devre arayın",
+        "B15/3 sinyalinin ECT şasesine, B1/1 hattının sistem şasesine (A16, B17) doğru gittiğini doğrulayın"
+      ],
+      "ilgiliKodlar": [
+        "151",
+        "161"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "151",
+      "kodNormal": "151",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Soğutma suyu sensörü yüksek ölçüm aralığı",
+      "aciklama": "ECT sensörü üst sınırı aşan sinyal üretir; sensör bağlantısı kopmuş ya da devre açık kalmıştır. SECM güvenilmez sıcaklık okumasına karşı tedbir alır.",
+      "makineTepkisi": "MIL yanar; gecikmiş motorun kapatma (delayed kapanma) ve kontrol motoru ikazı devreye girer",
+      "siddet": "uyari",
+      "nedenler": [
+        "ECT sensörü konektörü çıkmış",
+        "Sensör devresi açık devre"
+      ],
+      "kontroller": [
+        "Sensör konektörünün takılı ve temastan kopuk olmadığını kontrol edin",
+        "B15/3 ve B1/1 hatlarında süreksizlik arayın (şase referanslarını ölçün)"
+      ],
+      "ilgiliKodlar": [
+        "141",
+        "161"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "161",
+      "kodNormal": "161",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Soğutma suyu sıcaklığı aşırı yüksek",
+      "aciklama": "ECT sensörü aşırı yüksek sıcaklık ölçer; pratikte motorun aşırı ısınmıştır ya da sensör GND'ye sarkmıştır. Soğutma sistemi önce incelenmelidir.",
+      "makineTepkisi": "MIL yanar; gecikmiş motorun kapatma (delayed kapanma) ve kontrol motoru ikazı devreye girer",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motorun aşırı ısınması",
+        "Radyatörde/soğutma devresinde kaçak veya düşük seviye",
+        "ECT sinyal hattının GND'ye kısa yapması"
+      ],
+      "kontroller": [
+        "Radyatör kapağından soğutma suyu seviyesini ve sistem kaçaklarını kontrol edin",
+        "Regülatörde soğutma suyu kaçağı arayın",
+        "ECT sinyal kablosunun SECM bağlantısını ölçün"
+      ],
+      "ilgiliKodlar": [
+        "141",
+        "151"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "171",
+      "kodNormal": "171",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Soğutma suyu sıcaklığı beklenen değişimi göstermiyor",
+      "aciklama": "Motorun ısınmasına rağmen ECT sinyali beklenen ivmeyle yükselmez; soğutma devresindeki mekanik bir sorun sıcaklık okumasını bozar.",
+      "makineTepkisi": "MIL yanmaz; SECM okumayı izlemeden çalışmaya devam eder",
+      "siddet": "uyari",
+      "nedenler": [
+        "Termostat bozuk veya açık/kalıp kalmış",
+        "Soğutma devresinde dolaşım sorunu"
+      ],
+      "kontroller": [
+        "Termostatın açılma davranışını ve soğutma sistemi dolaşımını kontrol edin",
+        "Sıcaklığı ölçün",
+        "Soğutucu yüzeyleri ve kanalları temizleyin",
+        "Radyatör ve termostatı kontrol edin"
+      ],
+      "ilgiliKodlar": [
+        "141",
+        "161"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "181",
+      "kodNormal": "181",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Yakıt seçimi sinyali çakışması",
+      "aciklama": "Yakıt seçimi için kullanılan iki sinyal aynı anda şaseye çekili bulunur; kurulum hatası veya şalter kaçaklıdır.",
+      "makineTepkisi": "Arıza lambası (MIL) yanar, motorun çalışmaya devam eder",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt seçim switchinin her iki sinyal ucunun birden GND'ye kapanması",
+        "Yanlış montaj/kablo ezilmesi"
+      ],
+      "kontroller": [
+        "Yakıt seçim şalter bağlantılarında GND'ye kısa devre arayın",
+        "SECM A12/A15 sinyal ve B1 sensör şase pinlerini kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "191",
+      "kodNormal": "191",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Kam sensörü sinyali yok",
+      "aciklama": "Motorun bilinen şekilde dönmesine rağmen kam sensöründen kenar sinyali gelmez; kablo kopuk ya da sensör bozuktur.",
+      "makineTepkisi": "Kaynak bu durumda yalnızca MIL yanmadığını (None) bildirir; motorun zor çalışır",
+      "siddet": "uyari",
+      "nedenler": [
+        "CAM sensör kablolarında kopukluk",
+        "CAM sensörü arızalı"
+      ],
+      "kontroller": [
+        "SECM B10 sinyal ve B3 sensör şase hatlarından CAM sensörüne giden kabloları ölçün",
+        "Sensör beslemesini (12V) kontrol edin",
+        "Arızalıysa CAM sensörünü değiştirin"
+      ],
+      "ilgiliKodlar": [
+        "192"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "192",
+      "kodNormal": "192",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kam sensörü senkron kaybı",
+      "aciklama": "CAM sinyalinin diş senkronizasyonu kaybolur; genelde hatta giren elektriksel gürültü ya da sensör bağlantısının kopması etkendir.",
+      "makineTepkisi": "Kaynak bu durumda MIL yanmadığını (None) bildirir; çalışmada düzensizlik görülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sinyal hattında gürültü",
+        "CAM sensör bağlantısında ara kopma"
+      ],
+      "kontroller": [
+        "CAM sensör kablo ve konektörlerini (SECM B10/B3) kontrol edin",
+        "Sensörün 12V beslemesini ölçün",
+        "Kablolara paralel giden güç kablolarını ayırın"
+      ],
+      "ilgiliKodlar": [
+        "191"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "193",
+      "kodNormal": "193",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Krank sensörü sinyali yok",
+      "aciklama": "Marş/krank anında krank milinden kenar sinyali alınamaz; sensör kabloları kopmuş veya krank sensörü bozulmuştur.",
+      "makineTepkisi": "Kaynak MIL yanmadığını (None) bildirir; motorun ateşleme referansı alamaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Krank sensörü kablo kopukluğu",
+        "Krank sensörü arızası"
+      ],
+      "kontroller": [
+        "SECM B5/3 sinyal ve B1/2 sensör şasesinden krank sensörüne kadar kabloyu ölçün",
+        "Sensör 12V beslemesini doğrulayın",
+        "Arızalı sensörü değiştirin"
+      ],
+      "ilgiliKodlar": [
+        "194"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "194",
+      "kodNormal": "194",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Krank sensörü senkron kaybı",
+      "aciklama": "Krank sensörü sinyal dizisi senkronunu yitirir; hat gürültüsü veya sensör bağlantısındaki ara kopma tipik etkendir.",
+      "makineTepkisi": "Kaynak MIL yanmadığını (None) bildirir; devir okuması güvensizleşir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sinyal hattı gürültüsü",
+        "Krank sensörü bağlantısında ara kopma"
+      ],
+      "kontroller": [
+        "Krank sensörü konektör ve kablolarını (SECM B5/3, B1/2) kontrol edin",
+        "12V beslemeyi ölçün",
+        "Arızalı sensörü değiştirin"
+      ],
+      "ilgiliKodlar": [
+        "193"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/doosan-error-codes/",
+      "durum": "incelemede"
+    }
+  ]
+}

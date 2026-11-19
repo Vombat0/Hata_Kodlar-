@@ -1,0 +1,2070 @@
+{
+  "marka": "bt",
+  "seri": "rre-160m",
+  "modelAdi": "BT RRE 160M (RR M12/14/16, RRE120M/140M)",
+  "kaynakBelge": "RM_rre160m",
+  "kaynakSurum": "232809-020 (2013-03-20)",
+  "kaynakDil": "EN",
+  "kaynakUrl": "",
+  "kodlar": [
+    {
+      "kod": "3",
+      "kodNormal": "3",
+      "aliaslar": [
+        "3"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "TLS çarpışma sensörü devreye girdi",
+      "aciklama": "TLS üzerinden darbe (çarpışma) sensörü devreye girdi; araç bir cisme çarptığında hız sürüngen hıza düşer. Hata belleğine kaydedilmeyen uyarı kodu olarak görüntülenir.",
+      "makineTepkisi": "Sürüş hızı sürüngen hıza düşer",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sürücü bir cisme çarptı; darbe seviyesi tanımlı sınırları aştı"
+      ],
+      "kontroller": [
+        "Klavyeden sıfırlama kodunu girin; fabrika çıkış varsayılanı 11111'dir."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 236,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "4",
+      "kodNormal": "4",
+      "aliaslar": [
+        "4"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "TLS kodlamasıyla araç devre dışı",
+      "aciklama": "TLS içine stop (durdurma) kodu programlandığı için araç devre dışı; sürüş hızı sürüngen hıza iner. Hata belleğine kaydedilmeyen uyarı kodu olarak görüntülenir.",
+      "makineTepkisi": "Sürüş hızı sürüngen hıza düşer",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "TLS içine stop kodu programlanmış"
+      ],
+      "kontroller": [
+        "Sıfırlama kodunu TLS üzerinden veya servis kodu ile tanımlayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 236,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "5",
+      "kodNormal": "5",
+      "aliaslar": [
+        "5"
+      ],
+      "sistem": "iletisim",
+      "baslik": "I/O ünitesiyle iletişim yok",
+      "aciklama": "Giriş/çıkış (I/O) ünitesiyle CAN iletişimi kurulamıyor; sistem düzeltici işlem uygulamaz. I/O ünitesi, CAN kablosu ve 30 numaralı parametre ayarı kontrol edilmeli.",
+      "makineTepkisi": "Düzeltici işlem yok",
+      "siddet": "uyari",
+      "nedenler": [
+        "I/O ünitesi arızalı",
+        "CAN kablosu arızalı"
+      ],
+      "kontroller": [
+        "I/O ünitesi bağlı değilse 30 numaralı parametreyi sıfırlayın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 236,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "11",
+      "kodNormal": "11",
+      "aliaslar": [
+        "11"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Soğutma flansı aşırı ısındı",
+      "aciklama": "Elektronik kart soğutma flansı aşırı ısındı; sıkışmış yönlendirme/mekanizma, kilitli yönlendirme rulmanları, arızalı yönlendirme motoru veya A5 kartı neden olabilir. Motor/gear soğutulup kontrol edilmeli.",
+      "makineTepkisi": "Yönlendirme motoru akımı düşer, hız sürüngen hıza iner",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Yönlendirme/mekanizma sıkışmış; motor ve dişliyi soğutup kontrol edin",
+        "Yönlendirme rulmanları kilitlenmiş",
+        "Yönlendirme motoru arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 327,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "13",
+      "kodNormal": "13",
+      "aliaslar": [
+        "13"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Yükseklik sensöründen darbe gelmiyor",
+      "aciklama": "Çatal kaldırma/indirme sırasında yükseklik ölçüm sensöründen yetersiz darbe alınıyor; A5 üzerindeki RV1 potansiyometre ayarı, U10 yükseklik sensörü, hidrolik yağ kalitesi ve çatal taşıyıcı ağırlığı kontrol edilmeli.",
+      "makineTepkisi": "Düzeltici işlem yok; yalnız uyarı",
+      "siddet": "uyari",
+      "nedenler": [
+        "A5 elektronik kartındaki RV1 potansiyometresi yanlış ayarlanmış",
+        "U10 yükseklik sensörü veya kablolaması arızalı",
+        "Hidrolik yağ kalitesi hatalı",
+        "Çatal taşıyıcı çok hafif (çatalar takılı değil)"
+      ],
+      "kontroller": [
+        "A5 kartındaki RV1 potansiyometresini saat yönünün tersine çevirip valf akışını doğru indirme hızı sağlanana dek artırın",
+        "U10 yükseklik sensörü: kaldırma sırasında LD301/LD302 LED'lerinin yanıp söndüğünü kontrol edin; hiç yanmıyorsa beslemeye, seyrek yanıyorsa sensör telinin kaymadığına bakın; mekanik sağlamsa 98 (ak) giriş 301 ve 99 (siyah) giriş 302 kablolarının bütünlüğünü kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 328,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "14",
+      "kodNormal": "14",
+      "aliaslar": [
+        "14"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Koltuk şalteri araç dururken uzun süre basılı",
+      "aciklama": "Koltuk şalteri araca hareket ettirilmeden 20 dakikadan uzun süre aktif; şalter sıkışmış, şalter/kablo arızalı ya da A5 kartı hatalı olabilir.",
+      "makineTepkisi": "Düzeltici işlem yok; koltuk sensörü gözetimi",
+      "siddet": "uyari",
+      "nedenler": [
+        "Şalter sıkışmış/kilitlenmiş",
+        "Şalter/kablolama arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "LD203 sürekli yanık ise koltuk şalterinin sıkışmadığını kontrol edin ve S89'daki 49 numaralı kabloyu gevşetin.",
+        "LD203 sönmezse kabloyu 203 kontağından da gevşeterek kontrol edin.",
+        "LD203 sönmezse A5 elektronik kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 330,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "15",
+      "kodNormal": "15",
+      "aliaslar": [
+        "15"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Güvenlik şalteri araç dururken uzun süre basılı",
+      "aciklama": "Sol ayak güvenlik şalteri [S23] araç hareket etmeden 20 dakikadan uzun süre aktif; şalter sıkışmış ya da kablo/şalter arızalı olabilir.",
+      "makineTepkisi": "Düzeltici işlem yok; güvenlik şalteri gözetimi",
+      "siddet": "uyari",
+      "nedenler": [
+        "Şalter sıkışmış/kilitlenmiş",
+        "Şalter/kablolama arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "LD110 sürekli yanık ise güvenlik şalterinin sıkışmadığını kontrol edin ve S23'teki 43 numaralı kabloyu gevşetin.",
+        "LD110 sönüyorsa S23'ün fonksiyonunu kontrol edin.",
+        "LD110 sönmezse kabloyu 110 kontağından da gevşeterek kontrol edin.",
+        "LD110 sönmezse A5 elektronik kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 331,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "16",
+      "kodNormal": "16",
+      "aliaslar": [
+        "16"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Baslangıçta gaz potansiyometresi gerilimi hatalı",
+      "aciklama": "Açılışta gaz potansiyometresi [R1] gerilimi kalibre edilmiş değerin ±0,2 V dışında; pedal kalkışa basılı kalmış, potansiyometre/braket/kablo arızalı ya da kalibrasyon hatası var.",
+      "makineTepkisi": "Çalıştırma hatası: araç kalkışa izin vermez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Çalıştırma sırasında gaz pedalına basılmıştı",
+        "Potansiyometre/braket/kablo arızalı",
+        "Kalibrasyon hatası.",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Hız kumandasının basılı konumda takılı kalmadığını kontrol edin.",
+        "R1 potansiyometresinin konumunda takılı kalmadığını kontrol edin.",
+        "Hız kumandasının kalibrasyonu.",
+        "Servis menüsünde anahtar I ile değeri 1'e ayarlayıp onaylayın, kontakt şalteri açıp kapatın; hız, fren ve hidrolik joystik potansiyometreleri kalibre olur; ardından taşıyıcıyı iç ve dış sınıra kadar hareket ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 332,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "17",
+      "kodNormal": "17",
+      "aliaslar": [
+        "17"
+      ],
+      "sistem": "fren",
+      "baslik": "Baslangıçta fren pedalı potansiyometresi hatalı",
+      "aciklama": "Açılışta fren pedalı potansiyometresi [R2] gerilimi kalibre değerin ±0,2 V dışında; pedal basılı kalmış, potansiyometre/kablo arızalı ya da kalibrasyon hatası var.",
+      "makineTepkisi": "Çalıştırma hatası: araç kalkışa izin vermez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Çalıştırmada fren pedalına basılmıştı",
+        "Potansiyometre/braket/kablo arızalı",
+        "Kalibrasyon hatası.",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Fren pedalının basılı konumda takılı kalmadığını kontrol edin.",
+        "R2 potansiyometresinin konumunda takılı kalmadığını kontrol edin.",
+        "Fren kumandasının kalibrasyonu.",
+        "Servis menüsünde anahtar I ile değeri 1'e ayarlayıp onaylayın, kontakt şalteri açıp kapatın; hız, fren ve hidrolik joystik potansiyometreleri kalibre olur; ardından taşıyıcıyı iç ve dış sınıra kadar hareket ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 334,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "18",
+      "kodNormal": "18",
+      "aliaslar": [
+        "18"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kart pili gerilimi tükendi",
+      "aciklama": "Elektronik kart üzerindeki yedekleme pili minimum gerilime ulaştı; pilin değişmesi gerekir.",
+      "makineTepkisi": "Dahili saat durur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Akü gerilimi çok düşük"
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 335,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "19",
+      "kodNormal": "19",
+      "aliaslar": [
+        "19"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Programlanmış değerler kayboldu",
+      "aciklama": "Karta daha önce programlanan değerler kaybolmuş ve standart değerler yüklenmiş; A5 kartının yerinden oynamış olabileceği düşünülmeli ve parametreler yeniden programlanmalı.",
+      "makineTepkisi": "Standart parametre değerleri yüklendi",
+      "siddet": "uyari",
+      "nedenler": [
+        "A5 elektronik kartı yerinden oynamış"
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 335,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "21",
+      "kodNormal": "21",
+      "aliaslar": [
+        "21"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma/indirme joystiği açılış gerilimi hatalı",
+      "aciklama": "Açılışta çatal kaldırma/indirme potansiyometresi [R11] gerilimi ±0,4 V dışında; joystik konumunda kalmış, potansiyometre/kablo arızalı ya da kalibrasyon hatası var.",
+      "makineTepkisi": "Çalıştırma hatası: kaldırma kumandası geçersiz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Çalıştırma sırasında joystik kumanda edilmiş konumdaydı",
+        "Potansiyometre/braket/kablo arızalı",
+        "Kalibrasyon hatası.",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 336,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "22",
+      "kodNormal": "22",
+      "aliaslar": [
+        "22"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Eğme (tilt) potansiyometresi açılışta hatalı",
+      "aciklama": "Açılışta çatal eğme potansiyometresi [R13] gerilimi ±0,4 V dışında; joystik sıkışmış, potansiyometre/braket/kablo arızalı ya da kalibrasyon hatası var.",
+      "makineTepkisi": "Çalıştırma hatası: eğme kumandası geçersiz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Çalıştırma sırasında joystik kumanda edilmiş konumdaydı",
+        "Potansiyometre/braket/kablo arızalı",
+        "Kalibrasyon hatası.",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Eğme (tilt) joystiğinin aktif konumda sıkışmadığını kontrol edin.",
+        "R13 potansiyometresinin konumunda takılı kalmadığını kontrol edin.",
+        "Eğme kumandasının kalibrasyonu: joystiğin nötr konumda olduğunu doğrulayın ve kontakt şalteri açıp kapatın.",
+        "Joystik artık kalibre edildi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 337,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "23",
+      "kodNormal": "23",
+      "aliaslar": [
+        "23"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Mast uzatma potansiyometresi açılışta hatalı",
+      "aciklama": "Açılışta mast ileri/geri hareket potansiyometresi [R12] gerilimi ±0,4 V dışında; joystik konumunda kalmış ya da potansiyometre/kablo arızalı.",
+      "makineTepkisi": "Çalıştırma hatası: ileri-geri kumandası geçersiz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Çalıştırma sırasında joystik kumanda edilmiş konumdaydı",
+        "Potansiyometre/braket/kablo arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Mast ileri/geri uzatma joystiğinin aktif konumda sıkışmadığını kontrol edin.",
+        "R12 potansiyometresinin konumunda takılı kalmadığını kontrol edin.",
+        "Mast ileri/geri uzatma kumandasının kalibrasyonu: joystiğin nötr konumda olduğunu doğrulayın ve kontakt şalteri açıp kapatın.",
+        "Joystik artık kalibre edildi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 338,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "24",
+      "kodNormal": "24",
+      "aliaslar": [
+        "24"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ekstra fonksiyon potansiyometreleri açılışta hatalı",
+      "aciklama": "Açılışta '1' ve '2' ekstra hidrolik fonksiyon potansiyometreleri [R14/R15] gerilimi ±0,4 V dışında; joystikler sıkışmış, potansiyometre arızalı ya da 15/16 parametreleri bağlı olmayan potansiyometre için 1 olarak kalmış.",
+      "makineTepkisi": "Çalıştırma hatası: ekstra fonksiyon kumandası geçersiz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Çalıştırma sırasında joystik kumanda edilmiş konumdaydı",
+        "Potansiyometre/braket/kablo arızalı",
+        "15/16 parametreleri 1 olarak ayarlanmış ancak potansiyometre bağlı değil",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Ekstra hidrolik fonksiyonun iki joystiğinin de aktif konumda sıkışmadığını kontrol edin.",
+        "R14 ve R15 potansiyometrelerinin konumlarında takılı kalmadığını kontrol edin.",
+        "Ekstra hidrolik fonksiyon kumandasının kalibrasyonu: iki joystiğin de nötr konumda olduğunu doğrulayın ve kontakt şalteri açıp kapatın.",
+        "Joystik artık kalibre edildi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 339,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "25",
+      "kodNormal": "25",
+      "aliaslar": [
+        "25"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Çıkış kademesi hatası",
+      "aciklama": "Çıkış kademesinde hata algılandı; ayar mastı Y12 acil şalteri [S133] devreye girmiş olabilir, ayrıntı için 50-62 kodlarına bakılmalı.",
+      "makineTepkisi": "Genel hata: ilgili işlev durur",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Y12 (ayar mastı) acil şalteri S133 devreye girdi",
+        "Ayrıntı için 50-62 kodlarına bakın"
+      ],
+      "kontroller": [
+        "Dirsek panelinin altındaki S133 şalterini kontrol edin.",
+        "Kayıtlı uyarı kodlarını görüntülemek için: kontağı kart beslemeli konuma getirin, I-III tuşlarıyla sürücü numarasını girin, saat yanıp sönene kadar (~5 sn) anahtar I'ye basılı tutun ve sonraki işleve geçmek için tekrar basın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 340,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "26",
+      "kodNormal": "26",
+      "aliaslar": [
+        "26"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Giriş kademesi hatası",
+      "aciklama": "Giriş kademesinde hata; ayrıntı için 90-94 potansiyometre kodlarına bakılmalı.",
+      "makineTepkisi": "Genel hata: ilgili giriş işlevi durur",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Ayrıntı için 90-94 kodlarına bakın"
+      ],
+      "kontroller": [
+        "Kayıtlı uyarı kodlarını görüntülemek için: kontağı kart beslemeli konuma getirin, I-III tuşlarıyla sürücü numarasını girin, saat yanıp sönene kadar (~5 sn) anahtar I'ye basılı tutun ve sonraki işleve geçmek için tekrar basın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 341,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "27",
+      "kodNormal": "27",
+      "aliaslar": [
+        "27"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü ölçümü hatalı",
+      "aciklama": "Akü şarj göstergesi ölçüm devresi hatalı; göstergeye gerilim beslemesi (kablo 70/72), şant bağlantıları, A5 kartı veya akü kontrol edilmeli.",
+      "makineTepkisi": "Akü göstergesi yanıp söner",
+      "siddet": "uyari",
+      "nedenler": [
+        "Akü göstergesine gerilim gelmiyor.",
+        "Akü ölçüm kablolarında kötü temas",
+        "A5 elektronik kartı arızalı",
+        "Akü arızalı"
+      ],
+      "kontroller": [
+        "Akü göstergesine +48 VDC beslemeyi kontrol edin: 70 numaralı kablo 601 bağlantısına eksi, 71 numaralı kablo 602 bağlantısına eksi verir.",
+        "72 numaralı kablonun ve kontaklarının şanttan 603 bağlantısına kadar sağlam ve temaslı olduğunu kontrol edin.",
+        "1. ve 2. adımlarda sorun bulunmazsa yeni bir A5 kartla test edin.",
+        "Akünün sağlam olduğu testle doğrulamak için akü üreticisinden yardım alın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 342,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "28",
+      "kodNormal": "28",
+      "aliaslar": [
+        "28"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Acil stop şalteri devrede",
+      "aciklama": "Acil şalter [S21] aktif; sürücü müdahalesi, arızalı şalter/kablo ya da A5 kartı olası. S21 sıfırlanıp S17 kapatılıp açılmalı.",
+      "makineTepkisi": "Acil kapatma: ana kontaktör açılır, park freni devrede",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sürücü müdahalesi",
+        "Şalter/kablolama arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "S21 acil stop şalterinin aktif olmadığını kontrol edin.",
+        "LED 809 yanmıyorsa devrede kopukluk vardır.",
+        "S21 basılı değilse kesinti olmamalıdır.",
+        "S21 ve kabloları sağlamsa A5 kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 343,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "29",
+      "kodNormal": "29",
+      "aliaslar": [
+        "29"
+      ],
+      "sistem": "diger",
+      "baslik": "Bakım süresi sıfırlandı/geldi",
+      "aciklama": "Servis zamanı sayacı sıfır konumunda; bakım zamanı gelmiş, sayaç parametre ile sıfırlanmalı.",
+      "makineTepkisi": "Düzeltici işlem yok; bakım hatırlatması",
+      "siddet": "uyari",
+      "nedenler": [
+        "Bakım zamanı geldi."
+      ],
+      "kontroller": [
+        "25 numaralı bakım parametresini servis anahtarıyla sıfırlayın: anahtar I'ye kontağı çevirirken basın ve II ile parametreye ilerleyin.",
+        "Anahtar I ile ekranda yanıp sönme sırasında mevcut değeri onaylamak için tekrar basın; değiştirmek için II/III tuşlarını kullanın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 344,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "40",
+      "kodNormal": "40",
+      "aliaslar": [
+        "40"
+      ],
+      "sistem": "motor",
+      "baslik": "Sürüş motoru sıcaklık uyarısı",
+      "aciklama": "Sürüş motoru [M1] aşırı ısındı ya da sıcaklık sensörü [B1]/kablosu arızalı; motor bölmesi havalandırması ve M10 fanı kontrol edilmeli.",
+      "makineTepkisi": "Maksimum akım düşürülür",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sürüş motoru M1 aşırı ısındı",
+        "Sıcaklık sensörü/kablolama arızalı",
+        "Sürüş regülatörü [A1] arızalı."
+      ],
+      "kontroller": [
+        "Havalandırmanın yeterli olduğunu, özellikle motor bölmesindeki M10 fanını kontrol edin.",
+        "B1 sensörünü kontrol edin; X26 bağlantısını gevşetin.",
+        "B1 ve kabloları sağlamsa A1'i değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 345,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "41",
+      "kodNormal": "41",
+      "aliaslar": [
+        "41"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş frekans konvertörü sıcaklık uyarısı",
+      "aciklama": "Sürüş motoru frekans konvertörü aşırı ısındı; havalandırma ve regülatör yanındaki M12 fanı kontrol edilmeli, sürüş regülatörü [A1] arızalı olabilir.",
+      "makineTepkisi": "Maksimum akım düşürülür",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sürüş regülatörü aşırı ısındı",
+        "Fan arızalı",
+        "Sürüş regülatörü [A1] arızalı."
+      ],
+      "kontroller": [
+        "Havalandırmanın yeterli olduğunu kontrol edin.",
+        "Motor regülatörleri yanındaki M12 fanını kontrol edin.",
+        "Havalandırma normalse A1'i değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 346,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "42",
+      "kodNormal": "42",
+      "aliaslar": [
+        "42"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Konvertör akım kalibrasyon hatası",
+      "aciklama": "Sürüş motoru frekans konvertöründe akım kalibrasyon hatası; sürüş regülatörü [A1] arızalı ve değiştirilmeli.",
+      "makineTepkisi": "Düzeltici işlem yok; kalibrasyon uyarısı",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sürüş regülatörü [A1] arızalı."
+      ],
+      "kontroller": [
+        "Sürüş regülatörünü [A1] değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 346,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "43",
+      "kodNormal": "43",
+      "aliaslar": [
+        "43"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Motor darbe sensörü sayısı hatalı",
+      "aciklama": "Sürüş motoru darbe (pulse) sensöründen [U11] yanlış sayıda darbe geliyor; sensör/kablo veya sürüş regülatörü arızalı olabilir.",
+      "makineTepkisi": "Genel hata: hız ölçüm güvenilmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sensör/kablolama arızalı.",
+        "Sürüş regülatörü arızalı."
+      ],
+      "kontroller": [
+        "U11 sensörünün kablolamasını kontrol edin: X27 bağlantısını gevşetin, X27 ile A1 üzerindeki 3-6 numaralı bağlantılar arasındaki 10-13 kablolarının bütünlüğünü ve temas pinlerini denetleyin; kablolar sağlamrsa U11 sensör rulmanını değiştirin.",
+        "Arıza sürerse A1'i değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 347,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "46",
+      "kodNormal": "46",
+      "aliaslar": [
+        "46"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motoru paneli sıcaklığı sınır dışı",
+      "aciklama": "Pompa motoru transistör panelinde aşırı yüksek/düşük sıcaklık; ortam sıcaklığı, soğutma fanı, pompa motoru veya transistör paneli kontrol edilmeli.",
+      "makineTepkisi": "Maksimum akım düşürülür",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Ortam sıcaklığı aşırı sıcak/soğuk",
+        "Soğutma fanı arızalı",
+        "Pompa motoru arızalı",
+        "Transistör paneli arızalı"
+      ],
+      "kontroller": [
+        "Havalandırmanın yeterli olduğunu kontrol edin.",
+        "Motor regülatörleri yanındaki M12 fanını kontrol edin.",
+        "Havalandırma normalse A2'yi değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 348,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "48",
+      "kodNormal": "48",
+      "aliaslar": [
+        "48"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa paneli besleme gerilimi düşük",
+      "aciklama": "Pompa motoru transistör paneline gelen gerilim düşük; akü, K10 kontaktör uçlarındaki temas veya transistör paneli kontrol edilmeli.",
+      "makineTepkisi": "Maksimum akım düşürülür",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Akü arızalı",
+        "K10 kontak uçlarında kötü temas",
+        "Transistör paneli arızalı"
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 348,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "52",
+      "kodNormal": "52",
+      "aliaslar": [
+        "52"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Çıkış 701 kısa devre/kopuk",
+      "aciklama": "701 çıkışı (çatal kaldırma valfi Y10) kısa devre ya da açık devre; valf Y10 kablolaması veya A5 kartı arızalı olabilir.",
+      "makineTepkisi": "Genel hata: ilgili hidrolik fonksiyon durur",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Y10 valfi veya kablolaması arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "701 çıkışına giden 89 numaralı kabloyu ayırın; temas pinini, kablonun bütünlüğünü ve Y10/2 bobin ohm değerini kontrol edin.",
+        "Arıza sürerse A5'i değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 349,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "53",
+      "kodNormal": "53",
+      "aliaslar": [
+        "53"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Çıkış 705 kısa devre/kopuk",
+      "aciklama": "705 çıkışı (çatal eğme yukarı valfi Y15) kısa devre ya da kopuk; Y15 kablolaması veya A5 kartı kontrol edilmeli.",
+      "makineTepkisi": "Genel hata: eğme kaldırma fonksiyonu durur",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Y15 valfi veya kablolaması arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "705 çıkışına giden 93 numaralı kabloyu ayırın; temas pinini, kablonun bütünlüğünü ve Y15 bobin ohm değerini kontrol edin.",
+        "Arıza sürerse A5'i değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 351,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "54",
+      "kodNormal": "54",
+      "aliaslar": [
+        "54"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Çıkış 704 kısa devre/kopuk",
+      "aciklama": "704 çıkışı (çatal eğme aşağı valfi Y14) kısa devre ya da kopuk; Y14 kablolaması veya A5 kartı kontrol edilmeli.",
+      "makineTepkisi": "Genel hata: eğme indirme fonksiyonu durur",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Y14 valfi veya kablolaması arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "704 çıkışına giden 92 numaralı kabloyu ayırın; temas pinini, kablonun bütünlüğünü ve Y14 bobin ohm değerini kontrol edin.",
+        "Arıza sürerse A5'i değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 352,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "55",
+      "kodNormal": "55",
+      "aliaslar": [
+        "55"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Çıkış 706 kısa devre/kopuk",
+      "aciklama": "706 çıkışı (ekstra hidrolik fonksiyon valfi Y16) kısa devre/kopuk; valf bağlı değilse 15 parametresi sıfırlanmalı, değilse Y16 kablolaması veya A5 kontrol edilmeli.",
+      "makineTepkisi": "Genel hata: ekstra fonksiyon durur",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "15 parametresi >0 ancak valf bağlı değil",
+        "Y16 valfi veya kablolaması arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Valf bağlı değilse 15 parametresi 0 olmalı",
+        "15 numaralı parametreyi servis anahtarıyla kontrol edin: servis anahtarını takın, kontağı çevirirken anahtar I'ye basın, II/III ile parametreye ilerleyin, anahtar I ile değeri ayarlayıp onaylayın.",
+        "706 çıkışına giden 94 numaralı kabloyu ayırın; temas pinini, kablonun bütünlüğünü ve Y16 bobin ohm değerini kontrol edin.",
+        "Arıza sürerse A5'i değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 353,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "56",
+      "kodNormal": "56",
+      "aliaslar": [
+        "56"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Çıkış 707 kısa devre/kopuk",
+      "aciklama": "707 çıkışı (ekstra hidrolik fonksiyon valfi Y17) kısa devre/kopuk; valf yoksa 15 parametresi 0 olmalı; Y16/Y17 kablolaması veya A5 denetlenmeli.",
+      "makineTepkisi": "Genel hata: ekstra fonksiyon durur",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "15 parametresi >0 ancak valf bağlı değil",
+        "Y17 valfi veya kablolaması arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Valf bağlı değilse 15 parametresi 0 olmalı",
+        "15 numaralı parametreyi servis anahtarıyla kontrol edin: servis anahtarını takın, kontağı çevirirken anahtar I'ye basın, II/III ile parametreye ilerleyin, anahtar I ile değeri ayarlayıp onaylayın.",
+        "707 çıkışına giden 95 numaralı kabloyu ayırın; temas pinini, kablonun bütünlüğünü ve Y17 bobin ohm değerini kontrol edin.",
+        "Arıza sürerse A5'i değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 355,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "57",
+      "kodNormal": "57",
+      "aliaslar": [
+        "57"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Çıkış 708 kısa devre/kopuk",
+      "aciklama": "708 çıkışı (ekstra hidrolik valf Y18) kısa devre/kopuk; bağlı valf yoksa 16 parametresi sıfırlanmalı, Y18 hattı veya A5 kontrol edilmeli.",
+      "makineTepkisi": "Genel hata: ekstra fonksiyon durur",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "16 parametresi >0 ancak valf bağlı değil",
+        "Y18 valfi veya kablolaması arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Valf bağlı değilse 16 parametresi 0 olmalı",
+        "16 numaralı parametreyi servis anahtarıyla kontrol edin: servis anahtarını takın, kontağı çevirirken anahtar I'ye basın, II/III ile parametreye ilerleyin, anahtar I ile değeri ayarlayıp onaylayın.",
+        "708 çıkışına giden 96 numaralı kabloyu ayırın; temas pinini, kablonun bütünlüğünü ve Y18 bobin ohm değerini kontrol edin.",
+        "Arıza sürerse A5'i değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 357,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "58",
+      "kodNormal": "58",
+      "aliaslar": [
+        "58"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Çıkış 709 kısa devre/kopuk",
+      "aciklama": "709 çıkışı (ekstra hidrolik valf Y19) kısa devre/kopuk; valf bağlı değilse 16 parametresi 0 olmalı; Y19 kablolaması veya A5 kontrol edilmeli.",
+      "makineTepkisi": "Genel hata: ekstra fonksiyon durur",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "16 parametresi >0 ancak valf bağlı değil",
+        "Y19 valfi veya kablolaması arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Valf bağlı değilse 16 parametresi 0 olmalı",
+        "16 numaralı parametreyi servis anahtarıyla kontrol edin: servis anahtarını takın, kontağı çevirirken anahtar I'ye basın, II/III ile parametreye ilerleyin, anahtar I ile değeri ayarlayıp onaylayın.",
+        "709 çıkışına giden 97 numaralı kabloyu ayırın; temas pinini, kablo bütünlüğünü ve bobin ohm değerini kontrol edin; 40 numaralı kablonun X17'den akü eksiye kadar sağlam olduğunu doğrulayın.",
+        "Arıza sürerse A5'i değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 359,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "59",
+      "kodNormal": "59",
+      "aliaslar": [
+        "59"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Çıkış 702 kısa devre/kopuk",
+      "aciklama": "702 çıkışı (çatal taşıyıcı geri çekme valfi Y12) kısa devre/kopuk; acil şalter devrede olabilir; Y12 kablolaması veya A5 kartı kontrol edilmeli.",
+      "makineTepkisi": "Genel hata: çatal taşıyır hareketi durur",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Y1 acil şalteri devrede; Y12 valf/kablo arızalı; A5 elektronik kartı arızalı olabilir"
+      ],
+      "kontroller": [
+        "S133 şalterinin açık olduğunu kontrol edin.",
+        "702 çıkışına giden 90 numaralı kabloyu ayırın; temas pinini, kablonun bütünlüğünü ve Y12 bobin ohm değerini kontrol edin.",
+        "Arıza sürerse A5'i değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 361,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "60",
+      "kodNormal": "60",
+      "aliaslar": [
+        "60"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Çıkış 703 kısa devre/kopuk",
+      "aciklama": "703 çıkışı (çatal taşıyıcı uzatma valfi Y13) kısa devre/kopuk; Y13 kablolaması veya A5 kartı kontrol edilmeli.",
+      "makineTepkisi": "Genel hata: çatal taşıyır hareketi durur",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Y13 valfi veya kablolaması arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "703 çıkışına giden 91 numaralı kabloyu ayırın; temas pinini, kablonun bütünlüğünü ve Y13 bobin ohm değerini kontrol edin.",
+        "Arıza sürerse A5'i değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 362,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "61",
+      "kodNormal": "61",
+      "aliaslar": [
+        "61"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Çıkış 803 kısa devre/kopuk",
+      "aciklama": "803 çıkışı (çatal indirme valfi Y10) kısa devre/kopuk; acil şalter [S132] devreye girmiş olabilir; Y10 hattı veya A5 kartı denetlenmeli.",
+      "makineTepkisi": "Genel hata: çatal indirme fonksiyonu durur",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Acil şalter S132 devreye girdi.",
+        "Y10 valfi veya kablolaması arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "S132 şalterinin açık olduğunu kontrol edin.",
+        "803 çıkışına giden 88 numaralı kabloyu ayırın; temas pinini, kablonun bütünlüğünü ve Y10 bobin ohm değerini kontrol edin.",
+        "Arıza sürerse A5'i değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 363,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "90",
+      "kodNormal": "90",
+      "aliaslar": [
+        "90"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma/indirme potansiyometresi R11 gerilimi hatalı",
+      "aciklama": "R11 potansiyometresi 0,3 V altı veya 7,0 V üstü gerilim veriyor; potansiyometre/kablo arızası ya da potansiyometresiz aktif giriş; A5 kartı da olabilir.",
+      "makineTepkisi": "Genel hata: kaldırma kumandası geçersiz",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Potansiyometre/kablolama arızalı veya potansiyometre bağlı olmadan giriş kumanda edilmiş",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 364,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "91",
+      "kodNormal": "91",
+      "aliaslar": [
+        "91"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Eğme potansiyometresi R13 gerilimi hatalı",
+      "aciklama": "R13 potansiyometresi geçersiz gerilim (<0,3 veya >7,0 V) üretiyor; potansiyometre/kablo arızalı ya da A5 kartı hatalı.",
+      "makineTepkisi": "Genel hata: eğme kumandası geçersiz",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Potansiyometre/kablolama arızalı veya potansiyometre bağlı olmadan giriş kumanda edilmiş",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "R13'ün takılı kalmadığını, üzerindeki gerilimin 7-7,5 VDC olduğunu, X11 kontağının gevşek/oksitli olmadığını ve 505 giriş geriliminin ~3,7±0,4 VDC olduğunu kontrol edin; gerilim doğruysa ve arıza sürüyorsa A5 kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 365,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "92",
+      "kodNormal": "92",
+      "aliaslar": [
+        "92"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Mast uzatma potansiyometresi R12 gerilimi hatalı",
+      "aciklama": "R12 potansiyometresi 0,3-7,0 V aralığı dışında gerilim veriyor; potansiyometre/kablo kontrol edilmeli, sorun sürerse A5 değişmeli.",
+      "makineTepkisi": "Genel hata: mast uzatma kumandası geçersiz",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Potansiyometre/kablolama arızalı veya potansiyometre bağlı olmadan giriş kumanda edilmiş",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "R12'nin takılı kalmadığını, R11-R12 üzerindeki gerilimin (sarı-gri kablo) 7-7,5 VDC olduğunu, X11 kontağının gevşek/oksitli olmadığını ve R12 sakin konumdayken 504 girişindeki gerilimin ~3,7±0,4 VDC olduğunu kontrol edin.",
+        "504 girişi gerilimi doğruysa ve arıza sürüyorsa A5 elektronik kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 366,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "93",
+      "kodNormal": "93",
+      "aliaslar": [
+        "93"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ekstra fonksiyon potansiyometreleri R14/R15 hatalı",
+      "aciklama": "R14/R15 potansiyometreleri 0,3-7,0 V aralığı dışında; bağlı potansiyometre yokken 15/16 parametreleri >0 olabilir; potansiyometre/kablo veya A5 kontrol edilmeli.",
+      "makineTepkisi": "Genel hata: ekstra fonksiyon kumandaları geçersiz",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "15/16 parametreleri >0 ancak potansiyometre bağlı değil",
+        "Potansiyometre/kablolama arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Valf/potansiyometre bağlı değilse 15/16 parametreleri 0 olmalı",
+        "16 numaralı parametreyi servis anahtarıyla kontrol edin: servis anahtarını takın, kontağı çevirirken anahtar I'ye basın, II/III ile parametreye ilerleyin, anahtar I ile değeri ayarlayıp onaylayın.",
+        "Ekstra hidrolik fonksiyonun iki joystiğinin de aktif konumda sıkışmadığını kontrol edin.",
+        "R14 ve R15 potansiyometrelerinin konumlarında takılı kalmadığını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 367,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "94",
+      "kodNormal": "94",
+      "aliaslar": [
+        "94"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Gaz pedalı potansiyometresi R1 gerilimi hatalı",
+      "aciklama": "Gaz pedalı potansiyometresi [R1] 0,4-4,6 V aralığı dışında gerilim veriyor; R1 yerinde sıkışmış, potansiyometre/kablo arızalı ya da A5 kartı hatalı olabilir.",
+      "makineTepkisi": "Genel hata: gaz pedalı kumandası geçersiz",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Potansiyometre/kablolama arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "R1 potansiyometresinin konumunda takılı kalmadığını kontrol edin.",
+        "501 girişi gerilimi doğruysa ve arıza sürüyorsa A5 elektronik kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 368,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "104",
+      "kodNormal": "104",
+      "aliaslar": [
+        "104"
+      ],
+      "sistem": "fren",
+      "baslik": "Çıkış 802 kısa devre/kopuk (park freni Y1)",
+      "aciklama": "Park freni valfi [Y1] çıkışı 802 kısa devre ya da kopuk; park freni acil şalteri devreye girmiş, Y1 kablolaması arızalı ya da A5 kartı hatalı olabilir.",
+      "makineTepkisi": "Kritik hata: ana kontaktör açılır, park freni çeker",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Y1 için acil şalter devreye girdi",
+        "Y1 valfi veya kablolaması arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "S131 şalterinin açık olduğunu kontrol edin.",
+        "802 çıkışına giden 64 numaralı kabloyu ayırın; temas pinini, kablonun bütünlüğünü ve bobin ohm değerini kontrol edin.",
+        "Arıza sürerse A5'i değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 370,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "106",
+      "kodNormal": "106",
+      "aliaslar": [
+        "106"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Çıkış 804 kısa devre/kopuk (K10 bobini)",
+      "aciklama": "Ana kontaktör [K10] bobin çıkışı 804 kısa devre/kopuk; K10 kablolaması veya A5 elektronik kartı arızalı olabilir.",
+      "makineTepkisi": "Kritik hata: ana kontaktör devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "K10 kontaktörü veya kablolaması arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "804 çıkışına giden 31 numaralı kabloyu ayırın; temas pinini, kablonun K10:A2'ye kadar bütünlüğünü ve bobin ohm değerini kontrol edin.",
+        "501 girişi gerilimi doğruysa ve arıza sürüyorsa A5 elektronik kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 371,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "107",
+      "kodNormal": "107",
+      "aliaslar": [
+        "107"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ana kontaktör K10 kapanmıyor",
+      "aciklama": "Kontak açık ve acil şalter devre dışıyken ana kontaktör [K10] çekmiyor; kontaktör arızalı ya da A5 kartı hatalı; 808 kontağında +48 V kontrol edilmeli.",
+      "makineTepkisi": "Kritik hata: kontaktör çekmez, araç çalışmaz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "K10 kontaktörü arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "808 kontağındaki gerilimi kontrol edin.",
+        "Kartın 808 kontağında +48 VDC varken arıza sürüyorsa A5 kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 372,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "108",
+      "kodNormal": "108",
+      "aliaslar": [
+        "108"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ana kontaktör açılmıyor",
+      "aciklama": "Kontak kapalıyken ve acil şalter sıfırdayken ana kontaktör bırakmıyor; K10 arızası (uçlar kaynamış) ya da A5 kartı hatalı olabilir; 808 kontağında gerilim ölçülmeli.",
+      "makineTepkisi": "Kritik hata: kontaktör açılmaz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "K10 kontaktörü arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "808 kontağındaki gerilimi kontrol edin.",
+        "Kartın 808 kontağında gerilim 0 VDC iken arıza sürüyorsa A5 kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 373,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "109",
+      "kodNormal": "109",
+      "aliaslar": [
+        "109"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Klavye rölesi açılmıyor",
+      "aciklama": "Klavyedeki röle açılmıyor; sürüş hızı sürüngen hıza düşer. 24 numaralı kablonun kısa devre yaptığı veya A16 klavyenin arızalı olabileceği kontrol edilmeli.",
+      "makineTepkisi": "Sürüş hızı sürüngen hıza düşer",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Kablo kısa devre yapmış",
+        "Klavye arızalı"
+      ],
+      "kontroller": [
+        "24 numaralı kablodaki gerilimi kontrol edin; klavyedeki kırmızı tuşa basıldığında 0 VDC olmalı.",
+        "Gerilim varsa 24 numaralı kabloyu gevşetin; gerilim yine de varsa A16 klavyeyi değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 274,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "111",
+      "kodNormal": "111",
+      "aliaslar": [
+        "111"
+      ],
+      "sistem": "fren",
+      "baslik": "Fren pedalı potansiyometresi gerilimi hatalı",
+      "aciklama": "Fren pedalı potansiyometresi 0,4-4,6 V aralığı dışında gerilim veriyor; potansiyometre/kablo arızalı ya da A5 kartı hatalı.",
+      "makineTepkisi": "Kritik hata: fren pedalı kumandası devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Potansiyometre/kablolama arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "R2'nin takılı kalmadığını, üzerindeki gerilimin 7-7,5 VDC olduğunu, X36 kontağının gevşek/oksitli olmadığını ve 502 giriş geriliminin nötrde ~1,7 VDC, pedal tam basılıyken 4,1 VDC olduğunu kontrol edin.",
+        "505 girişi gerilimi doğruysa ve arıza sürüyorsa A5 elektronik kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 374,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "112",
+      "kodNormal": "112",
+      "aliaslar": [
+        "112"
+      ],
+      "sistem": "fren",
+      "baslik": "Fren girişi test hatası",
+      "aciklama": "Fren girişi dahili testi başarısız; A5 elektronik kartı arızalı.",
+      "makineTepkisi": "Kritik hata: fren giriş testi başarısız",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 375,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "120",
+      "kodNormal": "120",
+      "aliaslar": [
+        "120"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme set değeri belleği hatalı",
+      "aciklama": "Yönlendirme set noktası değer bellek hücresinde yanlış değer var; A5 kartı yerinden oynamış ya da arızalı olabilir; yeniden başlatma hatayı silebilir.",
+      "makineTepkisi": "Yönlendirme hatası: güvenlik rölesi açılabilir",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "A5 elektronik kartı yerinden oynamış",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Karta geçici bir bozulma etkilemiş olabilir."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 375,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "121",
+      "kodNormal": "121",
+      "aliaslar": [
+        "121"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme güvenlik rölesi açıldı",
+      "aciklama": "Çıkış kademesi gerilimi hatalı ya da ana işlemciyle iletişim hatası nedeniyle yönlendirme güvenlik rölesi bıraktı; A5 kartı oynamış veya arızalı olabilir.",
+      "makineTepkisi": "Yönlendirme güvenlik rölesi devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "A5 elektronik kartı yerinden oynamış",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Karta geçici bir bozulma etkilemiş olabilir; aracı yeniden çalıştırmayı deneyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 375,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "122",
+      "kodNormal": "122",
+      "aliaslar": [
+        "122"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme servosu aşırı ısındı",
+      "aciklama": "Yönlendirme servosunda sıcaklık uyarısı; yüksek ortam sıcaklığı, sıkışan yönlendirme, yönlendirme motoru [M6] kablosu/motoru veya A5 arızası araştırılmalı.",
+      "makineTepkisi": "Yönlendirme gücü sınırlanır",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Yüksek ortam sıcaklığı",
+        "Yönlendirme sıkışıyor",
+        "Yönlendirme motoruna giden kablolama arızalı",
+        "Yönlendirme motoru arızalı"
+      ],
+      "kontroller": [
+        "A5 kartı çevresindeki havalandırmayı kontrol edin.",
+        "Araacı kaldırın; yönlendirmenin mekanik olarak sıkışmadığını ve yönlendirme akımının ~5 A olduğunu kontrol edin.",
+        "60 ve 61 kabloları, X24 kontağı ile 903 ve 904 kontaklarını kontrol edin.",
+        "Yönlendirme motorunu kontrol edin: kömür ve holderlar (MSM 1730), endüvi sargıları"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 376,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "123",
+      "kodNormal": "123",
+      "aliaslar": [
+        "123"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme motoru çıkış gerilimi sapması",
+      "aciklama": "Yönlendirme motoruna giden gerilim istenen yönlendirmeden sapıyor; M6 motoru kabloları (60/61, X24, 903/904), motor (kömür/holder) veya A5 kontrol edilmeli.",
+      "makineTepkisi": "Yönlendirme hatası: motor tepkisi izlenemez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Yönlendirme motoruna giden kablolama arızalı",
+        "Yönlendirme motoru arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "60 ve 61 kabloları, X24 kontağı ile 903 ve 904 kontaklarını kontrol edin.",
+        "Yönlendirme motorunu kontrol edin: kömür ve holderlar (S1730 elektrikli yönlendirme motoru), endüvi sargıları.",
+        "Arıza sürerse A5 kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 377,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "125",
+      "kodNormal": "125",
+      "aliaslar": [
+        "125"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme jeneratörü test hatası",
+      "aciklama": "Yönlendirme jeneratörü [U1] testi başarısız; 62/129 kabloları ve X32/X34 kontakları, jeneratör kömürleri/kolektörü ya da A5 arızalı olabilir.",
+      "makineTepkisi": "Yönlendirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Kablolama arızalı",
+        "Jeneratör/kömürler arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "62 ve 129 kabloları, X32-X34 kontakları ile 509 ve 511 kontaklarını kontrol edin.",
+        "Yönlendirme jeneratörünü kontrol edin: kömürler ve kolektör (S4100 mekanik yönlendirme sistemi), endüvi sargıları.",
+        "Arıza sürerse A5 kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 378,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "126",
+      "kodNormal": "126",
+      "aliaslar": [
+        "126"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme motoru test hatası",
+      "aciklama": "Yönlendirme motoru testi başarısız; 30 A F61 sigortası, 1/25 kabloları, M6 motor kömürleri veya A5 kartı kontrol edilmeli.",
+      "makineTepkisi": "Yönlendirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "F61 sigortası arızalı",
+        "Kablolama arızalı",
+        "Yönlendirme motoru/kömürleri arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "F61 sigortasını (30 A), 1 ve 25 kabloları ile 901 kontağını kontrol edin.",
+        "60 ve 61 kabloları ile X24, 903 ve 904 kontaklarını kontrol edin.",
+        "Yönlendirme motorunu kontrol edin: kömür ve holderlar (MSM 1730), endüvi sargıları.",
+        "Arıza sürerse A5 kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 379,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "127",
+      "kodNormal": "127",
+      "aliaslar": [
+        "127"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme işlemcisi iletişim hatası",
+      "aciklama": "Yönlendirme işlemcisi ile ana işlemci arası iletişim hatası; dış parazit/statik elektrik ya da A5 arızası; yeniden başlatma düzeltebilir.",
+      "makineTepkisi": "Yönlendirme geçici olarak devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Dış parazit, statik elektrik",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Karta geçici bir bozulma etkilemiş olabilir."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 380,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "128",
+      "kodNormal": "128",
+      "aliaslar": [
+        "128"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme bellek hücresi değeri hatalı",
+      "aciklama": "Yönlendirme set noktası bellek hücresinde yanlış değer; dış parazit/statik elektrik ya da A5 kartı arızası; yeniden başlatma denenebilir.",
+      "makineTepkisi": "Kritik hata: yönlendirme set değeri belleği hatalı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Dış parazit, statik elektrik",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Karta geçici bir bozulma etkilemiş olabilir."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 380,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "130",
+      "kodNormal": "130",
+      "aliaslar": [
+        "130"
+      ],
+      "sistem": "iletisim",
+      "baslik": "I/O işlemcisi ile ana işlemci iletişim hatası",
+      "aciklama": "I/O işlemcisi ve ana işlemci arasındaki dahili iletişim hatası; dış parazit/statik elektrik ya da arızalı A5 kartı.",
+      "makineTepkisi": "Kritik hata: dahili işlemci iletişimi kopar",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Dış parazit, statik elektrik",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Karta geçici bir bozulma etkilemiş olabilir."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 380,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "131",
+      "kodNormal": "131",
+      "aliaslar": [
+        "131"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme güvenlik rölesi başlangıç testi hatası",
+      "aciklama": "Açılışta yönlendirme güvenlik rölesi testi başarısız; F61 sigortası (30 A), F61 kablolaması veya A5 kartı kontrol edilmeli.",
+      "makineTepkisi": "Yönlendirme güvenlik rölesi testte açılmıyor",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "F61 sigortası arızalı",
+        "F61 kablolaması arızalı",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "F61 sigortasını (30 A) kontrol edin",
+        "1 ve 25 numaralı kablolar ile 901 kontağını kontrol edin.",
+        "Arıza sürerse A5 kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 381,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "133",
+      "kodNormal": "133",
+      "aliaslar": [
+        "133"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme güvenlik rölesi test hatası (tekrar)",
+      "aciklama": "Güvenlik rölesi testinde geçici ya da kalıcı hata; araç yeniden çalıştırılmalı, tekrarlanırsa A5 değiştirilmeli.",
+      "makineTepkisi": "Yönlendirme güvenlik rölesi testte açılmıyor",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Testte geçici hata",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Karta geçici bir bozulma etkilemiş olabilir.",
+        "Tekrarlanan denemelere rağmen arıza sürüyorsa A5 kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 382,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "134",
+      "kodNormal": "134",
+      "aliaslar": [
+        "134"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme güvenlik rölesi açıldı",
+      "aciklama": "Yönlendirme güvenlik rölesi bıraktı; A5 kartı yerinden oynamış/sarsılmış olabilir; çok bozuk zemin veya darbada tetiklenebilir, sürerse A5 değişmeli.",
+      "makineTepkisi": "Yönlendirme güvenlik rölesi açıldı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "A5 elektronik kartı yerinden oynamış/sarsılmış",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Röle, araç çok bozuk zeminde gittiyse veya araca güçlü etki eden bir şeye çarptıysa açılmış olabilir.",
+        "Tekrarlanan denemelere rağmen arıza sürüyorsa A5 kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 382,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "135",
+      "kodNormal": "135",
+      "aliaslar": [
+        "135"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ana devre güvenlik rölesi başlangıç test hatası",
+      "aciklama": "Açılışta ana devre güvenlik rölesi testi başarısız; geçici test hatası ya da arızalı A5 kartı.",
+      "makineTepkisi": "Kritik hata: ana devre güvenlik rölesi testte başarısız",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Testte geçici hata.",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Karta geçici bir bozulma etkilemiş olabilir.",
+        "Tekrarlanan denemelere rağmen arıza sürüyorsa A5 kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 382,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "136",
+      "kodNormal": "136",
+      "aliaslar": [
+        "136"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ana devre güvenlik rölesi test hatası (tekrar)",
+      "aciklama": "Ana devre güvenlik rölesi testinde geçici/kalıcı hata; yeniden başlatma denenmeli, sürerse A5 değiştirilmeli.",
+      "makineTepkisi": "Kritik hata: ana devre güvenlik rölesi testte başarısız",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Testte geçici hata",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Karta geçici bir bozulma etkilemiş olabilir.",
+        "Tekrarlanan denemelere rağmen arıza sürüyorsa A5 kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 383,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "137",
+      "kodNormal": "137",
+      "aliaslar": [
+        "137"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ana devre güvenlik rölesi açıldı",
+      "aciklama": "Ana devre güvenlik rölesi açıldı; A5 kartı sarsılmış/yerinden oynamış olabilir; çok bozuk zemin/deprem benzeri sarsıntıda tetiklenebilir, sürerse kart değişmeli.",
+      "makineTepkisi": "Ana devre güvenlik rölesi açıldı; kontaktörler bırakır",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "A5 elektronik kartı yerinden oynamış/sarsılmış",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Röle, araç çok bozuk zeminde gittiyse veya araca güçlü etki eden bir şeye çarptıysa açılmış olabilir.",
+        "Tekrarlanan denemelere rağmen arıza sürüyorsa A5 kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 383,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "140",
+      "kodNormal": "140",
+      "aliaslar": [
+        "140"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Parametre belleği sağlama toplamı hatalı",
+      "aciklama": "Açılışta parametre belleğinin checksum değeri tutmuyor; A5 kartı oynamış ya da arızalı olabilir; yeniden başlatma, parametre sıfırlama veya yeni program denenebilir.",
+      "makineTepkisi": "Kritik hata: parametre belleği doğrulanamadı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "A5 elektronik kartı yerinden oynamış",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Karta geçici bir bozulma etkilemiş olabilir; aracı yeniden çalıştırın, bir parametreyi sıfırlayıp yeniden başlatın veya yeni program indirin.",
+        "Arıza sürerse A5 kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 384,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "141",
+      "kodNormal": "141",
+      "aliaslar": [
+        "141"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Program sağlama toplamı hatalı",
+      "aciklama": "Aktif programın checksum değeri hatalı; PC'den yazılım indirme bozuk gerçekleşmiş ya da A5 arızalı; program yeniden yüklenmeli.",
+      "makineTepkisi": "Kritik hata: program doğrulanamadı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Program PC'den hatalı indirilmiş",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "Karta geçici bir bozulma etkilemiş olabilir.",
+        "Arıza sürerse A5 kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 384,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "150",
+      "kodNormal": "150",
+      "aliaslar": [
+        "150"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Açılışta frekans konvertörüyle iletişim yok",
+      "aciklama": "Açılışta frekans konvertörleriyle CAN iletişimi kurulamadı; CAN kablolaması/direnç R100, 15 V beslemesi, A1/A2 regülatörleri veya A5 kartı kontrol edilmeli.",
+      "makineTepkisi": "Sürüş ve kaldırma regülatörleri devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN kablolaması/direnç arızalı",
+        "15 V beslemesi yok",
+        "Sürüş regülatörü [A1] arızalı.",
+        "A2 kaldırma regülatörü arızalı"
+      ],
+      "kontroller": [
+        "117, 118, 119 ve 120 kablolarının kısa devresiz ve kopuk olmadığını kontrol edin.",
+        "A5 kartının 401 çıkışında +15 VDC olduğunu kontrol edin.",
+        "Sürüş regülatörü A1 kontrol kontağını ayırıp aracı yeniden çalıştırın.",
+        "Kaldırma regülatörü A2 kontrol kontağını ayırıp aracı yeniden çalıştırın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 385,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "151",
+      "kodNormal": "151",
+      "aliaslar": [
+        "151"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Açılışta sürüş konvertörüyle iletişim yok",
+      "aciklama": "Sürüş motoru frekans konvertörüyle açılışta CAN iletişimi yok; 117-120 kabloları, R100 direnci kontrol edilmeli, A1 yenisiyle denenmeli.",
+      "makineTepkisi": "Sürüş regülatörü arızası: ana kontaktör açılır",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN kablolaması/direnç arızalı",
+        "Frekans konvertörü arızalı"
+      ],
+      "kontroller": [
+        "117, 118, 119 ve 120 kablolarının kısa devresiz ve kopuk olmadığını kontrol edin.",
+        "Yeni bir sürüş regülatörü A1 ile test edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 386,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "152",
+      "kodNormal": "152",
+      "aliaslar": [
+        "152"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Çalışma sırasında sürüş konvertörüyle iletişim koptu",
+      "aciklama": "Çalışma sırasında sürüş motoru konvertöründen CAN verisi gelmiyor; 117-120 kabloları ve R100 kontrol edilmeli, A1 yenisiyle denenmeli.",
+      "makineTepkisi": "Sürüş regülatörü arızası: ana kontaktör açılır",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN kablolaması/direnç arızalı",
+        "Frekans konvertörü arızalı"
+      ],
+      "kontroller": [
+        "117, 118, 119 ve 120 kablolarının kısa devresiz ve kopuk olmadığını kontrol edin.",
+        "Yeni bir sürüş regülatörü A1 ile test edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 387,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "153",
+      "kodNormal": "153",
+      "aliaslar": [
+        "153"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Açılışta pompa konvertörüyle iletişim yok",
+      "aciklama": "Pompa motoru frekans konvertörüyle açılışta CAN iletişimi yok; 119/120 kabloları ve R100 kontrol edilmeli, A2 yenisiyle denenmeli.",
+      "makineTepkisi": "Kaldırma regülatörü arızası: hidrolik durur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN kablolaması/direnç arızalı",
+        "Frekans konvertörü arızalı"
+      ],
+      "kontroller": [
+        "119 ve 120 kablolarının kısa devresiz ve kopuk olmadığını kontrol edin.",
+        "Yeni bir kaldırma regülatörü A2 ile test edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 388,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "154",
+      "kodNormal": "154",
+      "aliaslar": [
+        "154"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Çalışma sırasında pompa konvertörüyle iletişim koptu",
+      "aciklama": "Çalışma sırasında pompa motoru konvertöründen CAN verisi kesildi; 119/120 kabloları ve R100 kontrol edilmeli, A2 yenisiyle denenmeli.",
+      "makineTepkisi": "Kaldırma regülatörü arızası: hidrolik durur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN kablolaması/direnç arızalı",
+        "Frekans konvertörü arızalı",
+        "CAN kablolaması/direnç arızalı",
+        "Harici CAN ünitesi hatalı bağlanmış"
+      ],
+      "kontroller": [
+        "119 ve 120 kablolarının kısa devresiz ve kopuk olmadığını kontrol edin.",
+        "Yeni bir kaldırma regülatörü A2 ile test edin.",
+        "117, 118, 119 ve 120 kablolarının kısa devresiz ve kopuk olmadığını kontrol edin.",
+        "CAN veriyolunun tüm ünitelere doğru bağlandığını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 389,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "155-163",
+      "kodNormal": "155163",
+      "aliaslar": [
+        "155-163",
+        "155",
+        "156",
+        "157",
+        "158",
+        "159",
+        "160",
+        "161",
+        "162",
+        "163"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Genel iletişim hatası (155-163)",
+      "aciklama": "155-163 aralığı genel CAN iletişim hatası için kullanılır ve regülatör hatasına yol açar. 117-120 kabloları, R100 direnci, CAN veriyolu bağlantıları ve A5 elektronik kartı kontrol edilmeli.",
+      "makineTepkisi": "Sürüş regülatörü hatası",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN kablolaması/direnç arızalı",
+        "Harici CAN ünitesi hatalı bağlanmış",
+        "A5 elektronik kartı yerinden oynamış",
+        "A5 elektronik kartı arızalı"
+      ],
+      "kontroller": [
+        "117, 118, 119 ve 120 kablolarının kısa devre yapmadığını ve kopuk olmadığını kontrol edin; R100 direncini de denetleyin.",
+        "CAN veriyolunun tüm ünitelere doğru bağlandığını kontrol edin.",
+        "Karta geçici bir bozulma etkilemiş olabilir; aracı yeniden çalıştırın.",
+        "Arıza sürerse A5 kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 390,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "200",
+      "kodNormal": "200",
+      "aliaslar": [
+        "200"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş regülatörü kısa devre",
+      "aciklama": "Sürüş regülatöründe kısa devre; motor kabloları hatalı bağlanmış ya da sürüş regülatörü [A1] arızalı.",
+      "makineTepkisi": "Sürüş durur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Motor kabloları yanlış bağlanmış.",
+        "Sürüş regülatörü [A1] arızalı."
+      ],
+      "kontroller": [
+        "Motor kablolarının sağlam ve doğru bağlanmış olduğunu kontrol edin.",
+        "Sürüş regülatörünü [A1] değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 391,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "201",
+      "kodNormal": "201",
+      "aliaslar": [
+        "201"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş regülatörü DC bara şarj olmadı",
+      "aciklama": "Regülatördeki [A1] kapasitörler 10 saniyede şarj olmadı; araç kapatıldıktan sonra B+ ile B- arası gerilim ölçülmeli, aksi halde regülatör değişmeli.",
+      "makineTepkisi": "Sürüş çalışmaz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sürüş regülatöründeki [A1] kapasitörler 10 saniyede şarj olmadı."
+      ],
+      "kontroller": [
+        "Araç kapatıldıktan sonra sürüş regülatöründe [A1] B+ ile B- arası gerilimi ölçerek kapasitörlerin şarjlı olup olmadığını kontrol edin.",
+        "Aksi halde sürüş regülatörünü [A1] değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 391,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "202",
+      "kodNormal": "202",
+      "aliaslar": [
+        "202"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş regülatörü akım sensörü kalibrasyon hatası",
+      "aciklama": "Akım sensörü yanlış kalibre edilmiş; araç yeniden çalıştırılmalı, gerekirse sürüş regülatörü değiştirilmeli.",
+      "makineTepkisi": "Sürüş geçici kilitlenebilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Akım sensörü yanlış kalibre edilmiş"
+      ],
+      "kontroller": [
+        "Aracı yeniden çalıştırın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 391,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "203",
+      "kodNormal": "203",
+      "aliaslar": [
+        "203"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş regülatörü 15 V gerilimi düşük",
+      "aciklama": "Regülatörün 15 V besleme gerilimi çok düşük; araç yeniden çalıştırılmalı, sürerse regülatör değiştirilmeli.",
+      "makineTepkisi": "Regülatör beslemesi düştü; sürüş durabilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "15 V besleme gerilimi çok düşük."
+      ],
+      "kontroller": [
+        "Aracı yeniden çalıştırın.",
+        "Gerekirse sürüş regülatörünü [A1] değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 391,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "204",
+      "kodNormal": "204",
+      "aliaslar": [
+        "204"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş regülatörü 5 V gerilimi hatalı",
+      "aciklama": "Regülatörün 5 V besleme gerilimi çok düşük ya da çok yüksek; yeniden çalıştırma sonrası sürerse regülatör değişmeli.",
+      "makineTepkisi": "Regülatör referans gerilimi bozuk",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "5 V besleme gerilimi çok düşük veya çok yüksek."
+      ],
+      "kontroller": [
+        "Aracı yeniden çalıştırın.",
+        "Gerekirse sürüş regülatörünü [A1] değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 392,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "205",
+      "kodNormal": "205",
+      "aliaslar": [
+        "205"
+      ],
+      "sistem": "motor",
+      "baslik": "Sürüş regülatörü: motor aşırı ısındı",
+      "aciklama": "Sürüş regülatörü motorun [M1] aşırı ısındığını bildirdi; motor bölmesi havalandırması ve fan [M13] kontrol edilmeli, M1 kontak/kablo/sıcaklık sensörü [B1] denetlenmeli.",
+      "makineTepkisi": "Sürüş akımı sınırlanır/durur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Motor [M1] ağır yüklü",
+        "Kontaklar, kablolama veya B1 sıcaklık sensörü arızalı."
+      ],
+      "kontroller": [
+        "Motor bölmesindeki havalandırmayı, özellikle M13 fanını kontrol edin.",
+        "Sürüş motoruna [M1] giden kontakları ve kabloyu kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 392,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "206",
+      "kodNormal": "206",
+      "aliaslar": [
+        "206"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş regülatörü akımı çok yüksek",
+      "aciklama": "Sürüş akımı izin verilen değeri aştı; motor kablolarının doğruluğu kontrol edilmeli, regülatör [A1] arızalıysa değiştirilmeli.",
+      "makineTepkisi": "Sürüş durur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Motor kabloları yanlış bağlanmış.",
+        "Sürüş regülatörü [A1] arızalı."
+      ],
+      "kontroller": [
+        "Motor kablolarının sağlam ve doğru bağlanmış olduğunu kontrol edin.",
+        "Sürüş regülatörünü [A1] değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 392,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "207",
+      "kodNormal": "207",
+      "aliaslar": [
+        "207"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş regülatörü soğutucusu aşırı ısındı",
+      "aciklama": "Sürüş regülatörünün [A1] heatsink sıcaklığı sınırı aştı; havalandırma kontrol edilmeli, gerekirse regülatör değişmeli.",
+      "makineTepkisi": "Sürüş termal korumada",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sürüş regülatörü [A1] aşırı ısındı."
+      ],
+      "kontroller": [
+        "Havalandırmayı kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 393,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "208",
+      "kodNormal": "208",
+      "aliaslar": [
+        "208"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş regülatörü AC akımı yüksek / dahili DC bara hatası",
+      "aciklama": "Regülatörde AC akım yüksek ya da dahili DC bara donanım/yazılım hatası; motor kabloları kontrol edilmeli, sürücü [A1] arızalıysa değiştirilmeli.",
+      "makineTepkisi": "Sürüş durur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Motor kabloları yanlış bağlanmış.",
+        "Sürücü ünit (A1) arızalı",
+        "Sürüş motoru arızalı veya sürüş regülatörü elektronik kartında donanım/yazılım hatası [A1]."
+      ],
+      "kontroller": [
+        "Motor kablolarının sağlam ve doğru bağlanmış olduğunu kontrol edin.",
+        "Sürücü üniteyi [A1] değiştirin.",
+        "Sürüş motorunu değiştirin.",
+        "Aracı yeniden çalıştırın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 393,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "214",
+      "kodNormal": "214",
+      "aliaslar": [
+        "214"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Sürüş regülatöründe CAN iletişimi yok",
+      "aciklama": "Sürüş regülatörü CAN veriyoluyla iletişim kuramıyor; CAN kablolaması ve kontaklar kontrol edilmeli.",
+      "makineTepkisi": "Sürüş kumandasına erişim yok",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN veriyoluyla iletişim yok."
+      ],
+      "kontroller": [
+        "CAN kablolamasını ve kontakları kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 393,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "221",
+      "kodNormal": "221",
+      "aliaslar": [
+        "221"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Negatif hata (pompa regülatörü)",
+      "aciklama": "Pompa motoru ya da M- ucu B-'ye kısa devre yapmış ya da transistör paneli arızalı.",
+      "makineTepkisi": "Pompa regülatörü hatası: kaldırma durur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Pompa motoru veya M ucu B'ye kısa devre yapmış",
+        "Transistör paneli arızalı"
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 394,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "222",
+      "kodNormal": "222",
+      "aliaslar": [
+        "222"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa regülatörü besleme hatası",
+      "aciklama": "Pompa regülatörünün güç beslemesi hatası; transistör paneli arızalı.",
+      "makineTepkisi": "Pompa regülatörü hatası: kaldırma durur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Transistör paneli arızalı"
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 394,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "234",
+      "kodNormal": "234",
+      "aliaslar": [
+        "234"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Elektronik kartla iletişim yok",
+      "aciklama": "Pompa regülatörü A5 elektronik kartıyla CAN iletişimi kuramıyor; CAN kablolaması kopuk ya da transistör paneli arızalı.",
+      "makineTepkisi": "Pompa regülatörü devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN kablolaması kopuk",
+        "Transistör paneli arızalı"
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 394,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    }
+  ]
+}

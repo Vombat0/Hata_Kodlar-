@@ -1,0 +1,236 @@
+{
+  "marka": "crown",
+  "seri": "access-rc5500-tsp6000-wp3000",
+  "modelAdi": "Crown ACCESS platformları: RC5500 (ACCESS 1/2/3/7), TSP6000 turret (ACCESS7), RD5700 çift masta (ACCESS4), WP3000 (X10 kumanda kolu)",
+  "kaynakBelge": "Crown RC5500 M4.8-1055 (2007/2009); TSP6000 ACCESS7 PF15050 / M4.8-1960; RD5700 PF25814 (2013); WP3000 PF25299 (2011) — forklifterrorcodes.com kod referansları üzerinden",
+  "kaynakSurum": "M4.8-1055; M4.8-1960; PF25814; PF25299",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://forklifterrorcodes.com/codes/crown/",
+  "kodlar": [
+    {
+      "kod": "108",
+      "kodNormal": "108",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "ACCESS 7 beslemeliyken ACCESS 3 güç kaybı",
+      "aciklama": "RC5500'da ACCESS7 modülü enerjili kalırken ACCESS3 beslemesi düşer; sigorta-kontos hattı ayrıştırıcı ipucu verir",
+      "makineTepkisi": "Traction sürücüsü devre dışı kalır; araç hareket edemez",
+      "siddet": "uyari",
+      "nedenler": [
+        "FU5 sigortası / kontak anahtarı besleme hattı",
+        "ACCESS3 güç tesisatı",
+        "CAN bağlantısı veya modül arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "109",
+        "113"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-108/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "109",
+      "kodNormal": "109",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "ACCESS 7 CAN iletişim kaybı",
+      "aciklama": "RC5500 ağında ACCESS7 modülüyle iletişim tamamen kopar; beslenmeyen Access2/3/7 düğümleri ve hat süreksizliği tipik nedenlerdir",
+      "makineTepkisi": "ACCESS7'nin yönettiği hidrolik/ataşman işlevleri durur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Beslemesiz kalan Access2/3/7 düğümleri",
+        "CAN hattında açık devre/kısa veya sonlandırma sorunu",
+        "Access7 modülünün kendisi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "108",
+        "740"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-109/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "740",
+      "kodNormal": "740",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "PVP1 pivot saat yönü valfinde aşırı akım",
+      "aciklama": "TSP6000 turret aksesuarı PVP1 valfine giden ACCESS7 sürücüsü aşırı akım çekişi saptar; pivot mekanik sıkışması otomatik varsayılmaz",
+      "makineTepkisi": "Pivot sağ dönüş komutu uygulanmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "ACCESS7 CA702-8 sürücü kademesi",
+        "PVP1 solenoid bobini/kablolarında kısa",
+        "Valf mekanizması (kanıt bekler)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "741",
+        "743"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-740/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "741",
+      "kodNormal": "741",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "PVP2 pivot saat yönü tersi valfinde aşırı akım",
+      "aciklama": "Pivot sol dönüş valfi PVP2 çıkışı aşırı akım izler; pompa hakkında tek başına hüküm verilmez",
+      "makineTepkisi": "Pivot ters yönlü dönüş engellenir",
+      "siddet": "uyari",
+      "nedenler": [
+        "ACCESS7 PVP2 çıkış kademesi",
+        "Bobin veya kablolarda kısa",
+        "Sürücü/tesisat hasarı"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "740",
+        "745"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-741/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "743",
+      "kodNormal": "743",
+      "aliaslar": [],
+      "sistem": "atisman",
+      "baslik": "PVF2 çatallı geri çekme valfinde aşırı akım",
+      "aciklama": "Fork retract valfi PVF2 sürücü devresi aşırı akım çeker; çatalın mekanik takalı olduğu kanıtlanmış değildir",
+      "makineTepkisi": "Çatal geri çekme hareketi durur",
+      "siddet": "uyari",
+      "nedenler": [
+        "PVF2 bobin kısa devresi",
+        "Tesisat kısa/kopuk",
+        "Sürücü kademesi arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "740",
+        "745"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-743/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "745",
+      "kodNormal": "745",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "PVLH yardımcı emniyet (relief) valfinde aşırı akım",
+      "aciklama": "Yardımcı devre reliefl valfi PVLH akımı limitlendirir; sargı/kablo yönü devre şemasıyla takip edilmelidir",
+      "makineTepkisi": "İlgili yardımcı hidrolik koruma devresi pasife alınabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "PVLH valf sargısı",
+        "Kablo kısa devresi",
+        "ACCESS7 sürücü kademesi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "743",
+        "757"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-745/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "757",
+      "kodNormal": "757",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "SVAL yardımcı silindir indirme solenoidinde açık sürücü",
+      "aciklama": "ACCESS7'nin SVAL çıkış sürücüsü devre açıklığı bildirir; hidrolik emniyet basıncı ile elektriksel süreksizlik karıştırılmamalıdır",
+      "makineTepkisi": "Yardımcı silindir indirme komutu uygulanmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "SVAL çıkış sürücüsü",
+        "Bobin yolunun açıklığı",
+        "Kontrolör arızası (hidrolik relieften bağımsız)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "745",
+        "743"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-757/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "817",
+      "kodNormal": "817",
+      "aliaslar": [],
+      "sistem": "atisman",
+      "baslik": "ACCESS4: mast yükseklik anahtarı HGTRS2 açık, serbest kaldırma anahtarı FLS kapalı",
+      "aciklama": "RD5700 çift mastta HGTRS2 açıkken FLS'nin kapalı kalması mantıksal çelişki yaratır; zincir aşınması çıkarımı yapılamaz",
+      "makineTepkisi": "Serbest kaldırma mantığı kısıtlanır; uyarı verilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "HGTRS2 aralığı/konumu",
+        "Anahtar hizalama hatası",
+        "Mast tesisatı veya FLS sinyal uyumsuzluğu"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "109",
+        "853"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-817/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "853",
+      "kodNormal": "853",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "X10 kolda gaz uyumsuzluğu / potansiyometre konum çelişkisi",
+      "aciklama": "WP3000'in X10 kumanda kolunda throttle potu ile kontrol anahtarı konumu birbirini tutmaz; kolun değişimi kesin karar değildir",
+      "makineTepkisi": "Seyr komutu alınmaz; pallet truck yürümez",
+      "siddet": "uyari",
+      "nedenler": [
+        "X10 tiller gaz potansiyometresi",
+        "Kol tesisatı",
+        "FU3 sigortası/PCB ve kontrol anahtarı plauzibilitesi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "817",
+        "100"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-853/",
+      "durum": "incelemede"
+    }
+  ]
+}

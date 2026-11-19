@@ -1,5 +1,37 @@
 [
   {
+    "id": "baoli",
+    "ad": "Baoli",
+    "grup": "KION Group",
+    "aciklama": "KION'un giriş segment markası. KBE 15-20 akülü model kod kataloğu ve 1-3 t CPD servis manüeli DC kontrolör durum kodları.",
+    "not": "",
+    "renk": "#0D9488"
+  },
+  {
+    "id": "bt",
+    "ad": "BT",
+    "grup": "Toyota Material Handling Europe",
+    "aciklama": "BT, Toyota Material Handling Europe bünyesinde depo ekipmanları ve reach truck üreten markadır.",
+    "not": "BT, Toyota Material Handling Europe markasıdır.",
+    "renk": "#F97316"
+  },
+  {
+    "id": "byd",
+    "ad": "BYD",
+    "grup": "BYD Company",
+    "aciklama": "Lityum bataryalı akülü forklift üreticisi. ECB16/ECB18 operatör manüelindeki gösterge arıza mesajları ve çözüm adımları.",
+    "not": "Kod yerine gösterge metni kullanılır; BYD mesaj tabanlı hata gösterimi kullanır.",
+    "renk": "#15803D"
+  },
+  {
+    "id": "clark",
+    "ad": "Clark",
+    "grup": "Clark Material Handling Company",
+    "aciklama": "Clark GTS20-35L LPG serisinde MMC-PSI (Mitsubishi 4G64) motor kontrol modülünün ürettiği arıza kodları için kaynaklı referans. 83 kod, servis kılavuzu bölüm 17 DTC tablosuna dayandırıldı.",
+    "not": "",
+    "renk": "#16A34A"
+  },
+  {
     "id": "crown",
     "ad": "Crown",
     "grup": "Crown Equipment Corporation",
@@ -12,16 +44,8 @@
     "ad": "Doosan",
     "grup": "Doosan Bobcat",
     "aciklama": "Güney Kore merkezli Doosan, dizel ve elektrikli forkliftler, reach truck ve ağır seri istif makineleri üretir.",
-    "not": "",
+    "not": "Yalnızca elde edilen iki belge kapsamı yayınlandı; -7 serisi için doğrulanmış kod tablosu bulunamadı.",
     "renk": "#0EA5E9"
-  },
-  {
-    "id": "ep",
-    "ad": "EP Equipment",
-    "grup": "EP Equipment (Big Joe)",
-    "aciklama": "EP/Big Joe lityum elektrikli forklift ve transpaletler; F1-F6 ailesi sürücü hata kodlarını gösterge panelinde görüntüler.",
-    "not": "",
-    "renk": "#16A34A"
   },
   {
     "id": "ep-equipment",
@@ -59,9 +83,9 @@
     "id": "hyundai",
     "ad": "Hyundai",
     "grup": "HD Hyundai",
-    "aciklama": "HD Hyundai Materyal Handling ağır hizmet forkliftleri; HDF/HDD serisinde ZF EST-37 güç aktarma kontrolörü iki haneli onaltılık hata kodları kullanır.",
-    "not": "",
-    "renk": "#2563EB"
+    "aciklama": "Güney Koreli üretici. Kaynak: 50D-80D büyük tonaj modellerin ZF EST-65 şanzıman kontrolörü (TCU) onaltılık hata kod tablosu.",
+    "not": "Diğer Hyundai serileri için erişilebilir kamuya açık kod tablosu bulunamadı.",
+    "renk": "#1D4ED8"
   },
   {
     "id": "jungheinrich",
@@ -74,10 +98,10 @@
   {
     "id": "kalmar",
     "ad": "Kalmar",
-    "grup": "Kalmar / Cargotec",
-    "aciklama": "Kalmar ağır hizmet reachstacker ve forkliftleri; KCS gösterge (EDU795) ve ECU790/792/796 üniteleri STOP/WARNING/INFORMATION etiketli DTC kodları üretir.",
-    "not": "",
-    "renk": "#0EA5E9"
+    "grup": "Kalmar",
+    "aciklama": "Limanağırlık ekipmanları üreticisi. D79x kontrol sisteminin EDU 795 gösterge, ECU 790 makine, ECU 796 hidrolik/ataçman ve ECU 792 direksiyon ünitelerinin kod tabloları.",
+    "not": "DRF400-450 (VDRF03.01GB) ve DCE 90-180 (VDCE10.03GB) atölye manüelleri de indirildi; farklı ünite versiyonları olduğundan ana kaynak olarak HTML D79x tablosu kullanıldı.",
+    "renk": "#0284C7"
   },
   {
     "id": "komatsu",
@@ -104,20 +128,20 @@
     "renk": "#DC2626"
   },
   {
-    "id": "nissan",
-    "ad": "Nissan",
-    "grup": "Doğrulanmalı",
-    "aciklama": "Nissan markası, web araştırması seri dosyasından otomatik oluşturuldu. Açıklama ve grup bilgisi insan tarafından tamamlanmalıdır.",
-    "not": "Otomatik oluşturuldu — marka bilgileri doğrulanmalı.",
-    "renk": "#EF4444"
-  },
-  {
     "id": "nissan-unicarriers",
     "ad": "Nissan / UniCarriers",
     "grup": "UniCarriers (KION)",
     "aciklama": "Eski Nissan forklift markası; elektrikli modellerde sürücü sayısal kodları, LPG motorlarda VCM D/E/F flaş kodları kullanılır.",
     "not": "",
     "renk": "#B91C1C"
+  },
+  {
+    "id": "noblelift",
+    "ad": "Noblelift",
+    "grup": "Noblelift",
+    "aciklama": "Çinli akülü forklift üreticisi. Curtis tarzı kontrolör kodları; FE4P50N için neden + çözüm içeren katalog, FE3D için DTC tablosu.",
+    "not": "",
+    "renk": "#F97316"
   },
   {
     "id": "still",
@@ -130,10 +154,10 @@
   {
     "id": "tcm",
     "ad": "TCM",
-    "grup": "TCM/UniCarriers (KION)",
-    "aciklama": "Japon TCM elektrikli forkliftleri; FB-6 ve FB-7 sürücü nesillerinde üç haneli gösterge kodları ve LED fış kodları kullanır.",
+    "grup": "KION Group (UniCarriers)",
+    "aciklama": "Japon markalı akülü forkliftler; FB-6 DC ve FB-7 transistörlü kontrolör hata kodları LED eşleştirmeleriyle birlikte.",
     "not": "",
-    "renk": "#DC2626"
+    "renk": "#B91C1C"
   },
   {
     "id": "toyota",

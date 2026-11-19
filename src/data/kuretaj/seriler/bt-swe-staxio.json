@@ -1,0 +1,2346 @@
+{
+  "marka": "bt",
+  "seri": "swe-staxio",
+  "modelAdi": "BT SWE Staxio 120 / 120L / 120S / 140 / 140L / 200D",
+  "kaynakBelge": "RM_swe_staxio_120_120l_120s_140_140l_200d",
+  "kaynakSurum": "258946-040 (2013-10-01)",
+  "kaynakDil": "EN",
+  "kaynakUrl": "",
+  "kodlar": [
+    {
+      "kod": "E141",
+      "kodNormal": "E141",
+      "aliaslar": [
+        "E141"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Yazılım indirmesi kesildi",
+      "aciklama": "Transistör regülatörüne yazılım yüklenirken iletişim kablosu kopmuş; indirme tamamlanamamış. Acil indirme modunda işlemin yeniden denenmesi gerekir.",
+      "makineTepkisi": "Yazılım indirme işlemi yarıda kesilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "İletim kablosu çıkarılmış."
+      ],
+      "kontroller": [
+        "İndirmeyi 'Acil indirme' modunda yeniden başlatın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 73,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "2.001",
+      "kodNormal": "2001",
+      "aliaslar": [
+        "2.001"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Acil stop butonu devrede",
+      "aciklama": "Acil kapatma şalteri basılı konumda; regülatör güvenlik gereği tüm işlevleri kesmiş. Şalter, 24 numaralı kablo ve F51 sigortası kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Acil kapatma butonuna basılmış."
+      ],
+      "kontroller": [
+        "acil stop şalterinin basılı olmadığından emin olun.",
+        "24 numaralı kablo",
+        "F51 sigortası"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 73,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "2.002",
+      "kodNormal": "2002",
+      "aliaslar": [
+        "2.002"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Parametre değerleri varsayılana döndü",
+      "aciklama": "Bazı parametre değerleri tanımlı sınırların dışında kalmış ve fabrika varsayılanlarına sıfırlanmış. Parametre ayarlarının gözden geçirilmesi önerilir.",
+      "makineTepkisi": "Olay yok; araç normal kullanılabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Bazı parametre değerleri ön ayarlı sınırların dışında olabilir; parametreler varsayılan değerlere sıfırlandı.",
+        "Kodun hemen ardından 2.004 hatası gelirse TruckCom ile konfigürasyonu transistör regülatörüne [T1] kopyalayın."
+      ],
+      "kontroller": [
+        "Parametre ayarlarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 73,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "2.003",
+      "kodNormal": "2003",
+      "aliaslar": [
+        "2.003"
+      ],
+      "sistem": "diger",
+      "baslik": "Bakım zamanı geldi",
+      "aciklama": "Bakım sayacı (S saat sayacı) bakım süresinin dolduğunu gösteriyor; son bakımda sayacın sıfırlanmamış olması da olası.",
+      "makineTepkisi": "Olay yok; araç normal kullanılabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Bakım zamanı geldi.",
+        "Son bakımdan sonra sıfırlanmamış olabilir."
+      ],
+      "kontroller": [
+        "Bakım saat sayacını (S sayacı) kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 73,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "2.004",
+      "kodNormal": "2004",
+      "aliaslar": [
+        "2.004"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Regülatör ve kol kartı verileri uyumsuz",
+      "aciklama": "Transistör regülatörünün yedek dosyasındaki parametre, saat sayacı veya seri numarası bilgileri kol kartındaki değerlerle farklı; TruckCom ile doğru verinin hangi tarafta olduğu belirlenmeli.",
+      "makineTepkisi": "Olay yok; araç normal kullanılabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Regülatör yedek dosyasındaki parametre, saat sayacı ve seri numarası değerleri kol mantık kartıyla farklı.",
+        "7.6.4 tablosuna bakın."
+      ],
+      "kontroller": [
+        "Doğru verinin hangi tarafta saklandığını TruckCom ile kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 74,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "2.101",
+      "kodNormal": "2101",
+      "aliaslar": [
+        "2.101"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Araç tipi tanımlanmamış",
+      "aciklama": "Araç tipi parametresi girilmemiş ya da kol mantık kartı A5 ile transistör regülatörü T1 değerleri birbirini tutmuyor. Yedekten veri geri yüklenmeli, olmazsa fabrika parametresi 1001 ile araç tipi tanımlanmalı.",
+      "makineTepkisi": "Güvenlik hızı; çatal kaldırma/indirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Araç tipi tanımlanmamış ya da kol mantık kartı [A5] ile regülatör [T1] değerleri farklı.",
+        "Sonuç olmazsa 1001 fabrika parametresiyle araç tipini tanımlayın veya 7.6.4 tablosuna bakın."
+      ],
+      "kontroller": [
+        "Yedekten veriyi geri yükleyin (yönlendirme kolu sökme/takma bölümüne bakın)."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 74,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "2.102",
+      "kodNormal": "2102",
+      "aliaslar": [
+        "2.102"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Araç tipi analitik kumandayı desteklemiyor",
+      "aciklama": "Tanımlanan araç tipi analitik kaldırma/indirme kumandasına izin vermiyor; 1001 (araç tipi) ve 1023 (hidrolik işlev kumandaları) fabrika parametrelerinin ayarı kontrol edilmeli.",
+      "makineTepkisi": "Güvenlik hızı; çatal kaldırma/indirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Belirtilen araç tipi analitik kaldırma/indirme kumandasını desteklemiyor."
+      ],
+      "kontroller": [
+        "1001 (araç tipi) ve 1023 (hidrolik işlev kumandaları) fabrika parametrelerinin ayarlarını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 74,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "2.501",
+      "kodNormal": "2501",
+      "aliaslar": [
+        "2.501"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü gerilimi çok düşük",
+      "aciklama": "Akü gerilimi 2 saniyeden uzun süre 16,8 V altına düşmüş; akünün şarj edilmesi, kablo ve konnektörlerin gözden geçirilmesi gerekir.",
+      "makineTepkisi": "Ana kontaktör açılır",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Akü gerilimi 2 saniyeden uzun süre 16,8 V altında; aküyü şarj edin."
+      ],
+      "kontroller": [
+        "Tüm kablo ve konektörleri gözden geçirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 74,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "2.511",
+      "kodNormal": "2511",
+      "aliaslar": [
+        "2.511"
+      ],
+      "sistem": "iletisim",
+      "baslik": "CAN iletişim hatası",
+      "aciklama": "Kumanda kolu ile regülatör arasındaki CAN veriyolunda iletişim hatası; bağlantılar, 119 ve 120 numaralı kablolar ve koldaki mantık kartı kontrol edilmeli.",
+      "makineTepkisi": "Ana kontaktör açık",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN iletişim hatası."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "119 ve 120 kabloları",
+        "koldaki mantık kartı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 74,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "2.514",
+      "kodNormal": "2514",
+      "aliaslar": [
+        "2.514"
+      ],
+      "sistem": "iletisim",
+      "baslik": "CAN iletişim hatası",
+      "aciklama": "Sistem CAN veriyolunda iletişim hatası algıladı; bağlantılar, 119/120 kabloları ve kumanda kolundaki mantık kartı denetlenmeli.",
+      "makineTepkisi": "Ana kontaktör açık",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN iletişim hatası."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "119 ve 120 kabloları.",
+        "koldaki mantık kartı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 74,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "2.515",
+      "kodNormal": "2515",
+      "aliaslar": [
+        "2.515"
+      ],
+      "sistem": "iletisim",
+      "baslik": "DHU ile kol kartı arası CAN hatası",
+      "aciklama": "Gösterge ünitesi DHU (K110) ile kol mantık kartı ICH (A5) arasındaki CAN iletişiminde sorun var; aradaki konektör ve kablo demeti kontrol edilmeli.",
+      "makineTepkisi": "Araç çalıştırılamıyor",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN iletişim hatası."
+      ],
+      "kontroller": [
+        "DHU [K110] ile ICH mantık kartı [A5] arasındaki konektör ve kablo demetini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 75,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "2.520",
+      "kodNormal": "2520",
+      "aliaslar": [
+        "2.520"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kol yazılımında/işlemcide hata",
+      "aciklama": "Kumanda kolu yazılımında veya işlemcide yazılımsal hata tespit edildi; yazılımın yeniden yüklenmesi gerekir.",
+      "makineTepkisi": "Ana kontaktör açık",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kol yazılımında veya işlemcide hatalar."
+      ],
+      "kontroller": [
+        "Yeni yazılım indirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 75,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "2.521",
+      "kodNormal": "2521",
+      "aliaslar": [
+        "2.521"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Güvenlik geri hareketi işlevi arızalı",
+      "aciklama": "Güvenlik geri kaçırma işlevini denetleyen Hall sensörü veya mekanik aksam arızalı; sensörün TruckCom ile sağlığı doğrulanmalı.",
+      "makineTepkisi": "Ana kontaktör açık",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Güvenlik geri hareketi işlevi arızalı; mekanik hata veya bu işlevi denetleyen Hall sensörü arızalı olabilir."
+      ],
+      "kontroller": [
+        "Hall sensörünün düzgün çalışıp çalışmadığını TruckCom ile kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 75,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "2.522",
+      "kodNormal": "2522",
+      "aliaslar": [
+        "2.522"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Hall sensörü beslemesi hatalı",
+      "aciklama": "Güvenlik devresindeki Hall sensörüne giden besleme gerilimi hatalı; sensörlerin TruckCom ile arızalı olup olmadığı kontrol edilmeli.",
+      "makineTepkisi": "Ana kontaktör açık",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Hall sensörüne besleme hatalı."
+      ],
+      "kontroller": [
+        "Hall sensörlerinin arızalı olup olmadığını TruckCom ile kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 75,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "2.523",
+      "kodNormal": "2523",
+      "aliaslar": [
+        "2.523"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ana kontaktör çekilmiyor",
+      "aciklama": "Ana kontaktör komuta edilmiyor; kontaktörün arızalı olup olmadığına bakılmalı ve kontaktör elle açılmalı.",
+      "makineTepkisi": "Ana kontaktör açık",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Ana kontaktör çekmiyor."
+      ],
+      "kontroller": [
+        "Ana kontaktörün arızalı olup olmadığını kontrol edin.",
+        "Ana kontaktörü açın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 75,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.001",
+      "kodNormal": "3001",
+      "aliaslar": [
+        "3.001"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Kalkişte hız kumandası nötrde değildi",
+      "aciklama": "Araç çalıştırılırken hız kumandası nötr konumda değilmiş ya da Hall sensörleri arızalı; kumanda fonksiyonu ve sensörler TruckCom ile kontrol edilmeli.",
+      "makineTepkisi": "Hız kumandası nötr konuma alınana dek yürüyüş kilitli",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Çalıştırma sırasında hız kumandası nötr konumda değildi.",
+        "Hall sensörleri arızalı."
+      ],
+      "kontroller": [
+        "hız kumandasının fonksiyonu",
+        "Hall sensörlerinin çalıştığı TruckCom ile doğrulanmalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 75,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.002",
+      "kodNormal": "3002",
+      "aliaslar": [
+        "3.002"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Regülatör sıcaklığı +85 °C üzerinde",
+      "aciklama": "Transistör regülatörü çok ısınmış; aşırı yoğun kullanımdan veya regülatör çevresindeki kir birikiminin soğutmayı zayıflatmasından kaynaklanabilir.",
+      "makineTepkisi": "Transistör regülatörü gücü %50'ye düşürür",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Regülatör sıcaklığı +85 °C'yi aştı; kullanım çok yoğun olabilir.",
+        "Aracı daha az yoğun kullanın.",
+        "Aşırı kir, transistör regülatörünün yetersiz soğumasına yol açabilir."
+      ],
+      "kontroller": [
+        "Transistör regülatörü çevresinde kir birikip birikmediğini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 75,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.003",
+      "kodNormal": "3003",
+      "aliaslar": [
+        "3.003"
+      ],
+      "sistem": "motor",
+      "baslik": "Sürüş motoru sıcaklığı +150 °C üzerinde",
+      "aciklama": "Yürüyüş motorunun sıcaklığı aşırı yükselmiş; yoğun kullanım veya motor çevresindeki kirin soğutmayı engellemesi söz konusu olabilir.",
+      "makineTepkisi": "Transistör regülatörü gücü %50'ye düşürür",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Motor sıcaklığı +150 °C'yi aştı; kullanım çok yoğun olabilir.",
+        "Aracı daha az yoğun kullanın.",
+        "Aşırı kir, motorun yetersiz soğumasına yol açabilir."
+      ],
+      "kontroller": [
+        "Motor çevresinde kir birikip birikmediğini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 76,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.040",
+      "kodNormal": "3040",
+      "aliaslar": [
+        "3.040"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Bekleme modu enerji tasarrufu hatası",
+      "aciklama": "Bekleme modundaki enerji tasarrufu işlevinde hatalı durum algılandı; araç yeniden çalıştırılmalı, sürerse regülatör değiştirilmeli.",
+      "makineTepkisi": "Olay yok; araç normal kullanılabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Bekleme modunda enerji tasarrufu işlevi hatalı.",
+        "Dahili transistör regülatör hatası.",
+        "Hata sürerse transistör regülatörünü değiştirin."
+      ],
+      "kontroller": [
+        "Aracı yeniden çalıştırın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 76,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.080",
+      "kodNormal": "3080",
+      "aliaslar": [
+        "3.080"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Regülatör sıcaklık sensörü anormal",
+      "aciklama": "Regülatörün kendi sıcaklık sensörü geçersiz değerler bildiriyor; iç hata olası, araç yeniden çalıştırılmalı, devam ederse regülatör değişmeli.",
+      "makineTepkisi": "Transistör regülatörü gücü %50'ye düşürür",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Regülatör sıcaklık sensörü anormal değerler gösteriyor.",
+        "Dahili transistör regülatör hatası.",
+        "Hata sürerse transistör regülatörünü değiştirin."
+      ],
+      "kontroller": [
+        "Aracı yeniden çalıştırın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 76,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.081",
+      "kodNormal": "3081",
+      "aliaslar": [
+        "3.081"
+      ],
+      "sistem": "motor",
+      "baslik": "Motor sıcaklık sensörü anormal",
+      "aciklama": "Motor sıcaklık sensörü geçersiz okuma yapıyor; sensör arızalı olabilir, 63/64 numaralı sensör kabloları kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü gücü %50'ye düşürür",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Motor sıcaklık sensörü anormal değerler gösteriyor; sensör arızalı olabilir."
+      ],
+      "kontroller": [
+        "Motor sıcaklık sensörüne giden kabloları (63/64) kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 76,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.101",
+      "kodNormal": "3101",
+      "aliaslar": [
+        "3.101"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Regülatör ön tanımlı güçle çalışıyor",
+      "aciklama": "Transistör regülatörü iç hata nedeniyle önceden tanımlı güç yükseltme değeriyle çalışıyor; yeniden başlatılmalı, sürerse regülatör değiştirilmeli.",
+      "makineTepkisi": "Güvenlik hızı; çatal kaldırma/indirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Regülatör ön tanımlı güç yükseltmesini kullanıyor; dahili hata.",
+        "Dahili transistör regülatör hatası.",
+        "Hata sürerse transistör regülatörünü değiştirin."
+      ],
+      "kontroller": [
+        "Aracı yeniden çalıştırın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 76,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.120",
+      "kodNormal": "3120",
+      "aliaslar": [
+        "3.120"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Regülatör parametreleri sağlama toplamı hatalı",
+      "aciklama": "Regülatör parametrelerinin checksum değeri tutmuyor; iç hata olası, araç yeniden başlatılmalı, gerekirse yeniden programlanmalı ya da regülatör değiştirilmeli.",
+      "makineTepkisi": "Güvenlik hızı; çatal kaldırma/indirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Transistör regülatörü parametrelerinin sağlama toplamı hatalı.",
+        "Dahili transistör regülatör hatası.",
+        "Aracı yeniden programlayın.",
+        "Hata sürerse transistör regülatörünü değiştirin."
+      ],
+      "kontroller": [
+        "Aracı yeniden çalıştırın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 76,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.121",
+      "kodNormal": "3121",
+      "aliaslar": [
+        "3.121"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Regülatör dahili belleği kullanamıyor",
+      "aciklama": "Transistör regülatörü dahili belleğine erişemiyor; iç hata şüphesiyle araç yeniden başlatılmalı ve programlanmalı, sürerse regülatör değişmeli.",
+      "makineTepkisi": "Güvenlik hızı; çatal kaldırma/indirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Transistör regülatörü dahili belleğini kullanamıyor.",
+        "Dahili transistör regülatör hatası.",
+        "Aracı yeniden programlayın.",
+        "Hata sürerse transistör regülatörünü değiştirin."
+      ],
+      "kontroller": [
+        "Aracı yeniden çalıştırın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 77,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.140",
+      "kodNormal": "3140",
+      "aliaslar": [
+        "3.140"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Korna devresi kısa devre yapmış",
+      "aciklama": "Korna çıkışında kısa devre tespit edildi; bağlantılar, kablo demeti, 50 numaralı kablo ve kornanın kendisi kontrol edilmeli.",
+      "makineTepkisi": "Korna devre dışı; güvenlik hızı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Korna devresi kısa devre yapmış."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "50 numaralı kablo",
+        "korna."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 77,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.210",
+      "kodNormal": "3210",
+      "aliaslar": [
+        "3.210"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Kol mantık kartı ile CAN iletişimi yok",
+      "aciklama": "Kumanda kolu mantık kartıyla CAN iletişimi kopmuş; bağlantılar, 119/120 kabloları (60 ohm) kontrol edilmeli, gerekirse kol kartı değiştirilmeli.",
+      "makineTepkisi": "Güvenlik hızı; çatal kaldırma/indirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Kol mantık kartıyla CAN iletişim hatası. Kontrol edilecekler:"
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "119 ve 120 numaralı kablolar, 60 ohm",
+        "koldaki mantık kartı; gerekirse kartı değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 77,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.501",
+      "kodNormal": "3501",
+      "aliaslar": [
+        "3.501"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Transistör regülatörü arızalı",
+      "aciklama": "Regülatörde arıza şüphesi; regülatör ve 1001 araç tipi fabrika parametresi kontrol edilmeli, hata sürerse regülatör değiştirilmeli.",
+      "makineTepkisi": "Ana kontaktör açık",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Transistör regülatörü arızalı."
+      ],
+      "kontroller": [
+        "transistör regülatörü.",
+        "1001 fabrika parametresi (araç tipi); hata sürerse regülatörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 77,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.502",
+      "kodNormal": "3502",
+      "aliaslar": [
+        "3.502"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Parametre indirme başarısız",
+      "aciklama": "Kol mantık kartı parametreleri transistör regülatörüne indiremiyor; araç yeniden çalıştırılmalı, gerekirse kol kartı ardından regülatör değiştirilmeli.",
+      "makineTepkisi": "Ana kontaktör açık",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Koldaki mantık kartı parametreleri transistör regülatörüne indiremiyor.",
+        "Hata sürerse transistör regülatörünü değiştirin."
+      ],
+      "kontroller": [
+        "Aracı yeniden çalıştırın.",
+        "Koldaki mantık kartını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 77,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.510",
+      "kodNormal": "3510",
+      "aliaslar": [
+        "3.510"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Açılışta regülatörle CAN iletişimi kurulamadı",
+      "aciklama": "Çalıştırma sırasında transistör regülatörü CAN ağına yanıt vermedi; besleme, yazılım uyumu, 119/120 kabloları ve ünite sırayla denenmeli, gerekirse T1 sonra A5 değiştirilmeli.",
+      "makineTepkisi": "Ana kontaktör açık",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Çalıştırmada transistör regülatörüyle CAN iletişim sorunu. Sırasıyla kontrol edin:"
+      ],
+      "kontroller": [
+        "bağlantı.",
+        "Akü konnektörünü [X1] ayırıp yeniden takın.",
+        "Aracı çalıştırın.",
+        "ünite.",
+        "TruckCom ile araç yazılımını yükleyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 78,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.511",
+      "kodNormal": "3511",
+      "aliaslar": [
+        "3.511"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Kol kartı regülatörden CAN verisi alamıyor",
+      "aciklama": "Koldaki mantık kartı regülatörden gelen CAN çerçevelerini almıyor; bağlantılar ve 119/120 kabloları kontrol edilmeli, gerekirse kol kartı ardından regülatör değişmeli.",
+      "makineTepkisi": "Ana kontaktör açık",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Koldaki mantık kartı transistör regülatöründen CAN verisi alamıyor."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "119 ve 120 kabloları",
+        "koldaki mantık kartı; gerekirse kartı değiştirin; hata sürerse regülatörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 78,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.512",
+      "kodNormal": "3512",
+      "aliaslar": [
+        "3.512"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Regülatör kol kartından CAN verisi alamıyor",
+      "aciklama": "Transistör regülatörü koldaki mantık kartından veri akışı alamıyor; bağlantılar, 119/120 kabloları ve kol kartı kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatör, kol mantık kartından CAN verisi alamıyor."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "119 ve 120 kabloları",
+        "koldaki mantık kartı; gerekirse kartı değiştirin; hata sürerse regülatörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 79,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.514",
+      "kodNormal": "3514",
+      "aliaslar": [
+        "3.514"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Kol kartı regülatöre CAN verisi gönderemiyor",
+      "aciklama": "Kol mantık kartı regülatöre CAN verisi iletemiyor; kablo ve bağlantılar denetlenmeli, gerekirse kol kartı ardından regülatör değiştirilmeli.",
+      "makineTepkisi": "Ana kontaktör açık",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Koldaki mantık kartı transistör regülatörüne CAN verisi gönderemiyor."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "119 ve 120 kabloları",
+        "koldaki mantık kartı; gerekirse kartı değiştirin; hata sürerse regülatörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 79,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.515",
+      "kodNormal": "3515",
+      "aliaslar": [
+        "3.515"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Regülatörde CAN iletişim hatası",
+      "aciklama": "Regülatör kendi CAN iletişiminde hata algıladı; 119/120 kabloları, bağlantılar ve kol kartı kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Transistör regülatörü CAN iletişim hatası tespit etti."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "119 ve 120 kabloları",
+        "koldaki mantık kartı; gerekirse kartı değiştirin; hata sürerse regülatörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 79,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.520",
+      "kodNormal": "3520",
+      "aliaslar": [
+        "3.520"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Güç kaynağı devresinde kısa devre",
+      "aciklama": "Regülatör besleme/güç kademesinde kısa devre tespit etti; motor kablo demeti, motor ve regülatör kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatör güç kaynağı devresinde kısa devre tespit etti."
+      ],
+      "kontroller": [
+        "motor kablo demeti",
+        "motor",
+        "transistör regülatörü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 79,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.521",
+      "kodNormal": "3521",
+      "aliaslar": [
+        "3.521"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Motor gerilimi düşük",
+      "aciklama": "Regülatör motor uçlarında beklenenden düşük gerilim ölçtü; motor kablo demeti, motor ve regülatör gözden geçirilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatör düşük motor gerilimi tespit etti."
+      ],
+      "kontroller": [
+        "motor kablo demeti",
+        "motor",
+        "transistör regülatörü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 80,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.522",
+      "kodNormal": "3522",
+      "aliaslar": [
+        "3.522"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Motor gerilimi yüksek",
+      "aciklama": "Regülatör motor uçlarında beklenenden yüksek gerilim tespit etti; motor kablolaması, motor ve regülatör kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatör yüksek motor gerilimi tespit etti."
+      ],
+      "kontroller": [
+        "motor kablo demeti",
+        "motor",
+        "transistör regülatörü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 80,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.523",
+      "kodNormal": "3523",
+      "aliaslar": [
+        "3.523"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Regülatörde dahili yazılım/donanım hatası",
+      "aciklama": "Regülatör kendi yazılım veya donanımında dahili sorun bildirdi; kol ve regülatör yazılımının yeniden yüklenmesi gerekir.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatör kendi yazılım/donanımında dahili sorun tespit etti; aracı hem kol hem regülatör tarafında yeniden programlayın."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 80,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.524",
+      "kodNormal": "3524",
+      "aliaslar": [
+        "3.524"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Regülatörde dahili yazılım/donanım hatası",
+      "aciklama": "Regülatörün kendi yazılım/donanımında dahili arıza tespit edildi; araca (kol ve regülatör) yeniden yazılım yüklenmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatör kendi yazılım/donanımında dahili sorun tespit etti; aracı hem kol hem regülatör tarafında yeniden programlayın."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 80,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.525",
+      "kodNormal": "3525",
+      "aliaslar": [
+        "3.525"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Motor faz akımı sürekli sıfır",
+      "aciklama": "Regülatör bir motor fazının sürekli sıfır kaldığını gördü; motor kablo demeti, motor ve regülatör kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatör, bir motor fazının sürekli sıfır kaldığını tespit etti."
+      ],
+      "kontroller": [
+        "motor kablo demeti",
+        "motor",
+        "transistör regülatörü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 80,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.526",
+      "kodNormal": "3526",
+      "aliaslar": [
+        "3.526"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Regülatörde akım ölçüm hatası",
+      "aciklama": "Regülatörün akım ölçüm devresi arızalı; dahili hata olduğundan ünite değiştirilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Transistör regülatöründe akım ölçümü arızalı; dahili regülatör hatası."
+      ],
+      "kontroller": [
+        "Transistör regülatörünü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 80,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.527",
+      "kodNormal": "3527",
+      "aliaslar": [
+        "3.527"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Regülatör yazılımı hatalı",
+      "aciklama": "Regülatörde hatalı yazılım tespit edildi; en güncel yazılımın regülatöre yüklendiği doğrulanmalı.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Transistör regülatöründe hatalı yazılım; dahili regülatör hatası."
+      ],
+      "kontroller": [
+        "Transistör regülatörüne en son yazılımın yüklendiğini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 81,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.528",
+      "kodNormal": "3528",
+      "aliaslar": [
+        "3.528"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Regülatör işlemcisinde dahili sorun",
+      "aciklama": "Regülatör mikro işlemcisinde dahili sorun var; güncel yazılım doğrulanmalı, hata sürerse ünite değiştirilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Transistör regülatörü işlemcisinde dahili sorun.",
+        "Dahili transistör regülatör hatası.",
+        "Hata sürerse transistör regülatörünü değiştirin."
+      ],
+      "kontroller": [
+        "Transistör regülatörüne en son yazılımın yüklendiğini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 81,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.529",
+      "kodNormal": "3529",
+      "aliaslar": [
+        "3.529"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Regülatörde dahili hata",
+      "aciklama": "Regülatör dahili bir arıza bildirdi; yazılım kontrol edilmeli, sorun devam ederse regülatör değiştirilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Transistör regülatörü dahili bir sorun tespit etti.",
+        "Dahili transistör regülatör hatası.",
+        "Hata sürerse transistör regülatörünü değiştirin."
+      ],
+      "kontroller": [
+        "Yazılımı kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 81,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.530",
+      "kodNormal": "3530",
+      "aliaslar": [
+        "3.530"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Regülatörde dahili hata",
+      "aciklama": "Regülatör dahili bir sorun tespit etti; yazılım gözden geçirilmeli, sürerse ünite değişmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Transistör regülatörü dahili bir sorun tespit etti.",
+        "Dahili transistör regülatör hatası.",
+        "Hata sürerse transistör regülatörünü değiştirin."
+      ],
+      "kontroller": [
+        "Yazılımı kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 81,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.531",
+      "kodNormal": "3531",
+      "aliaslar": [
+        "3.531"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Regülatörde dahili hata",
+      "aciklama": "Regülatör kendi içinde arıza bildirdi; yazılım kontrolü ardından gerekirse regülatör değiştirilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Transistör regülatörü dahili bir sorun tespit etti.",
+        "Dahili transistör regülatör hatası.",
+        "Hata sürerse transistör regülatörünü değiştirin."
+      ],
+      "kontroller": [
+        "Yazılımı kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 81,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.532",
+      "kodNormal": "3532",
+      "aliaslar": [
+        "3.532"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Regülatör AD dönüştürücüsünde hata",
+      "aciklama": "Regülatörün AD çeviricisinde dahili sorun var; ünite değiştirilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatör AD dönüştürücüsünde dahili sorun tespit etti.",
+        "Dahili transistör regülatör hatası."
+      ],
+      "kontroller": [
+        "Transistör regülatörünü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 81,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.533",
+      "kodNormal": "3533",
+      "aliaslar": [
+        "3.533"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kapasitör şarj gerilimi anormal",
+      "aciklama": "Regülatör kapasitörlerinin şarj gerilimi beklenen aralıkta değil; bağlantılar, 20 numaralı kablo, regülatör ve pompa kontaktörü kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatör kapasitör şarj gerilimi anormal değerler gösteriyor."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "20 numaralı kablo",
+        "transistör regülatörü.",
+        "pompa kontaktörü; hata sürerse regülatörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 82,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.534",
+      "kodNormal": "3534",
+      "aliaslar": [
+        "3.534"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Hız sensörü sinyali bozuk",
+      "aciklama": "Regülatör hız sensöründe aşırı frekans dalgalanması tespit etti; bağlantılar kontrol edilmeli, sensör gerekirse değiştirilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatör hız sensöründe sorun tespit etti; aşırı frekans dalgalanmaları."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "hız sensörü; gerekirse değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 82,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.535",
+      "kodNormal": "3535",
+      "aliaslar": [
+        "3.535"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Parametre sağlama toplamı hatalı",
+      "aciklama": "Regülatör parametrelerinin checksum değeri hatalı; koluma ve regülatöre yazılım yeniden yüklenmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Transistör regülatörü parametrelerinin sağlama toplamı hatalı."
+      ],
+      "kontroller": [
+        "Yazılımı kola ve transistör regülatörüne indirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 82,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.536",
+      "kodNormal": "3536",
+      "aliaslar": [
+        "3.536"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Akım sensörü geçersiz aralıkta",
+      "aciklama": "Regülatörün akım sensörü geçerli ölçüm aralığının dışında değer üretiyor; dahili arıza nedeniyle ünite değiştirilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatör akım sensörü geçerli aralığın dışında; dahili regülatör hatası."
+      ],
+      "kontroller": [
+        "Transistör regülatörünü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 82,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.537",
+      "kodNormal": "3537",
+      "aliaslar": [
+        "3.537"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Koldan çok yönlü komut hatası",
+      "aciklama": "Kumanda kolundan aynı anda birden fazla yöne komut algılandı; kol ünitesinde iç hata var.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Koldan çok yönlü komut verildi; kolda dahili hata."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 82,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.538",
+      "kodNormal": "3538",
+      "aliaslar": [
+        "3.538"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Bilinmeyen regülatör hatası",
+      "aciklama": "Regülatör tanımlanmayan bir dahili hata bildirdi; yeniden programlanmalı, sürerse değiştirilmeli.",
+      "makineTepkisi": "Ana kontaktör açık",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Bilinmeyen transistör regülatörü hatası.",
+        "Dahili transistör regülatör hatası; regülatörü yeniden programlayın.",
+        "Hata sürerse transistör regülatörünü değiştirin."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 82,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.539",
+      "kodNormal": "3539",
+      "aliaslar": [
+        "3.539"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü gerilim aralığı hatalı",
+      "aciklama": "Regülatör akü gerilimini 18-28,8 V bandında ölçtü; aküden regülatöre kadar kablolama ve akünün kendisi kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatör, akü gerilimini 18 V ile 28,8 V arasında ölçüyor."
+      ],
+      "kontroller": [
+        "akü ile transistör regülatörü arasındaki kablo demeti.",
+        "akü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 83,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.540",
+      "kodNormal": "3540",
+      "aliaslar": [
+        "3.540"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ana kontaktör çıkışı kısa devre",
+      "aciklama": "Regülatörün ana kontaktör çıkışında kısa devre var; bağlantılar, kablo demeti ve ana kontaktör kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Ana kontaktör çıkışı kısa devre yapmış."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "ana kontaktör."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 83,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.541",
+      "kodNormal": "3541",
+      "aliaslar": [
+        "3.541"
+      ],
+      "sistem": "fren",
+      "baslik": "Park freni çıkışı kısa devre",
+      "aciklama": "Regülatörün park freni çıkışı kısa devre yapmış; bağlantılar, kablo demeti ve park freni kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Park freni çıkışı kısa devre yapmış."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "park freni."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 83,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.542",
+      "kodNormal": "3542",
+      "aliaslar": [
+        "3.542"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kumanda devrelerinde +24 V'a kısa devre",
+      "aciklama": "Açılışta kontaktör, park freni veya indirme valfi devrelerinden biri +24 V hattına kısa devre yapmış; ilgili bağlantı ve bileşenler kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Açılışta kontaktör, park freni veya indirme valfi devrelerinden biri +24 V'a kısa devre yapmış."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "ana kontaktör",
+        "park freni.",
+        "indirme valfi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 83,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.560",
+      "kodNormal": "3560",
+      "aliaslar": [
+        "3.560"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ana kontaktör çıkışı kısa devre",
+      "aciklama": "Ana kontaktör çıkışında kısa devre tespit edildi; bağlantılar, kablo demeti ve kontaktör denetlenmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Ana kontaktör çıkışı kısa devre yapmış."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "ana kontaktör."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 83,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.561",
+      "kodNormal": "3561",
+      "aliaslar": [
+        "3.561"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör bobin devresi açık",
+      "aciklama": "Regülatör ile ana kontaktör bobini arasındaki devre açık; bağlantılar ve kontaktör kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatör ile ana kontaktör bobini arasındaki devre açık."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "ana kontaktör."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 83,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.562",
+      "kodNormal": "3562",
+      "aliaslar": [
+        "3.562"
+      ],
+      "sistem": "fren",
+      "baslik": "Park freni çıkışı açık devre",
+      "aciklama": "Regülatörün park freni çıkış devresi açık; bağlantılar, kablo demeti ve park freni denetlenmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri keser",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Park freni çıkışı açık devre."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "park freni."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 84,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.563",
+      "kodNormal": "3563",
+      "aliaslar": [
+        "3.563"
+      ],
+      "sistem": "fren",
+      "baslik": "Park freni bobin devresi açık",
+      "aciklama": "Regülatör ile park freni bobini arasındaki devre açık; bağlantılar ve park freni kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Park freni bobin devresi açık."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "park freni."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 84,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.564",
+      "kodNormal": "3564",
+      "aliaslar": [
+        "3.564"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör bobin devresi açık",
+      "aciklama": "Regülatör ile ana kontaktör bobini arasındaki hat açık; bağlantılar ve kontaktör kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatör ile ana kontaktör bobini arasındaki devre açık."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "ana kontaktör."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 84,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.565",
+      "kodNormal": "3565",
+      "aliaslar": [
+        "3.565"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör bobin devresi açık",
+      "aciklama": "Ana kontaktör bobin hattında açık devre var; kablo demeti, bağlantılar ve kontaktör denetlenmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatör ile ana kontaktör bobini arasındaki devre açık."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "ana kontaktör."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 84,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.566",
+      "kodNormal": "3566",
+      "aliaslar": [
+        "3.566"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör bobin devresi açık",
+      "aciklama": "Regülatör-kontaktör bobin devresi açık devre; bağlantılar ve kontaktör kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatör ile ana kontaktör bobini arasındaki devre açık."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "ana kontaktör."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 84,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.567",
+      "kodNormal": "3567",
+      "aliaslar": [
+        "3.567"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör bobin devresi açık",
+      "aciklama": "Ana kontaktör bobin devresi açık; kablo ve bağlantılar ile kontaktör gözden geçirilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatör ile ana kontaktör bobini arasındaki devre açık."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "ana kontaktör."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 84,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.568",
+      "kodNormal": "3568",
+      "aliaslar": [
+        "3.568"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör bobin devresi açık",
+      "aciklama": "Ana kontaktör bobin hattı açık devre; bağlantılar ve kontaktör kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatör ile ana kontaktör bobini arasındaki devre açık."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "ana kontaktör."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 85,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.580",
+      "kodNormal": "3580",
+      "aliaslar": [
+        "3.580"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ana kontaktör kapalı takılı kaldı",
+      "aciklama": "Ana kontaktör beklenmedik şekilde kapalı konumda; bağlantılar, kablo demeti ve kontaktör kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Ana kontaktör kapalı."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "ana kontaktör."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 85,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.581",
+      "kodNormal": "3581",
+      "aliaslar": [
+        "3.581"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ana kontaktör kapalı takılı kaldı",
+      "aciklama": "Ana kontaktör açık olmalıyken kapalı; kablo demeti, kontaktör ve ana sigorta F1 kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Ana kontaktör açık."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "ana kontaktör.",
+        "ana sigorta F1"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 85,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.582",
+      "kodNormal": "3582",
+      "aliaslar": [
+        "3.582"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Besleme çıkışı gerilim seviyesi hatalı",
+      "aciklama": "Regülatörün güç çıkışında beklenmeyen gerilim seviyesi var; bağlantılar, kontaktör, indirme valfi, fren ve pompa kontaktörü kontrol edilmeli, dahili hataysa regülatör değişmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatörün güç besleme çıkışı yanlış gerilim seviyesinde."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "ana kontaktör",
+        "indirme valfi",
+        "fren"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 85,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "3.583",
+      "kodNormal": "3583",
+      "aliaslar": [
+        "3.583"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Regülatör dahili beslemesi açılmadı",
+      "aciklama": "Regülatörün kendi dahili besleme gerilimi devreye girmemiş; dahili arıza nedeniyle ünite değiştirilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Regülatörün dahili beslemesi devreye girmedi; dahili arıza nedeniyle regülatörü değiştirin."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 85,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "4.001",
+      "kodNormal": "4001",
+      "aliaslar": [
+        "4.001"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kalkişte kaldırma kumandası nötrde değildi",
+      "aciklama": "Araç çalıştırılırken analitik kaldırma/indirme kumandası nötr konumda değildi (yalnız SWE araçlar); kol içi kablolama ve potansiyometre kontrol edilmeli.",
+      "makineTepkisi": "Kaldırma/indirme kumandası nötre dönene dek kaldırma engelli",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Çalıştırmada kaldırma/indirme analitik kumandası nötrde değildi; çalıştırmada hız kumandasını kullanmayın."
+      ],
+      "kontroller": [
+        "koldaki kablolama",
+        "potansiyometre; arızalıysa değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "4.101",
+      "kodNormal": "4101",
+      "aliaslar": [
+        "4.101"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma/indirme analitik sinyali anormal",
+      "aciklama": "Kaldırma ve indirme analitik kontrol sinyalleri geçersiz değerlerde; kol kablolaması ve potansiyometre kontrol edilmeli, arızalıysa potansiyometre değişmeli.",
+      "makineTepkisi": "Güvenlik hızı; çatal kaldırma/indirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Kaldırma/indirme analitik kontrol sinyalleri anormal değerler gösteriyor; çalıştırmada hız kumandasını kullanmayın."
+      ],
+      "kontroller": [
+        "koldaki kablolama",
+        "potansiyometre; arızalıysa değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "4.102",
+      "kodNormal": "4102",
+      "aliaslar": [
+        "4.102"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kol tipi 1023 parametresiyle uyumsuz",
+      "aciklama": "Kullanılan kol tipi ile 1023 fabrika parametresinin hidrolik işlev kumanda ayarı eşleşmiyor; parametre araçtaki kol tipine göre doğrulanmalı.",
+      "makineTepkisi": "Güvenlik hızı; çatal kaldırma/indirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Kol tipi, 1023 'Hidrolik işlev kumandaları' fabrika parametresi ayarıyla uyuşmuyor."
+      ],
+      "kontroller": [
+        "1023 fabrika parametresi ayarını araçtaki kol tipiyle karşılaştırarak kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "4.125",
+      "kodNormal": "4125",
+      "aliaslar": [
+        "4.125"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motoru akım geri bildirimi sıfır",
+      "aciklama": "Pompa motoru çalışırken akım geri bildirimi hiç gelmiyor; regülatördeki akım sensörü arızalı, regülatör değiştirilmeli.",
+      "makineTepkisi": "Güvenlik hızı; çatal kaldırma/indirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Pompa motoru çalışırken akım geri bildirimi sıfır kalıyor; regülatördeki akım sensörü arızalı; regülatörü değiştirin."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "4.126",
+      "kodNormal": "4126",
+      "aliaslar": [
+        "4.126"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motoru akım geri bildirimi aşırı",
+      "aciklama": "Açılış ve bekleme modunda pompa motoru akım geri bildirimi aşırı yüksek; regülatördeki akım sensörü arızalı, ünite değiştirilmeli.",
+      "makineTepkisi": "Güvenlik hızı; çatal kaldırma/indirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Açılış ve bekleme modunda pompa motoru akım geri bildirimi aşırı yüksek; regülatördeki akım sensörü arızalı; regülatör değiştirilmeli."
+      ],
+      "kontroller": [],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "4.521",
+      "kodNormal": "4521",
+      "aliaslar": [
+        "4.521"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motoru gerilimi çok düşük",
+      "aciklama": "Pompa motoruna ulaşan gerilim olması gerekenden düşük; regülatör-pompa motoru arası kablo demeti ve motor kontrol edilmeli.",
+      "makineTepkisi": "Ana kontaktör açık",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Pompa motoru gerilimi çok düşük."
+      ],
+      "kontroller": [
+        "transistör regülatörü ile pompa motoru arasındaki kablo demeti.",
+        "pompa motoru."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "4.522",
+      "kodNormal": "4522",
+      "aliaslar": [
+        "4.522"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motoru gerilimi çok yüksek",
+      "aciklama": "Pompa motoru besleme gerilimi aşırı yüksek; regülatör ile pompa motoru arasındaki kablo demeti ve motor gözden geçirilmeli.",
+      "makineTepkisi": "Ana kontaktör açık",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Pompa motoru gerilimi çok yüksek."
+      ],
+      "kontroller": [
+        "transistör regülatörü ile pompa motoru arasındaki kablo demeti.",
+        "pompa motoru."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "4.540",
+      "kodNormal": "4540",
+      "aliaslar": [
+        "4.540"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "İndirme valfi çıkışı kısa devre",
+      "aciklama": "Regülatörün indirme valfi çıkışında kısa devre var ya da regülatör içinde kısa devre oluşmuş; bağlantılar denetlenmeli, valfi ayırıp yeniden başlatılmalı, sürerse valf/regülatör değişmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "İndirme valfi çıkışı kısa devre yapmış.",
+        "Transistör regülatöründe iç kısa devre.",
+        "Hata sürerse transistör regülatörünün indirme valfini değiştirin."
+      ],
+      "kontroller": [
+        "Bağlantıları ve kablo demetini gözden geçirin.",
+        "İndirme valfini ayırın ve aracı yeniden çalıştırmayı deneyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "4.541",
+      "kodNormal": "4541",
+      "aliaslar": [
+        "4.541"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "İndirme valfi çıkışı B-'ye kısa devre",
+      "aciklama": "İndirme valfi çıkış devresi B- (eksi) hattına kısa devre yapmış; bağlantılar ve kablo demeti kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "İndirme valfi çıkışı B-'ye kısa devre yapmış."
+      ],
+      "kontroller": [
+        "Bağlantıları ve kablo demetini gözden geçirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "4.560",
+      "kodNormal": "4560",
+      "aliaslar": [
+        "4.560"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "İndirme valfi çıkışı açık devre",
+      "aciklama": "Regülatörün indirme valfi çıkış devresi açık; bağlantılar, kablo demeti ve güvenlik valfi bobini kontrol edilmeli.",
+      "makineTepkisi": "Transistör regülatörü tüm işlevleri durdurur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "İndirme valfi çıkışı açık devre."
+      ],
+      "kontroller": [
+        "bağlantılar ve kablo demeti",
+        "güvenlik valfi bobini."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.001",
+      "kodNormal": "8001",
+      "aliaslar": [
+        "8.001"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Çarpışma sensörü sınır aşımı kaydetti",
+      "aciklama": "Çarpışma sensörü tanımlı sınırların üzerinde darbe seviyeleri kaydetti; dikkatli sürülmeli ve 105/106 servis parametrelerindeki eşikler kontrol edilmeli.",
+      "makineTepkisi": "Güvenlik hızı; çatal kaldırma/indirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Çarpışma sensörü belirtilen sınırların üstünde çarpışma seviyeleri kaydetti.",
+        "Dikkatli sürün."
+      ],
+      "kontroller": [
+        "Çarpışma algılama eşik değerlerini (105 ve 106 servis parametreleri) kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.002",
+      "kodNormal": "8002",
+      "aliaslar": [
+        "8.002"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Araç TLS tarafından kilitlenmiş",
+      "aciklama": "Araç TLS filo güvenlik sistemi tarafından bilinçli olarak devre dışı bırakılmış; normal çalışmaya döndürme komutu gönderilmeli.",
+      "makineTepkisi": "Güvenlik hızı; çatal kaldırma/indirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Araç TLS tarafından bilinçli olarak devre dışı bırakıldı."
+      ],
+      "kontroller": [
+        "Aracı normal çalışmaya döndürün."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.003",
+      "kodNormal": "8003",
+      "aliaslar": [
+        "8.003"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Spider genişleme ünitesi uyarı veriyor",
+      "aciklama": "Spider genişleme ünitesi parametre uyarısı gönderdi; opsiyon parametrelerinin doğru ayarlandığı kontrol edilmeli.",
+      "makineTepkisi": "Olay yok; araç normal kullanılabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Spider genişleme ünitesinden parametre (argument) uyarısı."
+      ],
+      "kontroller": [
+        "Opsiyon parametrelerinin doğru ayarlandığını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.010",
+      "kodNormal": "8010",
+      "aliaslar": [
+        "8.010"
+      ],
+      "sistem": "batarya",
+      "baslik": "Açılışta şarj cihazıyla CAN iletişimi yok",
+      "aciklama": "Çalıştırmada dahili batarya şarj cihazıyla CAN iletişimi kurulamadı; bağlantılar kontrol edilmeli, A5 ve BCU yazılımlarının uyumu doğrulanmalı.",
+      "makineTepkisi": "Olay yok; araç normal kullanılabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Çalıştırmada batarya şarj cihazıyla CAN iletişim sorunu.",
+        "Genel bilgiler bölümüne bakın."
+      ],
+      "kontroller": [
+        "Bağlantıları ve kablo demetini gözden geçirin.",
+        "ICH [A5] ile BCU [A30] yazılımlarının uyumlu olduğundan emin olun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.011",
+      "kodNormal": "8011",
+      "aliaslar": [
+        "8.011"
+      ],
+      "sistem": "batarya",
+      "baslik": "Kol kartı şarj cihazından CAN verisi almıyor",
+      "aciklama": "Koldaki mantık kartı batarya şarj cihazından gelen CAN verilerini alamıyor; bağlantılar ve kablo demeti kontrol edilmeli.",
+      "makineTepkisi": "Olay yok; araç normal kullanılabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Koldaki mantık kartı batarya şarj cihazından CAN verisi alamıyor."
+      ],
+      "kontroller": [
+        "Bağlantıları ve kablo demetini gözden geçirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.014",
+      "kodNormal": "8014",
+      "aliaslar": [
+        "8.014"
+      ],
+      "sistem": "batarya",
+      "baslik": "Kol kartı şarj cihazına CAN verisi gönderemiyor",
+      "aciklama": "Kol mantık kartı batarya şarj cihazına CAN verisi iletemiyor; kablo demeti ve bağlantılar denetlenmeli.",
+      "makineTepkisi": "Olay yok; araç normal kullanılabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Koldaki mantık kartı batarya şarj cihazına CAN verisi gönderemiyor."
+      ],
+      "kontroller": [
+        "Bağlantıları ve kablo demetini gözden geçirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.020",
+      "kodNormal": "8020",
+      "aliaslar": [
+        "8.020"
+      ],
+      "sistem": "batarya",
+      "baslik": "Şarj cihazı aküye bağlı değil",
+      "aciklama": "Batarya şarj cihazının akü bağlantısı tespit edilemedi; konnektörler ve kablo demeti kontrol edilmeli.",
+      "makineTepkisi": "Olay yok; araç normal kullanılabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Batarya şarj cihazı aküye bağlı değil."
+      ],
+      "kontroller": [
+        "Bağlantıları ve kablo demetini gözden geçirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.021",
+      "kodNormal": "8021",
+      "aliaslar": [
+        "8.021"
+      ],
+      "sistem": "batarya",
+      "baslik": "Şarj cihazı düşük akü gerilimi gördü",
+      "aciklama": "Şarj cihazı akü gerilimini düşük ölçtü; akünün durumu kontrol edilmeli.",
+      "makineTepkisi": "Olay yok; araç normal kullanılabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Batarya şarj cihazı düşük akü gerilimi tespit etti."
+      ],
+      "kontroller": [
+        "Akü durumunu kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.022",
+      "kodNormal": "8022",
+      "aliaslar": [
+        "8.022"
+      ],
+      "sistem": "batarya",
+      "baslik": "Şarj cihazı yüksek akü gerilimi gördü",
+      "aciklama": "Şarj cihazı akü gerilimini aşırı yüksek ölçtü; akü gözden geçirilmeli.",
+      "makineTepkisi": "Olay yok; araç normal kullanılabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Batarya şarj cihazı aşırı yüksek akü gerilimi tespit etti."
+      ],
+      "kontroller": [
+        "Akü durumunu kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.023",
+      "kodNormal": "8023",
+      "aliaslar": [
+        "8.023"
+      ],
+      "sistem": "batarya",
+      "baslik": "Şarj sıcaklığı çok düşük",
+      "aciklama": "Şarj cihazı düşük şarj sıcaklığı tespit etti; akü normal ortam sıcaklığında şarj edilmeli.",
+      "makineTepkisi": "Olay yok; araç normal kullanılabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Batarya şarj cihazı düşük şarj sıcaklığı tespit etti."
+      ],
+      "kontroller": [
+        "Akü normal ortam sıcaklığında şarj edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.024",
+      "kodNormal": "8024",
+      "aliaslar": [
+        "8.024"
+      ],
+      "sistem": "batarya",
+      "baslik": "Şarj sıcaklığı çok yüksek",
+      "aciklama": "Şarj cihazı yüksek şarj sıcaklığı bildirdi; soğutma fanının çalıştığı kontrol edilmeli.",
+      "makineTepkisi": "Olay yok; araç normal kullanılabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Batarya şarj cihazı yüksek şarj sıcaklığı tespit etti."
+      ],
+      "kontroller": [
+        "fanın çalıştığından emin olun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.027",
+      "kodNormal": "8027",
+      "aliaslar": [
+        "8.027"
+      ],
+      "sistem": "batarya",
+      "baslik": "Şarj cihazında ciddi arıza",
+      "aciklama": "Dahili batarya şarj cihazında ciddi arıza tespit edildi; ünite değiştirilmeli.",
+      "makineTepkisi": "Olay yok; araç normal kullanılabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Batarya şarj cihazında ciddi hata."
+      ],
+      "kontroller": [
+        "Batarya şarj cihazını değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.028",
+      "kodNormal": "8028",
+      "aliaslar": [
+        "8.028"
+      ],
+      "sistem": "batarya",
+      "baslik": "Şarj süresi sınırını aştı",
+      "aciklama": "Şarj cihazı izinlenen maksimum şarj süresini aşmış; akü ve şarj sistemi kontrol edilmeli.",
+      "makineTepkisi": "Olay yok; araç normal kullanılabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Batarya şarj cihazı şarj süresi sınırını aştı."
+      ],
+      "kontroller": [
+        "Aküyü kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.029",
+      "kodNormal": "8029",
+      "aliaslar": [
+        "8.029"
+      ],
+      "sistem": "batarya",
+      "baslik": "Maksimum kapasite üstünde şarj",
+      "aciklama": "Şarj cihazı aküyü maksimum kapasitesinin üzerine şarj ediyor; akü ve 110 servis parametresi kontrol edilmeli.",
+      "makineTepkisi": "Olay yok; araç normal kullanılabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Şarj cihazı aküyü maksimum kapasitenin üzerinde şarj ediyor."
+      ],
+      "kontroller": [
+        "akü",
+        "110 servis parametresi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.030",
+      "kodNormal": "8030",
+      "aliaslar": [
+        "8.030"
+      ],
+      "sistem": "batarya",
+      "baslik": "Şarj cihazı parametreyle devre dışı",
+      "aciklama": "Şarj cihazı araca monte edilmiş ancak 1101 fabrika parametresiyle etkinleştirilmemiş; parametre kontrol edilmeli.",
+      "makineTepkisi": "Olay yok; araç normal kullanılabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Şarj cihazı araca monte edilmiş ancak 1101 fabrika parametresiyle etkinleştirilmemiş."
+      ],
+      "kontroller": [
+        "1101 fabrika parametresini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.031",
+      "kodNormal": "8031",
+      "aliaslar": [
+        "8.031"
+      ],
+      "sistem": "batarya",
+      "baslik": "Şarj cihazı parametresi hatalı",
+      "aciklama": "Batarya şarj cihazı parametre ayarı yanlış; araç yeniden çalıştırılmalı ve araç/şarj cihazı yazılımlarının doğruluğu teyit edilmeli.",
+      "makineTepkisi": "Olay yok; araç normal kullanılabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Batarya şarj cihazı parametresi yanlış ayarlanmış."
+      ],
+      "kontroller": [
+        "Aracı yeniden çalıştırın.",
+        "Araç ve batarya şarj cihazında doğru yazılımın kullanıldığını kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.032",
+      "kodNormal": "8032",
+      "aliaslar": [
+        "8.032"
+      ],
+      "sistem": "batarya",
+      "baslik": "Dahili şarj parametresi 109 hatalı",
+      "aciklama": "Dahili şarj cihazıyla şarj sırasında kod görünüyor ise 109 numaralı servis parametresi yanlış ayarlanmış; kontrol edilmeli.",
+      "makineTepkisi": "Olay yok; araç normal kullanılabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Kod dahili şarj cihazıyla şarj sırasında görünüyorsa 109 parametresi yanlış ayarlanmıştır."
+      ],
+      "kontroller": [
+        "109 servis parametresini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.110",
+      "kodNormal": "8110",
+      "aliaslar": [
+        "8.110"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Açılışta Spider 1 ile CAN iletişimi yok",
+      "aciklama": "Çalıştırma sırasında Spider genişleme ünitesi 1 ile CAN iletişimi kurulamadı; bağlantılar ve kablo demeti kontrol edilmeli.",
+      "makineTepkisi": "Güvenlik hızı; çatal kaldırma/indirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Çalıştırmada Spider genişleme ünitesi 1 ile CAN iletişim sorunu."
+      ],
+      "kontroller": [
+        "Bağlantıları ve kablo demetini gözden geçirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.111",
+      "kodNormal": "8111",
+      "aliaslar": [
+        "8.111"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Spider 1 ile CAN iletişimi kopuk",
+      "aciklama": "Spider genişleme ünitesi 1 ile CAN iletişimi kesilmiş; bağlantılar ve kablo demeti denetlenmeli.",
+      "makineTepkisi": "Güvenlik hızı; çatal kaldırma/indirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Spider genişleme ünitesi 1 ile CAN iletişim sorunu."
+      ],
+      "kontroller": [
+        "Bağlantıları ve kablo demetini gözden geçirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.114",
+      "kodNormal": "8114",
+      "aliaslar": [
+        "8.114"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Açılışta Spider 2 ile CAN iletişimi yok",
+      "aciklama": "Çalıştırma sırasında Spider genişleme ünitesi 2 ile CAN iletişimi kurulamadı; bağlantılar ve kablo demeti kontrol edilmeli.",
+      "makineTepkisi": "Güvenlik hızı; çatal kaldırma/indirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Çalıştırmada Spider genişleme ünitesi 2 ile CAN iletişim sorunu."
+      ],
+      "kontroller": [
+        "Bağlantıları ve kablo demetini gözden geçirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.115",
+      "kodNormal": "8115",
+      "aliaslar": [
+        "8.115"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Spider 2 ile CAN iletişimi kopuk",
+      "aciklama": "Spider genişleme ünitesi 2 ile CAN iletişimi kesilmiş; kablo demeti ve bağlantılar kontrol edilmeli.",
+      "makineTepkisi": "Güvenlik hızı; çatal kaldırma/indirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Spider genişleme ünitesi 2 ile CAN iletişim sorunu."
+      ],
+      "kontroller": [
+        "Bağlantıları ve kablo demetini gözden geçirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.123",
+      "kodNormal": "8123",
+      "aliaslar": [
+        "8.123"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Spider 1 programlama uyarısı",
+      "aciklama": "Spider genişleme ünitesi 1 programlama uyarısı verdi; opsiyon parametreleri kontrol edilmeli.",
+      "makineTepkisi": "Güvenlik hızı; çatal kaldırma/indirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Spider genişleme ünitesi 1 programlama uyarısı."
+      ],
+      "kontroller": [
+        "Opsiyon parametrelerini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    },
+    {
+      "kod": "8.124",
+      "kodNormal": "8124",
+      "aliaslar": [
+        "8.124"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Spider 2 programlama uyarısı",
+      "aciklama": "Spider genişleme ünitesi 2 programlama uyarısı verdi; opsiyon parametreleri gözden geçirilmeli.",
+      "makineTepkisi": "Güvenlik hızı; çatal kaldırma/indirme devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Spider genişleme ünitesi 2 programlama uyarısı."
+      ],
+      "kontroller": [
+        "Opsiyon parametrelerini kontrol edin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "dogrulandi"
+    }
+  ]
+}

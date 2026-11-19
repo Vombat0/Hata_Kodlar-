@@ -1,0 +1,526 @@
+{
+  "marka": "hyster",
+  "seri": "a380-p1",
+  "modelAdi": "Hyster a380-p1",
+  "kaynakBelge": "Web araştırması — forklifterrorcodes.com",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "",
+  "kodlar": [
+    {
+      "kod": "51-2",
+      "kodNormal": "512",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "TPS1 ve TPS2 gaz konumu birbiriyle çelişiyor",
+      "aciklama": "A380 çift gaz kanalı arasındaki fark izinli korelasyonu aşar; takip hatası ile kanal uyuşmazlığı §9030-20-28 içinde ayrıştırılır",
+      "makineTepkisi": "Arıza lambası yanar; gaz tepkisi limitleyici moda geçer",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gaz kelebeği plağı veya motoru",
+        "TPS çift kanalı",
+        "Ortak 5 V/return devresi, konnektör/kablo ve ECU"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "51-31",
+        "51-7"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster/a380/fault-code-51-2/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "51-7",
+      "kodNormal": "517",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Gaz konumu komut edilen değere ulaşmıyor",
+      "aciklama": "Kelebek, ECU'nun hedeflediği konuma erişemez; boğulma (tracking) hatası ile sensör uyuşmazlığı §9030-20-28 kapsamında ayrıca tanımlıdır",
+      "makineTepkisi": "Rölanti dalgalanır; devir komutu gerçekleşmez",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gaz kelebeği plağı veya motoru",
+        "TPS çift kanalı",
+        "Ortak 5 V/return devresi, konnektör/kablo ve ECU"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "51-2",
+        "51-31"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster/h50xt/fault-code-51-7/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "51-31",
+      "kodNormal": "5131",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Her iki gaz konumu sensörü gerilimi aralık dışında",
+      "aciklama": "TPS1 ve TPS2 aynı anda ölçüm bandını terk eder; tek kanal arızasından farklı olarak ortak besleme/return şüphesi öne çıkar",
+      "makineTepkisi": "Motor komutu geçersiz kalabilir; stop riski",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gaz kelebeği plağı veya motoru",
+        "TPS çift kanalı",
+        "Ortak 5 V/return devresi, konnektör/kablo ve ECU"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "51-2",
+        "51-7"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster/a380/fault-code-51-31/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "91-2",
+      "kodNormal": "912",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Gaz pedalı sensör kanalları konum uyuşmazlığı",
+      "aciklama": "APP1 ile APP2 kanalları farklı pedal konumu bildirir; pedal sensörü, şase bağlantısı, referans ya da ECU işleme kademesi §9030-20-32 adaylarıdır",
+      "makineTepkisi": "Pedal geçersiz sayılır; araç harekete izin vermeyebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "APP1/APP2 kanal çelişkisi",
+        "Gaz pedalı sensörü",
+        "Tesisat/şase/referans veya ECU işleme"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "51-2",
+        "94-1"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster/a380/fault-code-91-2/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "94-0",
+      "kodNormal": "940",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Primer yakıt basıncı beklenen aralığın üzerinde",
+      "aciklama": "§9030-20-12 yakıt basınç izlemesi; gerçek yüksek basınç ile devre gerilimi aralık dışı durumu ayrılmalıdır",
+      "makineTepkisi": "Arıza lambası yanar; karışım yönetimi sınırlandırılabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt basıncı sensörü konnektörü/tesisatı",
+        "Yakıt tedariği basıncında düzensizlik",
+        "ECU arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "94-1",
+        "94-3",
+        "94-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-94-0/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "94-1",
+      "kodNormal": "941",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Primer yakıt basıncı beklenen aralığın altında",
+      "aciklama": "Basınç okuması alt sınırı altına iner; §9030-20-12 tablosunda basınç gerçekliği ile gerilim arızası aynı başlıkta ama ayrı dallarda incelenir",
+      "makineTepkisi": "Güç düşer; çalıştırmada tutukluk görülebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt basıncı sensörü konnektörü/tesisatı",
+        "Yakıt tedariği basıncında düzensizlik",
+        "ECU arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "94-0",
+        "94-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-94-1/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "94-3",
+      "kodNormal": "943",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Primer yakıt basıncı devre sinyali yüksek",
+      "aciklama": "Basınç sensörü gerilimi üstte; kod 94-0'dan farklı olarak şüphe basınçtan çok sinyal devresine yönelir",
+      "makineTepkisi": "Arıza lambası yanar; basınç geri bildirimi güvenilmez sayılır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensör konnektörü/tesisatı",
+        "Devre gerilimi aralık dışı",
+        "ECU giriş kademesi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "94-4",
+        "94-0"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-94-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "94-4",
+      "kodNormal": "944",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Primer yakıt basıncı devre sinyali düşük",
+      "aciklama": "Basınç sensörü gerilimi alt bant dışına düşer; sensör beslemesi ve hat sürekliliği, gerçek düşük basınçla kıyaslanmalıdır",
+      "makineTepkisi": "Arıza lambası yanar; ECU yedek basınç haritasına geçebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensör konnektörü/tesisatı",
+        "Devre gerilimi aralık dışı",
+        "ECU giriş kademesi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "94-3",
+        "94-1"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-94-4/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "100-3",
+      "kodNormal": "1003",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor yağ basıncı sensör sinyali yüksek",
+      "aciklama": "§9030-20-36: devre 353-A tesisatı, sensör referansı veya ECU girişi yüksek sinyal üretir; sinyal, mekanik yağ basıncı ölçümü değildir",
+      "makineTepkisi": "Yağ basıncı uyarısı verilir; gerçek basınç bağımsız doğrulanmalıdır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yağ basıncı vericisi",
+        "353-A nolu devre tesisatı/konnektörü",
+        "Sinyal/referans hatası veya ECU girişi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "100-4",
+        "110-3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster/a380/fault-code-100-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "100-4",
+      "kodNormal": "1004",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor yağ basıncı sensörü gerilimi düşük",
+      "aciklama": "Yağ basıncı sensöründen beklenenin altında gerilim okunur; 100-3'ün ters yönlü sinyal koşuludur, neden listesi kaynak sayfasında verilmemiştir",
+      "makineTepkisi": "Uyarı lambası yanabilir; kontrolör basınç bilgisini yedekler",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "100-3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster/h50xt/fault-code-100-4/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "105-3",
+      "kodNormal": "1053",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Emme havası sıcaklık sensörü sinyali yüksek",
+      "aciklama": "§9030-20-21: IAT gerilimi üstte; gerçek aşırı emme sıcaklığı ile sensör/tesisat hatası son ek ayrımıyla değerlendirilir",
+      "makineTepkisi": "Arıza lambası yanabilir; karışım düzeltmesi kayar",
+      "siddet": "uyari",
+      "nedenler": [
+        "IAT sensörü gerilim/sıcaklık sinyali",
+        "Tesisat",
+        "Gerçek aşırı emme havası sıcaklığı"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "105-16",
+        "110-3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-105-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "105-16",
+      "kodNormal": "10516",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Emme havası sıcaklığı beklenenin üzerinde",
+      "aciklama": "§9030-20-21'in eşik tabanlı dalı; 105-3'ten farklı olarak sensör gerilimi değil gerçek sıcaklık taşıması izlenir",
+      "makineTepkisi": "Uyarı verilir; güç limitlemesi uygulanabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "IAT sensörü gerilim/sıcaklık sinyali",
+        "Tesisat",
+        "Gerçek aşırı emme havası sıcaklığı"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "105-3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-105-16/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "106-3",
+      "kodNormal": "1063",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Manifold basıncı sensörü gerilimi yüksek",
+      "aciklama": "§9030-20-9: TMAP sinyal veya referans/şase hattı yüksek okuma üretir; barometrik eşik ayrı bir kodun konusudur",
+      "makineTepkisi": "Arıza lambası yanar; hava hesabı yedeklenir",
+      "siddet": "uyari",
+      "nedenler": [
+        "TMAP sinyal hattı",
+        "Referans besleme/şase tesisatı",
+        "Sensör arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "106-4",
+        "108-1"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-106-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "106-4",
+      "kodNormal": "1064",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Manifold basıncı sensörü gerilimi düşük",
+      "aciklama": "TMAP sinyali alt bandın altında; devre açıklığı ile gerçek düşük manifold basıncı ölçümle ayrışmalıdır",
+      "makineTepkisi": "Arıza lambası yanabilir; zengin/yoksul denetimi bozulur",
+      "siddet": "uyari",
+      "nedenler": [
+        "TMAP sinyal hattı",
+        "Referans besleme/şase tesisatı",
+        "Sensör arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "106-3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-106-4/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "108-1",
+      "kodNormal": "1081",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Barometrik basınç alt sınırın altında",
+      "aciklama": "§9030-20-9 ailesinin barometrik dalı; TMAP'tan türetilen BP değeri alt limiti aşar — yükselti ve sensör devresi birlikte düşünülür",
+      "makineTepkisi": "Arıza lambası yanabilir; yükseklik düzeltmesi devre dışı kalabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "TMAP sinyal hattı",
+        "Referans besleme/şase tesisatı",
+        "Sensör arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "106-3",
+        "106-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-108-1/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "110-3",
+      "kodNormal": "1103",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor soğutma suyu sıcaklık sensörü sinyali yüksek/açık",
+      "aciklama": "§9030-20-16: ECT devresi açık/kısa, sinyal-referans tesisatı veya sensör hatası; sensör arızası gerçek hararet anlamına gelmez",
+      "makineTepkisi": "Arıza lambası yanabilir; fan ve güç yönetimi yedek stratejiye geçer",
+      "siddet": "uyari",
+      "nedenler": [
+        "ECT sensör devresi açıklığı/kısayolu",
+        "Sinyal/referans tesisatı",
+        "ECT sensörü hatası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "110-4",
+        "100-3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-110-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "110-4",
+      "kodNormal": "1104",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor soğutma suyu sıcaklık sensörü sinyali düşük",
+      "aciklama": "§9030-20-16 alt sinyal dalı: devre kısa/açık ya da sensör hatalı; motorun gerçekten soğuk olduğu çıkarımı yapılamaz",
+      "makineTepkisi": "Isınma düzeltmeleri gereksiz sürebilir; kontrol yedek değer kullanır",
+      "siddet": "uyari",
+      "nedenler": [
+        "ECT sensör devresi açıklığı/kısayolu",
+        "Sinyal/referans tesisatı",
+        "ECT sensörü hatası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "110-3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-110-4/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "168-0",
+      "kodNormal": "1680",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Akü gerilimi yüksek",
+      "aciklama": "§9030-20-6: besleme gerilimi üst limite ulaştı; alternatör kaçak şarjı, kısa şarj çevrimi veya temas akımları §'da aday sayılır",
+      "makineTepkisi": "Aşırı gerilim uyarısı; elektronik donanım risk altına girer",
+      "siddet": "uyari",
+      "nedenler": [
+        "Akü/şarj kaynağının durumu",
+        "Kısa şarj çevrimi",
+        "Kontak kapalıyken aşırı akım çekişi (ölçüm gerekir, akü suçlanamaz)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "ErrC027"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-168-0/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "524261-3",
+      "kodNormal": "5242613",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Beş voltluk sensör besleme devresi yüksek",
+      "aciklama": "§9030-20-24: 5V referans hattı üstte; kısa/çapraz besleme, tesisat veya ECU referans kademesi şüphelidir",
+      "makineTepkisi": "Birden çok sensör okuması aynı anda kayabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensör beslemesinde kısa veya çapraz besleme",
+        "Tesisat hatası",
+        "Sensörlerin referansı yüklemesi veya ECU referans kademesi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "524223-0",
+        "94-3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-524261-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "2000-12",
+      "kodNormal": "200012",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "ECU CAN iletişim gönderme/alma hatası",
+      "aciklama": "ECU, CAN veriyolunda çerçeve gönderme/alma başarısızlığı kaydeder; adres çakışması (2000-14) ayrı dallandırılır. Sayfada neden listesi verilmemiştir",
+      "makineTepkisi": "Ağdaki modüllerle veri akışı kesilir; motor/şanzıman koordinasyonu bozulur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "2000-14"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster/h50xt/fault-code-2000-12/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "2000-14",
+      "kodNormal": "200014",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "ECU CAN adres çakışması",
+      "aciklama": "§9030-20-65: iki düğüm aynı adresi paylaşır; besleme/toprak ve CAN-H/CAN-L tesisatı §'da sayılır, eksik çerçeveden farklıdır",
+      "makineTepkisi": "Çakışan düğümlerin iletişimi engellenir; uyarı oluşur",
+      "siddet": "uyari",
+      "nedenler": [
+        "ECU besleme/toprak hattı",
+        "CAN-H/CAN-L tesisatı",
+        "İletişim kademesi veya ECU arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "2000-12"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-2000-14/",
+      "durum": "incelemede"
+    }
+  ]
+}

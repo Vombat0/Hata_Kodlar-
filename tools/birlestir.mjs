@@ -35,6 +35,10 @@ const KURETAJ_SERI_KLASORU = join(KURETAJ_KLASORU, 'seriler');
 const KAYNAK_YOLLARI = {
   A: process.env.VERI_A || '/tmp/opencode/veri',
   B: process.env.VERI_B || '/tmp/opencode/veri-ek/g1',
+  W4: process.env.VERI_W4 || '/tmp/opencode/veri-w4',
+  W5: process.env.VERI_W5 || '/tmp/opencode/veri-w5',
+  JH: process.env.VERI_JH || '/tmp/opencode/veri-jh',
+  BT: process.env.VERI_BT || '/tmp/opencode/veri-bt',
   C: process.env.VERI_C || '/tmp/opencode/veri-ek/g2',
 };
 
@@ -793,8 +797,15 @@ try {
   // seri klasörü yeni oluşturulduysa okuma hatası normal.
 }
 
+// Küratörlük marka künyesi varsa YALNIZCA o kullanılır; otomatik üretilen
+// marka kayıtları (yer tutucu grup/açıklama) siteye sızmaz.
+const kuretajVar = kuretajMarkalar.size > 0;
 const markalar = [...markaHarita.values()]
   .map(({ _kaynaklar, _oncelik, ...marka }) => marka)
+  .filter((marka) => {
+    if (!kuretajVar) return true;
+    return kuretajMarkalar.has(marka.id);
+  })
   .sort((a, b) => a.ad.localeCompare(b.ad, 'tr'));
 
 gecerliSeriler.sort((a, b) =>

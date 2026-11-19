@@ -1,46 +1,37 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import SiddetRozet from '../components/SiddetRozet.astro';
-import { aramaYap, getMarkalar, getSeriler, markaAdi, sistemAdi, SISTEMLER, trNormalize, kodAnahtar, kodAdresi } from '../lib/veri';
+import DurumRozet from '../components/DurumRozet.astro';
+import {
+  aramaYap, getMarkalar, getSeriler, markaAdi, SISTEMLER, SIDDETLER, DURUMLAR,
+} from '../lib/veri';
 
 const q = Astro.url.searchParams.get('q') ?? '';
 const marka = Astro.url.searchParams.get('marka') ?? '';
 const seri = Astro.url.searchParams.get('seri') ?? '';
 const sistem = Astro.url.searchParams.get('sistem') ?? '';
 
-const filtreler = { marka, seri, sistem };
-const tumKayitlar = aramaYap('');
-const ilkSonuclar = aramaYap(q, filtreler);
-const ilkAnahtarlar = new Set(
-  ilkSonuclar.map((s) => `${s.marka}|${s.seri}|${kodAnahtar(s.kod.kod)}`),
-);
+// Statik derlemede ?q= bulunmaz; bu blok yalnızca derleme anında sorgu verilirse
+// en fazla 30 kart üretir. Normal durumda sayfa hiç sonuç kartı göndermez.
+const ilkSonuclar = q ? aramaYap(q, { marka, seri, sistem }).slice(0, 30) : [];
 
 const markalar = getMarkalar();
 const seriler = getSeriler();
 const sistemler = Object.entries(SISTEMLER);
 
-const sonucAnahtar = (markaId: string, seriId: string, kod: string) =>
-  `${markaId}|${seriId}|${kodAnahtar(kod)}`;
-
-const aramaMetni = (sonuc: (typeof tumKayitlar)[number]) =>
-  trNormalize(
-    [
-      sonuc.kod.baslik,
-      sonuc.kod.aciklama,
-      sistemAdi(sonuc.kod.sistem),
-      sonuc.kod.sistem,
-    ].join(' '),
-  );
-
-const kodAnahtarlari = (sonuc: (typeof tumKayitlar)[number]) =>
-  [sonuc.kod.kod, sonuc.kod.kodNormal ?? '', ...(sonuc.kod.aliaslar ?? [])]
-    .map(kodAnahtar)
-    .filter(Boolean)
-    .join(' ');
+// İstemciye yalnızca küçük görüntüleme sözlükleri gömülür; 1906 kodun tamamı
+// tek seferde /veri/indeks.json üzerinden yüklenir.
+const sozlukler = {
+  markaAdlari: Object.fromEntries(markalar.map((m) => [m.id, m.ad])),
+  seriAdlari: Object.fromEntries(seriler.map((s) => [`${s.marka}|${s.seri}`, s.modelAdi])),
+  sistemAdlari: Object.fromEntries(Object.entries(SISTEMLER).map(([id, ad]) => [id, ad])),
+  siddetAdlari: Object.fromEntries(Object.entries(SIDDETLER).map(([id, bilgi]) => [id, bilgi.ad])),
+  durumAdlari: Object.fromEntries(Object.entries(DURUMLAR).map(([id, bilgi]) => [id, bilgi.ad])),
+};
 ---
 
 <BaseLayout
-  title="Arama Sonuçları"
+  title="Hata kodu ara"
   description="Forklift hata kodu ve arıza belirtisi arama sonuçları. Marka, seri ve sistem filtreleriyle daraltın."
   canonical="/arama/"
 >
@@ -102,36 +93,38 @@ const kodAnahtarlari = (sonuc: (typeof tumKayitlar)[number]) =>
       </form>
 
       <div id="sonuc-listesi">
-        {tumKayitlar.map((sonuc) => {
-          const gizli = !ilkAnahtarlar.has(sonucAnahtar(sonuc.marka, sonuc.seri, sonuc.kod.kod));
-          const href = kodAdresi(sonuc.marka, sonuc.seri, sonuc.kod.kod);
-          return (
-            <a
-              class="sonuc-kart"
-              href={href}
-              hidden={gizli}
-              data-marka={sonuc.marka}
-              data-seri={sonuc.seri}
-              data-sistem={sonuc.kod.sistem}
-              data-kod-key={kodAnahtarlari(sonuc)}
-              data-metin={aramaMetni(sonuc)}
-            >
-              <div class="sonuc-ust">
-                <span class="sonuc-kod">{sonuc.kod.kod}</span>
-                <SiddetRozet siddet={sonuc.kod.siddet} />
-                <span class="sonuc-yol">{sonuc.markaAd} · {sonuc.modelAdi}</span>
-              </div>
-              <div class="sonuc-baslik">{sonuc.kod.baslik}</div>
-              <p class="sonuc-aciklama">{sonuc.kod.aciklama}</p>
-            </a>
-          );
-        })}
-
-        <div class="bos-durum" id="bos-durum" hidden>
-          <strong>Sonuç bulunamadı.</strong>
-          Arama terimini kısaltın veya filtreleri temizleyin. <a href="/kapsam/">Kapsam panosuna</a> göz atabilirsiniz.
-        </div>
+        {ilkSonuclar.map((sonuc) => (
+          <a class="sonuc-kart" href={`/${sonuc.marka}/${sonuc.seri}/${sonuc.kod.kod}/`}>
+            <div class="sonuc-ust">
+              <span class="sonuc-kod">{sonuc.kod.kod}</span>
+              <span class="sonuc-yol">{sonuc.markaAd} · {sonuc.modelAdi}</span>
+              <SiddetRozet siddet={sonuc.kod.siddet} />
+              <DurumRozet durum={sonuc.kod.durum} />
+            </div>
+            <div class="sonuc-baslik">{sonuc.kod.baslik}</div>
+          </a>
+        ))}
       </div>
+
+      <p class="muted" id="arama-yukleniyor" style="padding-top:1rem">Yükleniyor…</p>
+
+      <noscript>
+        <p class="muted">Arama sonuçlarını görmek için JavaScript etkinleştirin. Tüm kodlara <a href="/kapsam/">kapsam panosundan</a> göz atabilirsiniz.</p>
+      </noscript>
+
+      <div class="bos-durum" id="arama-hata" hidden style="margin-top:1rem">
+        <strong>Arama dizini yüklenemedi.</strong>
+        Bağlantınızı kontrol edip yeniden deneyin veya <a href="/kapsam/">kapsam panosuna</a> göz atın.
+      </div>
+
+      <div class="bos-durum" id="bos-durum" hidden style="margin-top:1rem">
+        <strong>Sonuç bulunamadı.</strong>
+        Arama terimini kısaltın veya filtreleri temizleyin. <a href="/kapsam/">Kapsam panosuna</a> göz atabilirsiniz.
+      </div>
+
+      <button class="dugme dugme-ikincil" id="daha-fazla" type="button" hidden style="margin-top:0.5rem">
+        Daha fazla göster
+      </button>
 
       <section id="tam-metin" style="margin-top:2.5rem" hidden aria-label="Tam metin arama sonuçları">
         <span class="eyek">// TAM METİN</span>
@@ -141,43 +134,128 @@ const kodAnahtarlari = (sonuc: (typeof tumKayitlar)[number]) =>
     </section>
   </div>
 
+  <script type="application/json" id="arama-sozluk" set:html={JSON.stringify(sozlukler)} />
+
   <script>
     import { trNormalize, kodAnahtar } from '../lib/normalize';
+    import { kodAdresi } from '../lib/yol';
+
+    interface Sozluk {
+      markaAdlari: Record<string, string>;
+      seriAdlari: Record<string, string>;
+      sistemAdlari: Record<string, string>;
+      siddetAdlari: Record<string, string>;
+      durumAdlari: Record<string, string>;
+    }
+    interface Kayit {
+      kodNormal: string;
+      kod: string;
+      marka: string;
+      seri: string;
+      baslik: string;
+      sistem: string;
+      siddet: string;
+      durum: string;
+      anahtarlar: string[];
+      metin: string;
+      sira: number;
+    }
+
+    // Modül düzeyinde tek seferlik önbellek.
+    let indeks: Kayit[] | null = null;
+    let eslesenler: Kayit[] = [];
+    let gosterilen = 0;
+    const PARCA = 60;
 
     const form = document.getElementById('arama-form') as HTMLFormElement | null;
     const giris = document.getElementById('arama-alani') as HTMLInputElement | null;
-    const kartlar = Array.from(document.querySelectorAll<HTMLAnchorElement>('.sonuc-kart'));
+    const liste = document.getElementById('sonuc-listesi');
     const sayac = document.getElementById('sonuc-sayisi');
     const bosDurum = document.getElementById('bos-durum');
+    const hataKutu = document.getElementById('arama-hata');
+    const yukleniyor = document.getElementById('arama-yukleniyor');
+    const dahaFazla = document.getElementById('daha-fazla') as HTMLButtonElement | null;
     const fMarka = document.getElementById('f-marka') as HTMLSelectElement | null;
     const fSeri = document.getElementById('f-seri') as HTMLSelectElement | null;
     const fSistem = document.getElementById('f-sistem') as HTMLSelectElement | null;
 
-    function uygula() {
-      const sorgu = trNormalize(giris?.value ?? '').trim();
-      const anahtar = kodAnahtar(giris?.value ?? '');
-      let sayi = 0;
+    const sozluk = JSON.parse(
+      document.getElementById('arama-sozluk')?.textContent ?? '{}',
+    ) as Sozluk;
+    const markaAd = (marka: string) => sozluk.markaAdlari[marka] ?? marka;
+    const seriAd = (marka: string, seri: string) => sozluk.seriAdlari[`${marka}|${seri}`] ?? seri;
 
-      for (const kart of kartlar) {
-        const markaOk = !fMarka?.value || kart.dataset.marka === fMarka.value;
-        const seriOk = !fSeri?.value || kart.dataset.seri === fSeri.value;
-        const sistemOk = !fSistem?.value || kart.dataset.sistem === fSistem.value;
+    /** Gelen indeksi bir kez normalize eder; arama sırasında saf karşılaştırma yapılır. */
+    function hazirla(kayitlar: Omit<Kayit, 'anahtarlar' | 'metin' | 'sira'>[]): Kayit[] {
+      const sirali = [...kayitlar].sort((a, b) =>
+        a.marka.localeCompare(b.marka, 'tr') ||
+        a.seri.localeCompare(b.seri, 'tr') ||
+        a.kod.localeCompare(b.kod, 'tr'),
+      );
+      return sirali.map((k, sira) => {
+        const kodAnahtarlari = [k.kodNormal, k.kod].filter(Boolean).map(kodAnahtar);
+        const anahtarlar = [...new Set(kodAnahtarlari)];
+        const metin = trNormalize([
+          ...kodAnahtarlari,
+          k.baslik,
+          markaAd(k.marka),
+          seriAd(k.marka, k.seri),
+          k.marka,
+          k.seri,
+          sozluk.sistemAdlari[k.sistem] ?? k.sistem,
+          k.sistem,
+        ].join(' '));
+        return { ...k, anahtarlar, metin, sira };
+      });
+    }
 
-        const kodler = (kart.dataset.kodKey ?? '').split(' ').filter(Boolean);
-        const kodOk = Boolean(anahtar) && kodler.some(
-          (k) => k === anahtar || (anahtar.length >= 3 && k.includes(anahtar)),
-        );
-        const metinOk = Boolean(sorgu) && (kart.dataset.metin ?? '').includes(sorgu);
-        const aramaOk = !sorgu || kodOk || metinOk;
+    function kart(r: Kayit): HTMLAnchorElement {
+      const bag = document.createElement('a');
+      bag.className = 'sonuc-kart';
+      bag.href = kodAdresi(r.marka, r.seri, r.kod);
 
-        const goster = markaOk && seriOk && sistemOk && aramaOk;
-        kart.hidden = !goster;
-        if (goster) sayi += 1;
-      }
+      const ust = document.createElement('div');
+      ust.className = 'sonuc-ust';
 
-      if (sayac) sayac.textContent = `${sayi} sonuç`;
-      if (bosDurum) bosDurum.hidden = sayi !== 0;
+      const kod = document.createElement('span');
+      kod.className = 'sonuc-kod';
+      kod.textContent = r.kod;
 
+      const yol = document.createElement('span');
+      yol.className = 'sonuc-yol';
+      yol.textContent = `${markaAd(r.marka)} · ${seriAd(r.marka, r.seri)}`;
+
+      const sevAd = sozluk.siddetAdlari[r.siddet] ?? r.siddet;
+      const sev = document.createElement('span');
+      sev.className = `rozet rozet-${['durdurucu', 'kisitlayici', 'uyari', 'bilgi'].includes(r.siddet) ? r.siddet : 'bilgi'}`;
+      sev.title = `Şiddet: ${sevAd}`;
+      sev.textContent = sevAd;
+
+      const durumAd = sozluk.durumAdlari[r.durum] ?? r.durum;
+      const durum = document.createElement('span');
+      durum.className = `durum-rozet durum-${['dogrulandi', 'incelemede', 'taslak'].includes(r.durum) ? r.durum : 'taslak'}`;
+      durum.title = `Doğrulama durumu: ${durumAd}`;
+      durum.textContent = durumAd;
+
+      ust.append(kod, yol, sev, durum);
+
+      const baslik = document.createElement('div');
+      baslik.className = 'sonuc-baslik';
+      baslik.textContent = r.baslik;
+
+      bag.append(ust, baslik);
+      return bag;
+    }
+
+    function ciz() {
+      if (!liste) return;
+      const parca = document.createDocumentFragment();
+      for (const kayit of eslesenler.slice(0, gosterilen)) parca.appendChild(kart(kayit));
+      liste.replaceChildren(parca);
+      if (dahaFazla) dahaFazla.hidden = gosterilen >= eslesenler.length;
+    }
+
+    function urlGuncelle() {
       const url = new URL(window.location.href);
       const deger = giris?.value ?? '';
       if (deger) url.searchParams.set('q', deger); else url.searchParams.delete('q');
@@ -188,15 +266,59 @@ const kodAnahtarlari = (sonuc: (typeof tumKayitlar)[number]) =>
       window.history.replaceState(null, '', url.pathname + url.search);
     }
 
+    function uygula() {
+      if (!indeks) return;
+      const sorgu = trNormalize(giris?.value ?? '').trim();
+      const anahtar = kodAnahtar(giris?.value ?? '');
+
+      eslesenler = [];
+      for (const k of indeks) {
+        if (fMarka?.value && k.marka !== fMarka.value) continue;
+        if (fSeri?.value && k.seri !== fSeri.value) continue;
+        if (fSistem?.value && k.sistem !== fSistem.value) continue;
+        if (sorgu) {
+          const kodOk = Boolean(anahtar) && k.anahtarlar.some(
+            (x) => x === anahtar || (anahtar.length >= 3 && x.includes(anahtar)),
+          );
+          if (!kodOk && !k.metin.includes(sorgu)) continue;
+        }
+        eslesenler.push(k);
+      }
+
+      eslesenler.sort((a, b) => {
+        const aTam = anahtar && a.anahtarlar.includes(anahtar) ? 1 : 0;
+        const bTam = anahtar && b.anahtarlar.includes(anahtar) ? 1 : 0;
+        return bTam - aTam || a.sira - b.sira;
+      });
+
+      gosterilen = Math.min(PARCA, eslesenler.length);
+      ciz();
+      if (sayac) sayac.textContent = `${eslesenler.length} sonuç`;
+      if (bosDurum) bosDurum.hidden = eslesenler.length !== 0;
+      urlGuncelle();
+    }
+
+    async function yukle() {
+      try {
+        const yanit = await fetch('/veri/indeks.json');
+        if (!yanit.ok) throw new Error(`HTTP ${yanit.status}`);
+        indeks = hazirla(await yanit.json());
+        if (yukleniyor) yukleniyor.hidden = true;
+        uygula();
+      } catch {
+        if (yukleniyor) yukleniyor.hidden = true;
+        if (hataKutu) hataKutu.hidden = false;
+        if (sayac) sayac.textContent = 'Dizin yüklenemedi';
+      }
+    }
+
     let zamanlayici: number | undefined;
     giris?.addEventListener('input', () => {
       window.clearTimeout(zamanlayici);
       zamanlayici = window.setTimeout(uygula, 60);
     });
 
-    for (const secim of [fMarka, fSeri, fSistem]) {
-      secim?.addEventListener('change', uygula);
-    }
+    for (const secim of [fMarka, fSeri, fSistem]) secim?.addEventListener('change', uygula);
 
     form?.addEventListener('reset', () => {
       window.setTimeout(() => {
@@ -205,17 +327,26 @@ const kodAnahtarlari = (sonuc: (typeof tumKayitlar)[number]) =>
       }, 0);
     });
 
-    // Pagefind tam metin araması — derleme çıktısında varsa devreye girer, yoksa sessizce atlanır.
+    dahaFazla?.addEventListener('click', () => {
+      const sonraki = eslesenler.slice(gosterilen, gosterilen + PARCA);
+      const parca = document.createDocumentFragment();
+      for (const kayit of sonraki) parca.appendChild(kart(kayit));
+      gosterilen += sonraki.length;
+      liste?.appendChild(parca);
+      if (dahaFazla) dahaFazla.hidden = gosterilen >= eslesenler.length;
+    });
+
+    // Pagefind tam metin araması — yalnızca 3+ karakter yazıldığında, hata toleranslı olarak devreye girer.
     const bolum = document.getElementById('tam-metin');
-    const liste = document.getElementById('tam-metin-listesi');
+    const tamListe = document.getElementById('tam-metin-listesi');
     let pfZamanlayici: number | undefined;
 
     async function tamMetin() {
       const sorgu = (giris?.value ?? '').trim();
-      if (!liste || !bolum) return;
+      if (!tamListe || !bolum) return;
       if (sorgu.length < 3) {
         bolum.hidden = true;
-        liste.innerHTML = '';
+        tamListe.replaceChildren();
         return;
       }
       try {
@@ -223,19 +354,36 @@ const kodAnahtarlari = (sonuc: (typeof tumKayitlar)[number]) =>
         const pagefind = await import(/* @vite-ignore */ modulYolu);
         await pagefind.init();
         const sonuc = await pagefind.search(sorgu);
-        const ilk = await Promise.all(sonuc.results.slice(0, 6).map((r: { data: () => Promise<unknown> }) => r.data()));
+        const ilk = await Promise.all(
+          sonuc.results.slice(0, 6).map((r: { data: () => Promise<unknown> }) => r.data()),
+        );
         const kayitlar = ilk as { url?: string; meta?: { title?: string }; excerpt?: string }[];
-        const mevcut = new Set(kartlar.map((k) => k.getAttribute('href')));
+        const mevcut = new Set(
+          Array.from(document.querySelectorAll<HTMLAnchorElement>('.sonuc-kart[href]'))
+            .map((k) => k.getAttribute('href')),
+        );
         const filtrelenen = kayitlar.filter((k) => k.url && !mevcut.has(k.url));
         if (!filtrelenen.length) {
           bolum.hidden = true;
           return;
         }
-        liste.innerHTML = filtrelenen.map((k) =>
-          `<a class="sonuc-kart" href="${k.url}"><div class="sonuc-baslik">${k.meta?.title ?? k.url}</div><p class="sonuc-aciklama">${k.excerpt ?? ''}</p></a>`
-        ).join('');
+        const parca = document.createDocumentFragment();
+        for (const k of filtrelenen) {
+          const bag = document.createElement('a');
+          bag.className = 'sonuc-kart';
+          bag.href = k.url ?? '#';
+          const baslik = document.createElement('div');
+          baslik.className = 'sonuc-baslik';
+          baslik.textContent = k.meta?.title ?? k.url ?? '';
+          const aciklama = document.createElement('p');
+          aciklama.className = 'sonuc-aciklama';
+          aciklama.innerHTML = k.excerpt ?? '';
+          bag.append(baslik, aciklama);
+          parca.appendChild(bag);
+        }
+        tamListe.replaceChildren(parca);
         bolum.hidden = false;
-      } catch (e) {
+      } catch {
         bolum.hidden = true;
       }
     }
@@ -244,5 +392,14 @@ const kodAnahtarlari = (sonuc: (typeof tumKayitlar)[number]) =>
       window.clearTimeout(pfZamanlayici);
       pfZamanlayici = window.setTimeout(tamMetin, 320);
     });
+
+    // Derleme anında sahte bir ?q= gelmediyi sürece kart yoktur; URL'deki gerçek
+    // parametreler istemcide okunup alanlara yansıtılır.
+    const url = new URL(window.location.href);
+    if (giris) giris.value = url.searchParams.get('q') ?? '';
+    if (fMarka) fMarka.value = url.searchParams.get('marka') ?? '';
+    if (fSeri) fSeri.value = url.searchParams.get('seri') ?? '';
+    if (fSistem) fSistem.value = url.searchParams.get('sistem') ?? '';
+    void yukle();
   </script>
 </BaseLayout>

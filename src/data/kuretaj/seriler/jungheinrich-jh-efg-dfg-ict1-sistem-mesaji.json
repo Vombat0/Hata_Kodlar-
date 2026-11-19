@@ -1,0 +1,2446 @@
+{
+  "marka": "jungheinrich",
+  "seri": "jh-efg-dfg-ict1-sistem-mesaji",
+  "modelAdi": "Jungheinrich EFG/DFG/ETV (F-H-L sınıfları, ICT1 denetim üniteleri) — eski nesil sistem mesajları",
+  "kaynakBelge": "Jungheinrich System Messages 08.06 (OEM hata tablosu; F/H/L/F-AC/H-AC ve interface aileleri)",
+  "kaynakSurum": "08.06",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://drive.google.com/file/d/1IPC_PjbLOlPTdLgEJnjh3CEDCDK8CoeE/view",
+  "kodlar": [
+    {
+      "kod": "1",
+      "kodNormal": "1",
+      "aliaslar": [
+        "01",
+        "SM1"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sistem açılışında düşük gerilim",
+      "aciklama": "Kontrol ünitesi açılışta akü veya ara devre gerilimini izin verilen sınırın altında ölçer; 80 V sistemlerde akü 64 V, kapasitör gerilimi 56 V altına düştüğünde kaydedilir.",
+      "makineTepkisi": "Seyretme engellenir; seyir ve kaldırma gücü düşer, uyarı sembolü yanıp söner.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Akü şarjının düşük veya akü ömrünün bitmiş olması",
+        "Ana akü sigortası ve kontrol ünitesi besleme hattındaki temassızlık",
+        "Ana kontaktörün yapışması veya gecikmeli kapanması"
+      ],
+      "kontroller": [
+        "Akü gerilimini ölçün ve aküyü şarj edin",
+        "Kontrol ünitesine giden kablo bağlantılarını ve ana akü sigortasını kontrol edin",
+        "Ana kontaktörü test edin; limitleri cihaz ve yazılım sürümüne göre doğrulayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-1/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "2",
+      "kodNormal": "2",
+      "aliaslar": [
+        "02",
+        "SM2"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Akü/batarya tarafında aşırı gerilim",
+      "aciklama": "Denetim elektronik besleme gerilimini izin verilen üst sınırın üzerinde görür; 80 V sistemin 92 V, 48 V sistemin 62 V, 24 V sistemin 28 V üzerine çıkılması hatayı tetikler.",
+      "makineTepkisi": "Seyir ve hidrolik fonksiyonlar tamamen devre dışı kalır; uyarı sembolü yanıp söner.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Şarj cihazının hatalı gerilimde şarj etmesi",
+        "Regülatör/jeneratör arızası (varsa)",
+        "Yanlış akü gerilim sınıfının yapılandırılmış olması"
+      ],
+      "kontroller": [
+        "Akü gerilimini ölçün",
+        "Şarj cihazı çıkış gerilimini kontrol edin",
+        "Kontrol ünitesi gücünü kesip gerilim sınıf ayarını doğrulayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-2/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "3",
+      "kodNormal": "3",
+      "aliaslar": [
+        "03",
+        "SM3"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontrol ünitesi sıcaklık sınırının aşılması",
+      "aciklama": "Güç elektroniği sıcaklığı eşik değeri aşar (>80 °C; MP1510C için >70 °C; ACS donanımında >85 °C bilgi, >115 °C hata, <-20 °C hata).",
+      "makineTepkisi": "Seyir ve kaldırma gücü kademeli olarak düşürülür; uyarı sembolü yanıp söner.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ortam sıcaklığının yüksekliği veya havalandırma kanallarının tıkanması",
+        "Soğutma fanının çalışmaması",
+        "Sıcaklık sensörü veya kablo kopukluğu"
+      ],
+      "kontroller": [
+        "Üniteyi soğumaya bırakın ve fan çalışmasını kontrol edin",
+        "Sensör ve kablo bağlantılarını ölçün",
+        "Toz birikimi için kontrol ünitesi çevresini temizleyin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "4",
+      "kodNormal": "4",
+      "aliaslar": [
+        "04",
+        "SM4"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Seyir sırasında acil durdurmanın çekilmesi",
+      "aciklama": "Operatör acil stop şalterini seyir sırasında çevirir; MP1510C donanımında hat gerilimi 20 V altına düştüğünde mesaj üretilir.",
+      "makineTepkisi": "Fren devreye girer ve seyir engellenir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Acil stop butonunun seyir sırasında yanlışlıkla çevrilmesi",
+        "Acil stop hattının kısa devre yapması veya kablosunun kopması"
+      ],
+      "kontroller": [
+        "Acil stop şalterini konumuna çevirin ve düğme kontaklarını kontrol edin",
+        "Acil stop hattının sürekliliğini ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-4/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "5",
+      "kodNormal": "5",
+      "aliaslar": [
+        "05",
+        "SM5"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Seyir sisteminde aşırı gerilim",
+      "aciklama": "Seyir kontrol ünitesinin besleme hattında izin verilen üst sınır aşılır (Retrak için >62 V, MP1510C için >32 V).",
+      "makineTepkisi": "Fren uygular, seyir engellenir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Akü geriliminin sistem sınıfının üzerinde olması",
+        "Şarj sonrası gerilim sıçraması",
+        "Besleme kablosunda yanlış bağlantı"
+      ],
+      "kontroller": [
+        "Aküye giden kablo bağlantısını ve aküyü kontrol edin",
+        "Sistem gerilim sınıfına göre limit değerleri karşılaştırın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-5/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "6",
+      "kodNormal": "6",
+      "aliaslar": [
+        "06",
+        "SM6"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Seyir set değeri cihazında kablo kopması",
+      "aciklama": "Jokey kol/seyir potansiyometresi sinyal hattı kopar; gaz kumandasından hiç set değeri gelmez.",
+      "makineTepkisi": "Seyir durur; uyarı sembolü yanıp söner, hidrolik fonksiyonlar çalışmaya devam eder.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Seyir set cihazı (potansiyometre) sarım veya konektör kopukluğu",
+        "Canion/arabirim modülüne giden bukette kopma",
+        "Canion arayüz kartı arızası"
+      ],
+      "kontroller": [
+        "Set cihazı ve arayüz arasındaki kablo bukletini ölçün",
+        "Seyir set cihazını test cihazıyla kontrol edin, gerekiyorsa değiştirin",
+        "Canion/arayüz bağlantısını ve arayüz kartını kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-6/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "7",
+      "kodNormal": "7",
+      "aliaslar": [
+        "07",
+        "SM7"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Seyir sırasında kontağın kapatılması",
+      "aciklama": "Marş anahtarı seyir sırasında çevrilir; MP1510C'de hat gerilimi 200 ms boyunca 13 V altına düşünce kayıt oluşur.",
+      "makineTepkisi": "Fren devreye girer ve seyir engellenir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kontak şalterinin seyir sırasında kapatılması",
+        "Kontağın temassızlık yapıp beslemeyi kesmesi",
+        "Kontak altı konnektör gevşekliği"
+      ],
+      "kontroller": [
+        "Kontak şalteri ve arkasındaki konnektörü kontrol edin",
+        "Kontak hattı gerilimini yük altında ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-7/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "8",
+      "kodNormal": "8",
+      "aliaslar": [
+        "08",
+        "SM8"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "İki seyir yönünün aynı anda istenmesi",
+      "aciklama": "İleri ve geri yönlü iki giriş aynı anda aktif olur; çift pedallı dizilimde devre mantığı çelişkiyi hata olarak raporlar.",
+      "makineTepkisi": "Seyir durur; uyarı sembolü yanıp söner, hidrolik çalışabilir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yön değiştirme şalterinin iç kontağının yapışması",
+        "Çift pedallı tasarımda şalter devresinde aynı anda kapanma",
+        "Multipilot/Solopilot veya arayüz kartı arızası"
+      ],
+      "kontroller": [
+        "Seyir yönü şalterini ve kablolarını kontrol edin",
+        "Interface 7 / Canion ve Multipilot-Solopilot modüllerini test edin",
+        "Çift pedal elektrik devresini ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-8/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "9",
+      "kodNormal": "9",
+      "aliaslar": [
+        "09",
+        "SM9"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Operatör koruma şalteri arızası",
+      "aciklama": "Koltuk/joystick emniyet şalteri beklenmeyen kontak durumu bildirir; operatör var-yok algılaması geçersizdir.",
+      "makineTepkisi": "Kaynakta tepki belirtilmemiş; cihaz emniyet nedeniyle kısıtlamaya girebilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Emniyet şalterinin mekanik ayarının kayması",
+        "Şalter kablosunda kopukluk veya kısa devre"
+      ],
+      "kontroller": [
+        "Operatör koruma şalterini ve kontaklarını kontrol edin",
+        "Şalter kablo bağlantılarını ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-9/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "10",
+      "kodNormal": "10",
+      "aliaslar": [
+        "SM10"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kapasitör ve akü gerilimi uyumsuzluğu (ana kontaktör yapışık/açık değil)",
+      "aciklama": "Kontaktör kapalı komutuna rağmen kapasitör gerilimi akü geriliminden farklı kalır; kontaktörün yapıştığı veya geciktiği anlaşılır.",
+      "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı sembolü yanıp söner.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Ana kontaktör kontaklarının kaynayarak yapışması",
+        "Kontaktör sürücü çıkışının bozulması",
+        "Besleme kablosunda gerilim düşümü"
+      ],
+      "kontroller": [
+        "Ana kontaktörü mekanik ve elektriksel test edin",
+        "Seyir ünitesi çıkış pinini (ACS: pin 2) ölçün",
+        "Kablo bağlantılarını ve bağlantı noktalarını gözden geçirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-10/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "11",
+      "kodNormal": "11",
+      "aliaslar": [
+        "SM11"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Endüvi/uyartma akım ölçümünde ofset hatası",
+      "aciklama": "DC ünitede endüvi veya alan akımı, AC ünitede stator akımı ölçümü sıfır noktasında tutarsız değer gösterir.",
+      "makineTepkisi": "Seyir fonksiyonu çalışmaz.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Akım sensörü/shant girişinde ofset sürüklenmesi",
+        "Ana akım kablosunda gevşek temas",
+        "Kontrol ünitesi analog giriş katı arızası"
+      ],
+      "kontroller": [
+        "Ana akım kablolarını ve bağlantı torklarını kontrol edin",
+        "Arıza tekrarlıyorsa kontrol ünitesini değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-11/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "12",
+      "kodNormal": "12",
+      "aliaslar": [
+        "SM12"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Alan/çıkış katı sürücü devresi arızası",
+      "aciklama": "DC'de alan reostası sürücüsü, AC'de güç katı devre dışı bırakma sürücüsü yanıt vermez; AC'de düz kayış kablosu da tetikleyebilir.",
+      "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı sembolü yanıp söner.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sürücü entegresinin arızalanması",
+        "AC ünitelerde düz kayış (flat belt) kablosunda kopma",
+        "Güç kartı bileşen arızası"
+      ],
+      "kontroller": [
+        "AC sistemlerde düz kayış kablosunu kontrol edin",
+        "Arızalı güç kartını/kontrol parçasını değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-12/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "13",
+      "kodNormal": "13",
+      "aliaslar": [
+        "SM13"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Alan sargısı watchdog devre dışı bırakma hatası",
+      "aciklama": "Alan akımı denetim devresi zaman aşımıyla gücü keser; DC ünitelerde alan sürüşü başlatılamaz.",
+      "makineTepkisi": "Seyir fonksiyonu çalışmaz.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Watchdog konfigürasyonunda donanım uyumsuzluğu",
+        "Alan sürücü katının yanması",
+        "Kontrol ünitesi iç arızası"
+      ],
+      "kontroller": [
+        "Arızalı kontrol kartını ve alan sürücü bileşenlerini değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-13/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "14",
+      "kodNormal": "14",
+      "aliaslar": [
+        "SM14"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ana kontaktör kapanmadı / alan güç katı açılmıyor",
+      "aciklama": "Kendini kilitlemeli ana kontaktör kapanmaz veya DC ünitelerde alan güç katı enerjilenemez.",
+      "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı sembolü yanıp söner.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kontaktör bobin devresi veya şarj bağlantısı arızası",
+        "Alan besleme sigortasının yanması",
+        "Kablo kopukluğu"
+      ],
+      "kontroller": [
+        "Kablo bağlantılarını ve ana kontaktörü test edin",
+        "Şarj bağlantısını ve alan besleme sigortasını kontrol edin",
+        "Gerekirse kontrol ünitesini değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-14/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "15",
+      "kodNormal": "15",
+      "aliaslar": [
+        "SM15"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Alan devre dışı bırakma hatası / AC geçersiz adres",
+      "aciklama": "Alan sürüşü istenmeyen şekilde kesilir; AC versiyonda adresleme hatası da bu kodu üretir.",
+      "makineTepkisi": "Seyir fonksiyonu çalışmaz.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kontrol kartı sürücü bölüm arızası",
+        "AC ünitelerde yazılımsal adres hatası"
+      ],
+      "kontroller": [
+        "Arızalı kontrol parçasını veya üniteyi değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-15/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "16",
+      "kodNormal": "16",
+      "aliaslar": [
+        "SM16"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Endüvi sürücü devre dışı hatası / AC yazılım sıfırlaması",
+      "aciklama": "Endüvi aktüatör sürücüsü devreyi keser; AC ünitelerde yazılım sıfırlanması kayıt oluşturur.",
+      "makineTepkisi": "Seyir fonksiyonu çalışmaz.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sürücü katında donanım hatası",
+        "AC kontrol ünitesinde yazılım yeniden başlaması"
+      ],
+      "kontroller": [
+        "AC ünitelerde kontrol parçasını, diğerlerinde üniteyi değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-16/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "17",
+      "kodNormal": "17",
+      "aliaslar": [
+        "SM17"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Endüvi watchdog devre dışı bırakma hatası",
+      "aciklama": "Endüvi akım denetim watchdog'u süresi dolunca gücü keser; DC seyir devre dışı kalır.",
+      "makineTepkisi": "Seyir fonksiyonu çalışmaz.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Watchdog tetikleyen endüvi devresi bozukluğu",
+        "Kontrol ünitesi iç arızası"
+      ],
+      "kontroller": [
+        "Arızalı bileşenleri değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-17/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "18",
+      "kodNormal": "18",
+      "aliaslar": [
+        "SM18"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Endüvi/güç katı fazı açılamıyor",
+      "aciklama": "DC'de endüvi güç katı, AC'de fazların biri enerjilenemez; motora güç verilemez.",
+      "makineTepkisi": "Seyir fonksiyonu çalışmaz.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Endüvi kablo bağlantısında kopukluk",
+        "Güç katı (transistör/modül) arızası",
+        "Motor sargı kısa devresi"
+      ],
+      "kontroller": [
+        "Endüvi ana akım kablosunu kontrol edin",
+        "Güç kartını ve kontrol ünitesini değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-18/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "19",
+      "kodNormal": "19",
+      "aliaslar": [
+        "SM19"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Endüvi devre dışı hatası / AC güç katı kısa devresi",
+      "aciklama": "Endüvi sürüşü kesilir veya AC güç katında kısa devre tespit edilir; hata 70 ile birlikteyse ana kontaktör arkası besleme şüphelidir.",
+      "makineTepkisi": "Seyir fonksiyonu çalışmaz.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Güç katı kısa devresi",
+        "Motorda sargı kısa devresi",
+        "Hata 70 ile birlikteyse kontaktör arkası besleme hatası"
+      ],
+      "kontroller": [
+        "Güç kartını ve üniteyi değiştirin",
+        "70 ile birlikte görüldüyse kontaktör arkası beslemeyi ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 4,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-19/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "20",
+      "kodNormal": "20",
+      "aliaslar": [
+        "SM20"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Endüvi bağlantısı hatalı",
+      "aciklama": "Endüvi ana akım kabloları ters veya yanlış uçlara bağlanmış; DC motor devresi çalışmaz.",
+      "makineTepkisi": "Seyir fonksiyonu çalışmaz.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Servis sonrası endüvi kablolarının ters bağlanması",
+        "Yanlış kablo şemasına göre montaj"
+      ],
+      "kontroller": [
+        "Endüvi ana akım kablo bağlantısını şemaya göre doğrulayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 4,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-20/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "21",
+      "kodNormal": "21",
+      "aliaslar": [
+        "SM21"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Endüvi aşırı gerilimi / üst kolda arıza",
+      "aciklama": "Endüvi devresinde aşırı gerilim veya yüksek taraf arızası ölçülür; MP1510'da 250 ms boyunca 360 A üzeri akım tetikler.",
+      "makineTepkisi": "Kaynakta tepki ayrı belirtilmemiş; seyir kesintisi beklenir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Endüvi kablo kısa devresi",
+        "Güç katı üst kol arızası",
+        "Hatalı akım limit ayarı (AC)"
+      ],
+      "kontroller": [
+        "Motora giden ana akım kablosunu kontrol edin",
+        "AC sistemlerde ayar değerlerini doğrulayın",
+        "Arızalı üniteyi değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 4,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-21/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "22",
+      "kodNormal": "22",
+      "aliaslar": [
+        "SM22"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Watchdog zaman aşımı",
+      "aciklama": "Kontrol ünitesi watchdog zamanlayıcısı süresi içinde sıfırlanmaz; yazılım kilitlenmesi teşhis edilir.",
+      "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı sembolü yanıp söner.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kontrol ünitesi yazılımının kilitlenmesi",
+        "Sürekli tekrarlayan kesinti kaynağı",
+        "CANION modülünde donanım hatası"
+      ],
+      "kontroller": [
+        "Kontağı kapatıp açarak watchdog'u sıfırlayın",
+        "Sorun sürerse kontrol kartını/Canion'u değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-22/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "23",
+      "kodNormal": "23",
+      "aliaslar": [
+        "SM23"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Ağır yük/kalıcı kesinti veya CAN zaman aşımı",
+      "aciklama": "İşlemci aşırı yüklenir, kalıcı kesinti oluşur ya da ACS CAN bağlantısında telegram zaman aşımı olur.",
+      "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı sembolü yanıp söner.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN bus konektörünün temassız olması",
+        "Ağ üzerindeki bir modülün sürekli kesinti üretmesi",
+        "Arızalı Canion/kontrol ünitesi"
+      ],
+      "kontroller": [
+        "CAN bus konektör ve sonlandırma dirençlerini kontrol edin",
+        "Arızalı bileşeni belirleyip değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-23/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "24",
+      "kodNormal": "24",
+      "aliaslar": [
+        "SM24"
+      ],
+      "sistem": "diger",
+      "baslik": "EEPROM erişilemiyor veya parametreler tutarsız",
+      "aciklama": "Parametre belleği okunamaz ya da parametre seti varsayılana dönmüştür; saat sayacı ve kayıt defteri de etkilenebilir.",
+      "makineTepkisi": "Uyarı sembolü yanıp söner; araç tipi ve parametreler sıfırlanabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Akü kablosunda gerilim düşümü (EEPROM yazarken güç kesilmesi)",
+        "EEPROM ömrünün dolması",
+        "Araç tipi parametresinin kaybolması"
+      ],
+      "kontroller": [
+        "Akü kablosunu ve gerilimi kontrol edin",
+        "Araç tipini ve parametreleri yeniden girin",
+        "Gerekirse kontrol parçasını değiştirip logbook saatini düzeltin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-24/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "25",
+      "kodNormal": "25",
+      "aliaslar": [
+        "SM25"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Arabayimden telegram yok (login/CAN seyir şalteri)",
+      "aciklama": "Interface veya CAN Seyir şalteri telegraf göndermez; modülasyon kartıyla orantılı valf hattı da izlenir.",
+      "makineTepkisi": "Kaynakta tepki ayrı belirtilmemiş; ilgili hidrolik girişler çalışmayabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Interface (I2/I4/I8) besleme sigortası 1F8'in yanması",
+        "Orantılı valf-modülasyon kablosunda kopukluk",
+        "Kaldırma potansiyometresi veya Multipilot arızası"
+      ],
+      "kontroller": [
+        "CANBus ve arayüz kablolarını kontrol edin",
+        "1F8 sigortasını ölçün",
+        "Kaldırma potansiyometresi/Multipilot ve arayüzü test edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-25/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "26",
+      "kodNormal": "26",
+      "aliaslar": [
+        "SM26"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma potansiyometresi kablo kopması",
+      "aciklama": "Kaldırma kumanda kolunun potansiyometresi sinyal vermez; kaldırma set değeri alınamaz.",
+      "makineTepkisi": "Kaldırma durur; uyarı sembolü yanıp söner, seyir açıktır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kaldırma potansiyometresi bağlantı kablosunda kopma",
+        "Multipilot/Solopilot giriş arızası",
+        "Koldaki potansiyometrinin bozulması"
+      ],
+      "kontroller": [
+        "Potansiyometre kablo bağlantısını ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-26/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "27",
+      "kodNormal": "27",
+      "aliaslar": [
+        "SM27"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme set cihazı kablo kopması",
+      "aciklama": "Direksiyon/çekme kol açı set cihazının hattı kopar; reach truck'larda 45° bolster sensörü de bu koddan izlenir.",
+      "makineTepkisi": "Sürünme hızına düşer, uyarı yanıp söner, hidrolikler açık; reach truck'ta acil durdurma yapar.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Açı set potansiyometresi kablosunda kopma",
+        "Canion/arayüz arızası",
+        "PM2402L (SW 1.60+) P511 parametre hatası"
+      ],
+      "kontroller": [
+        "Kablo bağlantısını kontrol edin",
+        "Açı sensörü/potansiyometresini ölçün ve değiştirin",
+        "PM2402L'de P511 'steering wheel'-240 değerini ayarlayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-27/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "28",
+      "kodNormal": "28",
+      "aliaslar": [
+        "SM28"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme geri bildirim sensörü kablo kopması",
+      "aciklama": "Direksiyon açı gerçek değer sensörü sinyal kaybolur; kapalı çevrim yönlendirme açılamaz.",
+      "makineTepkisi": "Sürünme hızına düşer, uyarı yanıp söner; reach truck'ta acil durdurma oluşur.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Direksiyon açı sensörü kablosunda kopukluk",
+        "Sensörün mekanik bağlantısının kopması",
+        "Interface/Canion arızası"
+      ],
+      "kontroller": [
+        "Sensör kablolarını ve direksiyon sensörünü kontrol edin",
+        "Canion/arayüz ve yönlendirme ünitesini test edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-28/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "29",
+      "kodNormal": "29",
+      "aliaslar": [
+        "SM29"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Yatay denge (traverse) potansiyometresi kablo kopması",
+      "aciklama": "Multipilot kolundaki traverse potansiyometresi hattı kopar; set değeri okunamaz.",
+      "makineTepkisi": "İlgili yatay denge fonksiyonu çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Multipilot kolu içi potansiyometre kopukluğu",
+        "Kablo büküm noktasında tel kırılması"
+      ],
+      "kontroller": [
+        "Multipilot modülünü ve kablo hattını kontrol edin, gerekirse değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-29/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "30",
+      "kodNormal": "30",
+      "aliaslar": [
+        "SM30"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Eğme (tilt) potansiyometresi kablo kopması",
+      "aciklama": "Multipilot eğme kumanda potansiyometresi sinyali kesilir.",
+      "makineTepkisi": "Eğme fonksiyonu kullanılamaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Eğme potansiyometresi sarım kopukluğu",
+        "Hall sensörlü (2003 sonrası) kolda öğrenme kaybı",
+        "Kablo kopukluğu"
+      ],
+      "kontroller": [
+        "Multipilot'u değiştirin",
+        "Hall sensörlü kollarda Multipilot'u yeniden teach edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-30/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "31",
+      "kodNormal": "31",
+      "aliaslar": [
+        "SM31"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "ZH1 / ilk kaldırma set cihazı kablo kopması",
+      "aciklama": "Yan kaydırma ve ilk kaldırma/indirme kumanda hattı kopar; Multipilot/Solopilot set değeri geçersizdir.",
+      "makineTepkisi": "Hidrolik fonksiyonlar durur, uyarı yanıp söner; seyir açıktır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZH1 set cihazı kablo kopukluğu",
+        "Seyir şalteri kontak hatası"
+      ],
+      "kontroller": [
+        "Multipilot/Solopilot'u değiştirip teach edin",
+        "Seyir şalterini kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-31/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "32",
+      "kodNormal": "32",
+      "aliaslar": [
+        "SM32"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "ZH2 yardımcı hidrolik set cihazı kablo kopması",
+      "aciklama": "İkinci yardımcı hidrolik kumanda hattında kopukluk tespit edilir.",
+      "makineTepkisi": "Hidrolik fonksiyonlar durur, uyarı yanıp söner; seyir açıktır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZH2 set cihazı potansiyometresi kopukluğu",
+        "Kablo bukletinde kırılma"
+      ],
+      "kontroller": [
+        "Multipilot/Solopilot'u değiştirin ve yeniden teach edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-32/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "33",
+      "kodNormal": "33",
+      "aliaslar": [
+        "SM33"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "ZH3 yardımcı hidrolik set cihazı kablo kopması",
+      "aciklama": "Üçüncü yardımcı hidrolik kumanda hattı kopar.",
+      "makineTepkisi": "İlgili yardımcı hidrolik fonksiyonu çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "ZH3 set cihazı kopukluğu",
+        "Multipilot giriş arızası"
+      ],
+      "kontroller": [
+        "Multipilot modülünü kontrol edin ve değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-33/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "34",
+      "kodNormal": "34",
+      "aliaslar": [
+        "SM34"
+      ],
+      "sistem": "iletisim",
+      "baslik": "CAN veriyolu hasarlı",
+      "aciklama": "CAN bus haberleşmesi bozulur; düğüm kayıtları alınamaz hale gelir.",
+      "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı sembolü yanıp söner. (2004 sonrası yalnız logbook'a kaydedilir.)",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN kablo bağlantısında gevşeme/kopma",
+        "Sonlandırma dirençlerinin hatalı değeri",
+        "Arızalı düğümün bus'u kilitlemesi"
+      ],
+      "kontroller": [
+        "CAN bus konektör ve sonlandırma dirençlerini ölçün",
+        "Arızalı bileşeni ayırarak bus'u test edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-34/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "35",
+      "kodNormal": "35",
+      "aliaslar": [
+        "SM35"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Seyir sıfır konumunda değil (açılışta pedal basılı)",
+      "aciklama": "Araç açılırken emniyet (deadman) şalteri ve gaz pedalı basılı konumdadır; sıfır konum kontrolü başarısız olur.",
+      "makineTepkisi": "Seyir durur; uyarı yanıp söner, hidrolikler açıktır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Açılışta pedalın basılı tutulması",
+        "Seyir şalteri kalibrasyon kayması",
+        "Interface beslemesinde (12 V) temassızlık",
+        "Çift pedal devresinde kontak çakışması"
+      ],
+      "kontroller": [
+        "Seyir şalterini kontrol edin",
+        "Canion beslemesini ölçün",
+        "Çift pedal elektrik devresini test edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-35/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "36",
+      "kodNormal": "36",
+      "aliaslar": [
+        "SM36"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma kolu sıfır konumda değil",
+      "aciklama": "Kontak açılırken kaldırma kumanda kolu nötr konumda değildir; açılış sıfır konum denetimi hataya düşer.",
+      "makineTepkisi": "Hidrolik fonksiyonlar durur, uyarı yanıp söner; seyir açıktır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Açılışta kaldırma kolunun bırakılmaması",
+        "Kaldırma set cihazı sıfır noktası sürüklenmesi",
+        "Emniyet şalteri (FS) arızası"
+      ],
+      "kontroller": [
+        "Kaldırma set cihazını ve sıfır konumunu kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-36/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "37",
+      "kodNormal": "37",
+      "aliaslar": [
+        "SM37"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon açı set değeri yok",
+      "aciklama": "Yönlendirme açı set sinyali hiç gelmez; direksiyon açısı parametresi de sorgulanır.",
+      "makineTepkisi": "Kaynakta tepki belirtilmemiş; yönlendirme çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Direksiyon set cihazı arızası",
+        "CANBus bağlantı kopukluğu",
+        "'steer type' parametresinin hatalı olması"
+      ],
+      "kontroller": [
+        "Set cihazını ve CAN bağlantısını kontrol edin",
+        "Yönlendirme tipi parametresini doğrulayın",
+        "Gerekirse I5 modülünü değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-37/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "38",
+      "kodNormal": "38",
+      "aliaslar": [
+        "SM38"
+      ],
+      "sistem": "diger",
+      "baslik": "Bileşen sisteme giriş yapamadı (öz test bitmedi)",
+      "aciklama": "Ağdaki bir kontrol cihazı login/self-test'i tamamlayamaz; DIL/SW7 kodlaması ve ACS adreslemesi izlenir.",
+      "makineTepkisi": "Seyir ve kaldırma devre dışı; uyarı sembolü yanıp söner.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Arızalı modülün bus'a çıkamaması",
+        "DIL switch 7 (MP1510) kodlama hatası",
+        "ACS kodlama veya AS2412F yönlendirme denetim ayarı",
+        "Besleme geriliminin düşük olması"
+      ],
+      "kontroller": [
+        "CAN-Bus bağlantı ve besleme gerilimini ölçün",
+        "Modül kodlama anahtarlarını kontrol edin",
+        "Arızalı bileşeni değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-38/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "39",
+      "kodNormal": "39",
+      "aliaslar": [
+        "SM39"
+      ],
+      "sistem": "diger",
+      "baslik": "Araç tipi tutarsız",
+      "aciklama": "Öz test sırasında kontrol ünitelerindeki araç tipi kayıtları birbiriyle örtüşmez; temas hatası da tipi bozabilir.",
+      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; araç hatalı karakterde çalışabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Parametre yazılırken kontak kesilmesi",
+        "Kontağın temassızlık yapması",
+        "Besleme fişinde gecikmeli temas"
+      ],
+      "kontroller": [
+        "Araç tipini yeniden girin",
+        "Kontak şalteri ve besleme fişi bağlantılarını kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-39/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "40",
+      "kodNormal": "40",
+      "aliaslar": [
+        "SM40"
+      ],
+      "sistem": "motor",
+      "baslik": "Tahrik motoru aşırı ısındı",
+      "aciklama": "Seyir motoru sıcaklığı çalışma modasında 150 °C eşiğini aşar; motor korumaya alınır.",
+      "makineTepkisi": "Seyir ve kaldırma gücü düşer; uyarı yanıp söner. Yalnız direksiyonda sadece uyarı sembolü yanar.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Aşırı yokuş/sürekli tam yük çalışması",
+        "Motor sıcaklık sensörü ve kablo arızası",
+        "Motor freninin açılmayıp motoru tutması"
+      ],
+      "kontroller": [
+        "Motor sensör sistemini ve kablolarını ölçün",
+        "Motoru ve fren boşluğunu kontrol edin",
+        "Soğuması için aracı dinlendirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-40/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "41",
+      "kodNormal": "41",
+      "aliaslar": [
+        "SM41"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Fren mıknatısı potansiyometresi sinyal aralığı dışında",
+      "aciklama": "Fren magneti konum potansiyometresi 0,3 V altı veya 4,7 V üstü değer bildirir.",
+      "makineTepkisi": "Kaynakta tepki belirtilmemiş; fren kontrolü güvensiz hale gelir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Potansiyometre mekanik montajının kayması",
+        "Potansiyometre sarım arızası",
+        "Kablo kopukluğu"
+      ],
+      "kontroller": [
+        "Potansiyometreyi ve montajını kontrol edin",
+        "Sinyal hattını ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-41/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "42",
+      "kodNormal": "42",
+      "aliaslar": [
+        "SM42"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Fren mıknatısı kısa devresi",
+      "aciklama": "Fren magneti çıkışı akü artısına kısa devre yapar (EJC/ELE); manyetik fren devresi güvenli değildir.",
+      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Fren bobini kablo izolasyon hasarı",
+        "Fren bobininin yanması"
+      ],
+      "kontroller": [
+        "Fren bobini ve kablo bağlantılarını ölçün",
+        "Arızalı bileşeni değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-42/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "43",
+      "kodNormal": "43",
+      "aliaslar": [
+        "SM43"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Fren ayarı gerekli",
+      "aciklama": "Fren balata aşınması nedeniyle ayar sınırına ulaşıldı; fren ayarı yapılmalı.",
+      "makineTepkisi": "Kaynakta tepki belirtilmemiş.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Balata aşınması ile fren ayarının sapa",
+        "Potansiyometre ayarının kayması"
+      ],
+      "kontroller": [
+        "Fren ayarını yapın",
+        "Potansiyometre konumunu kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-43/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "44",
+      "kodNormal": "44",
+      "aliaslar": [
+        "SM44"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Fren bağlı değil / kablo kopuk",
+      "aciklama": "Yürür fren konektörü boşta, kısa devreli veya fren kablosu kopuk (yönlendirme kategorisi 3 ve MFC frenli araçlar).",
+      "makineTepkisi": "Fren açılmaz (No release).",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Fren fişinin çıkmış olması",
+        "Fren kablosunun kopması",
+        "Fren sürücü çıkışının bozulması"
+      ],
+      "kontroller": [
+        "Fren kablolarını ve fişini kontrol edin, kablo kopuksa değiştirin",
+        "Kategori 3'te fren sürücü çıkışını test edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-44/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "45",
+      "kodNormal": "45",
+      "aliaslar": [
+        "SM45"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon set cihazından aşırı darbe sayısı",
+      "aciklama": "Açı set sensörü olması gerekenden hızlı darbe üretir; ara temas veya girişim sinyali şüphelidir.",
+      "makineTepkisi": "Kaynakta tepki belirtilmemiş; yönlendirme dalgalanabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensör yatağında titreme/bozulma",
+        "Kablo üzerinde elektromanyetik girişim",
+        "Darbe sayıcı giriş arızası"
+      ],
+      "kontroller": [
+        "Kablo bağlantısını kontrol edin",
+        "Sensör yatağını değiştirin",
+        "Gerekirse üniteyi değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-45/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "46",
+      "kodNormal": "46",
+      "aliaslar": [
+        "SM46"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon set cihazı hatalı bağlanmış",
+      "aciklama": "Set cihazı yanlış girişe bağlanır; AS4803L'de tanımlanan 3'ten fazla darbe hataya yol açar.",
+      "makineTepkisi": "Kaynakta tepki belirtilmemiş.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensör yatağı konektörünün yanlış takılması",
+        "AS4803L direksiyon tanı girdisinin hatalı olması"
+      ],
+      "kontroller": [
+        "Sensör yatağı bağlantısını şemaya göre doğrulayın",
+        "AS4803L'de direksiyon algılama girişini kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-46/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "47",
+      "kodNormal": "47",
+      "aliaslar": [
+        "SM47"
+      ],
+      "sistem": "fren",
+      "baslik": "Direksiyon set cihazından darbe gelmiyor",
+      "aciklama": "ETVQ direksiyonunda birinci sensörden hiç darbe gelmez; set cihazı açı üretmez.",
+      "makineTepkisi": "Fren açılmaz (No release).",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensör yatağı arızası",
+        "Kablo kopukluğu",
+        "Set cihazı bileşen hatası"
+      ],
+      "kontroller": [
+        "Kabloları ve sensör yatağını kontrol edin",
+        "Arızalı bileşeni değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "https://procarmanuals.com/jungheinrich-error-codes-manual/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "48",
+      "kodNormal": "48",
+      "aliaslar": [
+        "SM48"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme tipi parametresi eşleşmiyor",
+      "aciklama": "Algılanan direksiyon tipi 'Steering type' parametresiyle çelişir; ETVQ adımsı motor kaplini de izlenir.",
+      "makineTepkisi": "Kaynakta tepki ayrı belirtilmemiş.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yanlış yönlendirme tipi parametresi",
+        "ETVQ adımsız motor kaplininin gevşemesi",
+        "Set cihazı kollarından birinin bozulması"
+      ],
+      "kontroller": [
+        "Steering type parametresini doğru değere alın",
+        "ETVQ'da kaplin vidalarını sıkın, her iki set kolunu test edin",
+        "Varsayılan ve araç tipini yeniden girin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-48/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "49",
+      "kodNormal": "49",
+      "aliaslar": [
+        "SM49"
+      ],
+      "sistem": "iletisim",
+      "baslik": "CAN besleme gerilimi aralık dışında",
+      "aciklama": "CAN/sensör beslemesi 10 V altına düşer veya 14 V üzerine çıkar (AS2412F); kısa devre izlenir.",
+      "makineTepkisi": "Seyir devre dışı kalır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN konektöründe 14 V üstü gerilim (elektrik kısa devresi)",
+        "Arızalı bileşenin beslemeyi çekmesi"
+      ],
+      "kontroller": [
+        "CAN konektöründeki besleme gerilimini ölçün",
+        "Kısa devre yapan bileşeni bulun"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-49/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "50",
+      "kodNormal": "50",
+      "aliaslar": [
+        "SM50"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "NRG Multipilot yatay tilt hattı kopuk",
+      "aciklama": "Yatay tilt (horizontal tilt) set cihazı hattı kopar; parametre 540'ın yanlışlıkla 1 olması da tetikler.",
+      "makineTepkisi": "Seyir ve kaldırma devre dışı kalır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Multipilot kablo kopukluğu",
+        "540 numaralı parametrenin istem dışı aktif edilmesi"
+      ],
+      "kontroller": [
+        "Multipilot kablo bağlantısını kontrol edin",
+        "Parametre 540 değerini doğrulayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-50/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "51",
+      "kodNormal": "51",
+      "aliaslar": [
+        "SM51"
+      ],
+      "sistem": "diger",
+      "baslik": "Açı gerçek değer potansiyometresi teach hatası",
+      "aciklama": "Yönlendirme gerçek açı potansiyometresi kalibrasyonu başarısız olur veya öğrenme sırasında arıza görülür.",
+      "makineTepkisi": "Kaynakta tepki belirtilmemiş; kapalı çevrim açı denetimi yapılamaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kalibrasyonun kesintiye uğraması",
+        "Potansiyometre veya bağlantı arızası"
+      ],
+      "kontroller": [
+        "Kalibrasyonu (teach) tekrarlayın",
+        "Potansiyometre, kablo ve bileşeni kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-51/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "52",
+      "kodNormal": "52",
+      "aliaslar": [
+        "SM52"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Fren mıknatısı potansiyometresi teach hatası",
+      "aciklama": "Fren magneti konum öğrenmesi tamamlanamaz; ayar değer geçersiz kalır.",
+      "makineTepkisi": "Kaynakta tepki belirtilmemiş.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kalibrasyon koşullarının sağlanmaması",
+        "Potansiyometre arızası",
+        "Kablo sorunu"
+      ],
+      "kontroller": [
+        "Kalibrasyonu tekrarlayın",
+        "Potansiyometre ve bağlantıları kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-52/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "53",
+      "kodNormal": "53",
+      "aliaslar": [
+        "SM53"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Yönlendirme set potansiyometresi teach hatası",
+      "aciklama": "Direksiyon set potansiyometresi öğrenme işlemi başarısız olur.",
+      "makineTepkisi": "Kaynakta tepki belirtilmemiş.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Eksik kalibrasyon",
+        "Potansiyometre/kablo arızası"
+      ],
+      "kontroller": [
+        "Kalibrasyonu yenileyin",
+        "Potansiyometre ve kabloları kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-53/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "54",
+      "kodNormal": "54",
+      "aliaslar": [
+        "SM54"
+      ],
+      "sistem": "motor",
+      "baslik": "Açılış testinde motor kablosu kopuk",
+      "aciklama": "Güç verme testinde motor hattı açık devre bulunur; ETVQ'da sıcaklık sensörü gerilim seviyesi düşüklüğü de bu kodu üretir.",
+      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; motor sürülemez.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor kablo bağlantısında kopma",
+        "Sıcaklık sensör hattı kopukluğu",
+        "Motor sargı arızası"
+      ],
+      "kontroller": [
+        "Motor ve sensör kablolarını kontrol edin",
+        "Motor ve kontrol ünitesini test edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-54/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "55",
+      "kodNormal": "55",
+      "aliaslar": [
+        "SM55"
+      ],
+      "sistem": "motor",
+      "baslik": "Motor kısa devresi / akım hatalı / güç katı arızası",
+      "aciklama": "Motor devresinde kısa devre veya beklenti dışı akım ölçülür; envertör güç katı arızası rapor edilir.",
+      "makineTepkisi": "Tahrik motoru ve hidrolik motor durur; uyarı yanıp söner.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Motor kablo izolasyon kısa devresi",
+        "Motor sargı arızası",
+        "Envertör güç katı hasarı"
+      ],
+      "kontroller": [
+        "Motor kablolarını megger ile ölçün",
+        "Motoru ve kontrol ünitesini değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-55/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "56",
+      "kodNormal": "56",
+      "aliaslar": [
+        "SM56"
+      ],
+      "sistem": "motor",
+      "baslik": "Motor veya geri bildirim vericisi ters bağlanmış",
+      "aciklama": "Motor veya açı verici çıkışları ters bağlanmıştır; AC'de L1-L2-L3 fazları yer değiştirmiştir.",
+      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; hareket ters yönlü/tutarsız olur.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Servis sonrası motor uçlarının ters bağlanması",
+        "AC fazlarının yer değiştirmesi",
+        "Potansiyometre vericisinin ters montajı"
+      ],
+      "kontroller": [
+        "Motor bağlantısını şemaya göre kontrol edin",
+        "AC'de faz sırasını doğrulayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-56/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "57",
+      "kodNormal": "57",
+      "aliaslar": [
+        "SM57"
+      ],
+      "sistem": "motor",
+      "baslik": "Kumanda var, gerçek değer değişmiyor",
+      "aciklama": "Sürme sinyali verildiği hâlde motor dönerken geri besleme değeri değişmez; sensör/mekanik zinciri şüphelidir.",
+      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; kapalı çevrim denetlenemez.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Açı geri bildirim vericisinin kayması/kırılması",
+        "Tekerlek mekanik kitlenmesi",
+        "Artımlı yatak (AS4803L) arızası"
+      ],
+      "kontroller": [
+        "Motoru ve açı potansiyometresini kontrol edin",
+        "Mekanik kilitlenmeyi giderin",
+        "AS4803L artımlı yatağı test edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-57/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "58",
+      "kodNormal": "58",
+      "aliaslar": [
+        "SM58"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon açı gerçek değeri dalgalanıyor",
+      "aciklama": "Açı geri bildirim değeri kararlı değildir; ETVQ'da 0° referans geçişi bulunamaz.",
+      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; direksiyon davranışı kararsız olur.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Geri bildirim vericisi arızası",
+        "Yakınlık anahtarı/segment hasarı",
+        "Mekanik tekerlek takılması",
+        "Sigorta/artımlı yatak sorunu"
+      ],
+      "kontroller": [
+        "Verici ve direksiyon motorunu kontrol edin",
+        "Yakınlık anahtarı ile tetik kamı mesafesini ölçün",
+        "Mekanik engeli giderin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-58/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "59",
+      "kodNormal": "59",
+      "aliaslar": [
+        "SM59"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon açı set değeri dalgalanıyor",
+      "aciklama": "Çekme koldaki açı set potansiyometresi kararsız sinyal üretir.",
+      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Tiller kolu üzerindeki set potansiyometresinin yıpranması",
+        "Kablo ara teması"
+      ],
+      "kontroller": [
+        "Set cihazı potansiyometresini kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 13,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-59/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "60",
+      "kodNormal": "60",
+      "aliaslar": [
+        "SM60"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Dönen gövde direksiyon yönünü takip etmiyor",
+      "aciklama": "Dönme payı ile direksiyon kumandası arasında 15° üzeri sapma; mekanik yönlendirme zinciri izlenir.",
+      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; direksiyon tepkisi hatalıdır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Zincir gerginliğinin kaçması",
+        "Gövde mekanizmasında aşınma",
+        "Zincir tahrik motoru veya verici montaj hatası",
+        "Lastik basınç farkı"
+      ],
+      "kontroller": [
+        "Gövde mekaniği, zincir ve gerginliğini kontrol edin",
+        "Motor ve verici bağlantısını gözden geçirin",
+        "Lastikleri kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 13,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-60/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "61",
+      "kodNormal": "61",
+      "aliaslar": [
+        "SM61"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Güç katı hatası (alt tip belirtilmemiş)",
+      "aciklama": "Yönlendirme kontrol ünitesi güç katı arıza bildirimi üretir; alt tip belirlenmemiştir.",
+      "makineTepkisi": "Kaynakta tepki yazılmamış; elektriksel direksiyon çalışmayabilir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Güç kartı/transistör arızası"
+      ],
+      "kontroller": [
+        "Kontrol ünitesini değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 13,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-61/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "62",
+      "kodNormal": "62",
+      "aliaslar": [
+        "SM62"
+      ],
+      "sistem": "diger",
+      "baslik": "Güç katı hatası (alt tip belirtilmemiş, ikincil)",
+      "aciklama": "İkinci güç katı arıza tipi; AS4803L yönlendirme denetiminde ayrım yapılamaz.",
+      "makineTepkisi": "Kaynakta tepki yazılmamış.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Güç katı donanım arızası"
+      ],
+      "kontroller": [
+        "Kontrol ünitesini değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 13,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-62/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "63",
+      "kodNormal": "63",
+      "aliaslar": [
+        "SM63"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sensör besleme gerilimi aralık dışında",
+      "aciklama": "12 V sensör beslemesi izinli pencerenin (11-15 V, AS4803L'de 10-16 V) dışına çıkar.",
+      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; sensörler geçersiz okur.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Besleme regülasyonunun bozulması",
+        "Sensör grubunda kısa devre"
+      ],
+      "kontroller": [
+        "Kontrol ünitesini kapatıp açın",
+        "12 V besleme gerilimini ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 13,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-63/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "64",
+      "kodNormal": "64",
+      "aliaslar": [
+        "SM64"
+      ],
+      "sistem": "diger",
+      "baslik": "Yazılım sürümleri farklı",
+      "aciklama": "ETV-Q üzerindeki AS4803L ünitelerinin yazılım seviyeleri eşit değildir.",
+      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; üniteler arası uyumsuzluk beklenir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Tek bir ünitenin güncellenmemiş olması"
+      ],
+      "kontroller": [
+        "Tüm AS4803L yazılımlarını aynı sürüme güncelleyin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 13,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-64/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "65",
+      "kodNormal": "65",
+      "aliaslar": [
+        "SM65"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "NRG Multipilot merkez konum hattı kopuk",
+      "aciklama": "Merkez konumlandırma (centre shifter) anahtarı hattı kopar; 540 parametresi de tetikleyicidir.",
+      "makineTepkisi": "Seyir ve kaldırma devre dışı kalır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Multipilot merkez konum kablosunda kopma",
+        "Parametre 540'ın hatalı etkinleşmesi"
+      ],
+      "kontroller": [
+        "Kablo bağlantısını kontrol edin",
+        "Parametre 540'ı doğrulayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-65/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "66",
+      "kodNormal": "66",
+      "aliaslar": [
+        "SM66"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "NRG Multipilot 180°/360° çevirme şalteri kopuk",
+      "aciklama": "Çekme kolun 180/360 derece yön değiştirme şalteri hattı kopar (parametre 543).",
+      "makineTepkisi": "Seyir ve kaldırma devre dışı kalır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Toggle şalter kablosunda kopukluk",
+        "Parametre 543'ün yanlışlıkla 1 yapılması"
+      ],
+      "kontroller": [
+        "Multipilot kablolarını kontrol edin",
+        "Parametre 543 değerini gözden geçirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-66/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "67",
+      "kodNormal": "67",
+      "aliaslar": [
+        "SM67"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Açılışta Multipilot yön şalteri takılı kaldı",
+      "aciklama": "Sistem açılırken set cihazındaki yön şalteri kontak durumunda kalır; Judit teach pencereleri izlenir.",
+      "makineTepkisi": "Seyir ve kaldırma devre dışı kalır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yön şalterinin mekanik takılması",
+        "Teach değerlerinin kayması"
+      ],
+      "kontroller": [
+        "Multipilot şalterini kontrol edin",
+        "Judit penceresinde değerleri yeniden kalibre edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-67/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "68",
+      "kodNormal": "68",
+      "aliaslar": [
+        "SM68"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Emniyet şalteri kablo kopması",
+      "aciklama": "Deadman veya koltuk emniyet şalteri hattı kopar; operatör varlığı doğrulanamaz.",
+      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; güvenlik devresi seyri engeller.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Emniyet şalteri kablosunda kopukluk",
+        "Şalter konektörünün çıkması"
+      ],
+      "kontroller": [
+        "Emniyet şalteri kablolarını ölçün",
+        "Arızalı emniyet şalterini değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-68/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "69",
+      "kodNormal": "69",
+      "aliaslar": [
+        "SM69"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma ve indirme aynı anda istendi",
+      "aciklama": "Kaldırma ile indirme girişleri aynı anda aktif; hidrolik mantık çelişkisi raporlanır.",
+      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ortak şalter gövdesinde iki kontağın birlikte kapanması",
+        "Kablo kısa devresi"
+      ],
+      "kontroller": [
+        "İlgili şalterleri ve kablo bağlantılarını kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-69/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "70",
+      "kodNormal": "70",
+      "aliaslar": [
+        "SM70"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Öz teste bileşen yanıt vermiyor",
+      "aciklama": "Taban kartındaki bir bileşen öz teste katılmaz veya hatalı yanıt verir; kontaktör arkası besleme izlenir.",
+      "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı yanıp söner.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Taban kartı LED uyarısında görülen alt arıza",
+        "Konnektör/kablo temassızlığı",
+        "Ana kontaktör arkası besleme düşümü"
+      ],
+      "kontroller": [
+        "Taban kartı LED göstergelerini ve diğer kayıtları not edin",
+        "Kablo ve konnektörleri kontrol edin",
+        "Kontaktör arkası beslemeyi ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-70/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "71",
+      "kodNormal": "71",
+      "aliaslar": [
+        "SM71"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "İndirme potansiyometresi kablo kopması",
+      "aciklama": "İndirme kumanda potansiyometresi hattı kopar; set değeri alınamaz.",
+      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; indirme kumandası çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Potansiyometre kopukluğu",
+        "Interface arızası",
+        "Multipilot girişi bozuk"
+      ],
+      "kontroller": [
+        "Kablo bağlantısını ölçün",
+        "İndirme potansiyometresi, Multipilot veya arayüzü değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "https://procarmanuals.com/jungheinrich-error-codes-manual/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "72",
+      "kodNormal": "72",
+      "aliaslar": [
+        "SM72"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "İndirme kolu sıfır konumda değil",
+      "aciklama": "Kontak açılışında indirme kolu nötrde değil; açılış denetimi reddeder.",
+      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Açılışta kolun bırakılmaması",
+        "Set cihazı sıfır kayması"
+      ],
+      "kontroller": [
+        "İndirme set cihazını ve nötr konumunu kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-72/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "73",
+      "kodNormal": "73",
+      "aliaslar": [
+        "SM73"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Valf çıkış arabirimi arızası",
+      "aciklama": "Valf sürüş çıkışlarının denetiminde tutarsızlık; valf akışları doğrulanamaz.",
+      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Valf sürücü katı bozulması",
+        "Valf devrelerinde anormal akım"
+      ],
+      "kontroller": [
+        "Valf çıkışlarını ve sürücüleri test edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-73/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "74",
+      "kodNormal": "74",
+      "aliaslar": [
+        "SM74"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Arabirim valf çıkışı arızası",
+      "aciklama": "Arayüz kartının valf çıkışı arıza bildirir; sürücü kartı değişimi gerekir.",
+      "makineTepkisi": "İlgili valf fonksiyonu çalışmayabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Interface kartı çıkış katı arızası"
+      ],
+      "kontroller": [
+        "Interface kartını değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-74/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "75",
+      "kodNormal": "75",
+      "aliaslar": [
+        "SM75"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Orantılı valf akım çekmiyor",
+      "aciklama": "Orantılı valf bobininden beklenen akım akmaz; devre açık ya da sürücü verimsizdir.",
+      "makineTepkisi": "Uyarı sembolü yanıp söner.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Valf bobin kopukluğu",
+        "Kablo konnektör kopukluğu",
+        "Canion/arayüz sürücü arızası"
+      ],
+      "kontroller": [
+        "Valf bobini ve kablolarını ölçün",
+        "Orantılı valfi ve gerekirse arayüzü değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-75/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "76",
+      "kodNormal": "76",
+      "aliaslar": [
+        "SM76"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Orantılı valf kısa devresi",
+      "aciklama": "Orantılı valf devresinde aşırı akım/kısa devre tespit edilir.",
+      "makineTepkisi": "Uyarı sembolü yanıp söner.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Valf bobin izolasyonunun bozulması",
+        "Kabloda kısa devre",
+        "Arayüz sürücü hatası"
+      ],
+      "kontroller": [
+        "Kablo ve bobin direncini ölçün",
+        "Valf veya arayüz kartını değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-76/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "77",
+      "kodNormal": "77",
+      "aliaslar": [
+        "SM77"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Buton kablosu kopuk",
+      "aciklama": "Kumanda butonunun sinyal hattı kopar.",
+      "makineTepkisi": "İlgili buton fonksiyonu çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Buton altı tel kopukluğu",
+        "Konnektör temas hatası"
+      ],
+      "kontroller": [
+        "Kablo bağlantısını kontrol edin",
+        "Buton veya arayüzü değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-77/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "78",
+      "kodNormal": "78",
+      "aliaslar": [
+        "SM78"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Buton ve seyir şalteri birlikte basılı",
+      "aciklama": "Kontak anında buton ile seyir şalteri aynı anda aktif; açılış mantığı uyarı üretir.",
+      "makineTepkisi": "Seyir başlatmayabilir; uyarı kaydı düşer.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Açılışta butona basılı tutulması",
+        "Devre veya kablo çakışması"
+      ],
+      "kontroller": [
+        "Buton ve seyir şalteri devresini kontrol edin",
+        "Arızalı buton/arayüzü değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-78/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "79",
+      "kodNormal": "79",
+      "aliaslar": [
+        "SM79"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Buton ve emniyet şalteri birlikte basılı",
+      "aciklama": "Buton ile deadman şalteri eş zamanlı kapanır; kumanda mantığı çelişkisi raporlanır.",
+      "makineTepkisi": "Seyir ve hidrolik engellenebilir; uyarı düşer.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Manevra sırasında hatalı eş zamanlı basma",
+        "Şalter gövdesinde kontağın yapışması"
+      ],
+      "kontroller": [
+        "Buton/deadman devresini test edin",
+        "Arızalı parçaları değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-79/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "80",
+      "kodNormal": "80",
+      "aliaslar": [
+        "SM80"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Arabayimden iki yöne aynı anda komut",
+      "aciklama": "Arayüz üzerinden iki seyir yönü komutu eş zamanlı alınır.",
+      "makineTepkisi": "Seyir komutu işlenmez.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yön butonlarının birlikte iletilmesi",
+        "Interface yazılımı/kartı hatası"
+      ],
+      "kontroller": [
+        "Buton ve arayüz kablolarını kontrol edin",
+        "Buton veya arayüzü değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-80/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "81",
+      "kodNormal": "81",
+      "aliaslar": [
+        "SM81"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "İki tahrik ünitesinde parametre farkı",
+      "aciklama": "Çift motorlu araçta iki seyir kontrol ünitesinin parametre setleri aynı değildir.",
+      "makineTepkisi": "Seyir engellenir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Ünitelerden birine yanlış parametre yüklenmesi",
+        "Ünite değişimi sonrası senkronizasyonun atlanması"
+      ],
+      "kontroller": [
+        "EFG tahrik ünitelerinde parametreleri eşitleyip sıfırlayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-81/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "82",
+      "kodNormal": "82",
+      "aliaslar": [
+        "SM82"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Sensör kablo kopması",
+      "aciklama": "Koruma sensörünün (ör. kaldırma yüksekliği sınırlayıcı) hattı kopar.",
+      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; ilgili koruma devre dışı kalabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yükseklik sınırlama buton/sensör kablosunda kopukluk",
+        "Arayüz girişi arızası"
+      ],
+      "kontroller": [
+        "Sensör kablolarını ölçün",
+        "Buton veya arayüzü değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-82/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "83",
+      "kodNormal": "83",
+      "aliaslar": [
+        "SM83"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Aynı kimlikli iki bileşen bus'ta",
+      "aciklama": "İki modül aynı kimlikle rapor verir (ör. anahtar gerilimi Canion'a bağlı); adresleme çakışması oluşur.",
+      "makineTepkisi": "Seyir engellenir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Bileşen kodlama jumperının yanlış olması",
+        "Kablo bağlantı hatası ile çift login"
+      ],
+      "kontroller": [
+        "Bileşen kodlamalarını ve kabloları kontrol edin",
+        "Çakışan bileşeni değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 16,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-83/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "84",
+      "kodNormal": "84",
+      "aliaslar": [
+        "SM84"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Hız sensörü arızası",
+      "aciklama": "Hız sinyali 4 ms içinde %50 değişir veya referans işaret kaybı olur; hız ölçümü geçersizdir.",
+      "makineTepkisi": "Seyir ve kaldırma durur; uyarı yanıp söner, hidrolikler açık kalır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Hız sensörü veya artımlı yatak sürüklenmesi",
+        "Kablo kopukluğu/girişimi",
+        "Sensör besleme hatası"
+      ],
+      "kontroller": [
+        "Hız sensörünü ve kablo rotasını (güç kablolarından ayrı) kontrol edin",
+        "Sensör yatağını/bileşeni değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 16,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-84/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "85",
+      "kodNormal": "85",
+      "aliaslar": [
+        "SM85"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Seyir besleme hattında gerilim çökmesi",
+      "aciklama": "Güç verme izni sırasında kapasitör gerilimi anlık 30 V'a (48 V sistem) düşer; enerji yetersizliği raporlanır.",
+      "makineTepkisi": "Seyir ve hidrolik çalışmaz; uyarı yanıp söner.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Akü kutup başı/kablo bağlantı direncinin yükselmesi",
+        "Sigorta temas hatası",
+        "Akü zayıflığı"
+      ],
+      "kontroller": [
+        "Kontak açıp kapatın; aküyü ve kablo bağlantılarını ölçün",
+        "Sigortaları ve güç klemplerini kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 16,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-85/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "86",
+      "kodNormal": "86",
+      "aliaslar": [
+        "SM86"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Hız değeri tutarsız / ani değişim",
+      "aciklama": "İki sensör sistemi farklı hız üretir veya ölçülen hız ani sıçrar; hız güvenliği devreye girer.",
+      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; hız denetimi kısıtlayabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensör sinyal kirlenmesi/pulse sayı hatası (8 veya 64 darbe/devir)",
+        "Kablo konnektör gevşekliği",
+        "Artımlı yatak arızası"
+      ],
+      "kontroller": [
+        "Darbe sayısını ve kablo konnektörlerini kontrol edin",
+        "Hız sensörünü/üniteyi değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 17,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-86/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "87",
+      "kodNormal": "87",
+      "aliaslar": [
+        "SM87"
+      ],
+      "sistem": "motor",
+      "baslik": "Hız sensör hattı kopuk",
+      "aciklama": "100 Ω iç ölçümde gerilim düşümü yok; sensör hattı kopuktur ve motor maksimum akımla uğultu üretir.",
+      "makineTepkisi": "Motor normal çalışmaz (maksimum akım, uğultu).",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensör yatağı kablosunun kopması",
+        "Konnektör pini çıkması"
+      ],
+      "kontroller": [
+        "Sensör kablolarını ve konnektör pinlerini kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 17,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-87/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "88",
+      "kodNormal": "88",
+      "aliaslar": [
+        "SM88"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik hız sensörü arızası (AS4814H)",
+      "aciklama": "Hidrolik pompaya ait hız sensörü geçersiz sinyal üretir.",
+      "makineTepkisi": "Hidrolik durur; uyarı yanıp söner; seyir açıktır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hidrolik hız sensörü arızası",
+        "Sensör kablosunda kopukluk"
+      ],
+      "kontroller": [
+        "Sensör ve kablolarını kontrol edin",
+        "Sensör veya kontrol ünitesini değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 17,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-88/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "89",
+      "kodNormal": "89",
+      "aliaslar": [
+        "SM89"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik besleme hattında düşük gerilim",
+      "aciklama": "Hidrolik güç kademesi beslemesi düşük gerilimde; kaldırma performansı sınırlanır.",
+      "makineTepkisi": "Seyir ve kaldırma gücü düşer; uyarı yanıp söner.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Akü geriliminin düşük olması",
+        "Akü kablosunda direnç artışı",
+        "Sigorta arızası"
+      ],
+      "kontroller": [
+        "Akü ve kablo bağlantılarını ölçün",
+        "Sigortaları kontrol edin",
+        "Gerekirse bileşeni değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 17,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-89/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "90",
+      "kodNormal": "90",
+      "aliaslar": [
+        "SM90"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "El freni çekili seyir istendi",
+      "aciklama": "El freni çekiliyken seyir komutu verildi; manyetik fren şalteri durumu izlenir.",
+      "makineTepkisi": "Uyarı sembolü yanıp söner.",
+      "siddet": "uyari",
+      "nedenler": [
+        "El freni çekili halde gaz verilmesi",
+        "Manyetik fren şalterinin hatalı sinyal vermesi"
+      ],
+      "kontroller": [
+        "Manyetik fren şalterini ve ayarını kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 17,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-90/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "91",
+      "kodNormal": "91",
+      "aliaslar": [
+        "SM91"
+      ],
+      "sistem": "elektrik",
+      "baslik": "24 V kontrol besleme aralığı dışında",
+      "aciklama": "24 V yardımcı besleme izlenen sınırların altına iner (<17 V uyarı, <15 V hata).",
+      "makineTepkisi": "Uyarı seviyesinde sadece uyarı sembolü yanıp söner; hata seviyesinde araç durur.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "24 V DC-DC dönüştürücü arızası",
+        "Akü ana geriliminin çökmesi",
+        "Besleme hattında temas direnci"
+      ],
+      "kontroller": [
+        "24 V besleme gerilimini ve kablolarını ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 17,
+      "kaynakUrl": "https://forklifterrorcodes.com/jungheinrich/fault-code-91/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "92",
+      "kodNormal": "92",
+      "aliaslar": [
+        "SM92"
+      ],
+      "sistem": "diger",
+      "baslik": "Canion'a yanlış bileşen raporluyor",
+      "aciklama": "Canion'a beklenmeyen bir bileşen tipinden veri gelir; XB 27/XB 44 jumper bağlantıları izlenir.",
+      "makineTepkisi": "Seyir ve kaldırma işlevi durabilir; uyarı yanıp söner.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Master/Solopilot veya ekranda yapılandırma hatası",
+        "XB 27 ve XB 44'te pim 2-6 jumperının hatalı olması"
+      ],
+      "kontroller": [
+        "Master/Solopilot ve göstergeyi kontrol edin",
+        "Jumper konumlarını şemaya göre doğrulayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 18,
+      "kaynakUrl": "https://procarmanuals.com/jungheinrich-error-codes-manual/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "93",
+      "kodNormal": "93",
+      "aliaslar": [
+        "SM93"
+      ],
+      "sistem": "elektrik",
+      "baslik": "ACS kapasitörleri şarj olmadı",
+      "aciklama": "Ön şarj devresi ara devre kapasitörlerini beklenen seviyeye çıkaramaz; kontaktör de kapanmaz.",
+      "makineTepkisi": "Seyir ve kaldırma çalışmaz; uyarı yanıp söner.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Şarj bağlantısı arızası"
+      ],
+      "kontroller": [
+        "Ana kontaktörün kapanmadığını doğrulayın",
+        "Bara gerilimini, trafoyu, sigortaları ve kablo setini ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 18,
+      "kaynakUrl": "https://procarmanuals.com/jungheinrich-error-codes-manual/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "94",
+      "kodNormal": "94",
+      "aliaslar": [
+        "SM94"
+      ],
+      "sistem": "iletisim",
+      "baslik": "SDO haberleşme hatası",
+      "aciklama": "CAN SDO nesnesi okunamaz; yazılım uyumsuzluğu veya XB 41 jumper hatası şüphelidir.",
+      "makineTepkisi": "Seyir ve kaldırma çalışmaz; uyarı yanıp söner.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Uyumsuz yazılım sürümünün yüklenmesi",
+        "XB 41 pim 12-13 jumperının hatalı olması"
+      ],
+      "kontroller": [
+        "Yazılım sürümünü kontrol edip yeniden yükleyin",
+        "XB 41 jumperını doğrulayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 18,
+      "kaynakUrl": "https://procarmanuals.com/jungheinrich-error-codes-manual/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "95",
+      "kodNormal": "95",
+      "aliaslar": [
+        "SM95"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Pim kodu hatası",
+      "aciklama": "Bileşenlerin PIN kod setleri birbiriyle aynı değil; güvenlik kilidi açılmaz.",
+      "makineTepkisi": "Seyir ve kaldırma çalışmaz; uyarı yanıp söner.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Değiştirilen bileşene eski kodların yazılmaması",
+        "PIN kod parametresinin kayması"
+      ],
+      "kontroller": [
+        "Tüm bileşenlerde PIN kodlarını eşitleyin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 18,
+      "kaynakUrl": "https://procarmanuals.com/jungheinrich-error-codes-manual/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "96",
+      "kodNormal": "96",
+      "aliaslar": [
+        "SM96"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik kollar sıfır konumda değil (MP/Solopilot)",
+      "aciklama": "Multipilot/Solopilot üzerindeki kaldırma, indirme, eğme, ZH veya korna switchleri açılışta nötrdedir; sıfır konum denetimi reddeder.",
+      "makineTepkisi": "Hidrolik fonksiyonlar durur, uyarı yanıp söner; seyir açıktır.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Açılışta kol/butonların nötr bırakılmaması",
+        "Kollarda nötr konum sürüklenmesi"
+      ],
+      "kontroller": [
+        "Master/Solopilot kollarını nötr konuma alın",
+        "Sorun sürerse bileşeni değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 18,
+      "kaynakUrl": "https://procarmanuals.com/jungheinrich-error-codes-manual/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "97",
+      "kodNormal": "97",
+      "aliaslar": [
+        "SM97"
+      ],
+      "sistem": "diger",
+      "baslik": "Segment tolerans sınırında (referanslama hatası)",
+      "aciklama": "PM2402L/2 (V1.60+) açılış referanslamasında segment tetik kamı tolerans dışındadır.",
+      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; referanslama yapılamaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Dönen gövdedeki segmentin kayması",
+        "Yakınlık anahtarı-kam mesafesinin 1,1° üzeri sapması",
+        "Segment kablosu hasarı"
+      ],
+      "kontroller": [
+        "Segment-kam mesafesini ve anahtarı kontrol edin",
+        "Segment kablosunu gözden geçirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 18,
+      "kaynakUrl": "https://procarmanuals.com/jungheinrich-error-codes-manual/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "98",
+      "kodNormal": "98",
+      "aliaslar": [
+        "SM98"
+      ],
+      "sistem": "diger",
+      "baslik": "Sensör yatağı-kam konum sapması",
+      "aciklama": "Sensör yatağı ile yakınlık şalteri/kam konumu 1,1° den fazla sapar; açılışta konum denetimi başarısızdır.",
+      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yatağın montaj vidalarının gevşemesi",
+        "Kam positionunun kayması"
+      ],
+      "kontroller": [
+        "Kabloları, yakınlık anahtarını ve anahtardan kama mesafeyi ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://procarmanuals.com/jungheinrich-error-codes-manual/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "99",
+      "kodNormal": "99",
+      "aliaslar": [
+        "SM99"
+      ],
+      "sistem": "iletisim",
+      "baslik": "CAN bus hasarlı; sürücü geçici devre dışı",
+      "aciklama": "CAN sürücüsü hata yükü nedeniyle geçici olarak kapatılır; bus tekrar toparlanana dek iletişim kesilir.",
+      "makineTepkisi": "Seyir ve hidrolik geçici olarak çalışmaz; uyarı yanıp söner.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Bus hattında sürekli kısa devre/bozulma",
+        "Sonlandırma dirençlerinin hatalı olması",
+        "Araç içi EMC önlemlerinin eksikliği"
+      ],
+      "kontroller": [
+        "Kablo bağlantıları ve sonlandırma dirençlerini ölçün",
+        "Araç gürültü önleme (anti-interference) tedbirlerini uygulayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://procarmanuals.com/jungheinrich-error-codes-manual/",
+      "durum": "incelemede"
+    }
+  ]
+}

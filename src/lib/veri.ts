@@ -2,6 +2,7 @@ import markalarJson from '../data/markalar.json';
 import { trNormalize, kodAnahtar } from './normalize';
 
 export { trNormalize, kodAnahtar } from './normalize';
+export { kodYolu, kodAdresi } from './yol';
 
 export interface Kod {
   kod: string;
@@ -308,24 +309,4 @@ export function sikArananKodlar(limit = 6): AramaSonucu[] {
   }
 
   return secilen.slice(0, limit);
-}
-
-/**
- * Kodu URL segmentine cevirir.
- * "OFF/ON" -> "OFF-ON", "1,2" -> "1-2", "30 1" -> "30-1"
- * Hem getStaticPaths hem de tum ic baglantilar bu fonksiyonu kullanmalidir.
- */
-export function kodYolu(kod: string): string {
-  return String(kod)
-    .trim()
-    .replace(/[\/\\]/g, '-')
-    .replace(/\s+/g, '-')
-    .replace(/,/g, '-')
-    .replace(/-+/g, '-')
-    .replace(/^-|-$/g, '');
-}
-
-/** Bir kod kaydinin site ici tam adresi. */
-export function kodAdresi(marka: string, seri: string, kod: string): string {
-  return `/${marka}/${seri}/${kodYolu(kod)}/`;
 }

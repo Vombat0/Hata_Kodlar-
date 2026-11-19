@@ -1,0 +1,1098 @@
+{
+  "marka": "kalmar",
+  "seri": "d790-795",
+  "modelAdi": "Kalmar D79x kontrol sistemli forklift/terminal araçları (EDU 795 KCS gösterge + ECU 790 makine kontrolörü)",
+  "kaynakBelge": "KALMAR Forklift Truck Error Codes DTC — D79x kontrol sistemi (EDU 795 / ECU 790 / ECU 796 / ECU 792) kod tablosu (forkliftpdfmanuals.com)",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+  "kodlar": [
+    {
+      "kod": "1",
+      "kodNormal": "1",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Periyodik bakım süresi doldu",
+      "aciklama": "Makine, tanımlı servis aralığını aştı; arıza değil bakım zamanı bildirimidir.",
+      "makineTepkisi": "",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Sayacın sıfırlanmaması",
+        "Servis kaydının güncellenmemesi",
+        "Konnektör temassızlığı"
+      ],
+      "kontroller": [
+        "Gerekli bakımı yapıp sayacı sıfırlayın",
+        "Bakım sayacını kontrol edin",
+        "Kablo ve konnektörü görsel kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "10",
+      "kodNormal": "10",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "ECU 790 ile iletişim hatası",
+      "aciklama": "Gösterge ünitesi makine kontrolörüyle CAN haberleşmesini yitirdi; sistem güvenliği için çalışma kilitlenir.",
+      "makineTepkisi": "Çalışmaya devam edilemez",
+      "siddet": "uyari",
+      "nedenler": [
+        "CAN terminasyonu hatası",
+        "Veri kablosunda kopukluk",
+        "CAN veri kablosunda kopukluk"
+      ],
+      "kontroller": [
+        "CAN hattı uç direncini ölçün",
+        "Veri kablosu ve konnektörleri kontrol edin",
+        "Konnetörleri sıkıp yeniden test edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "11",
+      "kodNormal": "11",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "ECU 790–EDU 795 hattı: bozuk kablo",
+      "aciklama": "Gösterge ile makine kontrolörü arasındaki iletişim kablosu arızalı; veriler düzensizleşir.",
+      "makineTepkisi": "Çalışmaya devam edilemez",
+      "siddet": "uyari",
+      "nedenler": [
+        "Konnektör temassızlığı",
+        "Aynı kimlikli düğüm çakışması",
+        "CAN hattı terminasyon direnci hatası"
+      ],
+      "kontroller": [
+        "CAN hattı uç direncini ölçün",
+        "Veri kablosu ve konnektörleri kontrol edin",
+        "Konnetörleri sıkıp yeniden test edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "12",
+      "kodNormal": "12",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "ECU 793 ile iletişim hatası",
+      "aciklama": "Yardımcı kontrolcü ECU 793'e erişilemiyor; CAN çevrimi bu düğümü kaybetmiştir.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Aynı kimlikli düğüm çakışması",
+        "Elektromanyetik gürültü",
+        "Düğüm kimlik çakışması"
+      ],
+      "kontroller": [
+        "Veri kablosu ve konnektörleri kontrol edin",
+        "Düğüm kimliklerini doğrulayın",
+        "CAN hattı kablo demetini kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "13",
+      "kodNormal": "13",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "ECU 794 ile iletişim hatası",
+      "aciklama": "ECU 794'e CAN üzerinden ulaşılamıyor; ilgili alt sistem denetimi durur.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Aynı kimlikli düğüm çakışması",
+        "Elektromanyetik gürültü",
+        "CAN hattı terminasyon direnci hatası"
+      ],
+      "kontroller": [
+        "Veri kablosu ve konnektörleri kontrol edin",
+        "Düğüm kimliklerini doğrulayın",
+        "CAN hattı kablo demetini kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "14",
+      "kodNormal": "14",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "ECU 796 yanıtsız",
+      "aciklama": "Hidrolik kontrolcü ECU 796 isteklere yanıt vermiyor; hidrolik denetimi askıya düşebilir.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Bileşen arızası",
+        "Besleme gerilimi hatası",
+        "Hidrolik yağ seviyesinin düşmesi"
+      ],
+      "kontroller": [
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Valf ve hortumları görsel kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "15",
+      "kodNormal": "15",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "EDU 795–ECU 796 hattı: bozuk kablo",
+      "aciklama": "Gösterge ile hidrolik kontrolcü arasındaki iletişim kablosu arızalı.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Elektromanyetik gürültü",
+        "CAN terminasyonu hatası",
+        "CAN konnektöründe temassızlık"
+      ],
+      "kontroller": [
+        "Düğüm kimliklerini doğrulayın",
+        "CAN hattı uç direncini ölçün",
+        "Uç dirençlerini ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "16",
+      "kodNormal": "16",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "ECU 796–ECU 790 hattı: bozuk kablo",
+      "aciklama": "İki kontrolcü arasındaki CAN kablosunda süreksizlik; üniteler birbirini göremiyor.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Aynı kimlikli düğüm çakışması",
+        "Elektromanyetik gürültü",
+        "Konnektör temassızlığı"
+      ],
+      "kontroller": [
+        "Düğüm kimliklerini doğrulayın",
+        "CAN hattı uç direncini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "17",
+      "kodNormal": "17",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "EDU 795 bellek (sağlama toplamı) hatası",
+      "aciklama": "Gösterge ünitesinin program bellek toplamı tutmuyor; ekran çalışmayabilir.",
+      "makineTepkisi": "Çalışmaya devam edilemez; gösterge çalışmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Bileşen arızası",
+        "Besleme gerilimi hatası",
+        "Bellek hücresi arızası"
+      ],
+      "kontroller": [
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Yedek dosyadan veri geri yükleyin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "18",
+      "kodNormal": "18",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "ECU 792 yanıtsız",
+      "aciklama": "Geri beslemeli direksiyon kontrolörü ECU 792 CAN'a yanıt vermiyor.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Aynı kimlikli düğüm çakışması",
+        "Elektromanyetik gürültü",
+        "Referans sensör sapması"
+      ],
+      "kontroller": [
+        "CAN hattı uç direncini ölçün",
+        "Veri kablosu ve konnektörleri kontrol edin",
+        "Direksiyon kalibrasyonunu yapın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "301",
+      "kodNormal": "301",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "ECU 790 besleme gerilimi hatası",
+      "aciklama": "Makine kontrolörünün güç girişi limiti aştı/düştü; kontrolcü kendini korumaya alır.",
+      "makineTepkisi": "Motorun devri düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Besleme konnektörü temassızlığı"
+      ],
+      "kontroller": [
+        "Operatör el kitabındaki sigorta planına göre sigortaları, akü gerilimini ve elektrolit yoğunluğunu kontrol edin; arıza sürerse servise başvurun",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Besleme hattı konektörlerini sıkın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "303",
+      "kodNormal": "303",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "ECU 790 5V referans gerilimi hatası",
+      "aciklama": "Sensör beslemesi olan 5V referansı geçersiz; analog girişler güvenilmez okur.",
+      "makineTepkisi": "Motorun devri düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Sensör sinyal kablosunda kopukluk"
+      ],
+      "kontroller": [
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Sensör beslemesini ve sinyalini ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "304",
+      "kodNormal": "304",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Elektronik tartı sensörü arızası",
+      "aciklama": "Yük tartı sisteminin sensör sinyali bozuk; kapasite göstergesi yanlış olabilir.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Konnektör temassızlığı",
+        "Sensör sapması",
+        "Sensör kalibrasyon kaybı"
+      ],
+      "kontroller": [
+        "Kalibrasyonu yeniden yapın",
+        "Sinyal gerilimini ölçün",
+        "Sensör konnektörünü görsel kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "305",
+      "kodNormal": "305",
+      "aliaslar": [],
+      "sistem": "sanziman",
+      "baslik": "Hız sensörü arızası",
+      "aciklama": "Araç hız sensörü okuması geçersiz; hız kontrolü ve vites mantığı etkilenebilir.",
+      "makineTepkisi": "Motorun devri düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Sensör sapması"
+      ],
+      "kontroller": [
+        "Referans değerle karşılaştırın",
+        "Kalibrasyonu yeniden yapın",
+        "Sensör beslemesini ve sinyalini ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "306",
+      "kodNormal": "306",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motorun devir sensörü arızası",
+      "aciklama": "Motorun devri sinyali alınamıyor; kontrol motorun devri referansını kaybeder.",
+      "makineTepkisi": "Motorun devri düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kalibrasyon kaybı",
+        "Besleme gerilimi hatası",
+        "Sensör konnektör oksitlenmesi"
+      ],
+      "kontroller": [
+        "Kalibrasyonu yeniden yapın",
+        "Sinyal gerilimini ölçün",
+        "Sensör konnektörünü görsel kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "307",
+      "kodNormal": "307",
+      "aliaslar": [],
+      "sistem": "sanziman",
+      "baslik": "Vites seçici arızası",
+      "aciklama": "Vites seçme kumandasının geri bildirimi tutarsız; yön/kademe isteği doğrulanamaz.",
+      "makineTepkisi": "Motorun devri düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Konnektör temassızlığı",
+        "Kablo ezilmesi",
+        "Bileşen arızası"
+      ],
+      "kontroller": [
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "320",
+      "kodNormal": "320",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Hidrostatik iş basıncı sensörü (ileri) arızası",
+      "aciklama": "İleri yöndeki hidrostatik çalışma basıncı sensörü geçersiz okuyor.",
+      "makineTepkisi": "Motorun devri düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "İleri sensör sapması"
+      ],
+      "kontroller": [
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "İleri sensör konnektörünü görsel kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "321",
+      "kodNormal": "321",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Hidrostatik iş basıncı sensörü (geri) arızası",
+      "aciklama": "Geri yön hidrostatik basınç sensörü arızalı; geri yönde güç sınırlanır.",
+      "makineTepkisi": "Motorun devri düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Geri sensör sinyal kablosunda kopukluk"
+      ],
+      "kontroller": [
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Geri sensör konnektörünü görsel kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "322",
+      "kodNormal": "322",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Kaldırma kolu hidrolik basınç sensörü arızası",
+      "aciklama": "Kaldırma kolu basınç sensörü hatalı sinyal veriyor; kol hareketi motora devir komutu veremez.",
+      "makineTepkisi": "Kaldırma kolu kullanılırken motorun devri yükselmez",
+      "siddet": "uyari",
+      "nedenler": [
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Sensör sapması"
+      ],
+      "kontroller": [
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Sensörü yeniden kalibre edin veya değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "323",
+      "kodNormal": "323",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "EDC valf pump çıkışı (ileri) kısa/açık",
+      "aciklama": "İleri yön EDC pompa valfi sürme sinyali hattında kısa ya da açık devre var.",
+      "makineTepkisi": "Motorun devri düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sigorta atması",
+        "Kablo kopukluğu",
+        "İleri valf sıkışması"
+      ],
+      "kontroller": [
+        "Konnetörü görsel kontrol edin",
+        "Kopan kabloyu onarın veya değiştirin",
+        "İleri valf bobin direncini ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "324",
+      "kodNormal": "324",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "EDC valf pump çıkışı (geri) kısa/açık",
+      "aciklama": "Geri yön EDC pompa valfi çıkış hattı kısa/açık devre durumunda.",
+      "makineTepkisi": "Motorun devri düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Konnektörde temassızlık",
+        "Kablo ezilmesi",
+        "Hidrolik basınç yetersizliği"
+      ],
+      "kontroller": [
+        "Hatta süreklilik ölçün",
+        "Konnetörü görsel kontrol edin",
+        "Sıkışan valfi temizleyin veya değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "325",
+      "kodNormal": "325",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "PDC valf hidrolik motorun çıkışı kısa/açık",
+      "aciklama": "PDC valfinin hidrolik motorun sürme sinyali hattı süreksiz veya kısali.",
+      "makineTepkisi": "Motorun devri düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Konnektör temassızlığı",
+        "Sensör sapması",
+        "Valf sıkışması"
+      ],
+      "kontroller": [
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Sıkışan valfi temizleyin veya değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "350",
+      "kodNormal": "350",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Akü gerilimi düşük",
+      "aciklama": "Batarya hattı gerilimi uyarı eşiğinin altında; şarj/şarj sistemi kontrol edilmeli.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Besleme hattında gerilim kaybı",
+        "Konnektör temassızlığı",
+        "Akü hücre zayıflığı"
+      ],
+      "kontroller": [
+        "Besleme gerilimini ölçün",
+        "Aküyü şarj edin veya değiştirin",
+        "Sigortaları kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "351",
+      "kodNormal": "351",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Akü gerilimi yüksek",
+      "aciklama": "Batarya hattı gerilimi üst uyarı eşiğini aştı; regülatör/alternatör şüpheli.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yanlış gerilim sınıfı yapılandırması",
+        "Ölçüm devresi sapması",
+        "Besleme konnektörü temassızlığı"
+      ],
+      "kontroller": [
+        "Gerilim sınıfı ayarını kontrol edin",
+        "Gerilimi ölçün",
+        "Besleme hattı konektörlerini sıkın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "352",
+      "kodNormal": "352",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Yakıt seviyesi düşük",
+      "aciklama": "Yakıt deposu rezerve indi; çalışma sürabilir ancak ikmal planlanmalı.",
+      "makineTepkisi": "Çalışmaya devam edilebilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Konnektör temassızlığı",
+        "Kablo ezilmesi",
+        "Termostat arızası"
+      ],
+      "kontroller": [
+        "Depoyu yakıtla doldurun",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Soğutma suyu seviyesini kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "353",
+      "kodNormal": "353",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Yakıt seviye sensörü arızası",
+      "aciklama": "Yakıt göstergesi sensörü saçma okuyor; seviye bilgisi güvenilmez.",
+      "makineTepkisi": "Çalışmaya devam edilebilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Radyatör tıkanıklığı"
+      ],
+      "kontroller": [
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Sıcaklık sensörü okumasını doğrulayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "354",
+      "kodNormal": "354",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Soğutma suyu seviyesi düşük",
+      "aciklama": "Soğutma sıvısı minimumun altında; motorda aşırı ısınma riski var.",
+      "makineTepkisi": "Motorun devri düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Soğutma fanı arızası",
+        "Ortam sıcaklığının yüksek olması",
+        "Soğutma suyu seviyesinin düşmesi"
+      ],
+      "kontroller": [
+        "Soğutma suyu ilave edin",
+        "Soğutucu yüzeyleri ve kanalları temizleyin",
+        "Yükü azaltıp yeniden deneyin",
+        "Soğutma suyu seviyesini kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "355",
+      "kodNormal": "355",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Hidrolik yağ sıcaklığı yüksek",
+      "aciklama": "Hidrolik yağ ısı alarm eşiğini geçti; yağ soğuyana dek kaldırma yapılmamalı.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ortam sıcaklığının yüksek olması",
+        "Soğutma kanalında kir birikimi",
+        "Sıcaklık sensörü arızası"
+      ],
+      "kontroller": [
+        "Yağ 70 °C altına düşene kadar hidrolik fonksiyonları kullanmayın; arıza sürerse servise başvurun",
+        "Yükü azaltıp yeniden deneyin",
+        "Sıcaklığı ölçün",
+        "Sıcaklık sensörü okumasını doğrulayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "356",
+      "kodNormal": "356",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Hidrolik yağ sıcaklık sensörü hatası",
+      "aciklama": "Yağ sıcaklık sensörü geçersiz okuyor; termal uyarı izleme çalışmaz.",
+      "makineTepkisi": "Çalışmaya devam edilebilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Ortam sıcaklığının yüksek olması",
+        "Soğutma kanalında kir birikimi",
+        "Sensör kalibrasyon kaybı"
+      ],
+      "kontroller": [
+        "Yükü azaltıp yeniden deneyin",
+        "Sıcaklığı ölçün",
+        "Sensör konnektörünü görsel kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "357",
+      "kodNormal": "357",
+      "aliaslar": [],
+      "sistem": "fren",
+      "baslik": "Fren akümülatör basıncı düşük",
+      "aciklama": "Servis freni basıncını besleyen akümülatörde basınç yetersiz; fren kapasitesi sınırlıdır.",
+      "makineTepkisi": "Motorun devri düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Fren sensörü sapması"
+      ],
+      "kontroller": [
+        "Basınç oluşmuyor/tutunuyorsa akümülatör sızdırmazlığını kontrol edin (Bakım 6. bölüm); servise başvurun",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Fren ayarını kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "370",
+      "kodNormal": "370",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Dizel partikül filtresi: 30 dk içinde temizleyin",
+      "aciklama": "Partikül filtresi dolmak üzere; yarım saat içinde rejenerasyon/temizlik gerekiyor.",
+      "makineTepkisi": "",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Bileşen arızası",
+        "Besleme gerilimi hatası",
+        "Filtre rejenerasyonunun yapılmaması"
+      ],
+      "kontroller": [
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Filtre basıncını ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "371",
+      "kodNormal": "371",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Dizel partikül filtresi: hemen temizleyin",
+      "aciklama": "Filtrasyon tıkanması kritik seviyede; motorun gücü kısılmadan filtre temizlenmeli.",
+      "makineTepkisi": "Motorun devri düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Partikül filtresinin dolması"
+      ],
+      "kontroller": [
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Rejenerasyon döngüsünü başlatın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "372",
+      "kodNormal": "372",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Dizel partikül filtresi basınç çok yüksek",
+      "aciklama": "Filtre fark basıncı üst limiti aştı; makine durdurulup filtre temizlenmeli.",
+      "makineTepkisi": "Motorun devri düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yanlış gerilim sınıfı yapılandırması",
+        "Ölçüm devresi sapması",
+        "Partikül filtresinin dolması"
+      ],
+      "kontroller": [
+        "5.4.9 durdurma prosedürüne göre makineyi park edin ve filtreyi temizleyin",
+        "Gerilim sınıfı ayarını kontrol edin",
+        "Gerilimi ölçün",
+        "Rejenerasyon döngüsünü başlatın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "380",
+      "kodNormal": "380",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Gaz pedalı hatası (sol ön)",
+      "aciklama": "Sol ön gaz pedalı sensör sinyali arızalı; hız talebi alınamaz.",
+      "makineTepkisi": "Motorun devri düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Sol Ön sensör sapması"
+      ],
+      "kontroller": [
+        "Referans değerle karşılaştırın",
+        "Kalibrasyonu yeniden yapın",
+        "Sol Ön sensör beslemesini ve sinyalini ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "381",
+      "kodNormal": "381",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Gaz pedalı hatası (sağ ön)",
+      "aciklama": "Sağ ön gaz pedalı sensörü geçersiz sinyal üretiyor.",
+      "makineTepkisi": "Motorun devri düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sağ Ön sensör sapması",
+        "Kalibrasyon kaybı",
+        "Sağ Ön sensör sinyal kablosunda kopukluk"
+      ],
+      "kontroller": [
+        "Kalibrasyonu yeniden yapın",
+        "Sinyal gerilimini ölçün",
+        "Sağ Ön sensör konnektörünü görsel kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "382",
+      "kodNormal": "382",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Gaz pedalı hatası (sol arka LR)",
+      "aciklama": "Sol arka kabin pedalinin sensör devresi arızalı.",
+      "makineTepkisi": "Motorun devri düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Sol Arka sensör sinyal kablosunda kopukluk"
+      ],
+      "kontroller": [
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Sol Arka sensör konnektörünü görsel kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "383",
+      "kodNormal": "383",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Gaz pedalı hatası (sağ arka RR)",
+      "aciklama": "Sağ arka pedal sensörü güvenilir hız talebi veremiyor.",
+      "makineTepkisi": "Motorun devri düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Konnektör temassızlığı",
+        "Kablo ezilmesi",
+        "Sağ Arka sensör konnektör oksitlenmesi"
+      ],
+      "kontroller": [
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Sağ Arka sensör beslemesini ve sinyalini ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "384",
+      "kodNormal": "384",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Enjektör pompası servo motoru hatası",
+      "aciklama": "Motorun enjektör pumpasının servo konumlandırma motoru arızalı; devir ayarı yapılamaz.",
+      "makineTepkisi": "Motorun devri düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensör sapması",
+        "Kalibrasyon kaybı",
+        "Enjektör besleme konnektörü temassızlığı"
+      ],
+      "kontroller": [
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Arızalı enjektörü değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "390",
+      "kodNormal": "390",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Optimum devir/değişken pompa valfi hatası",
+      "aciklama": "Optimum speed/rev fonksiyonunun değişken pompa valfinde uç kısa/açık devre var.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Konnektörde temassızlık",
+        "Kablo ezilmesi",
+        "Hidrolik basınç yetersizliği"
+      ],
+      "kontroller": [
+        "Hatta süreklilik ölçün",
+        "Konnetörü görsel kontrol edin",
+        "Sıkışan valfi temizleyin veya değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "400",
+      "kodNormal": "400",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Döner koltuk sensörü arızası",
+      "aciklama": "Operatör koltuğunun yön sensörü bozuk; sistem koltuğu ileri konumda varsayar.",
+      "makineTepkisi": "Yalnızca ileri yönlü çalışma mümkündür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Konnektör temassızlığı",
+        "Sensör sapması",
+        "Sensör kalibrasyon kaybı"
+      ],
+      "kontroller": [
+        "Makineyi durdurun, koltuğu ileri çalışma konumuna çevirin; servise başvurun",
+        "Kalibrasyonu yeniden yapın",
+        "Sinyal gerilimini ölçün",
+        "Sensör konnektörünü görsel kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "401",
+      "kodNormal": "401",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kaldırma/eğme aşırı yükü",
+      "aciklama": "Kaldırma ve eğme fonksiyonlarında yük sınırı aşıldı; hız düşürülür.",
+      "makineTepkisi": "Hız düşürülür",
+      "siddet": "uyari",
+      "nedenler": [
+        "Nominal kapasitenin aşılması",
+        "Dengesiz yük dağılımı",
+        "Hidrolik yağ seviyesinin düşmesi"
+      ],
+      "kontroller": [
+        "Yük dağılımını düzeltin",
+        "Yük sensörü okumasını doğrulayın",
+        "Hidrolik yağ seviyesini kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "402",
+      "kodNormal": "402",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Park freni hatası — bırakılamıyor",
+      "aciklama": "Park freni bırakma komutuna rağmen açık konuma geçmedi; makine hareket ettirilmemeli.",
+      "makineTepkisi": "Park freni bırakılamaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Konnektör temassızlığı",
+        "Sensör sapması",
+        "Fren bobini arızası"
+      ],
+      "kontroller": [
+        "Kalibrasyonu yeniden yapın",
+        "Sinyal gerilimini ölçün",
+        "Fren bobini direncini ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "404",
+      "kodNormal": "404",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Soğutma suyu seviye sensörü arızalı",
+      "aciklama": "Seviye şamandırası/sensörü bozuk; düşük seviye uyarısı güvenilir değil.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Soğutma kanalında kir birikimi",
+        "Uzun süreli aşırı yük",
+        "Radyatör tıkanıklığı"
+      ],
+      "kontroller": [
+        "Sıcaklığı ölçün",
+        "Soğutucu yüzeyleri ve kanalları temizleyin",
+        "Radyatör ve termostatı kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "405",
+      "kodNormal": "405",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Koltuk yön konum sensörü arızalı",
+      "aciklama": "Koltuk döndürme konum sensörü hatalı; ilgili fonksiyonlar sınırlandırılır.",
+      "makineTepkisi": "Fonksiyon sınırlandırılır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Konnektör temassızlığı",
+        "Sensör sapması",
+        "Sensör kalibrasyon kaybı"
+      ],
+      "kontroller": [
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Sensörü yeniden kalibre edin veya değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "406",
+      "kodNormal": "406",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Çeki aksı/eğme silindiri hücre sinyali hatası",
+      "aciklama": "Kuvvet hücresinden (stub axle veya eğme silindiri) gelen sinyal bozuk; aşırı yük koruması devre dışıdır.",
+      "makineTepkisi": "Aşırı yük koruması çalışmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Dengesiz yük dağılımı",
+        "Yük ölçüm sensörü sapması",
+        "Hortum sızıntısı"
+      ],
+      "kontroller": [
+        "Yük sensörü okumasını doğrulayın",
+        "Yük ağırlığını kontrol edin",
+        "Basınç sensörü okumasını doğrulayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/kalmar-error-codes/",
+      "durum": "incelemede"
+    }
+  ]
+}

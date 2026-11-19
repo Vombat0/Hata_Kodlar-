@@ -1,0 +1,902 @@
+{
+  "marka": "yale",
+  "seri": "vx-a380-vsm",
+  "modelAdi": "Yale VX serisi endüstriyel araçlar (A380/VSM/TCU kontrol mimarisi)",
+  "kaynakBelge": "Yale üretici kaynaklı 9000 YRM 1112 (parça no 524221866) arıza kod tablosu, §9030-20-x bölümleri — forklifterrorcodes.com kod referansları",
+  "kaynakSurum": "9000 YRM 1112",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/",
+  "kodlar": [
+    {
+      "kod": "524223-0",
+      "kodNormal": "5242230",
+      "aliaslar": [],
+      "sistem": "sanziman",
+      "baslik": "Geri vites şanzıman basıncı komutu tolerans üstü aşıyor",
+      "aciklama": "Tolerance dışı yüksek geri yön kavrama basıncı §9030-20-30–34 dalında izlenir; ölçülen-komut karşılaştırması eşleşik şanzıman tablosuyla yapılmalıdır",
+      "makineTepkisi": "Geri yön kalkışı sertleşebilir; uyarı verilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Basınç sensörü besleme hattının açıklığı",
+        "Sensör arızası",
+        "Şanzıman/valf mekanik hatası (üreticinin saydığı alternatifler)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "524225-0",
+        "524223-1"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/yale/diagnostic/fault-code-524223-0/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "524225-0",
+      "kodNormal": "5242250",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "İleri-1 şanzıman basıncı komutu tolerans üstü aşıyor",
+      "aciklama": "Forward-1 kavrama hidrolik basıncı komut değerini tolerans bandı dışında aşar; sensör beslemesi ve valf mekaniği alternatif nedenlerdir",
+      "makineTepkisi": "İleri yönde sarsıntılı kalkış",
+      "siddet": "uyari",
+      "nedenler": [
+        "Basınç sensörü besleme hattının açıklığı",
+        "Sensör arızası",
+        "Şanzıman/valf mekanik hatası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "524223-0",
+        "524225-1"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/yale/diagnostic/fault-code-524225-0/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "524223-1",
+      "kodNormal": "5242231",
+      "aliaslar": [],
+      "sistem": "sanziman",
+      "baslik": "Geri vites şanzıman basıncı komutun tolerans altında",
+      "aciklama": "§9030-20-35–39: düşük şanzıman yağı seviyesi, sensör besleme açıklığı, basınç sensörü hatası veya mekanik kusur ayrı ayrı sayılır",
+      "makineTepkisi": "Geri yönde kayma; güç aktarımı gecikir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Düşük şanzıman yağı seviyesi",
+        "Sensör besleme hattı açıklığı",
+        "Basınç sensörü hatası veya mekanik şanzıman kusuru (otomatik revizyon gerektirmez)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "524223-0",
+        "524225-1"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/yale/diagnostic/fault-code-524223-1/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "524225-1",
+      "kodNormal": "5242251",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "İleri-1 şanzıman basıncı komutun tolerans altında",
+      "aciklama": "İleri kavrama basıncı komutun altında kalır; §'da yağ seviyesi ilk sayılan nedendir, şanzıman revizyonu otomatik sonuç değildir",
+      "makineTepkisi": "Kalkışta kayma ve devirlenme",
+      "siddet": "uyari",
+      "nedenler": [
+        "Düşük şanzıman yağı seviyesi",
+        "Sensör besleme hattı açıklığı",
+        "Basınç sensörü hatası veya mekanik şanzıman kusuru"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "524225-0",
+        "524223-1"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/yale/diagnostic/fault-code-524225-1/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "105-3",
+      "kodNormal": "1053",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Emme havası sıcaklık sensörü sinyali yüksek aralık dışı",
+      "aciklama": "§9030-20-266–273: IAT beslemesi açık, sinyal aküye kısa veya sensör hatalı olabilir; Mazda LPG/GM-PSI ve Cummins çapraz referans dalları ayrıdır",
+      "makineTepkisi": "Arıza lambası yanabilir; karışım yedeğe geçer",
+      "siddet": "uyari",
+      "nedenler": [
+        "IAT sensör beslemesinin açıklığı",
+        "Sinyalin aküye kısayolu veya açıkta kalması",
+        "Arızalı IAT sensörü veya motor kontrolörü"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "105-4",
+        "110-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/105-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "105-4",
+      "kodNormal": "1054",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Emme havası sıcaklık sensörü sinyali düşük aralık dışı",
+      "aciklama": "§9030-20-273–279 OORL grubu: sinyal sensör/şase toprağına kısa; emme havasının gerçekten soğuk olduğuna kanıt teşkil etmez",
+      "makineTepkisi": "Soğuk hava düzeltmeleri yanlış uygulanabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sinyalin sensör veya şase toprağına kısayolu",
+        "Sensör arızası",
+        "Kontrolör hatası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "105-3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/105-4/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "110-4",
+      "kodNormal": "1104",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor soğutma suyu sıcaklık sensörü sinyali düşük aralık dışı",
+      "aciklama": "§9030-20-50–55 alçak sinyal dalı: ECT sinyali sensör/şase toprağına kısa, sensör hatalı ya da kontrolör işlev arızasında",
+      "makineTepkisi": "Isınma yönetimi yanlış değere göre çalışır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sinyalin sensör/şase toprağına kısayolu",
+        "Sensör arızası",
+        "Kontrolör işlev arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "105-4",
+        "522603-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/110-4/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "96-4",
+      "kodNormal": "964",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Yakıt seviye sensörü veya LPG seçici anahtarı girişi düşük",
+      "aciklama": "§9030-20-230–234: sinyal şaseye kısa ya da açık; depo gerçekten boş olmak zorunda değildir, opsiyonel LPG seçici devresi de izlenir",
+      "makineTepkisi": "Yakıt göstergesi güvenilmez kalır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sinyalin şase kısayolu",
+        "Açık sinyal/return hattı",
+        "Sensör veya VSM arızası (LPG anahtarı opsiyonlu)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "522603-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/96-4/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "522603-3",
+      "kodNormal": "5226033",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "LPG yakıt sıcaklık sensörü sinyali yüksek aralık dışı",
+      "aciklama": "§9030-20-39–50 yüksek dalı: sensör return açığı, sinyal açıklığı, 5V/akü kısayolu, sensör veya kontrolör fonksiyon hatası",
+      "makineTepkisi": "Sıcaklığa bağlı gaz düzeltmesi yedeğe düşer",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensör return hattının açıklığı",
+        "Sinyal yolunun açılması",
+        "Sinyalin 5V/akü hattına kısayolu, sensör veya kontrolör hatası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "522603-4",
+        "105-3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/522603-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "522603-4",
+      "kodNormal": "5226034",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "LPG yakıt sıcaklık sensörü gerilimi düşük aralık dışı",
+      "aciklama": "§9030-20-50–55: alçak sinyal dalı LPG sıcaklık devresinde şase/sensör toprağı kısayolu ya da sensör/kontrolör hatası üretir",
+      "makineTepkisi": "Gaz yoğunluğu düzeltmesi hatalı temele kayar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sinyalin sensör/şase toprağına kısayolu",
+        "Sensör arızası",
+        "Kontrolör işlev arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "522603-3",
+        "96-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/522603-4/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "522712-3",
+      "kodNormal": "5227123",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Gaz pedalı konum sensörü A kanalı yüksek aralık dışı",
+      "aciklama": "§9030-20-70–75: pedal sensörü A kanalı için besleme açıklığı, akü/kaynağa kısa veya sensör-kontrolör hatası sayılır",
+      "makineTepkisi": "Pedal geçersiz; sürüş komutu reddedilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Pedal sensörü besleme açıklığı",
+        "Sinyalin akü/kaynak hattına kısayolu",
+        "Arızalı pedal sensörü veya kontrolör sinyali"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "522713-3",
+        "522712-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/522712-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "522713-3",
+      "kodNormal": "5227133",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Gaz pedalı konum sensörü B kanalı yüksek aralık dışı",
+      "aciklama": "Aynı §9030-20-70–75 grubunun B kanalı; emniyet kanalı yüksek sapması A kanalınınkiyle kıyaslanarak izole edilir",
+      "makineTepkisi": "Çift kanal karşılaştırması başarısız; sürüş kilitlenir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Pedal sensörü besleme açıklığı",
+        "Sinyalin akü/kaynak hattına kısayolu",
+        "Arızalı pedal sensörü veya kontrolör sinyali"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "522712-3",
+        "522713-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/522713-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "522712-4",
+      "kodNormal": "5227124",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Gaz pedalı konum sensörü A kanalı düşük aralık dışı",
+      "aciklama": "§9030-20-76–81: düşük dalda besleme/sinyal açıklığı, şase/sensör toprağı kısayolu, sensör veya giriş kademesi arızası alternatifleri var",
+      "makineTepkisi": "Pedal okuması sıfıra kilitlenebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Pedal sensörü besleme veya sinyal açıklığı",
+        "Şase/sensör toprağı kısayolu",
+        "Sensör hatası veya kontrolör girişi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "522712-3",
+        "522713-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/522712-4/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "522713-4",
+      "kodNormal": "5227134",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Gaz pedalı konum sensörü B kanalı düşük aralık dışı",
+      "aciklama": "§9030-20-76–81 B kanalı; yüksek dalının tersi yön ihlali, belgelenmiş A/B kanal ayrımıyla takip edilir",
+      "makineTepkisi": "Yedek kanal da saparsa sürüş tamamen engellenir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Pedal sensörü besleme veya sinyal açıklığı",
+        "Şase/sensör toprağı kısayolu",
+        "Sensör hatası veya kontrolör girişi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "522713-3",
+        "522712-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/522713-4/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "522710-3",
+      "kodNormal": "5227103",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Elektronik gaz kelebeği konum sensörü A kanalı yüksek",
+      "aciklama": "§9030-20-96–103: gaz gövdesi A kanalında sensör toprağı açıklığı, sinyalin besleme/aküye kısayolu, sensör veya ECU hatası",
+      "makineTepkisi": "Gaz komutu geçersiz; devir limitleme",
+      "siddet": "uyari",
+      "nedenler": [
+        "TPS sensör toprağının açıklığı",
+        "Sinyalin besleme/akü kısayolu",
+        "Sensör hatası veya ECU işlev arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "522711-3",
+        "522710-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/522710-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "522711-3",
+      "kodNormal": "5227113",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Elektronik gaz kelebeği konum sensörü B kanalı yüksek",
+      "aciklama": "Gaz gövdesi B kanalının yüksek bandı; A/B throttle kanal ayrımı korunarak §9030-20-96–103 dalında arızalanır",
+      "makineTepkisi": "Emniyet kanalı ihlali nedeniyle ETC devre dışı",
+      "siddet": "uyari",
+      "nedenler": [
+        "TPS sensör toprağının açıklığı",
+        "Sinyalin besleme/akü kısayolu",
+        "Sensör hatası veya ECU işlev arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "522710-3",
+        "522711-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/522711-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "522710-4",
+      "kodNormal": "5227104",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Elektronik gaz kelebeği konum sensörü A kanalı düşük",
+      "aciklama": "§9030-20-104–111: A kanalında sinyal/besleme açıklığı, toprağa kısa, bozuk TPS veya kontrolör hatası seçenekleri sayılır",
+      "makineTepkisi": "Rölanti konumu yanlış okunabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "TPS sinyal/besleme açıklığı",
+        "Sinyalin toprağa kısayolu",
+        "Bozuk TPS veya kontrolör hatası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "522710-3",
+        "522711-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/522710-4/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "522711-4",
+      "kodNormal": "5227114",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Elektronik gaz kelebeği konum sensörü B kanalı düşük",
+      "aciklama": "§9030-20-104–111 B kanalı; yüksek B arızasıyla birlikte görüldüğünde ortak besleme/toprak hattı şüphesi büyür",
+      "makineTepkisi": "ETC plauzibilitesi bozulur; motor durabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "TPS sinyal/besleme açıklığı",
+        "Sinyalin toprağa kısayolu",
+        "Bozuk TPS veya kontrolör hatası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "522711-3",
+        "522710-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/522711-4/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "523780-3",
+      "kodNormal": "5237803",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Park freni konum sensörü sinyali yüksek aralık dışı",
+      "aciklama": "§9030-20-117–123 analog konum sensörü yüksek dalı: sensör toprağı açıklığı, sinyalin besleme/aküye kısayolu, sensör veya kontrolör",
+      "makineTepkisi": "Park freni durumu doğrulanamaz; hareket engellenebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Analog konum sensörü toprağının açıklığı",
+        "Sinyalin sensör beslemesine/aküye kısayolu",
+        "Arızalı sensör veya kontrolör"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "523780-4",
+        "524245-3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/yale/diagnostic/fault-code-523780-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "524245-3",
+      "kodNormal": "5242453",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Koltak doluluk / operatör varlık sensörü yüksek aralık dışı",
+      "aciklama": "§9030-20-117–123: operatör varlık devresi yüksek sinyal dalı; devre arızası ile koltuğun gerçekten dolu olması ayrıştırılmalıdır",
+      "makineTepkisi": "Operatör varlığı doğrulanamaz; sürüş ve hidrolik kilitlenebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Analog konum sensörü toprağının açıklığı",
+        "Sinyalin sensör beslemesine/aküye kısayolu",
+        "Arızalı sensör veya kontrolör"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "523780-3",
+        "524245-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/yale/diagnostic/fault-code-524245-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "523780-4",
+      "kodNormal": "5237804",
+      "aliaslar": [],
+      "sistem": "fren",
+      "baslik": "Park freni konum sensörü sinyali düşük aralık dışı",
+      "aciklama": "§9030-20-123–130 düşük dalı: besleme/sinyal açıklığı veya toprağa kısayol; park freninin fiilen uygulanmış olduğu bu koddan çıkarılamaz",
+      "makineTepkisi": "Fren konum bilgisi güvenilmez sayılır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Analog sensör besleme/sinyal açıklığı",
+        "Sinyalin sensör/şase toprağına kısayolu",
+        "Arızalı sensör veya kontrolör"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "523780-3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/yale/diagnostic/fault-code-523780-4/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "524245-4",
+      "kodNormal": "5242454",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Operatör varlık sistemi / koltak sensörü düşük aralık dışı",
+      "aciklama": "§9030-20-123–130: varlık devresi alçak sinyal ihlali; koltuğun boş olduğu çıkarımı yapılamaz, önce devre bütünlüğü ölçülür",
+      "makineTepkisi": "Emniyet mantığı operatörü yok sayabilir; fonksiyonlar kilitlenir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Analog sensör besleme/sinyal açıklığı",
+        "Sinyalin sensör/şase toprağına kısayolu",
+        "Arızalı sensör veya kontrolör"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "524245-3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/yale/diagnostic/fault-code-524245-4/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "524195-3",
+      "kodNormal": "5241953",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Soğuk çalıştırma röle sürücü sinyali yüksek aralık dışı",
+      "aciklama": "§9030-20-143–149: çıkış komutu kapalıyken yüksek elektriksel geri besleme — aküye kısa, açık sürücü/return ya da kontrolör hatası",
+      "makineTepkisi": "Soğuk çalıştırma devresi istemsiz çalışabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Röle/valf çıkışının aküye kısayolu",
+        "Sürücü veya bobin çıkışının açık kalması",
+        "Return açıklığı ya da kontrolör arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "524195-4",
+        "524269-3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/524195-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "524195-4",
+      "kodNormal": "5241954",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Soğuk çalıştırma röle sürücü sinyali düşük aralık dışı",
+      "aciklama": "§9030-20-149–155 düşük sürücü yolu: komut varken çıkış toprağa kısa, röle/bobin bozuk ya da kontrolör hatalı; parça hükmü vermez",
+      "makineTepkisi": "Soğuk çalıştırma ısıtması devreye girmez",
+      "siddet": "uyari",
+      "nedenler": [
+        "Çıkışın toprağa kısayolu",
+        "Arızalı röle/valf bobini",
+        "Kontrolör hatası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "524195-3",
+        "524269-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/524195-4/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "524260-3",
+      "kodNormal": "5242603",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "5VE2 sensör besleme hattı gerilimi yüksek",
+      "aciklama": "§9030-20-193–208: ikinci 5V besleme grubu aküye kısa ya da VSM/kontrolör işlev hatası; devre düzeni takılı motor ECU'suna göre değişir",
+      "makineTepkisi": "Bu hatta bağlı sensörlerin hepsi kayar",
+      "siddet": "uyari",
+      "nedenler": [
+        "5VE2 beslemesinin aküye kısayolu",
+        "VSM/kontrolör işlevsel arızası",
+        "Takılı motor ECU'suna göre değişen devre/modül düzeni"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "524261-3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/524260-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "524261-3",
+      "kodNormal": "5242613",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "5VE1 sensör besleme hattı gerilimi yüksek",
+      "aciklama": "§9030-20-193–208 birinci 5V grubu; yüksek besleme, bağlı tüm analog girişleri yukarı kaydırır ve tanı tek başına parça siparişi değildir",
+      "makineTepkisi": "Çok sayıda sensör aynı anda arıza üretebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "5VE1 beslemesinin aküye kısayolu",
+        "VSM/kontrolör işlevsel arızası",
+        "Donanıma bağlı devre düzeni farklılığı"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "524260-3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/524261-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "523920-3",
+      "kodNormal": "5239203",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Şanzıman REV1 sürücü devresi yüksek yönde kısa",
+      "aciklama": "§9030-20-248–254 bobin sürücüsü OORH grubu: çıkış/return aküye kısa, sürücü/return açık, valf bobini açık, valf veya kontrolör hatalı",
+      "makineTepkisi": "Geri vites uygulaması komutu uygulanmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Çıkış/return hattının aküye kısayolu",
+        "Açık sürücü veya return yolu",
+        "Açık valf bobini, valf hatası veya kontrolör"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "523920-4",
+        "523930-3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/523920-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "523930-3",
+      "kodNormal": "5239303",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Şanzıman kavrama FWD1/geri dönüş bobin sürücüsü yüksek aralık dışı",
+      "aciklama": "§9030-20-248–254: ileri kavrama bobin yolunda OORH; aynı üretici alternatifset'i REV1 kanalından ayrı ölçümlerle daraltılır",
+      "makineTepkisi": "İleri kavrama hidroliği devreye almaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Çıkış/return hattının aküye kısayolu",
+        "Açık sürücü veya return yolu",
+        "Açık valf bobini, valf hatası veya kontrolör"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "523930-4",
+        "523920-3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/523930-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "524269-3",
+      "kodNormal": "5242693",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Şanzıman izin valfi bobin sürücü çıkışı yüksek aralık dışı",
+      "aciklama": "§9030-20-143–149 röle/valf çıkış grubu; kapalı komutta yüksek geri besleme REV/FWD uygulamalarını kilitler",
+      "makineTepkisi": "Şanzıman enable devresi açılmaz; sürüş yok",
+      "siddet": "uyari",
+      "nedenler": [
+        "Çıkışın aküye kısayolu",
+        "Bobin çıkış/sürücü açıklığı",
+        "Return açıklığı veya kontrolör arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "524269-4",
+        "524195-3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/524269-3/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "523920-4",
+      "kodNormal": "5239204",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Şanzıman REV1 sürücü devresi düşük aralık dışı",
+      "aciklama": "§9030-20-254–260 OORL grubu: çıkış/return toprağa kısa, valf hatası veya kontrolör; yüksek yöndeki 523920-3'ten ayrı şubedir",
+      "makineTepkisi": "Geri vitese geçiş engellenir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Çıkış/return hattının toprağa kısayolu",
+        "Valf hatası",
+        "Kontrolör arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "523920-3",
+        "523930-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/523920-4/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "523930-4",
+      "kodNormal": "5239304",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Şanzıman kavrama FWD1/geri dönüş sürücüsü düşük aralık dışı",
+      "aciklama": "§9030-20-254–260 düşük bobin-sürücü dalı; toprağa kısa ve valf/kontrolör seçenekleri kavrama basıncını düşürür",
+      "makineTepkisi": "İleri kavrama basıncı oluşmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Çıkış/return hattının toprağa kısayolu",
+        "Valf hatası",
+        "Kontrolör arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "523930-3",
+        "523920-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/523930-4/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "524269-4",
+      "kodNormal": "5242694",
+      "aliaslar": [],
+      "sistem": "sanziman",
+      "baslik": "Şanzıman izin valfi bobin sürücüsü düşük aralık dışı",
+      "aciklama": "§9030-20-149–155: komut varken çıkış toprağa kısa ya da bobin/kontrolör bozuk; enable valfi kapanarak güç aktarımını keser",
+      "makineTepkisi": "Vites uygulaması tamamen devre dışı",
+      "siddet": "uyari",
+      "nedenler": [
+        "Çıkışın toprağa kısayolu",
+        "Bozuk röle/valf bobini",
+        "Kontrolör hatası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "524269-3",
+        "524195-4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/524269-4/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "522606-10",
+      "kodNormal": "52260610",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Katalizör sonrası oksijen sensörü AROC (değişim hızı) hatası",
+      "aciklama": "§9030-20-333–338: post-cat HEGO değişim oranı bekleneni vermez; bozuk konvertör ile sensörün hangisi olduğu bu koddan çıkarılamaz",
+      "makineTepkisi": "Arıza lambası yanar; emisyon izlemesi başarısız",
+      "siddet": "uyari",
+      "nedenler": [
+        "HEGO (ısıtmalı egzoz oksijen) sensörü",
+        "Kontrolör işlev arızası",
+        "Aktif olmayan katalizör olasılığı"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "522737-10"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/522606-10/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "522737-10",
+      "kodNormal": "52273710",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Katalizör öncesi oksijen sensörü AROC (değişim hızı) hatası",
+      "aciklama": "§9030-20-333–338'in pre-cat dalı: sensör yanıt hızı düşük; aynı § konvertör ve kontrolör olasılıklarını da masada tutar",
+      "makineTepkisi": "Kapalı döngü geç kalır; arıza lambası yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "HEGO sensörü yanıt hızı",
+        "Kontrolör işlev arızası",
+        "Katalitik aktivite eksikliği"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "522606-10"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/522737-10/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "2000-14",
+      "kodNormal": "200014",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "CANbus adres çakışması (VSM/motor kontrolörü seri veri ağı)",
+      "aciklama": "§9030-20-363–370 paylaşılan seri veri hata grubu: düğüm/adres çakışması, sonlandırma-tesisat, besleme veya kontrolör ağ hatası olasılıkları",
+      "makineTepkisi": "İki düğümün verileri çarpışır; koordinasyon bozulur",
+      "siddet": "uyari",
+      "nedenler": [
+        "CAN düğüm/adres çakışması",
+        "Sonlandırma veya tesisat hatası",
+        "Besleme ya da kontrolör/ağ arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "522593-12"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/2000-14/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "522593-12",
+      "kodNormal": "52259312",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "Elektronik LPG basınç regülatörü (EPR) iletişim kaybı",
+      "aciklama": "§9030-20-583–587: EPR ile veri yolu iletişimi kesilir; regülatör besleme/toprağı, CAN-H/CAN-L açık-kısa, konnektör veya EPR arızası sayılır",
+      "makineTepkisi": "Yakıt basıncı güvenli değere sabitlenir; güç düşebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Regülatör besleme/toprak hattı",
+        "CAN-H/CAN-L açıklığı veya kısayolu",
+        "Konnektör/tesisat ya da EPR ünitesi arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "2000-14",
+        "522592-0"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/yale/522593-12/",
+      "durum": "incelemede"
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 ---
 import type { Kod } from '../lib/veri';
-import { sistemAdi, trNormalize, kodAdresi } from '../lib/veri';
+import {
+  sistemAdi, trNormalize, kodAdresi, SISTEMLER, SIDDETLER, DURUMLAR,
+} from '../lib/veri';
 import SiddetRozet from './SiddetRozet.astro';
 import DurumRozet from './DurumRozet.astro';
 
@@ -11,10 +13,54 @@ interface Props {
 }
 const { kodlar, marka, seri } = Astro.props;
 const yol = (kod: string) => kodAdresi(marka, seri, kod);
+
+const SINIR = 120;
+const pagineli = kodlar.length > SINIR;
+const ilkKodlar = pagineli ? kodlar.slice(0, SINIR) : kodlar;
+const sonrakiKodlar = pagineli ? kodlar.slice(SINIR) : [];
+
+// Yalnızca kalan kodlar için kompakt payload — uzun açıklama metinleri yok.
+const payload = sonrakiKodlar.map((k) => ({
+  k: k.kodNormal ?? k.kod,
+  kod: k.kod,
+  baslik: k.baslik,
+  sistem: k.sistem,
+  siddet: k.siddet,
+  durum: k.durum,
+}));
+
+const sozluk = {
+  s: Object.fromEntries(Object.entries(SISTEMLER).map(([id, ad]) => [id, ad])),
+  v: Object.fromEntries(Object.entries(SIDDETLER).map(([id, b]) => [id, b.ad])),
+  d: Object.fromEntries(Object.entries(DURUMLAR).map(([id, b]) => [id, b.ad])),
+};
+
+const kac = (deger: string) => String(deger ?? '')
+  .replace(/&/g, '&amp;')
+  .replace(/</g, '&lt;')
+  .replace(/>/g, '&gt;')
+  .replace(/"/g, '&quot;');
+
+const sinif = {
+  siddet: (deger: string) => ['durdurucu', 'kisitlayici', 'uyari', 'bilgi'].includes(deger) ? deger : 'bilgi',
+  durum: (deger: string) => ['dogrulandi', 'incelemede', 'taslak'].includes(deger) ? deger : 'taslak',
+};
+
+/** SEO / JS'siz kullanım için sade, tekrarsız tablo satırı. */
+const nosSatir = (k: Kod) => {
+  const href = kac(yol(k.kod));
+  const sAd = (SIDDETLER[k.siddet]?.ad ?? k.siddet) || 'Bilinmiyor';
+  const dAd = (DURUMLAR[k.durum]?.ad ?? k.durum) || 'Bilinmiyor';
+  return `<tr><td class="kod-hucre"><a href="${href}">${kac(k.kod)}</a></td>` +
+    `<td><span class="sistem-etiket">${kac(sistemAdi(k.sistem))}</span></td>` +
+    `<td class="tablo-baslik"><a href="${href}">${kac(k.baslik)}</a></td>` +
+    `<td><span class="rozet rozet-${sinif.siddet(k.siddet)}">${kac(sAd)}</span></td>` +
+    `<td><span class="durum-rozet durum-${sinif.durum(k.durum)}">${kac(dAd)}</span></td></tr>`;
+};
 ---
 
-<div class="tablo-sarmal">
-  <table>
+<div class="tablo-sarmal" id="seri-tablo-sarmal">
+  <table id="seri-tablo" data-marka={marka} data-seri={seri}>
     <thead>
       <tr>
         <th scope="col">Kod</th>
@@ -24,8 +70,8 @@ const yol = (kod: string) => kodAdresi(marka, seri, kod);
         <th scope="col">Durum</th>
       </tr>
     </thead>
-    <tbody>
-      {kodlar.map((kod) => (
+    <tbody id="seri-tablo-govde">
+      {!pagineli && ilkKodlar.map((kod) => (
         <tr
           data-sistem={kod.sistem}
           data-siddet={kod.siddet}
@@ -41,3 +87,17 @@ const yol = (kod: string) => kodAdresi(marka, seri, kod);
     </tbody>
   </table>
 </div>
+
+{pagineli && (
+  <>
+    <noscript
+      id="seri-noscript"
+      set:html={`<style>#seri-tablo-sarmal{display:none}</style><div class="tablo-sarmal" style="margin-top:1rem"><table><thead><tr><th scope="col">Kod</th><th scope="col">Sistem</th><th scope="col">Açıklama</th><th scope="col">Şiddet</th><th scope="col">Durum</th></tr></thead><tbody>${ilkKodlar.map(nosSatir).join('')}</tbody></table></div><p class="muted" style="margin-top:0.75rem">Bu seride ${kodlar.length} kod kayıtlı. Kalan kodlar için JavaScript etkinleştirin.</p>`}
+    />
+    <script type="application/json" id="seri-sozluk" set:html={JSON.stringify(sozluk)} />
+    <script type="application/json" id="seri-veri" set:html={JSON.stringify(payload)} />
+    <button class="dugme dugme-ikincil" type="button" id="seri-tumunu" hidden style="margin-top:1rem">
+      Tümünü göster
+    </button>
+  </>
+)}

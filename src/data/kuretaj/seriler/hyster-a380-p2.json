@@ -1,0 +1,785 @@
+{
+  "marka": "hyster",
+  "seri": "a380-p2",
+  "modelAdi": "Hyster a380-p2",
+  "kaynakBelge": "Web araştırması — forklifterrorcodes.com",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "",
+  "kodlar": [
+    {
+      "kod": "ErrC000",
+      "kodNormal": "ERRC000",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "İleri valf (solenoid) hatası",
+      "aciklama": "§9030-20-74: ileri yön solenoid sürücüsünde hata; kod yönü tanımlar ama hangi parçanın bozuk olduğunu söylemez",
+      "makineTepkisi": "İleri yön kumandası uygulanmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "İleri/geri solenoid tesisatı",
+        "Solenoid bobini",
+        "V-ECU çıkış kademesi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "ErrC003",
+        "ErrC020"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-errc000/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "ErrC003",
+      "kodNormal": "ERRC003",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Geri valf (solenoid) hatası",
+      "aciklama": "§9030-20-74'nin geri yön dalı; sürücü devresi geri yön solenoidinde anormallik saptar",
+      "makineTepkisi": "Geri yön kumandası devre dışı kalır",
+      "siddet": "uyari",
+      "nedenler": [
+        "İleri/geri solenoid tesisatı",
+        "Solenoid bobini",
+        "V-ECU çıkış kademesi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "ErrC000",
+        "ErrC020"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-errc003/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "ErrC004",
+      "kodNormal": "ERRC004",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma (lift) solenoidi hatası",
+      "aciklama": "§9030-20-80: kaldırma solenoid devresinde hata; unloaded/boşaltma devresinden ayrı şema incelemesi gerekir",
+      "makineTepkisi": "Kaldırma fonksiyonu çalışmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma/indirme solenoid tesisatı",
+        "Solenoid bobini",
+        "V-ECU çıkışı"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "ErrC005",
+        "ErrC007"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster/a380/fault-code-errc004/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "ErrC005",
+      "kodNormal": "ERRC005",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "İndirme (lower) solenoidi hatası",
+      "aciklama": "§9030-20-80 indirme dalı; bobin/tesisat veya sürücü şüphesi lift kanalından bağımsız doğrulanmalıdır",
+      "makineTepkisi": "Çatal indirme komutu uygulanmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma/indirme solenoid tesisatı",
+        "Solenoid bobini",
+        "V-ECU çıkışı"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "ErrC004",
+        "ErrC007"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster/a380/fault-code-errc005/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "ErrC007",
+      "kodNormal": "ERRC007",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Boşaltma (unload) solenoidi hatası",
+      "aciklama": "§9030-20-80 ailesinin boşaltma kanalı; unload devresinin ayrıca şema üzerinden incelenmesi gerektiği kaynakta özellikle not edilir",
+      "makineTepkisi": "Boşaltma/ek fonksiyon engellenir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma/indirme/boşaltma solenoid tesisatı",
+        "Solenoid bobini",
+        "V-ECU çıkışı (unload devresi şema incelemesi ister)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "ErrC004",
+        "ErrC005"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster/a380/fault-code-errc007/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "ErrC020",
+      "kodNormal": "ERRC020",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "İleri/geri kumanda kolu hatası",
+      "aciklama": "§9030-20-71: yön kolunun besleme/referans devresi veya kontak durumu okunamaz; kumanda sinyali ile kablo ayrışmalıdır",
+      "makineTepkisi": "Yön seçimi kabul edilmez; sürüş kilitleme mantığı devreye girebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kumanda kolu besleme/referans devresi",
+        "Kol kontakları",
+        "V-ECU giriş kademesi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "ErrC000",
+        "ErrC003"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-errc020/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "ErrC023",
+      "kodNormal": "ERRC023",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "Gösterge veya ayar değeri değişmiyor",
+      "aciklama": "§9030-20-1: menüde gezinme/ayar değişikliği yanıt vermez; takılı tuş ya da gösterge kartı §'nın tipik iki adayıdır",
+      "makineTepkisi": "Ayar ekranı kilitli kalır; fonksiyonlar etkilenmez",
+      "siddet": "uyari",
+      "nedenler": [
+        "Takılan (basılı kalan) gösterge tuşu",
+        "Gösterge kartı arızası",
+        "Kontrol yüzeyi/konnektör teması"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Errd011",
+        "ErrC026"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-errc023/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "ErrC026",
+      "kodNormal": "ERRC026",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "Yük ölçer gösterge hatası",
+      "aciklama": "§9030-20-1 kapsamında yük göstergesi geçerli veri üretemez; gösterge tarafı ile yük algılama girişi ayrılmalıdır",
+      "makineTepkisi": "Ağırlık okuması ekranda düşer",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Gösterge kartı veya kart bağlantısı",
+        "Yük ölçer giriş sinyali",
+        "Konnektör temas hatası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "ErrC023"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-errc026/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "ErrC027",
+      "kodNormal": "ERRC027",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "Motor çalışmıyor",
+      "aciklama": "§9030-20-6: gösterge motorun dönmediğini raporlar; §'nın neden ailesi akü/şarj tarafını işaret eder, tek başına akü değişimi gerekmez",
+      "makineTepkisi": "Marş/çalıştırma reddedilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Akü durumu",
+        "Şarj sistemi",
+        "Kontak kapalıyken aşırı akım çekişi (ölçülmeden akü suçlanamaz)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "168-0"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-errc027/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Errd011",
+      "kodNormal": "ERRD011",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "Sağ ok tuşu hatası",
+      "aciklama": "§9030-20-1: gösterge sağ ok tuşu basılı/kapalı kontak durumu rapor eder; kontrol yüzeyi ve soket değişimden önce incelenmelidir",
+      "makineTepkisi": "Ekranda sağa gezinme çalışmaz",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Takılan gösterge tuşu",
+        "Gösterge kartı arızası",
+        "Kontrol yüzeyi/konnektör bağlantısı"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Errd012",
+        "Errd013"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-errd011/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Errd012",
+      "kodNormal": "ERRD012",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "Sol ok tuşu hatası",
+      "aciklama": "§9030-20-1: sol ok tuşunun kapalı kontak takibi; her tuş için kod ayrı satırdır, kart geneli arızasından ayrılır",
+      "makineTepkisi": "Ekranda sola gezinme engellenir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Takılan gösterge tuşu",
+        "Gösterge kartı arızası",
+        "Kontrol yüzeyi/konnektör bağlantısı"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Errd011",
+        "Errd013"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-errd012/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Errd013",
+      "kodNormal": "ERRD013",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "Menü tuşu hatası",
+      "aciklama": "§9030-20-1'in menü tuşu dalı; tuş mekanik takılması ile kart hatası aynı listede alternatif sayılır",
+      "makineTepkisi": "Menüye giriş yapılamaz",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Takılan menü tuşu",
+        "Gösterge kartı arızası",
+        "Konnektör/gezinti zemini teması"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Errd011",
+        "ErrC023"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/hyster-forklift-error-code-errd013/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Errd001",
+      "kodNormal": "ERRD001",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "İletişim verisi hatası",
+      "aciklama": "Gösterge birimi, kontrolörden gelen iletişim veri paketlerinde bozulma kaydeder; listede neden dizimi yayımlanmamıştır",
+      "makineTepkisi": "Ekran güncellemeleri aksayabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Errd002",
+        "2000-12"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/hyster/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Errd002",
+      "kodNormal": "ERRD002",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "Gösterge EEPROM okuma hatası",
+      "aciklama": "Gösterge kartı kendi EEPROM belleğinden veri okuyamaz; liste sayfası kısa tanım dışında ayrıntı vermez",
+      "makineTepkisi": "Kayıtlı gösterge ayarları okunamaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Errd003",
+        "ErrC061"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/hyster/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Errd003",
+      "kodNormal": "ERRD003",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "Saat sayar EEPROM yazma hatası",
+      "aciklama": "Çalışma saati verisi gösterge belleğine yazılamaz; kaynak sayfada yalnız tanım cümlesi bulunur",
+      "makineTepkisi": "Saat sayar toplamı güncellenmeyebilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Errd110",
+        "Errd111"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/hyster/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Errd004",
+      "kodNormal": "ERRD004",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "Kontrolör talimat verisi EEPROM yazma hatası",
+      "aciklama": "Kontrolörden gelen yapılandırma talimatı gösterge belleğine kaydedilemez; ayrıntı liste dışında kaynakta bulunamadı",
+      "makineTepkisi": "Gösterge yapılandırması güncel kalmaz",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Errd005",
+        "ErrC061"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/hyster/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Errd005",
+      "kodNormal": "ERRD005",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kontrolör talimat verisi EEPROM okuma hatası",
+      "aciklama": "Daha önce yazılan kontrolör talimatları bellekten geri okunamaz; tanım dışında içerik kaynak sayfada yer almaz",
+      "makineTepkisi": "Araç ayar verisi başlangıçta eksik kalabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Errd004"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/hyster/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Errd110",
+      "kodNormal": "ERRD110",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "Saat sayar değeri servis modunda kopyalanamadı",
+      "aciklama": "Servis modu saat aktarımı tamamlanmaz; yalnız liste kaydında görülen kısa tanımlı kod sınıfındandır",
+      "makineTepkisi": "Servis ekranı aktarım uyarısı verir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Errd111",
+        "Errd003"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/hyster/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Errd111",
+      "kodNormal": "ERRD111",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Saat sayar verisi kopyalama hatası",
+      "aciklama": "Saat sayar veri bloğunun kopyalanması sırasında hata; kaynak listesi dışında neden dizimi mevcut değil",
+      "makineTepkisi": "Veri aktarımı tekrar denenir veya reddedilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Errd110",
+        "Errd115"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/hyster/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Errd112",
+      "kodNormal": "ERRD112",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Araç ayar verisi kopyalama hatası",
+      "aciklama": "Araç konfigürasyon bloğunun göstergeye kopyası hatalı sonuçlanır; tanım satırı dışında içerik kaynakta yok",
+      "makineTepkisi": "Ayarlar varsayılan kalabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Errd111"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/hyster/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Errd113",
+      "kodNormal": "ERRD113",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Seyir saat sayar verisi kopyalama hatası",
+      "aciklama": "Seyir süresi sayacının aktarımı başarısız; yalnız liste tanımına sahip kodlardandır",
+      "makineTepkisi": "Seyir saati istatistiği güncellenmez",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Errd111",
+        "Errd114"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/hyster/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Errd114",
+      "kodNormal": "ERRD114",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Mesafe (kilometre) verisi kopyalama hatası",
+      "aciklama": "Katedilen mesafe sayacı aktarımında hata; kaynak listesi kısa tanımı dışında bilgi sunmaz",
+      "makineTepkisi": "Mesafe göstergesi geride kalabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Errd113",
+        "Errd116"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/hyster/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Errd115",
+      "kodNormal": "ERRD115",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Toplu (batch) saat sayar verisi kopyalama hatası",
+      "aciklama": "Toplu saat aktarım paketinde bütünlük hatası; liste dışında ayrıntı bu oturumda doğrulanamadı",
+      "makineTepkisi": "Blok aktarım tekrar gerektirir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Errd111",
+        "Errd116"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/hyster/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "Errd116",
+      "kodNormal": "ERRD116",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "Toplu seyir verisi kopyalama hatası",
+      "aciklama": "Seyir verisi toplu aktarımı doğrulanamaz; kısa tanımlı gösterge kodu sınıfındadır",
+      "makineTepkisi": "Seyir istatistik bloğu güncellenmez",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Errd115",
+        "Errd113"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/hyster/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "ErrC060",
+      "kodNormal": "ERRC060",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Bakım verisi hatası",
+      "aciklama": "Bakım saat/araması veri bloğu hatalı doğrulanır; kaynakta yalnız liste tanımı mevcuttur",
+      "makineTepkisi": "Bakım göstergesi güncellenmeyebilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "ErrC061",
+        "Errd110"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/hyster/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "ErrC061",
+      "kodNormal": "ERRC061",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "Gösterge EEPROM verisi yazılmadı",
+      "aciklama": "Gösterge belleğine planlanan veri yazımı gerçekleşmez; liste kaydından öte ayrıntı kaynakta bulunamadı",
+      "makineTepkisi": "Ayarlar güç kesince kaybolabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "Errd002",
+        "ErrC060"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/hyster/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "ErrC063",
+      "kodNormal": "ERRC063",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Parola izin verilmiyor",
+      "aciklama": "Servis/kullanıcı seviyesi parola doğrulaması reddedilir; kaynak sayfada neden listesi yayımlanmamıştır",
+      "makineTepkisi": "Korumalı menülere erişim açılmaz",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "ErrC060"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/codes/hyster/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "524223-0",
+      "kodNormal": "5242230",
+      "aliaslar": [],
+      "sistem": "sanziman",
+      "baslik": "Şanzıman geri vites basıncı komut edilenin üzerinde",
+      "aciklama": "Machine Maxx Hyster kod kılavuzu, geri yön hidrolik basıncının komutu aştığını tanımlar; neden/solution dizimi sayfada yer almaz",
+      "makineTepkisi": "Geri yönde yumuşatma/limitleme davranışı beklenebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "524225-0",
+        "524223-1"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/hyster-forklift-error-code-guide/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "524225-0",
+      "kodNormal": "5242250",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Şanzıman ileri basıncı komut edilenin üzerinde",
+      "aciklama": "İleri yön kavrama basıncı komut değerinin üst bant dışına çıkar; tanımlayıcı satır haricinde içerik kaynakta yok",
+      "makineTepkisi": "İleri yön kalkışı sertleşebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "524223-0",
+        "524225-1"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/hyster-forklift-error-code-guide/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "524223-1",
+      "kodNormal": "5242231",
+      "aliaslar": [],
+      "sistem": "sanziman",
+      "baslik": "Şanzıman geri vites basıncı komut edilenin altında",
+      "aciklama": "Geri yön basıncı komutun altında kalır; kodun -0 varyantıyla zıt yönlü sapmayı tanımlar",
+      "makineTepkisi": "Geri yönde kayma/gecikme hissedilebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "524223-0"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/hyster-forklift-error-code-guide/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "524225-1",
+      "kodNormal": "5242251",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Şanzıman ileri basıncı komut edilenin altında",
+      "aciklama": "İleri kavrama basıncı hedefin altında gerçekleşir; kaynak sayfada yalnız tanım satırı bulunur",
+      "makineTepkisi": "Kalkışta kayma ve gecikme olabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "524225-0"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/hyster-forklift-error-code-guide/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "522592-0",
+      "kodNormal": "5225920",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "EPR basıncı komut edilenin üzerinde",
+      "aciklama": "Elektronik yakıt basınç regülatörü (EPR) basıncının komutu aştığı Machine Maxx listesinde tanımlıdır; ek teşhis verisi sayfada yoktur",
+      "makineTepkisi": "Karışım yönetimi sınırlandırılabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "524225-0"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/hyster-forklift-error-code-guide/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "522655-0",
+      "kodNormal": "5226550",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kısa süreli kapalı döngü düzeltmesi banka 1 normalin -%40 altında (zengin çalışma)",
+      "aciklama": "Banka 1 kısa döngü trimi zengin yönde -40% eşiğini aşar; kaynak yalnız açıklama satırını taşır",
+      "makineTepkisi": "Yakıt tüketimi artar; egzoz kokusu ağırlaşabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "522592-0"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/hyster-forklift-error-code-guide/",
+      "durum": "incelemede"
+    }
+  ]
+}

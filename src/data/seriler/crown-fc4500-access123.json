@@ -1,0 +1,435 @@
+{
+  "marka": "crown",
+  "seri": "fc4500-access123",
+  "modelAdi": "Crown FC4500 oturmalı reach truck (ACCESS 1-3 sürücü modülleri)",
+  "kaynakBelge": "Crown FC4500 servis kılavuzu PF15957 (FC 2007 ve rev 11/08 baskıları), ACCESS123 olay kod listeleri — forklifterrorcodes.com kod referansları üzerinden",
+  "kaynakSurum": "PF15957 FC 2007 / rev 11/08",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://forklifterrorcodes.com/codes/crown/",
+  "kodlar": [
+    {
+      "kod": "111",
+      "kodNormal": "111",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "ACCESS 1 ile ACCESS 3 arası CAN iletişimi zaman aşımı",
+      "aciklama": "Traction modülü ACCESS3, ACCESS1'e gönderdiği mesajlara zamanında yanıt alamaz; veri yolu sonlandırma ve besleme tarafı ilk şüphelilerdir",
+      "makineTepkisi": "Modül olayı kaydeder; seyr/hidrolik fonksiyonlar koruyucu biçimde kısıtlanabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "CANbus tesisatı veya sonlandırma dirençleri",
+        "Modüllerin besleme hattı",
+        "ACCESS3/ACCESS1 arayüz arızası (kod tek başına parça condemn etmez)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "112",
+        "109"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-111/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "112",
+      "kodNormal": "112",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "ACCESS 1 ile ACCESS 2 arası CAN iletişimi zaman aşımı",
+      "aciklama": "Ağ yöneticisi ACCESS2'den beklenen mesaj akışı kesilir; kablo, konnektör düğüm gücü veya modül kaynaklı olabilir",
+      "makineTepkisi": "Olay kaydı oluşur; lift/pompa komutlarının iletimi aksayabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "CAN ağı tesisatı/sonlandırması",
+        "Düğüm beslemesi ve konnektör bağlantıları",
+        "Kontrolör arızası (kanıtlanmış ACCESS2 değişimi gerektirmez)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "111",
+        "109"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-112/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "113",
+      "kodNormal": "113",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Modele bağlı: ACCESS1 besleme elektrik hatası veya ayak varlığı anahtarı uyumsuzluğu",
+      "aciklama": "Kod FC4500'da ACCESS1 besleme arızası, RC5500'da taban/ayak varlık DMS anahtarı uyumsuzluğu anlamına gelir; model kimliği zorunludur",
+      "makineTepkisi": "Doğru modele göre besleme izlemesi veya operatör varlık denetimi devreye girer",
+      "siddet": "uyari",
+      "nedenler": [
+        "FC4500: kaynak B+/FU4 besleme hattı, devre veya modül",
+        "RC5500: taban/ayak varlık DMS anahtarı",
+        "Eşleşmeyen kontrolör konfigürasyonu"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "108",
+        "111"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-113/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "123",
+      "kodNormal": "123",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "DC kaldırma motoru M2 aşırı sıcak (TMM bildirimi)",
+      "aciklama": "Araç yönetim modülü kaldırma motorunun termal limite ulaştığını raporlar; ağır çevrim dışı bırakılmadan gerçek sıcak ölçümü gerekir",
+      "makineTepkisi": "Lift fonksiyonu yavaşlatılabilir veya geçici durdurulabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ağır duty altında motor ısınması",
+        "TMM/sıcaklık sensörü girişi ve kaynak konfigürasyonu (F6/F3)",
+        "Tesisat hataları (otomatik yanık motor anlamına gelmez)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "204",
+        "222"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-123/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "201",
+      "kodNormal": "201",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Modele bağlı: ACCESS2 iç akım aşımı veya hidrolik güç modülü kısa devresi",
+      "aciklama": "FC4500 dalında ACCESS2 dahili akım overload, ESR4500 dalında hidrolik güç kablosu/yalıtım kısa devresi kastedilir; iki anlam uyumsuzdur",
+      "makineTepkisi": "İlgili güç kademesi korumaya girer; kaldırma/sevk durabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "FC: lift M2 kablo/faz kısa devresi veya Access2 arızası",
+        "ESR: hidrolik M güç kablosu/yalıtım hatası veya HDM",
+        "Model-seri kimliği doğrulanmadan kod yorumlanamaz"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "202",
+        "210"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-201/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "202",
+      "kodNormal": "202",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "ACCESS2 kaldırma motoru M2 gerilim geri bildirimi aralık dışı",
+      "aciklama": "ACCESS2, M2 kaldırma motoru çıkış gerilim geri okumasının beklenenle uyuşmadığını saptar; motor kabloları ve geri besleme sensörü değerlendirilir",
+      "makineTepkisi": "Olay kaydedilir; kaldırma hızı düşürülebilir veya devre dışı kalabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Lift motoru U/V/W kablolarının yanlış rotalanması/açık devresi",
+        "Şaseye kısa devre",
+        "Geri bildirim algılama veya ACCESS2 kontrol kademesi sorunu"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "204",
+        "302"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-202/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "204",
+      "kodNormal": "204",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Kaldırma motoru M2 güç çıkışlarında düşük gerilim",
+      "aciklama": "M2 çıkışlarında gerilim beklenenin altında; hat konjektörü kontakları, FU2 sigortası ve ACCESS2 çıkışı kaynak olayla ilişkilendirilir",
+      "makineTepkisi": "Kaldırma gücü düşer; ACCESS3 tarafında 317 olayı öncülü görülebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat konjektörü kontakları/bobini",
+        "FU2 sigortası",
+        "ACCESS2 çıkışı, motor kablosu kısa devresi veya kaldırma motoru arızası (yalnız fırça aşınması değildir)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "317",
+        "202"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-204/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "210",
+      "kodNormal": "210",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Modele bağlı: ACCESS 2 CAN alım hatası veya hidrolik modül aşırı gerilimi",
+      "aciklama": "FC4500 dalında ACCESS2'nin CAN alım başarısızlığı, ESR4500 dalında hidrolik güç modülünün aşırı gerilim koruması kastedilir",
+      "makineTepkisi": "İlgili dalda iletişim kesintisi veya güç kademesi kilitlemesi beklenir",
+      "siddet": "uyari",
+      "nedenler": [
+        "FC: CAN hattı, konnektör veya modül beslemesi",
+        "ESR: batarya/rejenerasyon koşulları ve modül güç devresi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "201",
+        "112"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-210/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "302",
+      "kodNormal": "302",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "ACCESS3 seyr motoru M1 gerilim geri bildirimi aralık dışı",
+      "aciklama": "Traction modülü, M1 seyr motoruna uygulanan gerilimin geri okumasının sınır dışına çıktığını kaydeder",
+      "makineTepkisi": "Seyr kontrolü kısıtlanabilir; araç ilerlemeyi reddedebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "M1 güç kablolarında hata/şaseye kısa",
+        "ACCESS3 geri bildirim kademesi arızası (yanlış motor/modül teşhisi riski taşır)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "305",
+        "202",
+        "314"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-302/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "303",
+      "kodNormal": "303",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "ACCESS3 kontak girişi aşırı veya düşük gerilimde",
+      "aciklama": "Kontrolör, kontak (key-switch) giriş beslemesinin izinli pencerenin üstüne ya altına çıktığını izler; yön ölçümle belirlenmelidir",
+      "makineTepkisi": "Olay kaydı tutulur; giriş geçersiz sayıldığında fonksiyonlar engellenebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kesintili besleme/tesisat hatası",
+        "Batarya durumu veya rejeneratif gerilim taşmaları",
+        "ACCESS3 giriş kademesi arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "307",
+        "315"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-303/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "305",
+      "kodNormal": "305",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Seyr motoru M1 güç terminallerinde yüksek gerilim",
+      "aciklama": "M1 çıkış terminallerinde beklenenin üzerinde gerilim ölçülür; rejeneratif geri tepme ile kontrolör anahtarlama hatası ayrışmalıdır",
+      "makineTepkisi": "Güç kademesi koruma amacıyla kesintiye gidebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Traction motoru çıkış kısa devreleri/çapraz tesisat",
+        "Kontrolör anahtarlama kademesi",
+        "FU1/konjektör koşulları (M1 tek başına suçlanamaz)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "302",
+        "307"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-305/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "307",
+      "kodNormal": "307",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Başlatma sonrası ACCESS3, hat konjektörü üzerinden batarya B+ göremiyor",
+      "aciklama": "Güç açıldıktan sonra B+ gerilimi hat konjektörünün arkasında ölçülmez; kontak açıldığında depolanan kapasitör yükü kalabilir",
+      "makineTepkisi": "Sürücü devreye giremez; seyr ve kaldırma engellenir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat konjektörü kontakları/bobini",
+        "FU1 sigortası ve batarya kablo bağlantıları",
+        "ACCESS3 güç yolu arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "309",
+        "303"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-307/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "309",
+      "kodNormal": "309",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "ACCESS3 DC bara kapasitörü güç-up sonrası şarj olmuyor",
+      "aciklama": "Güç verildikten sonra DC bara ön-şarj zinciri tamamlanmaz; konjektör beslemesi ve şarj yolu kontrol edilir",
+      "makineTepkisi": "Kontrolör hazır moda geçmez; sürüş/lift başlamaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat konjektörü güç beslemesi",
+        "Kapasitör şarj yolu bileşenleri",
+        "ACCESS3 traction modülü arızası (yalnız FC serisi kaynağı)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "307",
+        "214"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-309/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "314",
+      "kodNormal": "314",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "ACCESS3 seyr motoru M1 hız geri bildirimi komutla uyuşmuyor",
+      "aciklama": "İstenen seyr hızı ile gerçek hız geri bildirimi arasındaki fark izinli bandı aşar; enkoder ve geri bildirim zinceri şüphelidir",
+      "makineTepkisi": "Hız kontrolü limitleyici davranır; araç durmaya zorlanabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Tekerlek hızı enkoderi ECR1/besleme ve konnektörü",
+        "Motor kablosu veya kontrolör geri bildirim kademesi",
+        "Motorun mekanik durumu (kanıtlanmış enkoder arızası varsaymayın)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "302",
+        "317"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-314/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "315",
+      "kodNormal": "315",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "ACCESS3 hatalı yapılandırılmış veya ölçülen batarya gerilimi",
+      "aciklama": "Kontrolörün beklediği nominal batarya gerilimi ile ölçülen değer uyuşmaz; yanlış batarya tipi/şarj durumu veya kalibrasyon şüphesi doğar",
+      "makineTepkisi": "Güç yönetimi temkinli moda geçebilir; performans sınırlanır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Batarya şarj/dolum veya tip uyumsuzluğu",
+        "Özellik konfigürasyonu ve kalibrasyon",
+        "ACCESS3 gerilim algılama kademesi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "303",
+        "211"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-315/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "317",
+      "kodNormal": "317",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "ACCESS 3 seyr güç köprüsünde düşük akım uyarısı",
+      "aciklama": "ACCESS 3, traction güç köprüsünde düşük akım algılar; kılavuz bu olayın kaldırma fonksiyonu 204'ü önceleyebileceğini not eder",
+      "makineTepkisi": "Uyarı görüntülenir; seyr gücü düşebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat konjektörü kontak durumu",
+        "ACCESS 3'e gelen B+ kablolaması",
+        "Kontrolör arızası (motor arızası doğrulanmış değildir)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "204",
+        "319"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-317/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "319",
+      "kodNormal": "319",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "ACCESS 3 dahili hafıza fabrika ayarlarına döndü",
+      "aciklama": "Traction modülünün konfigürasyon hafızasının fabrika değerlerine döndüğü tespit edildi; araç davranışı varsayılan parametrelere kayabilir",
+      "makineTepkisi": "Performans karakteristiği değişir; yeniden yapılandırma yapılana kadar limitleme görülebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Konfigürasyon koruma/dahili hafıza olayı",
+        "Modül besleme gerilimi düşüşleri",
+        "ACCESS3 modül arızası"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "317",
+        "131"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/crown/fault-code-319/",
+      "durum": "incelemede"
+    }
+  ]
+}

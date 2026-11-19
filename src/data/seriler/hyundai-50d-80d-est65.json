@@ -1,0 +1,1446 @@
+{
+  "marka": "hyundai",
+  "seri": "50d-80d-est65",
+  "modelAdi": "Hyundai 50D-9/60D-9/70D-9/80D-9 büyük tonaj dizel forkliftler (ZF 3WG-94 EC powershift, EST-65 TCU)",
+  "kaynakBelge": "Hyundai 50D/60D/70D/80D Forklift Trucks Shop Manual PDF — ZF 3WG-94 EC / EST-65 şanzıman elektronik kontrolü hata kodu tablosu (forkliftpdfmanuals.com)",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+  "kodlar": [
+    {
+      "kod": "11",
+      "kodNormal": "11",
+      "aliaslar": [
+        "11 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Vites kademesi sinyali mantık hatası",
+      "aciklama": "TCU, vites kademesi dijital girişlerinde aynı anda gerçekleşmemesi gereken kombinasyonlar görür; kademe algılama devresi güvenilmezdir.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Vites kademesi sensör/switch hattında mantık çelişkisi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "12"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "12",
+      "kodNormal": "12",
+      "aliaslar": [
+        "12 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Yön seçimi sinyali mantık hatası",
+      "aciklama": "İleri/geri yön seçim girişleri mantıksal olarak çelişkili durumda okunur; yön şalteri veya kabloları hatalıdır.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yön seçim hattında mantık çelişkisi"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "11"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "21",
+      "kodNormal": "21",
+      "aliaslar": [
+        "21 hex"
+      ],
+      "sistem": "batarya",
+      "baslik": "Kavrama kesme girişinde akü gerilimine kısa",
+      "aciklama": "Kavrama kesme (clutch cutoff) girişi beklenmedik şekilde batarya hattına kısa yapmış; gaz kesme sinyali sürekli aktif görünebilir.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Giriş kablosunun +U hattına teması/kısa yapması"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "22"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "22",
+      "kodNormal": "22",
+      "aliaslar": [
+        "22 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama kesme girişinde şase kısa/açık devre",
+      "aciklama": "Kavrama kesme girişi şaseye kısa veya kopuk; kontrolör pedal kesme sinyalini doğru izleyemez.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten şaseye kısa devre",
+        "hat kopuk (açık devre)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "21"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "25",
+      "kodNormal": "25",
+      "aliaslar": [
+        "25 hex"
+      ],
+      "sistem": "batarya",
+      "baslik": "Şanzıman yağ sıcaklık sensöründe akü kısa/açık devre",
+      "aciklama": "Sıcaklık sensörü girişi ya batarya hattına kısali ya da devre kopuk; iki durumda da sensör okuması geçersizdir.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten akü gerilimine kısa devre",
+        "hat kopuk (açık devre)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "26"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "26",
+      "kodNormal": "26",
+      "aliaslar": [
+        "26 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Sıcaklık sensörü girişinde şaseye kısa",
+      "aciklama": "Şanzıman yağ sıcaklık sensörü hattı şaseye kısa yapmış; TCU aşırı düşük (imkânsız) sıcaklık okur.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten şaseye kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "25"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "31",
+      "kodNormal": "31",
+      "aliaslar": [
+        "31 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Motor devri girişinde akü gerilimine kısa",
+      "aciklama": "Motor devri hız sensörü girişi +U'ya kısa; devri okunamaz ve vites değiştirmeler güvenilmez hale gelir.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten akü gerilimine kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "32",
+        "33"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "32",
+      "kodNormal": "32",
+      "aliaslar": [
+        "32 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Motor devri girişinde şase kısa/açık devre",
+      "aciklama": "Motor devri sensör hattı şaseye kısa ya da kopuk; TCU motor devri referansı kaybeder.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten şaseye kısa devre",
+        "hat kopuk (açık devre)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "31",
+        "33"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "33",
+      "kodNormal": "33",
+      "aliaslar": [
+        "33 hex"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Motor devri girişinde mantık hatası",
+      "aciklama": "Motor devri sinyalinde zamanlama tutarsızlığı; sensör dişlisi, aralığı veya kablo ekranı şüphelidir.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sinyal dizisinde tutarsızlık (gürültü/arıza)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "31",
+        "32"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "34",
+      "kodNormal": "34",
+      "aliaslar": [
+        "34 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Turbin devri girişinde akü gerilimine kısa",
+      "aciklama": "Tork konvertörü türbin devri sensörü girişi akü hattına kısali; kalkış ve vites tutma stratejisi bozulur.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten akü gerilimine kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "35",
+        "36"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "35",
+      "kodNormal": "35",
+      "aliaslar": [
+        "35 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Turbin devri girişinde şase kısa/açık devre",
+      "aciklama": "Türbin devri sensör hattında şase kısa devresi veya kopukluk tespit edildi.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten şaseye kısa devre",
+        "hat kopuk (açık devre)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "34",
+        "36"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "36",
+      "kodNormal": "36",
+      "aliaslar": [
+        "36 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Turbin devri girişinde mantık hatası",
+      "aciklama": "Türbin devri sinyali mantıksal olarak tutarsız; konvertör kayma denetimi güvenilmez.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "34",
+        "35"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "37",
+      "kodNormal": "37",
+      "aliaslar": [
+        "37 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "İç (ara) devri girişinde akü gerilimine kısa",
+      "aciklama": "Şanzıman iç devri (ara kademe zinciri) sensörü +U'ya kısali; kademeler arası senkron kontrolü aksar.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten akü gerilimine kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "38",
+        "39"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "38",
+      "kodNormal": "38",
+      "aliaslar": [
+        "38 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "İç devri girişinde şase kısa/açık devre",
+      "aciklama": "Ara kademe hız sensörü hattı şaseye kısali veya kopuk.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten şaseye kısa devre",
+        "hat kopuk (açık devre)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "37",
+        "39"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "39",
+      "kodNormal": "39",
+      "aliaslar": [
+        "39 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "İç devri girişinde mantık hatası",
+      "aciklama": "Ara kademe hız sinyalinde mantık çelişkisi ölçülür.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "37",
+        "38"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "3A",
+      "kodNormal": "3A",
+      "aliaslar": [
+        "3A hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Çıkış devri girişinde akü kısa/açık devre",
+      "aciklama": "Çıkış mil hız sensörü girişi ya +U'ya kısali ya da kopuk; hız limitleme ve kayma hesapları durur.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten akü gerilimine kısa devre",
+        "hat kopuk (açık devre)"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "3B",
+        "3C"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "3B",
+      "kodNormal": "3B",
+      "aliaslar": [
+        "3B hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Çıkış devri girişinde şaseye kısa",
+      "aciklama": "Çıkış hızı sensör hattı şaseye kısa yapmış; TCU araç hızı referansını yitirir.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten şaseye kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "3A",
+        "3C"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "3C",
+      "kodNormal": "3C",
+      "aliaslar": [
+        "3C hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Çıkış devri girişinde mantık hatası",
+      "aciklama": "Çıkış mil hız sinyali tutarsız darbe dizisi üretir; sensör aralığı/kirli diş halkası tipik etkendir.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "3A",
+        "3B"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "71",
+      "kodNormal": "71",
+      "aliaslar": [
+        "71 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama KC valfinde akü gerilimine kısa",
+      "aciklama": "KC kavrama oransal valfinin sürme çıkışı +U'ya kısali; kavrama basıncı denetlenemez.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten akü gerilimine kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "72",
+        "73",
+        "B1"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "72",
+      "kodNormal": "72",
+      "aliaslar": [
+        "72 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama KC valfinde şaseye kısa",
+      "aciklama": "KC kavrama valfi çıkışı şaseye kısa; valf akımı sınırlandırılır ve kavrama devreye girmez.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten şaseye kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "71",
+        "73",
+        "B1"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "73",
+      "kodNormal": "73",
+      "aliaslar": [
+        "73 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama KC valfinde açık devre",
+      "aciklama": "KC kavrama valf bobin devresi kopuk; kavrama hidrolik basıncı oluşmaz.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Valf bobini veya kablosu açık devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "71",
+        "72",
+        "B1"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "74",
+      "kodNormal": "74",
+      "aliaslar": [
+        "74 hex"
+      ],
+      "sistem": "batarya",
+      "baslik": "Kavrama KD valfinde akü gerilimine kısa",
+      "aciklama": "KD kavrama valfinin akım çıkışı batarya hattına kısali.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten akü gerilimine kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "75",
+        "76",
+        "B2"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "75",
+      "kodNormal": "75",
+      "aliaslar": [
+        "75 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama KD valfinde şaseye kısa",
+      "aciklama": "KD kavrama valfi sürme hattı şaseye kısa yapmış.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten şaseye kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "74",
+        "76",
+        "B2"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "76",
+      "kodNormal": "76",
+      "aliaslar": [
+        "76 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama KD valfinde açık devre",
+      "aciklama": "KD kavrama valf devresi kopuk; ilgili kavrama basıncı üretilemez.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Valf bobini/kablosu açık devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "74",
+        "75",
+        "B2"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "77",
+      "kodNormal": "77",
+      "aliaslar": [
+        "77 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama KE valfinde akü gerilimine kısa",
+      "aciklama": "KE kavrama valfi çıkış hattı +U'ya kısali; sürücü akımı korumaya girer.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten akü gerilimine kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "78",
+        "79",
+        "B3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "78",
+      "kodNormal": "78",
+      "aliaslar": [
+        "78 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama KE valfinde şaseye kısa",
+      "aciklama": "KE kavrama valfi sürme hattı şaseye kısa devre yapmış.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten şaseye kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "77",
+        "79",
+        "B3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "79",
+      "kodNormal": "79",
+      "aliaslar": [
+        "79 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama KE valfinde açık devre",
+      "aciklama": "KE kavrama valfinin bobin/besleme devresi açık.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Valf bobini/kablosu açık devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "77",
+        "78",
+        "B3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "84",
+      "kodNormal": "84",
+      "aliaslar": [
+        "84 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama KV valfinde akü gerilimine kısa",
+      "aciklama": "KV kavrama (geri kademe) valf çıkışı akü hattına kısali.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten akü gerilimine kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "85",
+        "86",
+        "B5"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "85",
+      "kodNormal": "85",
+      "aliaslar": [
+        "85 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama KV valfinde şaseye kısa",
+      "aciklama": "KV kavrama valfi sürme hattında şase kısa devresi var.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten şaseye kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "84",
+        "86",
+        "B5"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "86",
+      "kodNormal": "86",
+      "aliaslar": [
+        "86 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama KV valfinde açık devre",
+      "aciklama": "KV kavrama valf devresi kopuk; geri kademe kavraması kontrol edilemez.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Valf bobini/kablosu açık devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "84",
+        "85",
+        "B5"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "87",
+      "kodNormal": "87",
+      "aliaslar": [
+        "87 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama KR valfinde akü gerilimine kısa",
+      "aciklama": "KR kavrama valfinin akım çıkışı +U'ya kısali.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten akü gerilimine kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "88",
+        "89",
+        "B6"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "88",
+      "kodNormal": "88",
+      "aliaslar": [
+        "88 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama KR valfinde şaseye kısa",
+      "aciklama": "KR kavrama valfi sürme hattı şaseye kısa yapmış.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten şaseye kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "87",
+        "89",
+        "B6"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "89",
+      "kodNormal": "89",
+      "aliaslar": [
+        "89 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama KR valfinde açık devre",
+      "aciklama": "KR kavrama valf devresi açık; ilgili kavrama hidrolik basıncı kaybolur.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Valf bobini/kablosu açık devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "87",
+        "88",
+        "B6"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "91",
+      "kodNormal": "91",
+      "aliaslar": [
+        "91 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Geri vites ikaz rölesinde şaseye kısa",
+      "aciklama": "Geri vites uyarı alarmının röle çıkışı şaseye kısali; ikaz sürekli çalabilir ya da sürücü korumaya girmiştir.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten şaseye kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "92",
+        "93"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "92",
+      "kodNormal": "92",
+      "aliaslar": [
+        "92 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Geri vites ikaz rölesinde akü gerilimine kısa",
+      "aciklama": "Geri vites alarm rölesi çıkışı +U'ya kısali; ikaz sinyali kontrol dışı aktiftir.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten akü gerilimine kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "91",
+        "93"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "93",
+      "kodNormal": "93",
+      "aliaslar": [
+        "93 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Geri vites ikaz rölesinde açık devre",
+      "aciklama": "Geri vites alarm röle devresi kopuk; geri vites ikazı çalışmaz.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Röle/kablo açık devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "91",
+        "92"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "94",
+      "kodNormal": "94",
+      "aliaslar": [
+        "94 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Marş kilitleme rölesinde şaseye kısa",
+      "aciklama": "Starter interlock rölesinin sürme çıkışı şaseye kısali; marş kilitleme işlevi güvenilmezdir.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten şaseye kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "95",
+        "96"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "95",
+      "kodNormal": "95",
+      "aliaslar": [
+        "95 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Marş kilitleme rölesinde akü gerilimine kısa",
+      "aciklama": "Marş kilitleme röle çıkışı akü hattına kısali.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten akü gerilimine kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "94",
+        "96"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "96",
+      "kodNormal": "96",
+      "aliaslar": [
+        "96 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Marş kilitleme rölesinde açık devre",
+      "aciklama": "Marş kilitleme röle devresi açık; motor marş izni alınamayabilir.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Röle/kablo açık devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "94",
+        "95"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "97",
+      "kodNormal": "97",
+      "aliaslar": [
+        "97 hex"
+      ],
+      "sistem": "fren",
+      "baslik": "Park freni solenoidinde şaseye kısa",
+      "aciklama": "Park freni solenoidinin çıkış hattı şaseye kısali; fren solenoidi istem dışı enerjilenebilir.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten şaseye kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "98",
+        "99"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "98",
+      "kodNormal": "98",
+      "aliaslar": [
+        "98 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Park freni solenoidinde akü gerilimine kısa",
+      "aciklama": "Park freni solenoidi sürme hattı +U'ya kısali.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten akü gerilimine kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "97",
+        "99"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "99",
+      "kodNormal": "99",
+      "aliaslar": [
+        "99 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Park freni solenoidinde açık devre",
+      "aciklama": "Park freni solenoid devresi kopuk; park freni bırakma/basma komutu uygulanamaz.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Solenoid/kablo açık devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "97",
+        "98"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B1",
+      "kodNormal": "B1",
+      "aliaslar": [
+        "B1 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama KC kayıyor",
+      "aciklama": "KC kavraması emredilen basınca rağmen beklenen devir aktarımını sağlayamıyor; balata aşınması veya valf akışı şüphelidir.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "71",
+        "72",
+        "73"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B2",
+      "kodNormal": "B2",
+      "aliaslar": [
+        "B2 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama KD kayıyor",
+      "aciklama": "KD kavramasında izin verilenin üzerinde kayma ölçüldü; kavrama basıncı veya balata durumu incelenmeli.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "74",
+        "75",
+        "76"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B3",
+      "kodNormal": "B3",
+      "aliaslar": [
+        "B3 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama KE kayıyor",
+      "aciklama": "KE kavraması kayma sınırını aştı; vites tutma kalitesi düşer.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "77",
+        "78",
+        "79"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B5",
+      "kodNormal": "B5",
+      "aliaslar": [
+        "B5 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama KV kayıyor",
+      "aciklama": "KV kavramasında aşırı kayma tespit edildi; hidrolik basınç/dispersiyon kontrolü gerekli.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "84",
+        "85",
+        "86"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B6",
+      "kodNormal": "B6",
+      "aliaslar": [
+        "B6 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Kavrama KR kayıyor",
+      "aciklama": "KR kavraması beklenen aktarımı yapamıyor; kayma denetimi uyardı.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "87",
+        "88",
+        "89"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D1",
+      "kodNormal": "D1",
+      "aliaslar": [
+        "D1 hex"
+      ],
+      "sistem": "batarya",
+      "baslik": "Sensör beslemesinde akü gerilimine kısa",
+      "aciklama": "5V/Referans sensör besleme hattı batarya gerilimine kısali; tüm analog girişler saçma okuyabilir.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten akü gerilimine kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "D2"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D2",
+      "kodNormal": "D2",
+      "aliaslar": [
+        "D2 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Sensör beslemesinde şaseye kısa",
+      "aciklama": "Sensör referans beslemesi şaseye kısa; giriş sinyalleri düşer.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "hatten şaseye kısa devre"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "D1"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D3",
+      "kodNormal": "D3",
+      "aliaslar": [
+        "D3 hex"
+      ],
+      "sistem": "batarya",
+      "baslik": "Batarya gerilimi düşük",
+      "aciklama": "Kontrolörün beslediği akü hattı gerilimi alt sınırın altında; düşük gerilimde valf akımları ve röleler zayıflar.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "D4"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D4",
+      "kodNormal": "D4",
+      "aliaslar": [
+        "D4 hex"
+      ],
+      "sistem": "batarya",
+      "baslik": "Batarya gerilimi yüksek",
+      "aciklama": "Akü/alternatör hattı gerilimi üst sınırı aştı; elektronik kartlar için risklidir.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "D3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D5",
+      "kodNormal": "D5",
+      "aliaslar": [
+        "D5 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Valf besleme 1 hatası",
+      "aciklama": "Birinci valf güç besleme hattı (power stage) hata durumunda; grup valfler enerjilendirilemez.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "D6"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "D6",
+      "kodNormal": "D6",
+      "aliaslar": [
+        "D6 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Valf besleme 2 hatası",
+      "aciklama": "İkinci valf besleme hattında arıza; ilgili valf grubunun akım denetimi durur.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "D5"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E5",
+      "kodNormal": "E5",
+      "aliaslar": [
+        "E5 hex"
+      ],
+      "sistem": "gosterge",
+      "baslik": "DeviceNet iletişim hatası",
+      "aciklama": "TCU ile DeviceNet ağı arasındaki iletişim kopmuş; gösterge ve diğer ünitelerle veri akışı durur.",
+      "makineTepkisi": "Göstergede EE yanıp söner (iletişim yok); vites/talep bilgileri güncellenmez",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F1",
+      "kodNormal": "F1",
+      "aliaslar": [
+        "F1 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Genel EEPROM arızası",
+      "aciklama": "Kontrolörün EEPROM bellezinin kontrol/toplam okuması başarısız; kalibrasyon değerleri saklanamaz.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F2"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F2",
+      "kodNormal": "F2",
+      "aliaslar": [
+        "F2 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Konfigürasyon kayboldu",
+      "aciklama": "Kontrolör yapılandırma verisini yitirmiş; ünitenin AEB kalibrasyonu ve parametreleri yeniden yüklenmeli.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F1",
+        "F3"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F3",
+      "kodNormal": "F3",
+      "aliaslar": [
+        "F3 hex"
+      ],
+      "sistem": "sanziman",
+      "baslik": "Uygulama (yazılım) hatası",
+      "aciklama": "Kontrolör uygulama yazılımında yürütme hatası oluştu; yazılım/kart seviyesinde inceleme gerekir.",
+      "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F1",
+        "F2"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.forkliftpdfmanuals.com/hyundai/",
+      "durum": "incelemede"
+    }
+  ]
+}

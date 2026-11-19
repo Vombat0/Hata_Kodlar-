@@ -1,0 +1,349 @@
+{
+  "marka": "baoli",
+  "seri": "kbe-15-20",
+  "modelAdi": "Baoli KBE 15/20 (Serı 1292) akülü forklift",
+  "kaynakBelge": "ChinaLiftSupply Baoli KBE 15-20 Series 1292 hata kodu kataloğu ve kod ayrıntı sayfaları (chinaliftsupply.com)",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/baoli/kbe-15-20-series-1292/",
+  "kodlar": [
+    {
+      "kod": "10",
+      "kodNormal": "10",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Düşük akü uyarısı",
+      "aciklama": "Batarya şarjı tükendi ve gerilim yetersiz; çalışma kısa süre içinde kısıtlanacak.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Akü şarjının bitmesi, gerilimin düşmesi"
+      ],
+      "kontroller": [
+        "Aküyü hemen şarj edin",
+        "Akü bağlantılarını kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/baoli/kbe-15-20-series-1292/10",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E01",
+      "kodNormal": "E01",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Çekiş motoru aşırı ısındı",
+      "aciklama": "Motor iç sıcaklığı izin verilen sınırı aştı; sargı yalıtımını korumak için çalışma durdurulmalı.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Çekiş motoru sıcaklığının çok yükselmesi"
+      ],
+      "kontroller": [
+        "Çalışmayı durdurun ve motorun soğumasını bekleyin",
+        "Aşırı yüklenme olup olmadığını kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/baoli/kbe-15-20-series-1292/E01",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E02",
+      "kodNormal": "E02",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kontrolör aşırı ısındı",
+      "aciklama": "Sürücü kartı/soğutucu sıcaklığı limiti aştı; havalandırma ve yük profili incelenmeli.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontrolör sıcaklığının limiti aşması"
+      ],
+      "kontroller": [
+        "Çalışmayı durdurun",
+        "Havalandırmayı kontrol edin",
+        "Soğumasını bekleyin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/baoli/kbe-15-20-series-1292/E02",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E03",
+      "kodNormal": "E03",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Aşırı akım hatası",
+      "aciklama": "Motor akımı güvenli sınırı aştı; faz kısayolu veya aşırı yük akımı yükseltiyor olabilir.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor akımının güvenli sınırı aşması"
+      ],
+      "kontroller": [
+        "Motor bağlantılarını kontrol edin",
+        "Yükü azaltın",
+        "Kısa devre arayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/baoli/kbe-15-20-series-1292/E03",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E04",
+      "kodNormal": "E04",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Düşük gerilim hatası",
+      "aciklama": "Batarya gerilimi çalışma alt sınırının altına indi; kontrolör gücü kesiyor olabilir.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Batarya geriliminin çok düşük olması"
+      ],
+      "kontroller": [
+        "Aküyü şarj edin",
+        "Akü bağlantılarını ve akü sağlığını kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/baoli/kbe-15-20-series-1292/E04",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E05",
+      "kodNormal": "E05",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Yüksek gerilim hatası",
+      "aciklama": "Batarya hattı gerilimi üst çalışma sınırını aştı; şarj cihazı ayarı veya akü spesifikasyonu hatalı olabilir.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Batarya geriliminin çok yüksek olması"
+      ],
+      "kontroller": [
+        "Şarj cihazı ayarlarını kontrol edin",
+        "Akü spesifikasyonunu doğrulayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/baoli/kbe-15-20-series-1292/E05",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E06",
+      "kodNormal": "E06",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Enkoder hatası",
+      "aciklama": "Motor enkoder sinyali alınamıyor/bozuk; hız kapalı çevrimi çalışmaz.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor enkoder sinyal hatası"
+      ],
+      "kontroller": [
+        "Enkoder kablosunu kontrol edin",
+        "Arızalıysa enkoderi değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/baoli/kbe-15-20-series-1292/E06",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E07",
+      "kodNormal": "E07",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Gaz pedalı sinyali arızası",
+      "aciklama": "Hızlanma sinyali tanımlı aralık dışında; pedal sensörü veya kablosu hatalı olabilir.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gaz sinyalinin aralık dışına çıkması"
+      ],
+      "kontroller": [
+        "Gaz pedalını yeniden kalibre edin",
+        "Kabloyu kontrol edin",
+        "Hasarlıysa değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/baoli/kbe-15-20-series-1292/E07",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E08",
+      "kodNormal": "E08",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Ana kontaktör hatası",
+      "aciklama": "Ana kontaktör düzgün kapanmıyor; bobin/kablo arızası veya kontak yapışması olasidir.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ana kontaktörün tam kapanmaması"
+      ],
+      "kontroller": [
+        "Kontaktör bobini ve bağlantılarını kontrol edin",
+        "Yapışma varsa kontaktörü değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/baoli/kbe-15-20-series-1292/E08",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E09",
+      "kodNormal": "E09",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Ön şarj devresi hatası",
+      "aciklama": "Ön şarj (precharge) devresi akü kapasitörlerini hazırlayamadı; kontaktör kapanma akımı sınırlanamaz.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ön şarj devresi arızası"
+      ],
+      "kontroller": [
+        "Ön şarj direncini kontrol edin",
+        "Kapasitör bankını doğrulayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/baoli/kbe-15-20-series-1292/E09",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E10",
+      "kodNormal": "E10",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "CAN iletişim hatası",
+      "aciklama": "Kontrolör ile diğer üniteler arasındaki CAN veriyolu iletişiminde hata.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "CAN veriyolu iletişim hatası"
+      ],
+      "kontroller": [
+        "CAN kablosunu kontrol edin",
+        "Sonlandırma (termination) dirençlerini doğrulayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/baoli/kbe-15-20-series-1292/E10",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E11",
+      "kodNormal": "E11",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kontrolör parametre hatası",
+      "aciklama": "Kontrolörün iç parametre okuması geçersiz; yapılandırma bozulmuş olabilir.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontrolör parametre hatası"
+      ],
+      "kontroller": [
+        "Fabrika ayarlarına sıfırlayın",
+        "Kontrolörü yeniden programlayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/baoli/kbe-15-20-series-1292/E11",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E12",
+      "kodNormal": "E12",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Donanımsal arıza",
+      "aciklama": "Kontrolörün dahili donanım öz testi başarısız; sahada onarımı öngörülmüyor.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Dahili donanım arızası"
+      ],
+      "kontroller": [
+        "Kontrolör değişimi gerekir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/baoli/kbe-15-20-series-1292/E12",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E13",
+      "kodNormal": "E13",
+      "aliaslar": [],
+      "sistem": "fren",
+      "baslik": "Fren bırakmıyor",
+      "aciklama": "Elektromanyetik fren enerjilenip bırakılamıyor; araç hareket ettirilmemeli.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Elektromanyetik frenin açılmaması"
+      ],
+      "kontroller": [
+        "Fren bobini ve kablosunu kontrol edin",
+        "Hasarlıysa değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/baoli/kbe-15-20-series-1292/E13",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E14",
+      "kodNormal": "E14",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motoru hatası",
+      "aciklama": "Hidrolik pompa motoru devresinde arıza; kaldırma gücü üretilemeyebilir.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hidrolik pompa motoru hatası"
+      ],
+      "kontroller": [
+        "Pompa motoru bağlantılarını kontrol edin",
+        "Hidrolik sistemi doğrulayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/baoli/kbe-15-20-series-1292/E14",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E15",
+      "kodNormal": "E15",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Hidrolik direksiyon hatası",
+      "aciklama": "Güç destekli direksiyon sistemi arızası; sensör veya sürücü motoru şüpheli.",
+      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hidrolik direksiyon sistemi hatası"
+      ],
+      "kontroller": [
+        "Direksiyon sensörü ve motorunu kontrol edin",
+        "Kablolamayı doğrulayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.chinaliftsupply.com/troubleshooting/baoli/kbe-15-20-series-1292/E15",
+      "durum": "incelemede"
+    }
+  ]
+}

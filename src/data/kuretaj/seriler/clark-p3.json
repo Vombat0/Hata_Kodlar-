@@ -1,0 +1,644 @@
+{
+  "marka": "clark",
+  "seri": "p3",
+  "modelAdi": "Clark p3",
+  "kaynakBelge": "Web araştırması — forklifterrorcodes.com",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "",
+  "kodlar": [
+    {
+      "kod": "299",
+      "kodNormal": "299",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Boost kontrolü yetersiz basınç (underboost) hatası",
+      "aciklama": "Manifold basıncı hedefin altında kalır; kaçak, sensör ya da boost donanımı yokluğu sırasıyla değerlendirilmelidir",
+      "makineTepkisi": "Arıza lambası yanar; çekiş belirgin düşer",
+      "siddet": "uyari",
+      "nedenler": [
+        "Araçta boost/TIP sisteminin gerçekten bulunduğunun doğrulanması",
+        "Basınç sensörü devresi",
+        "Emme hattı kısıtlamaları/kaçakları ve varsa turbo kontrol opsiyonu"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "289",
+        "301",
+        "302"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-299/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "301",
+      "kodNormal": "301",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Silindir 1 emisyon/katalizör zarar veren tekler",
+      "aciklama": "Birinci silindirdeki yanma eksikliği katalizöre zarar verecek düzeye ulaştı; ateşleme, yakıt ve kompresyon adayları birliktedir",
+      "makineTepkisi": "Arıza lambası yanıp söner; motor sarsıntılı çalışır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Takılı silindir konfigürasyonu",
+        "Ateşleme/kıvılcım sistemi",
+        "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "299",
+        "302",
+        "303"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-301/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "302",
+      "kodNormal": "302",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Silindir 2 emisyon/katalizör zarar veren tekler",
+      "aciklama": "İkinci silindir teklemesi yanmamış yakıtı egzoz sistemine taşıyarak katalizörü riske atar; buji/kalem ve enjektör kanalı ayrıştırılmalıdır",
+      "makineTepkisi": "Arıza lambası yanıp söner; güç kaybı ve Egzoz sıcaklığında artış",
+      "siddet": "uyari",
+      "nedenler": [
+        "Takılı silindir konfigürasyonu",
+        "Ateşleme/kıvılcım sistemi",
+        "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "301",
+        "303",
+        "304"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-302/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "303",
+      "kodNormal": "303",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Silindir 3 emisyon/katalizör zarar veren tekler",
+      "aciklama": "Üçüncü silindirin düzensiz yanması emisyon sınır ihlali yaratır; ateşleme kablosu/kalem ve yakıt enjeksiyon kanalı birlikte değerlendirilir",
+      "makineTepkisi": "Arıza lambası yanıp söner; rölanti düzensizleşir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Takılı silindir konfigürasyonu",
+        "Ateşleme/kıvılcım sistemi",
+        "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "302",
+        "304",
+        "305"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-303/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "304",
+      "kodNormal": "304",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Silindir 4 emisyon/katalizör zarar veren tekler",
+      "aciklama": "Dördüncü silindir teklemesi katalizör dostu olmayan seviyededir; 4G64'ün fiilen bulunan silindirlerinden biri olduğundan ihmal edilmemelidir",
+      "makineTepkisi": "Arıza lambası yanıp söner; titreşim ve egzoz kokusu artar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Takılı silindir konfigürasyonu",
+        "Ateşleme/kıvılcım sistemi",
+        "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "303",
+        "305",
+        "306"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-304/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "305",
+      "kodNormal": "305",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Silindir 5 emisyon/katalizör zarar veren tekler",
+      "aciklama": "Beşinci silindir tekleme sayacı kritik eşiği geçti; sıralı dört silindirli uygulamada bu satırın silindir haritası doğrulanmalıdır",
+      "makineTepkisi": "Arıza lambası yanıp sönebilir; donanımsa sarsıntı belirgin",
+      "siddet": "uyari",
+      "nedenler": [
+        "Takılı silindir konfigürasyonu",
+        "Ateşleme/kıvılcım sistemi",
+        "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "304",
+        "306",
+        "307"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-305/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "306",
+      "kodNormal": "306",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Silindir 6 emisyon/katalizör zarar veren tekler",
+      "aciklama": "Altıncı silindir için ağır teklem izlemesi; altı silindirli LPG/benzin varyantlarına ait tablo satırıdır",
+      "makineTepkisi": "İlgili varyantta yanıp sönen arıza lambası ve güç kaybı",
+      "siddet": "uyari",
+      "nedenler": [
+        "Takılı silindir konfigürasyonu",
+        "Ateşleme/kıvılcım sistemi",
+        "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "305",
+        "307",
+        "308"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-306/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "307",
+      "kodNormal": "307",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Silindir 7 emisyon/katalizör zarar veren tekler",
+      "aciklama": "Yedinci silindir ağır tekler kategorisinde; tabloda silindir mevcut değilse yanlış eşleştirme/yazılım varyantı sorgulanmalıdır",
+      "makineTepkisi": "Donanım varsa yanıp sönen lamba; yoksa yalnız kayıt",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Takılı silindir konfigürasyonu",
+        "Ateşleme/kıvılcım sistemi",
+        "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "306",
+        "308",
+        "326"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-307/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "308",
+      "kodNormal": "308",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Silindir 8 emisyon/katalizör zarar veren tekler",
+      "aciklama": "Sekizinci silindirin katalizör dostu olmayan teklemesi; V8 varyant tablolarından gelen genel satırdır",
+      "makineTepkisi": "V8 donanımında ağır çalışma düzensizliği beklenir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Takılı silindir konfigürasyonu",
+        "Ateşleme/kıvılcım sistemi",
+        "Yakıt tedariği, kompresyon, zamanlama ve ECM tekler kriterleri"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "307",
+        "326",
+        "327"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-308/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "326",
+      "kodNormal": "326",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Vuruş sensörü kanal 1 aşırı veya düzensiz sinyal",
+      "aciklama": "Birinci vuruş kanalının sinyali beklenenin üzerinde genlikte ya da kararsız; montaj torku, ekranlama ve gerçek vuruş ayrımı gerekir",
+      "makineTepkisi": "Arıza lambası yanar; ateşleme zamanı temkinli geri alınır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Doğru vuruş sensörü kanalının teyidi",
+        "Sensör montajı ve ekranlaması",
+        "Devre sürekliliği veya gerçek motor vuruşu"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "308",
+        "327",
+        "331"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-326/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "327",
+      "kodNormal": "327",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Vuruş sensörü 1 devresi açık veya sensör takılı değil",
+      "aciklama": "Birinci vuruş kanalı sinyal vermiyor; sensörün gerçekten monte edilip edilmediği devre açıklığından önce doğrulanmalıdır",
+      "makineTepkisi": "Arıza lambası yanabilir; zamanlama haritası muhafazakâr değere çekilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Doğru vuruş sensörü kanalının teyidi",
+        "Sensör montajı ve ekranlaması",
+        "Devre sürekliliği veya gerçek motor vuruşu"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "326",
+        "331",
+        "332"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-327/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "331",
+      "kodNormal": "331",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Vuruş sensörü kanal 2 aşırı veya düzensiz sinyal",
+      "aciklama": "İkinci vuruş kanalı yüksek/kararsız sinyal üretir; iki kanallı motorlarda kanal-harita eşleşmesi de sorgulanır",
+      "makineTepkisi": "Arıza lambası yanar; performans modu sınırlanır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Doğru vuruş sensörü kanalının teyidi",
+        "Sensör montajı ve ekranlaması",
+        "Devre sürekliliği veya gerçek motor vuruşu"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "327",
+        "332",
+        "336"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-331/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "332",
+      "kodNormal": "332",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Vuruş sensörü 2 devresi açık veya sensör takılı değil",
+      "aciklama": "İkinci vuruş kanalı açık devre veya sensör yokluğu bildirir; tek sensörlü 4G64'te ikinci kanal donanımı teyit edilmelidir",
+      "makineTepkisi": "Arıza lambası yanabilir; tek sensörlü uygulamada pratik etki sınırlı",
+      "siddet": "uyari",
+      "nedenler": [
+        "Doğru vuruş sensörü kanalının teyidi",
+        "Sensör montajı ve ekranlaması",
+        "Devre sürekliliği veya gerçek motor vuruşu"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "331",
+        "336"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-332/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "336",
+      "kodNormal": "336",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Krank mili giriş sinyalinde gürültü",
+      "aciklama": "Krank konum sinyali kenarları gürültülü/kurallı dışı; sinyal bütünlüğü bozulduğunda devir hesaplaması güvenilirliğini yitirir",
+      "makineTepkisi": "Arıza lambası yanar; devir dalgalanması ve çalıştırmada kararsızlık",
+      "siddet": "uyari",
+      "nedenler": [
+        "Krank/kam sensörü giriş bütünlüğü",
+        "Sensör diskleri (relüktör) ve distribütör indekslemesi",
+        "Demonte tesisat veya ECM senkronizasyon kaybı"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "332",
+        "337"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-336/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "337",
+      "kodNormal": "337",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Krank mili konum sinyali kaybı",
+      "aciklama": "Krank konum girişi tamamen kesildi; kod 336'daki gürültülü sinyalden farklı olarak giriş yokluğudur, genelde motor durur",
+      "makineTepkisi": "Motor stop eder veya çalıştırmada ateşleme/yakıt kesilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Krank/kam sensörü girişi",
+        "Rölanti aktüatörü",
+        "ECM senkronizasyonu, sensör besleme/şase, ekranlama veya ilgili tesisat"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "336",
+        "341",
+        "342"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-337/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "341",
+      "kodNormal": "341",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kam mili giriş sinyalinde gürültü",
+      "aciklama": "Kam sensörü sinyali bozucu gürültü içerir; gürültü ile tam sinyal kaybı (kod 342) arasında ayrım yapılmalıdır",
+      "makineTepkisi": "Arıza lambası yanar; sıralama enjeksiyonu zamanlaması kayabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Krank/kam sensörü girişi",
+        "Rölanti aktüatörü",
+        "ECM senkronizasyonu, sensör besleme/şase, ekranlama veya ilgili tesisat"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "342",
+        "337"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-341/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "342",
+      "kodNormal": "342",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Kam mili konum giriş sinyali kaybı",
+      "aciklama": "Kam giriş sinyali tümüyle yitirildi; gürültülü sinyal durumundan farklı olarak senkronizasyon referansı kalmamıştır",
+      "makineTepkisi": "Çalıştırmada ateşleme/sıralama yakalama zorlaşır; motor stop edebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Krank/kam sensörü girişi",
+        "Rölanti aktüatörü",
+        "ECM senkronizasyonu, sensör besleme/şase, ekranlama veya ilgili tesisat"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "341",
+        "337"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-342/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "359",
+      "kodNormal": "359",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Yakıt bitme süresi beklenenden uzun",
+      "aciklama": "Kontrolör, yakıtın tükendiğine işaret eden çalışma süresinin normalden uzun olduğunu kaydeder; bu kod tek başına LPG tüpünün boş olduğunu kanıtlamaz",
+      "makineTepkisi": "Uyarı gösterilir; sonlanma davranışı motorun durmaya yaklaşması şeklinde olabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt tedariği, valfler ve regülatör",
+        "LPG kapatma kontrolü",
+        "ECU ayarları, yakıt basıncı algılama veya hortum bağlantıları"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "87",
+        "88"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-359/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "420",
+      "kodNormal": "420",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Benzin katalizörü devre dışı, banka 1",
+      "aciklama": "Katalizör izlemesi banka 1 için etkin değil; genel tabloda bulunan benzin bankası, dört silindirli LPG araçta fiilen mevcut olmayabilir",
+      "makineTepkisi": "Arıza lambası yanabilir; donanım yoksa pratik etkisi bulunmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Benzin bankasına özgü egzoz katalizörü ve oksijen sensörü izlemesi",
+        "Yakıt/kontrol yazılımı opsiyon uyumsuzluğu"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "430",
+        "134"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-420/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "430",
+      "kodNormal": "430",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Benzin katalizörü devre dışı, banka 2",
+      "aciklama": "İkinci banka katalizör izlemesi pasif; ikinci benzin bankası/katalizör bu LPG motorunda kurulmuş olduğuna dair kanıt yoktur",
+      "makineTepkisi": "Arıza lambası yanabilir; izleme dışı kalır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Benzin bankasına özgü egzoz katalizörü ve oksijen sensörü izlemesi",
+        "Yakıt/kontrol yazılımı opsiyon uyumsuzluğu"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "420",
+        "140"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-430/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "502",
+      "kodNormal": "502",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Kara hızı (road-speed) sinyali kayboldu",
+      "aciklama": "ECM'nin ihtiyaç duyduğu araç hız girişi kesildi; motor devrinden farklı bir sinyal olduğundan karışım/hız fonksiyonları etkilenir",
+      "makineTepkisi": "Hız tabanlı özellikler devre dışı kalabilir; uyarı verilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yön girişi ve nötr konum durumu",
+        "Setpoint tesisatı ve arayüzler",
+        "Seyir hızı sensörleri veya kontrol yanıtı"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "219"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-502/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "508",
+      "kodNormal": "508",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Rölanti hava kontrol devresi şaseye kısa",
+      "aciklama": "Rölanti hava aktüatörü sürücü çıkışı şaseye kısa devre konumunda; bobin açıklığından (kod 509) farklı bir elektrik arızasıdır",
+      "makineTepkisi": "Rölanti kararsızlaşır veya motor stop edebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Krank/kam girişi ve rölanti aktüatörü",
+        "ECM senkronizasyonu",
+        "Sensör besleme/şase, ekranlama veya ilgili tesisat"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "509",
+        "520"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-508/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "509",
+      "kodNormal": "509",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Rölanti hava aktüatörü bobini açık veya kısa",
+      "aciklama": "Rölanti hava valfi bobin direnci ölçüm dışı; valfin mekanik tıkanıklığından elektriksel süreksizlik ayrılmalıdır",
+      "makineTepkisi": "Rölanti devri düşük/yüksek kaçabilir; düşük devirde stop riski",
+      "siddet": "uyari",
+      "nedenler": [
+        "Krank/kam girişi ve rölanti aktüatörü",
+        "ECM senkronizasyonu",
+        "Sensör besleme/şase, ekranlama veya ilgili tesisat"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "508"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-509/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "520",
+      "kodNormal": "520",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Yağ basıncı vericisi düşük basınç uyarısı (aşama 1)",
+      "aciklama": "Yağ basıncı vericisi birinci aşama düşük basınç sinyali üretir; gerçek basınç bağımsız ölçümle doğrulanmalıdır",
+      "makineTepkisi": "Yağ basıncı uyarı lambası yanar; motor yükü azaltılmalıdır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yağ basıncı vericisi ve tesisatı",
+        "Yağ seviyesi ve debisi",
+        "Pompa/emniyet sistemi, gerçek yağlama basıncı veya ECU sensör referansı"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "521",
+        "508"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-520/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "521",
+      "kodNormal": "521",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Yağ basıncı vericisi yüksek basınç bildirimi",
+      "aciklama": "Verici normalin üstünde yağ basıncı işaretler; düşük basınç kodu 520'den farklı yöndedir ve sensör/devre şüphesi taşır",
+      "makineTepkisi": "Uyarı lambası yanabilir; basınç gerçekse aşırı basınca karşı koruma gerekir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yağ basıncı vericisi ve tesisatı",
+        "Yağ seviyesi ve debisi",
+        "Pompa/emniyet sistemi, gerçek yağlama basıncı veya ECU sensör referansı"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "520"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forklifterrorcodes.com/clark/fault-code-521/",
+      "durum": "incelemede"
+    }
+  ]
+}
