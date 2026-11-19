@@ -1,0 +1,789 @@
+{
+  "marka": "cat",
+  "seri": "2c-p2",
+  "modelAdi": "Cat 2c-p2",
+  "kaynakBelge": "Web araştırması — forklifterrorcodes.com",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "",
+  "kodlar": [
+    {
+      "kod": "F-01",
+      "kodNormal": "F01",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Bellek kontrol hatası",
+      "aciklama": "Makine grubu kontrolörünün bellek öz testi başarısız olur; Machine Maxx tablosu yalnız kısa tanımı listeler",
+      "makineTepkisi": "Kontrolör arıza bayrağı set edilir; konfigürasyon kaybolabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-03",
+        "F-15"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-02",
+      "kodNormal": "F02",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Akü gerilimi hatası",
+      "aciklama": "Makine grubu, besleme gerilimini kabul bandı dışında ölçer; E grubu motor kodlarından ayrı, şasi elektrik tarafını izler",
+      "makineTepkisi": "Düşük/taşmış gerilim uyarısı; elektronik fonksiyonlar kısılabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-01",
+        "F-03"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-03",
+      "kodNormal": "F03",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "VCM iletişim hatası (makine grubu)",
+      "aciklama": "Makine kontrolörü, araç kontrol modülü VCM ile veriyolü alışverişinin kesildiğini bildirir; E-03'ün makine tarafındaki karşılığıdır",
+      "makineTepkisi": "Sürüş/kaldırma lojikleri VCM komutu alamaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-03",
+        "F-04"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-04",
+      "kodNormal": "F04",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "ECM iletişim hatası (makine grubu)",
+      "aciklama": "Makine kontrolörü ile motor kontrol modülü ECM arasındaki iletişim bozulur; E-04'un makine tarafındaki eşdeğer satırıdır",
+      "makineTepkisi": "Motor-makine koordinasyonu kaybolur; uyarı ekranı yanar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-04",
+        "F-03"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-07",
+      "kodNormal": "F07",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "MP iletişim hatası (makine grubu)",
+      "aciklama": "Makine paketi (MP) ünitesiyle iletişim kaybı; E-07 motor göstergesindeki aynı kaybın makine grubu satırıdır",
+      "makineTepkisi": "İlgili makine fonksiyon grubu komutsuz kalır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "E-07",
+        "F-15"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-09",
+      "kodNormal": "F09",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kaldırma kolu tipi hatalı tanındı",
+      "aciklama": "Kaldırma kolunun donanım tipi kontrolöre beklenen kodla ulaşmaz; kol nötr konumundan bağımsız bir tanımlama hatasıdır",
+      "makineTepkisi": "Kaldırma kolu geçersiz sayılabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-10",
+        "F-20"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-10",
+      "kodNormal": "F10",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kaldırma kolu nötr konumunda değil",
+      "aciklama": "Kontak açıldığında kaldırma kolu nötr beklenen konumda okunmaz; tipik olarak kol bırakılmamış veya pot sıfırı kaymıştır",
+      "makineTepkisi": "Araç nötr doğrulaması sağlanana kadar kalkışı engeller",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-09",
+        "F-11"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-11",
+      "kodNormal": "F11",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Eğme (tilt) kolu nötr konumunda değil",
+      "aciklama": "Tilt kolu, sistemin beklediği orta konumda değildir; kaldırma kolu nötr hatası F-10'un tilt eksenindeki karşılığıdır",
+      "makineTepkisi": "Emniyet lojiği tilt ve ilgili hareketleri kilitler",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-10",
+        "F-22"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-12",
+      "kodNormal": "F12",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Aksesuar 1 kolu nötr konumunda değil",
+      "aciklama": "Birinci ataşman kolu nötr dışı okunur; takılı ataşman yoksa kanal konfigürasyonu da sorgulanmalıdır",
+      "makineTepkisi": "Aksesuar 1 fonksiyonu devre dışı tutulur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-13",
+        "F-24"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-13",
+      "kodNormal": "F13",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Aksesuar 2 kolu nötr konumunda değil",
+      "aciklama": "İkinci ataşman kolu orta konum doğrulamasını geçemez; F-12 ile aynı mantığın 2. kanal uygulamasıdır",
+      "makineTepkisi": "Aksesuar 2 hareketi engellenir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-12",
+        "F-26"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-14",
+      "kodNormal": "F14",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Aksesuar 3 kolu nötr konumunda değil",
+      "aciklama": "Üçüncü ataşman kolu nötr beklenen değerde değildir; kol demeti ve konfigürasyon birlikte değerlendirilir",
+      "makineTepkisi": "Aksesuar 3 kanalı kilitli kalır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-13",
+        "F-28"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-15",
+      "kodNormal": "F15",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "ECU iletişim hatası",
+      "aciklama": "Makine grubu, ilgili ECU ile veri yolunda iletişim kuramaz; F-03/F-04'ten ayrı, sayılan genel ECU satırıdır",
+      "makineTepkisi": "İlgili ünite komutları uygulanamaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-18",
+        "F-19"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-16",
+      "kodNormal": "F16",
+      "aliaslar": [],
+      "sistem": "sanziman",
+      "baslik": "Vites (shift) kolu hatası",
+      "aciklama": "Vites selection kolunun geri bildirimi geçersiz durum üretir; ileri/geri lojistiği doğrulanamaz",
+      "makineTepkisi": "Viteşe geçiş reddedilebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-10",
+        "F-17"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-17",
+      "kodNormal": "F17",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Hız hatası",
+      "aciklama": "Araç hız bilgisi beklenen mantık bandında değildir; sensör girişli F-34'ten farklı olarak sistem geneli hız tutarsızlığı izlenir",
+      "makineTepkisi": "Hıza bağlı kısıtlamalar devreye girebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-34"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-18",
+      "kodNormal": "F18",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "ECU hatası (1)",
+      "aciklama": "Birinci kontrolör ünitesinin kendi iç teşhisi arıza bayrağı verdi; tablo hangi alt devreyi işaret ettiğini yazmaz",
+      "makineTepkisi": "İlgili kontrolör yedek moda düşebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-19",
+        "F-15"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-19",
+      "kodNormal": "F19",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "ECU hatası (2)",
+      "aciklama": "İkinci kontrolör ünitesinin iç arıza işareti; F-18 ile birlikte görüldüğünde ortak besleme/iletişem tarafı düşünülür",
+      "makineTepkisi": "İkinci ünitenin yönettiği fonksiyonlar durur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-18"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-20",
+      "kodNormal": "F20",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Kaldırma kolu hatası",
+      "aciklama": "Kaldırma kolunun sinyal geneli arızalanır; nötr konumu sorgulayan F-10'dan farklı olarak kol devresi uçtan uca sorgulanır",
+      "makineTepkisi": "Kaldırma komutu güvenilmez; fonksiyon kilitlenebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-10",
+        "F-09"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-22",
+      "kodNormal": "F22",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Eğme (tilt) kolu hatası",
+      "aciklama": "Tilt kolunun elektriksel geri bildirimi arızalı; konum dışılık uyarsını veren F-11'den ayrı bir devre hatası satırıdır",
+      "makineTepkisi": "Tilt fonksiyonu uygulanmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-11",
+        "F-38"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-24",
+      "kodNormal": "F24",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Aksesuar 1 kolu hatası",
+      "aciklama": "Aksesuar 1 kolunun devre/sinyal arızası; nötr doğrulaması F-12'den sonra cihazın kendi beslemesi de sorgulanır",
+      "makineTepkisi": "Aksesuar 1 hareket komutu düşer",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-12",
+        "F-26"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-26",
+      "kodNormal": "F26",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Aksesuar 2 kolu hatası",
+      "aciklama": "İkinci ataşman kolunda sinyal arızası; kaynak tablosunda yazım 'Atatch-2' olarak geçen aynı satırdır",
+      "makineTepkisi": "Aksesuar 2 fonksiyonu çalışmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-13",
+        "F-28"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-28",
+      "kodNormal": "F28",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Aksesuar 3 kolu hatası",
+      "aciklama": "Üçüncü ataşman kolunun geri besleme devresi hatalı; ataşman donanımı yoksa konfigürasyon-tesisat ayrımı gerekir",
+      "makineTepkisi": "Aksesuar 3 eksenine komut gitmez",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-14",
+        "F-24"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-29",
+      "kodNormal": "F29",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Joystick mükerrer sinyal hatası",
+      "aciklama": "Joystick'ten aynı anda çelişkili/mükerrer komut alınır; iki eksenin aynı anda aktif okunması tipik tetikleyicidir",
+      "makineTepkisi": "Kumanda geçersiz sayılır; hareketler bloke olur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-20",
+        "F-22"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-31",
+      "kodNormal": "F31",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "VCM-IM sensör gerilimi hatası",
+      "aciklama": "Araç modülünün sensör beslemesi (IM) gerilimi izleme bandı dışında; bağlı çok sayıda giriş aynı anda kayabilir",
+      "makineTepkisi": "Analog girişlerin tamamı güvensiz sayılabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-32",
+        "F-36"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-32",
+      "kodNormal": "F32",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma yağ basıncı sensörü hatası",
+      "aciklama": "Lift hidrolik basınç sensörü geçersiz okuma üretir; gerçek basınç ile elektriksel sinyal ayrımı tabloda verilmez",
+      "makineTepkisi": "Kaldırma basınç kontrol çevrimi açığa düşer",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-50",
+        "E-39"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-34",
+      "kodNormal": "F34",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Hız sensörü hatası",
+      "aciklama": "Araç hız sensörünün sinyali okunamaz ya da band dışındadır; sistem geneli hız mantığı hatası F-17'den ayrılır",
+      "makineTepkisi": "Hız göstergesi ve hıza bağlı limitler çalışmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-17"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-36",
+      "kodNormal": "F36",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Lastik açısı (steering angle) sensörü hatası",
+      "aciklama": "Direksiyon/lastik açısı sensörü mantık bandı dışında değer verir; açısal geri beslemeli direksiyon lojikleri bundan etkilenir",
+      "makineTepkisi": "Direksiyon destek karakteristiği yedeğe düşebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-40",
+        "F-38"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-38",
+      "kodNormal": "F38",
+      "aliaslar": [],
+      "sistem": "atisman",
+      "baslik": "Eğim (tilt angle) açısı sensörü hatası",
+      "aciklama": "Kabin/mast eğim açısı sensörü geçersiz sinyal üretir; kol devre hatalarından farklı bir ölçüm kanalı sorgulanır",
+      "makineTepkisi": "Eğim-open limitleyicileri güvenilmez kalır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-22",
+        "F-36"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-40",
+      "kodNormal": "F40",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon sistemi hatası",
+      "aciklama": "Direksiyon sistemi genel arıza bayrağı; sensör kaynaklı F-36'dan farklı olarak sistem bütünü sorgulanır",
+      "makineTepkisi": "Direksiyon destegi kesilebilir veya limitleyici devreye girer",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-36"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-41",
+      "kodNormal": "F41",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Çıkış ünitesi hatası",
+      "aciklama": "Genel çıkış (output unit) modülü arıza verdi; hangi kanal olduğu tabloda yazılmaz — alt kanal hata kodlarıyla eşleştirilir",
+      "makineTepkisi": "Ünitenin sürdüğü aktörler çalışmayabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-44",
+        "F-45"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-44",
+      "kodNormal": "F44",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Çıkış ünitesi PWM güç gerilimi hatası",
+      "aciklama": "PWM çıkış katının güç besleme gerilimi bant dışı; sürücü kartı besleme hattı ile yük kısa devreleri birlikte değerlendirilir",
+      "makineTepkisi": "PWM ile sürülen valf/motor çıkışları durur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-41",
+        "F-46"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-45",
+      "kodNormal": "F45",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Çıkış ünitesi iletişim hatası",
+      "aciklama": "Çıkış modülü ana kontrolörle veriyolü iletişiminde kaybolur; F-41'in iç arıza satırından ayrı bir ağ/tesisat sorunudur",
+      "makineTepkisi": "Tüm çıkış kanalları son değerlerde kalabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-41",
+        "F-49"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-46",
+      "kodNormal": "F46",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Giriş ünitesi hatası",
+      "aciklama": "Genel giriş (input unit) modülü arıza bayrağı verdi; kumanda ve sensör girişlerinin toplandığı ünite sorgulanır",
+      "makineTepkisi": "Kol/sensör girişleri okunamayabilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-49",
+        "F-41"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-49",
+      "kodNormal": "F49",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Giriş ünitesi iletişim hatası",
+      "aciklama": "Giriş modülünün ana kontrolörle iletişim kaybı; besleme, veriyolu tesisatı ve modül kendisi tabloda ayrıştırılmaz",
+      "makineTepkisi": "Operatör komutları kontrolöre ulaşmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-46",
+        "F-45"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F-50",
+      "kodNormal": "F50",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma (lift up) solenoidi hatası",
+      "aciklama": "Lift-up solenoid çıkış devresi arıza verdi; basınç sensörü kaynaklı F-32'den farklı olarak sürücü/aktör tarafı işaret edilir",
+      "makineTepkisi": "Kaldırma fonksiyonu çalışmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaynakta neden belirtilmemiş"
+      ],
+      "kontroller": [
+        "Kaynağa göre kontrol adımı belirtilmemiş"
+      ],
+      "ilgiliKodlar": [
+        "F-32",
+        "F-41"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://machinemaxxusa.com/resources/forklift-error-code-guides/cat-forklifts/2c3000-2c6500/",
+      "durum": "incelemede"
+    }
+  ]
+}

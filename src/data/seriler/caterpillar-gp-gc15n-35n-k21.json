@@ -1,0 +1,696 @@
+{
+  "marka": "caterpillar",
+  "seri": "gp-gc15n-35n-k21",
+  "modelAdi": "Cat GP15N–GP35N / GC15N–GC35N LPG-benzin forkliftler (Mitsubishi Caterpillar üretimi, Nissan K21/K25 motor ve ECM)",
+  "kaynakBelge": "Flat Earth Equipment — Cat Forklift Fault Codes: E-Code Table for K21/K25 IC Trucks (24.10.2024); aynı kod seti Mitsubishi FG/FGC-N ve Nissan/UniCarriers Platinum serileriyle ortak",
+  "kaynakSurum": "2024-10-24",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+  "kodlar": [
+    {
+      "kod": "E-03",
+      "kodNormal": "E03",
+      "aliaslar": [
+        "E03",
+        "E3"
+      ],
+      "sistem": "iletisim",
+      "baslik": "VCM iletişim hatası (araç kontrol modülü–ECM)",
+      "aciklama": "Araç kontrol modülü ile motor kontrolörü arasındaki CAN veriyolü bozulur; gösterge paneli kontağı açıkken E-03 gösterir",
+      "makineTepkisi": "Motor arıza lambası yanar; iletişim kodu ekranda görünür",
+      "siddet": "uyari",
+      "nedenler": [
+        "VCM/ECM/gösterge panelinde besleme veya toprak kaybı",
+        "CAN tesisatının sürtünmeyle yıpranması veya fişinin çıkması"
+      ],
+      "kontroller": [
+        "VCM, ECM ve gösterge panelinde besleme-toprak ölçülür",
+        "CAN demeti yıpranma/çıkmış konnektör açısından gözden geçirilir"
+      ],
+      "ilgiliKodlar": [
+        "E-04",
+        "E-05",
+        "E-07"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-04",
+      "kodNormal": "E04",
+      "aliaslar": [
+        "E04"
+      ],
+      "sistem": "iletisim",
+      "baslik": "ECM iletişim hatası (veriyolü karşı yönden)",
+      "aciklama": "Aynı CAN veriyolü bu kez ECM tarafında kayıp olarak görülür; kaynak E-03 ile birlikte çıkmasının tipik olduğunu yazar",
+      "makineTepkisi": "Motor verileri göstergeye ulaşmaz; uyarı lambası aktif",
+      "siddet": "uyari",
+      "nedenler": [
+        "E-03 ile aynı veriyolü nedenleri",
+        "OBD/bakım konnektöründe korozyon"
+      ],
+      "kontroller": [
+        "OBD/bakım konnektörü korozyon için kontrol edilir"
+      ],
+      "ilgiliKodlar": [
+        "E-03"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-05",
+      "kodNormal": "E05",
+      "aliaslar": [
+        "E05"
+      ],
+      "sistem": "iletisim",
+      "baslik": "DCM (gösterge modülü) iletişim kaybı",
+      "aciklama": "Gösterge paneli modülü veriyolü iletişimini kaybeder; kayıp taraf göstergedir, motor değil",
+      "makineTepkisi": "Panel verileri donabilir veya kaybolur",
+      "siddet": "uyari",
+      "nedenler": [
+        "CAN tesisatı",
+        "Gösterge paneli konnektörleri"
+      ],
+      "kontroller": [
+        "CAN demeti ve gösterge paneli fişleri kontrol edilir"
+      ],
+      "ilgiliKodlar": [
+        "E-03",
+        "E-07"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-07",
+      "kodNormal": "E07",
+      "aliaslar": [
+        "E07"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Genel CAN veriyolü arızası",
+      "aciklama": "Veriyolünün kendisinde genel arıza bildirimi; kaynak teşhisinde E-03/E-04 ile aynı şekilde ele alınmasını salık verir",
+      "makineTepkisi": "Modüller arası veri akışı bozulur",
+      "siddet": "uyari",
+      "nedenler": [
+        "E-03/E-04 ile aynı: besleme-toprak ve CAN tesisatı"
+      ],
+      "kontroller": [
+        "E-03 adımları uygulanır"
+      ],
+      "ilgiliKodlar": [
+        "E-03",
+        "E-04"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-21",
+      "kodNormal": "E21",
+      "aliaslar": [
+        "E21"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sıcak tel hava akış sensörü (MAF) sinyal arızası",
+      "aciklama": "MAF sinyali ölçüm bandı dışında; kaynağa göre suç genellikle emme borusundaki sensörün kopuk kablosu ya da gevşek fişidir, sensörün kendisi daha seyrek bozulur",
+      "makineTepkisi": "Hava hesabı yedek değere düşer",
+      "siddet": "uyari",
+      "nedenler": [
+        "MAF üzerinde kopuk kablo",
+        "Emme borusundaki sensörün gevşek konnektörü"
+      ],
+      "kontroller": [
+        "MAF konnektörü ve kablosu sıkılık/kopukluk açısından bakılır"
+      ],
+      "ilgiliKodlar": [
+        "E-22",
+        "E-43"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-22",
+      "kodNormal": "E22",
+      "aliaslar": [
+        "E22"
+      ],
+      "sistem": "motor",
+      "baslik": "Soğutma suyu sıcaklık sensörü sinyali",
+      "aciklama": "Motor üzerindeki iki telli ECT sensörünün okuması sorgulanır; kaynak değişimden önce direnç ve konnektör ölçümü yapılmasını ister",
+      "makineTepkisi": "Sıcaklık düzeltmeleri yedeklenir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensör direnç sapması",
+        "Konnektör temas hatası"
+      ],
+      "kontroller": [
+        "Sensör direnci ölçülür",
+        "Konnektör bakımı yapılmadan sensör değiştirilmez"
+      ],
+      "ilgiliKodlar": [
+        "E-32",
+        "E-33"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-23",
+      "kodNormal": "E23",
+      "aliaslar": [
+        "E23"
+      ],
+      "sistem": "diger",
+      "baslik": "Gaz kelebeği konum sensörü (TPS) sinyali",
+      "aciklama": "TPS devresi sorgusu; ECM'den gaz gövdesine 5V referansı ve ETC rölesinin enerjili olması doğrulanmalıdır — düzenli yıkanan araçlarda röle kutusu korozyonu sık görülür",
+      "makineTepkisi": "Gaz tepkisi limitleyici moda girebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "5V referans yolda açıklık",
+        "ETC rölesi enerjisiz kalması",
+        "Röle kutusu korozyonu (ıslak temizlik geçmişi)"
+      ],
+      "kontroller": [
+        "Gaz gövdesinde 5V referans ölçülür",
+        "ETC rölesi beslemesi ve röle kutusu korozyonu kontrol edilir"
+      ],
+      "ilgiliKodlar": [
+        "E-24",
+        "E-31"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-24",
+      "kodNormal": "E24",
+      "aliaslar": [
+        "E24"
+      ],
+      "sistem": "diger",
+      "baslik": "Gaz pedalı sensörü gerilimi (genelde rölantide düşük)",
+      "aciklama": "Pedal sensörü gerilimi bant dışı, çoğu zaman rölantide düşük yönde; kaynak onarım sonrası iki 'key learn' prosedürü yapılmazsa kodun geri geleceğini vurgular",
+      "makineTepkisi": "Pedal geçersiz kalabilir; devir komutu düşer",
+      "siddet": "uyari",
+      "nedenler": [
+        "Pedal sensörü gerilim sapması",
+        "Rölanti bölgesinde sinyalin alçak kalması"
+      ],
+      "kontroller": [
+        "Sensör gerilimi ölçülür",
+        "Onarımdan sonra iki 'key learn' (kontak öğrenme) prosedürü mutlaka uygulanır"
+      ],
+      "ilgiliKodlar": [
+        "E-23"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-25",
+      "kodNormal": "E25",
+      "aliaslar": [
+        "E25"
+      ],
+      "sistem": "diger",
+      "baslik": "O2 sensörü sinyal devresi hatası",
+      "aciklama": "Lamba sensörünün sinyal devresi arızalı; kaynağın teşhis sırası önce konnektör, sonra sensördür",
+      "makineTepkisi": "Karışım kontrolü açık döngüye dönebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "O2 sensör konnektöründe temas sorunu",
+        "Sensörün kendisi"
+      ],
+      "kontroller": [
+        "Önce konnektör sonra sensör denenir"
+      ],
+      "ilgiliKodlar": [
+        "E-26",
+        "E-42",
+        "E-43"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-26",
+      "kodNormal": "E26",
+      "aliaslar": [
+        "E26"
+      ],
+      "sistem": "diger",
+      "baslik": "O2 sensörü ısıtıcı devresi hatası",
+      "aciklama": "Lambanın ısıtma devresi arızası; kontroller E-25 ile aynıdır ve kaynak çoğunlukla sonucun sensör değişimi olduğunu yazar",
+      "makineTepkisi": "Kapalı döngü ısınma sonrası gecikir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Isıtıcı devre süreksizliği",
+        "Sensör iç ısıtıcısının arızası"
+      ],
+      "kontroller": [
+        "E-25 konnektör/sensör kontrol sırası uygulanır"
+      ],
+      "ilgiliKodlar": [
+        "E-25"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-27",
+      "kodNormal": "E27",
+      "aliaslar": [
+        "E27"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Krank milı konum sensörü (POS) arızası",
+      "aciklama": "Uzatılmış marş veya hiç çalışmama ile belirir; kaynak önce yakıt basıncının doğrulanmasını ister — yakıtsız kalıp sonradan tutuşan motor aynı semptomu üretir",
+      "makineTepkisi": "Genellikle araç çalışmaz (kaynak: E-27/E-28/E-30 aracı durdurur)",
+      "siddet": "uyari",
+      "nedenler": [
+        "POS sensör arızası veya hava aralığı sapması",
+        "Blok üzerinden geçen demette sürtünmeyle yıpranmış kablo",
+        "Önce elenmesi gereken yakıt basıncı düşüklüğü"
+      ],
+      "kontroller": [
+        "Önce yakıt basıncı ölçülür",
+        "Sensör ve konnektörü test edilir; demetin blok üzerinden geçtiği yerlerde yıpranma aranır"
+      ],
+      "ilgiliKodlar": [
+        "E-28",
+        "E-30"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-28",
+      "kodNormal": "E28",
+      "aliaslar": [
+        "E28"
+      ],
+      "sistem": "diger",
+      "baslik": "Kam milı konum sensörü arızası",
+      "aciklama": "Çalıştırmayı tamamen engelleyen no-start üretir; neden sensörün kendisi veya tesisatıdır",
+      "makineTepkisi": "Araç çalışmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kam sensörü arızası",
+        "Sensör tesisatı"
+      ],
+      "kontroller": [
+        "Sensör ve kablosu test edilir"
+      ],
+      "ilgiliKodlar": [
+        "E-27"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-29",
+      "kodNormal": "E29",
+      "aliaslar": [
+        "E29"
+      ],
+      "sistem": "diger",
+      "baslik": "LPG yakıt kesme devresi hatası",
+      "aciklama": "Gaz yakıt kesme zinciri sorgusu; ana 'C' rölesi ve fuel lock-off (yakıt kilitleme) devresi kaynağın işaret ettiği iki noktadır",
+      "makineTepkisi": "Gaz modunda yakıt kesilebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ana 'C' rölesi arızası",
+        "Fuel lock-off devre sorunu"
+      ],
+      "kontroller": [
+        "Ana C rölesi incelenir",
+        "Yakıt kilitleme devresi test edilir"
+      ],
+      "ilgiliKodlar": [
+        "E-35",
+        "E-43"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-30",
+      "kodNormal": "E30",
+      "aliaslar": [
+        "E30"
+      ],
+      "sistem": "diger",
+      "baslik": "ECM besleme/toprak devresi hatası",
+      "aciklama": "ECM'nin kendi besleme-toprak zinciri sorgulanır; kaynak, sağlam başka araçtan ECM takılarak değişiklik denenmeden yeni ECM satın alınmamasını özellikle söyler",
+      "makineTepkisi": "Genellikle araç durur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ana şasi toprak bağlantısının kirli/boyalı kalması",
+        "ECM besleme veya toprak süreksizliği",
+        "Varsa acil stop şalteri hatası"
+      ],
+      "kontroller": [
+        "Ana şasi toprağı temiz ve boyasız temas açısından kontrol edilir",
+        "ECM besleme-toprak ölçülür",
+        "Acil stop şalteri test edilir",
+        "ECM bilinen sağlam araçla değiştirilerek doğrulanır"
+      ],
+      "ilgiliKodlar": [
+        "E-03",
+        "E-31"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-31",
+      "kodNormal": "E31",
+      "aliaslar": [
+        "E31"
+      ],
+      "sistem": "diger",
+      "baslik": "Elektronik gaz kontrol aktüatörü devre hatası",
+      "aciklama": "ETC aktüatörünün sürücü devresi arızalı; ETC rölesinde korozyon veya su girişi teşhisin ilk hedefidir",
+      "makineTepkisi": "Gaz komutu güvenli konumda tutulur",
+      "siddet": "uyari",
+      "nedenler": [
+        "ETC rölesinde korozyon",
+        "Röleye su girişi"
+      ],
+      "kontroller": [
+        "ETC rölesi korozyon/nem açısından sökülüp bakılır"
+      ],
+      "ilgiliKodlar": [
+        "E-23",
+        "E-30"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-32",
+      "kodNormal": "E32",
+      "aliaslar": [
+        "E32"
+      ],
+      "sistem": "diger",
+      "baslik": "Soğutma suyu aşırı ısınması 1. kademe (~110°C / 230°F)",
+      "aciklama": "Gerçek sıcaklık olayıdır, sensör kodu değil; kaynak ilk iş kirli radyatör kanatçıklarına, sonra soğutma seviyesi, fan kayışı, fan kavramasına bakılmasını yazar — inching pedalına basılı sürüş tork konvertörünü ısıtır",
+      "makineTepkisi": "Güç düşürümü (derate) devreye girer",
+      "siddet": "uyari",
+      "nedenler": [
+        "Radyatörün kırım/tozla tıkanması",
+        "Eksik soğutma sıvısı",
+        "Fan veya kayış arızası",
+        "İnching pedalına basılı çalışmanın tork konvertörünü ısıtması"
+      ],
+      "kontroller": [
+        "Radyatör kanatçıkları temizlenir",
+        "Soğutma seviyesi, fan kayışı ve fan kavraması kontrol edilir"
+      ],
+      "ilgiliKodlar": [
+        "E-33",
+        "E-22"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-33",
+      "kodNormal": "E33",
+      "aliaslar": [
+        "E33"
+      ],
+      "sistem": "motor",
+      "baslik": "Soğutma suyu aşırı ısınması 2. kademe (~135°C / 275°F)",
+      "aciklama": "Hararet ikinci kademe eşiğine ulaşır; kaynağın buyruğu nettir: aracı durdurun ve yeniden çalıştırmadan önce soğutma arızasını bulun",
+      "makineTepkisi": "Araç durdurulmalıdır; motor risk altında",
+      "siddet": "uyari",
+      "nedenler": [
+        "E-32 nedenlerinin derinleşmiş hali"
+      ],
+      "kontroller": [
+        "Soğutma arızası giderilmeden araç çalıştırılmaz"
+      ],
+      "ilgiliKodlar": [
+        "E-32"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-34",
+      "kodNormal": "E34",
+      "aliaslar": [
+        "E34"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Ateşleme bobinine gerilim yok (ateşleme sinyal arızası)",
+      "aciklama": "Ateşleme bobinine gerilim ulaşmaz; kontağı açıkken bobinde 12V doğrulanır, varsa ve arıza sürüyebilir kaynak bobin, buji veya ECM sürücüsünü sayar",
+      "makineTepkisi": "Motor çalışmaz veya tek silindir aksar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Bobin besleme yolda gerilim yokluğu",
+        "Bobin veya buji arızası",
+        "ECM ateşleme sürücüsü"
+      ],
+      "kontroller": [
+        "Kontağı açıkken bobinde 12V ölçülür"
+      ],
+      "ilgiliKodlar": [
+        "E-27"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-35",
+      "kodNormal": "E35",
+      "aliaslar": [
+        "E35"
+      ],
+      "sistem": "elektrik",
+      "baslik": "LPG enjektör besleme devresi hatası",
+      "aciklama": "Enjektör konnektörlerinde yüksek direnç/korozyon ya da enjektör yatağı üzerindeki 5 amperlik sigorta yanığı tipik iki nedendir",
+      "makineTepkisi": "Gaz modunda yakıt kesilir; tek silindir tutar",
+      "siddet": "uyari",
+      "nedenler": [
+        "Enjektör konnektörlerinde oksitlenme/yüksek direnç",
+        "Enjektör muhafazasındaki 5A sigortanın yanması"
+      ],
+      "kontroller": [
+        "Enjektör fişleri temizlenip direnç ölçülür",
+        "5A sigorta kontrol edilir"
+      ],
+      "ilgiliKodlar": [
+        "E-29",
+        "E-36"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-36",
+      "kodNormal": "E36",
+      "aliaslar": [
+        "E36"
+      ],
+      "sistem": "elektrik",
+      "baslik": "LPG yakıt basıncı sensörü devre hatası",
+      "aciklama": "Basınç sensöründe kopuk kablo veya gevşek bağlantı; kaynak gerçek basınç okumasına girmez, elektrik sürekliliğine odaklanır",
+      "makineTepkisi": "Gaz basıncı geri bildirimi düşer",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensörde kopuk kablo",
+        "Gevşek konnektör"
+      ],
+      "kontroller": [
+        "Sensör bağlantısı ve kablosu süreklilik testiyle kontrol edilir"
+      ],
+      "ilgiliKodlar": [
+        "E-38",
+        "E-43"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-38",
+      "kodNormal": "E38",
+      "aliaslar": [
+        "E38"
+      ],
+      "sistem": "diger",
+      "baslik": "LPG buharlaştırıcı çıkış basıncı yüksek",
+      "aciklama": "Vaporizer/regülatör çıkış basıncı limitin üstüne çıkar; teşhisin merkezi regülatörün kendisidir",
+      "makineTepkisi": "Gaz modunda karışım zenginleşebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Vaporizer/regülatör ayar veya diyofram arızası"
+      ],
+      "kontroller": [
+        "Vaporizer/regülatör çıkış basıncı ölçülür"
+      ],
+      "ilgiliKodlar": [
+        "E-36"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-40",
+      "kodNormal": "E40",
+      "aliaslar": [
+        "E40"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Yağ basıncı sensörü izleme hatası",
+      "aciklama": "Yağ basıncı sensörü gösterge paneli tarafından izlenir; kaynak bunun bazen görünür arıza koduna dönüşmediğini not eder",
+      "makineTepkisi": "Beklenir bir tepki yok; izleme kaydı oluşabilir",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Sensör veya devre sapması (kaynak ayrıntı vermez)"
+      ],
+      "kontroller": [
+        "Sensör devresi panel kaydı üzerinden izlenir"
+      ],
+      "ilgiliKodlar": [
+        "E-22"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-41",
+      "kodNormal": "E41",
+      "aliaslar": [
+        "E41"
+      ],
+      "sistem": "fren",
+      "baslik": "Fren (stop lambası) şalteri ayarsız",
+      "aciklama": "Fren şalteri ayar dışı; araçta fren lambası olmasa bile ayar yapılmalı, kaynak kod temizlenirken fren pedalının basılı tutulmasını şart koşar",
+      "makineTepkisi": "Stop lambası ve ilgili lojikler etkilenir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Fren şalterinin ayar kayması"
+      ],
+      "kontroller": [
+        "Fren şalteri ayarlanır (lamba bulunmasa dahi)",
+        "Kod temizlenirken pedal basılı tutulur"
+      ],
+      "ilgiliKodlar": [
+        "E-24"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-42",
+      "kodNormal": "E42",
+      "aliaslar": [
+        "E42"
+      ],
+      "sistem": "diger",
+      "baslik": "Hava-yakıt oranı bozuk (benzin modu)",
+      "aciklama": "Benzin modunda karışım ya tam zengin ya tam zayıf ucuna kilitlenir; LPG tarafının karşılığı E-43'tür",
+      "makineTepkisi": "Egzoz dumanı ve tüketim artar; rölanti bozulur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Karışımın tam zengin ya da tam zayıf sınıra yapışması"
+      ],
+      "kontroller": [
+        "Karışımı sınırlayan yakıt ve hava tarafı bileşenleri gözden geçirilir"
+      ],
+      "ilgiliKodlar": [
+        "E-43",
+        "E-25"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-43",
+      "kodNormal": "E43",
+      "aliaslar": [
+        "E43"
+      ],
+      "sistem": "diger",
+      "baslik": "Hava-yakıt oranı bozuk (LPG modu)",
+      "aciklama": "LPG modunda karışım bant dışı; sıra kontağı açıkken LPG basıncının kararlılığına, sonra kirlenmiş hava filtresine, takılı kalan ana enjektöre veya emme kaçağına bakmaktır",
+      "makineTepkisi": "Araç genelde çalışır ama zengin çalışma buji ve lambayı bozar, kapalı depoda CO'yu artırır",
+      "siddet": "uyari",
+      "nedenler": [
+        "LPG basıncının kararsız olması",
+        "Kirlenmiş veya tıkanmış hava filtresi",
+        "Takılan ana LPG enjektörü",
+        "Emme sisteminde vakum kaçağı"
+      ],
+      "kontroller": [
+        "Kontağı açıkken LPG basıncı kararlılığı ölçülür",
+        "Hava filtresi, ana enjektör ve emme kaçağı kontrol edilir"
+      ],
+      "ilgiliKodlar": [
+        "E-42",
+        "E-36",
+        "E-38"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "E-44",
+      "kodNormal": "E44",
+      "aliaslar": [
+        "E44"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Atmosfer basıncı sensörü devre hatası",
+      "aciklama": "Barometrik sensörde kopuk kablo veya gevşek bağlantı; yükselti düzeltme verisi bundan etkilenir",
+      "makineTepkisi": "Yükseklik düzeltmesi yedeğe düşebilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensörde kopuk kablo",
+        "Gevşek konnektör"
+      ],
+      "kontroller": [
+        "Sensör bağlantı ve kablo sürekliliği ölçülür"
+      ],
+      "ilgiliKodlar": [
+        "E-21"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.flatearthequipment.com/insights/cat-forklift-fault-codes",
+      "durum": "incelemede"
+    }
+  ]
+}

@@ -13,16 +13,18 @@
       "aliaslar": [],
       "sistem": "yuruyus",
       "baslik": "Sürüş mantık hatası 1",
-      "aciklama": "Tahrik kontrolörü mantık denetimini geçemedi; kaynak mesajı düşük şarj ile ilişkili olabileceğini söylüyor.",
+      "aciklama": "Tahrik kontrolcüsü mantık denetimini geçemedi; düşük akü şarj seviyesi tetikleyici olabilir ve sürüşün devreye girmesi engellenir.",
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Yazılım sürümü uyumsuzluğu",
+        "İşlemci iç hata durumu",
+        "Sürüş motoru sargı yalıtımı zayıflaması"
       ],
       "kontroller": [
         "Batarya şarjı %10'un altındaysa aküyü şarj edin",
         "Şarj %30'un üzerindeyse forklifti yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Drive logic error Three"
@@ -41,11 +43,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Bellek veri bozulması",
+        "Yazılım sürümü uyumsuzluğu",
+        "EEPROM veri bozulması"
       ],
       "kontroller": [
         "Forklifti yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Drive logic error One"
@@ -64,11 +68,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektörde temassızlık",
+        "Kablo ezilmesi",
+        "Akım sensörü kalibrasyon kaybı"
       ],
       "kontroller": [
         "Sürücü çıkışında kutupluk/kısa devre kontrolü yapın; kısa yoksa forklifti yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Drive system fault",
@@ -84,15 +90,17 @@
       "aliaslar": [],
       "sistem": "yuruyus",
       "baslik": "Sürüş sistemi arızası",
-      "aciklama": "Tahrik sistemi genel arıza durumu; alt sistem bazında neden belirtilmemiş, sistem kendisini kilitlemiş olabilir.",
+      "aciklama": "Tahrik sisteminde genel arıza oluştu; kontrolcü güvenlik amacıyla sistemi kilitlemiş olabilir ve sürüş geçici olarak devre dışı kalır.",
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Bileşen arızası",
+        "Besleme gerilimi hatası",
+        "Sürüş motoru sargı yalıtımı zayıflaması"
       ],
       "kontroller": [
         "Forklifti yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Drive motor 3 phase wire fault"
@@ -111,11 +119,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Bellek veri bozulması",
+        "Yazılım sürümü uyumsuzluğu",
+        "Sürüş motoru faz sargısında kısa devre"
       ],
       "kontroller": [
         "Forklifti yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Drive motor 3 phase wire fault",
@@ -135,11 +145,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Kablo ezilmesi",
+        "Enkoder hizasızlığı"
       ],
       "kontroller": [
         "Enkoder konnektörünün doğru bağlandığını kontrol edin; sorun yoksa yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Drive system fault"
@@ -158,11 +170,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Sensör sapması",
+        "Kalibrasyon kaybı",
+        "Şalter kablo kopuğu"
       ],
       "kontroller": [
         "Yön kontrol şalterini nötr konuma alın ve forklifti yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 59,
@@ -179,11 +193,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Ortam sıcaklığının yüksek olması",
+        "Soğutma kanalında kir birikimi",
+        "Sensör kalibrasyon kaybı"
       ],
       "kontroller": [
         "Forklifti yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Drive module overheating",
@@ -203,11 +219,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Yazılım sürümü uyumsuzluğu",
+        "İşlemci iç hata durumu",
+        "Hortum sızıntısı"
       ],
       "kontroller": [
         "Akü şarjı düşükse şarj edin; normalse forklifti yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Lift logic error three"
@@ -226,11 +244,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Yük ölçüm sensörü sapması",
+        "Nominal kapasitenin aşılması",
+        "Hortum sızıntısı"
       ],
       "kontroller": [
         "Yük nominal kapasiteyi aşıyorsa kaldırmayı durdurun; aşmıyorsa yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Lift logic error one",
@@ -250,11 +270,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Sargı içi kısa devre",
+        "Kablo yalıtımında aşınma",
+        "Basınç sensörü sapması"
       ],
       "kontroller": [
         "Kaldırma sürücü çıkışında kutupluk/kısa kontrolü yapın; yoksa yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Lifting motor current sensor fault"
@@ -273,11 +295,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Sensör sapması",
+        "Enkoder sinyal kablosunda kopukluk"
       ],
       "kontroller": [
         "Enkoder bağlantısını kontrol edin, doğruysa yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 59,
@@ -294,11 +318,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Soğutma kanalında kir birikimi",
+        "Uzun süreli aşırı yük",
+        "Sensör sinyal kablosunda kopukluk"
       ],
       "kontroller": [
         "Forklifti yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Lifting motor overheating"
@@ -313,15 +339,17 @@
       "aliaslar": [],
       "sistem": "diger",
       "baslik": "Kaldırma motoru akım sensörü arızası",
-      "aciklama": "Kaldırma motoru akım ölçümü güvenilmez; kontrolör akım limitlemeyi doğru yapamaz.",
+      "aciklama": "Kaldırma motoru akım ölçümü güvenilmez; kontrolcü akım limitlemeyi doğru yapamaz.",
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kalibrasyon kaybı",
+        "Besleme gerilimi hatası",
+        "Sensör konnektör oksitlenmesi"
       ],
       "kontroller": [
         "Forklifti yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Lifting motor 3 phase fault"
@@ -336,15 +364,19 @@
       "aliaslar": [],
       "sistem": "diger",
       "baslik": "Kaldırma sistemini kontrol edin",
-      "aciklama": "Kaldırma sisteminde genel arıza bildirimi; kaynak bu mesaj için ek çözüm vermez.",
+      "aciklama": "Kaldırma sisteminde genel arıza bildirimi alındı; pompa ve hidrolik valf devresinin gözden geçirilmesi gerekir.",
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Bileşen arızası",
+        "Besleme gerilimi hatası",
+        "Hidrolik yağ seviyesinin düşmesi"
       ],
       "kontroller": [
-        "Kaynakta bu mesaj için çözüm belirtilmemiş — yetkili servise başvurun",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Hidrolik yağ seviyesini kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 59,
@@ -361,11 +393,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Potansiyometre besleme gerilimi kararsızlığı"
       ],
       "kontroller": [
         "Gaz pedalının normal şekilde geri döndüğünü kontrol edin; dönmüyorsa satış sonrası servise başvurun",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Accelerator pedal fault"
@@ -384,11 +418,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Sensör sapması",
+        "Kalibrasyon kaybı",
+        "Sensör sinyal kablosunda kopukluk"
       ],
       "kontroller": [
-        "Satış sonrası servise başvurun (kaynak kullanıcı müdahalesi öngörmüyor)",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Satış sonrası servise başvurun",
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Accelerator pedal false triggering"
@@ -407,11 +443,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo kopukluğu",
+        "Konnektörde temassızlık",
+        "Kontak yüzeylerinde oksitlenme"
       ],
       "kontroller": [
         "Ana kontaktörün kapandığını kontrol edin",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Electrical relay fault"
@@ -430,11 +468,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Röle kontak yapışması"
       ],
       "kontroller": [
         "Forklifti yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Main contactor open circuit"
@@ -449,15 +489,17 @@
       "aliaslar": [],
       "sistem": "sanziman",
       "baslik": "Vites konumunu kontrol edin",
-      "aciklama": "Yön/vites seçimi beklenen konumda değil; şalter konumu ile kontrolör durumu örtüşmüyor.",
+      "aciklama": "Yön/vites seçimi beklenen konumda değil; şalter konumu ile kontrolcü durumu örtüşmüyor.",
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Şalter mekanik arızası"
       ],
       "kontroller": [
         "Forklifti kapatın, kolu nötr konuma alın ve yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 59,
@@ -474,11 +516,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Elektromanyetik gürültü",
+        "CAN terminasyonu hatası",
+        "CAN konnektöründe temassızlık"
       ],
       "kontroller": [
         "Forklifti yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 59,
@@ -495,11 +539,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Kablo ezilmesi",
+        "Akü hücre zayıflığı"
       ],
       "kontroller": [
         "Forklifti yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 59,
@@ -516,11 +562,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Ortam sıcaklığının yüksek olması",
+        "Soğutma kanalında kir birikimi",
+        "Sürüş motoru sargı yalıtımı zayıflaması"
       ],
       "kontroller": [
         "Forklifti 5 dakika kapatıp soğutun, ardından yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Drive module heat sensor fault",
@@ -540,11 +588,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Uzun süreli aşırı yük",
+        "Soğutma fanı arızası",
+        "Akım sensörü kalibrasyon kaybı"
       ],
       "kontroller": [
         "Forklifti 5 dakika kapatıp soğutun, ardından yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Drive module overheating"
@@ -563,11 +613,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Uzun süreli aşırı yük",
+        "Soğutma fanı arızası",
+        "Basınç sensörü sapması"
       ],
       "kontroller": [
         "Forklifti 5 dakika kapatıp soğutun, ardından yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Lifting motor overheating"
@@ -586,11 +638,13 @@
       "makineTepkisi": "Çok işlevli göstergede mesaj görüntülenir; ilgili arıza göstergesi (sürüş/kaldırma/ivmeleme hatası sembolü) yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Uzun süreli aşırı yük",
+        "Soğutma fanı arızası",
+        "Hidrolik valf sıkışması"
       ],
       "kontroller": [
         "Forklifti 5 dakika kapatıp soğutun, ardından yeniden başlatın",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Lifting motor heat sensor fault"
@@ -609,11 +663,13 @@
       "makineTepkisi": "Mesaj görüntülenir ve zil sesi devreye girer; operatör yerine geçince durur",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Bileşen arızası",
+        "Besleme gerilimi hatası",
+        "Sensör kalibrasyon kaybı"
       ],
       "kontroller": [
         "Koltuğa oturun; mesaj ve zil otomatik söner",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 56,
@@ -626,15 +682,17 @@
       "aliaslar": [],
       "sistem": "diger",
       "baslik": "Aşırı yükleme (konfor modeli)",
-      "aciklama": "Taşınan yük anlık olarak nominal kapasiteyi aştı; kaynak yalnızca comfort modellerde aktif olduğunu belirtir.",
+      "aciklama": "Taşınan yük anlık olarak nominal kapasiteyi aştı; bu uyarı yalnızca konfor modelinde aktiftir ve yük normalize olunca söner.",
       "makineTepkisi": "Aşırı yükleme göstergesi yanar, zil öter; yük normalize olunca durur",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Nominal kapasitenin aşılması",
+        "Dengesiz yük dağılımı",
+        "Bileşen arızası"
       ],
       "kontroller": [
         "Yüğü nominal kapasite altına indirin; mesaj ve zil otomatik söner",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [
         "Lift logic error three"
@@ -653,11 +711,13 @@
       "makineTepkisi": "Mesaj görünür, zil 30 saniye öter ve her 5 dakikada bir tekrarlar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Besleme konnektörü temassızlığı"
       ],
       "kontroller": [
         "Forklifti hemen şarja alın; şarj %20 üzerine çıkınca uyarı söner",
-        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun (kaynak dipnotu)"
+        "Önerilen önlem alındıktan sonra mesaj 3 kezden fazla tekrarlanırsa servis personeline başvurun"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 56,

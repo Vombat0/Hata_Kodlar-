@@ -14,13 +14,17 @@
       "sistem": "diger",
       "baslik": "ECU 796 besleme gerilimi hatası",
       "aciklama": "Hidrolik kontrolörün güç beslemesi geçersiz; unit çalışamaz.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Hidrolik pompa arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Basınç sensörü okumasını doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -32,15 +36,20 @@
       "kodNormal": "602",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "ECU 796 bellek (checksum) hatası",
-      "aciklama": "Program bellek toplamı tutmuyor; kontrolör yeniden programlanmalı.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "ECU 796 bellek (sağlama toplamı) hatası",
+      "aciklama": "Program bellek toplamı tutmuyor; kontrolcü yeniden programlanmalı.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Kablo ezilmesi",
+        "Yazılım sürümü uyumsuzluğu"
       ],
       "kontroller": [
-        "Kontak kapatıp açarak ECU 796'yı yeniden başlatın ve programı yükleyin; sürerse servise başvurun"
+        "Kontak kapatıp açarak ECU 796'yı yeniden başlatın ve programı yükleyin; sürerse servise başvurun",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Parametre değerlerini gözden geçirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -54,13 +63,17 @@
       "sistem": "diger",
       "baslik": "ECU 796 10V referans gerilimi hatası",
       "aciklama": "10V referans çıkışı çöktü; sensör okumaları güvenilmez.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kalibrasyon kaybı",
+        "Besleme gerilimi hatası",
+        "Sensör konnektör oksitlenmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Referans değerle karşılaştırın",
+        "Kalibrasyonu yeniden yapın",
+        "Sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -77,10 +90,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Bileşen arızası",
+        "Besleme gerilimi hatası",
+        "Valf sıkışması"
       ],
       "kontroller": [
-        "Hidrolik fonksiyonları kapatın; elektrikli servoda yük kaldırma şalterinin basılı olduğunu kontrol edin"
+        "Hidrolik fonksiyonları kapatın; elektrikli servoda yük kaldırma şalterinin basılı olduğunu kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Valf besleme gerilimini doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -97,10 +115,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektörde temassızlık",
+        "Kablo ezilmesi",
+        "Düğüm kimlik çakışması"
       ],
       "kontroller": [
-        "Kontak kapatıp açarak ECU 796'yı yeniden başlatın; sürerse servise başvurun"
+        "Kontak kapatıp açarak ECU 796'yı yeniden başlatın; sürerse servise başvurun",
+        "Hatta süreklilik ölçün",
+        "Konnetörü görsel kontrol edin",
+        "Konnetörleri sıkıp yeniden test edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -117,10 +140,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "CAN terminasyonu hatası",
+        "Veri kablosunda kopukluk",
+        "CAN veri kablosunda kopukluk"
       ],
       "kontroller": [
-        "Kontak kapatıp açarak ECU 796'yı yeniden başlatın; sürerse servise başvurun"
+        "Kontak kapatıp açarak ECU 796'yı yeniden başlatın; sürerse servise başvurun",
+        "CAN hattı uç direncini ölçün",
+        "Veri kablosu ve konnektörleri kontrol edin",
+        "Konnetörleri sıkıp yeniden test edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -137,10 +165,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Sensör sapması",
+        "Hidrolik valf sıkışması"
       ],
       "kontroller": [
-        "1 numaralı hidrolik fonksiyonu kullanmayın"
+        "1 numaralı hidrolik fonksiyonu kullanmayın",
+        "Referans değerle karşılaştırın",
+        "Kalibrasyonu yeniden yapın",
+        "Hidrolik yağ seviyesini kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -157,10 +190,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kalibrasyon kaybı",
+        "Besleme gerilimi hatası",
+        "Basınç sensörü sapması"
       ],
       "kontroller": [
-        "2 numaralı hidrolik fonksiyonu kullanmayın"
+        "2 numaralı hidrolik fonksiyonu kullanmayın",
+        "Kalibrasyonu yeniden yapın",
+        "Sinyal gerilimini ölçün",
+        "Basınç sensörü okumasını doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -177,10 +215,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Sensör sapması",
+        "Basınç sensörü sapması"
       ],
       "kontroller": [
-        "3 numaralı hidrolik fonksiyonu kullanmayın"
+        "3 numaralı hidrolik fonksiyonu kullanmayın",
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Valf ve hortumları görsel kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -197,10 +240,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kalibrasyon kaybı",
+        "Besleme gerilimi hatası",
+        "Basınç sensörü sapması"
       ],
       "kontroller": [
-        "4 numaralı hidrolik fonksiyonu kullanmayın"
+        "4 numaralı hidrolik fonksiyonu kullanmayın",
+        "Kalibrasyonu yeniden yapın",
+        "Sinyal gerilimini ölçün",
+        "Basınç sensörü okumasını doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -217,10 +265,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Sensör sapması",
+        "Hidrolik pompa arızası"
       ],
       "kontroller": [
-        "5 numaralı hidrolik fonksiyonu kullanmayın"
+        "5 numaralı hidrolik fonksiyonu kullanmayın",
+        "Referans değerle karşılaştırın",
+        "Kalibrasyonu yeniden yapın",
+        "Hidrolik yağ seviyesini kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -237,10 +290,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektörde temassızlık",
+        "Kablo ezilmesi",
+        "Hidrolik basınç yetersizliği"
       ],
       "kontroller": [
-        "1 numaralı hidrolik fonksiyonu kullanmayın"
+        "1 numaralı hidrolik fonksiyonu kullanmayın",
+        "Konnetörü görsel kontrol edin",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Valf bobin direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -257,10 +315,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Sigorta atması",
+        "Kablo kopukluğu",
+        "Valf sıkışması"
       ],
       "kontroller": [
-        "1 numaralı hidrolik fonksiyonu kullanmayın"
+        "1 numaralı hidrolik fonksiyonu kullanmayın",
+        "Hatta süreklilik ölçün",
+        "Konnetörü görsel kontrol edin",
+        "Sıkışan valfi temizleyin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -277,10 +340,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo kopukluğu",
+        "Konnektörde temassızlık",
+        "Valf besleme gerilimi düşüşü"
       ],
       "kontroller": [
-        "2 numaralı hidrolik fonksiyonu kullanmayın"
+        "2 numaralı hidrolik fonksiyonu kullanmayın",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Hatta süreklilik ölçün",
+        "Valf besleme gerilimini doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -297,10 +365,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Sigorta atması",
+        "Valf selenoid bobin arızası"
       ],
       "kontroller": [
-        "2 numaralı hidrolik fonksiyonu kullanmayın"
+        "2 numaralı hidrolik fonksiyonu kullanmayın",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Hatta süreklilik ölçün",
+        "Valf besleme gerilimini doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -317,10 +390,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektörde temassızlık",
+        "Kablo ezilmesi",
+        "Hidrolik basınç yetersizliği"
       ],
       "kontroller": [
-        "3 numaralı hidrolik fonksiyonu kullanmayın"
+        "3 numaralı hidrolik fonksiyonu kullanmayın",
+        "Konnetörü görsel kontrol edin",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Valf bobin direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -337,10 +415,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Sigorta atması",
+        "Kablo kopukluğu",
+        "Valf sıkışması"
       ],
       "kontroller": [
-        "3 numaralı hidrolik fonksiyonu kullanmayın"
+        "3 numaralı hidrolik fonksiyonu kullanmayın",
+        "Hatta süreklilik ölçün",
+        "Konnetörü görsel kontrol edin",
+        "Sıkışan valfi temizleyin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -357,10 +440,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo kopukluğu",
+        "Konnektörde temassızlık",
+        "Valf besleme gerilimi düşüşü"
       ],
       "kontroller": [
-        "4 numaralı hidrolik fonksiyonu kullanmayın"
+        "4 numaralı hidrolik fonksiyonu kullanmayın",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Hatta süreklilik ölçün",
+        "Valf besleme gerilimini doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -377,10 +465,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo kopukluğu",
+        "Konnektörde temassızlık",
+        "Valf besleme gerilimi düşüşü"
       ],
       "kontroller": [
-        "4 numaralı hidrolik fonksiyonu kullanmayın"
+        "4 numaralı hidrolik fonksiyonu kullanmayın",
+        "Konnetörü görsel kontrol edin",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Valf bobin direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -397,10 +490,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Sigorta atması",
+        "Kablo kopukluğu",
+        "Valf sıkışması"
       ],
       "kontroller": [
-        "5 numaralı hidrolik fonksiyonu kullanmayın"
+        "5 numaralı hidrolik fonksiyonu kullanmayın",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Hatta süreklilik ölçün",
+        "Valf besleme gerilimini doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -417,10 +515,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Sigorta atması",
+        "Valf selenoid bobin arızası"
       ],
       "kontroller": [
-        "5 numaralı hidrolik fonksiyonu kullanmayın"
+        "5 numaralı hidrolik fonksiyonu kullanmayın",
+        "Hatta süreklilik ölçün",
+        "Konnetörü görsel kontrol edin",
+        "Sıkışan valfi temizleyin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -437,10 +540,15 @@
       "makineTepkisi": "Dikey tutma fonksiyonu çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Kablo ezilmesi",
+        "Sensör konnektör oksitlenmesi"
       ],
       "kontroller": [
-        "Dikey tutma fonksiyonunu kapatın"
+        "Dikey tutma fonksiyonunu kapatın",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -457,10 +565,15 @@
       "makineTepkisi": "Ön seçimli kaldırma yüksekliği çalışmaz",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Kablo ezilmesi",
+        "Ön sensör konnektör oksitlenmesi"
       ],
       "kontroller": [
-        "Kaldırma yüksekliği ön seçimini kapatın"
+        "Kaldırma yüksekliği ön seçimini kapatın",
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Ön sensörü yeniden kalibre edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -477,10 +590,15 @@
       "makineTepkisi": "Yalnızca manuel kenetleme yapılabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Veri kablosunda kopukluk",
+        "Konnektör temassızlığı",
+        "CAN hattı terminasyon direnci hatası"
       ],
       "kontroller": [
-        "Manuel kenetleme kontrolüne geçin"
+        "Manuel kenetleme kontrolüne geçin",
+        "Veri kablosu ve konnektörleri kontrol edin",
+        "Düğüm kimliklerini doğrulayın",
+        "CAN hattı kablo demetini kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -497,10 +615,15 @@
       "makineTepkisi": "Seçilen ataçman basıncı yalnızca yaklaşık değerde uygulanır",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Kablo ezilmesi",
+        "Sensör konnektör oksitlenmesi"
       ],
       "kontroller": [
-        "Ataçman basıncı düştüğünde otomatik basınç artışı olmayacağını bilin; servise başvurun"
+        "Ataçman basıncı düştüğünde otomatik basınç artışı olmayacağını bilin; servise başvurun",
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Sensörü yeniden kalibre edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -517,10 +640,15 @@
       "makineTepkisi": "Seçilen ataçman basıncı yalnızca yaklaşık değerde uygulanır",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Sensör sapması"
       ],
       "kontroller": [
-        "Otomatik basınç telafisi devre dışıdır; servise başvurun"
+        "Otomatik basınç telafisi devre dışıdır; servise başvurun",
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Sensörü yeniden kalibre edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -537,10 +665,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo kopukluğu",
+        "Konnektörde temassızlık",
+        "Valf besleme gerilimi düşüşü"
       ],
       "kontroller": [
-        "Kenetleme ataçman fonksiyonunu kullanmayın"
+        "Kenetleme ataçman fonksiyonunu kullanmayın",
+        "Konnetörü görsel kontrol edin",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Valf bobin direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -557,10 +690,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektörde temassızlık",
+        "Kablo ezilmesi",
+        "Hidrolik basınç yetersizliği"
       ],
       "kontroller": [
-        "İlgili hidrolik ataçman fonksiyonunu kullanmayın"
+        "İlgili hidrolik ataçman fonksiyonunu kullanmayın",
+        "Hatta süreklilik ölçün",
+        "Konnetörü görsel kontrol edin",
+        "Sıkışan valfi temizleyin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -574,13 +712,18 @@
       "sistem": "direksiyon",
       "baslik": "Sol kol aç/kapa valfi kısa/açık devre",
       "aciklama": "Ataçmanın left arm işlevini yöneten ON/OFF direksiyon valfi hattı kısa veya açık devre; ilgili kol/ataçman fonksiyonu çalışmaz.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektörde temassızlık",
+        "Kablo ezilmesi",
+        "Hidrolik basınç yetersizliği"
       ],
       "kontroller": [
-        "İlgili hidrolik ataçman fonksiyonunu kullanmayın"
+        "İlgili hidrolik ataçman fonksiyonunu kullanmayın",
+        "Konnetörü görsel kontrol edin",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Sol valf bobin direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -594,13 +737,18 @@
       "sistem": "direksiyon",
       "baslik": "Sağ kol aç/kapa valfi kısa/açık devre",
       "aciklama": "Ataçmanın right arm işlevini yöneten ON/OFF direksiyon valfi hattı kısa veya açık devre; ilgili kol/ataçman fonksiyonu çalışmaz.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Sigorta atması",
+        "Sağ valf selenoid bobin arızası"
       ],
       "kontroller": [
-        "İlgili hidrolik ataçman fonksiyonunu kullanmayın"
+        "İlgili hidrolik ataçman fonksiyonunu kullanmayın",
+        "Konnetörü görsel kontrol edin",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Sağ valf bobin direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -614,13 +762,18 @@
       "sistem": "direksiyon",
       "baslik": "Sol üst kol aç/kapa valfi kısa/açık devre",
       "aciklama": "Ataçmanın upper left arm işlevini yöneten ON/OFF direksiyon valfi hattı kısa veya açık devre; ilgili kol/ataçman fonksiyonu çalışmaz.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektörde temassızlık",
+        "Kablo ezilmesi",
+        "Hidrolik basınç yetersizliği"
       ],
       "kontroller": [
-        "İlgili hidrolik ataçman fonksiyonunu kullanmayın"
+        "İlgili hidrolik ataçman fonksiyonunu kullanmayın",
+        "Hatta süreklilik ölçün",
+        "Konnetörü görsel kontrol edin",
+        "Sıkışan valfi temizleyin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -634,13 +787,18 @@
       "sistem": "direksiyon",
       "baslik": "Sağ orta kol aç/kapa valfi kısa/açık devre",
       "aciklama": "Ataçmanın middle right arm işlevini yöneten ON/OFF direksiyon valfi hattı kısa veya açık devre; ilgili kol/ataçman fonksiyonu çalışmaz.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektörde temassızlık",
+        "Kablo ezilmesi",
+        "Hidrolik basınç yetersizliği"
       ],
       "kontroller": [
-        "İlgili hidrolik ataçman fonksiyonunu kullanmayın"
+        "İlgili hidrolik ataçman fonksiyonunu kullanmayın",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Hatta süreklilik ölçün",
+        "Sağ valf besleme gerilimini doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -654,13 +812,18 @@
       "sistem": "direksiyon",
       "baslik": "Sol orta kol aç/kapa valfi kısa/açık devre",
       "aciklama": "Ataçmanın middle left arm işlevini yöneten ON/OFF direksiyon valfi hattı kısa veya açık devre; ilgili kol/ataçman fonksiyonu çalışmaz.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo kopukluğu",
+        "Konnektörde temassızlık",
+        "Sol valf besleme gerilimi düşüşü"
       ],
       "kontroller": [
-        "İlgili hidrolik ataçman fonksiyonunu kullanmayın"
+        "İlgili hidrolik ataçman fonksiyonunu kullanmayın",
+        "Hatta süreklilik ölçün",
+        "Konnetörü görsel kontrol edin",
+        "Sıkışan valfi temizleyin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -674,13 +837,18 @@
       "sistem": "direksiyon",
       "baslik": "Sağ üst kol aç/kapa valfi kısa/açık devre",
       "aciklama": "Ataçmanın upper right arm işlevini yöneten ON/OFF direksiyon valfi hattı kısa veya açık devre; ilgili kol/ataçman fonksiyonu çalışmaz.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Sigorta atması",
+        "Kablo kopukluğu",
+        "Sağ valf sıkışması"
       ],
       "kontroller": [
-        "İlgili hidrolik ataçman fonksiyonunu kullanmayın"
+        "İlgili hidrolik ataçman fonksiyonunu kullanmayın",
+        "Konnetörü görsel kontrol edin",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Sağ valf bobin direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -697,10 +865,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Sensör sapması"
       ],
       "kontroller": [
-        "Kenetleme ataçmanını kullanmayın"
+        "Kenetleme ataçmanını kullanmayın",
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Sensörü yeniden kalibre edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -717,10 +890,15 @@
       "makineTepkisi": "İlgili hidrolik fonksiyon çalışmaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Sensör sapması",
+        "Kalibrasyon kaybı",
+        "Sensör sinyal kablosunda kopukluk"
       ],
       "kontroller": [
-        "Kenetleme ataçman fonksiyonunu kullanmayın"
+        "Kenetleme ataçman fonksiyonunu kullanmayın",
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Sensörü yeniden kalibre edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -732,15 +910,20 @@
       "kodNormal": "644",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Sağ/sol kol şebeke kesici (breaker) arızalı",
+      "baslik": "Sağ/sol kol şebeke kesici (kesici) arızalı",
       "aciklama": "Sağ-sol kol devre kesicisi bozuk; kesme (shut-off) fonksiyonu çalışmıyor.",
       "makineTepkisi": "Sağ/sol kol kesme fonksiyonu çalışmaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Bileşen arızası",
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı"
       ],
       "kontroller": [
-        "Sağ/sol kol kesme fonksiyonunu kullanmayın"
+        "Sağ/sol kol kesme fonksiyonunu kullanmayın",
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -757,10 +940,15 @@
       "makineTepkisi": "Azami hız 1 km/s'ye düşürülür",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Yük ölçüm sensörü sapması",
+        "Nominal kapasitenin aşılması",
+        "Kablo ezilmesi"
       ],
       "kontroller": [
-        "Yüğü indirin"
+        "Yüğü indirin",
+        "Yük ağırlığını kontrol edin",
+        "Yük dağılımını düzeltin",
+        "Arızalı bileşeni onarın veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -777,10 +965,15 @@
       "makineTepkisi": "Kenetleme ataçmanının sol tarafı çalışmaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Sol valf selenoid bobin arızası"
       ],
       "kontroller": [
-        "Kenetleme ataçmanının ilgili tarafını kullanmayın"
+        "Kenetleme ataçmanının ilgili tarafını kullanmayın",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Sol valf besleme gerilimini doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -797,10 +990,15 @@
       "makineTepkisi": "Kenetleme ataçmanının sol tarafı çalışmaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Sol valf selenoid bobin arızası"
       ],
       "kontroller": [
-        "Kenetleme ataçmanının ilgili tarafını kullanmayın"
+        "Kenetleme ataçmanının ilgili tarafını kullanmayın",
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Sıkışan valfi temizleyin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -817,10 +1015,15 @@
       "makineTepkisi": "Kenetleme ataçmanının sol tarafı çalışmaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Sol valf selenoid bobin arızası"
       ],
       "kontroller": [
-        "Kenetlemenin sol tarafını kullanmayın"
+        "Kenetlemenin sol tarafını kullanmayın",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Sol valf besleme gerilimini doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -837,10 +1040,15 @@
       "makineTepkisi": "Kenetleme ataçmanının sağ tarafı çalışmaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Bileşen arızası",
+        "Besleme gerilimi hatası",
+        "Sağ valf sıkışması"
       ],
       "kontroller": [
-        "Kenetleme ataçmanının ilgili tarafını kullanmayın"
+        "Kenetleme ataçmanının ilgili tarafını kullanmayın",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Sağ valf besleme gerilimini doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -857,10 +1065,15 @@
       "makineTepkisi": "Kenetleme ataçmanının sağ tarafı çalışmaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Sağ valf selenoid bobin arızası"
       ],
       "kontroller": [
-        "Kenetleme ataçmanının ilgili tarafını kullanmayın"
+        "Kenetleme ataçmanının ilgili tarafını kullanmayın",
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Sıkışan valfi temizleyin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -877,10 +1090,15 @@
       "makineTepkisi": "Kenetleme ataçmanının sağ tarafı çalışmaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Sağ valf besleme gerilimi düşüşü"
       ],
       "kontroller": [
-        "Kenetlemenin sağ tarafını kullanmayın"
+        "Kenetlemenin sağ tarafını kullanmayın",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Sağ valf bobin direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -897,10 +1115,15 @@
       "makineTepkisi": "Kenetleme ataçmanının sol tarafı çalışmaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Bileşen arızası",
+        "Besleme gerilimi hatası",
+        "Sol sensör kalibrasyon kaybı"
       ],
       "kontroller": [
-        "Kenetlemenin left tarafını kullanmayın"
+        "Kenetlemenin left tarafını kullanmayın",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Sol sensör konnektörünü görsel kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -917,10 +1140,15 @@
       "makineTepkisi": "Kenetleme ataçmanının sol tarafı çalışmaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Kablo ezilmesi",
+        "Sol sensör konnektör oksitlenmesi"
       ],
       "kontroller": [
-        "Kenetlemenin left tarafını kullanmayın"
+        "Kenetlemenin left tarafını kullanmayın",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Sol sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -937,10 +1165,15 @@
       "makineTepkisi": "Kenetleme ataçmanının sağ tarafı çalışmaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Sağ sensör sapması"
       ],
       "kontroller": [
-        "Kenetlemenin right tarafını kullanmayın"
+        "Kenetlemenin right tarafını kullanmayın",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Sağ sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -957,10 +1190,15 @@
       "makineTepkisi": "Kenetleme ataçmanının sağ tarafı çalışmaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Bileşen arızası",
+        "Besleme gerilimi hatası",
+        "Sağ sensör kalibrasyon kaybı"
       ],
       "kontroller": [
-        "Kenetlemenin right tarafını kullanmayın"
+        "Kenetlemenin right tarafını kullanmayın",
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Sağ sensörü yeniden kalibre edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -974,13 +1212,18 @@
       "sistem": "diger",
       "baslik": "Kenetleme basıncı seçim şalteri hatası",
       "aciklama": "Basınç kademe seçim şalteri arızalı; sistem birinci kenetleme basıncını seçili tutar.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Şalter mekanik arızası"
       ],
       "kontroller": [
-        "Servis çağırın"
+        "Servis çağırın",
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı şalteri değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -997,10 +1240,15 @@
       "makineTepkisi": "Kenetleme basıncı otomatik olarak artırılamaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Sol sensör sinyal kablosunda kopukluk"
       ],
       "kontroller": [
-        "Otomatik basınç artışı olmayacağını gözetin"
+        "Otomatik basınç artışı olmayacağını gözetin",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Sol sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1017,10 +1265,15 @@
       "makineTepkisi": "Kenetleme basıncı otomatik olarak artırılamaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Sol sensör sapması"
       ],
       "kontroller": [
-        "Otomatik basınç artışı olmayacağını gözetin"
+        "Otomatik basınç artışı olmayacağını gözetin",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Sol sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1037,10 +1290,15 @@
       "makineTepkisi": "Kenetleme basıncı otomatik olarak artırılamaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Sağ sensör sapması"
       ],
       "kontroller": [
-        "Otomatik basınç artışı olmayacağını gözetin"
+        "Otomatik basınç artışı olmayacağını gözetin",
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Sağ sensörü yeniden kalibre edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1057,10 +1315,15 @@
       "makineTepkisi": "Kenetleme basıncı otomatik olarak artırılamaz",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Sağ sensör sinyal kablosunda kopukluk"
       ],
       "kontroller": [
-        "Otomatik basınç artışı olmayacağını gözetin"
+        "Otomatik basınç artışı olmayacağını gözetin",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Sağ sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1074,13 +1337,18 @@
       "sistem": "diger",
       "baslik": "Şanzıman kontrolöründen aktarılan hata kodu",
       "aciklama": "Bu kayıt, şanzıman kontrolörünün ürettiği bir arızanın ECU 796 üzerinden gösterildiğini bildirir; asıl kod şanzıman hatası listesinde aranmalı.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Kablo ezilmesi",
+        "Bileşen arızası"
       ],
       "kontroller": [
-        "Şanzıman hata kodları bölümüne (kaynak s.130) bakın"
+        "Şanzıman hata kodları bölümüne bakın",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1092,15 +1360,19 @@
       "kodNormal": "1200",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Motor kontrolöründen aktarılan hata kodu",
-      "aciklama": "Motor kontrolörü bir arıza üretti; kaynak kod motor hata listelerindedir.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "Motorun kontrolöründen aktarılan hata kodu",
+      "aciklama": "Motorun kontrolörü bir arıza üretti; kaynak kod motorun hata listelerindedir.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Bileşen arızası",
+        "Besleme gerilimi hatası",
+        "Sürüş motoru sargı yalıtımı zayıflaması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Sürüş motoru faz bağlantılarını kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1117,10 +1389,15 @@
       "makineTepkisi": "Alternatif (geri beslemeli) direksiyon otomatik olarak devre dışı kalır",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Bileşen arızası",
+        "Besleme gerilimi hatası",
+        "Referans sensör sapması"
       ],
       "kontroller": [
-        "Standart direksiyonla çalışmaya devam edin"
+        "Standart direksiyonla çalışmaya devam edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Referans sensörü doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1137,10 +1414,15 @@
       "makineTepkisi": "Alternatif (geri beslemeli) direksiyon otomatik olarak devre dışı kalır",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Direksiyon kalibrasyonu kaybı"
       ],
       "kontroller": [
-        "Standart direksiyonla çalışın"
+        "Standart direksiyonla çalışın",
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Direksiyon kalibrasyonunu yapın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1157,10 +1439,15 @@
       "makineTepkisi": "Alternatif (geri beslemeli) direksiyon otomatik olarak devre dışı kalır",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Sensör sapması",
+        "Kalibrasyon kaybı",
+        "Potansiyometre besleme gerilimi kararsızlığı"
       ],
       "kontroller": [
-        "Standart direksiyonu kullanın"
+        "Standart direksiyonu kullanın",
+        "Kalibrasyonu yeniden yapın",
+        "Sinyal gerilimini ölçün",
+        "Uç nokta değerlerini doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1177,10 +1464,15 @@
       "makineTepkisi": "Alternatif (geri beslemeli) direksiyon otomatik olarak devre dışı kalır",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Sigorta atması",
+        "Sağ valf selenoid bobin arızası"
       ],
       "kontroller": [
-        "Standart direksiyona geçin"
+        "Standart direksiyona geçin",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Hatta süreklilik ölçün",
+        "Sağ valf besleme gerilimini doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1197,10 +1489,15 @@
       "makineTepkisi": "Alternatif (geri beslemeli) direksiyon otomatik olarak devre dışı kalır",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Sol valf selenoid bobin arızası"
       ],
       "kontroller": [
-        "Standart direksiyona geçin"
+        "Standart direksiyona geçin",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Sol valf bobin direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1213,14 +1510,19 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "ECU 792 besleme gerilimi hatası",
-      "aciklama": "Direksiyon kontrolörünün beslemesi düştü; motor devresi kısılmaya gider.",
-      "makineTepkisi": "Motor devri düşürülür",
+      "aciklama": "Direksiyon kontrolörünün beslemesi düştü; motorun devresi kısılmaya gider.",
+      "makineTepkisi": "Motorun devri düşürülür",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Bileşen arızası",
+        "Besleme gerilimi hatası",
+        "Referans sensör sapması"
       ],
       "kontroller": [
-        "Sigortaları operatör el kitabına göre kontrol edin; sürerse servise başvurun"
+        "Sigortaları operatör el kitabına göre kontrol edin; sürerse servise başvurun",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Servo beslemesini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1234,13 +1536,17 @@
       "sistem": "motor",
       "baslik": "ECU 792 5V referans gerilimi hatası",
       "aciklama": "Kontrolörün 5V sensör referansı geçersiz; geri beslemeli direniş çalışamaz.",
-      "makineTepkisi": "Motor devri düşürülür",
+      "makineTepkisi": "Motorun devri düşürülür",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Kablo ezilmesi",
+        "Sensör konnektör oksitlenmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Sensör konnektörünü görsel kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,

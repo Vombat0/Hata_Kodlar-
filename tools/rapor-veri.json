@@ -1,5 +1,5 @@
 {
-  "olusturulma": "2026-11-19T01:35:14.945Z",
+  "olusturulma": "2026-11-19T01:54:04.618Z",
   "kaynaklar": {
     "A": {
       "dizin": "/tmp/opencode/veri",
@@ -27,9 +27,11 @@
       "dizin": "/tmp/opencode/veri-w4",
       "var": true,
       "markaKaydi": 5,
-      "seriDosyasi": 17,
-      "kod": 476,
+      "seriDosyasi": 20,
+      "kod": 561,
       "dosyalar": [
+        "cat-2c-p1.json",
+        "cat-2c-p2.json",
         "clark-p1.json",
         "clark-p2.json",
         "clark-p3.json",
@@ -39,6 +41,7 @@
         "hyster-a380-p2.json",
         "yale-vx-p1.json",
         "yale-vx-p2.json",
+        "caterpillar-gp-gc15n-35n-k21.json",
         "clark-gts20-35l-mmc-psi.json",
         "crown-access-rc5500-tsp6000-wp3000.json",
         "crown-esr4500.json",
@@ -129,12 +132,12 @@
   },
   "toplamlar": {
     "marka": 23,
-    "seri": 55,
-    "kod": 3307,
+    "seri": 58,
+    "kod": 3392,
     "dusurulenKod": 8,
     "carpisma": 26,
-    "enumOnarimi": 2657,
-    "otomatikMarka": 2
+    "enumOnarimi": 2824,
+    "otomatikMarka": 3
   },
   "markalar": [
     {
@@ -520,6 +523,24 @@
     },
     {
       "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kayitEdilenKod": 25,
+      "dusurulen": 0,
+      "carpisma": 0
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kayitEdilenKod": 34,
+      "dusurulen": 0,
+      "carpisma": 0
+    },
+    {
+      "kaynak": "W4",
       "dosya": "clark-p1.json",
       "marka": "clark",
       "seri": "p1",
@@ -596,6 +617,15 @@
       "marka": "yale",
       "seri": "vx-p2",
       "kayitEdilenKod": 17,
+      "dusurulen": 0,
+      "carpisma": 0
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kayitEdilenKod": 26,
       "dusurulen": 0,
       "carpisma": 0
     },
@@ -1422,6 +1452,1166 @@
     }
   ],
   "enumOnarimlari": [
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-03",
+      "alan": "sistem",
+      "eski": "CAN iletişim",
+      "yeni": "gosterge"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-03",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-04",
+      "alan": "sistem",
+      "eski": "CAN iletişim",
+      "yeni": "gosterge"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-04",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-07",
+      "alan": "sistem",
+      "eski": "CAN iletişim",
+      "yeni": "motor"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-07",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-21",
+      "alan": "sistem",
+      "eski": "Hava akış ölçümü",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-21",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-22",
+      "alan": "sistem",
+      "eski": "Soğutma",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-22",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-23",
+      "alan": "sistem",
+      "eski": "Gaz kontrolü",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-23",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-24",
+      "alan": "sistem",
+      "eski": "Gaz pedalı",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-24",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-25",
+      "alan": "sistem",
+      "eski": "Emisyon",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-25",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-26",
+      "alan": "sistem",
+      "eski": "Emisyon",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-26",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-27",
+      "alan": "sistem",
+      "eski": "Ateşleme/zamanlama",
+      "yeni": "motor"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-27",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-28",
+      "alan": "sistem",
+      "eski": "Ateşleme/zamanlama",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-28",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-29",
+      "alan": "sistem",
+      "eski": "Emniyet",
+      "yeni": "guvenlik"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-29",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-30",
+      "alan": "sistem",
+      "eski": "Motor yönetimi",
+      "yeni": "motor"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-30",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-31",
+      "alan": "sistem",
+      "eski": "Gaz kontrolü",
+      "yeni": "yuruyus"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-31",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-32",
+      "alan": "sistem",
+      "eski": "Soğutma",
+      "yeni": "motor"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-32",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-33",
+      "alan": "sistem",
+      "eski": "Soğutma",
+      "yeni": "motor"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-33",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-34",
+      "alan": "sistem",
+      "eski": "Ateşleme",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-34",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-35",
+      "alan": "sistem",
+      "eski": "LPG yakıt",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-35",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-36",
+      "alan": "sistem",
+      "eski": "LPG yakıt",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-36",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-38",
+      "alan": "sistem",
+      "eski": "LPG yakıt",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-38",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-39",
+      "alan": "sistem",
+      "eski": "Mast konum",
+      "yeni": "atisman"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-39",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-40",
+      "alan": "sistem",
+      "eski": "Yağlama",
+      "yeni": "motor"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-40",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-41",
+      "alan": "sistem",
+      "eski": "Aydınlatma/emniyet",
+      "yeni": "fren"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-41",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-42",
+      "alan": "sistem",
+      "eski": "Yakıt",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-42",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-43",
+      "alan": "sistem",
+      "eski": "LPG yakıt",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "marka": "cat",
+      "seri": "2c-p1",
+      "kod": "E-43",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-01",
+      "alan": "sistem",
+      "eski": "Kontrolör/ bellek",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-01",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-02",
+      "alan": "sistem",
+      "eski": "Batarya/Güç",
+      "yeni": "elektrik"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-02",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-03",
+      "alan": "sistem",
+      "eski": "CAN iletişim",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-03",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-04",
+      "alan": "sistem",
+      "eski": "CAN iletişim",
+      "yeni": "gosterge"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-04",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-07",
+      "alan": "sistem",
+      "eski": "CAN iletişim",
+      "yeni": "motor"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-07",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-09",
+      "alan": "sistem",
+      "eski": "Kumanda girişleri",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-09",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-10",
+      "alan": "sistem",
+      "eski": "Kumanda girişleri",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-10",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-11",
+      "alan": "sistem",
+      "eski": "Kumanda girişleri",
+      "yeni": "guvenlik"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-11",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-12",
+      "alan": "sistem",
+      "eski": "Kumanda girişleri",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-12",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-13",
+      "alan": "sistem",
+      "eski": "Kumanda girişleri",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-13",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-14",
+      "alan": "sistem",
+      "eski": "Kumanda girişleri",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-14",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-15",
+      "alan": "sistem",
+      "eski": "CAN iletişim",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-15",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-16",
+      "alan": "sistem",
+      "eski": "Kumanda girişleri",
+      "yeni": "sanziman"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-16",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-17",
+      "alan": "sistem",
+      "eski": "Hız izleme",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-17",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-18",
+      "alan": "sistem",
+      "eski": "Kontrolör",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-18",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-19",
+      "alan": "sistem",
+      "eski": "Kontrolör",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-19",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-20",
+      "alan": "sistem",
+      "eski": "Kumanda girişleri",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-20",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-22",
+      "alan": "sistem",
+      "eski": "Kumanda girişleri",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-22",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-24",
+      "alan": "sistem",
+      "eski": "Kumanda girişleri",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-24",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-26",
+      "alan": "sistem",
+      "eski": "Kumanda girişleri",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-26",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-28",
+      "alan": "sistem",
+      "eski": "Kumanda girişleri",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-28",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-29",
+      "alan": "sistem",
+      "eski": "Kumanda girişleri",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-29",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-31",
+      "alan": "sistem",
+      "eski": "Sensör beslemesi",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-31",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-32",
+      "alan": "sistem",
+      "eski": "Hidrolik izleme",
+      "yeni": "hidrolik"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-32",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-34",
+      "alan": "sistem",
+      "eski": "Hız izleme",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-34",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-36",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-38",
+      "alan": "sistem",
+      "eski": "Mast konum",
+      "yeni": "atisman"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-38",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-40",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-41",
+      "alan": "sistem",
+      "eski": "G/Ç üniteleri",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-41",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-44",
+      "alan": "sistem",
+      "eski": "G/Ç üniteleri",
+      "yeni": "motor"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-44",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-45",
+      "alan": "sistem",
+      "eski": "G/Ç üniteleri",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-45",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-46",
+      "alan": "sistem",
+      "eski": "G/Ç üniteleri",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-46",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-49",
+      "alan": "sistem",
+      "eski": "G/Ç üniteleri",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-49",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-50",
+      "alan": "sistem",
+      "eski": "Hidrolik çıkışlar",
+      "yeni": "hidrolik"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "marka": "cat",
+      "seri": "2c-p2",
+      "kod": "F-50",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
     {
       "kaynak": "W4",
       "dosya": "clark-p1.json",
@@ -5430,6 +6620,516 @@
       "kod": "522593-12",
       "alan": "siddet",
       "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-03",
+      "alan": "sistem",
+      "eski": "CAN iletişim",
+      "yeni": "iletisim"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-03",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-04",
+      "alan": "sistem",
+      "eski": "CAN iletişim",
+      "yeni": "iletisim"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-04",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-05",
+      "alan": "sistem",
+      "eski": "Gösterge/Gösterge modülü",
+      "yeni": "iletisim"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-05",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-07",
+      "alan": "sistem",
+      "eski": "CAN iletişim",
+      "yeni": "iletisim"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-07",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-21",
+      "alan": "sistem",
+      "eski": "Hava akış ölçümü",
+      "yeni": "elektrik"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-21",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-22",
+      "alan": "sistem",
+      "eski": "Soğutma",
+      "yeni": "motor"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-22",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-23",
+      "alan": "sistem",
+      "eski": "Gaz kontrolü",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-23",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-24",
+      "alan": "sistem",
+      "eski": "Gaz pedalı",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-24",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-25",
+      "alan": "sistem",
+      "eski": "Emisyon",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-25",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-26",
+      "alan": "sistem",
+      "eski": "Emisyon",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-26",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-27",
+      "alan": "sistem",
+      "eski": "Ateşleme/zamanlama",
+      "yeni": "elektrik"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-27",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-28",
+      "alan": "sistem",
+      "eski": "Ateşleme/zamanlama",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-28",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-29",
+      "alan": "sistem",
+      "eski": "LPG yakıt/emniyet",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-29",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-30",
+      "alan": "sistem",
+      "eski": "Motor yönetimi",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-30",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-31",
+      "alan": "sistem",
+      "eski": "Gaz kontrolü",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-31",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-32",
+      "alan": "sistem",
+      "eski": "Soğutma",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-32",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-33",
+      "alan": "sistem",
+      "eski": "Soğutma",
+      "yeni": "motor"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-33",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-34",
+      "alan": "sistem",
+      "eski": "Ateşleme",
+      "yeni": "yuruyus"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-34",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-35",
+      "alan": "sistem",
+      "eski": "LPG yakıt",
+      "yeni": "elektrik"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-35",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-36",
+      "alan": "sistem",
+      "eski": "LPG yakıt",
+      "yeni": "elektrik"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-36",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-38",
+      "alan": "sistem",
+      "eski": "LPG yakıt",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-38",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-40",
+      "alan": "sistem",
+      "eski": "Yağlama",
+      "yeni": "gosterge"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-41",
+      "alan": "sistem",
+      "eski": "Emniyet/ fren",
+      "yeni": "fren"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-41",
+      "alan": "siddet",
+      "eski": "uyarı",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-42",
+      "alan": "sistem",
+      "eski": "Yakıt/karışım",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-42",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-43",
+      "alan": "sistem",
+      "eski": "LPG yakıt",
+      "yeni": "diger"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-43",
+      "alan": "siddet",
+      "eski": "kritik",
+      "yeni": "uyari"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-44",
+      "alan": "sistem",
+      "eski": "Hava emme",
+      "yeni": "elektrik"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "caterpillar-gp-gc15n-35n-k21.json",
+      "marka": "caterpillar",
+      "seri": "gp-gc15n-35n-k21",
+      "kod": "E-44",
+      "alan": "siddet",
+      "eski": "uyarı",
       "yeni": "uyari"
     },
     {
@@ -27995,6 +29695,14 @@
   ],
   "otomatikMarkalar": [
     {
+      "id": "cat",
+      "ad": "Cat",
+      "seri": "2c-p1",
+      "dosyalar": [
+        "cat-2c-p1.json"
+      ]
+    },
+    {
       "id": "ep-equipment",
       "ad": "EP Equipment",
       "seri": "lce50",
@@ -28013,6 +29721,30 @@
   ],
   "korunanDosyalar": [],
   "uyarilar": [
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "alan": "marka",
+      "mesaj": "dosya adından türetildi: cat"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p1.json",
+      "alan": "seri",
+      "mesaj": "dosya adından türetildi: 2c-p1"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "alan": "marka",
+      "mesaj": "dosya adından türetildi: cat"
+    },
+    {
+      "kaynak": "W4",
+      "dosya": "cat-2c-p2.json",
+      "alan": "seri",
+      "mesaj": "dosya adından türetildi: 2c-p2"
+    },
     {
       "kaynak": "W4",
       "dosya": "clark-p1.json",
@@ -28161,7 +29893,7 @@
     ]
   },
   "kuretaj": {
-    "seri": 51,
+    "seri": 56,
     "marka": 23
   }
 }

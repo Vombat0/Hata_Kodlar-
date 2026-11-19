@@ -1,0 +1,2184 @@
+{
+  "marka": "jungheinrich",
+  "seri": "jh-event-mesaji-fexxs",
+  "modelAdi": "Jungheinrich 2003+ CAN nesli (CANDIS/CANDIS+ gösterge, 4 haneli olay mesajları; F işlev grubu üniteden üniteye değişen karakterdir)",
+  "kaynakBelge": "Jungheinrich Event Messages 03.15 (OEM olay tablosu: E olay grubu + XX olay no + S alt indeks; F yer tutucusu işlev grubudur)",
+  "kaynakSurum": "03.15",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://drive.google.com/file/d/1vmWJkjrZZ-vA3fd4xUvP1iudetGWSBLm/view",
+  "kodlar": [
+    {
+      "kod": "F101.1",
+      "kodNormal": "F1011",
+      "aliaslar": [
+        "101.1",
+        "0101.1",
+        "1011"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Anahtar girişinden beklenmeyen besleme",
+      "aciklama": "Sistem açılışında kontak girişi üç giriş üzerinden kodlanır; kodlama 1, 2 veya 4 dışında bir değere karşılık geldiğinde olay mesajı üretilir (E1, olay 01, alt indeks 1).",
+      "makineTepkisi": "Kaynakta araç tepkisi ayrıca belirtilmemiş.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontak şalteri giriş hattında kısa devre veya yanlış bağlantı",
+        "ISM/CANCODE modülünün geçersiz giriş seviyesi üretmesi"
+      ],
+      "kontroller": [
+        "Kontak şalteri giriş bağlantısını kablo şemasına göre kontrol edin",
+        "Arızalıysa kontrol ünitesini değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F102.1",
+      "kodNormal": "F1021",
+      "aliaslar": [
+        "102.1",
+        "0102.1",
+        "1021"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Açılışta kontaktör açık konumunda değil",
+      "aciklama": "Güç verildiğinde ana kontaktör kapalıyken kapasitör gerilimi akü geriliminden 1 V düşük olmalıdır; fark bu sınırın dışındaysa ünite kontaktörün kapanamadığını raporlar (E1, olay 02, alt indeks 1).",
+      "makineTepkisi": "Araç güç kademesi enerjilenmez; seyir beklenmez.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Ana kontaktör bobin veya kontak arızası",
+        "Kontaktör çıkış sürücüsünün bozulması",
+        "Besleme kablosunda kopukluk"
+      ],
+      "kontroller": [
+        "Kontrol ünitesinin kontaktör çıkışını test edin",
+        "Kablo bağlantısını kontrol edin",
+        "Kontaktörü değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F102.2",
+      "kodNormal": "F1022",
+      "aliaslar": [
+        "102.2",
+        "0102.2",
+        "1022"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör kapandıktan sonra kapasitör gerilimi eşitlenmiyor",
+      "aciklama": "Ana kontaktör kapandıktan sonra kapasitör gerilimi 500 ms içinde akü gerilimiyle eşitlenmiyorsa olay mesajı üretilir (E1, olay 02, alt indeks 2).",
+      "makineTepkisi": "Güç devresi hazır değildir; sürüş başlatılmaz.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kontaktör kontak direncinin yükselmesi",
+        "Ara devre ön şarj devresinin çalışmaması",
+        "Ölçüm kablosunda temassızlık"
+      ],
+      "kontroller": [
+        "Kontrol ünitesi kontaktör çıkışını test edin",
+        "Kablo bağlantısını kontrol edip kontaktörü değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F102.3",
+      "kodNormal": "F1023",
+      "aliaslar": [
+        "102.3",
+        "0102.3",
+        "1023"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ana kontaktör kalıcı kapalı kaldı",
+      "aciklama": "Kontaktörün açılması istendiği hâlde izleme sistemi T zaman sınırından sonra hâlâ kapalı kontak tespit ederse mesaj üretilir (E1, olay 02, alt indeks 3).",
+      "makineTepkisi": "Güç devresi kapatılamaz; araç güvenlik nedeniyle kilitlenebilir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kontaktör kontaklarının kaynayarak yapışması",
+        "Lityum-iyon akülerde akü kontaktörünün takılması",
+        "Akü yönetim sisteminin (BMS) kontaktörü açmaması"
+      ],
+      "kontroller": [
+        "Kontrol ünitesini değiştirin",
+        "24 V/110 Ah lityum aküde tekrarlı arızada akü bukletini kontrol edip akü kontaktörü ve BMS'yi değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F103.1",
+      "kodNormal": "F1031",
+      "aliaslar": [
+        "103.1",
+        "0103.1",
+        "1031"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Çıkış trafosu güç katı arızası (U fazı)",
+      "aciklama": "Yarı köprüler sırayla 50 ms boyunca %25 PWM ile sürülür; 50 ms sonunda U fazı gerilimi kapasitör/2 eşiğinin %25 altına düşerse olay kaydı oluşur (E1, olay 03, alt indeks 1).",
+      "makineTepkisi": "İlgili faz sürülemez; güç kademesi devre dışı kalabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Çıkış trafosunda sargı kısa devresi",
+        "Güç kartı hasarı"
+      ],
+      "kontroller": [
+        "Kontrol ünitesini değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F104.2",
+      "kodNormal": "F1042",
+      "aliaslar": [
+        "104.2",
+        "0104.2",
+        "1042"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Çıkış trafosu gerilim denetimi (V fazı)",
+      "aciklama": "Yarı köprü testinde V fazı gerilimi Vkapasitör/4 ± %25 penceresinin dışında ölçülürse kayıt düşer; güç kartı kimlik biti de bu kodu üretebilir (E1, olay 04, alt indeks 2).",
+      "makineTepkisi": "Güç kademesi doğrulanamaz; çalışma engellenebilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Güç kartı ölçüm devresi hatası",
+        "Faz çıkışında kısa devre"
+      ],
+      "kontroller": [
+        "Kontrol ünitesini değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F105.1",
+      "kodNormal": "F1051",
+      "aliaslar": [
+        "105.1",
+        "0105.1",
+        "1051"
+      ],
+      "sistem": "motor",
+      "baslik": "Motor kesintisi (faz gerilimi beklenen aralıkta değil)",
+      "aciklama": "Motor kesik testinde kontrol edilmeyen iki fazdan birinin gerilimi Vkapasitör/4 ± %25 dışına çıkarsa motor hattında kopukluk raporlanır (E1, olay 05, alt indeks 1).",
+      "makineTepkisi": "Tahrik çalışmayabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor bağlantı kablosunda kopma",
+        "Motor sargı arızası"
+      ],
+      "kontroller": [
+        "Motor bağlantı kablosunu (kopukluk) kontrol edin",
+        "Motoru değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F106.1",
+      "kodNormal": "F1061",
+      "aliaslar": [
+        "106.1",
+        "0106.1",
+        "1061"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Emniyet şalteri girişleri tutarsız (NC/NO birlikte kapalı)",
+      "aciklama": "Emniyet şalteri biri NC biri NO iki kontak içerir; sadece 0/1 veya 1/0 kombinasyonu geçerlidir. 500 ms boyunca 0/0 veya 1/1 görülürse mesaj üretilir ve kombinasyon düzelene kadar tepki sürer (E1, olay 06, alt indeks 1).",
+      "makineTepkisi": "Geçerli kombinasyon gelene kadar araç tepkisi sıfırlanmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Emniyet şalteri kontak ayarının bozulması",
+        "Şalter kablosunda kısa devre/kopma"
+      ],
+      "kontroller": [
+        "Şalter kontak kombinasyonunu ve kablolarını ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F190.1",
+      "kodNormal": "F1901",
+      "aliaslar": [
+        "190.1",
+        "0190.1",
+        "1901"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "ISM sensör 1 gerilimi geçersiz",
+      "aciklama": "Aksiyon hafızası modülünün opsiyonel sensör 1 girişi 0,5-9,5 V aralığının dışında gerilim ölçer (yalnız kademe 4; E1, olay 90, alt indeks 1).",
+      "makineTepkisi": "ISM (sürüş tarzı tanıma) verisi güvenilmez olur.",
+      "siddet": "uyari",
+      "nedenler": [
+        "ISM sensör parametrelerinin (#11-17) yanlış girilmesi",
+        "Sensör kablosunda kopukluk veya kısa devre"
+      ],
+      "kontroller": [
+        "ISM sensör parametrelerini kontrol edin",
+        "Sensör 1 kablo bağlantısını ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F203.1",
+      "kodNormal": "F2031",
+      "aliaslar": [
+        "203.1",
+        "0203.1",
+        "2031"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Orantılı kademe hedef akıma ulaşamadı",
+      "aciklama": "Orantılı çıkışlardan biri (1...n) kontrol sapması zaman sınırını aşan süre boyunca beklenen nominal akıma ulaşamaz (E2, olay 03, alt indeks 1-n).",
+      "makineTepkisi": "İlgili orantılı fonksiyon istenen debi/basıncı üretemez.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Fren/valf bobininde kopma veya direnç değişimi",
+        "Kablo bağlantısında temassızlık",
+        "Valf mekanik takılması"
+      ],
+      "kontroller": [
+        "Fren/valf bobini kablosunu kontrol edin",
+        "Bobin direncini ölçün, gerekirse valfi değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F301.1",
+      "kodNormal": "F3011",
+      "aliaslar": [
+        "301.1",
+        "0301.1",
+        "3011"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontak girişinde düşük gerilim (sistem açılışı)",
+      "aciklama": "Sistem açılışında 100 ms boyunca kontak girişi gerilimi anma geriliminin %30 altına düşerse mesaj üretilir (E3, olay 01, alt indeks 1).",
+      "makineTepkisi": "Açılış tamamlanamayabilir; ünite kendini tekrar başlatabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Akü şarjının düşük olması",
+        "Kumanda sigortası veya ana sigortanın yanması",
+        "Kontak/ISM/CANCODE hattında temas direnci"
+      ],
+      "kontroller": [
+        "Akü gerilimini ölçüp şarj edin",
+        "Kumanda akımı ve ana sigortayı kontrol edin",
+        "Kontak, ISM ve CANCODE bağlantılarını test edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F345.1",
+      "kodNormal": "F3451",
+      "aliaslar": [
+        "345.1",
+        "0345.1",
+        "3451"
+      ],
+      "sistem": "batarya",
+      "baslik": "Lityum-iyon aküde hücre aşırı gerilimi",
+      "aciklama": "Hücre gerilimi 1. zaman sınırından uzun süre 1. sınır değerin üstüne çıkarsa mesaj üretilir (E3, olay 45, alt indeks 1).",
+      "makineTepkisi": "Rejeneratif geri kazanım sınırlanır; şarj akımı kesilebilir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Şarj cihazının üst limiti aşması",
+        "Aşırı enerji geri kazanımı (yüksek rejenerasyon programı)",
+        "BMS denetim hatası"
+      ],
+      "kontroller": [
+        "Enerji geri kazanımını azaltın (daha düşük seyir programı seçin)",
+        "Şarj cihazını kontrol edin",
+        "Gerekirse BMS veya aküyü değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F346.1",
+      "kodNormal": "F3461",
+      "aliaslar": [
+        "346.1",
+        "0346.1",
+        "3461"
+      ],
+      "sistem": "fren",
+      "baslik": "Lityum-iyon aküde şarj üst limiti aşıldı",
+      "aciklama": "Hücre gerilimi 2. zaman sınırından uzun süre 2. (şarj) sınır değerin üzerinde kalırsa alarm üretilir; F345'e göre daha ağır durumdur (E3, olay 46, alt indeks 1).",
+      "makineTepkisi": "Akü korumaya alınır; enerji geri kazanımı ve şarj kesilir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Hatalı şarj karakteristiği",
+        "Fren enerjisinin aküye aşırı yüklenmesi",
+        "BMS arızası"
+      ],
+      "kontroller": [
+        "Enerji geri kazanımını azaltın",
+        "Şarj cihazını kontrol edin",
+        "Akü kendi kendine deşarj olduktan sonra tekrar ölçün; gerekirse BMS/aküyü değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F351.1",
+      "kodNormal": "F3511",
+      "aliaslar": [
+        "351.1",
+        "0351.1",
+        "3511"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Yağda su sensörü arızalı",
+      "aciklama": "'Hidrolik yağda su' sensörü hata durumu bildirir; sensör devresi veya girişi doğrulanmalıdır (E3, olay 51, alt indeks 1).",
+      "makineTepkisi": "Su varlığı doğrulanamaz; yağ durumu izlenemez.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensörün bozulması",
+        "Sensör kablosunda kısa devre/kopma",
+        "Kontrol ünitesi girişi arızası"
+      ],
+      "kontroller": [
+        "Sensör ve kabloları multimetre ile ölçün",
+        "Arızalı bileşeni onarın veya değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F380.1",
+      "kodNormal": "F3801",
+      "aliaslar": [
+        "380.1",
+        "0380.1",
+        "3801"
+      ],
+      "sistem": "diger",
+      "baslik": "Seyir yönü girişi tutarsız (yedeklilik testi)",
+      "aciklama": "Yön girişinin çift kanal yedeklilik denetimi başarısız olur; tel kopukluğu veya teach-in değer hatası şüphelidir. Arıza ünite kapatılıp sıfırlanana kadar sürer (E3, olay 80, alt indeks 1).",
+      "makineTepkisi": "Yön komutu güvenilmez; sürüş engellenebilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yön şalteri kablosunda kopma",
+        "Yön şalteri besleme hatası",
+        "MULTI-PILOT öğrenme değerlerinin bozulması"
+      ],
+      "kontroller": [
+        "Kabloları ve yön şalteri beslemesini kontrol edin",
+        "Kumanda elemanını/MULTI-PILOT'u yeniden teach edin",
+        "Gerekirse yön şalteri veya MultiPilot'u değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F391.1",
+      "kodNormal": "F3911",
+      "aliaslar": [
+        "391.1",
+        "0391.1",
+        "3911"
+      ],
+      "sistem": "batarya",
+      "baslik": "Şarj cihazında akü ölçüm girişi düşük",
+      "aciklama": "Şarj cihazının akü gerilimi ölçüm girişi 4 ms boyunca hücre başına 1,2 V altına düşerse mesaj üretilir (E3, olay 91, alt indeks 1).",
+      "makineTepkisi": "Şarj işlemi başlatılmayabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Akünün derin deşarj olması",
+        "Ölçüm kablosunda temas direnci",
+        "Hücre gerilimi dengesizliği"
+      ],
+      "kontroller": [
+        "Aküyü şarj edin",
+        "Akü hücre gerilimlerini ölçün; gerekiyorsa aküyü değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F392.2",
+      "kodNormal": "F3922",
+      "aliaslar": [
+        "392.2",
+        "0392.2",
+        "3922"
+      ],
+      "sistem": "diger",
+      "baslik": "Akü denetim modülünde ölçüm girişi yüksek",
+      "aciklama": "Akü denetim modülü 250 ms boyunca VBatt > 117 V ölçerse olay kaydı düşer (E3, olay 92, alt indeks 2).",
+      "makineTepkisi": "Akü verisi güvenilmez kabul edilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ölçüm hattında gerilim kaçağı",
+        "Akü denetim modülü giriş katı arızası",
+        "Sistem gerilim sınıfının yanlış yapılandırılması"
+      ],
+      "kontroller": [
+        "Akü denetim modülünde gerilimi ölçün",
+        "Modülü değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F393.1",
+      "kodNormal": "F3931",
+      "aliaslar": [
+        "393.1",
+        "0393.1",
+        "3931"
+      ],
+      "sistem": "diger",
+      "baslik": "Akü sıcaklık geri beslemesi geçersiz",
+      "aciklama": "Akü denetim modülünün sıcaklık ölçümü 250 ms boyunca -45 °C altı veya 125 °C üstü görünürse sensör hatası raporlanır (E3, olay 93, alt indeks 1).",
+      "makineTepkisi": "Sıcaklık bazlı güç sınırlaması devre dışı kalabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Akü hücreleri arası sıcaklık sensörünün kopması",
+        "Sensör kısa devresi",
+        "Modül girişi arızası"
+      ],
+      "kontroller": [
+        "Akü denetim modülündeki sıcaklık sensörünü kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F395.1",
+      "kodNormal": "F3951",
+      "aliaslar": [
+        "395.1",
+        "0395.1",
+        "3951"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü tam deşarj gerilim limiti aşıldı",
+      "aciklama": "Akü kapasitesi sıfıra inmeden deşarj son gerilimi izin verilen sınırın altına düşer; akünün aşırı deşarj olduğu raporlanır (E3, olay 95, alt indeks 1).",
+      "makineTepkisi": "Akü koruma nedeniyle kullanıma kapatılabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Şarj karakteristiğinin akü tipine uymaması",
+        "Zayıflamış/yaşlanmış akü",
+        "Uzun süre şarj edilmeden bekletme"
+      ],
+      "kontroller": [
+        "Şarj karakteristiğini akü tip plakasına göre ayarlayın",
+        "Aküyü şarj edin; arıza tekrarlamazsa kayıt silinir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F396.1",
+      "kodNormal": "F3961",
+      "aliaslar": [
+        "396.1",
+        "0396.1",
+        "3961"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Şebeke gerilimi düşük (şarj cihazı)",
+      "aciklama": "Şarj cihazı beslemesinde şebeke gerilimi anma değerinin %90 altına 60 sn'den uzun düşerse bilgi mesajı üretilir (E3, olay 96, alt indeks 1).",
+      "makineTepkisi": "Şarj düşük akımla sürer; şarj süresi uzar.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Bina şebekesinde gerilim düşümü",
+        "Uzatma kablosu/şebeke hattı kesiti yetersizliği"
+      ],
+      "kontroller": [
+        "Şarj süresi uzamasını gözlemleyin; mesaj yalnız bilgilendirme amaçlıdır"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F408.1",
+      "kodNormal": "F4081",
+      "aliaslar": [
+        "408.1",
+        "0408.1",
+        "4081"
+      ],
+      "sistem": "diger",
+      "baslik": "Akü belirgin aşırı ısınma",
+      "aciklama": "Hücre sıcaklığı 1. sınır değeri aşarsa mesaj üretilir; sıcaklık ölçümü, buklet ve BMS sırayla doğrulanır (E4, olay 08, alt indeks 1).",
+      "makineTepkisi": "Şarj/deşarj akımları kısıtlanabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yoğun kullanımda soğutma yetersizliği",
+        "Sıcaklık ölçüm hattı hatası",
+        "Şarj cihazının aşırı akımla şarj etmesi"
+      ],
+      "kontroller": [
+        "Aküyü soğumaya bırakın",
+        "Sıcaklık ölçümü ve bukleti kontrol edin",
+        "Gerekirse akü denetim modülü/BMS/aküyü değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F411.1",
+      "kodNormal": "F4111",
+      "aliaslar": [
+        "411.1",
+        "0411.1",
+        "4111"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik yağ sıcaklık aralığı belirgin aşıldı",
+      "aciklama": "Yağ sıcaklığı etkinleşme sıcaklığını aşınca mesaj açılır; 5 K histerezis altında dönse de kayıt yüksek sıcaklıklı bölgeye girilene kadar kalır (E4, olay 11, alt indeks 1).",
+      "makineTepkisi": "Hidrolik performans sınırlanabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sürekli yüksek kaldırma yükü",
+        "Yağ seviyesinin düşüklüğü veya soğutma performansı kaybı",
+        "Vana/soğutucu tıkanması"
+      ],
+      "kontroller": [
+        "Hidrolik sistemi soğumaya bırakın",
+        "Yağ seviyesini ve soğutma kanallarını kontrol edip temizleyin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F413.1",
+      "kodNormal": "F4131",
+      "aliaslar": [
+        "413.1",
+        "0413.1",
+        "4131"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü sıcaklığı endişe verici şekilde düşük",
+      "aciklama": "Akü iç sıcaklığı 1. alt sınırın altına düşerse mesaj üretilir; 2. alt sınır daha ağır koşulu bildirir (E4, olay 13, alt indeks 1).",
+      "makineTepkisi": "Akü kapasitesi ve şarj kabulü düşer.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Soğuk ortamda (dondurucu deposu vb.) çalışma",
+        "Akünün uzun süre soğuğa maruz kalması"
+      ],
+      "kontroller": [
+        "Aküyü daha sıcak bir ortamda kullanın/şarj edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F501.1",
+      "kodNormal": "F5011",
+      "aliaslar": [
+        "501.1",
+        "0501.1",
+        "5011"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Çıkış trafosu sürücü koruması devreye girdi",
+      "aciklama": "'Çıkış trafosu sürücü devresi' donanım sinyali (ana jumper) aktive olur; MOSFET sürücü devresi harici olarak kesilir ve AC-3 güç kontrol ünitesinde trafo enerjisiz konuma geçer (E5, olay 01, alt indeks 1).",
+      "makineTepkisi": "Güç kademesi kesilir; araç sürmez.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Motor kablosunda kısa devre",
+        "Güç kartı/MOSFET sürücü hasarı"
+      ],
+      "kontroller": [
+        "Motor kablosunu (kısa devre) ölçün",
+        "Gerekirse motoru değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F505.1",
+      "kodNormal": "F5051",
+      "aliaslar": [
+        "505.1",
+        "0505.1",
+        "5051"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Donanım 'aşırı gerilim' sinyali tetiklendi",
+      "aciklama": "Gerilim denetimi donanım sinyali devreye girer; gerilim regülasyonu harici olarak kesilir (E5, olay 05, alt indeks 1).",
+      "makineTepkisi": "Güç kademesi kapanır; seyir durur.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Ana sigorta arızası",
+        "Ana kontaktör / acil durdurma şalteri sorunu",
+        "Akü kablo bağlantısı temassızlığı",
+        "Akü geriliminin yüksek olması"
+      ],
+      "kontroller": [
+        "Ana sigortayı ve kontaktör/acil stop şalterini kontrol edin",
+        "Akü kablo bağlantısını sıkılaştırın; aküyü ölçüp şarj edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F508.1",
+      "kodNormal": "F5081",
+      "aliaslar": [
+        "508.1",
+        "0508.1",
+        "5081"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Soğutma fanı düzgün çalışmıyor",
+      "aciklama": "Fan modüle edildiği hâlde hız sinyali gelmez (fan dönmüyor) veya fan akımı geçersizdir (E5, olay 08, alt indeks 1).",
+      "makineTepkisi": "Soğutma düşer; sıcaklık kaynaklı güç kısıtları tetiklenebilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Fan kablo kopukluğu",
+        "Fanın mekanik olarak sıkışması",
+        "Fan veya sinyal üreten ünite arızası"
+      ],
+      "kontroller": [
+        "Fan kablolarını ve serbest dönüşünü kontrol edin",
+        "Fanı veya sinyal üreten kontrol ünitesini değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F551.1",
+      "kodNormal": "F5511",
+      "aliaslar": [
+        "551.1",
+        "0551.1",
+        "5511"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "ISKRA direksiyon motoru iç hata bildirdi",
+      "aciklama": "ISKRA tahrik ünitesinin kontrol elektroniği dahili hata tespit eder; durum ayrı kablo üzerinden (>16 V = arıza) direksiyon denetimine bildirilir (E5, olay 51, alt indeks 1).",
+      "makineTepkisi": "Elektrikli direksiyon çalışmayabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Direksiyon motorunun aşırı ısınması",
+        "Motor sigortasının yanması",
+        "Motor kontrol elektroniği arızası"
+      ],
+      "kontroller": [
+        "Motoru soğumaya bırakın",
+        "Motor sigortalarını kontrol edip değiştirin",
+        "Gerekirse motoru değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F551.2",
+      "kodNormal": "F5512",
+      "aliaslar": [
+        "551.2",
+        "0551.2",
+        "5512"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon motoru 'Ready' durumuna geçmedi",
+      "aciklama": "Direksiyon denetimi açıldıktan 2 sn sonra ISKRA motor 'hazır' sinyali (24 V→0 V geçişi) verilmez (E5, olay 51, alt indeks 2).",
+      "makineTepkisi": "Direksiyon başlatılamaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor aşırı sıcak",
+        "Motor besleme/initialization hatası",
+        "Durum kablosu kopukluğu"
+      ],
+      "kontroller": [
+        "Motoru soğumaya bırakın",
+        "Durum kablosu ve sigortaları kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F560.1",
+      "kodNormal": "F5601",
+      "aliaslar": [
+        "560.1",
+        "0560.1",
+        "5601"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Transponder yanlış okundu veya hatalı programlandı",
+      "aciklama": "Son transponder okuması beklenen veriyi içermiyor; etkinleşme sınırı 20 ms'dir. Düz bir transponder verisi şüphelidir (E5, olay 60, alt indeks 1).",
+      "makineTepkisi": "Erişim yetkilendirmesi reddedilir; araç kilidi açılmayabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Transponder kart verisinin bozulması",
+        "Okuma başlığı konum/programlama hatası"
+      ],
+      "kontroller": [
+        "Transponder verisini kontrol edin",
+        "Gerekirse transponderi JUDIT üzerinden yeniden teach edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F601.1",
+      "kodNormal": "F6011",
+      "aliaslar": [
+        "601.1",
+        "0601.1",
+        "6011"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Yazılım sıfırlandı (dahili hata)",
+      "aciklama": "Kontrol ünitesi yazılımı dahili bir hata nedeniyle kendini sıfırlamıştır; açılış sırasında raporlanır (E6, olay 01, alt indeks 1).",
+      "makineTepkisi": "Ünite yeniden başlar; kısa kesinti oluşur.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yazılım dahili hatası",
+        "CAN-Bus bozulmasının tetiklediği yeniden başlatma",
+        "Donanım yaşlanması"
+      ],
+      "kontroller": [
+        "Aracı kapatıp açın",
+        "CAN-Bus'u kontrol edin",
+        "Yazılım güncellemesi sorun; gerekirse kontrol ünitesini değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F603.1",
+      "kodNormal": "F6031",
+      "aliaslar": [
+        "603.1",
+        "0603.1",
+        "6031"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Ana çevrim işlenmiyor",
+      "aciklama": "Denetim yazılımının ana döngüsü 100 ms boyunca hiç çalışmadı; işlemci kilitlenmesi veya bus yükü şüphelidir (E6, olay 03, alt indeks 1).",
+      "makineTepkisi": "Ünite işlevleri gecikir veya durur.",
+      "siddet": "uyari",
+      "nedenler": [
+        "CAN-Bus yükünün aşırı olması",
+        "Yazılım hatası",
+        "Donanım arızası"
+      ],
+      "kontroller": [
+        "Aracı kapatıp açın",
+        "CAN-Bus bağlantısını ve bus yükünü ölçün",
+        "Gerekirse kontrol ünitesini değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F606.1",
+      "kodNormal": "F6061",
+      "aliaslar": [
+        "606.1",
+        "0606.1",
+        "6061"
+      ],
+      "sistem": "diger",
+      "baslik": "Bileşen başlatma geçersiz (EEPROM temel alan)",
+      "aciklama": "EEPROM 0x0000-0x000F alanında checksum geçersiz; bileşen temel verileri (araç tipi, saat) tutarsızdır (E6, olay 06, alt indeks 1).",
+      "makineTepkisi": "Ünite varsayılan değerlerle çalışabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Parametre yazımı sırasında güç kesilmesi",
+        "EEPROM bellek hasarı"
+      ],
+      "kontroller": [
+        "Araç tipini girin",
+        "Varsayılan parametreleri ve saat sayacını ayarlayıp aracı kapatıp açın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F608.3",
+      "kodNormal": "F6083",
+      "aliaslar": [
+        "608.3",
+        "0608.3",
+        "6083"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Güvenlik veri kaydındaki seri numarası dongle ile eşleşmiyor",
+      "aciklama": "Güvenlik (Safe) yazılımının seri numarası araç dongle'ının elektronik seri numarasıyla örtüşmüyor; geçersiz güvenlik kaydı yüklü olabilir (E6, olay 08, alt indeks 3).",
+      "makineTepkisi": "Güvenlik denetimli fonksiyonlar kilitlenebilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Başka araca ait güvenlik veri kaydının yüklenmesi",
+        "Dongle seri numarası hatası"
+      ],
+      "kontroller": [
+        "Araç için geçerli güvenlik veri kaydını Safe'e yükleyin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F612.1",
+      "kodNormal": "F6121",
+      "aliaslar": [
+        "612.1",
+        "0612.1",
+        "6121"
+      ],
+      "sistem": "diger",
+      "baslik": "Parametre/teach-in alanı 1 checksum hatası",
+      "aciklama": "EEPROM'daki 'Parametreler / teach-in değerleri 1' alanının sağlama toplamı geçersizdir; alt indeks hatalı grubu (1-6) gösterir (E6, olay 12, alt indeks 1).",
+      "makineTepkisi": "İlgili kumandanın öğrenme değerleri kaybolur; davranış bozulabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "EEPROM yazımı sırasında gerilim düşümü",
+        "Bellek hücresi yıpranması"
+      ],
+      "kontroller": [
+        "Gaz/fren pedalı, yük sensörü veya direksiyon teach-in'ini tekrarlayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F615.1",
+      "kodNormal": "F6151",
+      "aliaslar": [
+        "615.1",
+        "0615.1",
+        "6151"
+      ],
+      "sistem": "diger",
+      "baslik": "EEPROM yapısı yazılımla uyuşmuyor",
+      "aciklama": "EEPROM'da saklanan malzeme numarası/sürüm ile çalışan yazılım eşleşmiyor; kayıtlı parametre grubu sürümü de hedefle çelişebilir (E6, olay 15, alt indeks 1).",
+      "makineTepkisi": "Parametreler eski yapıya göre yorumlanamaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Uyumsuz sürüm yüklenmesi",
+        "Ünite değişimi sonrası yapılandırmanın atlanması"
+      ],
+      "kontroller": [
+        "Araç tipini yeniden girin",
+        "Doğru yazılım sürümünü yükleyip kapatıp açın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F629.2",
+      "kodNormal": "F6292",
+      "aliaslar": [
+        "629.2",
+        "0629.2",
+        "6292"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Kişisel koruma şalteri işlevi kablo kodlamasıyla çelişiyor",
+      "aciklama": "Operatörlü araçta 'kişisel koruma şalteri işlevi' parametresi fren şalteri olarak ayarlanmamış; araç tipi kablo demetiyle kodlanmıştır ve çelişki raporlanır (E6, olay 29, alt indeks 2).",
+      "makineTepkisi": "Servis freni işlevi beklenmediği gibi davranabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yanlış kablo demeti veya parametrenin seçilmesi",
+        "Araç tipi kodlamasının değiştirilmesi"
+      ],
+      "kontroller": [
+        "0x218A 'kişisel koruma şalteri işlevi' parametresini 'brake switch' değerine ayarlayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F652.1",
+      "kodNormal": "F6521",
+      "aliaslar": [
+        "652.1",
+        "0652.1",
+        "6521"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon açı teach-in verisi geçersiz",
+      "aciklama": "'Direksiyon açı gerçek değeri öğretim' veri kaydının EEPROM geçerlilik kimliği yok; yönlendirme referansı kaybolmuştur (E6, olay 52, alt indeks 1).",
+      "makineTepkisi": "Kapalı çevrim direksiyon denetimi başlatılamaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "EEPROM kayıt kaybı",
+        "Teach-in işleminin tamamlanmaması"
+      ],
+      "kontroller": [
+        "Direksiyon ve teach parametrelerini varsayılana alın",
+        "Ön tekerlek havada iken teach-in işlemini yeniden yapın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F656.5",
+      "kodNormal": "F6565",
+      "aliaslar": [
+        "656.5",
+        "0656.5",
+        "6565"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Çevrim süresi 20 ms sınırını aştı",
+      "aciklama": "İşletim sistemi çevrim süresi 20-22 ms arasına çıkmıştır; mesaj kalıcıdır ve yalnızca acil stop sıfırlamasıyla temizlenir (E6, olay 56, alt indeks 5).",
+      "makineTepkisi": "Denetim döngüsü gecikir; tekrarlanırsa teknik destek gerekir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "CAN-Bus trafiğinin artması",
+        "Yazılım sürüm hatası",
+        "Donanım yaşlanması"
+      ],
+      "kontroller": [
+        "Acil stop ile sıfırlayın",
+        "Sürekli tekrarda Teknik Destek ile görüşün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F659.1",
+      "kodNormal": "F6591",
+      "aliaslar": [
+        "659.1",
+        "0659.1",
+        "6591"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Set cihazı tipi parametresi bağlı cihazla uyuşmuyor",
+      "aciklama": "Yazılımdaki direksiyon set cihazı tipi parametresi fiilen bağlı cihaz tipinden farklı; öz testte tespit edilir (E6, olay 59, alt indeks 1).",
+      "makineTepkisi": "Direksiyon set değeri yanlış yorumlanır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Farklı tip direksiyon koluna geçişte parametrenin güncellenmemesi"
+      ],
+      "kontroller": [
+        "Parametreyi bağlı set cihazının tipine göre doğru değere alın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F660.1",
+      "kodNormal": "F6601",
+      "aliaslar": [
+        "660.1",
+        "0660.1",
+        "6601"
+      ],
+      "sistem": "diger",
+      "baslik": "Depo alanı numarası geçersiz",
+      "aciklama": "Yapılandırılan depo alanı 0'dan küçük veya 31'den büyük; geçerli alan ataması yoktur (E6, olay 60, alt indeks 1).",
+      "makineTepkisi": "Alana özel hız/koruma profilleri uygulanamaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "JUDIT parametre girişinde hatalı alan numarası"
+      ],
+      "kontroller": [
+        "Depo alanı parametresini JUDIT üzerinden düzeltin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F688.1",
+      "kodNormal": "F6881",
+      "aliaslar": [
+        "688.1",
+        "0688.1",
+        "6881"
+      ],
+      "sistem": "diger",
+      "baslik": "Uzun ömür/akü tasarruf modu etkin",
+      "aciklama": "Akü optimizasyon modu aktiftir; akü ayarlı deşarj seviyesine ulaştığında şarj başlatılır. Seçenek müşteri gereksinimine göre etkinleşir (E6, olay 88, alt indeks 1).",
+      "makineTepkisi": "Bilgilendirme mesajıdır; akü şarj stratejisi değişir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Müşteri isteğiyle modun etkinleştirilmesi"
+      ],
+      "kontroller": [
+        "Bilgilendirme mesajıdır; davranış beklenen kapsamdadır"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F694.1",
+      "kodNormal": "F6941",
+      "aliaslar": [
+        "694.1",
+        "0694.1",
+        "6941"
+      ],
+      "sistem": "diger",
+      "baslik": "Akü parametreleri geçersiz",
+      "aciklama": "Akü yönetim verileri (tip, anma kapasitesi, şarj faktörü, seri numarası) geçersiz veya girilmemiş (E6, olay 94, alt indeks 1).",
+      "makineTepkisi": "Akü izleme/şarj yönetimi doğru çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Akü değişiminde parametrelerin girilmemesi",
+        "Akü denetim modülü arızası"
+      ],
+      "kontroller": [
+        "Parametreleri akü tip plakasıyla karşılaştırıp düzeltin",
+        "Gerekirse akü denetim modülünü değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F699.1",
+      "kodNormal": "F6991",
+      "aliaslar": [
+        "699.1",
+        "0699.1",
+        "6991"
+      ],
+      "sistem": "diger",
+      "baslik": "Araç yazılımında geçersiz program durumu",
+      "aciklama": "Geliştirme testi dışında görülmemesi gereken bir programlama durumu algılandı; ayrıntı logbook'tadır (E6, olay 99, alt indeks 1).",
+      "makineTepkisi": "Bilgilendirme amaçlıdır; tekrarında destek gerekir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yazılım hatası (geliştirme/test durumu)"
+      ],
+      "kontroller": [
+        "Arıza tekrarlanırsa Teknik Destek ile irtibata geçin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F701.1",
+      "kodNormal": "F7011",
+      "aliaslar": [
+        "701.1",
+        "0701.1",
+        "7011"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Dur izleme: seyir yavaşlatma süresinde başlamadı",
+      "aciklama": "Bir araç fonksiyonu mekanik frenlerle yavaşlama talep etti; ancak istenen yavaşlama 1 sn içinde devreye girmedi (E7, olay 01, alt indeks 1).",
+      "makineTepkisi": "Güvenlik kesintisi talep edildiği hâlde gerçekleşmemiş olabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontrolcü kesinti fonksiyonunun gecikmesi",
+        "Fren rampası ayar hatası",
+        "Yavaşlatma talebi ile hız sensörü verisi çelişkisi"
+      ],
+      "kontroller": [
+        "Kontrolcü kesinti (cut-out) fonksiyonunu kontrol edin",
+        "Fren ayar değerlerini verify edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F701.3",
+      "kodNormal": "F7013",
+      "aliaslar": [
+        "701.3",
+        "0701.3",
+        "7013"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Dur izleme: yan kaydırma kesintisi süresinde başlamadı",
+      "aciklama": "Yan kaydırma hidroliğinin durdurulması talep edildi; kesinti 0,5 sn içinde devreye girmedi (E7, olay 01, alt indeks 3).",
+      "makineTepkisi": "Talep edilen hidrolik kesinti gecikir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Vana kesinti fonksiyon gecikmesi",
+        "Hidrolik hız ayar değerlerinin uyuşmaması"
+      ],
+      "kontroller": [
+        "Kontrolcü kesinti fonksiyonunu test edin",
+        "Hız/kesinti ayar değerlerini karşılaştırın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F701.5",
+      "kodNormal": "F7015",
+      "aliaslar": [
+        "701.5",
+        "0701.5",
+        "7015"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Dur izleme: zincir boşluğu anahtarı durumu tutarsız",
+      "aciklama": "Gevşek zincir anahtarının bildirdiği durum mantıken geçersiz; etkinleşme sınırı 1 sn (E7, olay 01, alt indeks 5).",
+      "makineTepkisi": "Zincir kopması koruması güvenilir değildir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Zincir boşluğu anahtarı arızası",
+        "Anahtar kablosunda kopma/kısa devre"
+      ],
+      "kontroller": [
+        "Zincir boşluğu anahtarı durumunu kontrol edin",
+        "Gerekirse anahtarı değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F701.7",
+      "kodNormal": "F7017",
+      "aliaslar": [
+        "701.7",
+        "0701.7",
+        "7017"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Dur izleme: acil stop devresi geri beslemeleri eksik",
+      "aciklama": "Acil stop devresi açılış testinde 200 ms içinde tüm geri besleme mesajları alınamadı (E7, olay 01, alt indeks 7).",
+      "makineTepkisi": "Acil stop zincirinin bütünlüğü doğrulanamaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Acil stop devresi kablolamasında kopukluk",
+        "İlgili ünitelerden birinin geç yanıt vermesi"
+      ],
+      "kontroller": [
+        "Acil stop devresi kablolarını kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F705.1",
+      "kodNormal": "F7051",
+      "aliaslar": [
+        "705.1",
+        "0705.1",
+        "7051"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Araç seyir kesik olmasına rağmen hareket ediyor",
+      "aciklama": "Seyir kesintisi aktifken hız limit aşımlı ölçüldü; hız kesintisine rağmen araç hareket ediyor (E7, olay 05, alt indeks 1).",
+      "makineTepkisi": "Beklenmeyen hareket riski; kesinti işlevi doğrulanmalı.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Maksimum hız ayarının data sheet ile uyuşmaması",
+        "Fren rampası ayar hatası",
+        "Olaya yol açan çalışma senaryosu"
+      ],
+      "kontroller": [
+        "Maksimum hız ve fren rampası ayarlarını veri formuyla karşılaştırın",
+        "Olaya yol açan kullanım senaryosunu inceleyin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F707.1",
+      "kodNormal": "F7071",
+      "aliaslar": [
+        "707.1",
+        "0707.1",
+        "7071"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Durur pozisyonda istem dışı kalkışa karşı koruma",
+      "aciklama": "Gaz pedalından set değeri yokken hız değerlendiren girişler değişen bir gerçek hız algılar; istem dışı hareket şüphesidir (E7, olay 07, alt indeks 1).",
+      "makineTepkisi": "Kalkış engellenir; denetim kaydı düşer.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Tahrik motoru hız sensörü gürültüsü/arızası",
+        "Frenin tam tutmaması"
+      ],
+      "kontroller": [
+        "Tahrik motoru hız sensörlerini kontrol edip değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F707.3",
+      "kodNormal": "F7073",
+      "aliaslar": [
+        "707.3",
+        "0707.3",
+        "7073"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Seyir sırasında yön değiştirme komutu algılanmadı",
+      "aciklama": "Yön değiştirme komutundan sonra hız düşüşü tespit edilmedi; Pilot yön sinyali veya çift pedal devresi izlenir (E7, olay 07, alt indeks 3).",
+      "makineTepkisi": "Yön değişimi gerçekleşmeyebilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Pilot yön sinyal hatası",
+        "Çift pedal devre arızası"
+      ],
+      "kontroller": [
+        "Pilot yön sinyalini kontrol edin, gerekirse Pilot'u değiştirin",
+        "Çift pedalı test edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F707.7",
+      "kodNormal": "F7077",
+      "aliaslar": [
+        "707.7",
+        "0707.7",
+        "7077"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Hız sınırlaması devre dışı kalma riski",
+      "aciklama": "Ölçülen hız, 'maks. geri hız' ve/veya 'maks. ileri hız' parametrelerinin belirttiği değerleri aşar; hız limiti fiilen çalışmıyor olabilir (E7, olay 07, alt indeks 7).",
+      "makineTepkisi": "Hız limitleme koruması işlevsiz kalır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hız parametrelerinin yanlış girilmesi",
+        "Yükseklik sensörü opsiyonunun hız profiline bağlı olmaması"
+      ],
+      "kontroller": [
+        "'Maks. ileri/geri hız' parametrelerini kontrol edin",
+        "Kaldırma yüksekliği sensörü opsiyonunu doğrulayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F801.1",
+      "kodNormal": "F8011",
+      "aliaslar": [
+        "801.1",
+        "0801.1",
+        "8011"
+      ],
+      "sistem": "iletisim",
+      "baslik": "CAN-Bus hatalı: düğüm Bus Off bildirdi",
+      "aciklama": "Bir CAN düğümü CiA acil durum kodu 8140 ile 'Bus Off'tan kurtulma' bildirdi; olay gönderen düğüm numarasıyla loglanır (E8, olay 01, alt indeks 1).",
+      "makineTepkisi": "Düğüm geçici olarak bus'tan düştü ve geri geldi.",
+      "siddet": "uyari",
+      "nedenler": [
+        "CAN hattında kısa devre/bozulma",
+        "Elektromanyetik girişim",
+        "Sonlandırma direnci hatası"
+      ],
+      "kontroller": [
+        "CAN-Bus sinyalini ölçün",
+        "Kare sızıntısı (frame leakage) olupmadığını kontrol edin",
+        "Ek potansiyel bağlantısını (bonding) kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F801.2",
+      "kodNormal": "F8012",
+      "aliaslar": [
+        "801.2",
+        "0801.2",
+        "8012"
+      ],
+      "sistem": "iletisim",
+      "baslik": "CAN-Bus hatalı: sürücü 'passive' moda geçti",
+      "aciklama": "Düğüm EMCY 8120 ile CAN'ın Error Passive moduna geçtiğini bildirdi; bus üzerindeki hata sayısı artıyor demektir (E8, olay 01, alt indeks 2).",
+      "makineTepkisi": "Telegram kaybı riski yükselir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hatalı düğümün sürekli bozuk çerçeve göndermesi",
+        "Bus fiziksel katman bozulması"
+      ],
+      "kontroller": [
+        "CAN-Bus fiziksel özelliklerini kontrol edin",
+        "Sinyal ölçümü yapın; sonlandırma dirençleri %60 ± 10 kontrol edilmelidir"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F801.3",
+      "kodNormal": "F8013",
+      "aliaslar": [
+        "801.3",
+        "0801.3",
+        "8013"
+      ],
+      "sistem": "iletisim",
+      "baslik": "CAN-Bus hatalı: sürücü telegram tamponu taştı",
+      "aciklama": "Düğüm EMCY 8110 ile 'CAN overrun (kayıp nesne)' bildirdi; tampon taşması nesne kayıplarına yol açar (E8, olay 01, alt indeks 3).",
+      "makineTepkisi": "Bazı CAN nesneleri kaybolur.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Aşırı bus yükü",
+        "Yavaşlayan düğüm",
+        "Gürültü kaynaklı yeniden iletimler"
+      ],
+      "kontroller": [
+        "Bus fiziksel özelliklerini ve sinyal kalitesini ölçün",
+        "Düğümün güç beslemesini kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F811.1",
+      "kodNormal": "F8111",
+      "aliaslar": [
+        "811.1",
+        "0811.1",
+        "8111"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Safe bilgisayarı CANopenSync kaçırıldı",
+      "aciklama": "Safe (güvenlik) bilgisayarları köleden CANopenSync senkron telegramını 20 ms sınırında kaçırdı; yedekli hesaplama senkronu bozulur (E8, olay 11, alt indeks 1).",
+      "makineTepkisi": "Güvenlik fonksiyonları kilitlenebilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Bus sinyal bozulması",
+        "Slave düğüm gecikmesi",
+        "Kare sızıntısı"
+      ],
+      "kontroller": [
+        "CAN-Bus fiziksel özelliklerini ölçün",
+        "Kare sızıntısını kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F813.1",
+      "kodNormal": "F8131",
+      "aliaslar": [
+        "813.1",
+        "0813.1",
+        "8131"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "SRDO izleme zaman aşımı (telegram 1)",
+      "aciklama": "İzlenen slave'in periyodik SRDO telegramı 2,5 tekrar süresi boyunca hiç gelmedi (E8, olay 13, alt indeks 1).",
+      "makineTepkisi": "İzlenen güvenlik verisi güncellenmez.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Düğümün bus'tan düşmesi",
+        "Kablo kopukluğu",
+        "Besleme kesintisi"
+      ],
+      "kontroller": [
+        "CAN-Bus fiziksel katmanını ölçün",
+        "Ekipotansiyel bağlama ve sonlandırma dirençlerini (%60±10) kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F817.1",
+      "kodNormal": "F8171",
+      "aliaslar": [
+        "817.1",
+        "0817.1",
+        "8171"
+      ],
+      "sistem": "motor",
+      "baslik": "Motor CAN bus iletişimi bozuk",
+      "aciklama": "Motor kontrol ünitesinden beklenen telegramlar alınamıyor; dizel/LPG motor yönetimiyle iletişim kesilmiş (E8, olay 17, alt indeks 1).",
+      "makineTepkisi": "Motor verileri izlenemez; harç/rejenerasyon stratejileri çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor ECU besleme veya bus bağlantı hatası",
+        "Arızalı ECU",
+        "Değerlendiren ünitenin bozulması"
+      ],
+      "kontroller": [
+        "CAN bus bağlantısını kontrol edin",
+        "ECU hata logbook'unu okuyup gereğini yapın",
+        "Gerekirse motor ECU veya araç denetim ünitesini değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F817.2",
+      "kodNormal": "F8172",
+      "aliaslar": [
+        "817.2",
+        "0817.2",
+        "8172"
+      ],
+      "sistem": "motor",
+      "baslik": "Motor arıza teşhis bus'u bozuk",
+      "aciklama": "Motor kontrol ünitesine teşhis sorgusu sırasında hata oluşuyor; LPG'de CAN, dizelde K-hattı izlenir (E8, olay 17, alt indeks 2).",
+      "makineTepkisi": "Teşhis erişimi çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "K-CAN hattı kopukluğu",
+        "Arızalı ECU",
+        "Konektör oksitlenmesi"
+      ],
+      "kontroller": [
+        "LPG'de CAN, dizelde K hattını kontrol edin",
+        "ECU logbook'unu okuyun"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F901.1",
+      "kodNormal": "F9011",
+      "aliaslar": [
+        "901.1",
+        "0901.1",
+        "9011"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "'Emniyet şalteri' ve 'seyir' set değeri geçersiz kombinasyonu",
+      "aciklama": "Emniyet şalteri basılı değilken 500 ms boyunca seyir set değeri bulunursa mesaj üretilir; yanlış kullanımda da tetiklenebilir (E9, olay 01, alt indeks 1).",
+      "makineTepkisi": "Seyir başlatılmaz; uyarı düşer.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Jokey kol bırakılmadan kontağın açılması",
+        "Emniyet şalteri (deadman) kablosunda kopukluk",
+        "Seyir şalteri arızası"
+      ],
+      "kontroller": [
+        "Emniyet şalterini kapalı konuma alın",
+        "Seyir şalteri/akseleratör pedal/devre kablolarını kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F902.1",
+      "kodNormal": "F9021",
+      "aliaslar": [
+        "902.1",
+        "0902.1",
+        "9021"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "'Emniyet şalteri' ve 'kaldırma' set değeri geçersiz",
+      "aciklama": "Emniyet şalteri basılı değilken 500 ms kaldırma set değeri ölçülürse olay üretilir (E9, olay 02, alt indeks 1).",
+      "makineTepkisi": "Hidrolik kaldırma kilitli kalır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma kolunun açılışta nötrde bırakılmaması",
+        "Hidrolik set cihazı arızası"
+      ],
+      "kontroller": [
+        "Kaldırma kolunu nötre alın",
+        "Kaldırma set cihazını ve kablolarını kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F904.1",
+      "kodNormal": "F9041",
+      "aliaslar": [
+        "904.1",
+        "0904.1",
+        "9041"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "'Seyir' set değeri ile 'yön yok' kombinasyonu geçersiz",
+      "aciklama": "Seyir şalteri aktif fakat yön girişi yok; 500 ms sürerse mesaj üretilir (E9, olay 04, alt indeks 1).",
+      "makineTepkisi": "Araç komutu işlemez; yanlış kullanımda sık görülür.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yön seçilmeden seyre basılması",
+        "Yön şalteri kontak hatası"
+      ],
+      "kontroller": [
+        "Yönü seçip yeniden deneyin",
+        "Yön şalteri ve kablolarını kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F908.1",
+      "kodNormal": "F9081",
+      "aliaslar": [
+        "908.1",
+        "0908.1",
+        "9081"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "'Seyir/kaldırma set değeri' ile 'emniyet şalteri açık' geçersiz",
+      "aciklama": "Emniyet şalteri basılı değilken seyir veya hidrolik set değeri sıfır değilse olay üretilir (E9, olay 08, alt indeks 1).",
+      "makineTepkisi": "Fonksiyonlar bloke edilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Operatörün kolları nötre almadan manevra yapması",
+        "Şalter devresi hatası"
+      ],
+      "kontroller": [
+        "Kumanda kollarını nötre alın",
+        "Emniyet şalteri ve kablo bağlantılarını kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F909.1",
+      "kodNormal": "F9091",
+      "aliaslar": [
+        "909.1",
+        "0909.1",
+        "9091"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "'Seyir' ve 'el freni' set değeri geçersiz kombinasyonu",
+      "aciklama": "El freni çekiliyken 500 ms boyunca seyir set değeri sıfır değilse mesaj üretilir; yanlış kullanımda tetiklenir (E9, olay 09, alt indeks 1).",
+      "makineTepkisi": "Seyir engellenir; uyarı düşer.",
+      "siddet": "uyari",
+      "nedenler": [
+        "El freni çekili gaz verilmesi",
+        "Fren şalterinin yanlış sinyal vermesi"
+      ],
+      "kontroller": [
+        "El frenini indirin",
+        "Manyetik fren/el freni şalterini kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F910.1",
+      "kodNormal": "F9101",
+      "aliaslar": [
+        "910.1",
+        "0910.1",
+        "9101"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "'Kaldırma/indirme' ve 'güvenlik yüksekliği' geçersiz kombinasyonu",
+      "aciklama": "Kaldırma/indirme set değeri ile güvenlik yüksekliği anahtarı birlikte geçersiz durumu oluşturur; bilgilendirme mesajıdır (E9, olay 10, alt indeks 1).",
+      "makineTepkisi": "Bilgilendirme amaçlıdır; kaldırma sınırlaması aktif kalabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Güvenlik yüksekliği switchi ile kolun birlikte kullanımı"
+      ],
+      "kontroller": [
+        "Direği uzatın / çatal taşıyıcıyı kaldırarak kombinasyonu düzeltin",
+        "Yükseklik switchini kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F911.1",
+      "kodNormal": "F9111",
+      "aliaslar": [
+        "911.1",
+        "0911.1",
+        "9111"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "'Kapı açık' sinyali aktif",
+      "aciklama": "Kapı açık sensörü sinyal verir; bilgilendirme mesajıdır (E9, olay 11, alt indeks 1).",
+      "makineTepkisi": "Kapı açıkken ilgili güvenlik fonksiyonları devrede kalabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kabin/malzeme kapısının açık unutulması",
+        "Kapı switchinin arızalanması"
+      ],
+      "kontroller": [
+        "Kapakları kapatın",
+        "'Kapı açık' switchini ve değerlendiren üniteyi kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F914.1",
+      "kodNormal": "F9141",
+      "aliaslar": [
+        "914.1",
+        "0914.1",
+        "9141"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Açılışta operatör koruma şalteri basılı",
+      "aciklama": "Sistem açılırken operatör koruma şalterine basılı; bilgilendirme mesajıdır (E9, olay 14, alt indeks 1).",
+      "makineTepkisi": "Açılışta fonksiyon kilidi oluşabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontağın şaltere basılı halde çevrilmesi"
+      ],
+      "kontroller": [
+        "Açılışta koruma şalterine basmayın; tekrar ederse kabloları kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F915.1",
+      "kodNormal": "F9151",
+      "aliaslar": [
+        "915.1",
+        "0915.1",
+        "9151"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Akü kapağı açık ve araç duruyor (<1 km/s)",
+      "aciklama": "'Akü kapısı açık' sinyali araç dururken (hız < 1 km/s) 500 ms boyunca aktif; hareket halindeyken ayrı alt indeksler izlenir (E9, olay 15, alt indeks 1).",
+      "makineTepkisi": "Akü değişimi uyarısı verilir; seyir kısıtlanabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Akü kapısının kilitlenmemesi",
+        "Kapak sensörü ayar/kablo hatası"
+      ],
+      "kontroller": [
+        "Akü kapağını kilitleyin",
+        "Kapak sensörünü ayarlayın veya değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F916.1",
+      "kodNormal": "F9161",
+      "aliaslar": [
+        "916.1",
+        "0916.1",
+        "9161"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Harici fonksiyon/cihazla seyir kesintisi",
+      "aciklama": "Harici bir fonksiyon veya cihaz 500 ms boyunca 'seyir kes' girişi üretti; bilgilendirme mesajıdır (E9, olay 16, alt indeks 1).",
+      "makineTepkisi": "Dış ekipman isteğiyle seyir durur.",
+      "siddet": "uyari",
+      "nedenler": [
+        "İşaret/çarpışma önleme sistemi gibi harici cihazın devreye girmesi",
+        "Kontaktör/role girişinin açık kalması"
+      ],
+      "kontroller": [
+        "Seyir kesme koşulunu üreten harici cihazı kontrol edin",
+        "Kablo bağlantılarını ölçün"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F917.1",
+      "kodNormal": "F9171",
+      "aliaslar": [
+        "917.1",
+        "0917.1",
+        "9171"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "'Seyir' ve 'fren pedalı' set değeri birlikte geçersiz",
+      "aciklama": "Akseleratör ve fren pedalı 500 ms boyunca aynı anda basılı; yanlış kullanımda tetiklenir (E9, olay 17, alt indeks 1).",
+      "makineTepkisi": "Seyir başlatılmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "İki pedala aynı anda basılması (yanlış kullanım)",
+        "Pedal sensörlerinin kalibrasyon kayması"
+      ],
+      "kontroller": [
+        "Yalnızca bir pedala basın",
+        "Pedal sensörlerini kontrol edip değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F918.1",
+      "kodNormal": "F9181",
+      "aliaslar": [
+        "918.1",
+        "0918.1",
+        "9181"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Kabin kapısı açık",
+      "aciklama": "Kapı açıkken emniyet şalteri basılı ve seyir set değeri > 0; 500 ms sürerse mesaj üretilir (E9, olay 18, alt indeks 1).",
+      "makineTepkisi": "Kabin kapalı olmadan seyir onayı bekletilebilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kabin kapısının açık unutulması",
+        "Kapı switchi arızası"
+      ],
+      "kontroller": [
+        "Kabin kapısını kapatın",
+        "Kapı switchi ve kablolarını kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F919.1",
+      "kodNormal": "F9191",
+      "aliaslar": [
+        "919.1",
+        "0919.1",
+        "9191"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Kaldırma aşırı yüklendi",
+      "aciklama": "Maksimum yük aşıldı; yük ölçüm sensörleri referans ölçümü ile doğrulanmalıdır (E9, olay 19, alt indeks 1).",
+      "makineTepkisi": "Aşırı yük uyarısı verilir; kaldırma limiti aşılabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Anma kapasitesinin üzerinde yük",
+        "Yük ölçüm sensörü sapması",
+        "Teach verisinin kayması"
+      ],
+      "kontroller": [
+        "Yük için referans ölçüm yapın",
+        "Yük ölçümünü yeniden teach edin",
+        "Sensör ve kabloları kontrol edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F920.1",
+      "kodNormal": "F9201",
+      "aliaslar": [
+        "920.1",
+        "0920.1",
+        "9201"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "'Servis freni testi' servis fonksiyonu",
+      "aciklama": "JUDIT üzerinden etkinleştirilen servis freni testi aracı durana kadar frenler; kayıt kontak kapatılınca silinir (E9, olay 20, alt indeks 1).",
+      "makineTepkisi": "Test süresince araç frenlenerek durdurulur.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Servis personelinin fren testi başlatması"
+      ],
+      "kontroller": [
+        "Bilgilendirme mesajıdır; test bitince kontağı açıp kapatın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F922.1",
+      "kodNormal": "F9221",
+      "aliaslar": [
+        "922.1",
+        "0922.1",
+        "9221"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "'Mekanik servis freni testi' servis fonksiyonu",
+      "aciklama": "Rejeneratif fren servis elemanı tarafından kapatıldı (JUDIT); mekanik fren bağımsız test edilebilir. Test sonrası 5 dk'da veya kontakla sıfırlanır (E9, olay 22, alt indeks 1).",
+      "makineTepkisi": "Rejeneratif frenleme geçici devre dışıdır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Servis personelinin test başlatması"
+      ],
+      "kontroller": [
+        "Bilgilendirme mesajıdır; test bitince aracı kapatıp açın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F925.1",
+      "kodNormal": "F9251",
+      "aliaslar": [
+        "925.1",
+        "0925.1",
+        "9251"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Açılışta manevra (shunting) şalteri basılı",
+      "aciklama": "Sistem açılırken manevra şalteri aktif; bilgilendirme mesajıdır (E9, olay 25, alt indeks 1).",
+      "makineTepkisi": "Manevra modu istemeden seçilebilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Açılışta manevra butonuna basılması",
+        "Şalter kablo hatası"
+      ],
+      "kontroller": [
+        "Kontağı kapatıp açın; açılışta butona basmayın",
+        "Gerekirse şalteri değiştirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F931.1",
+      "kodNormal": "F9311",
+      "aliaslar": [
+        "931.1",
+        "0931.1",
+        "9311"
+      ],
+      "sistem": "motor",
+      "baslik": "Motor stop önleme (anti-stall) aktif",
+      "aciklama": "Çalışma hidroliği yükü fazla olduğu için motor stop eşiğine yaklaştı; devir düşüşü koruması devrede (E9, olay 31, alt indeks 1).",
+      "makineTepkisi": "Hidrolik talep geçici kısıtlanır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hidrolik kolların aynı anda yük altında kullanılması"
+      ],
+      "kontroller": [
+        "Çalışma hidroliği kollarını nötr konuma alın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F933.1",
+      "kodNormal": "F9331",
+      "aliaslar": [
+        "933.1",
+        "0933.1",
+        "9331"
+      ],
+      "sistem": "motor",
+      "baslik": "Dizel partikül filtresi yüklenmesi yüksek",
+      "aciklama": "Motor kontrol ünitesi partikül filtresi yüklenmesinin limit değeri aştığını tespit etti (E9, olay 33, alt indeks 1).",
+      "makineTepkisi": "Rejenerasyon gereksinimi artar; motor korumaya geçebilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kısa mesalı düşük devirli çalışma",
+        "Rejenerasyon çevriminin tamamlanamaması"
+      ],
+      "kontroller": [
+        "ECU hata logbook'unu okuyun",
+        "Onarım kılavuzundaki rejenerasyon adımlarını uygulayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F934.1",
+      "kodNormal": "F9341",
+      "aliaslar": [
+        "934.1",
+        "0934.1",
+        "9341"
+      ],
+      "sistem": "motor",
+      "baslik": "Dizel partikül filtresi yüklenmesi kritik",
+      "aciklama": "Motor kontrol ünitesi DPF rejenerasyonu sırasında hata tespit etti; durum kritik seviyededir (E9, olay 34, alt indeks 1).",
+      "makineTepkisi": "Motor gücü kalıcı sınırlanabilir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Tıkanmış partikül filtresi",
+        "Rejenerasyon sistemi arızası",
+        "Yakıt/egzoz sensör hataları"
+      ],
+      "kontroller": [
+        "ECU hata logbook'unu okuyun",
+        "Onarım kılavuzuna göre filtreyi/rejenerasyonu servise işletin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F938.1",
+      "kodNormal": "F9381",
+      "aliaslar": [
+        "938.1",
+        "0938.1",
+        "9381"
+      ],
+      "sistem": "diger",
+      "baslik": "Akü şarj göstergesi %0",
+      "aciklama": "Deşarj göstergesi akü şarjını %0 olarak gösteriyor; akü hemen şarja alınmalıdır (E9, olay 38, alt indeks 1).",
+      "makineTepkisi": "Akü derin deşarj riski altındadır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Uzun süre şarjsız kullanım"
+      ],
+      "kontroller": [
+        "Bilgilendirme mesajıdır; aküyü şarj edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F942.1",
+      "kodNormal": "F9421",
+      "aliaslar": [
+        "942.1",
+        "0942.1",
+        "9421"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Rezervuar seviyesi çok düşük",
+      "aciklama": "Rezervuar seviyesi kapasitenin %2'sinin altına düştü (E9, olay 42, alt indeks 1).",
+      "makineTepkisi": "Kavitasyon/hidrolik arıza riski yükselir.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yağ kaçağı",
+        "Eksik yağlama/bakım"
+      ],
+      "kontroller": [
+        "İşletme kılavuzuna göre yağ/tanker seviyesini tamamlayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F961.1",
+      "kodNormal": "F9611",
+      "aliaslar": [
+        "961.1",
+        "0961.1",
+        "9611"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "ISM dikey darbe olayı (seviye 1 - hafif)",
+      "aciklama": "Aksiyon hafızası modülü hafif (1. seviye) dikey darbe kaydetti; bilgilendirme mesajıdır (E9, olay 61, alt indeks 1).",
+      "makineTepkisi": "Darbe kaydı loglanır; tekrarlarında limit parametreleri sorgulanır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldıraç/manevra sırasında sert kullanım",
+        "Zemin bozukluğu"
+      ],
+      "kontroller": [
+        "Aracın darbe noktalarını kontrol edin",
+        "Gerekirse darbe limit parametrelerini gözden geçirin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F970.1",
+      "kodNormal": "F9701",
+      "aliaslar": [
+        "970.1",
+        "0970.1",
+        "9701"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Açılış testinde kumanda butonlarına basılı",
+      "aciklama": "Safe bilgisayarları güç verme testinde basılı kumanda butonu algıladı; bilgilendirme mesajıdır (E9, olay 70, alt indeks 1).",
+      "makineTepkisi": "Açılış kilidi oluşabilir; tekrar ederse sensörler sorgulanır.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontak açılırken kollara/butonlara basılması"
+      ],
+      "kontroller": [
+        "Kontağı açıp kapatın; açılışta kumandalara basmayın"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F990.1",
+      "kodNormal": "F9901",
+      "aliaslar": [
+        "990.1",
+        "0990.1",
+        "9901"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Akü elektrolit seviyesi düşük",
+      "aciklama": "Akü denetim modülü elektrolit seviye sensöründen 'elektrolit yok' sinyali aldı; ölçüm akımsız 5 dk koşulunda yapılır (E9, olay 90, alt indeks 1).",
+      "makineTepkisi": "Akü hasar görmemesi için deşarj/şarj izlenmeli.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Damıtık su takviyesinin gecikmesi",
+        "Seviye sensörünün elektrolit dışında kalması",
+        "Sensör/kablo arızası"
+      ],
+      "kontroller": [
+        "Elektrolit seviyesini kontrol edin",
+        "Seviye sensörü ve kablolarını test edin"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F992.1",
+      "kodNormal": "F9921",
+      "aliaslar": [
+        "992.1",
+        "0992.1",
+        "9921"
+      ],
+      "sistem": "diger",
+      "baslik": "Şarj cihazı: telsiz ağ kurulamadı",
+      "aciklama": "Akü yönetim sistemi açıldığında şarj cihazı telsiz ağa bağlanamadı; şarj altyapısı izleme dışı kaldı (E9, olay 92, alt indeks 1).",
+      "makineTepkisi": "Uzaktan şarj izleme çalışmaz.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Telsiz ağ altyapısının erişilememesi",
+        "Şarj kablosu sigortasının yanması",
+        "Eski yazılım sürümü"
+      ],
+      "kontroller": [
+        "Şarj kablosu sigortasını kontrol edip değiştirin",
+        "Yazılım güncellemesini sorun"
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/jungheinrich-error-codes/",
+      "durum": "incelemede"
+    }
+  ]
+}

@@ -12,18 +12,18 @@
       "kodNormal": "12",
       "aliaslar": [],
       "sistem": "yuruyus",
-      "baslik": "Kontrolör aşırı akım",
-      "aciklama": "Çekiş sürücüsünün çıkış akımı güvenli sınırı aştı; motor faz bağlantılarında kısa devre ya da parametre uyumsuzluğu akımı yükseltiyor olabilir.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "Kontrolcü aşırı akım",
+      "aciklama": "Çekiş sürücüsünün çıkış akımı güvenli sınırı aştı; motorun faz bağlantılarında kısa devre ya da parametre uyumsuzluğu akımı yükseltiyor olabilir.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Motor U-V-W bağlantılarında kısa devre",
-        "Motor parametrelerinin kontrolörle uyuşmaması",
-        "Kontrolör arızası"
+        "Motorun U-V-W bağlantılarında kısa devre",
+        "Motorun parametrelerinin kontrolörle uyuşmaması",
+        "Kontrolcü arızası"
       ],
       "kontroller": [
-        "Motor bağlantılarında kısa devre arayın",
-        "Motor parametrelerini doğrulayın",
+        "Motorun bağlantılarında kısa devre arayın",
+        "Motorun parametrelerini doğrulayın",
         "Gerekirse kontrolörü değiştirin"
       ],
       "ilgiliKodlar": [],
@@ -38,14 +38,14 @@
       "sistem": "motor",
       "baslik": "Akım sensörü hatası",
       "aciklama": "Faz akımını ölçleyen sensör saçma okuma üretiyor; kaçak akım ya da sensör kartı arızası tipiktir.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Motor U-V-W hattından şasiye kaçak akım",
-        "Kontrolör arızası"
+        "Motorun U-V-W hattından şasiye kaçak akım",
+        "Kontrolcü arızası"
       ],
       "kontroller": [
-        "Motor kablosunda gövdeye kaçağı kontrol edin",
+        "Motorun kablosunda gövdeye kaçağı kontrol edin",
         "Arıza sürerse kontrolörü değiştirin"
       ],
       "ilgiliKodlar": [],
@@ -58,12 +58,14 @@
       "kodNormal": "14",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Ön şarj (precharge) başarısız",
-      "aciklama": "Ana kontaktör öncesi kapasitör ön şarjı tamamlanamadı; kontrolör ana gücü bağlayamıyor.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "Ön şarj (ön şarj) başarısız",
+      "aciklama": "Ana kontaktör öncesi kapasitör ön şarjı tamamlanamadı; kontrolcü ana gücü bağlayamıyor.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Akü şarj olamıyor / besleme yok"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Ön kontaktör yapışması"
       ],
       "kontroller": [
         "Akü ve şarj cihazını kontrol edin",
@@ -79,15 +81,19 @@
       "kodNormal": "15",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Kontrolör aşırı düşük sıcaklık",
-      "aciklama": "Kontrolör soğutucusu çalışmaya izin vermeyecek kadar soğuk; yağlama/yoğuşma riski nedeniyle başlangıç engellenir.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "Kontrolcü aşırı düşük sıcaklık",
+      "aciklama": "Kontrolcü soğutucusu çalışmaya izin vermeyecek kadar soğuk; yağlama/yoğuşma riski nedeniyle başlangıç engellenir.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kontrolörün aşırı soğuk ortamda çalıştırılması"
+        "Ortam sıcaklığının çok düşük olması",
+        "Soğukta yağlama viskozitesinin artması",
+        "Düşük sıcaklıkta pil kapasitesinin azalması"
       ],
       "kontroller": [
-        "Aracı daha sıcak bir ortama alıp çalıştırın"
+        "Ortam sıcaklığını ölçün",
+        "Aracı daha sıcak bir ortama alıp çalıştırın",
+        "Soğuk başlatma eşiğini doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -99,19 +105,18 @@
       "kodNormal": "16",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Kontrolör aşırı yüksek sıcaklık",
-      "aciklama": "Soğutucu sıcaklığı kritik eşiği geçti; kontrolör akımı keserek termal hasarı önlemeye çalışır.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "Kontrolcü aşırı yüksek sıcaklık",
+      "aciklama": "Soğutucu sıcaklığı kritik eşiği geçti; kontrolcü akımı keserek termal hasarı önlemeye çalışır.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Zorlu çalışma ortamı",
-        "Aracın aşırı yüklenmesi",
         "Kontrolörün yanlış monte edilmesi"
       ],
       "kontroller": [
         "Yükü azaltın",
         "Havalandırmayı iyileştirin",
-        "Kontrolör montajını kontrol edin"
+        "Kontrolcü montajını kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -124,12 +129,12 @@
       "aliaslar": [],
       "sistem": "batarya",
       "baslik": "Aşırı düşük gerilim (kapanma seviyesi)",
-      "aciklama": "Batarya hattı gerilimi kritik alt sınırı gördü; kontrolör devreyi açıp gücü keser.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "aciklama": "Batarya hattı gerilimi kritik alt sınırı gördü; kontrolcü devreyi açıp gücü keser.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Batarya parametrelerinin yanlış ayarı",
-        "Kontrolör dışı sistemlerin güç çekmesi",
+        "Kontrolcü dışı sistemlerin güç çekmesi",
         "Yüksek akü empedansı",
         "Akü bağlantısının kopması"
       ],
@@ -149,7 +154,7 @@
       "sistem": "batarya",
       "baslik": "Aşırı yüksek gerilim (kapanma seviyesi)",
       "aciklama": "Hat gerilimi kritik üst sınırı aştı; rejeneratif frenlemede akü bağlantısının kopması gerilimi fırlatabilir.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Batarya parametrelerinin yanlış ayarı",
@@ -170,9 +175,9 @@
       "kodNormal": "22",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Kontrolör sıcaklıktan performans kısma",
-      "aciklama": "Sıcaklık uyarı kademesine ulaştı; kontrolör akımı sınırlayarak çalışma sürdürebilir ama performans düşer.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "Kontrolcü sıcaklıktan güç kısıtlama",
+      "aciklama": "Sıcaklık uyarı kademesine ulaştı; kontrolcü akımı sınırlayarak çalışma sürdürebilir ama performans düşer.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Zorlu ortam",
@@ -181,7 +186,7 @@
       ],
       "kontroller": [
         "Yüku azaltıp soğumayı bekleyin",
-        "Kontrolör kurulumunu gözden geçirin"
+        "Kontrolcü kurulumunu gözden geçirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -193,9 +198,9 @@
       "kodNormal": "23",
       "aliaslar": [],
       "sistem": "batarya",
-      "baslik": "Düşük gerilimden performans kısma",
-      "aciklama": "Batarya gerilimi alt uyarı eşiğine indi; kontrolör akım çekmeyi kısıtlar.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "Düşük gerilimden güç kısıtlama",
+      "aciklama": "Batarya gerilimi alt uyarı eşiğine indi; kontrolcü akım çekmeyi kısıtlar.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Zayıf akü",
@@ -216,9 +221,9 @@
       "kodNormal": "24",
       "aliaslar": [],
       "sistem": "batarya",
-      "baslik": "Yüksek gerilimden performans kısma",
-      "aciklama": "Geri kazanımlı frenlemede hat gerilimi üst uyarı kademesine çıktı; kontrolör çekişi kısar.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "Yüksek gerilimden güç kısıtlama",
+      "aciklama": "Geri kazanımlı frenlemede hat gerilimi üst uyarı kademesine çıktı; kontrolcü çekişi kısar.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Rejeneratif frenlemenin gerilimi yükseltmesi",
@@ -238,12 +243,14 @@
       "kodNormal": "28",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Motor sıcaklığından performans kısma",
-      "aciklama": "Çekiş motoru sıcaklığı 'hot' ayarına ulaştı; kontrolör çıkış akımını düşürür.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "Motorun sıcaklığından güç kısıtlama",
+      "aciklama": "Çekiş motoru sıcaklığı 'hot' ayarına ulaştı; kontrolcü çıkış akımını düşürür.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Motor sıcaklığının programlanan sıcak sınırda/üzerinde olması"
+        "Ortam sıcaklığının yüksek olması",
+        "Soğutma kanalında kir birikimi",
+        "Sürüş motoru sargı yalıtımı zayıflaması"
       ],
       "kontroller": [
         "Motorun soğumasını bekleyin",
@@ -259,15 +266,20 @@
       "kodNormal": "29",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Motor sıcaklık sensörü hatası",
-      "aciklama": "Motor termistörü okuması alınamıyor/arızalı; termal kısma stratejisi çalışamaz.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "Motorun sıcaklık sensörü hatası",
+      "aciklama": "Motorun termistörü okuması alınamıyor/arızalı; termal kısma stratejisi çalışamaz.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Motor sıcaklık sensörünün düzgün bağlanmamış olması"
+        "Ortam sıcaklığının yüksek olması",
+        "Soğutma kanalında kir birikimi",
+        "Sensör kalibrasyon kaybı"
       ],
       "kontroller": [
-        "Sıcaklık sensörü kablosunu ve konektörünü kontrol edin"
+        "Sıcaklık sensörü kablosunu ve konektörünü kontrol edin",
+        "Yükü azaltıp yeniden deneyin",
+        "Sıcaklığı ölçün",
+        "Sensör konnektörünü görsel kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -281,7 +293,7 @@
       "sistem": "elektrik",
       "baslik": "Sürücü bobin çıkışı açık/kısa",
       "aciklama": "Yardımcı bobin sürücü çıkışında yük açık ya da kısa devre; ilgili aktüatör çalışmaz.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Bağlı yükün açık/kısa devre olması",
@@ -305,10 +317,12 @@
       "sistem": "fren",
       "baslik": "Manyetik fren bobini açık/kısa",
       "aciklama": "Elektromanyetik fren bobin devresi açık veya kısa; fren bırakma/tutma komutu uygulanamaz.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Fren bobini açık ya da kısa devre"
+        "Kablo ezilmesi",
+        "Sigorta atması",
+        "Fren ayarının bozulması"
       ],
       "kontroller": [
         "Fren bobini ve kablosunu kontrol edin",
@@ -325,11 +339,11 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "Enkoder hatası",
-      "aciklama": "Motor enkoder geri beslemesi yok/geçersiz; kapalı çevrim hız denetimi bozulur.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "aciklama": "Motorun enkoder geri beslemesi yok/geçersiz; kapalı çevrim hız denetimi bozulur.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Motor enkoderinin arızalanması",
+        "Motorun enkoderinin arızalanması",
         "Yanlış enkoder kablolaması"
       ],
       "kontroller": [
@@ -346,16 +360,19 @@
       "kodNormal": "37",
       "aliaslar": [],
       "sistem": "elektrik",
-      "baslik": "Motor açık devre",
-      "aciklama": "Çekiş motoru faz sargısı/faz hattı açık; akım yolu oluşmaz ve motor moment üretemez.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "Motorun açık devresi",
+      "aciklama": "Çekiş motoru faz sargısı/faz hattı açık; akım yolu oluşmaz ve motorun moment üretemez.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Motor fazının açık olması",
+        "Motorun fazının açık olması",
         "Arızalı kablo"
       ],
       "kontroller": [
-        "Faz bağlantılarını ve kablo bütünlüğünü kontrol edin"
+        "Faz bağlantılarını ve kablo bütünlüğünü kontrol edin",
+        "Konnetörü görsel kontrol edin",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Sürüş motoru faz bağlantılarını kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -369,15 +386,15 @@
       "sistem": "motor",
       "baslik": "Ana kontaktör yapışık (kaynaklı)",
       "aciklama": "Güç kontaktörünün kontakları kaynaşmış; devre komut dışı enerjili kalır — ciddi iş güvenliği riski.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Kontaktör kontak uçlarının kaynak yapması",
-        "Motor U veya V ucunun kopuk/faz hatası"
+        "Motorun U veya V ucunun kopuk/faz hatası"
       ],
       "kontroller": [
         "Ana kontaktörü değiştirin",
-        "Motor bağlantılarını kontrol edin"
+        "Motorun bağlantılarını kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -391,7 +408,7 @@
       "sistem": "batarya",
       "baslik": "Ana kontaktör kapanmadı",
       "aciklama": "Kontaktör kapatma komutuna rağmen kapandı doğrulaması alınamıyor; B+ hattı akü potansiyeli taşıyor olabilir.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Kontaktörün kapanmaması",
@@ -415,13 +432,18 @@
       "sistem": "diger",
       "baslik": "Gaz potansiyometresi üst sınır üstünde",
       "aciklama": "Pedal sensörü çıkış gerilimi beklenen üst sınırı aşıyor; pedal konumu okunamıyor.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Gaz potansiyometresi wiper geriliminin çok yüksek olması"
+        "Yanlış gerilim sınıfı yapılandırması",
+        "Ölçüm devresi sapması",
+        "Potansiyometre sürgüsü aşınması"
       ],
       "kontroller": [
-        "Gaz potansiyometresini kalibre edin veya değiştirin"
+        "Gaz potansiyometresini kalibre edin veya değiştirin",
+        "Gerilim sınıfı ayarını kontrol edin",
+        "Gerilimi ölçün",
+        "Uç nokta değerlerini doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -434,14 +456,19 @@
       "aliaslar": [],
       "sistem": "diger",
       "baslik": "Gaz potansiyometresi alt sınır altında",
-      "aciklama": "Pedal çıkış gerilimi çok düşük; kontrolör pedalı arızalı sayar ve çekiş vermez.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "aciklama": "Pedal çıkış gerilimi çok düşük; kontrolcü pedalı arızalı sayar ve çekiş vermez.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Gaz potansiyometresi wiper geriliminin çok düşük olması"
+        "Akü hücre zayıflığı",
+        "Akü şarj seviyesinin azalması",
+        "Potansiyometre kalibrasyonu kayması"
       ],
       "kontroller": [
-        "Gaz potansiyometresini kalibre edin veya değiştirin"
+        "Gaz potansiyometresini kalibre edin veya değiştirin",
+        "Hattaki gerilim kaybını kontrol edin",
+        "Besleme gerilimini ölçün",
+        "Uç nokta değerlerini doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -455,13 +482,18 @@
       "sistem": "diger",
       "baslik": "EEPROM bellek hatası",
       "aciklama": "Kontrolörün yapılandırma bellezi okuma/yazma denetimini geçemedi; parametreler güvende değil.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM depolama arızası"
+        "Yazılım sürümü uyumsuzluğu",
+        "Kalibrasyon kaybı",
+        "EEPROM veri bozulması"
       ],
       "kontroller": [
-        "Kontrolörün yeniden programlanması veya değişimi gerekir"
+        "Kontrolörün yeniden programlanması veya değişimi gerekir",
+        "Yazılım sürümünü kontrol edin",
+        "Yedekten veri geri yükleyin",
+        "Parametre değerlerini gözden geçirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,

@@ -19,10 +19,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Vites kademesi sensör/switch hattında mantık çelişkisi"
+        "Giriş sinyallerinde tutarsızlık",
+        "Bellek veri bozulması",
+        "Bileşen arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kontrolcüyü yeniden başlatın",
+        "Yazılım sürümünü doğrulayın",
+        "Arızalı bileşeni onarın veya değiştirin"
       ],
       "ilgiliKodlar": [
         "12"
@@ -43,10 +47,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Yön seçim hattında mantık çelişkisi"
+        "Yazılım sürümü uyumsuzluğu",
+        "İşlemci iç hata durumu",
+        "Şalter konnektör temassızlığı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kontrolcüyü yeniden başlatın",
+        "Yazılım sürümünü doğrulayın",
+        "Arızalı şalteri değiştirin"
       ],
       "ilgiliKodlar": [
         "11"
@@ -67,10 +75,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Giriş kablosunun +U hattına teması/kısa yapması"
+        "Kablo yalıtımında aşınma",
+        "Konnektörde nem ve oksitlenme",
+        "Besleme konnektörü temassızlığı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Kablo yalıtım direncini ölçün",
+        "Sigortaları kontrol edin"
       ],
       "ilgiliKodlar": [
         "22"
@@ -87,7 +99,7 @@
       ],
       "sistem": "sanziman",
       "baslik": "Kavrama kesme girişinde şase kısa/açık devre",
-      "aciklama": "Kavrama kesme girişi şaseye kısa veya kopuk; kontrolör pedal kesme sinyalini doğru izleyemez.",
+      "aciklama": "Kavrama kesme girişi şaseye kısa veya kopuk; kontrolcü pedal kesme sinyalini doğru izleyemez.",
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
@@ -95,7 +107,9 @@
         "hat kopuk (açık devre)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Kablo ve konnektörü görsel kontrol edin"
       ],
       "ilgiliKodlar": [
         "21"
@@ -120,7 +134,9 @@
         "hat kopuk (açık devre)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kopan kabloyu onarın veya değiştirin",
+        "Hatta süreklilik ölçün",
+        "Sensör konnektörünü görsel kontrol edin"
       ],
       "ilgiliKodlar": [
         "26"
@@ -141,10 +157,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten şaseye kısa devre"
+        "Kablo yalıtımında aşınma",
+        "Konnektörde nem ve oksitlenme",
+        "Sensör sinyal kablosunda kopukluk"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Sensör konnektörünü görsel kontrol edin"
       ],
       "ilgiliKodlar": [
         "25"
@@ -160,15 +180,19 @@
         "31 hex"
       ],
       "sistem": "sanziman",
-      "baslik": "Motor devri girişinde akü gerilimine kısa",
-      "aciklama": "Motor devri hız sensörü girişi +U'ya kısa; devri okunamaz ve vites değiştirmeler güvenilmez hale gelir.",
+      "baslik": "Motorun devri girişinde akü gerilimine kısa",
+      "aciklama": "Motorun devri hız sensörü girişi +U'ya kısa; devri okunamaz ve vites değiştirmeler güvenilmez hale gelir.",
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten akü gerilimine kısa devre"
+        "Sargı içi kısa devre",
+        "Kablo yalıtımında aşınma",
+        "Sensör kalibrasyon kaybı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kablo yalıtım direncini ölçün",
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [
         "32",
@@ -185,8 +209,8 @@
         "32 hex"
       ],
       "sistem": "sanziman",
-      "baslik": "Motor devri girişinde şase kısa/açık devre",
-      "aciklama": "Motor devri sensör hattı şaseye kısa ya da kopuk; TCU motor devri referansı kaybeder.",
+      "baslik": "Motorun devri girişinde şase kısa/açık devre",
+      "aciklama": "Motorun devri sensör hattı şaseye kısa ya da kopuk; TCU motorun devri referansı kaybeder.",
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
@@ -194,7 +218,9 @@
         "hat kopuk (açık devre)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Sensör konnektörünü görsel kontrol edin"
       ],
       "ilgiliKodlar": [
         "31",
@@ -211,15 +237,19 @@
         "33 hex"
       ],
       "sistem": "gosterge",
-      "baslik": "Motor devri girişinde mantık hatası",
-      "aciklama": "Motor devri sinyalinde zamanlama tutarsızlığı; sensör dişlisi, aralığı veya kablo ekranı şüphelidir.",
+      "baslik": "Motorun devri girişinde mantık hatası",
+      "aciklama": "Motorun devri sinyalinde zamanlama tutarsızlığı; sensör dişlisi, aralığı veya kablo ekranı şüphelidir.",
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Sinyal dizisinde tutarsızlık (gürültü/arıza)"
+        "Yazılım sürümü uyumsuzluğu",
+        "İşlemci iç hata durumu",
+        "Sensör kalibrasyon kaybı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kontrolcüyü yeniden başlatın",
+        "Yazılım sürümünü doğrulayın",
+        "Sensörü yeniden kalibre edin veya değiştirin"
       ],
       "ilgiliKodlar": [
         "31",
@@ -241,10 +271,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten akü gerilimine kısa devre"
+        "Yanlış kablolama",
+        "Sargı içi kısa devre",
+        "Sensör sapması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Sensör konnektörünü görsel kontrol edin"
       ],
       "ilgiliKodlar": [
         "35",
@@ -270,7 +304,9 @@
         "hat kopuk (açık devre)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kablo yalıtım direncini ölçün",
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [
         "34",
@@ -292,10 +328,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Bellek veri bozulması",
+        "Yazılım sürümü uyumsuzluğu",
+        "Besleme gerilimi hatası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Giriş sinyallerini ölçerek karşılaştırın",
+        "Kontrolcüyü yeniden başlatın",
+        "Kablo ve konnektörü görsel kontrol edin"
       ],
       "ilgiliKodlar": [
         "34",
@@ -317,10 +357,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten akü gerilimine kısa devre"
+        "Yanlış kablolama",
+        "Sargı içi kısa devre",
+        "Sensör sapması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kablo yalıtım direncini ölçün",
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [
         "38",
@@ -346,7 +390,9 @@
         "hat kopuk (açık devre)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Kablo yalıtım direncini ölçün",
+        "Sensörü yeniden kalibre edin veya değiştirin"
       ],
       "ilgiliKodlar": [
         "37",
@@ -368,10 +414,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Giriş sinyallerinde tutarsızlık",
+        "Bellek veri bozulması",
+        "Bileşen arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yazılım sürümünü doğrulayın",
+        "Giriş sinyallerini ölçerek karşılaştırın",
+        "Besleme gerilimini ölçün"
       ],
       "ilgiliKodlar": [
         "37",
@@ -397,7 +447,9 @@
         "hat kopuk (açık devre)"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hatta süreklilik ölçün",
+        "Konnetörü görsel kontrol edin",
+        "Sensörü yeniden kalibre edin veya değiştirin"
       ],
       "ilgiliKodlar": [
         "3B",
@@ -419,10 +471,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten şaseye kısa devre"
+        "Sargı içi kısa devre",
+        "Kablo yalıtımında aşınma",
+        "Sensör kalibrasyon kaybı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Kablo yalıtım direncini ölçün",
+        "Sensörü yeniden kalibre edin veya değiştirin"
       ],
       "ilgiliKodlar": [
         "3A",
@@ -444,10 +500,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Giriş sinyallerinde tutarsızlık",
+        "Bellek veri bozulması",
+        "Sensör konnektör oksitlenmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Giriş sinyallerini ölçerek karşılaştırın",
+        "Kontrolcüyü yeniden başlatın",
+        "Sensör konnektörünü görsel kontrol edin"
       ],
       "ilgiliKodlar": [
         "3A",
@@ -469,10 +529,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten akü gerilimine kısa devre"
+        "Yanlış kablolama",
+        "Sargı içi kısa devre",
+        "Valf selenoid bobin arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Kablo yalıtım direncini ölçün",
+        "Sıkışan valfi temizleyin veya değiştirin"
       ],
       "ilgiliKodlar": [
         "72",
@@ -495,10 +559,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten şaseye kısa devre"
+        "Kablo yalıtımında aşınma",
+        "Konnektörde nem ve oksitlenme",
+        "Valf besleme gerilimi düşüşü"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kablo yalıtım direncini ölçün",
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Valf bobin direncini ölçün"
       ],
       "ilgiliKodlar": [
         "71",
@@ -521,10 +589,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Valf bobini veya kablosu açık devre"
+        "Sigorta atması",
+        "Kablo kopukluğu",
+        "Valf sıkışması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hatta süreklilik ölçün",
+        "Konnetörü görsel kontrol edin",
+        "Sıkışan valfi temizleyin veya değiştirin"
       ],
       "ilgiliKodlar": [
         "71",
@@ -547,10 +619,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten akü gerilimine kısa devre"
+        "Sargı içi kısa devre",
+        "Kablo yalıtımında aşınma",
+        "Valf sıkışması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Valf besleme gerilimini doğrulayın"
       ],
       "ilgiliKodlar": [
         "75",
@@ -573,10 +649,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten şaseye kısa devre"
+        "Yanlış kablolama",
+        "Sargı içi kısa devre",
+        "Valf selenoid bobin arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Kablo yalıtım direncini ölçün",
+        "Sıkışan valfi temizleyin veya değiştirin"
       ],
       "ilgiliKodlar": [
         "74",
@@ -599,10 +679,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Valf bobini/kablosu açık devre"
+        "Kablo kopukluğu",
+        "Konnektörde temassızlık",
+        "Valf besleme gerilimi düşüşü"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kopan kabloyu onarın veya değiştirin",
+        "Hatta süreklilik ölçün",
+        "Valf besleme gerilimini doğrulayın"
       ],
       "ilgiliKodlar": [
         "74",
@@ -625,10 +709,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten akü gerilimine kısa devre"
+        "Kablo yalıtımında aşınma",
+        "Konnektörde nem ve oksitlenme",
+        "Valf besleme gerilimi düşüşü"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kablo yalıtım direncini ölçün",
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Valf bobin direncini ölçün"
       ],
       "ilgiliKodlar": [
         "78",
@@ -651,10 +739,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten şaseye kısa devre"
+        "Yanlış kablolama",
+        "Sargı içi kısa devre",
+        "Valf selenoid bobin arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Kablo yalıtım direncini ölçün",
+        "Sıkışan valfi temizleyin veya değiştirin"
       ],
       "ilgiliKodlar": [
         "77",
@@ -677,10 +769,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Valf bobini/kablosu açık devre"
+        "Konnektörde temassızlık",
+        "Kablo ezilmesi",
+        "Hidrolik basınç yetersizliği"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hatta süreklilik ölçün",
+        "Konnetörü görsel kontrol edin",
+        "Sıkışan valfi temizleyin veya değiştirin"
       ],
       "ilgiliKodlar": [
         "77",
@@ -703,10 +799,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten akü gerilimine kısa devre"
+        "Konnektörde nem ve oksitlenme",
+        "Yanlış kablolama",
+        "Hidrolik basınç yetersizliği"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Kablo yalıtım direncini ölçün",
+        "Sıkışan valfi temizleyin veya değiştirin"
       ],
       "ilgiliKodlar": [
         "85",
@@ -729,10 +829,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten şaseye kısa devre"
+        "Sargı içi kısa devre",
+        "Kablo yalıtımında aşınma",
+        "Valf sıkışması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Valf besleme gerilimini doğrulayın"
       ],
       "ilgiliKodlar": [
         "84",
@@ -755,10 +859,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Valf bobini/kablosu açık devre"
+        "Sigorta atması",
+        "Kablo kopukluğu",
+        "Valf sıkışması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Konnetörü görsel kontrol edin",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Valf bobin direncini ölçün"
       ],
       "ilgiliKodlar": [
         "84",
@@ -781,10 +889,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten akü gerilimine kısa devre"
+        "Sargı içi kısa devre",
+        "Kablo yalıtımında aşınma",
+        "Valf sıkışması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Kablo yalıtım direncini ölçün",
+        "Sıkışan valfi temizleyin veya değiştirin"
       ],
       "ilgiliKodlar": [
         "88",
@@ -807,10 +919,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten şaseye kısa devre"
+        "Sargı içi kısa devre",
+        "Kablo yalıtımında aşınma",
+        "Valf sıkışması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kablo yalıtım direncini ölçün",
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Valf bobin direncini ölçün"
       ],
       "ilgiliKodlar": [
         "87",
@@ -833,10 +949,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Valf bobini/kablosu açık devre"
+        "Kablo ezilmesi",
+        "Sigorta atması",
+        "Valf selenoid bobin arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kopan kabloyu onarın veya değiştirin",
+        "Hatta süreklilik ölçün",
+        "Valf besleme gerilimini doğrulayın"
       ],
       "ilgiliKodlar": [
         "87",
@@ -859,10 +979,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten şaseye kısa devre"
+        "Yanlış kablolama",
+        "Sargı içi kısa devre",
+        "Röle bobin arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Röle kontaklarını test edin"
       ],
       "ilgiliKodlar": [
         "92",
@@ -884,10 +1008,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten akü gerilimine kısa devre"
+        "Sargı içi kısa devre",
+        "Kablo yalıtımında aşınma",
+        "Röle kontak yapışması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Kablo yalıtım direncini ölçün",
+        "Arızalı röleyi değiştirin"
       ],
       "ilgiliKodlar": [
         "91",
@@ -909,10 +1037,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Röle/kablo açık devre"
+        "Sigorta atması",
+        "Kablo kopukluğu",
+        "Röle besleme hattında temassızlık"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Konnetörü görsel kontrol edin",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Röle bobin gerilimini ölçün"
       ],
       "ilgiliKodlar": [
         "91",
@@ -934,10 +1066,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten şaseye kısa devre"
+        "Yanlış kablolama",
+        "Sargı içi kısa devre",
+        "Röle besleme hattında temassızlık"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kablo yalıtım direncini ölçün",
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Röle bobin gerilimini ölçün"
       ],
       "ilgiliKodlar": [
         "95",
@@ -959,10 +1095,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten akü gerilimine kısa devre"
+        "Kablo yalıtımında aşınma",
+        "Konnektörde nem ve oksitlenme",
+        "Röle kontak yapışması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Kablo yalıtım direncini ölçün",
+        "Arızalı röleyi değiştirin"
       ],
       "ilgiliKodlar": [
         "94",
@@ -980,14 +1120,18 @@
       ],
       "sistem": "sanziman",
       "baslik": "Marş kilitleme rölesinde açık devre",
-      "aciklama": "Marş kilitleme röle devresi açık; motor marş izni alınamayabilir.",
+      "aciklama": "Marş kilitleme röle devresi açık; motorun marş izni alınamayabilir.",
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Röle/kablo açık devre"
+        "Konnektörde temassızlık",
+        "Kablo ezilmesi",
+        "Röle besleme hattında temassızlık"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Konnetörü görsel kontrol edin",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Röle bobin gerilimini ölçün"
       ],
       "ilgiliKodlar": [
         "94",
@@ -1009,10 +1153,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten şaseye kısa devre"
+        "Kablo yalıtımında aşınma",
+        "Konnektörde nem ve oksitlenme",
+        "Fren sensörü sapması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Kablo yalıtım direncini ölçün",
+        "Fren sensörünü kalibre edin"
       ],
       "ilgiliKodlar": [
         "98",
@@ -1034,10 +1182,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten akü gerilimine kısa devre"
+        "Yanlış kablolama",
+        "Sargı içi kısa devre",
+        "Fren ayarının bozulması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Fren bobini direncini ölçün"
       ],
       "ilgiliKodlar": [
         "97",
@@ -1059,10 +1211,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Solenoid/kablo açık devre"
+        "Sigorta atması",
+        "Kablo kopukluğu",
+        "Fren bobini arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hatta süreklilik ölçün",
+        "Konnetörü görsel kontrol edin",
+        "Fren sensörünü kalibre edin"
       ],
       "ilgiliKodlar": [
         "97",
@@ -1084,10 +1240,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Sensör sapması",
+        "Valf sıkışması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Sıkışan valfi temizleyin veya değiştirin"
       ],
       "ilgiliKodlar": [
         "71",
@@ -1110,10 +1270,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "CAN terminasyonu hatası",
+        "Veri kablosunda kopukluk",
+        "Konnektör temassızlığı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "CAN hattı uç direncini ölçün",
+        "Veri kablosu ve konnektörleri kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin"
       ],
       "ilgiliKodlar": [
         "74",
@@ -1136,10 +1300,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Kablo ezilmesi",
+        "Bileşen arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin"
       ],
       "ilgiliKodlar": [
         "77",
@@ -1162,10 +1330,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Kablo ezilmesi",
+        "Hidrolik pompa arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Valf ve hortumları görsel kontrol edin"
       ],
       "ilgiliKodlar": [
         "84",
@@ -1188,10 +1360,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Besleme gerilimi hatası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün"
       ],
       "ilgiliKodlar": [
         "87",
@@ -1214,10 +1390,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten akü gerilimine kısa devre"
+        "Yanlış kablolama",
+        "Sargı içi kısa devre",
+        "Sensör sapması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Kablo yalıtım direncini ölçün",
+        "Sensörü yeniden kalibre edin veya değiştirin"
       ],
       "ilgiliKodlar": [
         "D2"
@@ -1238,10 +1418,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "hatten şaseye kısa devre"
+        "Kablo yalıtımında aşınma",
+        "Konnektörde nem ve oksitlenme",
+        "Sensör sinyal kablosunda kopukluk"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kablo yalıtım direncini ölçün",
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [
         "D1"
@@ -1262,10 +1446,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Akü şarj seviyesinin azalması",
+        "Besleme hattında gerilim kaybı",
+        "Röle besleme hattında temassızlık"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Aküyü şarj edin veya değiştirin",
+        "Hattaki gerilim kaybını kontrol edin",
+        "Röle bobin gerilimini ölçün"
       ],
       "ilgiliKodlar": [
         "D4"
@@ -1286,10 +1474,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Ölçüm devresi sapması",
+        "Şarj cihazı regülasyon hatası",
+        "Akü şarj seviyesinin azalması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Gerilimi ölçün",
+        "Şarj cihazı çıkışını doğrulayın",
+        "Sigortaları kontrol edin"
       ],
       "ilgiliKodlar": [
         "D3"
@@ -1310,10 +1502,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Valf besleme gerilimi düşüşü"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Valf bobin direncini ölçün"
       ],
       "ilgiliKodlar": [
         "D6"
@@ -1334,10 +1530,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Sensör sapması",
+        "Kalibrasyon kaybı",
+        "Valf besleme gerilimi düşüşü"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Sıkışan valfi temizleyin veya değiştirin"
       ],
       "ilgiliKodlar": [
         "D5"
@@ -1358,10 +1558,14 @@
       "makineTepkisi": "Göstergede EE yanıp söner (iletişim yok); vites/talep bilgileri güncellenmez",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Veri kablosunda kopukluk",
+        "Konnektör temassızlığı",
+        "Düğüm kimlik çakışması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Veri kablosu ve konnektörleri kontrol edin",
+        "Düğüm kimliklerini doğrulayın",
+        "CAN hattı kablo demetini kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1380,10 +1584,14 @@
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Sensör sapması",
+        "Kalibrasyon kaybı",
+        "Parametre kaybı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Yedek dosyadan veri geri yükleyin"
       ],
       "ilgiliKodlar": [
         "F2"
@@ -1400,14 +1608,18 @@
       ],
       "sistem": "sanziman",
       "baslik": "Konfigürasyon kayboldu",
-      "aciklama": "Kontrolör yapılandırma verisini yitirmiş; ünitenin AEB kalibrasyonu ve parametreleri yeniden yüklenmeli.",
+      "aciklama": "Kontrolcü yapılandırma verisini yitirmiş; ünitenin AEB kalibrasyonu ve parametreleri yeniden yüklenmeli.",
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Nominal kapasitenin aşılması",
+        "Dengesiz yük dağılımı",
+        "Bellek hücresi arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yük dağılımını düzeltin",
+        "Yük sensörü okumasını doğrulayın",
+        "Parametre değerlerini gözden geçirin"
       ],
       "ilgiliKodlar": [
         "F1",
@@ -1425,14 +1637,18 @@
       ],
       "sistem": "sanziman",
       "baslik": "Uygulama (yazılım) hatası",
-      "aciklama": "Kontrolör uygulama yazılımında yürütme hatası oluştu; yazılım/kart seviyesinde inceleme gerekir.",
+      "aciklama": "Kontrolcü uygulama yazılımında yürütme hatası oluştu; yazılım/kart seviyesinde inceleme gerekir.",
       "makineTepkisi": "Anahtar (spanner) simgesi yanıp söner; vites kolunu boş konuma alınca iki onaltılık hane üzerindeki hata kodu gösterilir",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "İşlemci iç hata durumu",
+        "Giriş sinyallerinde tutarsızlık",
+        "Parametre kaybı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yazılım sürümünü doğrulayın",
+        "Giriş sinyallerini ölçerek karşılaştırın",
+        "Parametre değerlerini gözden geçirin"
       ],
       "ilgiliKodlar": [
         "F1",

@@ -1,0 +1,300 @@
+{
+  "marka": "yale",
+  "seri": "al-serie-pallet",
+  "modelAdi": "Yale elektrikli palet kaldırma kamyonu (AL kodlu kontrolör gösterge serisi)",
+  "kaynakBelge": "Yale Pallet Lift Truck Fault Codes DTC listesi — forkliftpdfmanuals.com derlemesi",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://forkliftpdfmanuals.com/yale-error-codes/",
+  "kodlar": [
+    {
+      "kod": "AL01",
+      "kodNormal": "AL01",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Sürüş ve kaldırma fonksiyonları çalışmıyor",
+      "aciklama": "Listede iki ayrı arıza dalı var: kart kalibrasyon taşması ya da kart-kontrolör bağlantı/yön şalteri sorunu; ikisi de aynı kodu üretir",
+      "makineTepkisi": "Sürüş ve kaldırma tamamen durur",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontrol kartı gaz veya kaldırma/indirme kalibrasyonunun sınır dışına çıkması",
+        "Kontrol kartının hasarlı/arızalı olması",
+        "Kart-kontrolör bağlantısının eksikliği, yön şalterinin bağlı olmaması veya tiller kartının bozulması"
+      ],
+      "kontroller": [
+        "El termineri test işleviyle nötr konumda kalibrasyon geriliminin 1 voltu aşıp aşmadığına bakılır",
+        "İleri ve geri şalterlerinin aynı anda açık okunup okunmadığı kontrol edilir",
+        "Kart hasarlıysa değiştirilir; bağlantılar ve yön şalteri onarılır"
+      ],
+      "ilgiliKodlar": [
+        "AL02"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/yale-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL02",
+      "kodNormal": "AL02",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Sürüş ve hidrolik fonksiyonlar çalışmıyor",
+      "aciklama": "Ana kontaktör kontakları kaynamış kapanmış ya da motor alan devresi açılmış; güç yolu kesintiye uğrar",
+      "makineTepkisi": "Ne sürüş ne hidrolik çalışır",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ana kontaktör kontak kaynakları yapışmış",
+        "Motor alan devresi kopuk"
+      ],
+      "kontroller": [
+        "Kontaktördeki güç kabloları ayrılıp açık devre testi yapılır",
+        "Alan devresi ve kontrolör bağlantıları gözden geçirilir"
+      ],
+      "ilgiliKodlar": [
+        "AL01",
+        "AL8"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/yale-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL04",
+      "kodNormal": "AL04",
+      "aliaslar": [
+        "AL4"
+      ],
+      "sistem": "diger",
+      "baslik": "İndirme valfi bobin/valf devresi hatası",
+      "aciklama": "İndirme valfi bobinine uzanan bağlantı, bobin veya kartuş arızası; kontrolör hidroliği kilitler",
+      "makineTepkisi": "Sürüş ve hidrolik devre dışı",
+      "siddet": "uyari",
+      "nedenler": [
+        "İndirme valfi bağlantısında hasar",
+        "İndirme bobini ya da valf kartuşu arızası"
+      ],
+      "kontroller": [
+        "Bobin-kontrolör arası elektrik bağlantısına bakılır",
+        "İndirme bobin direnci ölçülür; ~17,7 ohm değilse bobin değişir",
+        "Kartuş arızalıysa indirme valfi kartuşu yenilenir"
+      ],
+      "ilgiliKodlar": [
+        "AL05",
+        "AL8"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/yale-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL05",
+      "kodNormal": "AL05",
+      "aliaslar": [
+        "AL5"
+      ],
+      "sistem": "fren",
+      "baslik": "Elektrikli fren bağlantı/bobin hatası",
+      "aciklama": "Fren bobini veya kablosu arızalı; emniyet zinciri sürüş ve hidroliği durdurur",
+      "makineTepkisi": "Sürüş ve hidrolik çalışmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Frene giden bağlantıda hasar",
+        "Fren bobini hasarı"
+      ],
+      "kontroller": [
+        "Elektrikli fren ile kontrolör bağlantısı denetlenir",
+        "Fren bobini direnci iki yönde de ölçülür; 27,36-30,24 ohm bandı dışındaysa değiştirilir"
+      ],
+      "ilgiliKodlar": [
+        "AL04",
+        "AL06"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/yale-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL06",
+      "kodNormal": "AL06",
+      "aliaslar": [
+        "AL6"
+      ],
+      "sistem": "diger",
+      "baslik": "Sürüş motoru/alan devresi hatası",
+      "aciklama": "Armatür veya alan sargısı ölçümleri kabul bandı dışında; bağlantılar, alan kabloları ve kontaktör bobini birlikte denetlenir",
+      "makineTepkisi": "Sürüş ve hidrolik çalışmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sürüş motoru bağlantısında hasar",
+        "Armatür direncinin aşırı düşüklüğü",
+        "Gevşek/hasarlı alan kabloları veya kısa devreli alan sargısı"
+      ],
+      "kontroller": [
+        "Motor, alan kabloları ve kontrolör arası bağlantı ölçülür",
+        "Armatür kısa devre testi yapılır",
+        "Alan direnci 0,5-1,5 ohm aralığına düzeltilir; kontaktör bobini 52 ohm kontrol edilir"
+      ],
+      "ilgiliKodlar": [
+        "AL8",
+        "AL02"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/yale-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL07",
+      "kodNormal": "AL07",
+      "aliaslar": [
+        "AL7"
+      ],
+      "sistem": "diger",
+      "baslik": "Kontrolör sıcaklığı çalışma bandı dışında",
+      "aciklama": "14°F altında ve 167°F üstünde performans düşer, 194°F üstünde sürüş durur; kalibrasyon veya sensör de şüpheli",
+      "makineTepkisi": "Bant dışı sıcaklıklarda limitleme/kilitleme",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontrolörün çok sıcak/soğuk kalması",
+        "Sıcaklık kalibrasyonunun hatalı olması",
+        "Kontrolör sensörü ya da kartının hasarı"
+      ],
+      "kontroller": [
+        "Araç uygun sıcaklıktaki ortama taşınır",
+        "El termineri ile kontrolör sıcaklığının ortam sıcaklığını gösterip göstermediğine bakılır; sapma varsa kontrolör değişir"
+      ],
+      "ilgiliKodlar": [
+        "AL8"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/yale-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL8",
+      "kodNormal": "AL8",
+      "aliaslar": [
+        "AL08"
+      ],
+      "sistem": "fren",
+      "baslik": "Sürülen bileşende aşırı akım",
+      "aciklama": "Kontrolör aşırı akım çeken tahrik yükü saptar; kontaktör, fren ve valf bobinlerinin direnç değerleri referansla karşılaştırılır",
+      "makineTepkisi": "Sürüş ve hidrolik kesilir",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sürülen bileşende aşırı akım",
+        "Ana kontaktör, fren ve valf bobini demetinde hasar"
+      ],
+      "kontroller": [
+        "Ana demetteki bağlantılar incelenir",
+        "Kontaktör fren ve valf bobinleri ölçülür (kontaktör 52 ohm; fren bobini 27,36-30,24 ohm; elektrikli valf bobinleri 17,7 ohm)"
+      ],
+      "ilgiliKodlar": [
+        "AL06",
+        "AL02"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/yale-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL10",
+      "kodNormal": "AL10",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Kontrolör/alan akım sürücüsü arızası",
+      "aciklama": "Kart içi watchdog ve alan akım sürücüsü dahil çok olasılıklı arıza kodu; kısa devre, kaçak ve sargı hataları tek listede sayılır",
+      "makineTepkisi": "Sürüş ve hidrolik çalışmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kontrolör hasarı; tesisat kısa devresi",
+        "Motor sargılarında şase kaçakları; alan sargısının şaseye kısayolu",
+        "Alan akım sürücü devresi veya watchdog donanımının bozulması"
+      ],
+      "kontroller": [
+        "Kontak kapatılıp açılır; sorun sürüyorsa kontrolör değiştirilir",
+        "Kontaktör, pompa motoru ve sürüş motoru kablo bağlantıları ile ana demetteki kısa devreler aranır",
+        "F1-B- ve F2-B- arası gerilim, B+-B- geriliminin yarısı olmalı; alan direnci ~1,5 ohm ölçülür"
+      ],
+      "ilgiliKodlar": [
+        "AL8",
+        "AL06"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/yale-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL66",
+      "kodNormal": "AL66",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Hidrolik çalışmıyor (düşük akü gerilimi/kalibrasyon)",
+      "aciklama": "Akü zayıf ya da kontrolör gerilim kalibrasyonu kaymış; iki kaynak tek kodda birleştiği için ölçüm kıyaslaması zorunludur",
+      "makineTepkisi": "Hidrolik fonksiyonlar çalışmaz",
+      "siddet": "uyari",
+      "nedenler": [
+        "Düşük akü gerilimi",
+        "Kontrolör gerilim kalibrasyonunun hatalı olması"
+      ],
+      "kontroller": [
+        "Akü şarj edilir/değiştirilir",
+        "El termineri okuması multimetre ile karşılaştırılır; 1,5 volttan büyük farkta kontrolör değişir"
+      ],
+      "ilgiliKodlar": [
+        "AL99"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/yale-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL94",
+      "kodNormal": "AL94",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "Kontrolör, MDI'den saat sayar belleğini devralıyor (gerçek arıza değil)",
+      "aciklama": "Kontrolör değiştirildiyse MDI ekranından saat sayar verisi aktarılırken bir dakikaya kadar kilitlenme normaldir; hata değildir",
+      "makineTepkisi": "Yaklaşık bir dakika boyunca sürüş ve hidrolik çalışmaz, sonra kendiliğinden açılır",
+      "siddet": "bilgi",
+      "nedenler": [
+        "Yeni kontrolöre saat sayar belleğinin MDI'den aktarılması (gerçekleşen bir arıza yoktur)"
+      ],
+      "kontroller": [
+        "Müdahale gerekmez",
+        "Veri aktarımı bitince araç kendiliğinden çalışmaya başlar; beklenir"
+      ],
+      "ilgiliKodlar": [
+        "AL99"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/yale-error-codes/",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL99",
+      "kodNormal": "AL99",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Sürüş ve hidrolik çalışmıyor (batarya/bağlantı hatası)",
+      "aciklama": "Yanlış gerilimli, hasarlı veya bağlantısı bozuk akü sürücüyü beslemez; uç pabuçlarına kadar kontrol gerekir",
+      "makineTepkisi": "Sürüş ve hidrolik tamamen devre dışı",
+      "siddet": "uyari",
+      "nedenler": [
+        "Araca yanlış akü gerilimi seçimi",
+        "Hasarlı akü",
+        "Batarya bağlantı noktası/kablo hasarı"
+      ],
+      "kontroller": [
+        "Doğru akü gerilimi doğrulanır",
+        "Akü gerilimi el ile ölçülür",
+        "Akü gövdesi, bağlantı pabuçları ve kablolar denetlenir"
+      ],
+      "ilgiliKodlar": [
+        "AL66"
+      ],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://forkliftpdfmanuals.com/yale-error-codes/",
+      "durum": "incelemede"
+    }
+  ]
+}

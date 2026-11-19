@@ -17,10 +17,15 @@
       "makineTepkisi": "Yalnızca bilgilendirme gösterilir, motora müdahale edilmez",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynak bu kodu liste sonu işaretçisi olarak tanımlar; gerçek bir arıza değildir"
+        "Kalibrasyon kaybı",
+        "Besleme gerilimi hatası",
+        "Bileşen arızası"
       ],
       "kontroller": [
-        "Kod tekrarlıyorsa okuma prosedürünü baştan uygulayın; başka kod görünmüyorsa kayıtlı arıza yoktur"
+        "Kod tekrarlıyorsa okuma prosedürünü baştan uygulayın; başka kod görünmüyorsa kayıtlı arıza yoktur",
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Arızalı bileşeni onarın veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -32,9 +37,9 @@
       "kodNormal": "131",
       "aliaslar": [],
       "sistem": "elektrik",
-      "baslik": "Enjektör 1 devresi açık (Inj1 Open)",
+      "baslik": "Enjektör 1 devresi açık",
       "aciklama": "Birinci silindir benzin enjektörünün sürme devresinde açık devre tespit edilir; kablo kopuk ya da enjektörün kendisi arızalı olabilir.",
-      "makineTepkisi": "Arıza lambası (MIL) yanar, motor çalışmaya devam eder",
+      "makineTepkisi": "Arıza lambası (MIL) yanar, motorun çalışmaya devam eder",
       "siddet": "uyari",
       "nedenler": [
         "Enjektör 1 besleme/şase kablosunda kopukluk",
@@ -59,9 +64,9 @@
       "kodNormal": "132",
       "aliaslar": [],
       "sistem": "elektrik",
-      "baslik": "Enjektör 2 devresi açık (Inj2 Open)",
+      "baslik": "Enjektör 2 devresi açık",
       "aciklama": "İkinci silindir enjektörünün sürme devresi açık devreye düşer; sebep kopuk kablo ya da bozuk enjektör olabilir.",
-      "makineTepkisi": "Arıza lambası (MIL) yanar, motor çalışmaya devam eder",
+      "makineTepkisi": "Arıza lambası (MIL) yanar, motorun çalışmaya devam eder",
       "siddet": "uyari",
       "nedenler": [
         "Enjektör 2 kablosunda kopukluk",
@@ -86,9 +91,9 @@
       "kodNormal": "133",
       "aliaslar": [],
       "sistem": "elektrik",
-      "baslik": "Enjektör 3 devresi açık (Inj3 Open)",
+      "baslik": "Enjektör 3 devresi açık",
       "aciklama": "Üçüncü silindir enjektör devresi açık devre durumundadır; kablo kopması ya da enjektörün bozulması beklenen sebeplerdir.",
-      "makineTepkisi": "Arıza lambası (MIL) yanar, motor çalışmaya devam eder",
+      "makineTepkisi": "Arıza lambası (MIL) yanar, motorun çalışmaya devam eder",
       "siddet": "uyari",
       "nedenler": [
         "Enjektör 3 kablosunda kopukluk",
@@ -113,9 +118,9 @@
       "kodNormal": "134",
       "aliaslar": [],
       "sistem": "elektrik",
-      "baslik": "Enjektör 4 devresi açık (Inj4 Open)",
+      "baslik": "Enjektör 4 devresi açık",
       "aciklama": "Dördüncü silindir enjektörünün sürme devresinde süreksizlik saptanır; kablo kopuğu veya hatalı enjektör tipiktir.",
-      "makineTepkisi": "Arıza lambası (MIL) yanar, motor çalışmaya devam eder",
+      "makineTepkisi": "Arıza lambası (MIL) yanar, motorun çalışmaya devam eder",
       "siddet": "uyari",
       "nedenler": [
         "Enjektör 4 kablosunda kopukluk",
@@ -140,9 +145,9 @@
       "kodNormal": "141",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Soğutma suyu sensörü düşük ölçüm aralığı (ECT Range Low)",
-      "aciklama": "Motor soğutma sıcaklık sensörü (ECT) beklenenin altında sinyal verir; sensör arızalıdır ya da sinyal hattı şaseye (GND) kısa yapmıştır.",
-      "makineTepkisi": "Arıza lambası (MIL) yanar, motor çalışmaya devam eder",
+      "baslik": "Soğutma suyu sensörü düşük ölçüm aralığı",
+      "aciklama": "Motorun soğutma sıcaklık sensörü (ECT) beklenenin altında sinyal verir; sensör arızalıdır ya da sinyal hattı şaseye (GND) kısa yapmıştır.",
+      "makineTepkisi": "Arıza lambası (MIL) yanar, motorun çalışmaya devam eder",
       "siddet": "uyari",
       "nedenler": [
         "ECT sensörü arızalı",
@@ -165,9 +170,9 @@
       "kodNormal": "151",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Soğutma suyu sensörü yüksek ölçüm aralığı (ECT Range High)",
+      "baslik": "Soğutma suyu sensörü yüksek ölçüm aralığı",
       "aciklama": "ECT sensörü üst sınırı aşan sinyal üretir; sensör bağlantısı kopmuş ya da devre açık kalmıştır. SECM güvenilmez sıcaklık okumasına karşı tedbir alır.",
-      "makineTepkisi": "MIL yanar; gecikmiş motor kapatma (delayed shutdown) ve kontrol motoru ikazı devreye girer",
+      "makineTepkisi": "MIL yanar; gecikmiş motorun kapatma (delayed kapanma) ve kontrol motoru ikazı devreye girer",
       "siddet": "uyari",
       "nedenler": [
         "ECT sensörü konektörü çıkmış",
@@ -190,12 +195,12 @@
       "kodNormal": "161",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Soğutma suyu sıcaklığı aşırı yüksek (ECT Over Temp Fault)",
-      "aciklama": "ECT sensörü aşırı yüksek sıcaklık ölçer; pratikte motor aşırı ısınmıştır ya da sensör GND'ye sarkmıştır. Soğutma sistemi önce incelenmelidir.",
-      "makineTepkisi": "MIL yanar; gecikmiş motor kapatma (delayed shutdown) ve kontrol motoru ikazı devreye girer",
+      "baslik": "Soğutma suyu sıcaklığı aşırı yüksek",
+      "aciklama": "ECT sensörü aşırı yüksek sıcaklık ölçer; pratikte motorun aşırı ısınmıştır ya da sensör GND'ye sarkmıştır. Soğutma sistemi önce incelenmelidir.",
+      "makineTepkisi": "MIL yanar; gecikmiş motorun kapatma (delayed kapanma) ve kontrol motoru ikazı devreye girer",
       "siddet": "uyari",
       "nedenler": [
-        "Motor aşırı ısınması",
+        "Motorun aşırı ısınması",
         "Radyatörde/soğutma devresinde kaçak veya düşük seviye",
         "ECT sinyal hattının GND'ye kısa yapması"
       ],
@@ -217,8 +222,8 @@
       "kodNormal": "171",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Soğutma suyu sıcaklığı beklenen değişimi göstermiyor (ECT_IR_Fault)",
-      "aciklama": "Motor ısınmasına rağmen ECT sinyali beklenen ivmeyle yükselmez; soğutma devresindeki mekanik bir sorun sıcaklık okumasını bozar.",
+      "baslik": "Soğutma suyu sıcaklığı beklenen değişimi göstermiyor",
+      "aciklama": "Motorun ısınmasına rağmen ECT sinyali beklenen ivmeyle yükselmez; soğutma devresindeki mekanik bir sorun sıcaklık okumasını bozar.",
       "makineTepkisi": "MIL yanmaz; SECM okumayı izlemeden çalışmaya devam eder",
       "siddet": "uyari",
       "nedenler": [
@@ -226,7 +231,10 @@
         "Soğutma devresinde dolaşım sorunu"
       ],
       "kontroller": [
-        "Termostatın açılma davranışını ve soğutma sistemi dolaşımını kontrol edin"
+        "Termostatın açılma davranışını ve soğutma sistemi dolaşımını kontrol edin",
+        "Sıcaklığı ölçün",
+        "Soğutucu yüzeyleri ve kanalları temizleyin",
+        "Radyatör ve termostatı kontrol edin"
       ],
       "ilgiliKodlar": [
         "141",
@@ -241,16 +249,16 @@
       "kodNormal": "181",
       "aliaslar": [],
       "sistem": "elektrik",
-      "baslik": "Yakıt seçimi sinyali çakışması (Fuel Select Conflict)",
-      "aciklama": "Yakıt seçimi için kullanılan iki sinyal aynı anda şaseye çekili bulunur; kurulum hatası veya switch kaçaklıdır.",
-      "makineTepkisi": "Arıza lambası (MIL) yanar, motor çalışmaya devam eder",
+      "baslik": "Yakıt seçimi sinyali çakışması",
+      "aciklama": "Yakıt seçimi için kullanılan iki sinyal aynı anda şaseye çekili bulunur; kurulum hatası veya şalter kaçaklıdır.",
+      "makineTepkisi": "Arıza lambası (MIL) yanar, motorun çalışmaya devam eder",
       "siddet": "uyari",
       "nedenler": [
         "Yakıt seçim switchinin her iki sinyal ucunun birden GND'ye kapanması",
         "Yanlış montaj/kablo ezilmesi"
       ],
       "kontroller": [
-        "Yakıt seçim switch bağlantılarında GND'ye kısa devre arayın",
+        "Yakıt seçim şalter bağlantılarında GND'ye kısa devre arayın",
         "SECM A12/A15 sinyal ve B1 sensör şase pinlerini kontrol edin"
       ],
       "ilgiliKodlar": [],
@@ -263,9 +271,9 @@
       "kodNormal": "191",
       "aliaslar": [],
       "sistem": "elektrik",
-      "baslik": "Kam sensörü sinyali yok (Cam Edges Fault)",
-      "aciklama": "Motor bilinen şekilde dönmesine rağmen kam (CAM) sensöründen kenar sinyali gelmez; kablo kopuk ya da sensör bozuktur.",
-      "makineTepkisi": "Kaynak bu durumda yalnızca MIL yanmadığını (None) bildirir; motor zor çalışır",
+      "baslik": "Kam sensörü sinyali yok",
+      "aciklama": "Motorun bilinen şekilde dönmesine rağmen kam sensöründen kenar sinyali gelmez; kablo kopuk ya da sensör bozuktur.",
+      "makineTepkisi": "Arıza göstergesi yanmaz; motor zor çalışır ve ateşleme zamanlaması gecikebilir.",
       "siddet": "uyari",
       "nedenler": [
         "CAM sensör kablolarında kopukluk",
@@ -288,9 +296,9 @@
       "kodNormal": "192",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Kam sensörü senkron kaybı (Cam Sync Fault)",
+      "baslik": "Kam sensörü senkron kaybı",
       "aciklama": "CAM sinyalinin diş senkronizasyonu kaybolur; genelde hatta giren elektriksel gürültü ya da sensör bağlantısının kopması etkendir.",
-      "makineTepkisi": "Kaynak bu durumda MIL yanmadığını (None) bildirir; çalışmada düzensizlik görülür",
+      "makineTepkisi": "Arıza göstergesi yanmaz; çalışmada düzensizlik ve devir dalgalanması görülür.",
       "siddet": "uyari",
       "nedenler": [
         "Sinyal hattında gürültü",
@@ -313,9 +321,9 @@
       "kodNormal": "193",
       "aliaslar": [],
       "sistem": "elektrik",
-      "baslik": "Krank sensörü sinyali yok (Crank Edges Fault)",
+      "baslik": "Krank sensörü sinyali yok",
       "aciklama": "Marş/krank anında krank milinden kenar sinyali alınamaz; sensör kabloları kopmuş veya krank sensörü bozulmuştur.",
-      "makineTepkisi": "Kaynak MIL yanmadığını (None) bildirir; motor ateşleme referansı alamaz",
+      "makineTepkisi": "Arıza göstergesi yanmaz; motor ateşleme referansı alamadığı için çalışmaz.",
       "siddet": "uyari",
       "nedenler": [
         "Krank sensörü kablo kopukluğu",
@@ -338,9 +346,9 @@
       "kodNormal": "194",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Krank sensörü senkron kaybı (Crank Sync Fault)",
+      "baslik": "Krank sensörü senkron kaybı",
       "aciklama": "Krank sensörü sinyal dizisi senkronunu yitirir; hat gürültüsü veya sensör bağlantısındaki ara kopma tipik etkendir.",
-      "makineTepkisi": "Kaynak MIL yanmadığını (None) bildirir; devir okuması güvensizleşir",
+      "makineTepkisi": "Arıza göstergesi yanmaz; devir okuması güvensiz hale gelir.",
       "siddet": "uyari",
       "nedenler": [
         "Sinyal hattı gürültüsü",

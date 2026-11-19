@@ -15,14 +15,18 @@
       ],
       "sistem": "diger",
       "baslik": "Ana şalter/kontaktör arızası",
-      "aciklama": "Güç devresini açan ana kesici (main breaker) beklenen konumda değildir; akü hattı koruma elemanı devreyi açık bırakır.",
+      "aciklama": "Güç devresini açan ana kesici (ana kesici) beklenen konumda değildir; akü hattı koruma elemanı devreyi açık bırakır.",
       "makineTepkisi": "Kontak kapalıyken çekiş ve kaldırma devreye giremez",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Kontaktör yapışması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Yapışan kontaktörü onarın veya değiştirin"
       ],
       "ilgiliKodlar": [
         "60"
@@ -43,10 +47,14 @@
       "makineTepkisi": "Sistem güç aşamasına geçemez",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Yazılım sürümü uyumsuzluğu",
+        "Kalibrasyon kaybı",
+        "EEPROM veri bozulması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Parametre ayarlarını doğrulayın",
+        "Yazılım sürümünü kontrol edin",
+        "Yedek dosyadan veri geri yükleyin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 48,
@@ -61,14 +69,18 @@
       ],
       "sistem": "gosterge",
       "baslik": "Sağ yürüyüş motoru aşırı sıcak (165 °C üzeri)",
-      "aciklama": "Sağ çekiş motorunun sargı sıcaklığı 165 °C eşiğini geçer; kontrolör bu motoru aşırı ısınmaya karşı bloke eder.",
-      "makineTepkisi": "Alarma giden motor/devre kilitlenir (shutdown); gösterge kodu yanar",
+      "aciklama": "Sağ çekiş motorunun sargı sıcaklığı 165 °C eşiğini geçer; kontrolcü bu motoru aşırı ısınmaya karşı bloke eder.",
+      "makineTepkisi": "Alarma giden motorun/devre kilitlenir (kapanma); gösterge kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Soğutma kanalında kir birikimi",
+        "Uzun süreli aşırı yük",
+        "Sürücü modülü arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Sıcaklığı ölçün",
+        "Soğutucu yüzeyleri ve kanalları temizleyin",
+        "Sağ sürüş motoru yalıtım direncini ölçün"
       ],
       "ilgiliKodlar": [
         "62",
@@ -88,13 +100,17 @@
       "sistem": "gosterge",
       "baslik": "Sol yürüyüş motoru aşırı sıcak (165 °C üzeri)",
       "aciklama": "Sol çekiş motoru 165 °C termal eşiğini aşar; inverter sol motoru geçici olarak devre dışı bırakır.",
-      "makineTepkisi": "Alarma giden motor/devre kilitlenir (shutdown); gösterge kodu yanar",
+      "makineTepkisi": "Alarma giden motorun/devre kilitlenir (kapanma); gösterge kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Soğutma fanı arızası",
+        "Ortam sıcaklığının yüksek olması",
+        "Sol sürüş motoru faz sargısında kısa devre"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Soğutucu yüzeyleri ve kanalları temizleyin",
+        "Yükü azaltıp yeniden deneyin",
+        "Sol sürüş motoru faz bağlantılarını kontrol edin"
       ],
       "ilgiliKodlar": [
         "61",
@@ -114,13 +130,17 @@
       "sistem": "hidrolik",
       "baslik": "Pompa motoru aşırı sıcak (165 °C üzeri)",
       "aciklama": "Hidrolik pompa motoru 165 °C'yi geçen sıcaklıkta bloke edilir; kaldırma eğme işlevleri geçici durur.",
-      "makineTepkisi": "Alarma giden motor/devre kilitlenir (shutdown); gösterge kodu yanar",
+      "makineTepkisi": "Alarma giden motorun/devre kilitlenir (kapanma); gösterge kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Uzun süreli aşırı yük",
+        "Soğutma fanı arızası",
+        "Hortum sızıntısı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yükü azaltıp yeniden deneyin",
+        "Sıcaklığı ölçün",
+        "Basınç sensörü okumasını doğrulayın"
       ],
       "ilgiliKodlar": [
         "61",
@@ -143,10 +163,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Enkoder diski kirlenmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kalibrasyonu yeniden yapın",
+        "Sinyal gerilimini ölçün",
+        "5 V besleme hattını doğrulayın"
       ],
       "ilgiliKodlar": [
         "Fc",
@@ -168,10 +192,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Uzun süreli aşırı yük",
+        "Soğutma fanı arızası",
+        "Sağ sensör konnektör oksitlenmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Soğutucu yüzeyleri ve kanalları temizleyin",
+        "Yükü azaltıp yeniden deneyin",
+        "Sağ sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [
         "78",
@@ -194,10 +222,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Uzun süreli aşırı yük",
+        "Soğutma fanı arızası",
+        "Sol sensör konnektör oksitlenmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Soğutucu yüzeyleri ve kanalları temizleyin",
+        "Yükü azaltıp yeniden deneyin",
+        "Sol sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [
         "77",
@@ -220,10 +252,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Ortam sıcaklığının yüksek olması",
+        "Soğutma kanalında kir birikimi",
+        "Sensör kalibrasyon kaybı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yükü azaltıp yeniden deneyin",
+        "Sıcaklığı ölçün",
+        "Sensör konnektörünü görsel kontrol edin"
       ],
       "ilgiliKodlar": [
         "77",
@@ -246,10 +282,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Bellek veri bozulması",
+        "Yazılım sürümü uyumsuzluğu",
+        "Sağ sensör sapması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Giriş sinyallerini ölçerek karşılaştırın",
+        "Kontrolcüyü yeniden başlatın",
+        "Sağ sensör konnektörünü görsel kontrol edin"
       ],
       "ilgiliKodlar": [
         "E1",
@@ -272,10 +312,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Ortam sıcaklığının yüksek olması",
+        "Soğutma kanalında kir birikimi",
+        "Sol sensör kalibrasyon kaybı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Soğutucu yüzeyleri ve kanalları temizleyin",
+        "Yükü azaltıp yeniden deneyin",
+        "Sol sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [
         "E2",
@@ -298,10 +342,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Ortam sıcaklığının yüksek olması",
+        "Soğutma kanalında kir birikimi",
+        "Sensör kalibrasyon kaybı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Soğutucu yüzeyleri ve kanalları temizleyin",
+        "Yükü azaltıp yeniden deneyin",
+        "Sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [
         "E3",
@@ -324,10 +372,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Yazılım sürümü uyumsuzluğu",
+        "Kalibrasyon kaybı",
+        "Düğüm kimlik çakışması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yedekten veri geri yükleyin",
+        "Parametre ayarlarını doğrulayın",
+        "Uç dirençlerini ölçün"
       ],
       "ilgiliKodlar": [
         "84"
@@ -348,10 +400,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "bilgi",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Aynı kimlikli düğüm çakışması",
+        "Düğüm kimlik çakışması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Veri kablosu ve konnektörleri kontrol edin",
+        "Düğüm kimliklerini doğrulayın",
+        "CAN hattı kablo demetini kontrol edin"
       ],
       "ilgiliKodlar": [
         "83"
@@ -369,13 +425,17 @@
       "sistem": "motor",
       "baslik": "Sağ yürüyüş modülü aşırı ısındı",
       "aciklama": "Sağ çekiş invertörünün güç transistörleri sıcaklık sınırını aşar; sistem akımı kısar ya da modülü durdurur.",
-      "makineTepkisi": "Çekiş gücü sınırlandırılır; aşırıysa sağ motor durur",
+      "makineTepkisi": "Çekiş gücü sınırlandırılır; aşırıysa sağ motorun durur",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Soğutma kanalında kir birikimi",
+        "Uzun süreli aşırı yük",
+        "Sürücü modülü arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yükü azaltıp yeniden deneyin",
+        "Sıcaklığı ölçün",
+        "Sürücü çıkış akımını ölçün"
       ],
       "ilgiliKodlar": [
         "80",
@@ -394,14 +454,18 @@
       ],
       "sistem": "motor",
       "baslik": "Sol yürüyüş modülü aşırı ısındı",
-      "aciklama": "Sol çekiş invertörü aşırı sıcaklık bölgesine girer; kontrolör termal koruma için akım sınırı uygular.",
-      "makineTepkisi": "Çekiş gücü sınırlandırılır; aşırıysa sol motor durur",
+      "aciklama": "Sol çekiş invertörü aşırı sıcaklık bölgesine girer; kontrolcü termal koruma için akım sınırı uygular.",
+      "makineTepkisi": "Çekiş gücü sınırlandırılır; aşırıysa sol motorun durur",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Soğutma fanı arızası",
+        "Ortam sıcaklığının yüksek olması",
+        "Sol sürüş motoru faz sargısında kısa devre"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yükü azaltıp yeniden deneyin",
+        "Sıcaklığı ölçün",
+        "Sürücü çıkış akımını ölçün"
       ],
       "ilgiliKodlar": [
         "81",
@@ -424,10 +488,14 @@
       "makineTepkisi": "Kaldırma/eğme performansı düşer; aşırıysa pompa durur",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Uzun süreli aşırı yük",
+        "Soğutma fanı arızası",
+        "Basınç sensörü sapması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Soğutucu yüzeyleri ve kanalları temizleyin",
+        "Yükü azaltıp yeniden deneyin",
+        "Hidrolik yağ seviyesini kontrol edin"
       ],
       "ilgiliKodlar": [
         "82",
@@ -450,10 +518,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Ortam sıcaklığının yüksek olması",
+        "Soğutma kanalında kir birikimi",
+        "Sağ sürüş motoru sargı yalıtımı zayıflaması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yükü azaltıp yeniden deneyin",
+        "Sıcaklığı ölçün",
+        "Sürücü çıkış akımını ölçün"
       ],
       "ilgiliKodlar": [
         "61",
@@ -475,10 +547,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Soğutma fanı arızası",
+        "Ortam sıcaklığının yüksek olması",
+        "Sol sürüş motoru faz sargısında kısa devre"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yükü azaltıp yeniden deneyin",
+        "Sıcaklığı ölçün",
+        "Sürücü çıkış akımını ölçün"
       ],
       "ilgiliKodlar": [
         "62",
@@ -500,10 +576,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Dengesiz yük dağılımı",
+        "Yük ölçüm sensörü sapması",
+        "Hidrolik yağ seviyesinin düşmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yük sensörü okumasını doğrulayın",
+        "Yük ağırlığını kontrol edin",
+        "Basınç sensörü okumasını doğrulayın"
       ],
       "ilgiliKodlar": [
         "65",
@@ -522,14 +602,18 @@
       ],
       "sistem": "guvenlik",
       "baslik": "Hatalı sürüş başlatma / koltuk şalteri açık",
-      "aciklama": "Sistem hatalı start prosedürünü işaretler: yön şalteri güvenliyken açılmış ya da koltuk şalteri açıkyken hareket istenmiştir; kod, yön şalteri kapatılınca söner.",
+      "aciklama": "Sistem hatalı başlatma prosedürünü işaretler: yön şalteri güvenliyken açılmış ya da koltuk şalteri açıkyken hareket istenmiştir; kod, yön şalteri kapatılınca söner.",
       "makineTepkisi": "Araç hareket etmez; yön şalteri kapanınca EE söner",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Şalter mekanik arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Şalter konnektörünü ve kablosunu kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 48,
@@ -548,10 +632,14 @@
       "makineTepkisi": "Akü boş göstergesi; sürüş/çalışma kısıtlanır",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Akü hücre zayıflığı",
+        "Akü şarj seviyesinin azalması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Besleme gerilimini ölçün",
+        "Aküyü şarj edin veya değiştirin",
+        "Sigortaları kontrol edin"
       ],
       "ilgiliKodlar": [
         "F1"
@@ -572,10 +660,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Şarj cihazı regülasyon hatası",
+        "Yanlış gerilim sınıfı yapılandırması",
+        "Besleme hattında gerilim kaybı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Şarj cihazı çıkışını doğrulayın",
+        "Gerilim sınıfı ayarını kontrol edin",
+        "Akü gerilimini ölçün"
       ],
       "ilgiliKodlar": [
         "F1"
@@ -596,10 +688,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Akü şarj seviyesinin azalması",
+        "Besleme hattında gerilim kaybı",
+        "Besleme konnektörü temassızlığı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hattaki gerilim kaybını kontrol edin",
+        "Besleme gerilimini ölçün",
+        "Besleme hattı konektörlerini sıkın"
       ],
       "ilgiliKodlar": [
         "EL",
@@ -621,10 +717,14 @@
       "makineTepkisi": "Çekiş komutu alınmaz/güvenli konumda tutulur",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Kablo ezilmesi",
+        "Potansiyometre konnektör oksitlenmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Kalibrasyonu yeniden yapın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 48,
@@ -638,15 +738,19 @@
         "R-INVERTER FAULT"
       ],
       "sistem": "gosterge",
-      "baslik": "Sağ inverter desat/aşırı akım arızası",
+      "baslik": "Sağ inverter doyma kaybı/aşırı akım arızası",
       "aciklama": "Sağ çekiş modülü çıkışında desatürasyon/aşırı akım saptandı; transistör koruması devreyi kesti.",
-      "makineTepkisi": "Alarma giden motor/devre kilitlenir (shutdown); gösterge kodu yanar",
+      "makineTepkisi": "Alarma giden motorun/devre kilitlenir (kapanma); gösterge kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Sensör sapması",
+        "Sağ sürüş motoru sargı yalıtımı zayıflaması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Referans değerle karşılaştırın",
+        "Kalibrasyonu yeniden yapın",
+        "Sağ sürüş motoru faz bağlantılarını kontrol edin"
       ],
       "ilgiliKodlar": [
         "F4",
@@ -663,15 +767,19 @@
         "L-INVERTER FAULT"
       ],
       "sistem": "gosterge",
-      "baslik": "Sol inverter desat/aşırı akım arızası",
+      "baslik": "Sol inverter doyma kaybı/aşırı akım arızası",
       "aciklama": "Sol çekiş modülü desatürasyon koruması tetiklendi; kısa devre akımı veya transistör arızası şüphesi vardır.",
-      "makineTepkisi": "Alarma giden motor/devre kilitlenir (shutdown); gösterge kodu yanar",
+      "makineTepkisi": "Alarma giden motorun/devre kilitlenir (kapanma); gösterge kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Yanlış kablolama",
+        "Sargı içi kısa devre",
+        "Sol sürüş motoru faz sargısında kısa devre"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kablo yalıtım direncini ölçün",
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Sol sürüş motoru faz bağlantılarını kontrol edin"
       ],
       "ilgiliKodlar": [
         "F3",
@@ -688,15 +796,19 @@
         "P-INVERTER FAULT"
       ],
       "sistem": "hidrolik",
-      "baslik": "Pompa inverter desat/aşırı akım arızası",
-      "aciklama": "Pompa modülü aşırı akım koruması devreye girdi; hidrolik motor hattında kısa veya modül arızası araştırılmalıdır.",
-      "makineTepkisi": "Alarma giden motor/devre kilitlenir (shutdown); gösterge kodu yanar",
+      "baslik": "Pompa inverter doyma kaybı/aşırı akım arızası",
+      "aciklama": "Pompa modülü aşırı akım koruması devreye girdi; hidrolik motorun hattında kısa veya modül arızası araştırılmalıdır.",
+      "makineTepkisi": "Alarma giden motorun/devre kilitlenir (kapanma); gösterge kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kalibrasyon kaybı",
+        "Besleme gerilimi hatası",
+        "Basınç sensörü sapması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Referans değerle karşılaştırın",
+        "Kalibrasyonu yeniden yapın",
+        "Hidrolik yağ seviyesini kontrol edin"
       ],
       "ilgiliKodlar": [
         "F3",
@@ -714,14 +826,18 @@
       ],
       "sistem": "motor",
       "baslik": "Sağ yürüyüş motoru akım sıfır noktası sapması",
-      "aciklama": "Sağ motor akım ölçümünün sıfır ofseti başlangıçta kabul penceresi dışındadır; akım sensörü veya referansı bozuk olabilir.",
+      "aciklama": "Sağ motoru akım ölçümünün sıfır ofseti başlangıçta kabul penceresi dışındadır; akım sensörü veya referansı bozuk olabilir.",
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Sağ sensör sapması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kalibrasyonu yeniden yapın",
+        "Sinyal gerilimini ölçün",
+        "Sağ sensör konnektörünü görsel kontrol edin"
       ],
       "ilgiliKodlar": [
         "F7",
@@ -739,14 +855,18 @@
       ],
       "sistem": "motor",
       "baslik": "Sol yürüyüş motoru akım sıfır noktası sapması",
-      "aciklama": "Sol motor akım sensörü sıfır ofseti hatalı; kapalı çevrim akım kontrolü güvensiz hale gelir.",
+      "aciklama": "Sol motoru akım sensörü sıfır ofseti hatalı; kapalı çevrim akım kontrolü güvensiz hale gelir.",
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Sol sensör sapması",
+        "Sol sensör kalibrasyon kaybı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Referans değerle karşılaştırın",
+        "Kalibrasyonu yeniden yapın",
+        "Sol sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [
         "F6",
@@ -768,10 +888,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Sensör sapması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kalibrasyonu yeniden yapın",
+        "Sinyal gerilimini ölçün",
+        "Sensör konnektörünü görsel kontrol edin"
       ],
       "ilgiliKodlar": [
         "F6",
@@ -793,10 +917,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Sensör sapması",
+        "Referans sensör sapması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Direksiyon kalibrasyonunu yapın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 48,
@@ -815,10 +943,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Akü şarj seviyesinin azalması",
+        "Besleme hattında gerilim kaybı",
+        "Enkoder besleme gerilimi düşüşü"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Aküyü şarj edin veya değiştirin",
+        "Hattaki gerilim kaybını kontrol edin",
+        "Enkoder sinyal çıkışını ölçün"
       ],
       "ilgiliKodlar": [
         "Fc",
@@ -837,14 +969,18 @@
       ],
       "sistem": "guvenlik",
       "baslik": "Sağ yürüyüş motoru enkoder hatası",
-      "aciklama": "Sağ motor enkoder sinyali geçersiz; motor kapalı çevrim sürülemez ve modül güvenlik moduna geçer.",
+      "aciklama": "Sağ motoru enkoder sinyali geçersiz; motorun kapalı çevrim sürülemez ve modül güvenlik moduna geçer.",
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kalibrasyon kaybı",
+        "Besleme gerilimi hatası",
+        "Sağ enkoder hizasızlığı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kalibrasyonu yeniden yapın",
+        "Sinyal gerilimini ölçün",
+        "5 V besleme hattını doğrulayın"
       ],
       "ilgiliKodlar": [
         "Fd",
@@ -863,14 +999,18 @@
       ],
       "sistem": "motor",
       "baslik": "Sol yürüyüş motoru enkoder hatası",
-      "aciklama": "Sol motor enkoder geri beslemesi alınamaz; hız kontrolü açıktan emniyete düşer.",
+      "aciklama": "Sol motoru enkoder geri beslemesi alınamaz; hız kontrolü açıktan emniyete düşer.",
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Bileşen arızası",
+        "Besleme gerilimi hatası",
+        "Sol enkoder sinyal kablosunda kopukluk"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "5 V besleme hattını doğrulayın"
       ],
       "ilgiliKodlar": [
         "Fc",
@@ -893,10 +1033,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Bileşen arızası",
+        "Besleme gerilimi hatası",
+        "Besleme hattında gerilim kaybı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Akü gerilimini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 48,
@@ -915,10 +1059,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Bileşen arızası",
+        "Besleme gerilimi hatası",
+        "Sensör kalibrasyon kaybı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [
         "FE"
@@ -939,10 +1087,14 @@
       "makineTepkisi": "Göstergede alarm kodu yanar",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "EEPROM veri bozulması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Parametre değerlerini gözden geçirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 48,

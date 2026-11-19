@@ -13,14 +13,18 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Koltuk şalteri girişi yok",
-      "aciklama": "Operatör koltuk şalterinden giriş sinyali gelmiyor; kontrolör güvenlik nedeniyle çekişi açmaz.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "aciklama": "Operatör koltuk şalterinden giriş sinyali gelmiyor; kontrolcü güvenlik nedeniyle çekişi açmaz.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Şalter mekanik arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Referans değerle karşılaştırın",
+        "Kalibrasyonu yeniden yapın",
+        "Şalter konumunu kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -34,13 +38,17 @@
       "sistem": "diger",
       "baslik": "İlk enerjilemede ileri yön şalteri kapalı",
       "aciklama": "Kontak ilk açıldığında ileri yön şalteri kapalı konumda görüldü; şalter nötrde değilken sistem başladı.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "İleri şalter mekanik arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Referans değerle karşılaştırın",
+        "Kalibrasyonu yeniden yapın",
+        "İleri şalter konumunu kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -53,14 +61,18 @@
       "aliaslar": [],
       "sistem": "diger",
       "baslik": "İlk enerjilemede geri yön şalteri kapalı",
-      "aciklama": "Kontak açılırken geri yön şalteri kapalı bulundu; prosedür dışı start durumu.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "aciklama": "Kontak açılırken geri yön şalteri kapalı bulundu; prosedür dışı başlatma durumu.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Kablo ezilmesi",
+        "Geri şalter kontak kirlenmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Geri şalter konnektörünü ve kablosunu kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -73,14 +85,18 @@
       "aliaslar": [],
       "sistem": "fren",
       "baslik": "Marş veya fren şalteri kapanmıyor",
-      "aciklama": "Marş anahtarı ya da fren şalteri devreyi kapatmıyor; start zinciri süreksiz.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "aciklama": "Marş anahtarı ya da fren şalteri devreyi kapatmıyor; başlatma zinciri süreksiz.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Bileşen arızası",
+        "Besleme gerilimi hatası",
+        "Fren bobini arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Fren bobini direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -93,14 +109,18 @@
       "aliaslar": [],
       "sistem": "diger",
       "baslik": "Yön seçilmeden gaz pedalına basıldı",
-      "aciklama": "Nötr konumdayken pedal talebi algılandı; kontrolör çekiş komutunu reddeder.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "aciklama": "Nötr konumdayken pedal talebi algılandı; kontrolcü çekiş komutunu reddeder.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Sürüş motoru faz sargısında kısa devre"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kalibrasyonu yeniden yapın",
+        "Sinyal gerilimini ölçün",
+        "Sürücü çıkış akımını ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -114,13 +134,17 @@
       "sistem": "diger",
       "baslik": "Gaz giriş gerilimi çok yüksek",
       "aciklama": "Enerjileme anında pedal potansiyometresi üst sınır üstü okunuyor; sensör hattı incelenmeli.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Şarj cihazı regülasyon hatası",
+        "Yanlış gerilim sınıfı yapılandırması",
+        "Potansiyometre sürgüsü aşınması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Şarj cihazı çıkışını doğrulayın",
+        "Gerilim sınıfı ayarını kontrol edin",
+        "Potansiyometre çıkış gerilimini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -134,13 +158,17 @@
       "sistem": "diger",
       "baslik": "Gaz giriş gerilimi çok düşük",
       "aciklama": "Kontak sonrası pedal giriş gerilimi alt sınırın altında; sensör veya besleme şüpheli.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme hattında gerilim kaybı",
+        "Konnektör temassızlığı",
+        "Sensör konnektör oksitlenmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Aküyü şarj edin veya değiştirin",
+        "Hattaki gerilim kaybını kontrol edin",
+        "Sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -154,13 +182,17 @@
       "sistem": "elektrik",
       "baslik": "İleri ve geri yön şalterleri aynı anda kapalı",
       "aciklama": "Her iki yön şalteri birden kapalı okunuyor; şalter ayarı veya kablo kısa devresi.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Yanlış kablolama",
+        "Sargı içi kısa devre",
+        "Geri şalter mekanik arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Geri şalter konnektörünü ve kablosunu kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -172,15 +204,19 @@
       "kodNormal": "11",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Start şalteri kontak sonrası kapalı kaldı",
-      "aciklama": "İlk kontak kapanışından sonra power-up anında start şalteri kapalı görünüyor; start rölesi yapışık olabilir.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "başlatma şalteri kontak sonrası kapalı kaldı",
+      "aciklama": "İlk kontak kapanışından sonra power-up anında başlatma şalteri kapalı görünüyor; başlatma rölesi yapışık olabilir.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Röle kontak yapışması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı röleyi değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -194,13 +230,17 @@
       "sistem": "batarya",
       "baslik": "Batarya gerilimi çok düşük / kart kalibrasyonu bozuk",
       "aciklama": "Giriş gerilimi alt limitin altında ya da kontrol kartı kalibrasyonu kaymış; gerilim okuması güvenilir değil.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme hattında gerilim kaybı",
+        "Konnektör temassızlığı",
+        "Akü hücre zayıflığı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hattaki gerilim kaybını kontrol edin",
+        "Besleme gerilimini ölçün",
+        "Besleme hattı konektörlerini sıkın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -214,13 +254,17 @@
       "sistem": "batarya",
       "baslik": "Batarya gerilimi çok yüksek / kart kalibrasyonu bozuk",
       "aciklama": "Giriş gerilimi üst limiti aştı; alternatör/şarj düzeni veya kalibrasyon incelenmeli.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Şarj cihazı regülasyon hatası",
+        "Yanlış gerilim sınıfı yapılandırması",
+        "Besleme hattında gerilim kaybı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Şarj cihazı çıkışını doğrulayın",
+        "Gerilim sınıfı ayarını kontrol edin",
+        "Akü gerilimini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -234,13 +278,17 @@
       "sistem": "diger",
       "baslik": "Kontrol kartı tipi seçimi geçersiz",
       "aciklama": "Yazılımda seçilen kontrol kartı tipi gerçek donanımla eşleşmiyor; parametre seti hatalı.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Yazılım sürümü uyumsuzluğu",
+        "Kalibrasyon kaybı",
+        "EEPROM veri bozulması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Parametre ayarlarını doğrulayın",
+        "Yazılım sürümünü kontrol edin",
+        "Yedek dosyadan veri geri yükleyin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -252,15 +300,19 @@
       "kodNormal": "23",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Geri yönde startta saha (field) akımı yüksek",
+      "baslik": "Geri yönde startta saha (saha) akımı yüksek",
       "aciklama": "Geri yön kalkışında saha akımı beklenenden yüksek ölçüldü; sürücü katı veya saha sargısı şüpheli.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kalibrasyon kaybı",
+        "Besleme gerilimi hatası",
+        "Bileşen arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kalibrasyonu yeniden yapın",
+        "Sinyal gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -272,15 +324,19 @@
       "kodNormal": "24",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "İleri yönde startta saha (field) akımı yüksek",
+      "baslik": "İleri yönde startta saha (saha) akımı yüksek",
       "aciklama": "İleri kalkış anında saha akımı sınırı aştı; güç devresinde anormallik.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Sensör sapması",
+        "Kalibrasyon kaybı",
+        "Kablo ezilmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kalibrasyonu yeniden yapın",
+        "Sinyal gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -292,15 +348,19 @@
       "kodNormal": "27",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Kontrolör beslemesi 10V altına düştü",
+      "baslik": "Kontrolcü beslemesi 10V altına düştü",
       "aciklama": "Kontrol devre beslemesi 10V DC'nin altına indi; elektronik kartlar reset bölgesinde.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Akü şarj seviyesinin azalması",
+        "Besleme hattında gerilim kaybı",
+        "Kablo ezilmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hattaki gerilim kaybını kontrol edin",
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -314,13 +374,17 @@
       "sistem": "diger",
       "baslik": "Çalışma sırasında saha akımı fazla yüksek",
       "aciklama": "Seyir halinde saha akımı limitin üstünde; regülasyon devresi ya da sensör sapması.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kalibrasyon kaybı",
+        "Besleme gerilimi hatası",
+        "Sensör konnektör oksitlenmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kalibrasyonu yeniden yapın",
+        "Sinyal gerilimini ölçün",
+        "Sensör konnektörünü görsel kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -333,14 +397,18 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "Termal koruma (TP) açık / transistör aşırı sıcak",
-      "aciklama": "Motor termik koruması açık devre ya da güç transistörleri aşırı sıcak; sürücü kısma/yakma modunda.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "aciklama": "Motorun termik koruması açık devre ya da güç transistörleri aşırı sıcak; sürücü kısma/yakma modunda.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Sigorta atması",
+        "Kablo kopukluğu",
+        "Sürüş motoru sargı yalıtımı zayıflaması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Konnetörü görsel kontrol edin",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Sürüş motoru faz bağlantılarını kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -354,13 +422,17 @@
       "sistem": "diger",
       "baslik": "Arma gerilim ofseti çok yüksek",
       "aciklama": "Kol sargısı gerilim ölçümünün sıfır ofseti üst limiti aştı; sensör beslemesi/kart kayması.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Ölçüm devresi sapması",
+        "Şarj cihazı regülasyon hatası",
+        "Sensör konnektör oksitlenmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Gerilimi ölçün",
+        "Şarj cihazı çıkışını doğrulayın",
+        "Sensörü yeniden kalibre edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -374,13 +446,17 @@
       "sistem": "diger",
       "baslik": "Arma gerilim ofseti çok düşük",
       "aciklama": "Kol gerilim ofset okuması alt sınırın altında; hız tahmini hatalı olabilir.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Akü şarj seviyesinin azalması",
+        "Besleme hattında gerilim kaybı",
+        "Besleme konnektörü temassızlığı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Aküyü şarj edin veya değiştirin",
+        "Hattaki gerilim kaybını kontrol edin",
+        "Akü gerilimini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -394,13 +470,17 @@
       "sistem": "diger",
       "baslik": "Arma transistörü normal şekilde kapanamıyor",
       "aciklama": "Güç transistörü turn-off komutuna rağmen iletimde kaldı; kısa yapmış olabilir.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo yalıtımında aşınma",
+        "Konnektörde nem ve oksitlenme",
+        "Kablo ezilmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Kablo yalıtım direncini ölçün",
+        "Arızalı bileşeni onarın veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -414,13 +494,17 @@
       "sistem": "diger",
       "baslik": "Arma transistörü normal şekilde açılamadı",
       "aciklama": "Transistör turn-on denemesinde devreye girmedi; sürücü katı veya bağlantı kopuk.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Sigorta atması",
+        "Besleme gerilimi hatası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hatta süreklilik ölçün",
+        "Konnetörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -432,15 +516,19 @@
       "kodNormal": "46",
       "aliaslar": [],
       "sistem": "batarya",
-      "baslik": "Look-Ahead A2 gerilimi akünün %12'sinin altında",
+      "baslik": "İleriye dönük A2 gerilimi akünün %12'sinin altında",
       "aciklama": "Kontak öncesi ön-izleme testi A2 hattında beklenen gerilimi göremedi; besleme yolu zayıf.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Besleme konnektörü temassızlığı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Besleme hattı konektörlerini sıkın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -454,13 +542,17 @@
       "sistem": "diger",
       "baslik": "Çalışma sırasında saha akımı fazla düşük",
       "aciklama": "Seyir halinde saha akımı alt sınırın altında; saha devresi zayıf akım veriyor.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme hattında gerilim kaybı",
+        "Konnektör temassızlığı",
+        "Bileşen arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Aküyü şarj edin veya değiştirin",
+        "Hattaki gerilim kaybını kontrol edin",
+        "Besleme gerilimini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -474,13 +566,17 @@
       "sistem": "diger",
       "baslik": "Kontaktör öncesi kapasitör gerilimi düşük",
       "aciklama": "Ana kontaktör kapanmadan önce kapasitör bankı ön gerilimi yetersiz; darbe akımı riski.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Akü hücre zayıflığı",
+        "Akü şarj seviyesinin azalması",
+        "Kontaktör bobin sargısı arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hattaki gerilim kaybını kontrol edin",
+        "Besleme gerilimini ölçün",
+        "Kontak yüzeylerini görsel kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -492,15 +588,19 @@
       "kodNormal": "57",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Motor akım sensörü girişi düşük (çalışmada)",
+      "baslik": "Motorun akım sensörü girişi düşük (çalışmada)",
       "aciklama": "Çalışma anında akım sensörü giriş gerilimi çok düşük; kapalı çevrim akım okuması geçersiz.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Akü hücre zayıflığı",
+        "Sensör sapması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Aküyü şarj edin veya değiştirin",
+        "Hattaki gerilim kaybını kontrol edin",
+        "Sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -514,13 +614,17 @@
       "sistem": "batarya",
       "baslik": "Hat sürüş girişi akünün %12'sinin altında",
       "aciklama": "Doğrudan hat giriş gerilimi batarya geriliminin %12'sinin altına düştü; besleme/şase referansı zayıf.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Akü şarj seviyesinin azalması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Besleme hattı konektörlerini sıkın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -534,13 +638,17 @@
       "sistem": "diger",
       "baslik": "Çalışma sırasında hat bobin akımı yüksek",
       "aciklama": "Seyir halinde hat bobini akımı limiti aştı; devre aşırı yük altında.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Dengesiz yük dağılımı",
+        "Yük ölçüm sensörü sapması",
+        "Besleme gerilimi hatası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yük sensörü okumasını doğrulayın",
+        "Yük ağırlığını kontrol edin",
+        "Kablo ve konnektörü görsel kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -554,13 +662,17 @@
       "sistem": "diger",
       "baslik": "Saha akımı saha transistörü sınırını aştı",
       "aciklama": "Saha sürücü transistörünün akım limiti geçildi; koruma devreye girdi.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Sensör sapması",
+        "Kablo ezilmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kalibrasyonu yeniden yapın",
+        "Sinyal gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -574,13 +686,17 @@
       "sistem": "diger",
       "baslik": "Arma akımı arma transistörü sınırını aştı",
       "aciklama": "Kol devresi akımı güç transistörü sınırını aştı; kısa devre/kilitlenme olasılığı.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektörde nem ve oksitlenme",
+        "Yanlış kablolama",
+        "Bileşen arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kablo yalıtım direncini ölçün",
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Besleme gerilimini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -593,14 +709,18 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Hidrolik direksiyon bobin akımı yüksek (çalışmada)",
-      "aciklama": "Power-steering bobin akımı seyirde limit üstünde; valf/kablo kısa devresi araştırılmalı.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "aciklama": "Hidrolik direksiyon bobin akımı seyirde limit üstünde; valf/kablo kısa devresi araştırılmalı.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Kablo yalıtımında aşınma",
+        "Konnektörde nem ve oksitlenme",
+        "Valf besleme gerilimi düşüşü"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Valf besleme gerilimini doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -614,13 +734,17 @@
       "sistem": "diger",
       "baslik": "Kapasitör (1C) gerilimi fazla yüksek",
       "aciklama": "Birincil kapasitör gerilimi üst limiti aştı; rejeneratif enerji sönümlemesi yetersiz.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Besleme konnektörü temassızlığı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Akü gerilimini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -632,15 +756,19 @@
       "kodNormal": "77",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Rejeneratif frenlemede motor akımı algılandı",
-      "aciklama": "Frenleme kademesinde beklenmeyen motor akımı ölçüldü; geri besleme devresi anormal.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "Rejeneratif frenlemede motorun akımı algılandı",
+      "aciklama": "Frenleme kademesinde beklenmeyen motorun akımı ölçüldü; geri besleme devresi anormal.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Fren ayarının bozulması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kalibrasyonu yeniden yapın",
+        "Sinyal gerilimini ölçün",
+        "Fren bobini direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,
@@ -653,14 +781,18 @@
       "aliaslar": [],
       "sistem": "diger",
       "baslik": "Arma akımı 450 A / 3,5 sn aşıldı",
-      "aciklama": "Kol sürme akımı 450 amperi 3,5 saniyeden uzun sürdürdü; kontrolör arma sürmeyi kesti.",
+      "aciklama": "Kol sürme akımı 450 amperi 3,5 saniyeden uzun sürdürdü; kontrolcü arma sürmeyi kesti.",
       "makineTepkisi": "Arma sürme akımı kesilir; araç çekiş kaybeder",
       "siddet": "uyari",
       "nedenler": [
-        "Kaynakta neden belirtilmemiş"
+        "Konnektör temassızlığı",
+        "Sensör sapması",
+        "Kablo ezilmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Referans değerle karşılaştırın",
+        "Kalibrasyonu yeniden yapın",
+        "Besleme gerilimini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 65,

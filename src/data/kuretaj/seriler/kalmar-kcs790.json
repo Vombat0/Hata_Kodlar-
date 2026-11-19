@@ -13,14 +13,17 @@
       "aliaslar": [],
       "sistem": "diger",
       "baslik": "Servis aralığı aşıldı",
-      "aciklama": "Servis aralığı aşıldı. Bakım zamanı geldi; çalışmaya devam edilebilir.",
-      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "aciklama": "Belirlenen bakım saati dolduğu için kontrolcü servis uyarısı üretiyor; çalışma bundan etkilenmez ancak bakım geciktikçe aşınma ve arıza riski artar.",
+      "makineTepkisi": "bilgi mesajı, çalışmaya devam edilebilir",
       "siddet": "bilgi",
       "nedenler": [
-        "Servis aralığı aşıldı"
+        "Bakım saat sayacının servis aralığını aşması",
+        "Bakım sonrası servis sayacının sıfırlanmamış olması",
+        "Bakım kayıtlarının uzun süre güncellenmemesi"
       ],
       "kontroller": [
-        "Servis aralığını ve bakım kayıtlarını kontrol edin."
+        "Gecikmiş bakım kalemlerini servis kayıtlarından kontrol et",
+        "Bakımı tamamla ve servis sayacını sıfırla"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -33,14 +36,20 @@
       "aliaslar": [],
       "sistem": "iletisim",
       "baslik": "ECU 790 ile iletişim hatası",
-      "aciklama": "ECU 790 ile iletişim hatası. İletişim kurulamadığı için çalışmaya devam edilemez.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Kontrol ağında ECU 790 biriminden beklenen mesajlar kesilir; sürüş ve hidrolik verileri paylaşamaz. Ağ bütünlüğü bozulduğu için güvenlik gereği çalışma durdurulur.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "ECU 790 ile iletişim hatası"
+        "CAN hattında kopma veya kısa devre",
+        "Konnektörlerde oksitlenme ve temas hatası",
+        "CAN sonlandırma dirençlerinin hatalı olması",
+        "ECU 790 besleme sigortasının atması"
       ],
       "kontroller": [
-        "ECU 790 beslemesini ve CAN hattı konektörlerini kontrol edin."
+        "ECU 790 besleme gerilimini ve sigortasını kontrol et",
+        "CAN yüksek ve CAN düşük hat gerilimlerini konnektörde ölç",
+        "Kablo ve konnektör sürekliliğini uçtan uca test et",
+        "Sonlandırma dirençlerini doğrula; arızalı halkayı değiştir"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -53,14 +62,20 @@
       "aliaslar": [],
       "sistem": "iletisim",
       "baslik": "ECU 790 - EDU 795 iletişim kablosu arızalı",
-      "aciklama": "ECU 790 - EDU 795 iletişim kablosu arızalı. Kablo arızası nedeniyle çalışmaya devam edilemez.",
-      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "aciklama": "ECU 790 ile EDU 795 arasındaki iletişim kablosunda kopukluk veya bozulma var; iki ünite arasındaki veri alışverişi aksar. Makine sınırlı çalışmaya devam eder, ilgili fonksiyon devre dışı kalabilir.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir",
       "siddet": "kisitlayici",
       "nedenler": [
-        "ECU 790 - EDU 795 iletişim kablosu arızalı"
+        "Kablo demetinin hareketli bölgede ezilerek kopması",
+        "Konnektör pimlerinin gevşemesi veya oksitlenmesi",
+        "Kablonun çekme kuvvetiyle yerinden çıkması",
+        "Ekran bağlantısının koparak gürültü sızdırması"
       ],
       "kontroller": [
-        "ECU 790 ile EDU 795 arasındaki iletişim kablosunu kontrol edin."
+        "İletişim kablosunu uç konektörlerinden süreklilik testine tabi tut",
+        "Konnektör kilitlerini ve pim sırasını kontrol et",
+        "Kablonun şase ve enerji hatlarına kısa olup olmadığını ölç",
+        "Hasarlı kablo bölümünü yenisiyle değiştir"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -73,14 +88,20 @@
       "aliaslar": [],
       "sistem": "iletisim",
       "baslik": "ECU 793 ile iletişim hatası",
-      "aciklama": "ECU 793 ile iletişim hatası. İletişim kurulamadığı için çalışmaya devam edilemez.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Şanzıman tarafındaki ECU 793 birimi ağa yanıt vermiyor; kademe ve devir bilgileri akamaz. Denetim zinciri koptuğu için makine durdurulur.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "ECU 793 ile iletişim hatası"
+        "ECU 793 besleme hattında gerilim yitimi",
+        "İletişim hattı konnektöründe temassızlık",
+        "CAN veri damarlarından birinde kopma",
+        "ECU 793 ünitesinin iç arızası"
       ],
       "kontroller": [
-        "ECU 793 beslemesini ve iletişim hattını kontrol edin."
+        "ECU 793'e gelen besleme gerilimini kontrol et",
+        "Ünite konnektöründe CAN hat gerilimlerini ölç",
+        "İletişim kablosunun sürekliliğini doğrula",
+        "Besleme ve hat sağlam ise üniteyi değiştir"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -93,14 +114,20 @@
       "aliaslar": [],
       "sistem": "iletisim",
       "baslik": "ECU 794 ile iletişim hatası",
-      "aciklama": "ECU 794 ile iletişim hatası. İletişim kurulamadığı için çalışmaya devam edilemez.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "ECU 794 ünitesi iletişim turuna katılmıyor; bu ünitenin yönettiği fonksiyonların verisi kontrol ağına düşer. Ağ bütünlüğü bozulduğu için çalışmaya devam edilemez.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "ECU 794 ile iletişim hatası"
+        "ECU 794 sigortasında kopma",
+        "Konnektörde nem kaynaklı iletim hatası",
+        "Veri hattı damarlarında kısa devre",
+        "Ünite içinde haberleşme katmanı arızası"
       ],
       "kontroller": [
-        "ECU 794 beslemesini ve iletişim hattını kontrol edin."
+        "Sigorta ve anahtar üzerinden beslemeyi doğrula",
+        "Konnektör pimlerini temizleyip CAN hattını ölç",
+        "Hat damarlarının birbirine ve şaseye sürekliliğini test et",
+        "Arızalıysa üniteyi yenisiyle değiştir"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -113,14 +140,20 @@
       "aliaslar": [],
       "sistem": "iletisim",
       "baslik": "ECU 796 yanıt vermiyor",
-      "aciklama": "ECU 796 yanıt vermiyor. Ünite yanıt vermediği için çalışmaya devam edilemez.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Hidrolik ve ataşman kontrolörü ECU 796 ağ sorgularına yanıt üretmiyor; kaldırma ve ataşman verileri izlenemez. Zincir tamamlanamadığı için durdurma uygulanır.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "ECU 796 yanıt vermiyor"
+        "ECU 796 besleme bağlantısında kopukluk",
+        "Hattın titreşimli bölgede yorulması",
+        "CAN konnektörünün tam oturmaması",
+        "Ünite yazılımının kilitlenmesi"
       ],
       "kontroller": [
-        "ECU 796 beslemesini ve iletişim hattını kontrol edin."
+        "Konnektörü söküp besleme ve şasi temasını ölç",
+        "İletişim kablosunda kopukluk ve kısa devre ara",
+        "Kontayı kapatıp açarak yanıt gelip gelmediğini izle",
+        "Yanıt yoksa üniteyi değiştir"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -133,14 +166,20 @@
       "aliaslar": [],
       "sistem": "iletisim",
       "baslik": "ECU 795 - ECU 796 iletişim kablosu arızalı",
-      "aciklama": "ECU 795 - ECU 796 iletişim kablosu arızalı. Kablo arızası nedeniyle sınırlı çalışma uygulanır.",
-      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "aciklama": "ECU 795 ile ECU 796 arasındaki haberleşme kablosu arızalı; iki kontrolör arasındaki komut ve geri besleme verisi aksar. Sistem sınırlı çalışma modunda ilgili fonksiyonları kilitler.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir",
       "siddet": "kisitlayici",
       "nedenler": [
-        "ECU 795 - ECU 796 iletişim kablosu arızalı"
+        "Kablonun makine hareket ekseninde yorulup çatlaması",
+        "Konnektör temas noktalarında korozyon",
+        "Kablo ekinde gevşek bağlantı",
+        "Ekran topraklamasının kopması"
       ],
       "kontroller": [
-        "ECU 795 ile ECU 796 arasındaki iletişim kablosunu kontrol edin."
+        "İki ünite arasındaki veri damarlarını uçtan uca ölç",
+        "Konnektörleri açıp temas direncini kontrol et",
+        "Kablonun ezili ve gerili kesimlerini gözle denetle",
+        "Arızalı kabloyu orijinal boyda yenisiyle değiştir"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -153,14 +192,20 @@
       "aliaslar": [],
       "sistem": "iletisim",
       "baslik": "ECU 796 - ECU 790 iletişim kablosu arızalı",
-      "aciklama": "ECU 796 - ECU 790 iletişim kablosu arızalı. Kablo arızası nedeniyle sınırlı çalışma uygulanır.",
-      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "aciklama": "ECU 796 ile ECU 790 arasındaki iletişim kablosunda süreksizlik var; hidrolik ve sürüş verileri eşzamanlı akamaz. Kontrolör taze veri göremediği için sınırlama devreye girer.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir",
       "siddet": "kisitlayici",
       "nedenler": [
-        "ECU 796 - ECU 790 iletişim kablosu arızalı"
+        "Kablo mafsallarında tel kopması",
+        "Pimlerin sokette geri kaçması",
+        "Nem alan konnektörde iletim bozulması",
+        "Kablonun sıcak yüzeye değerek sertleşmesi"
       ],
       "kontroller": [
-        "ECU 796 ile ECU 790 arasındaki iletişim kablosunu kontrol edin."
+        "Veri hattının her iki damarı için süreklilik ölçümü yap",
+        "Konnektör kilidinin oturduğunu doğrula",
+        "Hat damarları arasında ve şaseye kaçak ölç",
+        "Sertleşmiş veya kopmuş kabloyu değiştir"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -172,15 +217,21 @@
       "kodNormal": "17",
       "aliaslar": [],
       "sistem": "elektrik",
-      "baslik": "EDU 795 bellek toplam (checksum) hatası",
-      "aciklama": "EDU 795 bellek toplam (checksum) hatası. Bellek verisi bozuk; çalışmaya devam edilemez ve gösterge çalışmıyor.",
-      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "baslik": "EDU 795 bellek toplam (sağlama toplamı) hatası",
+      "aciklama": "EDU 795 bellek içeriğinin toplamı (checksum) doğrulanamıyor; program veya kalibrasyon verisi bozulmuş olabilir. Güvenlik gereği ilgili fonksiyon devre dışı bırakılıp sınırlı çalışma uygulanır.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir",
       "siddet": "kisitlayici",
       "nedenler": [
-        "EDU 795 bellek toplam (checksum) hatası"
+        "Yazılım yükleme işleminin yarıda kesilmesi",
+        "Bellek bloğunun bozulması",
+        "Besleme gerilimi düşümü sırasında yazma hatası",
+        "EEPROM bellek bileşeninin yaşlanması"
       ],
       "kontroller": [
-        "EDU 795 yazılımını yeniden yükleyin; hata sürerse servise başvurun."
+        "EDU 795 yazılımını ve kalibrasyon verilerini yeniden yükleyin",
+        "Kontayı kapatıp açarak bellek denetiminin tekrarlandığını doğrulayın",
+        "Kontrolcü besleme gerilimini ölçün",
+        "Hata sürerse kontrol ünitesini değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -193,14 +244,20 @@
       "aliaslar": [],
       "sistem": "iletisim",
       "baslik": "ECU 792 yanıt vermiyor",
-      "aciklama": "ECU 792 yanıt vermiyor. Ünite yanıt vermediği için çalışmaya devam edilemez.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "ECU 792 üniteye yanıt vermiyor; bağlı sensör ve çıkış verileri güncellenemez. Denetim döngüsü açık kaldığı için güvenlik gereği çalışma durdurulur.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "ECU 792 yanıt vermiyor"
+        "ECU 792 besleme sigortasının atması",
+        "İletişim konnektöründe gevşeme",
+        "Veri hattında kısa devre",
+        "Ünite iç arızası"
       ],
       "kontroller": [
-        "ECU 792 beslemesini ve iletişim hattını kontrol edin."
+        "Besleme gerilimini sigorta yuvasından ölçün",
+        "Konnektörde hat gerilimlerini ve sonlandırmayı kontrol edin",
+        "Kablo damar sürekliliğini test edin",
+        "Ünite arızalıysa değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -213,15 +270,20 @@
       "aliaslar": [],
       "sistem": "batarya",
       "baslik": "ECU 790 besleme gerilimi hatası",
-      "aciklama": "ECU 790 besleme gerilimi hatası. Motor devri düşürülür. Operatör el kitabına göre sigortaları, akü gerilimi ve elektrolit yoğunluğunu kontrol edin. Hata sürerse servise başvurun.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "ECU 790 besleme gerilimi izin verilen aralığın dışına çıkmış; giriş ölçümleri ve valf çıkışları güvenilmez hale gelir. Makine devri düşürülür veya çalışma durdurulur.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "ECU 790 besleme gerilimi hatası"
+        "Akü veya şarj sisteminin gerilim sınırını aşması",
+        "Besleme kablosunda gevşek konektör ya da oksitlenme",
+        "Sigorta yuvasında temas hatası",
+        "Kontrolcü içinde besleme regülatörü arızası"
       ],
       "kontroller": [
-        "Sigortaları, akü gerilimini ve elektrolit yoğunluğunu kontrol edin.",
-        "Hata sürerse servise başvurun."
+        "Akü gerilimini, sigortaları ve elektrolit yoğunluğunu kontrol edin",
+        "Besleme ve şasi bağlantılarını ölçüp temizleyin",
+        "Kablo ve konnektör sürekliliğini doğrulayın",
+        "Sorun sürerse kontrolcü giriş beslemesini ölçtürün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -234,14 +296,20 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "ECU 790 5V referans gerilim hatası",
-      "aciklama": "ECU 790 5V referans gerilim hatası. Referans gerilim aralık dışında; motor devri düşürülür.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "ECU 790 üzerindeki 5V sensör referans gerilimi aralık dışına düşmüş ya da yükselmiş; manyetik ve basınç sensörleri yanlış okur. Devir düşürülerek hatalı komut üretilmesi engellenir.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "ECU 790 5V referans gerilim hatası"
+        "Referans hattına bağlı bir sensörde iç kısa devre",
+        "Referans hattında şaseye kaçak",
+        "Besleme regülatörünün sürüklenmesi",
+        "Nem alan konnektörde kaçak akım yolu"
       ],
       "kontroller": [
-        "5V referans hattını ve bağlı sensörleri kontrol edin."
+        "5V referans ucunda gerilimi multimetre ile ölçün",
+        "Sensörleri tek tek ayırıp hattı kısa düşüren üniteyi bulun",
+        "Konnektörlerde nem ve oksit arayın",
+        "Hatalı sensörü veya üniteyi değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -254,14 +322,20 @@
       "aliaslar": [],
       "sistem": "gosterge",
       "baslik": "Elektrikli yük tartım sensörü arızası",
-      "aciklama": "Elektrikli yük tartım sensörü arızası. Yük tartım bilgisi güvenilir değil; sınırlı çalışma uygulanır.",
-      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "aciklama": "Elektrikli yük tartım sensörü geçersiz sinyal üretiyor; kaldırma kapasitesi doğru hesaplanamaz. Aşırı yük limitörü güvenilir çalışmadığı için kaldırma ve yürüyüş yavaşlatılır.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Elektrikli yük tartım sensörü arızası"
+        "Yük sensörü sinyal hattında kopukluk",
+        "Sensörün sıfır noktasının kayması",
+        "Sensör elemanının aşırı yükten hasar görmesi",
+        "Konnektörde oksitlenme"
       ],
       "kontroller": [
-        "Yük tartım sensörünü ve kablo bağlantılarını kontrol edin."
+        "Sensör besleme ve sinyal gerilimlerini ölçün",
+        "Bilinen bir yükle tartım değerini karşılaştırın",
+        "Kablo ve konnektör sürekliliğini test edin",
+        "Kalibrasyon tutmuyorsa sensörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -274,14 +348,20 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "Hız sensörü arızası",
-      "aciklama": "Hız sensörü arızası. Hız bilgisi okunamadığı için motor devri düşürülür.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Hız sensörü makinenin yürüyüş hızını okuyamıyor; hız kapalı çevrim kontrolü yapılamaz. Aşırı hız riskine karşı devir düşürülür ve sürüş durdurulur.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Hız sensörü arızası"
+        "Hız sensörü hava aralığının değişmesi",
+        "Sensör hedef dişlisinde kırık veya kirlenme",
+        "Sinyal kablosunda kopma ya da kısa devre",
+        "Sensör manyetik yüzeyinde metalik tortu"
       ],
       "kontroller": [
-        "Hız sensörünü ve kablo bağlantılarını kontrol edin."
+        "Sensör ile hedef dişli arasındaki aralığı ölçün",
+        "Sensör çıkış sinyalini hareket halindeyken gözleyin",
+        "Hedef dişliyi kırık ve kir yönünden denetleyin",
+        "Sinyal alınamazsa sensörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -293,15 +373,21 @@
       "kodNormal": "306",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Motor devir sensörü arızası",
-      "aciklama": "Motor devir sensörü arızası. Motor devri okunamadığı için motor devri düşürülür.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "baslik": "Krank devir sensörü arızası",
+      "aciklama": "Krank devir sensörü devir bilgisini doğrulayamıyor; devir kontrolü ve kademe zamanlaması referanssız kalır. Güvenli çalışmayı korumak için devir düşürülür.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Motor devir sensörü arızası"
+        "Devir sensörü bobin direncinin sınır dışına çıkması",
+        "Dişli yüzeyinde diş kırığı veya metalik kirlenme",
+        "Sensör kablosunda kopukluk",
+        "Hava aralığının toleransı aşması"
       ],
       "kontroller": [
-        "Motor devir sensörünü ve kablolarını kontrol edin."
+        "Bobin direncini katalog değeriyle karşılaştırın",
+        "Sensör ucunu ve hedef dişliyi temizleyip inceleyin",
+        "Sinyal kablosunun sürekliliğini ve yalıtımını ölçün",
+        "Arızalı devir sensörünü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -314,14 +400,20 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "Vites seçici kolu arızası",
-      "aciklama": "Vites seçici kolu arızası. Vites seçimi algılanamıyor; motor devri düşürülür.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Vites seçici kolun konum sinyali doğrulanamıyor; sürücünün ileri-geri isteği belirsizdir. Yanlış yönde güç verilmesini önlemek için devir düşürülür.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Vites seçici kolu arızası"
+        "Seçici kol kontak ayarının kayması",
+        "Kablo demetinde pim çıkması",
+        "Konum şalterinde aşınma",
+        "Konnektörde temassızlık"
       ],
       "kontroller": [
-        "Vites seçici kolunu ve şalter devresini kontrol edin."
+        "Kolu her konumda sabitleyip konum girişini ölçün",
+        "Kol altı şalter ve ayarını kontrol edin",
+        "Konnektör ve kablo sürekliliğini test edin",
+        "Aşınmış seçici kol şalterini değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -334,14 +426,20 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "Hidrostatik ileri çalışma basıncı sensörü arızası",
-      "aciklama": "Hidrostatik ileri çalışma basıncı sensörü arızası. İleri çalışma basıncı okunamıyor; motor devri düşürülür.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Hidrostatik ileri çalışma basınç sensörü arızalı; ileri yöndeki sistem basıncı okunamaz. Basınç kontrolü yapılamadığı için ileri sürüş devre dışı bırakılır ve devir düşürülür.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Hidrostatik ileri çalışma basıncı sensörü arızası"
+        "Basınç sensörü sinyal hattında açık devre",
+        "Sensörün şaseye kısa yapması",
+        "Sensör elemanının basınç darbesiyle zarar görmesi",
+        "Konnektörde yağ sızıntısı kaynaklı kaçak"
       ],
       "kontroller": [
-        "İleri devre basınç sensörünü ve kablolarını kontrol edin."
+        "Sensör besleme ve sinyal uçlarında gerilim ölçün",
+        "Manometre ile gerçek basıncı sensör okumasıyla karşılaştırın",
+        "Kablo ve konnektörlerde yağ ve oksit arayın",
+        "Hatalı basınç sensörünü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -354,14 +452,20 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "Hidrostatik geri çalışma basıncı sensörü arızası",
-      "aciklama": "Hidrostatik geri çalışma basıncı sensörü arızası. Geri çalışma basıncı okunamıyor; motor devri düşürülür.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Hidrostatik geri çalışma basınç sensörü geçersiz okuyor; geri yöndeki basınç denetlenemez. Kontrolcü geri yön sürüşünü kilitleyip devri düşürerek korur.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Hidrostatik geri çalışma basıncı sensörü arızası"
+        "Geri devre basınç sensörü hattında kopukluk",
+        "Sensör sıfır noktasında sürüklenme",
+        "Sinyal hattında şase kısayolu",
+        "Hidrolik blokta sensör yuvası kaçağı"
       ],
       "kontroller": [
-        "Geri devre basınç sensörünü ve kablolarını kontrol edin."
+        "Geri devre sensörünün boş ve yüklü basınç okumalarını karşılaştırın",
+        "Sinyal damarının sürekliliğini ve yalıtımını ölçün",
+        "Sensör montajı ve conta bölgesini denetleyin",
+        "Ölçümü bozuk sensörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -374,14 +478,20 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "Kaldırma kolunun hidrolik basınç sensörü arızası",
-      "aciklama": "Kaldırma kolunun hidrolik basınç sensörü arızası. Kaldırma kolu kullanıldığında motor devri yükselmiyor.",
-      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "aciklama": "Kaldırma kolunun hidrolik basınç sensörü hatalı sinyal veriyor; kaldırma kolu hareketinde devir artışı komutu üretilemez. Kaldırma performansı sınırlı kalır.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Kaldırma kolunun hidrolik basınç sensörü arızası"
+        "Kaldırma basınç sensörü hattında temassızlık",
+        "Sensörün kaldırma devresi basıncını yanlış okuması",
+        "Konnektörde oksitlenme",
+        "Sensör kalibrasyonunun kayması"
       ],
       "kontroller": [
-        "Kaldırma kolu basınç sensörünü ve kablolarını kontrol edin."
+        "Kolu çalıştırırken sensör sinyal değişimini ölçün",
+        "Sensör çıkışını referans manometreyle karşılaştırın",
+        "Bağlantı ve kablo kesitini gözle denetleyin",
+        "Gerekirse kaldırma basınç sensörünü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -394,14 +504,20 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "EDC pompa valfi ileri çıkışında kısa/açık devre",
-      "aciklama": "EDC pompa valfi ileri çıkışında kısa/açık devre. Motor devri düşürülür.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "EDC pompa valfinin ileri yön çıkışında kısa ya da açık devre var; ileri pompa akışı denetlenemez. Devir düşürülerek hidrostatik devre korumaya alınır.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "EDC pompa valfi ileri çıkışında kısa/açık devre"
+        "Valf bobin direncinin katalog dışına çıkması",
+        "Çıkış kablosunda şaseye kısa",
+        "Konnektör pimlerinde yanık veya gevşeme",
+        "Kablo damarında kopma"
       ],
       "kontroller": [
-        "EDC pompa valfi ileri çıkış hattını kontrol edin."
+        "EDC valfi bobin direncini ölçün",
+        "İleri yön çıkış hattında kısa ve süreklilik testi yapın",
+        "Konnektörde yanık ve temassızlık arayın",
+        "Arızalı valfi veya kabloyu değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -414,14 +530,20 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "EDC pompa valfi geri çıkışında kısa/açık devre",
-      "aciklama": "EDC pompa valfi geri çıkışında kısa/açık devre. Motor devri düşürülür.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "EDC pompa valfinin geri yön çıkışında kısa veya açık devre algılandı; geri pompa akışı kumanda edilemez. Sistem devri düşürerek hidrostatik devreyi korur.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "EDC pompa valfi geri çıkışında kısa/açık devre"
+        "Geri yön valf sargısında kısa devre",
+        "Çıkış hattında kopukluk",
+        "Sürücü katmanında iç arıza",
+        "Kablo izolasyon hasarıyla gövde teması"
       ],
       "kontroller": [
-        "EDC pompa valfi geri çıkış hattını kontrol edin."
+        "Geri yön valf bobinini direnç ölçümüyle kontrol edin",
+        "Çıkış damarında süreklilik testi yapın",
+        "Hattın gövdeye yalıtımını ölçün",
+        "Arızalı bobin veya kablo bölümünü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -433,15 +555,21 @@
       "kodNormal": "325",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "PDC hidrolik motor valfi çıkışında kısa/açık devre",
-      "aciklama": "PDC hidrolik motor valfi çıkışında kısa/açık devre. Motor devri düşürülür.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "baslik": "PDC hidrolik tahrik valfi çıkışında kısa/açık devre",
+      "aciklama": "PDC hidrolik tahrik valfi sürücü çıkışında kısa ya da açık devre var; tahrik akışı komutlanamaz. Kontrolcü güç aktarımını durdurup devri düşürür.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "PDC hidrolik motor valfi çıkışında kısa/açık devre"
+        "Tahrik valfi bobininin açık devreye dönmesi",
+        "Sürücü kablosunda gövdeye kısa",
+        "Konnektörde temas hatası",
+        "Valf içinde sargı yanığı"
       ],
       "kontroller": [
-        "PDC hidrolik motor valfi çıkış hattını kontrol edin."
+        "Bobin direncini ölçüp katalog değeriyle karşılaştırın",
+        "Çıkış hattında gövdeye kısa testi yapın",
+        "Konnektör ve kablo demetini denetleyin",
+        "Ölçümler normalse kontrolcü çıkışını, değilse valfi değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -454,14 +582,20 @@
       "aliaslar": [],
       "sistem": "batarya",
       "baslik": "Akü gerilimi düşük",
-      "aciklama": "Akü gerilimi düşük. Sınırlı çalışma uygulanır.",
-      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "aciklama": "Akü gerilimi alt sınırın altına düşmüş; valf ve kontaktör çıkışlarının gücü yetersiz kalır. Aşırı deşarjı önlemek için sınırlı çalışma uygulanır.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Akü gerilimi düşük"
+        "Akünün yetersiz şarj edilmesi",
+        "Şarj sisteminin düşük gerilim üretmesi",
+        "Kutup başı oksitlenmesi kaynaklı temas direnci",
+        "Akü hücre dengesizliği"
       ],
       "kontroller": [
-        "Akü gerilimini ve şarj sistemini kontrol edin."
+        "Akü gerilimini hem boşta hem yük altında ölçün",
+        "Şarj cihazının çıkış gerilimini doğrulayın",
+        "Kutup başlarını temizleyip sıkın",
+        "Ömrünü tamamlamış aküyü yenileyin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -474,14 +608,20 @@
       "aliaslar": [],
       "sistem": "batarya",
       "baslik": "Akü gerilimi yüksek",
-      "aciklama": "Akü gerilimi yüksek. Sınırlı çalışma uygulanır.",
-      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "aciklama": "Akü gerilimi üst sınırı aşıyor; elektronik üniteler aşırı gerilim stresine girer. Kontrolcü bileşenleri korumak için çıkışları sınırlar.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Akü gerilimi yüksek"
+        "Şarj regülasyonunun ayar üstü gerilim üretmesi",
+        "Uygun olmayan gerilimle şarj cihazı kullanılması",
+        "Rejeneratif yükleme sırasında akü bağlantısının zayıflaması",
+        "Şasi hattı kopması sonucu ölçüm kayması"
       ],
       "kontroller": [
-        "Akü gerilimini ve şarj sistemini kontrol edin."
+        "Akü ve kontrolcü besleme ucunda gerilimi ölçün",
+        "Şarj cihazının gerilim limitini doğrulayın",
+        "Şasi ve ara bağlantıları denetleyin",
+        "Regülasyonu ayarlayın veya arızalı şarj sistemini onarın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -494,14 +634,18 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "Yakıt seviyesi düşük",
-      "aciklama": "Yakıt seviyesi düşük. Çalışmaya devam edilebilir; yakıt ikmali gerekir.",
-      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "aciklama": "Yakıt seviyesi düşük eşiğe inmiş; çalışma sürer ancak yakıt biterse makine durur. Derin depo boşalmasında hava yapma riski de artar.",
+      "makineTepkisi": "bilgi mesajı, çalışmaya devam edilebilir",
       "siddet": "bilgi",
       "nedenler": [
-        "Yakıt seviyesi düşük"
+        "Deponun vaktinde ikmal edilmemesi",
+        "Yakıt devresinde sızıntı bulunması",
+        "Seviye göstergesinin yanlış okuması"
       ],
       "kontroller": [
-        "Yakıt ikmali yapın."
+        "Depo seviyesini göstergeden ve fiziki olarak teyit edin",
+        "Yakıt ikmali yapın",
+        "Seviye göstergesi gerçeği yansıtmıyorsa sensörü doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -514,14 +658,20 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "Yakıt seviye sensörü arızası",
-      "aciklama": "Yakıt seviye sensörü arızası. Çalışmaya devam edilebilir.",
-      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "aciklama": "Yakıt seviye sensörü aralığın dışında sinyal veriyor; seviye bilgisi güvenilmez. Çalışma engellenmez ancak ikmal zamanı yanlış izlenir.",
+      "makineTepkisi": "bilgi mesajı, çalışmaya devam edilebilir",
       "siddet": "bilgi",
       "nedenler": [
-        "Yakıt seviye sensörü arızası"
+        "Şamandıra kolunun mekanik olarak takılması",
+        "Sensör direnç yolunun aşınması",
+        "Sensör hattında kısa ya da açık devre",
+        "Konnektörde oksitlenme"
       ],
       "kontroller": [
-        "Yakıt seviye sensörünü ve kablolarını kontrol edin."
+        "Depo dolu ve boş konumlarda sensör direncini ölçün",
+        "Şamandıra kolunun serbest hareket ettiğini gözleyin",
+        "Hat sürekliliğini ve şase yalıtımını test edin",
+        "Aşınmış seviye sensörünü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -534,14 +684,20 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "Soğutma suyu seviyesi düşük",
-      "aciklama": "Soğutma suyu seviyesi düşük. Motor devri düşürülür; soğutma suyu ekleyin.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Soğutma suyu seviyesi kritik değerin altında; ısı yeterince atılamaz ve hararet kaçınılmaz hale gelir. Kontrolcü ısınmayı yavaşlatmak için devri düşürür.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Soğutma suyu seviyesi düşük"
+        "Sistemden sızıntı ya da buharlaşma ile su eksilmesi",
+        "Radyatör kapak contasının kaçırması",
+        "Genleşme kabı bağlantısının gevşemesi",
+        "Seviye şamandırasının takılı kalması"
       ],
       "kontroller": [
-        "Soğutma suyu seviyesini kontrol edip ekleyin."
+        "Sistem soğukken seviyeyi genleşme kabından kontrol edip su ekleyin",
+        "Radyatör, hortum ve pompa çevresinde sızıntı arayın",
+        "Kap contası ve basınç değerini doğrulayın",
+        "Seviye sürekli düşüyorsa basınç testiyle kaçak bölgesini bulun"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -554,15 +710,20 @@
       "aliaslar": [],
       "sistem": "hidrolik",
       "baslik": "Hidrolik yağ sıcaklığı yüksek",
-      "aciklama": "Hidrolik yağ sıcaklığı yüksek. Yağ 70°C altına düşene kadar hidrolik fonksiyonları kullanmayın. Hata sürerse servise başvurun.",
-      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "aciklama": "Hidrolik yağ sıcaklığı üst sınırı aşmış; contalar, hortumlar ve valfler ısı hasarı riskine girer. Yağ 70°C altına düşene kadar hidrolik fonksiyonlar kullanılmamalıdır.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Hidrolik yağ sıcaklığı yüksek"
+        "Yağ soğutucusu peteklerinin toz ve kirle tıkanması",
+        "Soğutma fanının devreye girmemesi",
+        "Uzun süre yüksek yükte kesintisiz çalışma",
+        "Yağ seviyesinin düşmesi veya yağın özelliğini yitirmesi"
       ],
       "kontroller": [
-        "Yağ 70°C altına düşene kadar hidrolik fonksiyonları kullanmayın.",
-        "Hata sürerse servise başvurun."
+        "Yağ sıcaklığını harici termometreyle ölçün",
+        "Soğutucu yüzeylerini temizleyip fan çalışmasını doğrulayın",
+        "Yağ seviyesini ve kirliliğini kontrol edin",
+        "Sıcaklık sensörü şüpheliyse direncini tabloyla karşılaştırın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -575,14 +736,20 @@
       "aliaslar": [],
       "sistem": "hidrolik",
       "baslik": "Hidrolik yağ sıcaklık sensörü hatası",
-      "aciklama": "Hidrolik yağ sıcaklık sensörü hatası. Çalışmaya devam edilebilir.",
-      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "aciklama": "Hidrolik yağ sıcaklık sensörü ölçüm bandı dışında değer veriyor; yağ ısısı izlenemez ve soğutma kontrolü referanssız kalır. Çalışma sürer ancak sıcaklık uyarıları güvenilir değildir.",
+      "makineTepkisi": "bilgi mesajı, çalışmaya devam edilebilir",
       "siddet": "bilgi",
       "nedenler": [
-        "Hidrolik yağ sıcaklık sensörü hatası"
+        "Sensör direnç karakteristiğinin sapması",
+        "Sensör hattında temassızlık",
+        "Konnektöre yağ ve nem girişi",
+        "Sensörün yuvada gevşemesi"
       ],
       "kontroller": [
-        "Hidrolik yağ sıcaklık sensörünü ve kablolarını kontrol edin."
+        "Sensör direncini bilinen bir yağ sıcaklığında tabloyla karşılaştırın",
+        "Hat sürekliliğini ölçüp kopukluk ve kısa araştırın",
+        "Konnektörü temizleyip yağ kaçağı yönünden denetleyin",
+        "Sapma gösteren sensörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -595,15 +762,20 @@
       "aliaslar": [],
       "sistem": "fren",
       "baslik": "Fren sisteminde akümülatör basıncı düşük",
-      "aciklama": "Fren akümülatöründeki basınç çok düşük; servis freni kapasitesi sınırlı. Basınç oluşmuyor veya korunmuyorsa akümülatör sızdırmazlığını kontrol edin.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Fren akümülatöründeki basınç servis freni için çok düşük; fren gücü sınırlıdır. Basınç üretilemiyor ya da korunamıyor olabilir, bu yüzden makine durdurulur.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Fren sisteminde akümülatör basıncı düşük"
+        "Akümülatör azot ön basıncının düşmesi",
+        "Akümülatör contalarından sızıntı",
+        "Fren basınç sensörünün düşük okuması",
+        "Fren pompası besleme hattında kesinti"
       ],
       "kontroller": [
-        "Akümülatör sızdırmazlığını ve basıncı kontrol edin.",
-        "Hata sürerse servise başvurun."
+        "Akümülatör basıncını manometreyle ölçün",
+        "Basınç düşüş hızını izleyerek sızıntı bölgesini bulun",
+        "Fren basınç sensörünün sinyalini doğrulayın",
+        "Arızalı akümülatör veya contaları değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -615,16 +787,21 @@
       "kodNormal": "370",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Motor partikül filtresi: 30 dakika içinde temizlenmeli",
-      "aciklama": "Motor partikül filtresi: 30 dakika içinde temizlenmeli. Filtreyi 30 dakika içinde temizleyin.",
-      "makineTepkisi": "INFORMATION etiketi: bilgi mesajı, çalışmaya devam edilebilir.",
+      "baslik": "Partikül filtresi: 30 dakika içinde temizlenmeli",
+      "aciklama": "Egzoz partikül filtresi doluluk uyarı eşiğine ulaşmış; temizlik yapılmazsa bir süre sonra güç düşümü başlar. Şimdilik yalnızca uyarı vardır ve çalışma sürer.",
+      "makineTepkisi": "bilgi mesajı, çalışmaya devam edilebilir",
       "siddet": "bilgi",
       "nedenler": [
-        "Motor partikül filtresi: 30 dakika içinde temizlenmeli"
+        "Uzun süre düşük devirde çalışmayla kurum birikmesi",
+        "Rejenerasyon döngüsünün tamamlanamaması",
+        "Uygun olmayan yakıt kullanımıyla kurum artışı",
+        "Doluluk sensörünün erken uyarı vermesi"
       ],
       "kontroller": [
-        "Filtreyi 30 dakika içinde temizleyin.",
-        "Partikül filtresi el kitabına bakın."
+        "El kitaptaki temizleme prosedürünü 30 dakika içinde uygulayın",
+        "Temizlik sonrası fark basıncını okuyun",
+        "Rölantide uzun çalışma süresini azaltın",
+        "Uyarı sürerse sensör ve fark basınç devresini kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -636,16 +813,20 @@
       "kodNormal": "371",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Motor partikül filtresi: hemen temizlenmeli",
-      "aciklama": "Motor partikül filtresi: hemen temizlenmeli. Filtreyi hemen temizleyin; motor devri düşürülür.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "baslik": "Partikül filtresi: hemen temizlenmeli",
+      "aciklama": "Partikül filtresi tıkanma sınırına dayanmış; temizlik hemen yapılmazsa egzoz karşı basıncı yükselir ve devir düşürülür. Performans kaybı hızla artar.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Motor partikül filtresi: hemen temizlenmeli"
+        "Filtrenin uzun süre temizlenmeden kullanılması",
+        "Doluluk sensörünün sınır aşımını işaretlemesi",
+        "Uygun olmayan yakıttan yoğun kurum birikmesi"
       ],
       "kontroller": [
-        "Filtreyi hemen temizleyin.",
-        "Partikül filtresi el kitabına bakın."
+        "Makineyi durdurup filtre temizliğini hemen yapın",
+        "Tıkanmayı fark basıncı ölçümüyle teyit edin",
+        "Temizlik sonrası uyarı belleğini sıfırlayın",
+        "Sorun yinelenirse sensör hattı ve egzoz devresini inceletin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -657,15 +838,21 @@
       "kodNormal": "372",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Motor partikül filtresi basıncı yüksek",
-      "aciklama": "Motor partikül filtresi basıncı yüksek. Filtreyi temizleyin; motor devri düşürülür.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "baslik": "Partikül filtresi fark basıncı yüksek",
+      "aciklama": "Filtre giriş-çıkış arasındaki basınç farkı izin verilen değeri aşmış; egzoz akışı kısıtlanıyor. Motoru korumak için devir düşürülür.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Motor partikül filtresi basıncı yüksek"
+        "Filtre gözeneklerinin kurumla tıkanması",
+        "Basınç hortumlarında bükülme veya tıkanma",
+        "Fark basınç sensörünün sapması",
+        "Egzoz devresinde daralma"
       ],
       "kontroller": [
-        "Partikül filtresini temizleyin; gerekirse durdurma bölümüne bakın."
+        "Fark basınç hortumlarını söküp tıkanıklık arayın",
+        "Filtreyi temizleyip basınç farkını yeniden ölçün",
+        "Sensör okumasını referans manometreyle doğrulayın",
+        "Kalıcı tıkanmada filtre elemanını değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -678,14 +865,20 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "Sol ön gaz pedalı hatası",
-      "aciklama": "Sol ön gaz pedalı hatası. Motor devri düşürülür.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Sol ön gaz pedalı sinyali beklenen aralıkta değil; devir isteği güvenilmez. Yanlış hızlanmayı önlemek için devir düşürülür.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Sol ön gaz pedalı hatası"
+        "Pedal potansiyometresi iz yolunda aşınma",
+        "Pedal dönüş yayının geri dönmemesi",
+        "Sensör hattında kısa veya kopma",
+        "Pedal mekanizmasının takılması"
       ],
       "kontroller": [
-        "Sol ön gaz pedalı devresini kontrol edin."
+        "Pedal kapalı ve tam basılıyken sinyal gerilimini ölçün",
+        "Çift kanallıysa iki kanal oranının tutarlılığını doğrulayın",
+        "Hattın sürekliliği ve yalıtımını test edin",
+        "Ayarı bozuk pedal ünitesini değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -698,14 +891,20 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "Sağ ön gaz pedalı hatası",
-      "aciklama": "Sağ ön gaz pedalı hatası. Motor devri düşürülür.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Sağ ön gaz pedalı devresi geçersiz okuma veriyor; kabinin bu tarafındaki devir isteği kullanılamaz. Yedek kanal devreye girene kadar sınırlama uygulanır.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Sağ ön gaz pedalı hatası"
+        "Sağ pedal iz yolunda çatlak ve aşınma",
+        "Konnektör pimlerinde oksitlenme",
+        "Sensör besleme hattında gerilim düşümü",
+        "Pedal milinde boşluk oluşması"
       ],
       "kontroller": [
-        "Sağ ön gaz pedalı devresini kontrol edin."
+        "Sağ pedalı kademeli basarken çıkış eğrisini izleyin",
+        "Besleme ve şasi uçlarında gerilimi ölçün",
+        "Konnektör ve kablo mafsalını denetleyin",
+        "Arızalı pedal grubunu yenisiyle değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -718,14 +917,20 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "Sol arka gaz pedalı hatası",
-      "aciklama": "Sol arka gaz pedalı hatası. Motor devri düşürülür.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Sol arka gaz pedalı sinyali mantık denetiminden geçemiyor; arka kumanda tarafının isteği devre dışı sayılır. İstenmeyen hızlanmayı engellemek için devir düşürülür.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Sol arka gaz pedalı hatası"
+        "Arka pedal temas noktasının kirlenmesi",
+        "Sensör sıfır ayarının kayması",
+        "Arka kablo demetinde ezilme",
+        "Pedal mekanizmasında gevşeklik"
       ],
       "kontroller": [
-        "Sol arka gaz pedalı devresini kontrol edin."
+        "Pedal serbestken sensör sıfır gerilimini ölçün",
+        "Vida sabitlemesi ve pedal boşluğunu kontrol edin",
+        "Arka demet bağlantılarında süreklilik ve kısa taraması yapın",
+        "Sıfır ayarı tutmazsa pedalı değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -738,14 +943,20 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "Sağ arka gaz pedalı hatası",
-      "aciklama": "Sağ arka gaz pedalı hatası. Motor devri düşürülür.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Sağ arka gaz pedalı devresi arızalı; çift koltuklu kabinde bu tarafın devir isteği alınamaz. Sistem güvenlik gereği devri düşürüp sınırlı çalışmaya geçer.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Sağ arka gaz pedalı hatası"
+        "Sensör direnç kartında kopukluk",
+        "Konnektör kilidinin tam oturmaması",
+        "Sensör hattının komşu hatlarla kısa yapması",
+        "Pedal takozu tamponunun ezilmesi"
       ],
       "kontroller": [
-        "Sağ arka gaz pedalı devresini kontrol edin."
+        "Sağ arka pedal çıkışını kademeli hareketle ölçün",
+        "Konnektör kilidi ve pim temasını doğrulayın",
+        "Hatlar arası kısa devre testi yapın",
+        "Arızalı pedal ünitesini değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -758,14 +969,20 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "Enjektör pompası servo motoru hatası",
-      "aciklama": "Enjektör pompası servo motoru hatası. Motor devri düşürülür.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Enjektör pompası servo motoru beklenen konuma ulaşamıyor; yakıt miktarı ayarı sapar. Kontrolcü güç düşümü yaparak üniteyi korur.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Enjektör pompası servo motoru hatası"
+        "Servo motorun sargı veya bağlantılarının aşınması",
+        "Pompa milinde mekanik sıkışma",
+        "Konum geri besleme sinyalinde sapma",
+        "Sürücü hattında yükselen temas direnci"
       ],
       "kontroller": [
-        "Enjektör pompası servo motorunu ve kablolarını kontrol edin."
+        "Servo motor sargı direncini ve yalıtımını ölçün",
+        "Komut ile geri besleme konumu arasındaki farkı izleyin",
+        "Pompa milinin serbest dönüşünü kontrol edin",
+        "Arızalıysa sürücü hattını veya servo motoru değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -778,14 +995,20 @@
       "aliaslar": [],
       "sistem": "hidrolik",
       "baslik": "Değişken pompa valfinde hata (optimum hız/devir)",
-      "aciklama": "Değişken pompa valfinde hata (optimum hız/devir). Klemede kısa veya açık devre; sınırlı çalışma uygulanır.",
-      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "aciklama": "Değişken deplasmanlı pompa valfinde kısa ya da açık devre var; debi optimizasyonu çalışmaz. Pompa sabit karakteristikte kaldığı için hız ve kaldırma sınırlanır.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Değişken pompa valfinde hata (optimum hız/devir)"
+        "Valf klemelerinde gevşeme ve oksitlenme",
+        "Valf sargısının aşırı akımla yanması",
+        "Sürücü hattında izolasyon hasarı",
+        "Kablo bağlantısında yorulma"
       ],
       "kontroller": [
-        "Valf klemesi ve kablo bağlantılarını kontrol edin."
+        "Valf bobin direncini klemelerden ölçün",
+        "Sürücü hattında hatlar arası ve şaseye süreklilik testi yapın",
+        "Klemelerde gevşeklik ve yanık izlerini denetleyin",
+        "Arızalı valf veya kabloyu yenisiyle değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -798,16 +1021,20 @@
       "aliaslar": [],
       "sistem": "diger",
       "baslik": "Yön değiştiren operatör koltuğu sensörü arızalı",
-      "aciklama": "Yön değiştiren operatör koltuğu sensörü arızalı. Yalnızca ileri yönde çalışılabilir. Makineyi durdurun ve koltuğu ileri sürüş konumuna çevirin.",
-      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "aciklama": "Döner operatör koltuğunun yön sensörü koltuk yönünü doğrulayamıyor; çapraz kontrol kaybolduğu için yalnızca ileri yönde çalışmaya izin verilir. Koltuğun ileri çevrilip kilitlenmesi gerekir.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Yön değiştiren operatör koltuğu sensörü arızalı"
+        "Koltuk altı yön sensörü ayarının kayması",
+        "Dönme mekanizmasındaki hedef parçanın yerinden çıkması",
+        "Sensör hattının koltuk mafsalında kopması",
+        "Sensörün darbe alması"
       ],
       "kontroller": [
-        "Makineyi durdurun.",
-        "Koltuğu ileri sürüş konumuna çevirin.",
-        "Hata sürerse servise başvurun."
+        "Koltuğu her iki yöne çevirip sensör sinyalini ölçün",
+        "Sensör-hedef mesafe ve hizasını kontrol edin",
+        "Mafsaldaki kablo kesimini süreklilik testiyle denetleyin",
+        "Hatalı yön sensörünü ayarlayın veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -820,14 +1047,20 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Kaldırma ve eğme aşırı yüklenmesi",
-      "aciklama": "Kaldırma ve eğme aşırı yüklenmesi. Hız düşürülür.",
-      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "aciklama": "Kaldırma ve eğme fonksiyonlarında izin verilen yük aşıldı; denge kaybı riski doğdu. Kontrolcü hızı düşürerek devrilme riskini azaltmaya çalışır.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Kaldırma ve eğme aşırı yüklenmesi"
+        "Kapasite tablosunun üzerinde yük kaldırılması",
+        "Yük merkezinin standart değerden uzak olması",
+        "Yük sensörünün yüksek okuması",
+        "Dengeyi bozan ataşman kullanımı"
       ],
       "kontroller": [
-        "Yükü azaltın ve yük dağılımını kontrol edin."
+        "Yüğü indirip ağırlık ve yük merkezini kapasite tablosuyla karşılaştırın",
+        "Gerçek yük ağırlığını tartarak doğrulayın",
+        "Yük algılama sensörlerinin sıfır değerini kontrol edin",
+        "Ataşmanlı çalışmada kapasite düzeltme katsayısını uygulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -840,14 +1073,20 @@
       "aliaslar": [],
       "sistem": "fren",
       "baslik": "Park freni hatası",
-      "aciklama": "Park freni hatası. Park freni çözülemiyor.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Park freni çözme komutuna rağmen açılmıyor; makine hareket edemez. Kalıcı fren kuvveti tahrik sistemini zorladığı için durdurma verilir.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Park freni hatası"
+        "Park freni selenoidinin çekmemesi",
+        "Fren balatalarının yağlanıp yapışması",
+        "Yaylı fren mekanizmasının sıkışması",
+        "Selenoid besleme hattında kopukluk"
       ],
       "kontroller": [
-        "Park freni solenoidini ve devresini kontrol edin."
+        "Çözme komutunda selenoid uçlarında gerilim ölçün",
+        "Fren mekanizmasını elle boşaltıp balataları kontrol edin",
+        "Yaylı fren montajı ve boşluğunu denetleyin",
+        "Çözülmezse fren grubunu onarın veya selenoidi değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -860,14 +1099,20 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "Soğutma suyu seviye sensörü arızalı",
-      "aciklama": "Soğutma suyu seviye sensörü arızalı. Sınırlı çalışma uygulanır.",
-      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "aciklama": "Soğutma suyu seviye sensörü tutarsız sinyal üretiyor; seviye izlemesi güvenilmez. Seviye gerçekten düşük olabilir ya da ölçüm hatalıdır; bu yüzden çalışma sınırlanır.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Soğutma suyu seviye sensörü arızalı"
+        "Sensör probunun kireç veya tortu kaplaması",
+        "Sensör hattında kısa devre",
+        "Şamandıra mekanizmasının takılması",
+        "Konnektörde oksitlenme"
       ],
       "kontroller": [
-        "Soğutma suyu seviye sensörünü ve kablolarını kontrol edin."
+        "Seviyeyi kapak açmadan görsel pencereden kontrol edin",
+        "Sensör çıkışını bilinen seviyede doğrulayın",
+        "Prob yüzeyini temizleyip ölçümü yenidenleyin",
+        "Tutarsızlık sürerse seviye sensörünü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -880,14 +1125,20 @@
       "aliaslar": [],
       "sistem": "diger",
       "baslik": "Koltuk yön değiştirme konum sensörü arızalı",
-      "aciklama": "Koltuk yön değiştirme konum sensörü arızalı. Fonksiyon sınırlıdır.",
-      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "aciklama": "Koltuk yön değiştirme konum sensörü koltuğun kilitli konumunu doğrulayamıyor; koltuk güvensiz konumda sayıldığı için ilgili fonksiyonlar kilitlenir.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Koltuk yön değiştirme konum sensörü arızalı"
+        "Konum şalteri ayarının kayması",
+        "Kilitleme piminin tam oturmaması",
+        "Şalter hattında kopukluk",
+        "Mekanik aşınma ile hedefin yer değiştirmesi"
       ],
       "kontroller": [
-        "Koltuk konum sensörünü ve devresini kontrol edin."
+        "Koltuğu kilitli konuma alıp şalter sinyalini ölçün",
+        "Pim ve hedefin hizasını kontrol edin",
+        "Şalter kablo ve konnektörünü test edin",
+        "Ayar tutmazsa konum şalterini değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -900,14 +1151,20 @@
       "aliaslar": [],
       "sistem": "guvenlik",
       "baslik": "Güç ünitesi aks mili veya eğme silindiri sinyal hatası",
-      "aciklama": "Güç ünitesi aks mili veya eğme silindiri sinyal hatası. Aşırı yük koruması çalışmıyor; sınırlı çalışma uygulanır.",
-      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir.",
+      "aciklama": "Güç ünitesi aks mili veya eğme silindiri sinyali geçersiz; aşırı yük koruması referanssız kaldı. Emniyet işlevi çalışmadığı için kaldırma ve eğme sınırlanır.",
+      "makineTepkisi": "WARNING etiketi: sınırlı çalışma; ilgili fonksiyon devre dışı kalabilir",
       "siddet": "kisitlayici",
       "nedenler": [
-        "Güç ünitesi aks mili veya eğme silindiri sinyal hatası"
+        "Aks mili tork sensörü sinyal halkasının hasar görmesi",
+        "Eğme silindiri konum sensörünün sapması",
+        "Sensör besleme hattında gerilim düşümü",
+        "Konnektörün titreşimle gevşemesi"
       ],
       "kontroller": [
-        "Aks mili ve eğme silindiri sinyal devrelerini kontrol edin."
+        "Aks ve eğme sensörlerinin uç konum gerilimlerini ölçün",
+        "Sinyal kablolarını şase ve kısa sürekliliği yönünden denetleyin",
+        "Besleme hattındaki gerilim düşümünü ölçün",
+        "Kalibre edilemeyen sensörü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -920,14 +1177,20 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Geri beslemeli yönlendirme sensör hatası",
-      "aciklama": "Geri beslemeli yönlendirme sensör hatası. Alternatif yönlendirme kapanır; standart direksiyonu kullanın.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Geri beslemeli yönlendirme sensörü arızalı; direksiyon açısı doğrulanamaz. Alternatif yönlendirme kapatılır ve standart direksiyon kumandasına geçilir.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Geri beslemeli yönlendirme sensör hatası"
+        "Geri besleme sensörü hattında kopukluk",
+        "Açı sensörü potansiyometresinde aşınma",
+        "Mekanik bağlantının gevşemesi",
+        "Sensör sıfır ayarının kayması"
       ],
       "kontroller": [
-        "Geri beslemeli yönlendirme sensörünü ve kablolarını kontrol edin."
+        "Direksiyonu çevirerek sensör çıkış eğrisini okuyun",
+        "Mekanik sürücü bağlantısının sağlamlığını kontrol edin",
+        "Besleme gerilimi ve hat sürekliliğini doğrulayın",
+        "Ayar tutmazsa açı sensörünü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -940,14 +1203,20 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Joystick hatası",
-      "aciklama": "Joystick hatası. Alternatif yönlendirme kapanır; standart direksiyonu kullanın.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Alternatif yönlendirme joystick kolu arızalı sinyal veriyor; yönlendirme komutu alınamaz. Sistem alternatif modu kapatır, standart direksiyonla çalışılabilir.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Joystick hatası"
+        "Joystick potansiyometresi kontaklarının aşınması",
+        "Kablo mafsalında yorulma",
+        "Kol merkezleme yayının bozulması",
+        "Konnektörde temassızlık"
       ],
       "kontroller": [
-        "Joystick ve kablo bağlantılarını kontrol edin."
+        "Kontal açıkken joystick çıkışını nötr ve uç konumlarda ölçün",
+        "Kablo mafsalı ve konnektörü denetleyin",
+        "Joystick kalibrasyon prosedürünü uygulayın",
+        "Kalıcı sapmada joystick ünitesini değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -960,14 +1229,20 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Mini tekerlek potansiyometresi hatası",
-      "aciklama": "Mini tekerlek potansiyometresi hatası. Alternatif yönlendirme kapanır; standart direksiyonu kullanın.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Mini yönlendirme tekerleği potansiyometresi hatalı sinyal üretiyor; açısal komut doğrulanamaz. Alternatif yönlendirme devre dışı bırakılır.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Mini tekerlek potansiyometresi hatası"
+        "Potansiyometre iz yolunda aşınma",
+        "Mil kelepçesinin kayması",
+        "Sensör hattında kopukluk",
+        "Sıfır noktasının kayması"
       ],
       "kontroller": [
-        "Mini tekerlek potansiyometresini ve kablolarını kontrol edin."
+        "Tekerleği çevirerek potansiyometre çıkışını kademeli ölçün",
+        "Mil bağlantısı ve kelepçe sıkılığını kontrol edin",
+        "Besleme, şasi ve sinyal uçlarını ölçün",
+        "Sinyal sıçrıyorsa potansiyometreyi değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -980,14 +1255,20 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Sağ yönlendirme valfi çıkışında kısa/açık devre",
-      "aciklama": "Sağ yönlendirme valfi çıkışında kısa/açık devre. Alternatif yönlendirme kapanır; standart direksiyonu kullanın.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Sağ yönlendirme valfi sürücü çıkışında kısa ya da açık devre var; alternatif yönlendirmenin sağ kanalı çalışmaz. Sistem sağlığı korumak için alternatif modu kapatır.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Sağ yönlendirme valfi çıkışında kısa/açık devre"
+        "Sağ valf bobin sargısının açık devreye dönmesi",
+        "Çıkış kablosunun gövdeye teması",
+        "Konnektörde nem ve oksit",
+        "Sürücü katmanında iç arıza"
       ],
       "kontroller": [
-        "Sağ yönlendirme valfi çıkış hattını kontrol edin."
+        "Sağ valf bobin direncini ölçün",
+        "Çıkış hattında gövdeye yalıtım ve süreklilik testi yapın",
+        "Konnektörü temizleyip nem taraması uygulayın",
+        "Arızalı valf veya kablo bölümünü değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1000,14 +1281,20 @@
       "aliaslar": [],
       "sistem": "direksiyon",
       "baslik": "Sol yönlendirme valfi çıkışında kısa/açık devre",
-      "aciklama": "Sol yönlendirme valfi çıkışında kısa/açık devre. Alternatif yönlendirme kapanır; standart direksiyonu kullanın.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "Sol yönlendirme valfi çıkış devresi arızalı; sol kanal enerjilenemez. Alternatif mod kapatılır, standart direksiyon devrede kaldığı için sürüş sürdürülebilir.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "Sol yönlendirme valfi çıkışında kısa/açık devre"
+        "Sol valfi sürücü damarında kopma",
+        "Bobin ucunda gövdeye kısa",
+        "Konnektör pimlerinde oksitlenme",
+        "Kablo ezilmesine bağlı izolasyon kaybı"
       ],
       "kontroller": [
-        "Sol yönlendirme valfi çıkış hattını kontrol edin."
+        "Sol valf bobin direncini katalog değeriyle karşılaştırın",
+        "Çıkış damarında kopukluk ve gövde teması arayın",
+        "Konnektör temas noktalarını gözle inceleyin",
+        "Arızalı valf veya hattı onarın ve alternatif modu test edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1020,15 +1307,20 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "ECU 792 besleme gerilimi hatası",
-      "aciklama": "ECU 792 besleme gerilimi hatası. Motor devri düşürülür. Operatör el kitabına göre sigortaları kontrol edin; hata sürerse servise başvurun.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "ECU 792 besleme gerilimi izin verilen bandın dışında; üniteye bağlı giriş ve çıkışlar güvenilmez çalışır. Kontrol sistemi devri düşürerek koruma uygular.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "ECU 792 besleme gerilimi hatası"
+        "Besleme hattındaki sigortanın atması",
+        "Kablo klemelerinde gevşeme",
+        "Akü geriliminin sınır değerlerde seyretmesi",
+        "Şasi bağlantısında oksitlenme"
       ],
       "kontroller": [
-        "Operatör el kitabına göre sigortaları kontrol edin.",
-        "Hata sürerse servise başvurun."
+        "ECU 792 besleme uçlarında gerilimi yük altında ölçün",
+        "Sigortaları ve ara bağlantıları kontrol edin",
+        "Şasi noktalarını temizleyip sıkın",
+        "Akü ve şarj gerilimini doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -1041,14 +1333,20 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "ECU 792 5V referans gerilim hatası",
-      "aciklama": "ECU 792 5V referans gerilim hatası. Referans gerilim aralık dışında; motor devri düşürülür.",
-      "makineTepkisi": "STOP etiketi: çalışmaya devam edilemez ya da motor devri düşürülür.",
+      "aciklama": "ECU 792 üzerindeki 5V referans gerilim bandı aştı; bu hattan beslenen sensör verileri reddedilir. Sistem devri düşürerek hatalı komut üretimini engeller.",
+      "makineTepkisi": "çalışmaya devam edilemez ya da motorun devri düşürülür",
       "siddet": "durdurucu",
       "nedenler": [
-        "ECU 792 5V referans gerilim hatası"
+        "Bu hatta bağlı bir sensörün referansı kısa düşürmesi",
+        "Hat izolasyonunun nemle zayıflaması",
+        "Referans regülatörünün sapması",
+        "Kablo demetinde akü hattına temas"
       ],
       "kontroller": [
-        "5V referans hattını ve bağlı sensörleri kontrol edin."
+        "Referans ucunda gerilimi yüksek doğrulukla ölçün",
+        "Sensörleri ayırarak kısa düşüren halkayı bulun",
+        "Hatların şasi ve akü hattına sürekliliğini test edin",
+        "Arızalı sensörü onarın; ünite kaynaklıysa kontrolcü servise gönderin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,

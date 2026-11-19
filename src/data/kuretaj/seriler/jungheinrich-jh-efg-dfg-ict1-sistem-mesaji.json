@@ -17,7 +17,7 @@
       "sistem": "elektrik",
       "baslik": "Sistem açılışında düşük gerilim",
       "aciklama": "Kontrol ünitesi açılışta akü veya ara devre gerilimini izin verilen sınırın altında ölçer; 80 V sistemlerde akü 64 V, kapasitör gerilimi 56 V altına düştüğünde kaydedilir.",
-      "makineTepkisi": "Seyretme engellenir; seyir ve kaldırma gücü düşer, uyarı sembolü yanıp söner.",
+      "makineTepkisi": "Seyretme engellenir; seyir ve kaldırma gücü düşer, uyarı sembolü yanıp söner",
       "siddet": "uyari",
       "nedenler": [
         "Akü şarjının düşük veya akü ömrünün bitmiş olması",
@@ -44,7 +44,7 @@
       "sistem": "elektrik",
       "baslik": "Akü/batarya tarafında aşırı gerilim",
       "aciklama": "Denetim elektronik besleme gerilimini izin verilen üst sınırın üzerinde görür; 80 V sistemin 92 V, 48 V sistemin 62 V, 24 V sistemin 28 V üzerine çıkılması hatayı tetikler.",
-      "makineTepkisi": "Seyir ve hidrolik fonksiyonlar tamamen devre dışı kalır; uyarı sembolü yanıp söner.",
+      "makineTepkisi": "Seyir ve hidrolik fonksiyonlar tamamen devre dışı kalır; uyarı sembolü yanıp söner",
       "siddet": "durdurucu",
       "nedenler": [
         "Şarj cihazının hatalı gerilimde şarj etmesi",
@@ -71,7 +71,7 @@
       "sistem": "elektrik",
       "baslik": "Kontrol ünitesi sıcaklık sınırının aşılması",
       "aciklama": "Güç elektroniği sıcaklığı eşik değeri aşar (>80 °C; MP1510C için >70 °C; ACS donanımında >85 °C bilgi, >115 °C hata, <-20 °C hata).",
-      "makineTepkisi": "Seyir ve kaldırma gücü kademeli olarak düşürülür; uyarı sembolü yanıp söner.",
+      "makineTepkisi": "Seyir ve kaldırma gücü kademeli olarak düşürülür; uyarı sembolü yanıp söner",
       "siddet": "uyari",
       "nedenler": [
         "Ortam sıcaklığının yüksekliği veya havalandırma kanallarının tıkanması",
@@ -98,7 +98,7 @@
       "sistem": "guvenlik",
       "baslik": "Seyir sırasında acil durdurmanın çekilmesi",
       "aciklama": "Operatör acil stop şalterini seyir sırasında çevirir; MP1510C donanımında hat gerilimi 20 V altına düştüğünde mesaj üretilir.",
-      "makineTepkisi": "Fren devreye girer ve seyir engellenir.",
+      "makineTepkisi": "Fren devreye girer ve seyir engellenir",
       "siddet": "durdurucu",
       "nedenler": [
         "Acil stop butonunun seyir sırasında yanlışlıkla çevrilmesi",
@@ -123,7 +123,7 @@
       "sistem": "yuruyus",
       "baslik": "Seyir sisteminde aşırı gerilim",
       "aciklama": "Seyir kontrol ünitesinin besleme hattında izin verilen üst sınır aşılır (Retrak için >62 V, MP1510C için >32 V).",
-      "makineTepkisi": "Fren uygular, seyir engellenir.",
+      "makineTepkisi": "Fren uygular, seyir engellenir",
       "siddet": "durdurucu",
       "nedenler": [
         "Akü geriliminin sistem sınıfının üzerinde olması",
@@ -149,7 +149,7 @@
       "sistem": "yuruyus",
       "baslik": "Seyir set değeri cihazında kablo kopması",
       "aciklama": "Jokey kol/seyir potansiyometresi sinyal hattı kopar; gaz kumandasından hiç set değeri gelmez.",
-      "makineTepkisi": "Seyir durur; uyarı sembolü yanıp söner, hidrolik fonksiyonlar çalışmaya devam eder.",
+      "makineTepkisi": "Seyir durur; uyarı sembolü yanıp söner, hidrolik fonksiyonlar çalışmaya devam eder",
       "siddet": "durdurucu",
       "nedenler": [
         "Seyir set cihazı (potansiyometre) sarım veya konektör kopukluğu",
@@ -176,7 +176,7 @@
       "sistem": "guvenlik",
       "baslik": "Seyir sırasında kontağın kapatılması",
       "aciklama": "Marş anahtarı seyir sırasında çevrilir; MP1510C'de hat gerilimi 200 ms boyunca 13 V altına düşünce kayıt oluşur.",
-      "makineTepkisi": "Fren devreye girer ve seyir engellenir.",
+      "makineTepkisi": "Fren devreye girer ve seyir engellenir",
       "siddet": "durdurucu",
       "nedenler": [
         "Kontak şalterinin seyir sırasında kapatılması",
@@ -202,7 +202,7 @@
       "sistem": "yuruyus",
       "baslik": "İki seyir yönünün aynı anda istenmesi",
       "aciklama": "İleri ve geri yönlü iki giriş aynı anda aktif olur; çift pedallı dizilimde devre mantığı çelişkiyi hata olarak raporlar.",
-      "makineTepkisi": "Seyir durur; uyarı sembolü yanıp söner, hidrolik çalışabilir.",
+      "makineTepkisi": "Seyir durur; uyarı sembolü yanıp söner, hidrolik çalışabilir",
       "siddet": "durdurucu",
       "nedenler": [
         "Yön değiştirme şalterinin iç kontağının yapışması",
@@ -229,7 +229,7 @@
       "sistem": "guvenlik",
       "baslik": "Operatör koruma şalteri arızası",
       "aciklama": "Koltuk/joystick emniyet şalteri beklenmeyen kontak durumu bildirir; operatör var-yok algılaması geçersizdir.",
-      "makineTepkisi": "Kaynakta tepki belirtilmemiş; cihaz emniyet nedeniyle kısıtlamaya girebilir.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Emniyet şalterinin mekanik ayarının kayması",
@@ -251,9 +251,9 @@
         "SM10"
       ],
       "sistem": "elektrik",
-      "baslik": "Kapasitör ve akü gerilimi uyumsuzluğu (ana kontaktör yapışık/açık değil)",
+      "baslik": "Kapasitör–akü gerilimi uyumsuzluğu (kontaktör yapışık)",
       "aciklama": "Kontaktör kapalı komutuna rağmen kapasitör gerilimi akü geriliminden farklı kalır; kontaktörün yapıştığı veya geciktiği anlaşılır.",
-      "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı sembolü yanıp söner.",
+      "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı sembolü yanıp söner",
       "siddet": "durdurucu",
       "nedenler": [
         "Ana kontaktör kontaklarının kaynayarak yapışması",
@@ -279,7 +279,7 @@
       "sistem": "yuruyus",
       "baslik": "Endüvi/uyartma akım ölçümünde ofset hatası",
       "aciklama": "DC ünitede endüvi veya alan akımı, AC ünitede stator akımı ölçümü sıfır noktasında tutarsız değer gösterir.",
-      "makineTepkisi": "Seyir fonksiyonu çalışmaz.",
+      "makineTepkisi": "Seyir fonksiyonu çalışmaz",
       "siddet": "durdurucu",
       "nedenler": [
         "Akım sensörü/shant girişinde ofset sürüklenmesi",
@@ -304,7 +304,7 @@
       "sistem": "yuruyus",
       "baslik": "Alan/çıkış katı sürücü devresi arızası",
       "aciklama": "DC'de alan reostası sürücüsü, AC'de güç katı devre dışı bırakma sürücüsü yanıt vermez; AC'de düz kayış kablosu da tetikleyebilir.",
-      "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı sembolü yanıp söner.",
+      "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı sembolü yanıp söner",
       "siddet": "durdurucu",
       "nedenler": [
         "Sürücü entegresinin arızalanması",
@@ -329,7 +329,7 @@
       "sistem": "yuruyus",
       "baslik": "Alan sargısı watchdog devre dışı bırakma hatası",
       "aciklama": "Alan akımı denetim devresi zaman aşımıyla gücü keser; DC ünitelerde alan sürüşü başlatılamaz.",
-      "makineTepkisi": "Seyir fonksiyonu çalışmaz.",
+      "makineTepkisi": "Seyir fonksiyonu çalışmaz",
       "siddet": "durdurucu",
       "nedenler": [
         "Watchdog konfigürasyonunda donanım uyumsuzluğu",
@@ -337,7 +337,10 @@
         "Kontrol ünitesi iç arızası"
       ],
       "kontroller": [
-        "Arızalı kontrol kartını ve alan sürücü bileşenlerini değiştirin"
+        "Arızalı kontrol kartını ve alan sürücü bileşenlerini değiştirin",
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Sürüş motoru yalıtım direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 3,
@@ -353,7 +356,7 @@
       "sistem": "elektrik",
       "baslik": "Ana kontaktör kapanmadı / alan güç katı açılmıyor",
       "aciklama": "Kendini kilitlemeli ana kontaktör kapanmaz veya DC ünitelerde alan güç katı enerjilenemez.",
-      "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı sembolü yanıp söner.",
+      "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı sembolü yanıp söner",
       "siddet": "durdurucu",
       "nedenler": [
         "Kontaktör bobin devresi veya şarj bağlantısı arızası",
@@ -379,14 +382,17 @@
       "sistem": "yuruyus",
       "baslik": "Alan devre dışı bırakma hatası / AC geçersiz adres",
       "aciklama": "Alan sürüşü istenmeyen şekilde kesilir; AC versiyonda adresleme hatası da bu kodu üretir.",
-      "makineTepkisi": "Seyir fonksiyonu çalışmaz.",
+      "makineTepkisi": "Seyir fonksiyonu çalışmaz",
       "siddet": "durdurucu",
       "nedenler": [
         "Kontrol kartı sürücü bölüm arızası",
         "AC ünitelerde yazılımsal adres hatası"
       ],
       "kontroller": [
-        "Arızalı kontrol parçasını veya üniteyi değiştirin"
+        "Arızalı kontrol parçasını veya üniteyi değiştirin",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Sürüş motoru faz bağlantılarını kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 3,
@@ -402,14 +408,17 @@
       "sistem": "yuruyus",
       "baslik": "Endüvi sürücü devre dışı hatası / AC yazılım sıfırlaması",
       "aciklama": "Endüvi aktüatör sürücüsü devreyi keser; AC ünitelerde yazılım sıfırlanması kayıt oluşturur.",
-      "makineTepkisi": "Seyir fonksiyonu çalışmaz.",
+      "makineTepkisi": "Seyir fonksiyonu çalışmaz",
       "siddet": "durdurucu",
       "nedenler": [
         "Sürücü katında donanım hatası",
         "AC kontrol ünitesinde yazılım yeniden başlaması"
       ],
       "kontroller": [
-        "AC ünitelerde kontrol parçasını, diğerlerinde üniteyi değiştirin"
+        "AC ünitelerde kontrol parçasını, diğerlerinde üniteyi değiştirin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Yazılım sürümünü doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 3,
@@ -425,14 +434,17 @@
       "sistem": "yuruyus",
       "baslik": "Endüvi watchdog devre dışı bırakma hatası",
       "aciklama": "Endüvi akım denetim watchdog'u süresi dolunca gücü keser; DC seyir devre dışı kalır.",
-      "makineTepkisi": "Seyir fonksiyonu çalışmaz.",
+      "makineTepkisi": "Seyir fonksiyonu çalışmaz",
       "siddet": "durdurucu",
       "nedenler": [
         "Watchdog tetikleyen endüvi devresi bozukluğu",
         "Kontrol ünitesi iç arızası"
       ],
       "kontroller": [
-        "Arızalı bileşenleri değiştirin"
+        "Arızalı bileşenleri değiştirin",
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Arızalı bileşeni onarın veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 3,
@@ -448,12 +460,12 @@
       "sistem": "yuruyus",
       "baslik": "Endüvi/güç katı fazı açılamıyor",
       "aciklama": "DC'de endüvi güç katı, AC'de fazların biri enerjilenemez; motora güç verilemez.",
-      "makineTepkisi": "Seyir fonksiyonu çalışmaz.",
+      "makineTepkisi": "Seyir fonksiyonu çalışmaz",
       "siddet": "durdurucu",
       "nedenler": [
         "Endüvi kablo bağlantısında kopukluk",
         "Güç katı (transistör/modül) arızası",
-        "Motor sargı kısa devresi"
+        "Motorun sargı kısa devresi"
       ],
       "kontroller": [
         "Endüvi ana akım kablosunu kontrol edin",
@@ -473,7 +485,7 @@
       "sistem": "yuruyus",
       "baslik": "Endüvi devre dışı hatası / AC güç katı kısa devresi",
       "aciklama": "Endüvi sürüşü kesilir veya AC güç katında kısa devre tespit edilir; hata 70 ile birlikteyse ana kontaktör arkası besleme şüphelidir.",
-      "makineTepkisi": "Seyir fonksiyonu çalışmaz.",
+      "makineTepkisi": "Seyir fonksiyonu çalışmaz",
       "siddet": "durdurucu",
       "nedenler": [
         "Güç katı kısa devresi",
@@ -497,15 +509,18 @@
       ],
       "sistem": "yuruyus",
       "baslik": "Endüvi bağlantısı hatalı",
-      "aciklama": "Endüvi ana akım kabloları ters veya yanlış uçlara bağlanmış; DC motor devresi çalışmaz.",
-      "makineTepkisi": "Seyir fonksiyonu çalışmaz.",
+      "aciklama": "Endüvi ana akım kabloları ters veya yanlış uçlara bağlanmış; DC motorun devresi çalışmaz.",
+      "makineTepkisi": "Seyir fonksiyonu çalışmaz",
       "siddet": "durdurucu",
       "nedenler": [
         "Servis sonrası endüvi kablolarının ters bağlanması",
         "Yanlış kablo şemasına göre montaj"
       ],
       "kontroller": [
-        "Endüvi ana akım kablo bağlantısını şemaya göre doğrulayın"
+        "Endüvi ana akım kablo bağlantısını şemaya göre doğrulayın",
+        "Kalibrasyonu yeniden yapın",
+        "Sinyal gerilimini ölçün",
+        "Sürücü çıkış akımını ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 4,
@@ -521,7 +536,7 @@
       "sistem": "yuruyus",
       "baslik": "Endüvi aşırı gerilimi / üst kolda arıza",
       "aciklama": "Endüvi devresinde aşırı gerilim veya yüksek taraf arızası ölçülür; MP1510'da 250 ms boyunca 360 A üzeri akım tetikler.",
-      "makineTepkisi": "Kaynakta tepki ayrı belirtilmemiş; seyir kesintisi beklenir.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Endüvi kablo kısa devresi",
@@ -547,7 +562,7 @@
       "sistem": "iletisim",
       "baslik": "Watchdog zaman aşımı",
       "aciklama": "Kontrol ünitesi watchdog zamanlayıcısı süresi içinde sıfırlanmaz; yazılım kilitlenmesi teşhis edilir.",
-      "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı sembolü yanıp söner.",
+      "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı sembolü yanıp söner",
       "siddet": "durdurucu",
       "nedenler": [
         "Kontrol ünitesi yazılımının kilitlenmesi",
@@ -572,15 +587,15 @@
       "sistem": "iletisim",
       "baslik": "Ağır yük/kalıcı kesinti veya CAN zaman aşımı",
       "aciklama": "İşlemci aşırı yüklenir, kalıcı kesinti oluşur ya da ACS CAN bağlantısında telegram zaman aşımı olur.",
-      "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı sembolü yanıp söner.",
+      "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı sembolü yanıp söner",
       "siddet": "durdurucu",
       "nedenler": [
-        "CAN bus konektörünün temassız olması",
+        "CAN hattı konektörünün temassız olması",
         "Ağ üzerindeki bir modülün sürekli kesinti üretmesi",
         "Arızalı Canion/kontrol ünitesi"
       ],
       "kontroller": [
-        "CAN bus konektör ve sonlandırma dirençlerini kontrol edin",
+        "CAN hattı konektör ve sonlandırma dirençlerini kontrol edin",
         "Arızalı bileşeni belirleyip değiştirin"
       ],
       "ilgiliKodlar": [],
@@ -597,7 +612,7 @@
       "sistem": "diger",
       "baslik": "EEPROM erişilemiyor veya parametreler tutarsız",
       "aciklama": "Parametre belleği okunamaz ya da parametre seti varsayılana dönmüştür; saat sayacı ve kayıt defteri de etkilenebilir.",
-      "makineTepkisi": "Uyarı sembolü yanıp söner; araç tipi ve parametreler sıfırlanabilir.",
+      "makineTepkisi": "Uyarı sembolü yanıp söner; araç tipi ve parametreler sıfırlanabilir",
       "siddet": "uyari",
       "nedenler": [
         "Akü kablosunda gerilim düşümü (EEPROM yazarken güç kesilmesi)",
@@ -623,7 +638,7 @@
       "sistem": "iletisim",
       "baslik": "Arabayimden telegram yok (login/CAN seyir şalteri)",
       "aciklama": "Interface veya CAN Seyir şalteri telegraf göndermez; modülasyon kartıyla orantılı valf hattı da izlenir.",
-      "makineTepkisi": "Kaynakta tepki ayrı belirtilmemiş; ilgili hidrolik girişler çalışmayabilir.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Interface (I2/I4/I8) besleme sigortası 1F8'in yanması",
@@ -649,7 +664,7 @@
       "sistem": "hidrolik",
       "baslik": "Kaldırma potansiyometresi kablo kopması",
       "aciklama": "Kaldırma kumanda kolunun potansiyometresi sinyal vermez; kaldırma set değeri alınamaz.",
-      "makineTepkisi": "Kaldırma durur; uyarı sembolü yanıp söner, seyir açıktır.",
+      "makineTepkisi": "Kaldırma durur; uyarı sembolü yanıp söner, seyir açıktır",
       "siddet": "durdurucu",
       "nedenler": [
         "Kaldırma potansiyometresi bağlantı kablosunda kopma",
@@ -657,7 +672,10 @@
         "Koldaki potansiyometrinin bozulması"
       ],
       "kontroller": [
-        "Potansiyometre kablo bağlantısını ölçün"
+        "Potansiyometre kablo bağlantısını ölçün",
+        "Konnetörü görsel kontrol edin",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Potansiyometre çıkış gerilimini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 6,
@@ -673,7 +691,7 @@
       "sistem": "direksiyon",
       "baslik": "Yönlendirme set cihazı kablo kopması",
       "aciklama": "Direksiyon/çekme kol açı set cihazının hattı kopar; reach truck'larda 45° bolster sensörü de bu koddan izlenir.",
-      "makineTepkisi": "Sürünme hızına düşer, uyarı yanıp söner, hidrolikler açık; reach truck'ta acil durdurma yapar.",
+      "makineTepkisi": "Sürünme hızına düşer, uyarı yanıp söner, hidrolikler açık; reach truck'ta acil durdurma yapar",
       "siddet": "uyari",
       "nedenler": [
         "Açı set potansiyometresi kablosunda kopma",
@@ -699,7 +717,7 @@
       "sistem": "direksiyon",
       "baslik": "Yönlendirme geri bildirim sensörü kablo kopması",
       "aciklama": "Direksiyon açı gerçek değer sensörü sinyal kaybolur; kapalı çevrim yönlendirme açılamaz.",
-      "makineTepkisi": "Sürünme hızına düşer, uyarı yanıp söner; reach truck'ta acil durdurma oluşur.",
+      "makineTepkisi": "Sürünme hızına düşer, uyarı yanıp söner; reach truck'ta acil durdurma oluşur",
       "siddet": "uyari",
       "nedenler": [
         "Direksiyon açı sensörü kablosunda kopukluk",
@@ -724,14 +742,17 @@
       "sistem": "hidrolik",
       "baslik": "Yatay denge (traverse) potansiyometresi kablo kopması",
       "aciklama": "Multipilot kolundaki traverse potansiyometresi hattı kopar; set değeri okunamaz.",
-      "makineTepkisi": "İlgili yatay denge fonksiyonu çalışmaz.",
+      "makineTepkisi": "İlgili yatay denge fonksiyonu çalışmaz",
       "siddet": "uyari",
       "nedenler": [
         "Multipilot kolu içi potansiyometre kopukluğu",
         "Kablo büküm noktasında tel kırılması"
       ],
       "kontroller": [
-        "Multipilot modülünü ve kablo hattını kontrol edin, gerekirse değiştirin"
+        "Multipilot modülünü ve kablo hattını kontrol edin, gerekirse değiştirin",
+        "Hatta süreklilik ölçün",
+        "Konnetörü görsel kontrol edin",
+        "Kalibrasyonu yeniden yapın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 6,
@@ -747,7 +768,7 @@
       "sistem": "hidrolik",
       "baslik": "Eğme (tilt) potansiyometresi kablo kopması",
       "aciklama": "Multipilot eğme kumanda potansiyometresi sinyali kesilir.",
-      "makineTepkisi": "Eğme fonksiyonu kullanılamaz.",
+      "makineTepkisi": "Eğme fonksiyonu kullanılamaz",
       "siddet": "uyari",
       "nedenler": [
         "Eğme potansiyometresi sarım kopukluğu",
@@ -772,7 +793,7 @@
       "sistem": "hidrolik",
       "baslik": "ZH1 / ilk kaldırma set cihazı kablo kopması",
       "aciklama": "Yan kaydırma ve ilk kaldırma/indirme kumanda hattı kopar; Multipilot/Solopilot set değeri geçersizdir.",
-      "makineTepkisi": "Hidrolik fonksiyonlar durur, uyarı yanıp söner; seyir açıktır.",
+      "makineTepkisi": "Hidrolik fonksiyonlar durur, uyarı yanıp söner; seyir açıktır",
       "siddet": "durdurucu",
       "nedenler": [
         "ZH1 set cihazı kablo kopukluğu",
@@ -796,14 +817,17 @@
       "sistem": "hidrolik",
       "baslik": "ZH2 yardımcı hidrolik set cihazı kablo kopması",
       "aciklama": "İkinci yardımcı hidrolik kumanda hattında kopukluk tespit edilir.",
-      "makineTepkisi": "Hidrolik fonksiyonlar durur, uyarı yanıp söner; seyir açıktır.",
+      "makineTepkisi": "Hidrolik fonksiyonlar durur, uyarı yanıp söner; seyir açıktır",
       "siddet": "durdurucu",
       "nedenler": [
         "ZH2 set cihazı potansiyometresi kopukluğu",
         "Kablo bukletinde kırılma"
       ],
       "kontroller": [
-        "Multipilot/Solopilot'u değiştirin ve yeniden teach edin"
+        "Multipilot/Solopilot'u değiştirin ve yeniden teach edin",
+        "Konnetörü görsel kontrol edin",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Hidrolik yağ seviyesini kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 7,
@@ -819,14 +843,17 @@
       "sistem": "hidrolik",
       "baslik": "ZH3 yardımcı hidrolik set cihazı kablo kopması",
       "aciklama": "Üçüncü yardımcı hidrolik kumanda hattı kopar.",
-      "makineTepkisi": "İlgili yardımcı hidrolik fonksiyonu çalışmaz.",
+      "makineTepkisi": "İlgili yardımcı hidrolik fonksiyonu çalışmaz",
       "siddet": "uyari",
       "nedenler": [
         "ZH3 set cihazı kopukluğu",
         "Multipilot giriş arızası"
       ],
       "kontroller": [
-        "Multipilot modülünü kontrol edin ve değiştirin"
+        "Multipilot modülünü kontrol edin ve değiştirin",
+        "Hatta süreklilik ölçün",
+        "Konnetörü görsel kontrol edin",
+        "Valf ve hortumları görsel kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 7,
@@ -841,7 +868,7 @@
       ],
       "sistem": "iletisim",
       "baslik": "CAN veriyolu hasarlı",
-      "aciklama": "CAN bus haberleşmesi bozulur; düğüm kayıtları alınamaz hale gelir.",
+      "aciklama": "CAN hattı haberleşmesi bozulur; düğüm kayıtları alınamaz hale gelir.",
       "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı sembolü yanıp söner. (2004 sonrası yalnız logbook'a kaydedilir.)",
       "siddet": "durdurucu",
       "nedenler": [
@@ -850,7 +877,7 @@
         "Arızalı düğümün bus'u kilitlemesi"
       ],
       "kontroller": [
-        "CAN bus konektör ve sonlandırma dirençlerini ölçün",
+        "CAN hattı konektör ve sonlandırma dirençlerini ölçün",
         "Arızalı bileşeni ayırarak bus'u test edin"
       ],
       "ilgiliKodlar": [],
@@ -867,7 +894,7 @@
       "sistem": "yuruyus",
       "baslik": "Seyir sıfır konumunda değil (açılışta pedal basılı)",
       "aciklama": "Araç açılırken emniyet (deadman) şalteri ve gaz pedalı basılı konumdadır; sıfır konum kontrolü başarısız olur.",
-      "makineTepkisi": "Seyir durur; uyarı yanıp söner, hidrolikler açıktır.",
+      "makineTepkisi": "Seyir durur; uyarı yanıp söner, hidrolikler açıktır",
       "siddet": "durdurucu",
       "nedenler": [
         "Açılışta pedalın basılı tutulması",
@@ -894,7 +921,7 @@
       "sistem": "hidrolik",
       "baslik": "Kaldırma kolu sıfır konumda değil",
       "aciklama": "Kontak açılırken kaldırma kumanda kolu nötr konumda değildir; açılış sıfır konum denetimi hataya düşer.",
-      "makineTepkisi": "Hidrolik fonksiyonlar durur, uyarı yanıp söner; seyir açıktır.",
+      "makineTepkisi": "Hidrolik fonksiyonlar durur, uyarı yanıp söner; seyir açıktır",
       "siddet": "durdurucu",
       "nedenler": [
         "Açılışta kaldırma kolunun bırakılmaması",
@@ -902,7 +929,10 @@
         "Emniyet şalteri (FS) arızası"
       ],
       "kontroller": [
-        "Kaldırma set cihazını ve sıfır konumunu kontrol edin"
+        "Kaldırma set cihazını ve sıfır konumunu kontrol edin",
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Valf ve hortumları görsel kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 7,
@@ -918,7 +948,7 @@
       "sistem": "direksiyon",
       "baslik": "Direksiyon açı set değeri yok",
       "aciklama": "Yönlendirme açı set sinyali hiç gelmez; direksiyon açısı parametresi de sorgulanır.",
-      "makineTepkisi": "Kaynakta tepki belirtilmemiş; yönlendirme çalışmaz.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Direksiyon set cihazı arızası",
@@ -944,11 +974,11 @@
       "sistem": "diger",
       "baslik": "Bileşen sisteme giriş yapamadı (öz test bitmedi)",
       "aciklama": "Ağdaki bir kontrol cihazı login/self-test'i tamamlayamaz; DIL/SW7 kodlaması ve ACS adreslemesi izlenir.",
-      "makineTepkisi": "Seyir ve kaldırma devre dışı; uyarı sembolü yanıp söner.",
+      "makineTepkisi": "Seyir ve kaldırma devre dışı; uyarı sembolü yanıp söner",
       "siddet": "durdurucu",
       "nedenler": [
         "Arızalı modülün bus'a çıkamaması",
-        "DIL switch 7 (MP1510) kodlama hatası",
+        "DIL şalter 7 (MP1510) kodlama hatası",
         "ACS kodlama veya AS2412F yönlendirme denetim ayarı",
         "Besleme geriliminin düşük olması"
       ],
@@ -971,7 +1001,7 @@
       "sistem": "diger",
       "baslik": "Araç tipi tutarsız",
       "aciklama": "Öz test sırasında kontrol ünitelerindeki araç tipi kayıtları birbiriyle örtüşmez; temas hatası da tipi bozabilir.",
-      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; araç hatalı karakterde çalışabilir.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Parametre yazılırken kontak kesilmesi",
@@ -995,16 +1025,16 @@
       ],
       "sistem": "motor",
       "baslik": "Tahrik motoru aşırı ısındı",
-      "aciklama": "Seyir motoru sıcaklığı çalışma modasında 150 °C eşiğini aşar; motor korumaya alınır.",
-      "makineTepkisi": "Seyir ve kaldırma gücü düşer; uyarı yanıp söner. Yalnız direksiyonda sadece uyarı sembolü yanar.",
+      "aciklama": "Seyir motoru sıcaklığı çalışma modasında 150 °C eşiğini aşar; motorun korumaya alınır.",
+      "makineTepkisi": "Seyir ve kaldırma gücü düşer; uyarı yanıp söner. Yalnız direksiyonda sadece uyarı sembolü yanar",
       "siddet": "uyari",
       "nedenler": [
         "Aşırı yokuş/sürekli tam yük çalışması",
-        "Motor sıcaklık sensörü ve kablo arızası",
-        "Motor freninin açılmayıp motoru tutması"
+        "Motorun sıcaklık sensörü ve kablo arızası",
+        "Motorun freninin açılmayıp motoru tutması"
       ],
       "kontroller": [
-        "Motor sensör sistemini ve kablolarını ölçün",
+        "Motorun sensör sistemini ve kablolarını ölçün",
         "Motoru ve fren boşluğunu kontrol edin",
         "Soğuması için aracı dinlendirin"
       ],
@@ -1022,7 +1052,7 @@
       "sistem": "guvenlik",
       "baslik": "Fren mıknatısı potansiyometresi sinyal aralığı dışında",
       "aciklama": "Fren magneti konum potansiyometresi 0,3 V altı veya 4,7 V üstü değer bildirir.",
-      "makineTepkisi": "Kaynakta tepki belirtilmemiş; fren kontrolü güvensiz hale gelir.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Potansiyometre mekanik montajının kayması",
@@ -1047,7 +1077,7 @@
       "sistem": "guvenlik",
       "baslik": "Fren mıknatısı kısa devresi",
       "aciklama": "Fren magneti çıkışı akü artısına kısa devre yapar (EJC/ELE); manyetik fren devresi güvenli değildir.",
-      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Fren bobini kablo izolasyon hasarı",
@@ -1071,7 +1101,7 @@
       "sistem": "guvenlik",
       "baslik": "Fren ayarı gerekli",
       "aciklama": "Fren balata aşınması nedeniyle ayar sınırına ulaşıldı; fren ayarı yapılmalı.",
-      "makineTepkisi": "Kaynakta tepki belirtilmemiş.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Balata aşınması ile fren ayarının sapa",
@@ -1095,7 +1125,7 @@
       "sistem": "guvenlik",
       "baslik": "Fren bağlı değil / kablo kopuk",
       "aciklama": "Yürür fren konektörü boşta, kısa devreli veya fren kablosu kopuk (yönlendirme kategorisi 3 ve MFC frenli araçlar).",
-      "makineTepkisi": "Fren açılmaz (No release).",
+      "makineTepkisi": "Fren açılmaz (No release)",
       "siddet": "durdurucu",
       "nedenler": [
         "Fren fişinin çıkmış olması",
@@ -1120,7 +1150,7 @@
       "sistem": "direksiyon",
       "baslik": "Direksiyon set cihazından aşırı darbe sayısı",
       "aciklama": "Açı set sensörü olması gerekenden hızlı darbe üretir; ara temas veya girişim sinyali şüphelidir.",
-      "makineTepkisi": "Kaynakta tepki belirtilmemiş; yönlendirme dalgalanabilir.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Sensör yatağında titreme/bozulma",
@@ -1146,7 +1176,7 @@
       "sistem": "direksiyon",
       "baslik": "Direksiyon set cihazı hatalı bağlanmış",
       "aciklama": "Set cihazı yanlış girişe bağlanır; AS4803L'de tanımlanan 3'ten fazla darbe hataya yol açar.",
-      "makineTepkisi": "Kaynakta tepki belirtilmemiş.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Sensör yatağı konektörünün yanlış takılması",
@@ -1170,7 +1200,7 @@
       "sistem": "fren",
       "baslik": "Direksiyon set cihazından darbe gelmiyor",
       "aciklama": "ETVQ direksiyonunda birinci sensörden hiç darbe gelmez; set cihazı açı üretmez.",
-      "makineTepkisi": "Fren açılmaz (No release).",
+      "makineTepkisi": "Fren açılmaz (No release)",
       "siddet": "uyari",
       "nedenler": [
         "Sensör yatağı arızası",
@@ -1194,12 +1224,12 @@
       ],
       "sistem": "direksiyon",
       "baslik": "Yönlendirme tipi parametresi eşleşmiyor",
-      "aciklama": "Algılanan direksiyon tipi 'Steering type' parametresiyle çelişir; ETVQ adımsı motor kaplini de izlenir.",
-      "makineTepkisi": "Kaynakta tepki ayrı belirtilmemiş.",
+      "aciklama": "Algılanan direksiyon tipi 'Steering type' parametresiyle çelişir; ETVQ adımsı motorun kaplini de izlenir.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Yanlış yönlendirme tipi parametresi",
-        "ETVQ adımsız motor kaplininin gevşemesi",
+        "ETVQ adımsız motorun kaplininin gevşemesi",
         "Set cihazı kollarından birinin bozulması"
       ],
       "kontroller": [
@@ -1221,7 +1251,7 @@
       "sistem": "iletisim",
       "baslik": "CAN besleme gerilimi aralık dışında",
       "aciklama": "CAN/sensör beslemesi 10 V altına düşer veya 14 V üzerine çıkar (AS2412F); kısa devre izlenir.",
-      "makineTepkisi": "Seyir devre dışı kalır.",
+      "makineTepkisi": "Seyir devre dışı kalır",
       "siddet": "durdurucu",
       "nedenler": [
         "CAN konektöründe 14 V üstü gerilim (elektrik kısa devresi)",
@@ -1245,7 +1275,7 @@
       "sistem": "hidrolik",
       "baslik": "NRG Multipilot yatay tilt hattı kopuk",
       "aciklama": "Yatay tilt (horizontal tilt) set cihazı hattı kopar; parametre 540'ın yanlışlıkla 1 olması da tetikler.",
-      "makineTepkisi": "Seyir ve kaldırma devre dışı kalır.",
+      "makineTepkisi": "Seyir ve kaldırma devre dışı kalır",
       "siddet": "durdurucu",
       "nedenler": [
         "Multipilot kablo kopukluğu",
@@ -1269,7 +1299,7 @@
       "sistem": "diger",
       "baslik": "Açı gerçek değer potansiyometresi teach hatası",
       "aciklama": "Yönlendirme gerçek açı potansiyometresi kalibrasyonu başarısız olur veya öğrenme sırasında arıza görülür.",
-      "makineTepkisi": "Kaynakta tepki belirtilmemiş; kapalı çevrim açı denetimi yapılamaz.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Kalibrasyonun kesintiye uğraması",
@@ -1293,7 +1323,7 @@
       "sistem": "guvenlik",
       "baslik": "Fren mıknatısı potansiyometresi teach hatası",
       "aciklama": "Fren magneti konum öğrenmesi tamamlanamaz; ayar değer geçersiz kalır.",
-      "makineTepkisi": "Kaynakta tepki belirtilmemiş.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Kalibrasyon koşullarının sağlanmaması",
@@ -1318,7 +1348,7 @@
       "sistem": "direksiyon",
       "baslik": "Yönlendirme set potansiyometresi teach hatası",
       "aciklama": "Direksiyon set potansiyometresi öğrenme işlemi başarısız olur.",
-      "makineTepkisi": "Kaynakta tepki belirtilmemiş.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Eksik kalibrasyon",
@@ -1340,18 +1370,18 @@
         "SM54"
       ],
       "sistem": "motor",
-      "baslik": "Açılış testinde motor kablosu kopuk",
-      "aciklama": "Güç verme testinde motor hattı açık devre bulunur; ETVQ'da sıcaklık sensörü gerilim seviyesi düşüklüğü de bu kodu üretir.",
-      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; motor sürülemez.",
+      "baslik": "Açılış testinde motorun kablosu kopuk",
+      "aciklama": "Güç verme testinde motorun hattı açık devre bulunur; ETVQ'da sıcaklık sensörü gerilim seviyesi düşüklüğü de bu kodu üretir.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Motor kablo bağlantısında kopma",
+        "Motorun kablo bağlantısında kopma",
         "Sıcaklık sensör hattı kopukluğu",
-        "Motor sargı arızası"
+        "Motorun sargı arızası"
       ],
       "kontroller": [
-        "Motor ve sensör kablolarını kontrol edin",
-        "Motor ve kontrol ünitesini test edin"
+        "Motorun ve sensör kablolarını kontrol edin",
+        "Motorun ve kontrol ünitesini test edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 12,
@@ -1365,17 +1395,17 @@
         "SM55"
       ],
       "sistem": "motor",
-      "baslik": "Motor kısa devresi / akım hatalı / güç katı arızası",
-      "aciklama": "Motor devresinde kısa devre veya beklenti dışı akım ölçülür; envertör güç katı arızası rapor edilir.",
-      "makineTepkisi": "Tahrik motoru ve hidrolik motor durur; uyarı yanıp söner.",
+      "baslik": "Motorun kısa devresi / akım hatalı / güç katı arızası",
+      "aciklama": "Motorun devresinde kısa devre veya beklenti dışı akım ölçülür; envertör güç katı arızası rapor edilir.",
+      "makineTepkisi": "Tahrik motoru ve hidrolik motorun durur; uyarı yanıp söner",
       "siddet": "durdurucu",
       "nedenler": [
-        "Motor kablo izolasyon kısa devresi",
-        "Motor sargı arızası",
+        "Motorun kablo izolasyon kısa devresi",
+        "Motorun sargı arızası",
         "Envertör güç katı hasarı"
       ],
       "kontroller": [
-        "Motor kablolarını megger ile ölçün",
+        "Motorun kablolarını megger ile ölçün",
         "Motoru ve kontrol ünitesini değiştirin"
       ],
       "ilgiliKodlar": [],
@@ -1390,17 +1420,17 @@
         "SM56"
       ],
       "sistem": "motor",
-      "baslik": "Motor veya geri bildirim vericisi ters bağlanmış",
-      "aciklama": "Motor veya açı verici çıkışları ters bağlanmıştır; AC'de L1-L2-L3 fazları yer değiştirmiştir.",
-      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; hareket ters yönlü/tutarsız olur.",
+      "baslik": "Motorun veya geri bildirim vericisi ters bağlanmış",
+      "aciklama": "Motorun veya açı verici çıkışları ters bağlanmıştır; AC'de L1-L2-L3 fazları yer değiştirmiştir.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Servis sonrası motor uçlarının ters bağlanması",
+        "Servis sonrası motorun uçlarının ters bağlanması",
         "AC fazlarının yer değiştirmesi",
         "Potansiyometre vericisinin ters montajı"
       ],
       "kontroller": [
-        "Motor bağlantısını şemaya göre kontrol edin",
+        "Motorun bağlantısını şemaya göre kontrol edin",
         "AC'de faz sırasını doğrulayın"
       ],
       "ilgiliKodlar": [],
@@ -1416,8 +1446,8 @@
       ],
       "sistem": "motor",
       "baslik": "Kumanda var, gerçek değer değişmiyor",
-      "aciklama": "Sürme sinyali verildiği hâlde motor dönerken geri besleme değeri değişmez; sensör/mekanik zinciri şüphelidir.",
-      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; kapalı çevrim denetlenemez.",
+      "aciklama": "Sürme sinyali verildiği hâlde motorun dönerken geri besleme değeri değişmez; sensör/mekanik zinciri şüphelidir.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Açı geri bildirim vericisinin kayması/kırılması",
@@ -1443,7 +1473,7 @@
       "sistem": "direksiyon",
       "baslik": "Direksiyon açı gerçek değeri dalgalanıyor",
       "aciklama": "Açı geri bildirim değeri kararlı değildir; ETVQ'da 0° referans geçişi bulunamaz.",
-      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; direksiyon davranışı kararsız olur.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Geri bildirim vericisi arızası",
@@ -1470,14 +1500,17 @@
       "sistem": "direksiyon",
       "baslik": "Direksiyon açı set değeri dalgalanıyor",
       "aciklama": "Çekme koldaki açı set potansiyometresi kararsız sinyal üretir.",
-      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Tiller kolu üzerindeki set potansiyometresinin yıpranması",
         "Kablo ara teması"
       ],
       "kontroller": [
-        "Set cihazı potansiyometresini kontrol edin"
+        "Set cihazı potansiyometresini kontrol edin",
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Kalibrasyonu yeniden yapın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 13,
@@ -1493,7 +1526,7 @@
       "sistem": "direksiyon",
       "baslik": "Dönen gövde direksiyon yönünü takip etmiyor",
       "aciklama": "Dönme payı ile direksiyon kumandası arasında 15° üzeri sapma; mekanik yönlendirme zinciri izlenir.",
-      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; direksiyon tepkisi hatalıdır.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Zincir gerginliğinin kaçması",
@@ -1503,7 +1536,7 @@
       ],
       "kontroller": [
         "Gövde mekaniği, zincir ve gerginliğini kontrol edin",
-        "Motor ve verici bağlantısını gözden geçirin",
+        "Motorun ve verici bağlantısını gözden geçirin",
         "Lastikleri kontrol edin"
       ],
       "ilgiliKodlar": [],
@@ -1520,13 +1553,18 @@
       "sistem": "direksiyon",
       "baslik": "Güç katı hatası (alt tip belirtilmemiş)",
       "aciklama": "Yönlendirme kontrol ünitesi güç katı arıza bildirimi üretir; alt tip belirlenmemiştir.",
-      "makineTepkisi": "Kaynakta tepki yazılmamış; elektriksel direksiyon çalışmayabilir.",
+      "makineTepkisi": "",
       "siddet": "durdurucu",
       "nedenler": [
-        "Güç kartı/transistör arızası"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Direksiyon servo aşırı ısınması"
       ],
       "kontroller": [
-        "Kontrol ünitesini değiştirin"
+        "Kontrol ünitesini değiştirin",
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Direksiyon kalibrasyonunu yapın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 13,
@@ -1542,13 +1580,18 @@
       "sistem": "diger",
       "baslik": "Güç katı hatası (alt tip belirtilmemiş, ikincil)",
       "aciklama": "İkinci güç katı arıza tipi; AS4803L yönlendirme denetiminde ayrım yapılamaz.",
-      "makineTepkisi": "Kaynakta tepki yazılmamış.",
+      "makineTepkisi": "",
       "siddet": "durdurucu",
       "nedenler": [
-        "Güç katı donanım arızası"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Direksiyon servo aşırı ısınması"
       ],
       "kontroller": [
-        "Kontrol ünitesini değiştirin"
+        "Kontrol ünitesini değiştirin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Referans sensörü doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 13,
@@ -1564,7 +1607,7 @@
       "sistem": "elektrik",
       "baslik": "Sensör besleme gerilimi aralık dışında",
       "aciklama": "12 V sensör beslemesi izinli pencerenin (11-15 V, AS4803L'de 10-16 V) dışına çıkar.",
-      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; sensörler geçersiz okur.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Besleme regülasyonunun bozulması",
@@ -1588,13 +1631,18 @@
       "sistem": "diger",
       "baslik": "Yazılım sürümleri farklı",
       "aciklama": "ETV-Q üzerindeki AS4803L ünitelerinin yazılım seviyeleri eşit değildir.",
-      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; üniteler arası uyumsuzluk beklenir.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Tek bir ünitenin güncellenmemiş olması"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "EEPROM veri bozulması"
       ],
       "kontroller": [
-        "Tüm AS4803L yazılımlarını aynı sürüme güncelleyin"
+        "Tüm AS4803L yazılımlarını aynı sürüme güncelleyin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Besleme gerilimini ölçün",
+        "Yazılım sürümünü doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 13,
@@ -1610,7 +1658,7 @@
       "sistem": "hidrolik",
       "baslik": "NRG Multipilot merkez konum hattı kopuk",
       "aciklama": "Merkez konumlandırma (centre shifter) anahtarı hattı kopar; 540 parametresi de tetikleyicidir.",
-      "makineTepkisi": "Seyir ve kaldırma devre dışı kalır.",
+      "makineTepkisi": "Seyir ve kaldırma devre dışı kalır",
       "siddet": "durdurucu",
       "nedenler": [
         "Multipilot merkez konum kablosunda kopma",
@@ -1634,7 +1682,7 @@
       "sistem": "hidrolik",
       "baslik": "NRG Multipilot 180°/360° çevirme şalteri kopuk",
       "aciklama": "Çekme kolun 180/360 derece yön değiştirme şalteri hattı kopar (parametre 543).",
-      "makineTepkisi": "Seyir ve kaldırma devre dışı kalır.",
+      "makineTepkisi": "Seyir ve kaldırma devre dışı kalır",
       "siddet": "durdurucu",
       "nedenler": [
         "Toggle şalter kablosunda kopukluk",
@@ -1658,7 +1706,7 @@
       "sistem": "yuruyus",
       "baslik": "Açılışta Multipilot yön şalteri takılı kaldı",
       "aciklama": "Sistem açılırken set cihazındaki yön şalteri kontak durumunda kalır; Judit teach pencereleri izlenir.",
-      "makineTepkisi": "Seyir ve kaldırma devre dışı kalır.",
+      "makineTepkisi": "Seyir ve kaldırma devre dışı kalır",
       "siddet": "durdurucu",
       "nedenler": [
         "Yön şalterinin mekanik takılması",
@@ -1682,7 +1730,7 @@
       "sistem": "guvenlik",
       "baslik": "Emniyet şalteri kablo kopması",
       "aciklama": "Deadman veya koltuk emniyet şalteri hattı kopar; operatör varlığı doğrulanamaz.",
-      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; güvenlik devresi seyri engeller.",
+      "makineTepkisi": "",
       "siddet": "durdurucu",
       "nedenler": [
         "Emniyet şalteri kablosunda kopukluk",
@@ -1706,14 +1754,17 @@
       "sistem": "hidrolik",
       "baslik": "Kaldırma ve indirme aynı anda istendi",
       "aciklama": "Kaldırma ile indirme girişleri aynı anda aktif; hidrolik mantık çelişkisi raporlanır.",
-      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Ortak şalter gövdesinde iki kontağın birlikte kapanması",
         "Kablo kısa devresi"
       ],
       "kontroller": [
-        "İlgili şalterleri ve kablo bağlantılarını kontrol edin"
+        "İlgili şalterleri ve kablo bağlantılarını kontrol edin",
+        "Yazılım sürümünü doğrulayın",
+        "Giriş sinyallerini ölçerek karşılaştırın",
+        "Hidrolik yağ seviyesini kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 14,
@@ -1729,7 +1780,7 @@
       "sistem": "elektrik",
       "baslik": "Öz teste bileşen yanıt vermiyor",
       "aciklama": "Taban kartındaki bir bileşen öz teste katılmaz veya hatalı yanıt verir; kontaktör arkası besleme izlenir.",
-      "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı yanıp söner.",
+      "makineTepkisi": "Seyir ve hidrolik devre dışı; uyarı yanıp söner",
       "siddet": "durdurucu",
       "nedenler": [
         "Taban kartı LED uyarısında görülen alt arıza",
@@ -1755,7 +1806,7 @@
       "sistem": "hidrolik",
       "baslik": "İndirme potansiyometresi kablo kopması",
       "aciklama": "İndirme kumanda potansiyometresi hattı kopar; set değeri alınamaz.",
-      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; indirme kumandası çalışmaz.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Potansiyometre kopukluğu",
@@ -1780,14 +1831,17 @@
       "sistem": "hidrolik",
       "baslik": "İndirme kolu sıfır konumda değil",
       "aciklama": "Kontak açılışında indirme kolu nötrde değil; açılış denetimi reddeder.",
-      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Açılışta kolun bırakılmaması",
         "Set cihazı sıfır kayması"
       ],
       "kontroller": [
-        "İndirme set cihazını ve nötr konumunu kontrol edin"
+        "İndirme set cihazını ve nötr konumunu kontrol edin",
+        "Referans değerle karşılaştırın",
+        "Kalibrasyonu yeniden yapın",
+        "Hidrolik yağ seviyesini kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 15,
@@ -1803,14 +1857,17 @@
       "sistem": "hidrolik",
       "baslik": "Valf çıkış arabirimi arızası",
       "aciklama": "Valf sürüş çıkışlarının denetiminde tutarsızlık; valf akışları doğrulanamaz.",
-      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Valf sürücü katı bozulması",
         "Valf devrelerinde anormal akım"
       ],
       "kontroller": [
-        "Valf çıkışlarını ve sürücüleri test edin"
+        "Valf çıkışlarını ve sürücüleri test edin",
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Sıkışan valfi temizleyin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 15,
@@ -1826,13 +1883,18 @@
       "sistem": "hidrolik",
       "baslik": "Arabirim valf çıkışı arızası",
       "aciklama": "Arayüz kartının valf çıkışı arıza bildirir; sürücü kartı değişimi gerekir.",
-      "makineTepkisi": "İlgili valf fonksiyonu çalışmayabilir.",
+      "makineTepkisi": "İlgili valf fonksiyonu çalışmayabilir",
       "siddet": "uyari",
       "nedenler": [
-        "Interface kartı çıkış katı arızası"
+        "Bileşen arızası",
+        "Besleme gerilimi hatası",
+        "Valf sıkışması"
       ],
       "kontroller": [
-        "Interface kartını değiştirin"
+        "Interface kartını değiştirin",
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Sıkışan valfi temizleyin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 15,
@@ -1848,7 +1910,7 @@
       "sistem": "hidrolik",
       "baslik": "Orantılı valf akım çekmiyor",
       "aciklama": "Orantılı valf bobininden beklenen akım akmaz; devre açık ya da sürücü verimsizdir.",
-      "makineTepkisi": "Uyarı sembolü yanıp söner.",
+      "makineTepkisi": "Uyarı sembolü yanıp söner",
       "siddet": "uyari",
       "nedenler": [
         "Valf bobin kopukluğu",
@@ -1873,7 +1935,7 @@
       "sistem": "hidrolik",
       "baslik": "Orantılı valf kısa devresi",
       "aciklama": "Orantılı valf devresinde aşırı akım/kısa devre tespit edilir.",
-      "makineTepkisi": "Uyarı sembolü yanıp söner.",
+      "makineTepkisi": "Uyarı sembolü yanıp söner",
       "siddet": "uyari",
       "nedenler": [
         "Valf bobin izolasyonunun bozulması",
@@ -1898,7 +1960,7 @@
       "sistem": "hidrolik",
       "baslik": "Buton kablosu kopuk",
       "aciklama": "Kumanda butonunun sinyal hattı kopar.",
-      "makineTepkisi": "İlgili buton fonksiyonu çalışmaz.",
+      "makineTepkisi": "İlgili buton fonksiyonu çalışmaz",
       "siddet": "uyari",
       "nedenler": [
         "Buton altı tel kopukluğu",
@@ -1922,7 +1984,7 @@
       "sistem": "yuruyus",
       "baslik": "Buton ve seyir şalteri birlikte basılı",
       "aciklama": "Kontak anında buton ile seyir şalteri aynı anda aktif; açılış mantığı uyarı üretir.",
-      "makineTepkisi": "Seyir başlatmayabilir; uyarı kaydı düşer.",
+      "makineTepkisi": "Seyir başlatmayabilir; uyarı kaydı düşer",
       "siddet": "uyari",
       "nedenler": [
         "Açılışta butona basılı tutulması",
@@ -1946,7 +2008,7 @@
       "sistem": "guvenlik",
       "baslik": "Buton ve emniyet şalteri birlikte basılı",
       "aciklama": "Buton ile deadman şalteri eş zamanlı kapanır; kumanda mantığı çelişkisi raporlanır.",
-      "makineTepkisi": "Seyir ve hidrolik engellenebilir; uyarı düşer.",
+      "makineTepkisi": "Seyir ve hidrolik engellenebilir; uyarı düşer",
       "siddet": "uyari",
       "nedenler": [
         "Manevra sırasında hatalı eş zamanlı basma",
@@ -1970,7 +2032,7 @@
       "sistem": "yuruyus",
       "baslik": "Arabayimden iki yöne aynı anda komut",
       "aciklama": "Arayüz üzerinden iki seyir yönü komutu eş zamanlı alınır.",
-      "makineTepkisi": "Seyir komutu işlenmez.",
+      "makineTepkisi": "Seyir komutu işlenmez",
       "siddet": "uyari",
       "nedenler": [
         "Yön butonlarının birlikte iletilmesi",
@@ -1994,14 +2056,17 @@
       "sistem": "yuruyus",
       "baslik": "İki tahrik ünitesinde parametre farkı",
       "aciklama": "Çift motorlu araçta iki seyir kontrol ünitesinin parametre setleri aynı değildir.",
-      "makineTepkisi": "Seyir engellenir.",
+      "makineTepkisi": "Seyir engellenir",
       "siddet": "durdurucu",
       "nedenler": [
         "Ünitelerden birine yanlış parametre yüklenmesi",
         "Ünite değişimi sonrası senkronizasyonun atlanması"
       ],
       "kontroller": [
-        "EFG tahrik ünitelerinde parametreleri eşitleyip sıfırlayın"
+        "EFG tahrik ünitelerinde parametreleri eşitleyip sıfırlayın",
+        "Yedekten veri geri yükleyin",
+        "Parametre ayarlarını doğrulayın",
+        "Yazılım sürümünü doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 15,
@@ -2017,7 +2082,7 @@
       "sistem": "guvenlik",
       "baslik": "Sensör kablo kopması",
       "aciklama": "Koruma sensörünün (ör. kaldırma yüksekliği sınırlayıcı) hattı kopar.",
-      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; ilgili koruma devre dışı kalabilir.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Yükseklik sınırlama buton/sensör kablosunda kopukluk",
@@ -2039,9 +2104,9 @@
         "SM83"
       ],
       "sistem": "elektrik",
-      "baslik": "Aynı kimlikli iki bileşen bus'ta",
+      "baslik": "Aynı kimlikli iki bileşen hatta",
       "aciklama": "İki modül aynı kimlikle rapor verir (ör. anahtar gerilimi Canion'a bağlı); adresleme çakışması oluşur.",
-      "makineTepkisi": "Seyir engellenir.",
+      "makineTepkisi": "Seyir engellenir",
       "siddet": "durdurucu",
       "nedenler": [
         "Bileşen kodlama jumperının yanlış olması",
@@ -2065,7 +2130,7 @@
       "sistem": "yuruyus",
       "baslik": "Hız sensörü arızası",
       "aciklama": "Hız sinyali 4 ms içinde %50 değişir veya referans işaret kaybı olur; hız ölçümü geçersizdir.",
-      "makineTepkisi": "Seyir ve kaldırma durur; uyarı yanıp söner, hidrolikler açık kalır.",
+      "makineTepkisi": "Seyir ve kaldırma durur; uyarı yanıp söner, hidrolikler açık kalır",
       "siddet": "durdurucu",
       "nedenler": [
         "Hız sensörü veya artımlı yatak sürüklenmesi",
@@ -2090,7 +2155,7 @@
       "sistem": "elektrik",
       "baslik": "Seyir besleme hattında gerilim çökmesi",
       "aciklama": "Güç verme izni sırasında kapasitör gerilimi anlık 30 V'a (48 V sistem) düşer; enerji yetersizliği raporlanır.",
-      "makineTepkisi": "Seyir ve hidrolik çalışmaz; uyarı yanıp söner.",
+      "makineTepkisi": "Seyir ve hidrolik çalışmaz; uyarı yanıp söner",
       "siddet": "durdurucu",
       "nedenler": [
         "Akü kutup başı/kablo bağlantı direncinin yükselmesi",
@@ -2115,7 +2180,7 @@
       "sistem": "yuruyus",
       "baslik": "Hız değeri tutarsız / ani değişim",
       "aciklama": "İki sensör sistemi farklı hız üretir veya ölçülen hız ani sıçrar; hız güvenliği devreye girer.",
-      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; hız denetimi kısıtlayabilir.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Sensör sinyal kirlenmesi/pulse sayı hatası (8 veya 64 darbe/devir)",
@@ -2139,15 +2204,18 @@
       ],
       "sistem": "motor",
       "baslik": "Hız sensör hattı kopuk",
-      "aciklama": "100 Ω iç ölçümde gerilim düşümü yok; sensör hattı kopuktur ve motor maksimum akımla uğultu üretir.",
-      "makineTepkisi": "Motor normal çalışmaz (maksimum akım, uğultu).",
+      "aciklama": "100 Ω iç ölçümde gerilim düşümü yok; sensör hattı kopuktur ve motorun maksimum akımla uğultu üretir.",
+      "makineTepkisi": "Motorun normal çalışmaz (maksimum akım, uğultu)",
       "siddet": "uyari",
       "nedenler": [
         "Sensör yatağı kablosunun kopması",
         "Konnektör pini çıkması"
       ],
       "kontroller": [
-        "Sensör kablolarını ve konnektör pinlerini kontrol edin"
+        "Sensör kablolarını ve konnektör pinlerini kontrol edin",
+        "Hatta süreklilik ölçün",
+        "Konnetörü görsel kontrol edin",
+        "Sensörü yeniden kalibre edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 17,
@@ -2163,7 +2231,7 @@
       "sistem": "hidrolik",
       "baslik": "Hidrolik hız sensörü arızası (AS4814H)",
       "aciklama": "Hidrolik pompaya ait hız sensörü geçersiz sinyal üretir.",
-      "makineTepkisi": "Hidrolik durur; uyarı yanıp söner; seyir açıktır.",
+      "makineTepkisi": "Hidrolik durur; uyarı yanıp söner; seyir açıktır",
       "siddet": "uyari",
       "nedenler": [
         "Hidrolik hız sensörü arızası",
@@ -2187,7 +2255,7 @@
       "sistem": "hidrolik",
       "baslik": "Hidrolik besleme hattında düşük gerilim",
       "aciklama": "Hidrolik güç kademesi beslemesi düşük gerilimde; kaldırma performansı sınırlanır.",
-      "makineTepkisi": "Seyir ve kaldırma gücü düşer; uyarı yanıp söner.",
+      "makineTepkisi": "Seyir ve kaldırma gücü düşer; uyarı yanıp söner",
       "siddet": "uyari",
       "nedenler": [
         "Akü geriliminin düşük olması",
@@ -2213,14 +2281,17 @@
       "sistem": "guvenlik",
       "baslik": "El freni çekili seyir istendi",
       "aciklama": "El freni çekiliyken seyir komutu verildi; manyetik fren şalteri durumu izlenir.",
-      "makineTepkisi": "Uyarı sembolü yanıp söner.",
+      "makineTepkisi": "Uyarı sembolü yanıp söner",
       "siddet": "uyari",
       "nedenler": [
         "El freni çekili halde gaz verilmesi",
         "Manyetik fren şalterinin hatalı sinyal vermesi"
       ],
       "kontroller": [
-        "Manyetik fren şalterini ve ayarını kontrol edin"
+        "Manyetik fren şalterini ve ayarını kontrol edin",
+        "CAN hattı uç direncini ölçün",
+        "Veri kablosu ve konnektörleri kontrol edin",
+        "Fren sensörünü kalibre edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 17,
@@ -2236,7 +2307,7 @@
       "sistem": "elektrik",
       "baslik": "24 V kontrol besleme aralığı dışında",
       "aciklama": "24 V yardımcı besleme izlenen sınırların altına iner (<17 V uyarı, <15 V hata).",
-      "makineTepkisi": "Uyarı seviyesinde sadece uyarı sembolü yanıp söner; hata seviyesinde araç durur.",
+      "makineTepkisi": "Uyarı seviyesinde sadece uyarı sembolü yanıp söner; hata seviyesinde araç durur",
       "siddet": "durdurucu",
       "nedenler": [
         "24 V DC-DC dönüştürücü arızası",
@@ -2244,7 +2315,10 @@
         "Besleme hattında temas direnci"
       ],
       "kontroller": [
-        "24 V besleme gerilimini ve kablolarını ölçün"
+        "24 V besleme gerilimini ve kablolarını ölçün",
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 17,
@@ -2260,7 +2334,7 @@
       "sistem": "diger",
       "baslik": "Canion'a yanlış bileşen raporluyor",
       "aciklama": "Canion'a beklenmeyen bir bileşen tipinden veri gelir; XB 27/XB 44 jumper bağlantıları izlenir.",
-      "makineTepkisi": "Seyir ve kaldırma işlevi durabilir; uyarı yanıp söner.",
+      "makineTepkisi": "Seyir ve kaldırma işlevi durabilir; uyarı yanıp söner",
       "siddet": "uyari",
       "nedenler": [
         "Master/Solopilot veya ekranda yapılandırma hatası",
@@ -2284,10 +2358,12 @@
       "sistem": "elektrik",
       "baslik": "ACS kapasitörleri şarj olmadı",
       "aciklama": "Ön şarj devresi ara devre kapasitörlerini beklenen seviyeye çıkaramaz; kontaktör de kapanmaz.",
-      "makineTepkisi": "Seyir ve kaldırma çalışmaz; uyarı yanıp söner.",
+      "makineTepkisi": "Seyir ve kaldırma çalışmaz; uyarı yanıp söner",
       "siddet": "durdurucu",
       "nedenler": [
-        "Şarj bağlantısı arızası"
+        "Konnektör temassızlığı",
+        "Kablo ezilmesi",
+        "Kontaktör besleme gerilimi düşüşü"
       ],
       "kontroller": [
         "Ana kontaktörün kapanmadığını doğrulayın",
@@ -2307,7 +2383,7 @@
       "sistem": "iletisim",
       "baslik": "SDO haberleşme hatası",
       "aciklama": "CAN SDO nesnesi okunamaz; yazılım uyumsuzluğu veya XB 41 jumper hatası şüphelidir.",
-      "makineTepkisi": "Seyir ve kaldırma çalışmaz; uyarı yanıp söner.",
+      "makineTepkisi": "Seyir ve kaldırma çalışmaz; uyarı yanıp söner",
       "siddet": "durdurucu",
       "nedenler": [
         "Uyumsuz yazılım sürümünün yüklenmesi",
@@ -2331,14 +2407,17 @@
       "sistem": "guvenlik",
       "baslik": "Pim kodu hatası",
       "aciklama": "Bileşenlerin PIN kod setleri birbiriyle aynı değil; güvenlik kilidi açılmaz.",
-      "makineTepkisi": "Seyir ve kaldırma çalışmaz; uyarı yanıp söner.",
+      "makineTepkisi": "Seyir ve kaldırma çalışmaz; uyarı yanıp söner",
       "siddet": "durdurucu",
       "nedenler": [
         "Değiştirilen bileşene eski kodların yazılmaması",
         "PIN kod parametresinin kayması"
       ],
       "kontroller": [
-        "Tüm bileşenlerde PIN kodlarını eşitleyin"
+        "Tüm bileşenlerde PIN kodlarını eşitleyin",
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 18,
@@ -2354,7 +2433,7 @@
       "sistem": "hidrolik",
       "baslik": "Hidrolik kollar sıfır konumda değil (MP/Solopilot)",
       "aciklama": "Multipilot/Solopilot üzerindeki kaldırma, indirme, eğme, ZH veya korna switchleri açılışta nötrdedir; sıfır konum denetimi reddeder.",
-      "makineTepkisi": "Hidrolik fonksiyonlar durur, uyarı yanıp söner; seyir açıktır.",
+      "makineTepkisi": "Hidrolik fonksiyonlar durur, uyarı yanıp söner; seyir açıktır",
       "siddet": "durdurucu",
       "nedenler": [
         "Açılışta kol/butonların nötr bırakılmaması",
@@ -2378,7 +2457,7 @@
       "sistem": "diger",
       "baslik": "Segment tolerans sınırında (referanslama hatası)",
       "aciklama": "PM2402L/2 (V1.60+) açılış referanslamasında segment tetik kamı tolerans dışındadır.",
-      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış; referanslama yapılamaz.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Dönen gövdedeki segmentin kayması",
@@ -2403,14 +2482,17 @@
       "sistem": "diger",
       "baslik": "Sensör yatağı-kam konum sapması",
       "aciklama": "Sensör yatağı ile yakınlık şalteri/kam konumu 1,1° den fazla sapar; açılışta konum denetimi başarısızdır.",
-      "makineTepkisi": "Kaynakta tepki ayrı yazılmamış.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Yatağın montaj vidalarının gevşemesi",
         "Kam positionunun kayması"
       ],
       "kontroller": [
-        "Kabloları, yakınlık anahtarını ve anahtardan kama mesafeyi ölçün"
+        "Kabloları, yakınlık anahtarını ve anahtardan kama mesafeyi ölçün",
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Sensörü yeniden kalibre edin veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -2424,9 +2506,9 @@
         "SM99"
       ],
       "sistem": "iletisim",
-      "baslik": "CAN bus hasarlı; sürücü geçici devre dışı",
+      "baslik": "CAN hattı hasarlı; sürücü geçici devre dışı",
       "aciklama": "CAN sürücüsü hata yükü nedeniyle geçici olarak kapatılır; bus tekrar toparlanana dek iletişim kesilir.",
-      "makineTepkisi": "Seyir ve hidrolik geçici olarak çalışmaz; uyarı yanıp söner.",
+      "makineTepkisi": "Seyir ve hidrolik geçici olarak çalışmaz; uyarı yanıp söner",
       "siddet": "uyari",
       "nedenler": [
         "Bus hattında sürekli kısa devre/bozulma",

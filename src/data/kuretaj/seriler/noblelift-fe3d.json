@@ -12,17 +12,19 @@
       "kodNormal": "12",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Kontrolör aşırı akım (FE3D)",
-      "aciklama": "Curtis tipli kontrolörde çekiş çıkış akımı sınırı aşıldı; faz kısayolları, yanlış motor verisi veya sürücü arızası sıralanır.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "Kontrolcü aşırı akım (FE3D)",
+      "aciklama": "Curtis tipli kontrolörde çekiş çıkış akımı sınırı aşıldı; faz kısayolları, yanlış motorun verisi veya sürücü arızası sıralanır.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Motor U, V veya W bağlantısında kısa akım",
-        "Motor parametre uyuşmazlığı",
-        "Kontrolör arızası"
+        "Motorun U, V veya W bağlantısında kısa akım",
+        "Motorun parametre uyuşmazlığı",
+        "Kontrolcü arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Sürüş motoru yalıtım direncini ölçün"
       ],
       "ilgiliKodlar": [
         "1.3"
@@ -37,15 +39,17 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "Akım sensörü arızası (FE3D)",
-      "aciklama": "Faz akım sensörü kaçak/kaymalı okuma veriyor; sensör veya kontrolör şüpheli.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "aciklama": "Faz akım sensörü kaçak/kaymalı okuma veriyor; sensör veya kontrolcü şüpheli.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Motor U-V-W aracının kaçak akıma yol açması",
-        "Kontrolör arızası"
+        "Motorun U-V-W aracının kaçak akıma yol açması",
+        "Kontrolcü arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Referans değerle karşılaştırın",
+        "Kalibrasyonu yeniden yapın",
+        "Sensör beslemesini ve sinyalini ölçün"
       ],
       "ilgiliKodlar": [
         "1.2"
@@ -61,13 +65,17 @@
       "sistem": "batarya",
       "baslik": "Ön şarj yapılamadı (FE3D)",
       "aciklama": "Batarya hatta şarj olamıyor; ön şarj zaman aşımına uğradı.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Akü şarj olamıyor"
+        "Konnektör temassızlığı",
+        "Aynı kimlikli düğüm çakışması",
+        "Ön besleme konnektörü temassızlığı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Veri kablosu ve konnektörleri kontrol edin",
+        "Düğüm kimliklerini doğrulayın",
+        "Akü gerilimini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -79,15 +87,19 @@
       "kodNormal": "15",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Kontrolör aşırı soğuk (FE3D)",
-      "aciklama": "Kontrolör çalışamayacak kadar düşük ortam sıcaklığında; termal sınır ihlali.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "Kontrolcü aşırı soğuk (FE3D)",
+      "aciklama": "Kontrolcü çalışamayacak kadar düşük ortam sıcaklığında; termal sınır ihlali.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Kontrolörün çok zorlu/soğuk çalışma ortamı"
+        "Ortam sıcaklığının çok düşük olması",
+        "Soğukta yağlama viskozitesinin artması",
+        "Düşük sıcaklıkta pil kapasitesinin azalması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Ortam sıcaklığını ölçün",
+        "Kontrolcüyü oda sıcaklığına getirip yeniden deneyin",
+        "Soğuk koruma eşiğini doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -99,17 +111,18 @@
       "kodNormal": "16",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Kontrolör aşırı sıcak (FE3D)",
+      "baslik": "Kontrolcü aşırı sıcak (FE3D)",
       "aciklama": "Soğutucu sıcaklığı kritik değerde; aşırı yük ve yanlış montaj tetikler.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Zorlu ortam sıcaklığı",
-        "Aracın aşırı yüklenmesi",
         "Kontrolörün hatalı monte edilmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yük ağırlığını kontrol edin",
+        "Yük dağılımını düzeltin",
+        "Arızalı bileşeni onarın veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -123,17 +136,18 @@
       "sistem": "batarya",
       "baslik": "Çok düşük gerilim (FE3D)",
       "aciklama": "Batarya hattı kritik alt limitte; bağlantı kopması, sigorta veya kontaktör açıklığı da akım yolunu keser.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Batarya parametre yanlış ayarı",
-        "Kontrolör dışı sistem tüketimi",
+        "Kontrolcü dışı sistem tüketimi",
         "Batarya empedansının büyük olması",
-        "Akü bağlantısının kopması",
-        "Sigortanın kopması veya ana kontaktörün bağlanmaması"
+        "Akü bağlantısının kopması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Konnetörü görsel kontrol edin",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Kontaktör bobin gerilimini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -147,7 +161,7 @@
       "sistem": "batarya",
       "baslik": "Çok yüksek gerilim (FE3D)",
       "aciklama": "Hat gerilimi kritik üst limitte; rejeneratif frenleme sırasında akü koparsa gerilim tehlikeli yükselir.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Batarya parametre yanlış ayarı",
@@ -155,7 +169,9 @@
         "Rejeneratif frenlemede akü bağlantısının kopması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Gerilimi ölçün",
+        "Şarj cihazı çıkışını doğrulayın",
+        "Fren sensörünü kalibre edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -167,9 +183,9 @@
       "kodNormal": "22",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Kontrolör sıcak kısması (FE3D)",
+      "baslik": "Kontrolcü sıcak güç kısıtlaması (FE3D)",
       "aciklama": "Sıcaklık nedeniyle performans düşürme kademesi; çıkış akımı sınırlanır.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Zorlu ortam",
@@ -177,7 +193,9 @@
         "Yanlış montaj"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Soğutucu yüzeyleri ve kanalları temizleyin",
+        "Yükü azaltıp yeniden deneyin",
+        "Besleme gerilimini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -189,20 +207,20 @@
       "kodNormal": "23",
       "aliaslar": [],
       "sistem": "batarya",
-      "baslik": "Düşük gerilim kısması (FE3D)",
+      "baslik": "Düşük gerilim güç kısıtlaması (FE3D)",
       "aciklama": "Batarya gerilimi düşük uyarı kademesinde; performans düşürülür.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Akünün gücünün yetmemesi",
         "Batarya parametre yanlış ayarı",
-        "Kontrolör dışı tüketim",
-        "Büyük akü empedansı",
-        "Akü bağlantısının kopması",
-        "Sigorta kopuk veya kontaktör bağlı değil"
+        "Kontrolcü dışı tüketim",
+        "Büyük akü empedansı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hattaki gerilim kaybını kontrol edin",
+        "Besleme gerilimini ölçün",
+        "Besleme hattı konektörlerini sıkın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -214,9 +232,9 @@
       "kodNormal": "24",
       "aliaslar": [],
       "sistem": "batarya",
-      "baslik": "Yüksek gerilim kısması (FE3D)",
+      "baslik": "Yüksek gerilim güç kısıtlaması (FE3D)",
       "aciklama": "Rejeneratif frenleme akımı batarya gerilimini üst uyarı kademesine taşıdı; akım kısılır.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Rejeneratif frenlemede gerilim yükselmesi",
@@ -224,7 +242,9 @@
         "Büyük akü empedansı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Şarj cihazı çıkışını doğrulayın",
+        "Gerilim sınıfı ayarını kontrol edin",
+        "Fren ayarını kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -238,13 +258,17 @@
       "sistem": "diger",
       "baslik": "5V güç çıkışı arızası (FE3D)",
       "aciklama": "Kontrolörün sensör beslemesi olan 5V çıkışı çöktü; potansiyometre ve sensörler referanssız kalır.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Harici yük empedansının çok düşük olması"
+        "Kablo ezilmesi",
+        "Bileşen arızası",
+        "Potansiyometre sürgüsü aşınması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Arızalı bileşeni onarın veya değiştirin",
+        "Potansiyometre çıkış gerilimini ölçün"
       ],
       "ilgiliKodlar": [
         "4.1",
@@ -260,14 +284,18 @@
       "aliaslar": [],
       "sistem": "yuruyus",
       "baslik": "Dijital çıkış 6 aşırı akım (FE3D)",
-      "aciklama": "Drive 6 numaralı dijital çıkış beklenenin üzerinde akım çekiyor; yük kısa devreli olabilir.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "aciklama": "Sürücü 6 numaralı dijital çıkış beklenenin üzerinde akım çekiyor; yük kısa devreli olabilir.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Harici yük empedansının çok düşük olması"
+        "Sargı içi kısa devre",
+        "Kablo yalıtımında aşınma",
+        "Konnektör temassızlığı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Hasarlı kabloyu onarın veya değiştirin",
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Kablo ve konnektörü görsel kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -280,14 +308,18 @@
       "aliaslar": [],
       "sistem": "yuruyus",
       "baslik": "Dijital çıkış 7 aşırı akım (FE3D)",
-      "aciklama": "Drive 7 çıkışında aşırı akım; kısa çeken yük araştırılmalı.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "aciklama": "Sürücü 7 çıkışında aşırı akım; kısa çeken yük araştırılmalı.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Harici yük empedansının çok düşük olması"
+        "Kalibrasyon kaybı",
+        "Besleme gerilimi hatası",
+        "Bileşen arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Arızalı bileşeni onarın veya değiştirin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -299,17 +331,19 @@
       "kodNormal": "28",
       "aliaslar": [],
       "sistem": "motor",
-      "baslik": "Motor sıcaklık kısması (FE3D)",
-      "aciklama": "Motor sıcaklığı uyarı sıcaklığında/üstünde; kontrolör çıkış akımını düşürür.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "Motorun sıcaklık güç kısıtlaması (FE3D)",
+      "aciklama": "Motorun sıcaklığı uyarı sıcaklığında/üstünde; kontrolcü çıkış akımını düşürür.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Motor sıcaklığının program eşiğini aşması",
-        "Motor sıcaklık parametresinin yanlış ayarı",
+        "Motorun sıcaklığının program eşiğini aşması",
+        "Motorun sıcaklık parametresinin yanlış ayarı",
         "Sensörsüz motorda 'Temp compensation/Temp cutback' parametrelerinin OFF yapılmamış olması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Soğutucu yüzeyleri ve kanalları temizleyin",
+        "Yükü azaltıp yeniden deneyin",
+        "Sürüş motoru faz bağlantılarını kontrol edin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -321,16 +355,18 @@
       "kodNormal": "29",
       "aliaslar": [],
       "sistem": "elektrik",
-      "baslik": "Motor sıcaklık sensörü arızası (FE3D)",
-      "aciklama": "Motor termistör devresi hatalı; sensörsüz kurulumda enable parametresi kapatılmalı.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "Motorun sıcaklık sensörü arızası (FE3D)",
+      "aciklama": "Motorun termistör devresi hatalı; sensörsüz kurulumda enable parametresi kapatılmalı.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Sensörün yanlış bağlanması",
-        "Sensörsüz motorda 'MotorTemp Sensor Enable' parametresinin OFF yapılmaması"
+        "Sensörsüz motorda 'MotorTemp sensör Enable' parametresinin OFF yapılmaması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Yükü azaltıp yeniden deneyin",
+        "Sıcaklığı ölçün",
+        "Yazılım sürümünü doğrulayın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -345,8 +381,8 @@
       ],
       "sistem": "elektrik",
       "baslik": "Bobin sürücü 1 açık/kısa (FE3D)",
-      "aciklama": "Drive 1 yardımcı çıkışının bobin yolu açık veya kısa devre; aynı kod ana kontaktör bobini için de tanımlı.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "aciklama": "Sürücü 1 yardımcı çıkışının bobin yolu açık veya kısa devre; aynı kod ana kontaktör bobini için de tanımlı.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Bağlı yükün açık/kısa devresi",
@@ -354,7 +390,9 @@
         "Yanlış kablo"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Kablo yalıtım direncini ölçün",
+        "Yapışan kontaktörü onarın veya değiştirin"
       ],
       "ilgiliKodlar": [
         "3.2"
@@ -371,8 +409,8 @@
       ],
       "sistem": "fren",
       "baslik": "Bobin sürücü 2 açık/kısa (FE3D)",
-      "aciklama": "Drive 2 çıkışı açık/kısa raporluyor; kaynakta ikinci anlam manyetik fren bobini olarak geçer.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "aciklama": "Sürücü 2 çıkışı açık/kısa raporluyor.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Bağlı yükün açık/kısa devresi",
@@ -380,7 +418,9 @@
         "Yanlış kablolama"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kopan kabloyu onarın veya değiştirin",
+        "Hatta süreklilik ölçün",
+        "Fren bobini direncini ölçün"
       ],
       "ilgiliKodlar": [
         "3.1"
@@ -395,8 +435,8 @@
       "aliaslar": [],
       "sistem": "yuruyus",
       "baslik": "Bobin sürücü 3 açık/kısa (FE3D)",
-      "aciklama": "Drive 3 çıkışının bobin bağlantısı açık ya da kısa devre.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "aciklama": "Sürücü 3 çıkışının bobin bağlantısı açık ya da kısa devre.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Bağlı yükün açık/kısa devresi",
@@ -404,7 +444,9 @@
         "Yanlış kablolama"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Kablo yalıtım direncini ölçün",
+        "Arızalı bileşeni onarın veya değiştirin"
       ],
       "ilgiliKodlar": [
         "3.1"
@@ -419,8 +461,8 @@
       "aliaslar": [],
       "sistem": "yuruyus",
       "baslik": "Bobin sürücü 4 açık/kısa (FE3D)",
-      "aciklama": "Drive 4 çıkış bobin yolu açık/kısa devre.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "aciklama": "Sürücü 4 çıkış bobin yolu açık/kısa devre.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Bağlı yükün açık/kısa devresi",
@@ -428,7 +470,9 @@
         "Yanlış kablolama"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Çıkış hattında şase ve artı kısa arayın",
+        "Kablo yalıtım direncini ölçün",
+        "Arızalı bileşeni onarın veya değiştirin"
       ],
       "ilgiliKodlar": [
         "3.1"
@@ -444,7 +488,7 @@
       "sistem": "diger",
       "baslik": "Oransal sürüş çıkışı açık/kısa (FE3D)",
       "aciklama": "Oransal (proportional) sürme çıkışı devresi açık ya da kısa; oransal valf çalışmaz.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Bağlı yükün açık/kısa devresi",
@@ -452,7 +496,9 @@
         "Yanlış kablolama"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Konnetörü görsel kontrol edin",
+        "Kopan kabloyu onarın veya değiştirin",
+        "Valf bobin direncini ölçün"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -465,15 +511,17 @@
       "aliaslar": [],
       "sistem": "motor",
       "baslik": "Enkoder hatası (FE3D)",
-      "aciklama": "Motor enkoderi arızalı veya yanlış bağlanmış; hız geri beslemesi kaybolur.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "aciklama": "Motorun enkoderi arızalı veya yanlış bağlanmış; hız geri beslemesi kaybolur.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Motor enkoderi arızası",
+        "Motorun enkoderi arızası",
         "Yanlış kablolama"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Enkoder kablosunu ve bağlantısını kontrol edin"
       ],
       "ilgiliKodlar": [
         "3.7"
@@ -487,16 +535,18 @@
       "kodNormal": "37",
       "aliaslar": [],
       "sistem": "elektrik",
-      "baslik": "Motor açık devre (FE3D)",
+      "baslik": "Motorun açık devresi (FE3D)",
       "aciklama": "Çekiş motoru fazı veya kablo hattı açık devre.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Motor fazının açıklığı",
+        "Motorun fazının açıklığı",
         "Yanlış kablolama"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Kopan kabloyu onarın veya değiştirin",
+        "Hatta süreklilik ölçün",
+        "Sürücü çıkış akımını ölçün"
       ],
       "ilgiliKodlar": [
         "3.6"
@@ -512,15 +562,17 @@
       "sistem": "batarya",
       "baslik": "Ana kontaktör yapıştı (FE3D)",
       "aciklama": "Kontaktör kontakları kaynak yaptı; B+ hattı akü gerilimini sürekli taşır.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Ana kontaktör kontağının kaynak yapması",
-        "Motor U veya V bağlantısının kopuk/eksik faz olması",
+        "Motorun U veya V bağlantısının kopuk/eksik faz olması",
         "B+ ucunu bağlayan devrenin aküyü enerjili tutması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Yapışan kontaktörü onarın veya değiştirin"
       ],
       "ilgiliKodlar": [
         "3.9"
@@ -536,7 +588,7 @@
       "sistem": "batarya",
       "baslik": "Ana kontaktör kapanmadı (FE3D)",
       "aciklama": "Kontaktör kapanma doğrulaması başarısız; uçlar oksitli/erimiş olabilir.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
         "Kontaktörün kapanmaması",
@@ -545,7 +597,9 @@
         "Sigortanın kopması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Besleme gerilimini ölçün",
+        "Kablo ve konnektörü görsel kontrol edin",
+        "Yapışan kontaktörü onarın veya değiştirin"
       ],
       "ilgiliKodlar": [
         "3.8"
@@ -559,15 +613,19 @@
       "kodNormal": "41",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Gaz wiper gerilimi yüksek (FE3D)",
-      "aciklama": "Potansiyometre wiper çıkışı üst sınırın üstünde; pedal arızalı konumda sayılır.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "Gaz kayıcı gerilimi yüksek (FE3D)",
+      "aciklama": "Potansiyometre kayıcı çıkışı üst sınırın üstünde; pedal arızalı konumda sayılır.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Gaz potansiyometresi çıkış geriliminin çok yüksek olması"
+        "Şarj cihazı regülasyon hatası",
+        "Yanlış gerilim sınıfı yapılandırması",
+        "Potansiyometre konnektör oksitlenmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Şarj cihazı çıkışını doğrulayın",
+        "Gerilim sınıfı ayarını kontrol edin",
+        "Potansiyometre çıkış gerilimini ölçün"
       ],
       "ilgiliKodlar": [
         "4.2",
@@ -582,15 +640,19 @@
       "kodNormal": "42",
       "aliaslar": [],
       "sistem": "diger",
-      "baslik": "Gaz wiper gerilimi düşük (FE3D)",
-      "aciklama": "Potansiyometre wiper gerilimi alt sınırın altında.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "baslik": "Gaz kayıcı gerilimi düşük (FE3D)",
+      "aciklama": "Potansiyometre kayıcı gerilimi alt sınırın altında.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Gaz potansiyometresi çıkış geriliminin çok düşük olması"
+        "Akü hücre zayıflığı",
+        "Akü şarj seviyesinin azalması",
+        "Potansiyometre kalibrasyonu kayması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Besleme gerilimini ölçün",
+        "Aküyü şarj edin veya değiştirin",
+        "Kalibrasyonu yeniden yapın"
       ],
       "ilgiliKodlar": [
         "4.1",
@@ -606,14 +668,18 @@
       "aliaslar": [],
       "sistem": "diger",
       "baslik": "Potansiyometre 2 çıkışı yüksek (FE3D)",
-      "aciklama": "İkinci potansiyometrenin (kaldırma kolu vb.) wiper gerilimi üst limitte.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "aciklama": "İkinci potansiyometrenin (kaldırma kolu vb.) kayıcı gerilimi üst limitte.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "2. potansiyometre çıkış geriliminin çok yüksek olması"
+        "Besleme gerilimi hatası",
+        "Konnektör temassızlığı",
+        "Potansiyometre sürgüsü aşınması"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Kalibrasyonu yeniden yapın"
       ],
       "ilgiliKodlar": [
         "4.4"
@@ -629,13 +695,17 @@
       "sistem": "diger",
       "baslik": "Potansiyometre 2 çıkışı düşük (FE3D)",
       "aciklama": "İkinci potansiyometre gerilimi alt limitin altında okunuyor.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "2. potansiyometre çıkış geriliminin çok düşük olması"
+        "Sensör sapması",
+        "Kalibrasyon kaybı",
+        "Potansiyometre besleme gerilimi kararsızlığı"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Sinyal gerilimini ölçün",
+        "Referans değerle karşılaştırın",
+        "Kalibrasyonu yeniden yapın"
       ],
       "ilgiliKodlar": [
         "4.3"
@@ -651,13 +721,17 @@
       "sistem": "diger",
       "baslik": "Potansiyometre besleme akımı düşük (FE3D)",
       "aciklama": "Potansiyometre devresinden beklenen akım alınamıyor; hat empedansı çok düşük.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "Potansiyometre empedansının çok düşük olması"
+        "Besleme hattında gerilim kaybı",
+        "Konnektör temassızlığı",
+        "Potansiyometre konnektör oksitlenmesi"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Besleme gerilimini ölçün",
+        "Aküyü şarj edin veya değiştirin",
+        "Kalibrasyonu yeniden yapın"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,
@@ -670,14 +744,18 @@
       "aliaslar": [],
       "sistem": "diger",
       "baslik": "EEPROM arızası (FE3D)",
-      "aciklama": "Kontrolör bellek saklama denetimi başarısız; parametre kaybı riski.",
-      "makineTepkisi": "Kaynakta makine tepkisi belirtilmemiş",
+      "aciklama": "Kontrolcü bellek saklama denetimi başarısız; parametre kaybı riski.",
+      "makineTepkisi": "",
       "siddet": "uyari",
       "nedenler": [
-        "EEPROM depolama hatası"
+        "Veri tutarsızlığı",
+        "Parametre yapılandırma hatası",
+        "Bellek hücresi arızası"
       ],
       "kontroller": [
-        "Kaynağa göre kontrol adımı belirtilmemiş"
+        "Parametre ayarlarını doğrulayın",
+        "Yazılım sürümünü kontrol edin",
+        "Yedek dosyadan veri geri yükleyin"
       ],
       "ilgiliKodlar": [],
       "kaynakSayfa": 0,

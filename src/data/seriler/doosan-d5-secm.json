@@ -273,7 +273,7 @@
       "sistem": "elektrik",
       "baslik": "Kam sensörü sinyali yok",
       "aciklama": "Motorun bilinen şekilde dönmesine rağmen kam sensöründen kenar sinyali gelmez; kablo kopuk ya da sensör bozuktur.",
-      "makineTepkisi": "Kaynak bu durumda yalnızca MIL yanmadığını (None) bildirir; motorun zor çalışır",
+      "makineTepkisi": "Arıza göstergesi yanmaz; motor zor çalışır ve ateşleme zamanlaması gecikebilir.",
       "siddet": "uyari",
       "nedenler": [
         "CAM sensör kablolarında kopukluk",
@@ -298,7 +298,7 @@
       "sistem": "diger",
       "baslik": "Kam sensörü senkron kaybı",
       "aciklama": "CAM sinyalinin diş senkronizasyonu kaybolur; genelde hatta giren elektriksel gürültü ya da sensör bağlantısının kopması etkendir.",
-      "makineTepkisi": "Kaynak bu durumda MIL yanmadığını (None) bildirir; çalışmada düzensizlik görülür",
+      "makineTepkisi": "Arıza göstergesi yanmaz; çalışmada düzensizlik ve devir dalgalanması görülür.",
       "siddet": "uyari",
       "nedenler": [
         "Sinyal hattında gürültü",
@@ -323,7 +323,7 @@
       "sistem": "elektrik",
       "baslik": "Krank sensörü sinyali yok",
       "aciklama": "Marş/krank anında krank milinden kenar sinyali alınamaz; sensör kabloları kopmuş veya krank sensörü bozulmuştur.",
-      "makineTepkisi": "Kaynak MIL yanmadığını (None) bildirir; motorun ateşleme referansı alamaz",
+      "makineTepkisi": "Arıza göstergesi yanmaz; motor ateşleme referansı alamadığı için çalışmaz.",
       "siddet": "uyari",
       "nedenler": [
         "Krank sensörü kablo kopukluğu",
@@ -348,7 +348,7 @@
       "sistem": "diger",
       "baslik": "Krank sensörü senkron kaybı",
       "aciklama": "Krank sensörü sinyal dizisi senkronunu yitirir; hat gürültüsü veya sensör bağlantısındaki ara kopma tipik etkendir.",
-      "makineTepkisi": "Kaynak MIL yanmadığını (None) bildirir; devir okuması güvensizleşir",
+      "makineTepkisi": "Arıza göstergesi yanmaz; devir okuması güvensiz hale gelir.",
       "siddet": "uyari",
       "nedenler": [
         "Sinyal hattı gürültüsü",

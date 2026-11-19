@@ -438,7 +438,7 @@
       ],
       "sistem": "elektrik",
       "baslik": "Giriş kademesi hatası",
-      "aciklama": "Giriş kademesinde hata. Bu durum ilgili devrenin güvenli çalışmasını etkiler.",
+      "aciklama": "Giriş kademesinde sinyal işleme hatası oluştu; kontrolcü ilgili fonksiyonu güvenli modda sürdürür.",
       "makineTepkisi": "Genel hata: ilgili giriş işlevi durur",
       "siddet": "kisitlayici",
       "nedenler": [
