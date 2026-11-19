@@ -1,0 +1,473 @@
+{
+  "marka": "manitou",
+  "seri": "mt-mlt",
+  "modelAdi": "Manitou MT / MLT / MT-X telehandler ve forklift",
+  "kaynakBelge": "Manitou Fault Codes & Repair Guides (Partao)",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+  "kodlar": [
+    {
+      "kod": "A00003",
+      "kodNormal": "A00003",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "İçten yanmalı motor aşırı ısınma",
+      "aciklama": "Motor sıcaklığı normal çalışma sınırını aştı. Operatör arayüzü genel bir motor arızası kaydetti ve derhal durdurma öneriliyor.",
+      "makineTepkisi": "Motor durdurulmalı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Motor soğutma yetersiz",
+        "Soğutma sıvısı seviyesi düşük"
+      ],
+      "kontroller": [
+        "Kontrol et — soğutma sıvısı.",
+        "Durdur — motor."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A00006",
+      "kodNormal": "A00006",
+      "aliaslar": [],
+      "sistem": "sanziman",
+      "baslik": "Şanzıman yağı yüksek sıcaklık",
+      "aciklama": "Şanzımanda yağ sıcaklığı belirtilen sınırların üzerine çıktı. Mekanik aşınma veya yağlama sorunu hızlanan sürtünmeye yol açıyor.",
+      "makineTepkisi": "Güç kısıtlama uygulanır",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Şanzıman yağı sıcak",
+        "Yağ seviyesi veya kalitesi yetersiz"
+      ],
+      "kontroller": [
+        "Kontrol et — şanzıman soğutucusu.",
+        "Test et — yağ sıcaklık sensörü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A00007",
+      "kodNormal": "A00007",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Hava filtresi tıkanıklığı",
+      "aciklama": "Filtre tıkanıklık sensörü, filtre öncesi ve sonrası basınç farkını ölçerek hava akışının kısıldığını bildirdi.",
+      "makineTepkisi": "MotorPerformansı düşer",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Hava filtresi kirli",
+        "Sensör devresi kısa devre"
+      ],
+      "kontroller": [
+        "Değiştir — hava filtresi.",
+        "Test et — tıkanıklık sensörü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A00008",
+      "kodNormal": "A00008",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik filtre tıkanıklığı",
+      "aciklama": "Hidrolik filtre boyunca akış direnci yükseldi. Soğuk yağda geçici uyarı çıkabileceği gibi sensör devresi arızası da söz konusu olabilir.",
+      "makineTepkisi": "Hidrolik verim düşer",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Hidrolik filtre kirli",
+        "Yağ viskozitesi yüksek"
+      ],
+      "kontroller": [
+        "Değiştir — hidrolik filtre.",
+        "Test et — tıkanıklık sensörü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A00009",
+      "kodNormal": "A00009",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Motor devir sinyali arızası",
+      "aciklama": "Motor devir bilgisi düzensiz, eksik veya aralık dışında alınıyor. Krankshaft konum sensörü ve kablo devresi öncelikli şüpheli.",
+      "makineTepkisi": "Devir okuması güvenilmez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Devir sensörü arızası",
+        "Kablo demeti hasarı"
+      ],
+      "kontroller": [
+        "Kontrol et — devir sensörü kablosu.",
+        "Değiştir — motor devir sensörü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A003F1",
+      "kodNormal": "A003F1",
+      "aliaslar": [],
+      "sistem": "sanziman",
+      "baslik": "Şanzıman aşırı devir",
+      "aciklama": "MP1 kontrolcüsü şanzımanda normal çalışma aralığının dışında bir dönüş hızı algıladı. Mekanik veya sensör kaynaklı olabilir.",
+      "makineTepkisi": "Güç kısıtlama uygulanır",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Şanzıman devri yüksek",
+        "Hız sensörü hatalı"
+      ],
+      "kontroller": [
+        "Test et — şanzıman hız sensörü.",
+        "Kontrol et — şanzıman yağı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A10002",
+      "kodNormal": "A10002",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Genel motor arızası",
+      "aciklama": "İçten yanmalı motorun çalışma parametrelerinde tanımlanmamış bir arıza tespit edildi. Kodun kendisi arızanın niteliğini belirtmiyor.",
+      "makineTepkisi": "Uyarı verilir",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Motor parametreleri bozuk",
+        "Altta yatan arıza belirtilmemiş"
+      ],
+      "kontroller": [
+        "Oku — motor kontrolcüsü hata kayıtları.",
+        "Kontrol et — motor yağı ve soğutma sıvısı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A10004",
+      "kodNormal": "A10004",
+      "aliaslar": [],
+      "sistem": "fren",
+      "baslik": "Fren sistemi arızası",
+      "aciklama": "Fren devresindeki sıvı seviyesi düşük olduğunda bu kod kaydedilir. Frenleme güvenliği doğrudan etkilenir.",
+      "makineTepkisi": "Fren uyarısı verilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Fren sıvısı seviyesi düşük",
+        "Fren hattında kaçak"
+      ],
+      "kontroller": [
+        "Kontrol et — fren sıvısı haznesi.",
+        "Kontrol et — fren hatları."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A10005",
+      "kodNormal": "A10005",
+      "aliaslar": [],
+      "sistem": "sanziman",
+      "baslik": "Şanzıman yağ basıncı düşük",
+      "aciklama": "Şanzımanda yağ basıncı yetersiz. Yağ seviyesi, pompa veya basınç sensörü kaynaklı bir sorun olabilir.",
+      "makineTepkisi": "Güç kısıtlama uygulanır",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yağ seviyesi yetersiz",
+        "Yağ pompası veya emiş hattında kaçak"
+      ],
+      "kontroller": [
+        "Kontrol et — şanzıman yağ seviyesi.",
+        "Test et — yağ basınç sensörü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A10051",
+      "kodNormal": "A10051",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Alternatör arızası",
+      "aciklama": "Alternatör bataryayı şarj edecek gerilimi üretemiyor. D+ veya W uçlarındaki bağlantılar ve tahrik kayışı kontrol edilmelidir.",
+      "makineTepkisi": "Batarya deşarj olur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Alternatör çıkışı yetersiz",
+        "Kayış veya kablo arızası"
+      ],
+      "kontroller": [
+        "Kontrol et — alternatör tahrik kayışı.",
+        "Test et — şarj gerilimi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1046A",
+      "kodNormal": "A1046A",
+      "aliaslar": [],
+      "sistem": "direksiyon",
+      "baslik": "Hidrolik direksiyon arızası",
+      "aciklama": "Direksiyon yardımcı sisteminde genel bir arıza algılandı. Hidrolik basınç, valf veya sensör kaynaklı olabilir.",
+      "makineTepkisi": "Direksiyon tepkisi zayıf",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Direksiyon hidrolik basıncı düşük",
+        "Öncelik valfi arızası"
+      ],
+      "kontroller": [
+        "Kontrol et — hidrolik sıvı seviyesi.",
+        "Test et — öncelik valfi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1048A",
+      "kodNormal": "A1048A",
+      "aliaslar": [],
+      "sistem": "fren",
+      "baslik": "Hidrolik fren yardımcısı arızası",
+      "aciklama": "Fren yardımcı devresindeki hidrolik basınç veya elektrik sinyali beklenen değerde değil. Akümülatör basıncı kritik olabilir.",
+      "makineTepkisi": "Fren yardımcısı zayıf",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Fren akümülatör basıncı düşük",
+        "Sensör sinyali hatalı"
+      ],
+      "kontroller": [
+        "Test et — fren akümülatörü.",
+        "Kontrol et — fren sıvısı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A20000",
+      "kodNormal": "A20000",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Gerinim ölçer tutarsızlığı",
+      "aciklama": "Yük momenti göstergesindeki gerinim ölçümü eksik, aralık dışı veya düzensiz. Bom yükü izleme güvenliği etkilenir.",
+      "makineTepkisi": "Kaldırma işlevi kilitlenebilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Gerinim ölçer sinyali hatalı",
+        "Kablo bağlantısı zayıf"
+      ],
+      "kontroller": [
+        "Kontrol et — gerinim ölçer kablosu.",
+        "Kalibre et — yük ölçüm sistemi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A203E8",
+      "kodNormal": "A203E8",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik kumanda tutarsızlığı",
+      "aciklama": "Konuş kolu girişleri ile hidrolik sensör geri beslemeleri arasında mantıksız bir ilişki var. Bu durum düzensiz harekete yol açabilir.",
+      "makineTepkisi": "Hidrolik tepki düzensiz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Konuş kolu sinyali tutarsız",
+        "Hidrolik basınç sensörü hatalı"
+      ],
+      "kontroller": [
+        "Kontrol et — kumanda kablo demeti.",
+        "Test et — hidrolik basınç sensörü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A203EC",
+      "kodNormal": "A203EC",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Hızlandırma tutarsızlığı",
+      "aciklama": "Elektronik hızlandırma pedalının iki bağımsız sinyali arasındaki ilişki bozuldu. Sinyallerden biri aralık dışında veya kesintili.",
+      "makineTepkisi": "Motor rölantide kalabilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Çift hızlandırma sinyali uyuşmuyor",
+        "Pedal arızası"
+      ],
+      "kontroller": [
+        "Test et — hızlandırma pedal sinyalleri.",
+        "Değiştir — hızlandırma pedalı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A203EF",
+      "kodNormal": "A203EF",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Bom açı sinyali tutarsız",
+      "aciklama": "Bom açı sensörü beklenen açıyı bildirmiyor veya geçerli sinyal kayboldu. Güvenlik nedeniyle hareket hızı düşürülebilir.",
+      "makineTepkisi": "Hareket hızı düşürülür",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Açı sensörü sinyali hatalı",
+        "Kalibrasyon bozuk"
+      ],
+      "kontroller": [
+        "Kalibre et — bom açı sensörü.",
+        "Kontrol et — sensör kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A203F0",
+      "kodNormal": "A203F0",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Kapı anahtarı tutarsızlığı",
+      "aciklama": "Kabin kapısı anahtarından beklenmedik veya kesintili sinyal alındı. Sistem kapanınca kapının güvenli biçimde kilitlendiğini doğrulayamıyor.",
+      "makineTepkisi": "Uyarı verilir",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Kapı anahtarı arızası",
+        "Kablo bağlantısı zayıf"
+      ],
+      "kontroller": [
+        "Kontrol et — kapı anahtarı.",
+        "Test et — anahtar sinyali."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A203F4",
+      "kodNormal": "A203F4",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Bom geri çekilme anahtarı hatası",
+      "aciklama": "Bomun tam geri çekildiğini bildiren anahtar sinyali beklenen değerde değil. Mekanik engel veya anahtar arızası söz konusu.",
+      "makineTepkisi": "Bom hareketi kısıtlanır",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Geri çekilme anahtarı arızası",
+        "Mekanik engel var"
+      ],
+      "kontroller": [
+        "Kontrol et — geri çekilme anahtarı.",
+        "Değiştir — mikro anahtar."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A203FE",
+      "kodNormal": "A203FE",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Konuş kolu R1 temas hatası",
+      "aciklama": "JSM kolundaki R1 silindir anahtarından mantıksız sinyal alındı. Hidrolik fonksiyonların modülasyonu etkilenebilir.",
+      "makineTepkisi": "Hidrolik tepki düzensiz",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "R1 silindir anahtarı arızası",
+        "Kumanda kolu kablo hasarı"
+      ],
+      "kontroller": [
+        "Test et — R1 anahtarı.",
+        "Kontrol et — kumanda kolu kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A203FF",
+      "kodNormal": "A203FF",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Konuş kolu R2 temas hatası",
+      "aciklama": "JSM kolundaki R2 silindir anahtarıyla ilgili sinyal çelişkisi var. Sistem güvenlik nedeniyle kısıtlı moda geçebilir.",
+      "makineTepkisi": "Kısıtlı çalışma modu",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "R2 silindir anahtarı arızası",
+        "Sinyal çelişkisi"
+      ],
+      "kontroller": [
+        "Kontrol et — kumanda kolu kablo demeti.",
+        "Kalibre et — kumanda kolu."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A20408",
+      "kodNormal": "A20408",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hidrolik kontrol valfi arızası",
+      "aciklama": "Hidrolik kontrol ünitesi, emniyet selenoid valfinde basınç farkı veya işlev hatası algıladı. Mekanik sıkışma olasıdır.",
+      "makineTepkisi": "İlgili hidrolik işlev devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Seloid valf bobini arızası",
+        "Hidrolik yağ kirli"
+      ],
+      "kontroller": [
+        "Test et — selenoid valf bobini.",
+        "Kontrol et — hidrolik valf bloğu."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/manitou-fault-codes.html",
+      "durum": "incelemede"
+    }
+  ]
+}

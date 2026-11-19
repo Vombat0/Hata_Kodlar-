@@ -1,0 +1,2057 @@
+{
+  "marka": "still",
+  "seri": "rcu-a",
+  "modelAdi": "Still RX/RS reach truck - RCU A kontrol ünitesi",
+  "kaynakBelge": "STILL Forklift Fault Codes - REACH TRUCK CONTROL UNIT RCU A",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+  "kodlar": [
+    {
+      "kod": "A1201",
+      "kodNormal": "A1201",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Parametre kümesi okunamıyor",
+      "aciklama": "Kontrol ünitesi, depolanan parametre kümesini okuyamadı. İlgili EEPROM bölgesinde tutarsız veri bulunduğu için ayarlar yüklenemedi.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "EEPROM veri alanı tutarsız",
+        "Parametre dosyasının eksik veya bozuk yüklenmesi"
+      ],
+      "kontroller": [
+        "Yeniden yükle — parametre dosyası.",
+        "Değiştir — RCU kontrol ünitesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1205",
+      "kodNormal": "A1205",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "EEPROM sağlama toplamı hatalı",
+      "aciklama": "Hafıza okumasının ardından hesaplanan sağlama toplamı beklenen değere ulaşmadı. Bu durum, ayarların bozulduğunu veya depolama devresinin arızalandığını gösterir.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Depolama devresi arızası",
+        "Hafızaya yazma sırasında besleme kesintisi"
+      ],
+      "kontroller": [
+        "Yeniden yükle — parametre dosyası.",
+        "Değiştir — RCU kontrol ünitesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1206",
+      "kodNormal": "A1206",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Tutarlı EEPROM veri kümesi yok",
+      "aciklama": "Kontrol ünitesi, hafızada tutarlı bir ayar kümesi bulamadı. Cihaz açılışta güvenli ayarlarla çalışmaya devam edebilir.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Tutarlı veri kümesi bulunamadı",
+        "EEPROM içeriği bozuk"
+      ],
+      "kontroller": [
+        "Yeniden yükle — parametre dosyası.",
+        "Değiştir — RCU kontrol ünitesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1210",
+      "kodNormal": "A1210",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Hafıza veri bütünlüğü hatası",
+      "aciklama": "EEPROM veri bloğunun bütünlük kontrolü başarısız oldu. Kayıtlı parametrelerin bir bölümü okunamadığı için sürücü ayarları geçersiz kaldı.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Veri bloğu bütünlüğü bozuk",
+        "Okuma işlemi başarısız"
+      ],
+      "kontroller": [
+        "Yeniden yükle — parametre dosyası.",
+        "Değiştir — RCU kontrol ünitesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1211",
+      "kodNormal": "A1211",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Eşleştirme parametreleri hatalı",
+      "aciklama": "Vericilerin eşleştirilmesi sırasında kaydedilen ayarlar okunamadı. Kalibre edilmiş vericilerin referans değerleri hafızada tutarlı değil.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Eşleştirme ayarları bozuk",
+        "EEPROM veri kümesi tutarsız"
+      ],
+      "kontroller": [
+        "Yeniden kalibre et — önceden kalibre edilmiş verici.",
+        "Yeniden yükle — parametre dosyası."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1215",
+      "kodNormal": "A1215",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Kalibrasyon verisi okunamadı",
+      "aciklama": "Parametre eşleştirmesi sırasında kalibrasyon verileri hatalı okundu. Yapılandırılabilir vericilerin tanımları yeniden oluşturulmalıdır.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Kalibrasyon verisi hatalı",
+        "Verici tanımı eksik"
+      ],
+      "kontroller": [
+        "Yeniden kalibre et — vericiler.",
+        "Kontrol et — parametre dosyası."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1216",
+      "kodNormal": "A1216",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Verici ayarları tutarsız",
+      "aciklama": "Eşleştirme işlemi sonrasında hafızadaki ayar kümesi tutarlı değil. Kalibre edilmiş ve yapılandırılabilir vericilerin kayıtları yeniden yazılmalıdır.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Ayar kümesi tutarsız",
+        "Kalibrasyon kaydı bozuk"
+      ],
+      "kontroller": [
+        "Yeniden kalibre et — vericiler.",
+        "Yeniden yükle — parametre dosyası."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1220",
+      "kodNormal": "A1220",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "İşlem hatası: veri okuma",
+      "aciklama": "Kontrol ünitesi, dahili veri alanını okurken hata verdi. EEPROM sağlama toplamı kontrolü geçemediği için işlem sürdürülemiyor.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Veri okuma hatası",
+        "EEPROM sağlama toplamı hatalı"
+      ],
+      "kontroller": [
+        "Yeniden yükle — parametre dosyası.",
+        "Değiştir — RCU kontrol ünitesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1221",
+      "kodNormal": "A1221",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "İşlem hatası: veri tutarsızlığı",
+      "aciklama": "Okunan veri kümesi tutarlı değil ve EEPROM sağlama toplamı hata veriyor. Kontrol ünitesi kayıtlı ayarları kullanamadan kapanır.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Veri kümesi tutarsız",
+        "EEPROM kontrolü başarısız"
+      ],
+      "kontroller": [
+        "Yeniden yükle — parametre dosyası.",
+        "Değiştir — RCU kontrol ünitesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1225",
+      "kodNormal": "A1225",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Varsayılan ayarlarla çalışma",
+      "aciklama": "EEPROM verileri okunamadığı için sistem varsayılan parametrelerle çalışıyor. Bu durumda makineye özel ayarlar geçerli değildir.",
+      "makineTepkisi": "Varsayılan parametrelerle çalışır",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "EEPROM okuma hatası",
+        "Özel ayarlar kayıp"
+      ],
+      "kontroller": [
+        "Yeniden yükle — parametre dosyası.",
+        "Değiştir — RCU kontrol ünitesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1226",
+      "kodNormal": "A1226",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Varsayılan ayarlar: veri tutarsız",
+      "aciklama": "Tutarlı EEPROM verisi bulunamadığı için kontrol ünitesi varsayılan ayarlara döndü. Sağlama toplamı kontrolü de başarısız oldu.",
+      "makineTepkisi": "Varsayılan parametrelerle çalışır",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Tutarlı veri yok",
+        "Sağlama toplamı hatalı"
+      ],
+      "kontroller": [
+        "Yeniden yükle — parametre dosyası.",
+        "Değiştir — RCU kontrol ünitesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1230",
+      "kodNormal": "A1230",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Parametre dosyası yeniden yüklenmeli",
+      "aciklama": "Dahili veri okuması başarısız olduğu için parametre dosyasının tekrar yüklenmesi gerekiyor. EEPROM sağlama toplamı hatalıdır.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Veri okuma başarısız",
+        "Parametre dosyası eksik"
+      ],
+      "kontroller": [
+        "Yeniden yükle — parametre dosyası.",
+        "Kontrol et — EEPROM hafızası."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1231",
+      "kodNormal": "A1231",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Parametre ayarları geçersiz",
+      "aciklama": "Hafızadaki veri kümesi tutarsız olduğu için parametre ayarları geçersiz sayıldı. Yalnızca dosya yeniden yüklendiğinde arıza kalkar.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "EEPARM veri kümesi tutarsız",
+        "Ayarlar geçersiz"
+      ],
+      "kontroller": [
+        "Yeniden yükle — parametre dosyası.",
+        "Kontrol et — EEPROM hafızası."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1250",
+      "kodNormal": "A1250",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "EEPROM okuma hatası",
+      "aciklama": "EEPROM içeriği okunurken sağlama toplamı doğrulanamadı. Kontrol ünitesi bu nedenle dahili işlemi tamamlayamadı.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Veri bütünlüğü bozuk",
+        "Hafıza okuma devresinde arıza"
+      ],
+      "kontroller": [
+        "Yeniden yükle — parametre dosyası.",
+        "Değiştir — RCU kontrol ünitesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1260",
+      "kodNormal": "A1260",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Geçersiz parametre birleşimi",
+      "aciklama": "Yüklenen ayarlar birbiriyle uyumsuz bir parametre birleşimi oluşturuyor. Kontrol ünitesi bu ayarlarla çalışmayı reddediyor.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Parametre birleşimi hatalı",
+        "Ayar çakışması"
+      ],
+      "kontroller": [
+        "Kontrol et — parametre ayarları.",
+        "Yeniden yükle — parametre dosyası."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1281",
+      "kodNormal": "A1281",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Yanlış parametre birleşimi",
+      "aciklama": "Makine tipine uygun olmayan bir parametre birleşimi algılandı. Ayar dosyası ile donanım uyumu yeniden doğrulanmalıdır.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Parametre birleşimi hatalı",
+        "Donanım uyumu yok"
+      ],
+      "kontroller": [
+        "Kontrol et — parametre ayarları.",
+        "Yeniden yükle — parametre dosyası."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1291",
+      "kodNormal": "A1291",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Makine parametreleri mantıksız",
+      "aciklama": "Kontrol ünitesi, makineye tanımlanan parametre değerlerini mantıksız buldu. Bu değerler seri numarası veya donanım tipiyle uyuşmuyor olabilir.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Tanımlama tutarsız",
+        "Araca yanlış tanımlama girilmesi"
+      ],
+      "kontroller": [
+        "Kontrol et — parametre ayarları.",
+        "Doğrula — makine tanımlaması."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1401",
+      "kodNormal": "A1401",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Hafıza testi hatası",
+      "aciklama": "Kontrol ünitesi hafıza testi sırasında arızalı bir bellek hücresi tespit etti. Belleğin güvenilirliği kalmadığı için ünite değişmelidir.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Arızalı bellek hücresi",
+        "Hafıza donanımı bozuk"
+      ],
+      "kontroller": [
+        "Değiştir — RCU kontrol ünitesi.",
+        "Kontrol et — hata hafızası."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1405",
+      "kodNormal": "A1405",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "DPRAM parite hatası",
+      "aciklama": "Çift portlu hafızada parite kontrolü başarısız oldu. Veri aktarımı güvenli olmadığı için ünite yenilenmelidir.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Veri aktarımı bozuk",
+        "Çift portlu bellekte donanım arızası"
+      ],
+      "kontroller": [
+        "Değiştir — RCU kontrol ünitesi.",
+        "Kontrol et — hata hafızası."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1431",
+      "kodNormal": "A1431",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Kontrolcü hafıza hücresi arızası",
+      "aciklama": "Kontrolcü içindeki bellek hücresinde hata bulundu. Hafıza testi başarısız olduğu için ünite değişimi gereklidir.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kontrolcü bellek hücresi arızası",
+        "Hafıza testi başarısız"
+      ],
+      "kontroller": [
+        "Değiştir — RCU kontrol ünitesi.",
+        "Kontrol et — hata hafızası."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1435",
+      "kodNormal": "A1435",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "DPRAM parite kontrolü başarısız",
+      "aciklama": "Çift portlu hafızanın parite biti beklenen değerde değil. Bu durum, işlemciler arasındaki veri alışverişini güvensiz hale getirir.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Parite biti hatalı",
+        "Veri alışverişi bozuk"
+      ],
+      "kontroller": [
+        "Değiştir — RCU kontrol ünitesi.",
+        "Kontrol et — hata hafızası."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1443",
+      "kodNormal": "A1443",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Hafıza testi: hücre arızası",
+      "aciklama": "Bellek testi sırasında arızalı bir hücreye rastlandı. Kontrol ünitesi güvenli çalışma koşullarını sağlayamıyor.",
+      "makineTepkisi": "Kontaktörler devreye girmez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Bellek hücresi arızası",
+        "Donanım hatası"
+      ],
+      "kontroller": [
+        "Değiştir — RCU kontrol ünitesi.",
+        "Kontrol et — hata hafızası."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A1444",
+      "kodNormal": "A1444",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "DPRAM parite hatası: sürücü",
+      "aciklama": "Sürücü ve hidrolik sürücü için kullanılan çift portlu hafızada parite hatası oluştu. Ünite değişimi gerekir.",
+      "makineTepkisi": "Sürücü ve hidrolik sürücü bloke",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Parite hatası",
+        "Sürücü hafızası bozuk"
+      ],
+      "kontroller": [
+        "Değiştir — RCU kontrol ünitesi.",
+        "Kontrol et — sürücü hafızası."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2229",
+      "kodNormal": "A2229",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "13 V besleme düşük",
+      "aciklama": "Kontrol ünitesinin 13 voltluk besleme gerilimi izin verilen alt sınırın altına indi. Sürücü katı yeterli gerilim alamıyor.",
+      "makineTepkisi": "Sürücü devre dışı kalabilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Besleme gerilimi düşük",
+        "Kablo bağlantısı zayıf"
+      ],
+      "kontroller": [
+        "Kontrol et — RCU kablo bağlantısı.",
+        "Kontrol et — DC-DC dönüştürücü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2230",
+      "kodNormal": "A2230",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "13 V besleme yüksek",
+      "aciklama": "Kontrol ünitesine giden 13 voltluk besleme normalin üzerine çıktı. Aşırı gerilim, bağlı devrelerin ömrünü kısaltabilir.",
+      "makineTepkisi": "Sürücü devre dışı kalabilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Besleme gerilimi yüksek",
+        "DC-DC dönüştürücü arızası"
+      ],
+      "kontroller": [
+        "Kontrol et — RCU kablo bağlantısı.",
+        "Kontrol et — DC-DC dönüştürücü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2237",
+      "kodNormal": "A2237",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Harici besleme düşük gerilim",
+      "aciklama": "Harici bileşenler için ayrılan 10 voltluk besleme izin verilen değerin altına düştü. Verici besleme hattında kısa devre olabilir.",
+      "makineTepkisi": "Hızlandırma sinyali güvenilmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Verici besleme hattı kısa devre",
+        "Harici yük fazla"
+      ],
+      "kontroller": [
+        "Kontrol et — hızlandırma kablo demeti.",
+        "Değiştir — hızlandırma vericisi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2239",
+      "kodNormal": "A2239",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Harici besleme aşırı gerilim",
+      "aciklama": "Harici bileşen beslemesinde izin verilen gerilim aşıldı. Hatta bağlı harici yük, beslemeyi yükseltiyor olabilir.",
+      "makineTepkisi": "Hızlandırma sinyali güvenilmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Harici yük fazla",
+        "Besleme regülasyonu bozuk"
+      ],
+      "kontroller": [
+        "Kontrol et — hızlandırma kablo demeti.",
+        "Kontrol et — harici yük bağlantısı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2240",
+      "kodNormal": "A2240",
+      "aliaslar": [],
+      "sistem": "batarya",
+      "baslik": "Harici besleme ara gerilim hatası",
+      "aciklama": "Harici besleme hattının ara gerilimi kontrol edilemiyor. Beslemeye dışarıdan gerilim verilmesi olası bir neden olarak kaydedilmiştir.",
+      "makineTepkisi": "Hızlandırma sinyali güvenilmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Kaynak kontrol edilemiyor",
+        "Dışarıdan gerilim beslemesi"
+      ],
+      "kontroller": [
+        "Kontrol et — harici gerilim kaynağı.",
+        "Kontrol et — besleme hattı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2292",
+      "kodNormal": "A2292",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Ana kontaktör beslemesi düşük",
+      "aciklama": "Ana kontaktöre giden besleme gerilimi gereken seviyeye ulaşmadı. Bobin enerjilenemediği için kontaktör açık kalıyor.",
+      "makineTepkisi": "Kontaktör açık kalır",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kontaktör beslemesi düşük",
+        "Bobin hattı zayıf"
+      ],
+      "kontroller": [
+        "Kontrol et — K1 bobin kablosu.",
+        "Kontrol et — K1 güç beslemesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2294",
+      "kodNormal": "A2294",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Ön yükleme hatası",
+      "aciklama": "Güvenlik rölesi etkinleşmediğinde devrede beklenmeyen bir gerilim oluştu. Kontaktör devresinin ön koşulları sağlanamadı.",
+      "makineTepkisi": "Kontaktör devreye girmez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Güvenlik rölesi etkinleşmedi",
+        "Devre gerilimi hatalı"
+      ],
+      "kontroller": [
+        "Kontrol et — XA/49 hattı.",
+        "Değiştir — kontrol ünitesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2295",
+      "kodNormal": "A2295",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Ana kontaktör arızası",
+      "aciklama": "Güvenlik rölesi etkin olmasına rağmen ana kontaktör kapanmadı. İlgili kablo uçlarında beklenen gerilim ölçülemedi.",
+      "makineTepkisi": "Kontaktör devreye girmez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kontaktör kapanmıyor",
+        "Kablo ucu bağlantısı hatalı"
+      ],
+      "kontroller": [
+        "Kontrol et — XA/5 bağlantısı.",
+        "Değiştir — RCU kontrol ünitesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2303",
+      "kodNormal": "A2303",
+      "aliaslar": [],
+      "sistem": "gosterge",
+      "baslik": "Görüntülenen hata sayısı aşıldı",
+      "aciklama": "Aktif hata mesajı sayısı 128i geçti. Ekran yazılımı bu yoğunluğu kaldıramadığı için arıza kaydı oluştu.",
+      "makineTepkisi": "Hata listesi taşabilir",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Çok sayıda aktif hata",
+        "Ekran yazılımı uyumsuz"
+      ],
+      "kontroller": [
+        "Temizle — hata listesi.",
+        "Kontrol et — aktif arızalar."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2403",
+      "kodNormal": "A2403",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Yazılım sürümü uyuşmuyor",
+      "aciklama": "Ekran yazılımı sürümü kontrol ünitesi yazılımı ile uyumlu değil. Kaldırma valfiyle ilgili işlevler bundan etkilenebilir.",
+      "makineTepkisi": "Bazı hidrolik işlevler kısıtlı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yazılım sürümleri uyumsuz",
+        "Kaldırma valfi etkileniyor"
+      ],
+      "kontroller": [
+        "Güncelle — araç yazılımı.",
+        "Kontrol et — kaldırma valfi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2501",
+      "kodNormal": "A2501",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma valfi akım hatası",
+      "aciklama": "Kaldırma valfinden geçen akım 2 amperi aştı. Valf bobininde kısa devre veya sargı arızası olabileceği belirtiliyor.",
+      "makineTepkisi": "Kaldırma işlevi etkilenir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Valf akımı yüksek",
+        "Bobin sargısı arızası"
+      ],
+      "kontroller": [
+        "Değiştir — valf bobini.",
+        "Kontrol et — kaldırma valfi kablosu."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2504",
+      "kodNormal": "A2504",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma valfi kısa devre",
+      "aciklama": "Kaldırma valfi, şasi terminaline kısa devre yaptı. Kontrol ünitesi bu durumu başlatma sırasındaki testle tespit etti.",
+      "makineTepkisi": "Kaldırma işlevi etkilenir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Valf şasiye kısa devre",
+        "Valf çıkışı arızası"
+      ],
+      "kontroller": [
+        "Değiştir — valf fişi.",
+        "Kontrol et — kaldırma valfi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2505",
+      "kodNormal": "A2505",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma valfi arızası",
+      "aciklama": "Açılışta yapılan kırılma testi kaldırma valfinde bir arıza buldu. Valfin mekanik hareketi veya elektriksel sürekliliği bozuk olabilir.",
+      "makineTepkisi": "Kaldırma işlevi etkilenir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Valf kırılma testi başarısız",
+        "Valf arızası"
+      ],
+      "kontroller": [
+        "Kontrol et — kaldırma valfi.",
+        "Kontrol et — valf kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2506",
+      "kodNormal": "A2506",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "İndirme valfi arızası",
+      "aciklama": "İndirme valfi akımı 2 amperi geçtiği için arıza kaydı oluştu. Valf sargisinda kısa devre veya besleme hatası bulunabilir.",
+      "makineTepkisi": "İndirme işlevi etkilenir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "İndirme valfi akımı yüksek",
+        "Sargı kısa devre"
+      ],
+      "kontroller": [
+        "Kontrol et — indirme valfi.",
+        "Kontrol et — valf kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2509",
+      "kodNormal": "A2509",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "İndirme valfi kısa devre",
+      "aciklama": "Başlatma sırasında indirme valfinde kısa devre tespit edildi. Donanım mesajı, valf çıkışının beklenmeden akım çektiğini gösteriyor.",
+      "makineTepkisi": "İndirme işlevi etkilenir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Valf kısa devresi",
+        "Donanım çıkış hatası"
+      ],
+      "kontroller": [
+        "Değiştir — valf fişi.",
+        "Kontrol et — indirme valfi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2511",
+      "kodNormal": "A2511",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Eğme valfi arızası",
+      "aciklama": "İleri eğme valfinde akım sınırı aşıldı. Valf bobininin direnci düşmüş veya besleme hattı kısa devre yapmış olabilir.",
+      "makineTepkisi": "Eğme işlevi etkilenir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Valf akımı yüksek",
+        "Bobin direnci düşük"
+      ],
+      "kontroller": [
+        "Kontrol et — eğme valfi.",
+        "Kontrol et — valf kablosu."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2514",
+      "kodNormal": "A2514",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Eğme valfi kısa devre",
+      "aciklama": "Eğme valfi devresinde kısa devre algılandı. Başlatma testi, valf çıkışının normal dışı akım çektiğini kaydetti.",
+      "makineTepkisi": "Eğme işlevi etkilenir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Valf devresi kısa devre",
+        "Çıkış katı arızası"
+      ],
+      "kontroller": [
+        "Değiştir — valf fişi.",
+        "Kontrol et — eğme valfi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2515",
+      "kodNormal": "A2515",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Eğme valfi kırılması",
+      "aciklama": "Açılış sırasındaki kırılma testi eğme valfinde kopma veya süreklilik kaybı buldu. Mekanik bağlantı ve sargı kontrol edilmelidir.",
+      "makineTepkisi": "Eğme işlevi etkilenir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Valf sargısı kırık",
+        "Mekanik bağlantı zayıf"
+      ],
+      "kontroller": [
+        "Kontrol et — eğme valfi.",
+        "Kontrol et — valf kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2521",
+      "kodNormal": "A2521",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Yardımcı valf 1 akım hatası",
+      "aciklama": "Birinci yardımcı valfin akımı 2 amperi geçti. Valf sargisinda kısa devre veya kablo demetinde hasar bulunabilir.",
+      "makineTepkisi": "Yardımcı hidrolik devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yardımcı valf akımı yüksek",
+        "Kablo hasarı"
+      ],
+      "kontroller": [
+        "Kontrol et — yardımcı valf 1.",
+        "Kontrol et — valf kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2524",
+      "kodNormal": "A2524",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Yardımcı valf 1 kısa devre",
+      "aciklama": "Birinci yardımcı valf başlatma sırasında kısa devre verdi. Donanım mesajı valf çıkışında arıza olduğunu doğruluyor.",
+      "makineTepkisi": "Yardımcı hidrolik devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yardımcı valf kısa devre",
+        "Donanım mesajı"
+      ],
+      "kontroller": [
+        "Değiştir — valf fişi.",
+        "Kontrol et — yardımcı valf 1."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2525",
+      "kodNormal": "A2525",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Yardımcı valf 1 kırılması",
+      "aciklama": "Birinci yardımcı valfin kırılma testi başarısız oldu. Sargı sürekliliği veya valf mekanizması sağlıklı değil.",
+      "makineTepkisi": "Yardımcı hidrolik devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Valf sargısı kırık",
+        "Test başarısız"
+      ],
+      "kontroller": [
+        "Kontrol et — yardımcı valf 1.",
+        "Kontrol et — valf kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2531",
+      "kodNormal": "A2531",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Yardımcı valf 2 akım hatası",
+      "aciklama": "İkinci yardımcı valfin akımı izin verilen sınırı geçti. Valf sargisi veya besleme kablosu arızalanmış olabilir.",
+      "makineTepkisi": "Yardımcı hidrolik devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yardımcı valf akımı yüksek",
+        "Sargi arızası"
+      ],
+      "kontroller": [
+        "Kontrol et — yardımcı valf 2.",
+        "Kontrol et — valf kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2534",
+      "kodNormal": "A2534",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Yardımcı valf 2 kısa devre",
+      "aciklama": "İkinci yardımcı valf devresinde kısa devre oluştu. Açılış sırasındaki donanım testi bu durumu kaydetti.",
+      "makineTepkisi": "Yardımcı hidrolik devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yardımcı valf kısa devre",
+        "Çıkış katı arızası"
+      ],
+      "kontroller": [
+        "Değiştir — valf fişi.",
+        "Kontrol et — yardımcı valf 2."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2535",
+      "kodNormal": "A2535",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Yardımcı valf 2 kırılması",
+      "aciklama": "İkinci yardımcı valfin kırılma testi sırasında süreklilik kaybı görüldü. Sargi ve kablo bağlantıları gözden geçirilmelidir.",
+      "makineTepkisi": "Yardımcı hidrolik devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Valf sargısı kırık",
+        "Süreklilik kaybı"
+      ],
+      "kontroller": [
+        "Kontrol et — yardımcı valf 2.",
+        "Kontrol et — valf kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2541",
+      "kodNormal": "A2541",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Şalt valfi akım hatası",
+      "aciklama": "Şalt valfinde akım 2 amperi aştı.İleri uzatma valfiyle ilgili besleme hattı arıza veriyor.",
+      "makineTepkisi": "Uzatma işlevi kısıtlı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Şalt valfi akımı yüksek",
+        "Besleme hattı arızası"
+      ],
+      "kontroller": [
+        "Kontrol et — uzatma valfi.",
+        "Kontrol et — valf kablosu."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2544",
+      "kodNormal": "A2544",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Şalt valfi kısa devre",
+      "aciklama": "Şalt valfi devresinde kısa devre tespit edildi. Donanım testi valf çıkışının arızasını gösteriyor.",
+      "makineTepkisi": "Uzatma işlevi kısıtlı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Çıkış arızası",
+        "Valf bobininde yanma veya yalıtım kaybı"
+      ],
+      "kontroller": [
+        "Değiştir — valf fişi.",
+        "Kontrol et — şalt valfi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2545",
+      "kodNormal": "A2545",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Şalt valfi kırılması",
+      "aciklama": "Açılışta yapılan test şalt valfinde kırılma buldu. Valfin mekanik ve elektriksel bütünlüğü yeniden kontrol edilmelidir.",
+      "makineTepkisi": "Uzatma işlevi kısıtlı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Valf kırılması",
+        "Mekanik arıza"
+      ],
+      "kontroller": [
+        "Kontrol et — şalt valfi.",
+        "Kontrol et — valf kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2550",
+      "kodNormal": "A2550",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Servis indirme valfi arızası",
+      "aciklama": "Servis indirme valfinin kırılma testi başarısız oldu. Enine hareket valfiyle bağlantılı devrede süreklilik sorunu var.",
+      "makineTepkisi": "Servis hidroliği etkilenir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Servis valfi arızası",
+        "Süreklilik sorunu"
+      ],
+      "kontroller": [
+        "Kontrol et — enine hareket valfi.",
+        "Kontrol et — valf kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2551",
+      "kodNormal": "A2551",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Servis indirme valfi akımı",
+      "aciklama": "Servis indirme valfinden geçen akım 2 amperi aştı. Sol enine hareket valfiyle ilgili sargı veya besleme arızası söz konusu.",
+      "makineTepkisi": "Servis hidroliği etkilenir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Servis valfi akımı yüksek",
+        "Sargi arızası"
+      ],
+      "kontroller": [
+        "Kontrol et — enine hareket valfi.",
+        "Kontrol et — valf kablosu."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2554",
+      "kodNormal": "A2554",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Servis indirme valfi kısa devre",
+      "aciklama": "Servis indirme valfi çıkışında kısa devre algılandı. Valf çıkışı sürekli akım çekiyor ve sistem bunu güvenli bulmuyor.",
+      "makineTepkisi": "Servis hidroliği etkilenir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Servis valfi kısa devre",
+        "Sürekli akım"
+      ],
+      "kontroller": [
+        "Değiştir — valf fişi.",
+        "Kontrol et — servis valfi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2560",
+      "kodNormal": "A2560",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Genel eyleyici arızası",
+      "aciklama": "Genel eyleyici devresinde kırılma tespit edildi. Etkinleştirme valfine giden sinyal veya besleme kesilmiş olabilir.",
+      "makineTepkisi": "Hidrolik tepki zayıf",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Eyleyici kırılması",
+        "Etkinleştirme valfi arızası"
+      ],
+      "kontroller": [
+        "Kontrol et — etkinleştirme valfi.",
+        "Kontrol et — valf kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2578",
+      "kodNormal": "A2578",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "Konuş koluna ait kısa devre",
+      "aciklama": "Parmak ucu anahtarlı kumanda kolunda kısa devre oluştu. veri yolu dönüştürücüsü ile iletişim testi bu durumu doğruladı.",
+      "makineTepkisi": "Komut sinyali kaybolur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Konuş kolu kısa devre",
+        "Veri yolu dönüştürücüsü iletişimi"
+      ],
+      "kontroller": [
+        "Kontrol et — veri yolu.",
+        "Kontrol et — kumanda kolu kablosu."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2600",
+      "kodNormal": "A2600",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "veri yolu hatası",
+      "aciklama": "Akü kontrolcüsü ile veri yolu üzerinden iletişim kurulamadı. Konektörde gevşeklik veya besleme kaybı olasıdır.",
+      "makineTepkisi": "İletişim kesilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Veri yolu bağlantısı gevşek",
+        "Besleme kaybı"
+      ],
+      "kontroller": [
+        "Kontrol et — kablo demeti.",
+        "Değiştir — kumanda kolu veri yolu dönüştürücüsü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2601",
+      "kodNormal": "A2601",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "Batarya kontrolcüsü iletişim hatası",
+      "aciklama": "Batarya kontrolcüsünden veri yolu mesajları alınamadı. Kontrol ünitesi ve veri yolu ayrı ayrı değerlendirilmelidir.",
+      "makineTepkisi": "İletişim kesilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Veri yolu arızası",
+        "CAN hattında kopukluk veya sonlandırma hatası"
+      ],
+      "kontroller": [
+        "Değiştir — RCU kontrol ünitesi.",
+        "Kontrol et — veri yolu."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2603",
+      "kodNormal": "A2603",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "Konuş kolu veri yolu hatası",
+      "aciklama": "Parmak ucu anahtar ile veri yolu dönüştürücüsü arasındaki iletişim kesildi. Konektörlerde oksitlenme veya kablo hasarı bulunabilir.",
+      "makineTepkisi": "Komut sinyali kaybolur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Veri yolu bağlantısı gevşek",
+        "Kumanda kolu kablo hasarı"
+      ],
+      "kontroller": [
+        "Kontrol et — kablo demeti.",
+        "Değiştir — kumanda kolu veri yolu dönüştürücüsü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2621",
+      "kodNormal": "A2621",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "veri yolu dönüştürücüsü iletişim hatası",
+      "aciklama": "veri yolu dönüştürücüsüyle veri alışverişi bozuldu. Sürücü komutları kontrol ünitesine ulaşmadığı için makine tepki vermeyebilir.",
+      "makineTepkisi": "Komut sinyali kaybolur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kablo hasarı",
+        "Konnektörde oksitlenme veya gevşeklik"
+      ],
+      "kontroller": [
+        "Kontrol et — kablo demeti.",
+        "Değiştir — kumanda kolu veri yolu dönüştürücüsü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2650",
+      "kodNormal": "A2650",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "GPRS modemi yanlış yapılandırıldı",
+      "aciklama": "Uzaktan veri aktarımı için seçilen modem tipi parametresi hatalı. GPRS modülü beklenen ağa kayıt olamıyor.",
+      "makineTepkisi": "Uzaktan veri aktarımı çalışmaz",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Modem tipi parametresi hatalı",
+        "Modül yapılandırması bozuk"
+      ],
+      "kontroller": [
+        "Düzelt — modem tipi parametresi.",
+        "Kontrol et — SIM kart."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2652",
+      "kodNormal": "A2652",
+      "aliaslar": [],
+      "sistem": "iletisim",
+      "baslik": "Sunucu iletişim zaman aşımı",
+      "aciklama": "GPRS modülü, iletişim sunucusuna zamanında veri iletemedi. Ağ bağlantısı veya sunucu erişimi kesilmiş olabilir.",
+      "makineTepkisi": "Uzaktan veri aktarımı çalışmaz",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sunucuya bağlanılamıyor",
+        "Veri iletimi gecikiyor"
+      ],
+      "kontroller": [
+        "Kontrol et — haberleşme bağlantısı.",
+        "Yeniden başlat — GPRS modülü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2730",
+      "kodNormal": "A2730",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Hızlandırma sinyalinde gerilim hatası",
+      "aciklama": "Hızlandırma sinyalinin gerilim seviyesi beklenen aralıkta değil. Batarya gerilimi ölçümüyle ilgili bir tutarsızlık da kaydedildi.",
+      "makineTepkisi": "Hızlandırma tepkisi bozulur",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Hızlandırma sinyal gerilimi hatalı",
+        "Batarya ölçümü tutarsız"
+      ],
+      "kontroller": [
+        "Değiştir — RCU kontrol ünitesi.",
+        "Kontrol et — hızlandırma vericisi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2801",
+      "kodNormal": "A2801",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Hızlandırma sinyali başlangıç hatası",
+      "aciklama": "Kontrol işlemcisi, hızlandırma sinyalinin başlangıç kontrolünü tamamlayamadı. Sinyal sınır dışında kalmış olabilir.",
+      "makineTepkisi": "Hızlandırma tepkisi bozulur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sinyal sınır dışı",
+        "Işlemci kontrolü başarısız"
+      ],
+      "kontroller": [
+        "Değiştir — RCU kontrol ünitesi.",
+        "Kontrol et — hızlandırma vericisi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2802",
+      "kodNormal": "A2802",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Açılışta güvenlik fonksiyonu hatası",
+      "aciklama": "Kilitlenme sırasında dahili güvenlik rölesinin testi başarısız oldu. K1 güç kontaklarında besleme sorunu olabilir.",
+      "makineTepkisi": "Makine hareket etmez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Güvenlik rölesi testi başarısız",
+        "K1 beslemesi hatalı"
+      ],
+      "kontroller": [
+        "Kontrol et — K1 güç kontakları.",
+        "Kontrol et — kontaktör beslemesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2806",
+      "kodNormal": "A2806",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "16 km/s sınırı: ana kaldırma",
+      "aciklama": "Ana kaldırma ile ilgili hız sınırı aşıldı. LED sensörden gelen anahtar sinyalleri beklenen konumla uyuşmuyor.",
+      "makineTepkisi": "Hız sınırı devreye girer",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "LED sensör sinyali hatalı",
+        "Maşt reference konumu tutarsız"
+      ],
+      "kontroller": [
+        "Kontrol et — maşt referans anahtarı.",
+        "Kontrol et — LED sensörü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2807",
+      "kodNormal": "A2807",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "İç işlem hatası: devir sayısı",
+      "aciklama": "Sürüş sırasında beklenen nominal devir sayısı elde edilemedi. Kontrol ünitesi işlemi tamamlayamadığı için hata kaydı oluştu.",
+      "makineTepkisi": "Sürüş dengesiz olabilir",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Nominal devir sayısı alınamadı",
+        "Işlem hatası"
+      ],
+      "kontroller": [
+        "Değiştir — RCU kontrol ünitesi.",
+        "Temizle — hata listesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2808",
+      "kodNormal": "A2808",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Hesaplanan hız sınırı aşıldı",
+      "aciklama": "Hesaplanan hız, izin verilen azami değerin üzerine çıktı. Hızlandırma veya invertör parametrelerinde tutarsızlık olabilir.",
+      "makineTepkisi": "Hız kısıtlaması devreye girer",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Hesaplanan hız çok yüksek",
+        "Parametre tutarsız"
+      ],
+      "kontroller": [
+        "Değiştir — RCU kontrol ünitesi.",
+        "Temizle — hata listesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2809",
+      "kodNormal": "A2809",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Hızlandırma ile hesaplanan hız uyuşmuyor",
+      "aciklama": "Hızlandırma komutu ile hesaplanan hız birbiriyle örtüşmüyor.İzin verilen hız sınırı aşıldığı için arıza verildi.",
+      "makineTepkisi": "Hız kısıtlaması devreye girer",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Komut ve hesaplanan hız uyuşmuyor",
+        "Hız sınırı aşıldı"
+      ],
+      "kontroller": [
+        "Değiştir — RCU kontrol ünitesi.",
+        "Temizle — hata listesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2810",
+      "kodNormal": "A2810",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş yönü komutu tutarsız",
+      "aciklama": "İnvertör sürüş modunda yön komutu ile ayarlanan tork beklenen aralıkta değil. Yön seçim devresi kontrol edilmelidir.",
+      "makineTepkisi": "Yön değişimi gecikir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yön komutu tutarsız",
+        "Tork ayarı aralık dışı"
+      ],
+      "kontroller": [
+        "Değiştir — RCU kontrol ünitesi.",
+        "Temizle — hata listesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2811",
+      "kodNormal": "A2811",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Çekiş invertör torku aralık dışı",
+      "aciklama": "Çekiş invertörüne verilen tork ayarı izin verilen aralığın dışında kaldı. İnvertör veya RCU kaynaklı bir arıza söz konusu.",
+      "makineTepkisi": "Çekiş gücü kısıtlanır",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Tork ayarı aralık dışı",
+        "Invertör arızası"
+      ],
+      "kontroller": [
+        "Değiştir — çekiş invertörü.",
+        "Temizle — hata listesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2813",
+      "kodNormal": "A2813",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Set ve gerçek hız farkı",
+      "aciklama": "Ayarlanan hız ile gerçek hız arasındaki fark toleransı aştı. Devir sayımı veya invertör geri beslemesi hatalı olabilir.",
+      "makineTepkisi": "Hız kontrolü dengesiz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Devir sayımı hatalı",
+        "Enkoder veya hız sensöründe arıza"
+      ],
+      "kontroller": [
+        "Kontrol et — çekiş invertörü.",
+        "Kontrol et — hız geri beslemesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2815",
+      "kodNormal": "A2815",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Devir sayımı arızası",
+      "aciklama": "RCU ile invertör arasında hesaplanan devir sayıları birbirinden farklı. Sinyal sayımında bir kayma veya kablo hatası var.",
+      "makineTepkisi": "Hız göstergesi güvenilmez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Devir sayımı tutarsız",
+        "Sinyal hattı arızası"
+      ],
+      "kontroller": [
+        "Kontrol et — çekiş invertörü.",
+        "Kontrol et — hız sensörü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2817",
+      "kodNormal": "A2817",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Emniyet bileşeni tepki vermedi",
+      "aciklama": "Akım hatasının ardından araç bileşenlerinden beklenen tepki alınamadı. Ana kontaktör gibi emniyet parçaları kontrol edilmelidir.",
+      "makineTepkisi": "Makine hareket etmez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Ana kontaktör arızası",
+        "Emniyet rölesi veya kontaktör kontağında yapışma"
+      ],
+      "kontroller": [
+        "Kontrol et — emniyet bileşenleri.",
+        "Değiştir — RCU kontrol ünitesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2860",
+      "kodNormal": "A2860",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Valf akımı ölçüm hatası",
+      "aciklama": "Valf etkinleştirilmemişken akım ölçüldü. RCU içindeki akım ölçüm devresi hatalı sinyal üretiyor.",
+      "makineTepkisi": "Valf komutları güvenilmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Etkinleştirilmemiş valfte akım",
+        "Ölçüm devresi arızası"
+      ],
+      "kontroller": [
+        "Değiştir — RCU kontrol ünitesi.",
+        "Kontrol et — valf akım hattı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2861",
+      "kodNormal": "A2861",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Valf bloğu set değerleri farklı",
+      "aciklama": "Valf işlemcisi ile RCU, valf set değerleri konusunda farklı veri alıyor. Yazılım veya kablo aktarımı kontrol edilmelidir.",
+      "makineTepkisi": "Hidrolik tepki gecikir",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Set değerleri farklı",
+        "Veri aktarımı bozuk"
+      ],
+      "kontroller": [
+        "Güncelle — araç yazılımı.",
+        "Kontrol et — valf bloğu bağlantısı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2870",
+      "kodNormal": "A2870",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Akım değeri mantıksız",
+      "aciklama": "Emniyet fonksiyonu sırasında nabızlı valf bağlantılarından mantıksız akım okundu. Valf kablosu veya anahtarlama sırası hatalı olabilir.",
+      "makineTepkisi": "Emniyet fonksiyonu devrede",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Akım okuması mantıksız",
+        "Anahtarlama sırası hatalı"
+      ],
+      "kontroller": [
+        "Kontrol et — valf kablo demeti.",
+        "Kontrol et — anahtarlama sırası."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2880",
+      "kodNormal": "A2880",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Ana kaldırma hız sınırı",
+      "aciklama": "Emniyet fonksiyonunda ana kaldırma ile ilgili hız sınırı aşıldı. Maşt konumu ile ilgili anahtar sinyalleri tutarlı değil.",
+      "makineTepkisi": "Hız kısıtlaması devreye girer",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Hız sınırı aşıldı",
+        "Maşt anahtar sinyali hatalı"
+      ],
+      "kontroller": [
+        "Kontrol et — maşt anahtarı.",
+        "Kontrol et — kaldırma sensörü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2902",
+      "kodNormal": "A2902",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Seri arayüz başlatılamadı",
+      "aciklama": "RCU içindeki senkron seri arayüz başlatılamadı. veri yolu arayüzüyle ilgili başlangıç kontrolü başarısız oldu.",
+      "makineTepkisi": "İletişim kesilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Veri yolu arayüzü hatası",
+        "Arayüz kablosunda kopukluk"
+      ],
+      "kontroller": [
+        "Değiştir — RCU kontrol ünitesi.",
+        "Kontrol et — arayüz bağlantısı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A2904",
+      "kodNormal": "A2904",
+      "aliaslar": [],
+      "sistem": "elektrik",
+      "baslik": "Seri arayüz sağlama toplamı hatası",
+      "aciklama": "Senkron seri arayüzde sağlama toplamı veya gözetleyici zamanlayıcı hatası oluştu. Kontrol ünitesi yazılımı yeniden yüklenmelidir.",
+      "makineTepkisi": "İletişim kesilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Sağlama toplamı hatası",
+        "Gözetleyici zamanlayıcı hatası"
+      ],
+      "kontroller": [
+        "Değiştir — RCU kontrol ünitesi.",
+        "Güncelle — araç yazılımı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A3008",
+      "kodNormal": "A3008",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Fren anahtarı açık",
+      "aciklama": "Hızlandırma sırasında fren anahtarı açık kaldı. Fren pedalı ile hızlandırma pedalı arasındaki uyum bozulmuş olabilir.",
+      "makineTepkisi": "Hızlandırma devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Pedal uyumu bozuk",
+        "Fren pedalı anahtar ayarının kayması"
+      ],
+      "kontroller": [
+        "Kontrol et — kablo demeti.",
+        "Değiştir — hızlandırma vericisi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A3010",
+      "kodNormal": "A3010",
+      "aliaslar": [],
+      "sistem": "fren",
+      "baslik": "Fren sensörü kablo kopması",
+      "aciklama": "Fren devresinde kablo kopması veya mantıksız sinyal algılandı. Paspasın pedale baskı yapması olası bir nedendir.",
+      "makineTepkisi": "Fren algılama güvenilmez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Fren kablosu kopuk",
+        "Pedale baskı var"
+      ],
+      "kontroller": [
+        "Kontrol et — kablo demeti.",
+        "Kontrol et — pedal paspası."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A3035",
+      "kodNormal": "A3035",
+      "aliaslar": [],
+      "sistem": "fren",
+      "baslik": "Fren basınç sensörü arızası",
+      "aciklama": "Fren sıvısı seviyesi düşük veya basınç sensörü arızası var. Kontrol ünitesi iki kaynaktan gelen bilgiyi karşılaştıramıyor.",
+      "makineTepkisi": "Fren uyarısı verilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Fren sıvısı düşük",
+        "Basınç sensörü arızası"
+      ],
+      "kontroller": [
+        "Kontrol et — fren sıvısı.",
+        "Değiştir — basınç sensörü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A3136",
+      "kodNormal": "A3136",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Eğme sensörü hata sinyali",
+      "aciklama": "Yükseklik ölçüm sinyalleri tutarlı değil. Eğme sensörünün konumu veya ölçüm aralığı kontrol edilmelidir.",
+      "makineTepkisi": "Maşt yüksekliği güvenilmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Yükseklik sinyali tutarsız",
+        "Sensör konumu hatalı"
+      ],
+      "kontroller": [
+        "Kontrol et — sensör bağlantısı.",
+        "Kontrol et — yükseklik ölçüm hattı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A3148",
+      "kodNormal": "A3148",
+      "aliaslar": [],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş yönü anahtarı hatası",
+      "aciklama": "Sürüş yönü anahtarından gelen sinyal mantıksız. Kontrol ünitesi referans sürüş işleminin yapılmasını istiyor.",
+      "makineTepkisi": "Yön komutu güvenilmez",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Yön anahtarı sinyali hatalı",
+        "Referans sürüş eksik"
+      ],
+      "kontroller": [
+        "Kontrol et — yön anahtarı kablosu.",
+        "Gerçekleştir — referans sürüş."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A3150",
+      "kodNormal": "A3150",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Düğme hatası",
+      "aciklama": "Parmak ucu anahtardaki bir düğmeyle ilgili dahili işlem hatası oluştu. Kablo veya düğme mekanizması arızalanmış olabilir.",
+      "makineTepkisi": "Komut alınamaz",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Düğme sinyali hatalı",
+        "Kablo bağlantısı zayıf"
+      ],
+      "kontroller": [
+        "Kontrol et — kablo demeti.",
+        "Değiştir — parmak ucu düğmesi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A3171",
+      "kodNormal": "A3171",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "X ekseni mantıksallık hatası",
+      "aciklama": "Konuş kolu X ekseninden gelen sinyal beklenen aralıkta değil. Konuş kolu veya kablo demeti arızası söz konusu.",
+      "makineTepkisi": "Hareket komutu kesilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "X ekseni sinyali hatalı",
+        "Kumanda kolu arızası"
+      ],
+      "kontroller": [
+        "Değiştir — kumanda kolu.",
+        "Kontrol et — kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A3172",
+      "kodNormal": "A3172",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Y ekseni mantıksallık hatası",
+      "aciklama": "Konuş kolu Y ekseni sinyali tutarsızlık gösteriyor. Mekanik aşınma veya elektriksel kesinti neden olabilir.",
+      "makineTepkisi": "Hareket komutu kesilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Y ekseni sinyali hatalı",
+        "Mekanik aşınma"
+      ],
+      "kontroller": [
+        "Değiştir — kumanda kolu.",
+        "Kontrol et — kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A3173",
+      "kodNormal": "A3173",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "W ekseni mantıksallık hatası",
+      "aciklama": "Konuş kolu W eksenindeki sinyal mantıksız. Rotasyon komutları güvenilir biçimde iletilmiyor.",
+      "makineTepkisi": "Rotasyon komutu kesilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "W ekseni sinyali hatalı",
+        "Rotasyon devresi arızası"
+      ],
+      "kontroller": [
+        "Değiştir — kumanda kolu.",
+        "Kontrol et — kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A3186",
+      "kodNormal": "A3186",
+      "aliaslar": [],
+      "sistem": "diger",
+      "baslik": "Arızalı itme düğmesi",
+      "aciklama": "LED göstergeli itme düğmesinde kısa devre veya arıza tespit edildi. Kullanım ünitesinin değişmesi gerekebilir.",
+      "makineTepkisi": "Düğme işlevi çalışmaz",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "İtme düğmesi arızası",
+        "Gösterge kısa devre"
+      ],
+      "kontroller": [
+        "Değiştir — kullanım ünitesi.",
+        "Kontrol et — düğme kablosu."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A3191",
+      "kodNormal": "A3191",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Valf beslemesi aralık dışı",
+      "aciklama": "Valf besleme gerilimi geçerli aralığın dışında kaldı. Güç devresindeki besleme ve sigorta kontrol edilmelidir.",
+      "makineTepkisi": "Valfler tepki vermez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Valf beslemesi hatalı",
+        "Güç devresi arızası"
+      ],
+      "kontroller": [
+        "Kontrol et — valf besleme hattı.",
+        "Kontrol et — sigorta bağlantısı."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A3192",
+      "kodNormal": "A3192",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Valf beslemesi tolerans dışı",
+      "aciklama": "Valf işlemcisindeki besleme 10,5 ile 13 volt arasındaki toleransı aştı. RCU veya kablo hattı yenilenmelidir.",
+      "makineTepkisi": "Valfler tepki vermez",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Besleme toleransı aşıldı",
+        "Valf işlemcisi arızası"
+      ],
+      "kontroller": [
+        "Değiştir — RCU kontrol ünitesi.",
+        "Kontrol et — valf besleme kablosu."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A3193",
+      "kodNormal": "A3193",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Çıkış katı aşırı sıcak",
+      "aciklama": "Güvenlik rölesinin çıkış katı sıcaklığı 80 dereceyi geçti. Valf akımlarının yüksek olması ısınmayı hızlandırıyor.",
+      "makineTepkisi": "Güç kısıtlama uygulanır",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Çıkış katı sıcak",
+        "Valf akımları yüksek"
+      ],
+      "kontroller": [
+        "Kontrol et — valf akımları.",
+        "Kontrol et — soğutma koşulları."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A3195",
+      "kodNormal": "A3195",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Hidrolik röle düşük gerilim",
+      "aciklama": "Valflere güvenen rölede gerilim kaybı oluştu. RCU girişine gelen 48 voltluk besleme kontrol edilmelidir.",
+      "makineTepkisi": "Hidrolik tepki zayıf",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Röle gerilimi düşük",
+        "48 V besleme arızası"
+      ],
+      "kontroller": [
+        "Kontrol et — RCU XB/1 bağlantısı.",
+        "Kontrol et — röle bobini."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://www.truck-manuals.net/app/download/15276674022/STILL+Forklift+Fault+Codes.pdf?t=1611048119",
+      "durum": "incelemede"
+    }
+  ]
+}

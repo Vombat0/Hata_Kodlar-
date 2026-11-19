@@ -1,0 +1,435 @@
+{
+  "marka": "jcb",
+  "seri": "is-makinesi",
+  "modelAdi": "JCB 3CX / 4CX / JS / Loadall iş makinesi ve forklift",
+  "kaynakBelge": "JCB Fault Codes & Repair Guides (Partao)",
+  "kaynakSurum": "",
+  "kaynakDil": "EN",
+  "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+  "kodlar": [
+    {
+      "kod": "B0300",
+      "kodNormal": "B0300",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Düşük akış oransal valfi yüksek gerilim",
+      "aciklama": "Hidrolik elektronik kontrolcü, kumanda kolu üzerindeki oransal oransal valften beklenenin üzerinde sinyal aldı. Beslemeye kısa devre olasıdır.",
+      "makineTepkisi": "Düşük akış hidroliği devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sinyal hattında beslemeye kısa devre",
+        "Potansiyometre arızası"
+      ],
+      "kontroller": [
+        "Ölç — kumanda kolu sinyal kablosu.",
+        "Kontrol et — kumanda kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B0301",
+      "kodNormal": "B0301",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Yüksek akış oransal valfi düşük gerilim",
+      "aciklama": "Yardımcı hidrolik akışını ayarlayan oransal valfin sinyal gerilimi çok düşük. Besleme hattı veya oransal valfin kendisi arızalı olabilir.",
+      "makineTepkisi": "Akış kontrolü çalışmaz",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Oransal valf beslemesi yetersiz",
+        "Sinyal kablosu kopuk"
+      ],
+      "kontroller": [
+        "Ölç — tekerlek besleme gerilimi.",
+        "Kontrol et — kumanda kolu konnektörü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B0302",
+      "kodNormal": "B0302",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Yüksek akış oransal valfi yüksek gerilim",
+      "aciklama": "Yüksek akış oransal valfi devresinde 4,5 volt üzerinde bir sinyal ölçüldü. Kablo demetinde beslemeye kısa devre veya sensör iç arızası var.",
+      "makineTepkisi": "Yardımcı hidrolik devre dışı",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Beslemeye kısa devre",
+        "Oransal valf sensörü arızası"
+      ],
+      "kontroller": [
+        "Kontrol et — kumanda kolu kablo demeti.",
+        "Değiştir — yüksek akış oransal valfi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B1002",
+      "kodNormal": "B1002",
+      "aliaslar": [
+        "Alternatör şarj etmiyor"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Alternatör uyarım devresi açık",
+      "aciklama": "Gösterge paneli ile alternatör arasındaki uyarım hattı kopuk. Alternatör manyetik alanı oluşturamadığı için batarya şarj olmaz. Motor çalışırken alternatör çıkış gerilimi 13,5-14,5 volt aralığının altında kaldı. Batarya giderek deşarj olur.",
+      "makineTepkisi": "Batarya şarj olmaz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Uyarım kablosu kopuk",
+        "Alternatör regülatörü arızası",
+        "Alternatör çıkışı yetersiz",
+        "Kayış veya sigorta arızası"
+      ],
+      "kontroller": [
+        "Test et — uyarım hattı sürekliliği.",
+        "Değiştir — alternatör.",
+        "Ölç — batarya şarj gerilimi.",
+        "Kontrol et — şarj sigortası."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B105A",
+      "kodNormal": "B105A",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Sensör gerilimi yüksek",
+      "aciklama": "Gaz kelebeği konum sensöründen beklenen aralığın üzerinde gerilim alındı. Makine emniyet nedeniyle rölanti moduna geçer.",
+      "makineTepkisi": "Limp moduna geçilir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Gaz sensörü beslemesi hatalı",
+        "Kablo kısa devre"
+      ],
+      "kontroller": [
+        "Ölç — gaz sensörü referans gerilimi.",
+        "Değiştir — gaz kelebeği sensörü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B105B",
+      "kodNormal": "B105B",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Gaz kontrol sensörü yüksek gerilim",
+      "aciklama": "Gaz pedalı konum sensörünün sinyali normal aralığı aştı. Sürücü gaz komutu veremediği için motor rölantide kalabilir.",
+      "makineTepkisi": "Gaz tepkisi kaybolur",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Gaz pedalı sensörü arızası",
+        "Beslemeye kısa devre"
+      ],
+      "kontroller": [
+        "Kontrol et — gaz pedalı konnektörü.",
+        "Değiştir — gaz pedalı sensörü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B105D",
+      "kodNormal": "B105D",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Sensör devresinde düşük gerilim",
+      "aciklama": "Hidrolik kontrol ünitesine bağlı bir sensör devresinde gerilim eşiğin altına düştü. Yardımcı kumanda işlevi etkilenebilir.",
+      "makineTepkisi": "Yardımcı kumanda kaybolur",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sensör beslemesi düşük",
+        "Şasiye kısa devre"
+      ],
+      "kontroller": [
+        "Ölç — sensör besleme gerilimi.",
+        "Kontrol et — kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B1300",
+      "kodNormal": "B1300",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Güç kademesi seçim devresi yüksek gerilim",
+      "aciklama": "Güç kademesi seçim potansiyometresinden gelen gerilim normalin üzerinde. Kontrolcü yalnızca rölantiye izin verir.",
+      "makineTepkisi": "Rölantiyle sınırlı çalışma",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Potansiyometre gerilimi yüksek",
+        "Kablo hasarı"
+      ],
+      "kontroller": [
+        "Kontrol et — potansiyometre kablosu.",
+        "Değiştir — güç kademesi potansiyometresi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B1301",
+      "kodNormal": "B1301",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Güç kademesi potansiyometresi düşük gerilim",
+      "aciklama": "Seçici potansiyometrenin sinyali normal aralığın altında. Kontrolcü operatörün güç ayarını belirleyemediği için kısıtlı moda geçer.",
+      "makineTepkisi": "Rölantiyle sınırlı çalışma",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Potansiyometre arızası",
+        "Şasiye kısa devre"
+      ],
+      "kontroller": [
+        "Ölç — potansiyometre direnci.",
+        "Değiştir — güç kademesi potansiyometresi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B1302",
+      "kodNormal": "B1302",
+      "aliaslar": [],
+      "sistem": "guvenlik",
+      "baslik": "Kumanda etkinleştirme anahtarı hatası",
+      "aciklama": "Kumandaları açan anahtarla ilgili arıza algılandı. Emniyet gereği tüm hareket kumandaları devre dışı bırakıldı.",
+      "makineTepkisi": "Kumandalar devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Etkinleştirme anahtarı arızası",
+        "Kablo bağlantısı zayıf"
+      ],
+      "kontroller": [
+        "Test et — etkinleştirme anahtarı.",
+        "Kontrol et — anahtar kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B1303",
+      "kodNormal": "B1303",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Yakıt pompası rölesi kısa devre",
+      "aciklama": "Motor kontrolcüsü, yakıt kaldırma pompası rölesi devresinde kısa devre algıladı. Pompa çalışmadığı için motor tepeleme yapıp çalışmaz.",
+      "makineTepkisi": "Motor çalışmaz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Röle bobini kısa devre",
+        "Kablo demeti hasarı"
+      ],
+      "kontroller": [
+        "Test et — yakıt pompası rölesi.",
+        "Kontrol et — pompa kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B1304",
+      "kodNormal": "B1304",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Yakıt pompası rölesi açık devre",
+      "aciklama": "Yakıt kaldırma pompası rölesinin devresi kopuk. Röle enerjilenemediği için düşük basınçlı yakıt pompası beslenmez.",
+      "makineTepkisi": "Motor çalışmaz",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Röle devresi kopuk",
+        "Sigorta yanık"
+      ],
+      "kontroller": [
+        "Kontrol et — yakıt pompası sigortası.",
+        "Değiştir — röle."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "B1543",
+      "kodNormal": "B1543",
+      "aliaslar": [],
+      "sistem": "motor",
+      "baslik": "Kritik yüksek soğutma sıvısı sıcaklığı",
+      "aciklama": "Motor soğutma sıvısı kritik sıcaklığa ulaştı. Kontrolcü, ciddi motor hasarını önlemek için gücü düşürüyor.",
+      "makineTepkisi": "Güç kısıtlama uygulanır",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Soğutma sıvısı seviyesi düşük",
+        "Radyatör tıkalı"
+      ],
+      "kontroller": [
+        "Kontrol et — radyatör kanatçıkları.",
+        "Değiştir — soğutma sıvısı sıcaklık sensörü."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "C0300",
+      "kodNormal": "C0300",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Düşük akış A selenoid kısa devre",
+      "aciklama": "Hidrolik kontrolcü, düşük akış A selenoidinin devresinde kısa devre tespit etti. İlgili oransal hidrolik işlevi devre dışı kalır.",
+      "makineTepkisi": "Oransal hidrolik devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Selenoid bobini kısa devre",
+        "Kablo demeti hasarı"
+      ],
+      "kontroller": [
+        "Ölç — selenoid bobin direnci.",
+        "Kontrol et — valf kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "C0301",
+      "kodNormal": "C0301",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Düşük akış A selenoid açık devre",
+      "aciklama": "Düşük akış A selenoidine giden devrede kopukluk var. Akım bobinden geçemediği için valf açılamaz.",
+      "makineTepkisi": "Oransal hidrolik devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Selenoid kablosu kopuk",
+        "Bobin açık devre"
+      ],
+      "kontroller": [
+        "Kontrol et — selenoid konnektörü.",
+        "Değiştir — selenoid bobini."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "C0302",
+      "kodNormal": "C0302",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Düşük akış B selenoid kısa devre",
+      "aciklama": "Düşük akış B selenoidinde akım normalin üzerinde. Kablo şasiye değiyor veya bobin içten kısa devre yapmış olabilir.",
+      "makineTepkisi": "Oransal hidrolik devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Selenoid bobini kısa devre",
+        "Şasiye temas"
+      ],
+      "kontroller": [
+        "Kontrol et — kablo demeti.",
+        "Değiştir — selenoid bobini."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "C0308",
+      "kodNormal": "C0308",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hızlı bağlantı selenoid kısa devre",
+      "aciklama": "Hızlı bağlantı mekanizmasını kontrol eden selenoid devresinde kısa devre algılandı. Emniyet nedeniyle bağlantı açılamaz.",
+      "makineTepkisi": "Hızlı bağlantı devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Selenoid bobini kısa devre",
+        "Kablo hasarı"
+      ],
+      "kontroller": [
+        "Kontrol et — hızlı bağlantı kablosu.",
+        "Değiştir — hızlı bağlantı selenoidi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "C0309",
+      "kodNormal": "C0309",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Hızlı bağlantı selenoid açık devre",
+      "aciklama": "Kontrolcüden hızlı bağlantı selenoidine sinyal ulaşmıyor. Devrede kopukluk veya bobin arızası olduğu değerlendiriliyor.",
+      "makineTepkisi": "Hızlı bağlantı devre dışı",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Selenoid devresi kopuk",
+        "Bobin arızası"
+      ],
+      "kontroller": [
+        "Kontrol et — selenoid kablo demeti.",
+        "Değiştir — hızlı bağlantı selenoidi."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "C0310",
+      "kodNormal": "C0310",
+      "aliaslar": [],
+      "sistem": "hidrolik",
+      "baslik": "Düşük akış emniyet valfi kısa devre",
+      "aciklama": "Düşük akış yardımcı emniyet valfinin oransal selenoidinde kısa devre oluştu. Gelişmiş takım seçimi işlevi engellenir.",
+      "makineTepkisi": "Takım seçimi engellenir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Oransal selenoid kısa devre",
+        "Sargi arızası"
+      ],
+      "kontroller": [
+        "Ölç — selenoid direnci.",
+        "Kontrol et — selenoid kablo demeti."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 0,
+      "kaynakUrl": "https://partao.com/brands/jcb-fault-codes.html",
+      "durum": "incelemede"
+    }
+  ]
+}

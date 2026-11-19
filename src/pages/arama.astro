@@ -3,7 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import SiddetRozet from '../components/SiddetRozet.astro';
 import DurumRozet from '../components/DurumRozet.astro';
 import {
-  aramaYap, getMarkalar, getSeriler, markaAdi, SISTEMLER, SIDDETLER, DURUMLAR,
+  aramaYap, getMarkalar, getSeriler, istatistik, markaAdi, SISTEMLER, SIDDETLER, DURUMLAR,
 } from '../lib/veri';
 
 const q = Astro.url.searchParams.get('q') ?? '';
@@ -15,7 +15,8 @@ const sistem = Astro.url.searchParams.get('sistem') ?? '';
 // en fazla 30 kart üretir. Normal durumda sayfa hiç sonuç kartı göndermez.
 const ilkSonuclar = q ? aramaYap(q, { marka, seri, sistem }).slice(0, 30) : [];
 
-const markalar = getMarkalar();
+const ist = istatistik();
+const markalar = getMarkalar().filter((m) => (ist.markalar.find((x) => x.id === m.id)?.kodSayisi ?? 0) > 0);
 const seriler = getSeriler();
 const sistemler = Object.entries(SISTEMLER);
 

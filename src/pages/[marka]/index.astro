@@ -4,7 +4,11 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 import { getMarkalar, getSeriler, istatistik, type Marka } from '../../lib/veri';
 
 export function getStaticPaths() {
-  return getMarkalar().map((marka) => ({ params: { marka: marka.id }, props: { marka } }));
+  // Kod tablosu olmayan marka icin sayfa uretmeyiz: bos sayfa arama motoruna ve kullaniciya deger katmaz.
+  const ist = istatistik();
+  return getMarkalar()
+    .filter((marka) => (ist.markalar.find((m) => m.id === marka.id)?.kodSayisi ?? 0) > 0)
+    .map((marka) => ({ params: { marka: marka.id }, props: { marka } }));
 }
 
 interface Props { marka: Marka }
@@ -89,8 +93,8 @@ const jsonLd = {
       </div>
     ) : (
       <div class="bos-durum">
-        <strong>Bu marka için henüz seri verisi yok.</strong>
-        Veri workstream'i tamamlandığında seriler burada listelenecek. Tüm mevcut kodlar için <a href="/arama/">arama sayfasını</a> kullanabilirsiniz.
+        <strong>Bu marka için henüz kod tablosu yayınlanmadı.</strong>
+        Kaynak belge çözümlenip kodlar doğrulandığında seriler burada listelenir. Bu arada tüm yayındaki kodlar için <a href="/arama/">arama sayfasını</a> kullanabilirsiniz.
       </div>
     )}
   </section>

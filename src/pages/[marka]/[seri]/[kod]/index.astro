@@ -205,14 +205,14 @@ const jsonLd = [breadcrumbLd, definedTermLd, faqLd];
           <h2>Kaynak atfı</h2>
           <div class="kaynak-satiri"><span>Belge</span><span class="mono">{seri.kaynakBelge}</span></div>
           <div class="kaynak-satiri"><span>Sürüm</span><span class="mono">{seri.kaynakSurum ?? '—'}</span></div>
-          <div class="kaynak-satiri"><span>Sayfa</span><span class="mono">{kod.kaynakSayfa ?? '—'}</span></div>
+          <div class="kaynak-satiri"><span>Sayfa</span><span class="mono">{kod.kaynakSayfa && kod.kaynakSayfa > 0 ? kod.kaynakSayfa : 'belirtilmedi'}</span></div>
           <div class="kaynak-satiri"><span>Dil</span><span>{seri.kaynakDil ?? '—'}</span></div>
           {seri.kaynakUrl && (
-            <div class="kaynak-satiri"><span>Belge</span><a href={seri.kaynakUrl} rel="noopener noreferrer" target="_blank">Orijinali aç ↗</a></div>
+            <div class="kaynak-satiri"><span>Kaynak</span><a href={seri.kaynakUrl} rel="noopener noreferrer" target="_blank">Orijinali aç ↗</a></div>
           )}
           <div style="margin-top:1rem"><DurumRozet durum={kod.durum} /></div>
           <p class="kucuk muted" style="margin-top:0.75rem;margin-bottom:0">
-            Bu kayıt {durumAd.toLowerCase()} durumundadır. Şiddet seviyesi: {sevAd}.
+            Bu kayıt "{durumAd}" durumundadır; şiddet seviyesi "{sevAd}" olarak sınıflandırılmıştır.
           </p>
         </div>
 

@@ -96,6 +96,14 @@
     "renk": "#1D4ED8"
   },
   {
+    "id": "jcb",
+    "ad": "JCB",
+    "grup": "JCB",
+    "aciklama": "JCB, İngiliz iş makinesi üreticisidir. Loadall telehandler ve 3CX/4CX backhoe loader modellerinde kullanılan elektronik kontrol ünitesi arıza kodları bu bölümde toplanır.",
+    "not": "Kodlar JCB iş makinesi elektronik kontrol ünitesine aittir; forklift modeli ayrımı kaynakta belirtilmemiştir.",
+    "renk": "#FEDD00"
+  },
+  {
     "id": "jungheinrich",
     "ad": "Jungheinrich",
     "grup": "Jungheinrich AG",
@@ -126,6 +134,14 @@
     "aciklama": "Linde Material Handling, KION Group bünyesinde hidrostatik tahrikli dizel forkliftler ve elektrikli counterbalance makineleriyle tanınan Alman markasıdır.",
     "not": "Linde, KION Group markasıdır.",
     "renk": "#1D4ED8"
+  },
+  {
+    "id": "manitou",
+    "ad": "Manitou",
+    "grup": "Manitou Group",
+    "aciklama": "Manitou, Fransız telehandler ve malzeme taşıma ekipmanı üreticisidir. MT ve MLT serisi teleskopik yükleyicilerde ortak kullanılan kontrol ünitesinin arıza kodları yer alır.",
+    "not": "MT/MLT kodları telehandler ve endüstriyel forkliftlerde ortak kullanılan kontrol ünitesine aittir.",
+    "renk": "#E30613"
   },
   {
     "id": "mitsubishi",

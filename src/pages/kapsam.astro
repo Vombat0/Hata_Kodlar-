@@ -31,7 +31,7 @@ const jsonLd = {
       <span class="eyek">// VERİ KAPSAMI</span>
       <h1>Kapsam ve doğrulama durumu</h1>
       <p class="muted" style="max-width:70ch">
-        Her kayıt kaynak belge ve sayfa bilgisiyle ilişkilendirilir. "Doğrulandı" durumu, kaydın en az bir servis kılavuzu kaynağıyla karşılaştırıldığını; "incelemede" ve "taslak" durumları ise henüz tam doğrulanmadığını gösterir.
+        Her kayıt bir kaynak belgeye bağlanır; sayfa numarası yalnızca kaynakta verildiğinde gösterilir, verilmediğinde "belirtilmedi" yazar. "Doğrulandı" durumu, kaydın ikinci bir bağımsız kaynakla karşılaştırıldığını; "incelemede" durumu ise kaydın tek kaynaktan derlenip editör kontrolünden geçtiğini, ancak henüz çapraz doğrulanmadığını gösterir.
       </p>
 
       <div class="istatistik-kutulari" style="margin-top:2rem">
@@ -49,9 +49,14 @@ const jsonLd = {
         </div>
         <div class="istatistik-kutusu">
           <div class="istatistik-deger">%{oran}</div>
-          <div class="istatistik-etiket">doğrulanmış kayıt</div>
+          <div class="istatistik-etiket">çapraz doğrulanmış</div>
         </div>
       </div>
+      {oran === 0 && (
+        <div class="uyari-kutusu" style="margin-top:1.25rem;max-width:70ch">
+          <strong>Neden %0?</strong> Yayındaki kayıtların tamamı üretici belgesinden derlendi ve dil/terminoloji kontrolünden geçti, ancak henüz ikinci bir bağımsız kaynakla karşılaştırılmadı. Çapraz doğrulama tamamlanan kayıtlar bu oranı yükseltecek; doğrulanmamış bir kaydı "doğrulandı" göstermiyoruz.
+        </div>
+      )}
     </section>
 
     <section class="bolum">
