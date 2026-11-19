@@ -1,0 +1,72 @@
+[
+  {
+    "tarih": "2026-11-19",
+    "kisa_aciklama": "Astro iskeleti, ilk 1906 kod ve küratörlük katmanı kuruldu.",
+    "dogrulama": "git log kaydı c15227b; src/data/kuretaj/ klasörü ve tools/birlestir.mjs içindeki küratörlük uygulaması."
+  },
+  {
+    "tarih": "2026-11-19",
+    "kisa_aciklama": "Küratörlük güvenliği: kuretaj-al mevcut dosyayı --force olmadan ezmiyor.",
+    "dogrulama": "git log kaydı 22e60db; tools/kuretaj-al.mjs içindeki existsSync ve --force kontrolü."
+  },
+  {
+    "tarih": "2026-11-19",
+    "kisa_aciklama": "Kapsam 23 marka / 3307 koda çıkarıldı; arama indeksi 1.5MB'dan 20KB'a indirildi.",
+    "dogrulama": "git log kaydı 10fa8d6; public/veri/indeks.json dosyasının mevcut boyutu."
+  },
+  {
+    "tarih": "2026-11-19",
+    "kisa_aciklama": "kuretaj-senkron ile kalite puanına göre içerik kaybının önüne geçildi.",
+    "dogrulama": "git log kaydı 226ea60; tools/kuretaj-senkron.mjs puanlama kuralları."
+  },
+  {
+    "tarih": "2026-11-19",
+    "kisa_aciklama": "Caterpillar kimliği birleştirildi; kalitesiz Nissan serisi karantinaya alındı.",
+    "dogrulama": "git log kaydı 774d57d; src/data/kuretaj/karantina.json içindeki seri listesi."
+  },
+  {
+    "tarih": "2026-11-19",
+    "kisa_aciklama": "Eksik teşhis alanları 834 kayıtta dolduruldu.",
+    "dogrulama": "git log kaydı b68e7ee; kayıt alan doluluk oranlarının yeniden ölçümü."
+  },
+  {
+    "tarih": "2026-11-19",
+    "kisa_aciklama": "BYD gösterge mesajı formundaki uzun kodlar doğrulama kapısında hata yerine uyarı sayılır.",
+    "dogrulama": "git log kaydı b354b46; tools/dogrula.mjs içindeki boşluk ve uzunluk kontrolü; son doğrulamada 27 uyarı, 0 hata."
+  },
+  {
+    "tarih": "2026-11-19",
+    "kisa_aciklama": "Kontrol adımları servis kılavuzu diline çevrildi.",
+    "dogrulama": "git log kaydı f10381f; örnek kayıtların kontroller alanlarının incelenmesi."
+  },
+  {
+    "tarih": "2026-11-19",
+    "kisa_aciklama": "Nedenlerdeki başlık tekrarı 1941 satırda temizlendi.",
+    "dogrulama": "git log kaydı 02dd62c; rastgele seçilen kayıtların nedenler alanı kontrolü."
+  },
+  {
+    "tarih": "2026-11-19",
+    "kisa_aciklama": "Pagefind yalnızca ana içeriği indeksleyecek şekilde ayarlandı.",
+    "dogrulama": "git log kaydı 341c05a; dist/pagefind/ dizininin varlığı."
+  },
+  {
+    "tarih": "2026-11-19",
+    "kisa_aciklama": "Still, Manitou ve JCB markaları 133 kodla eklendi.",
+    "dogrulama": "git log kaydı 33db30b; src/data/markalar.json ve ilgili seri dosyaları."
+  },
+  {
+    "tarih": "2026-11-19",
+    "kisa_aciklama": "Toyota 8FBE serisinde 410 kaydın dil onarımı yapıldı.",
+    "dogrulama": "git log kaydı 4f91f2e; src/data/seriler/toyota-8fbe.json dosyası."
+  },
+  {
+    "tarih": "2026-11-19",
+    "kisa_aciklama": "Marka, seri ve kod sayfalarının yerleşimi hizalandı.",
+    "dogrulama": "git log kaydı f671834; ilgili Astro sayfa ve bileşen dosyaları."
+  },
+  {
+    "tarih": "2026-11-19",
+    "kisa_aciklama": "Nihai veri ölçümü yapıldı ve proje dokümantasyonu yazıldı.",
+    "dogrulama": "src/data/seriler/*.json üzerinde python3 sayımı: 26 marka, 61 seri, 3550 kayıt, 1606 kaynakSayfa eksik; node tools/dogrula.mjs: 0 hata, 27 uyarı."
+  }
+]

@@ -88,9 +88,9 @@ const jsonLd = {
                   </span>
                   <span class="sayilar">
                     <span><b>{seri.kodSayisi}</b> kayıt</span>
-                    <span class="durum-dogrulandi"><b>{seri.dogrulanan}</b> doğrulandı</span>
-                    <span class="durum-incelemede"><b>{seri.incelemede}</b> incelemede</span>
-                    <span class="durum-taslak"><b>{seri.taslak}</b> taslak</span>
+                    {seri.dogrulanan > 0 && <span class="durum-dogrulandi"><b>{seri.dogrulanan}</b> doğrulandı</span>}
+                    {seri.incelemede > 0 && <span class="durum-incelemede"><b>{seri.incelemede}</b> incelemede</span>}
+                    {seri.taslak > 0 && <span class="durum-taslak"><b>{seri.taslak}</b> taslak</span>}
                   </span>
                 </div>
               );

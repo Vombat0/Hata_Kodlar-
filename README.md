@@ -67,7 +67,7 @@ DNS: `forklifthata.com` için Netlify'a A (veya ALIAS/ANAME) kaydı, `www.forkli
 
 ## Yasal
 
-Bağımsız teknik bilgi kaynağıdır; hiçbir üreticinin yetkili servisi, distribütörü veya temsilcisi değildir. Marka adları yalnızca makine kimliği için kullanılır. Özetler kendi ifadelerimizle yazılmıştır; taranmış servis kılavuzu sayfaları yayınlanmaz. Her kayıt kaynak belgeye bağlanır, kaynakta varsa sayfa numarası gösterilir, yoksa "belirtilmedi" denir. Telif hakları ilgili sahiplere aittir; bildirim hakkında/hakkinda sayfasından yapılır. İçerik bilgilendirmedir, onarım talimatı veya güvenlik garantisi değildir; kesin teşhis için orijinal servis kılavuzu esas alınmalıdır.
+Bağımsız teknik bilgi kaynağıdır; hiçbir üreticinin yetkili servisi, distribütörü veya temsilcisi değildir. Marka adları yalnızca makine kimliği için kullanılır. Özetler kendi ifadelerimizle yazılmıştır; taranmış servis kılavuzu sayfaları yayınlanmaz. Her kayıt kaynak belgeye bağlanır, kaynakta varsa sayfa numarası gösterilir, yoksa "belirtilmedi" denir. Telif hakları ilgili sahiplere aittir; bildirim /hakkinda/ sayfasından yapılır. İçerik bilgilendirmedir, onarım talimatı veya güvenlik garantisi değildir; kesin teşhis için orijinal servis kılavuzu esas alınmalıdır.
 
 ## Bilinen eksikler
 

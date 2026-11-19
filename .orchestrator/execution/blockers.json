@@ -1,0 +1,56 @@
+[
+  {
+    "id": "B1",
+    "tur": "veri_kalitesi",
+    "aciklama": "Çapraz doğrulanmış kayıt sayısı 0; 3550 kaydın tamamı incelemede durumunda.",
+    "sayi": 0,
+    "etki": "Kayıtlar ikinci bir bağımsız kaynakla karşılaştırılmadığı için doğrulandı statüsü verilemiyor.",
+    "onerilen_tedbir": "Öncelikli serilerde ikinci kaynakla karşılaştırma yapılıp durum alanı dogrulandi olarak güncellenmeli.",
+    "durum": "acik"
+  },
+  {
+    "id": "B2",
+    "tur": "kaynak_bilgisi",
+    "aciklama": "kaynakSayfa alanı boş olan kayıtlar.",
+    "sayi": 1606,
+    "etki": "Bu kayıtlarda belge veya URL bağlantısı var ancak sayfa numarası belirtilmedi; arayüz 'belirtilmedi' gösterir.",
+    "onerilen_tedbir": "Kaynak belge üzerinden sayfa numaraları tespit edilip kayıtlara eklenmeli.",
+    "durum": "acik"
+  },
+  {
+    "id": "B3",
+    "tur": "kapsam",
+    "aciklama": "Henüz veri üretilmeyen markalar: Tailift, Maximal, Utilear/Utilev, Hubtex.",
+    "sayi": 4,
+    "etki": "Bu markalar için marka veya kod sayfası bulunmuyor.",
+    "onerilen_tedbir": "Erişilebilir ve güvenilir kaynak belge bulunduğunda yeni seri dosyaları oluşturulmalı.",
+    "durum": "acik"
+  },
+  {
+    "id": "B4",
+    "tur": "kapsam",
+    "aciklama": "UniCarriers ve Komatsu için ek serilerde doğrulanmış kod tablosu bulunamadı.",
+    "sayi": "UNKNOWN",
+    "etki": "Mevcut seriler yayında olsa da bu markaların kapsamı eksiktir.",
+    "onerilen_tedbir": "Ek seri kaynakları tespit edildiğinde küratörlük katmanı üzerinden eklenmeli.",
+    "durum": "acik"
+  },
+  {
+    "id": "B5",
+    "tur": "provider",
+    "aciklama": "google provider hesap genelinde 403 hatası nedeniyle devre dışı.",
+    "sayi": "UNKNOWN",
+    "etki": "Bu provider üzerinden araştırma veya doğrulama görevi atanamıyor; diğer provider'lara yük biniyor.",
+    "onerilen_tedbir": "403 hatası giderilene kadar google atanmamalı; erişim yeniden kontrol edilmeli.",
+    "durum": "acik"
+  },
+  {
+    "id": "B6",
+    "tur": "dogrulama_uyarisi",
+    "aciklama": "Kalite kapısı 0 hata ile geçiyor ancak 27 uyarı veriyor (çoğunlukla BYD gösterge mesajı formundaki kodlar).",
+    "sayi": 27,
+    "etki": "Derlemeyi engellemez; çıkış kodu 0'dır.",
+    "onerilen_tedbir": "Uyarılar periyodik olarak gözden geçirilmeli; gerçek hata olmadıkları kayıt altına alınmalı.",
+    "durum": "acik"
+  }
+]
