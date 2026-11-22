@@ -132,7 +132,7 @@
     "ad": "Linde",
     "grup": "KION Group",
     "aciklama": "Linde Material Handling, KION Group bünyesinde hidrostatik tahrikli dizel forkliftler ve elektrikli counterbalance makineleriyle tanınan Alman markasıdır.",
-    "not": "Linde, KION Group markasıdır.",
+    "not": "Linde, KION Group markasıdır. Bu sürümde Linde’ye ait bağımsız doğrulanmış hata kodu tablosu bulunmamaktadır; elimizdeki RX50 hata listesi STILL markasına aittir ve STILL altında yayımlanır.",
     "renk": "#1D4ED8"
   },
   {
@@ -206,5 +206,13 @@
     "aciklama": "Yale, Hyster-Yale Materials Handling bünyesinde depo ekipmanları ve elektrikli forkliftler üreten Amerikan markasıdır.",
     "not": "Yale, Hyster-Yale Materials Handling markasıdır.",
     "renk": "#2563EB"
+  },
+  {
+    "id": "zapi",
+    "ad": "ZAPI",
+    "grup": "Zapi Group",
+    "aciklama": "ZAPI, forklift ve depo ekipmanlarında kullanılan elektronik kontrol üniteleri ile MDI gösterge birimleri üreten İtalyan kontrol sistemi üreticisidir. Bu bölümde ZAPI MDI alarm kodları yer alır.",
+    "not": "ZAPI bir forklift markası değil, kontrol ünitesi üreticisidir. Kodlar ZAPI MDI gösterge birimine aittir; forkliftin markasına göre yorumlanmalıdır.",
+    "renk": "#0F766E"
   }
 ]

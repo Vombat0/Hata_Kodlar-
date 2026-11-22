@@ -1,0 +1,2311 @@
+{
+  "marka": "zapi",
+  "seri": "mdi",
+  "modelAdi": "ZAPI MDI alarm listesi (AL 00–AL 99)",
+  "kaynakBelge": "ZAPI MDI Alarm Listesi — Zapi standart kodlama",
+  "kaynakSurum": "—",
+  "kaynakDil": "EN",
+  "kaynakUrl": "",
+  "kodlar": [
+    {
+      "kod": "AL 00",
+      "kodNormal": "AL00",
+      "aliaslar": [
+        "AL00"
+      ],
+      "sistem": "diger",
+      "baslik": "Alarm yok",
+      "aciklama": "Gösterge birimi herhangi bir aktif alarm kaydetmiyor. (ZAPI standart kodlama: NONE)",
+      "makineTepkisi": "",
+      "siddet": "bilgi",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: NONE"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 01",
+      "kodNormal": "AL01",
+      "aliaslar": [
+        "AL01"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sürücü çalışırken alarm",
+      "aciklama": "Kontrol ünitesi çalışma hâlindeyken alarm durumu bildirildi; sürüş kesilebilir. (ZAPI standart kodlama: CHOPPER RUNNING)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: CHOPPER RUNNING"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 02",
+      "kodNormal": "AL02",
+      "aliaslar": [
+        "AL02"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Haberleşme yok",
+      "aciklama": "Gösterge birimi ile kontrol ünitesi arasında haberleşme kurulamıyor. (ZAPI standart kodlama: NO COMMUNICATION)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: NO COMMUNICATION"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 03",
+      "kodNormal": "AL03",
+      "aliaslar": [
+        "AL03"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Tanınmayan sürücü",
+      "aciklama": "Bağlı kontrol ünitesi tipi tanınmıyor veya yapılandırma uyuşmuyor. (ZAPI standart kodlama: UNKNOWN CHOPPER)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: UNKNOWN CHOPPER"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 04",
+      "kodNormal": "AL04",
+      "aliaslar": [
+        "AL04"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Konsol EEPROM hatası",
+      "aciklama": "Gösterge konsolunun EEPROM belleğinde okuma/yazma hatası algılandı. (ZAPI standart kodlama: CONSOLE EEPROM)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: CONSOLE EEPROM"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 05",
+      "kodNormal": "AL05",
+      "aliaslar": [
+        "AL05"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Seri haberleşme hatası 2",
+      "aciklama": "Seri veri hattında ikinci tip iletişim hatası oluştu. (ZAPI standart kodlama: SERIAL ERROR 2)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: SERIAL ERROR 2"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 06",
+      "kodNormal": "AL06",
+      "aliaslar": [
+        "AL06"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Seri haberleşme hatası 1",
+      "aciklama": "Seri veri hattında birinci tip iletişim hatası oluştu. (ZAPI standart kodlama: SERIAL ERROR 1)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: SERIAL ERROR 1"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 07",
+      "kodNormal": "AL07",
+      "aliaslar": [
+        "AL07"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sürücü yapılandırılmamış",
+      "aciklama": "Kontrol ünitesi parametreleri yüklenmemiş veya yapılandırma eksik. (ZAPI standart kodlama: CHOPPER NOT CONFIG)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: CHOPPER NOT CONFIG"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 08",
+      "kodNormal": "AL08",
+      "aliaslar": [
+        "AL08"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Watchdog hatası",
+      "aciklama": "Kontrol yazılımı zamanında yanıt vermedi; gözetleyici devreye girdi. (ZAPI standart kodlama: WATCHDOG)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: WATCHDOG"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 09",
+      "kodNormal": "AL09",
+      "aliaslar": [
+        "AL09"
+      ],
+      "sistem": "motor",
+      "baslik": "Alan sargısı arızası",
+      "aciklama": "Motor alan (uyartım) devresinde arıza algılandı. (ZAPI standart kodlama: FIELD FF FAILURE)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: FIELD FF FAILURE"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 10",
+      "kodNormal": "AL10",
+      "aliaslar": [
+        "AL10"
+      ],
+      "sistem": "elektrik",
+      "baslik": "EEPROM veri hatası",
+      "aciklama": "Kontrol ünitesi EEPROM belleğindeki veri geçersiz veya bozuk. (ZAPI standart kodlama: EEPROM DATA KO)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: EEPROM DATA KO"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 11",
+      "kodNormal": "AL11",
+      "aliaslar": [
+        "AL11"
+      ],
+      "sistem": "elektrik",
+      "baslik": "EEPROM parametre hatası",
+      "aciklama": "EEPROM içindeki parametre kaydı okunamıyor veya bozuk. (ZAPI standart kodlama: EEPROM PAR KO)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: EEPROM PAR KO"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 12",
+      "kodNormal": "AL12",
+      "aliaslar": [
+        "AL12"
+      ],
+      "sistem": "elektrik",
+      "baslik": "EEPROM yapılandırma hatası",
+      "aciklama": "EEPROM yapılandırma alanı geçersiz veya bozuk. (ZAPI standart kodlama: EEPROM CONF KO)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: EEPROM CONF KO"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 13",
+      "kodNormal": "AL13",
+      "aliaslar": [
+        "AL13"
+      ],
+      "sistem": "elektrik",
+      "baslik": "EEPROM arızası",
+      "aciklama": "EEPROM belleği cevap vermiyor veya erişilemiyor. (ZAPI standart kodlama: EEPROM KO)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: EEPROM KO"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 14",
+      "kodNormal": "AL14",
+      "aliaslar": [
+        "AL14"
+      ],
+      "sistem": "elektrik",
+      "baslik": "EEPROM çevrimdışı",
+      "aciklama": "EEPROM belleği haberleşmiyor; kayıt okuma/yazma yapılamıyor. (ZAPI standart kodlama: EEPROM OFFLINE)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: EEPROM OFFLINE"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 15",
+      "kodNormal": "AL15",
+      "aliaslar": [
+        "AL15"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Mantık hatası 5",
+      "aciklama": "Kontrol yazılımında beşinci mantık denetimi başarısız oldu. (ZAPI standart kodlama: LOGIC FAILURE 5)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: LOGIC FAILURE 5"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 16",
+      "kodNormal": "AL16",
+      "aliaslar": [
+        "AL16"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Mantık hatası 4",
+      "aciklama": "Kontrol yazılımında dördüncü mantık denetimi başarısız oldu. (ZAPI standart kodlama: LOGIC FAILURE 4)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: LOGIC FAILURE 4"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 17",
+      "kodNormal": "AL17",
+      "aliaslar": [
+        "AL17"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Mantık hatası 3",
+      "aciklama": "Kontrol yazılımında üçüncü mantık denetimi başarısız oldu. (ZAPI standart kodlama: LOGIC FAILURE 3)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: LOGIC FAILURE 3"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 18",
+      "kodNormal": "AL18",
+      "aliaslar": [
+        "AL18"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Mantık hatası 2",
+      "aciklama": "Kontrol yazılımında ikinci mantık denetimi başarısız oldu. (ZAPI standart kodlama: LOGIC FAILURE 2)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: LOGIC FAILURE 2"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 19",
+      "kodNormal": "AL19",
+      "aliaslar": [
+        "AL19"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Mantık hatası 1",
+      "aciklama": "Kontrol yazılımında birinci mantık denetimi başarısız oldu. (ZAPI standart kodlama: LOGIC FAILURE 1)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: LOGIC FAILURE 1"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 20",
+      "kodNormal": "AL20",
+      "aliaslar": [
+        "AL20"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "İleri yön VMN düşük",
+      "aciklama": "İleri sürüş yönünde motor nötr gerilim ölçümü alt sınırın altında. (ZAPI standart kodlama: FORW VMN LOW)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: FORW VMN LOW"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 21",
+      "kodNormal": "AL21",
+      "aliaslar": [
+        "AL21"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "İleri yön VMN yüksek",
+      "aciklama": "İleri sürüş yönünde motor nötr gerilim ölçümü üst sınırın üzerinde. (ZAPI standart kodlama: FORW VMN HIGH)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: FORW VMN HIGH"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 22",
+      "kodNormal": "AL22",
+      "aliaslar": [
+        "AL22"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Geri yön VMN düşük",
+      "aciklama": "Geri sürüş yönünde motor nötr gerilim ölçümü alt sınırın altında. (ZAPI standart kodlama: BACK VMN LOW)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: BACK VMN LOW"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 23",
+      "kodNormal": "AL23",
+      "aliaslar": [
+        "AL23"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Geri yön VMN yüksek",
+      "aciklama": "Geri sürüş yönünde motor nötr gerilim ölçümü üst sınırın üzerinde. (ZAPI standart kodlama: BACK VMN HIGH)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: BACK VMN HIGH"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 24",
+      "kodNormal": "AL24",
+      "aliaslar": [
+        "AL24"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sol yön VMN düşük",
+      "aciklama": "Sol sürüş yönünde motor nötr gerilim ölçümü alt sınırın altında. (ZAPI standart kodlama: LEFT VMN LOW)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: LEFT VMN LOW"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 25",
+      "kodNormal": "AL25",
+      "aliaslar": [
+        "AL25"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sol yön VMN yüksek",
+      "aciklama": "Sol sürüş yönünde motor nötr gerilim ölçümü üst sınırın üzerinde. (ZAPI standart kodlama: LEFT VMN HIGH)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: LEFT VMN HIGH"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 26",
+      "kodNormal": "AL26",
+      "aliaslar": [
+        "AL26"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sağ yön VMN düşük",
+      "aciklama": "Sağ sürüş yönünde motor nötr gerilim ölçümü alt sınırın altında. (ZAPI standart kodlama: RIGHT VMN LOW)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: RIGHT VMN LOW"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 27",
+      "kodNormal": "AL27",
+      "aliaslar": [
+        "AL27"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sağ yön VMN yüksek",
+      "aciklama": "Sağ sürüş yönünde motor nötr gerilim ölçümü üst sınırın üzerinde. (ZAPI standart kodlama: RIGHT VMN HIGH)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: RIGHT VMN HIGH"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 28",
+      "kodNormal": "AL28",
+      "aliaslar": [
+        "AL28"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa VMN düşük",
+      "aciklama": "Hidrolik pompa motoru nötr gerilim ölçümü alt sınırın altında. (ZAPI standart kodlama: PUMP VMN LOW)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: PUMP VMN LOW"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 29",
+      "kodNormal": "AL29",
+      "aliaslar": [
+        "AL29"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa VMN yüksek",
+      "aciklama": "Hidrolik pompa motoru nötr gerilim ölçümü üst sınırın üzerinde. (ZAPI standart kodlama: PUMP VMN HIGH)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: PUMP VMN HIGH"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 30",
+      "kodNormal": "AL30",
+      "aliaslar": [
+        "AL30"
+      ],
+      "sistem": "elektrik",
+      "baslik": "VMN düşük",
+      "aciklama": "Motor nötr gerilim ölçümü alt sınırın altında. (ZAPI standart kodlama: VMN LOW)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: VMN LOW"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 31",
+      "kodNormal": "AL31",
+      "aliaslar": [
+        "AL31"
+      ],
+      "sistem": "elektrik",
+      "baslik": "VMN yüksek",
+      "aciklama": "Motor nötr gerilim ölçümü üst sınırın üzerinde. (ZAPI standart kodlama: VMN HIGH)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: VMN HIGH"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 32",
+      "kodNormal": "AL32",
+      "aliaslar": [
+        "AL32"
+      ],
+      "sistem": "elektrik",
+      "baslik": "VMN geçersiz",
+      "aciklama": "Motor nötr gerilim ölçümü beklenen aralıkta değil. (ZAPI standart kodlama: VMN NOT OK)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: VMN NOT OK"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 33",
+      "kodNormal": "AL33",
+      "aliaslar": [
+        "AL33"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Tam iletime geçmiyor",
+      "aciklama": "Güç anahtarı tam iletime (doyuma) geçmiyor. (ZAPI standart kodlama: NO FULL COND)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: NO FULL COND"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 34",
+      "kodNormal": "AL34",
+      "aliaslar": [
+        "AL34"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sağ anahtar tam iletimde değil",
+      "aciklama": "Sağ taraf güç anahtarı tam iletime geçmiyor. (ZAPI standart kodlama: RGT NO FULL COND)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: RGT NO FULL COND"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 35",
+      "kodNormal": "AL35",
+      "aliaslar": [
+        "AL35"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sol anahtar tam iletimde değil",
+      "aciklama": "Sol taraf güç anahtarı tam iletime geçmiyor. (ZAPI standart kodlama: LEFT NO FULL COND)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: LEFT NO FULL COND"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 36",
+      "kodNormal": "AL36",
+      "aliaslar": [
+        "AL36"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa anahtarı tam iletimde değil",
+      "aciklama": "Hidrolik pompa güç anahtarı tam iletime geçmiyor. (ZAPI standart kodlama: PU NO FULL COND)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: PU NO FULL COND"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 37",
+      "kodNormal": "AL37",
+      "aliaslar": [
+        "AL37"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör kapalı kaldı",
+      "aciklama": "Ana kontaktör açılması gerekirken kapalı konumda kaldı. (ZAPI standart kodlama: CONTACTOR CLOSED)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: CONTACTOR CLOSED"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 38",
+      "kodNormal": "AL38",
+      "aliaslar": [
+        "AL38"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör açık kaldı",
+      "aciklama": "Ana kontaktör kapanması gerekirken açık konumda kaldı. (ZAPI standart kodlama: CONTACTOR OPEN)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: CONTACTOR OPEN"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 39",
+      "kodNormal": "AL39",
+      "aliaslar": [
+        "AL39"
+      ],
+      "sistem": "fren",
+      "baslik": "Fren kapanmıyor",
+      "aciklama": "Fren devresi kapanma komutuna rağmen devreye girmiyor. (ZAPI standart kodlama: BRAKE DON'T CLOSED)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: BRAKE DON'T CLOSED"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 40",
+      "kodNormal": "AL40",
+      "aliaslar": [
+        "AL40"
+      ],
+      "sistem": "fren",
+      "baslik": "Fren kontağı açık",
+      "aciklama": "Fren kontaktörü/devresi açık konumda algılanıyor. (ZAPI standart kodlama: BRAKE CONT OPEN)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: BRAKE CONT OPEN"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 41",
+      "kodNormal": "AL41",
+      "aliaslar": [
+        "AL41"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yön kontaktörü kapalı",
+      "aciklama": "Sürüş yönü kontaktörü kapalı kaldı. (ZAPI standart kodlama: DIR CONT CLOSED)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: DIR CONT CLOSED"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 42",
+      "kodNormal": "AL42",
+      "aliaslar": [
+        "AL42"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yön kontaktörü açık",
+      "aciklama": "Sürüş yönü kontaktörü açık kaldı. (ZAPI standart kodlama: DIR CONT OPEN)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: DIR CONT OPEN"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 43",
+      "kodNormal": "AL43",
+      "aliaslar": [
+        "AL43"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sağ kontaktör kapalı",
+      "aciklama": "Sağ yön kontaktörü kapalı kaldı. (ZAPI standart kodlama: RIGHT CONT CLOSED)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: RIGHT CONT CLOSED"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 44",
+      "kodNormal": "AL44",
+      "aliaslar": [
+        "AL44"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sağ kontaktör açık",
+      "aciklama": "Sağ yön kontaktörü açık kaldı. (ZAPI standart kodlama: RIGHT CONT OPEN)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: RIGHT CONT OPEN"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 45",
+      "kodNormal": "AL45",
+      "aliaslar": [
+        "AL45"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sol kontaktör kapalı",
+      "aciklama": "Sol yön kontaktörü kapalı kaldı. (ZAPI standart kodlama: LEFT CONT CLOSED)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: LEFT CONT CLOSED"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 46",
+      "kodNormal": "AL46",
+      "aliaslar": [
+        "AL46"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sol kontaktör açık",
+      "aciklama": "Sol yön kontaktörü açık kaldı. (ZAPI standart kodlama: LEFT CONT OPEN)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: LEFT CONT OPEN"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 47",
+      "kodNormal": "AL47",
+      "aliaslar": [
+        "AL47"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ana kontaktör kapalı",
+      "aciklama": "Ana kontaktör kapalı konumda takılı kaldı. (ZAPI standart kodlama: MAIN CONT CLOSED)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: MAIN CONT CLOSED"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 48",
+      "kodNormal": "AL48",
+      "aliaslar": [
+        "AL48"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Ana kontaktör açık",
+      "aciklama": "Ana kontaktör açık konumda kaldı; güç devresi tamamlanmıyor. (ZAPI standart kodlama: MAIN CONT OPEN)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: MAIN CONT OPEN"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 49",
+      "kodNormal": "AL49",
+      "aliaslar": [
+        "AL49"
+      ],
+      "sistem": "motor",
+      "baslik": "Akım sıfırlandı",
+      "aciklama": "Motor akımı beklenmedik şekilde sıfıra düştü. (ZAPI standart kodlama: I=0 EVER)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: I=0 EVER"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 50",
+      "kodNormal": "AL50",
+      "aliaslar": [
+        "AL50"
+      ],
+      "sistem": "motor",
+      "baslik": "Sol akım sıfırlandı",
+      "aciklama": "Sol motor akımı beklenmedik şekilde sıfıra düştü. (ZAPI standart kodlama: LEFT I=0 EVER)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: LEFT I=0 EVER"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 51",
+      "kodNormal": "AL51",
+      "aliaslar": [
+        "AL51"
+      ],
+      "sistem": "motor",
+      "baslik": "Sağ akım sıfırlandı",
+      "aciklama": "Sağ motor akımı beklenmedik şekilde sıfıra düştü. (ZAPI standart kodlama: RIGHT I=0 EVER)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: RIGHT I=0 EVER"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 52",
+      "kodNormal": "AL52",
+      "aliaslar": [
+        "AL52"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa akımı sıfırlandı",
+      "aciklama": "Hidrolik pompa akımı beklenmedik şekilde sıfıra düştü. (ZAPI standart kodlama: PUMP I=0 EVER)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: PUMP I=0 EVER"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 53",
+      "kodNormal": "AL53",
+      "aliaslar": [
+        "AL53"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Bekleme akımı yüksek",
+      "aciklama": "Bekleme (stby) akımı üst sınırın üzerinde. (ZAPI standart kodlama: STBY I HIGH)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: STBY I HIGH"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 54",
+      "kodNormal": "AL54",
+      "aliaslar": [
+        "AL54"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sol bekleme akımı yüksek",
+      "aciklama": "Sol taraf bekleme akımı üst sınırın üzerinde. (ZAPI standart kodlama: LEFT STBY I HIGH)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: LEFT STBY I HIGH"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 55",
+      "kodNormal": "AL55",
+      "aliaslar": [
+        "AL55"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sağ bekleme akımı yüksek",
+      "aciklama": "Sağ taraf bekleme akımı üst sınırın üzerinde. (ZAPI standart kodlama: RGT STBY I HIGH)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: RGT STBY I HIGH"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 56",
+      "kodNormal": "AL56",
+      "aliaslar": [
+        "AL56"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa bekleme akımı yüksek",
+      "aciklama": "Hidrolik pompa bekleme akımı üst sınırın üzerinde. (ZAPI standart kodlama: PUMP STBY I HIGH)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: PUMP STBY I HIGH"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 57",
+      "kodNormal": "AL57",
+      "aliaslar": [
+        "AL57"
+      ],
+      "sistem": "motor",
+      "baslik": "Alan akımı yüksek",
+      "aciklama": "Motor alan (uyartım) akımı üst sınırın üzerinde. (ZAPI standart kodlama: HIGH FIELD CURR)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: HIGH FIELD CURR"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 58",
+      "kodNormal": "AL58",
+      "aliaslar": [
+        "AL58"
+      ],
+      "sistem": "motor",
+      "baslik": "Alan akımı yok",
+      "aciklama": "Motor alan (uyartım) akımı ölçülmüyor. (ZAPI standart kodlama: NO FIELD CURR)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: NO FIELD CURR"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 59",
+      "kodNormal": "AL59",
+      "aliaslar": [
+        "AL59"
+      ],
+      "sistem": "fren",
+      "baslik": "Frenleme akımı yüksek",
+      "aciklama": "Frenleme sırasında motor akımı üst sınırın üzerinde. (ZAPI standart kodlama: HIGH BRAKING I)",
+      "makineTepkisi": "",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: HIGH BRAKING I"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 60",
+      "kodNormal": "AL60",
+      "aliaslar": [
+        "AL60"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kondansatör şarjı",
+      "aciklama": "Kondansatör şarj devresinde anormallik algılandı. (ZAPI standart kodlama: CAPACITOR CHARGE)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: CAPACITOR CHARGE"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 61",
+      "kodNormal": "AL61",
+      "aliaslar": [
+        "AL61"
+      ],
+      "sistem": "motor",
+      "baslik": "Yüksek sıcaklık",
+      "aciklama": "Kontrol ünitesi veya motor sıcaklığı üst sınırın üzerinde. (ZAPI standart kodlama: HIGH TEMPERATURE)",
+      "makineTepkisi": "",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: HIGH TEMPERATURE"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 62",
+      "kodNormal": "AL62",
+      "aliaslar": [
+        "AL62"
+      ],
+      "sistem": "motor",
+      "baslik": "Termik koruma",
+      "aciklama": "Termik koruma devreye girdi; çıkış gücü sınırlandı. (ZAPI standart kodlama: TH PROTECTION)",
+      "makineTepkisi": "",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: TH PROTECTION"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 63",
+      "kodNormal": "AL63",
+      "aliaslar": [
+        "AL63"
+      ],
+      "sistem": "motor",
+      "baslik": "Termik seviye 2",
+      "aciklama": "İkinci kademe termik koruma eşiği aşıldı. (ZAPI standart kodlama: THERMIC LEVEL 2)",
+      "makineTepkisi": "",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: THERMIC LEVEL 2"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 64",
+      "kodNormal": "AL64",
+      "aliaslar": [
+        "AL64"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa sıcaklığı",
+      "aciklama": "Hidrolik pompa motoru sıcaklığı yüksek. (ZAPI standart kodlama: PUMP TEMPERATURE)",
+      "makineTepkisi": "",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: PUMP TEMPERATURE"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 65",
+      "kodNormal": "AL65",
+      "aliaslar": [
+        "AL65"
+      ],
+      "sistem": "motor",
+      "baslik": "Motor sıcaklığı",
+      "aciklama": "Sürüş motoru sıcaklığı yüksek. (ZAPI standart kodlama: MOTOR TEMPERATURE)",
+      "makineTepkisi": "",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: MOTOR TEMPERATURE"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 66",
+      "kodNormal": "AL66",
+      "aliaslar": [
+        "AL66"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü zayıf",
+      "aciklama": "Akü gerilimi düşük; şarj gerekiyor. (ZAPI standart kodlama: BATTERY LOW)",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: BATTERY LOW"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 67",
+      "kodNormal": "AL67",
+      "aliaslar": [
+        "AL67"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü seviyesi 2",
+      "aciklama": "Akü gerilimi ikinci uyarı seviyesine düştü. (ZAPI standart kodlama: BATTERY LEVEL 2)",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: BATTERY LEVEL 2"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 68",
+      "kodNormal": "AL68",
+      "aliaslar": [
+        "AL68"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü seviyesi 1",
+      "aciklama": "Akü gerilimi birinci uyarı seviyesine düştü. (ZAPI standart kodlama: BATTERY LEVEL 1)",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: BATTERY LEVEL 1"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 69",
+      "kodNormal": "AL69",
+      "aliaslar": [
+        "AL69"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Akım sensörü arızası",
+      "aciklama": "Motor akım sensörü sinyali geçersiz veya okunamıyor. (ZAPI standart kodlama: CURRENT SENS KO)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: CURRENT SENS KO"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 70",
+      "kodNormal": "AL70",
+      "aliaslar": [
+        "AL70"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Güç arızası 4",
+      "aciklama": "Güç katında dördüncü tip arıza algılandı. (ZAPI standart kodlama: POWER FAILURE 4)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: POWER FAILURE 4"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 71",
+      "kodNormal": "AL71",
+      "aliaslar": [
+        "AL71"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Güç arızası 3",
+      "aciklama": "Güç katında üçüncü tip arıza algılandı. (ZAPI standart kodlama: POWER FAILURE 3)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: POWER FAILURE 3"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 72",
+      "kodNormal": "AL72",
+      "aliaslar": [
+        "AL72"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Güç arızası 2",
+      "aciklama": "Güç katında ikinci tip arıza algılandı. (ZAPI standart kodlama: POWER FAILURE 2)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: POWER FAILURE 2"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 73",
+      "kodNormal": "AL73",
+      "aliaslar": [
+        "AL73"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Güç arızası 1",
+      "aciklama": "Güç katında birinci tip arıza algılandı. (ZAPI standart kodlama: POWER FAILURE 1)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: POWER FAILURE 1"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 74",
+      "kodNormal": "AL74",
+      "aliaslar": [
+        "AL74"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sürücü kısa devre",
+      "aciklama": "Güç sürücü çıkışında kısa devre algılandı. (ZAPI standart kodlama: DRIVER SHORTED)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: DRIVER SHORTED"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 75",
+      "kodNormal": "AL75",
+      "aliaslar": [
+        "AL75"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kontaktör sürücüsü",
+      "aciklama": "Kontaktör bobinini süren çıkışta arıza algılandı. (ZAPI standart kodlama: CONTACTOR DRIVER)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: CONTACTOR DRIVER"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 76",
+      "kodNormal": "AL76",
+      "aliaslar": [
+        "AL76"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Bobin kısa devre",
+      "aciklama": "Kontaktör/valf bobini kısa devre. (ZAPI standart kodlama: COIL SHORTED)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: COIL SHORTED"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 77",
+      "kodNormal": "AL77",
+      "aliaslar": [
+        "AL77"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Bobin kopuk",
+      "aciklama": "Kontaktör/valf bobini açık devre veya kopuk. (ZAPI standart kodlama: COIL INTERRUPTED)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: COIL INTERRUPTED"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 78",
+      "kodNormal": "AL78",
+      "aliaslar": [
+        "AL78"
+      ],
+      "sistem": "elektrik",
+      "baslik": "VACC geçersiz",
+      "aciklama": "Yardımcı besleme gerilimi (VACC) beklenen aralıkta değil. (ZAPI standart kodlama: VACC NOT OK)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: VACC NOT OK"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 79",
+      "kodNormal": "AL79",
+      "aliaslar": [
+        "AL79"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Hatalı başlatma",
+      "aciklama": "Kontrol ünitesi hatalı başlatma dizisi algıladı. (ZAPI standart kodlama: INCORRECT START)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: INCORRECT START"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 80",
+      "kodNormal": "AL80",
+      "aliaslar": [
+        "AL80"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "İleri ve geri aynı anda",
+      "aciklama": "İleri ve geri sürüş komutları aynı anda alındı. (ZAPI standart kodlama: FORW + BACK)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: FORW + BACK"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 81",
+      "kodNormal": "AL81",
+      "aliaslar": [
+        "AL81"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon sıfır ayarı hatalı",
+      "aciklama": "Direksiyon açı sensörünün sıfır konumu geçersiz. (ZAPI standart kodlama: BAD STEER 0 SET)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: BAD STEER 0 SET"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 82",
+      "kodNormal": "AL82",
+      "aliaslar": [
+        "AL82"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Enkoder hatası",
+      "aciklama": "Direksiyon/motor enkoder sinyali okunamıyor. (ZAPI standart kodlama: ENCODER ERROR)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: ENCODER ERROR"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 83",
+      "kodNormal": "AL83",
+      "aliaslar": [
+        "AL83"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Enkoder sinyali hatalı",
+      "aciklama": "Enkoder yön/sinyal dizisi geçersiz. (ZAPI standart kodlama: BAD ENCODER SIGN)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: BAD ENCODER SIGN"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 84",
+      "kodNormal": "AL84",
+      "aliaslar": [
+        "AL84"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon sensörü arızası",
+      "aciklama": "Direksiyon sensörü sinyali geçersiz. (ZAPI standart kodlama: STEER SENS KO)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: STEER SENS KO"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 85",
+      "kodNormal": "AL85",
+      "aliaslar": [
+        "AL85"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon tehlikesi",
+      "aciklama": "Direksiyon sistemi güvenli olmayan durum bildirdi. (ZAPI standart kodlama: STEER HAZARD)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: STEER HAZARD"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 86",
+      "kodNormal": "AL86",
+      "aliaslar": [
+        "AL86"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Pedal kablosu arızası",
+      "aciklama": "Gaz pedalı sinyal kablosunda kopukluk/kısa devre. (ZAPI standart kodlama: PEDAL WIRE KO)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: PEDAL WIRE KO"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 87",
+      "kodNormal": "AL87",
+      "aliaslar": [
+        "AL87"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Pedal arızası",
+      "aciklama": "Gaz pedalı sinyali geçersiz veya tutarsız. (ZAPI standart kodlama: PEDAL FAILURE)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: PEDAL FAILURE"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 88",
+      "kodNormal": "AL88",
+      "aliaslar": [
+        "AL88"
+      ],
+      "sistem": "motor",
+      "baslik": "Yürüş motoru fırçaları",
+      "aciklama": "Yürüş motoru fırçalarında aşınma/arıza bildirimi. (ZAPI standart kodlama: TRACTION BRUSHES)",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: TRACTION BRUSHES"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 89",
+      "kodNormal": "AL89",
+      "aliaslar": [
+        "AL89"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pompa motoru fırçaları",
+      "aciklama": "Hidrolik pompa motoru fırçalarında aşınma/arıza bildirimi. (ZAPI standart kodlama: PUMP BRUSHES)",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: PUMP BRUSHES"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 90",
+      "kodNormal": "AL90",
+      "aliaslar": [
+        "AL90"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sürücü 1 arızası",
+      "aciklama": "Birinci güç sürücü kanalı arızalı. (ZAPI standart kodlama: DRIVER 1 KO)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: DRIVER 1 KO"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 91",
+      "kodNormal": "AL91",
+      "aliaslar": [
+        "AL91"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sürücü 2 arızası",
+      "aciklama": "İkinci güç sürücü kanalı arızalı. (ZAPI standart kodlama: DRIVER 2 KO)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: DRIVER 2 KO"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 92",
+      "kodNormal": "AL92",
+      "aliaslar": [
+        "AL92"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sürücü 1 kısa devre",
+      "aciklama": "Birinci güç sürücü kanalında kısa devre algılandı. (ZAPI standart kodlama: DRIVER 1 SIC KO)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: DRIVER 1 SIC KO"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 93",
+      "kodNormal": "AL93",
+      "aliaslar": [
+        "AL93"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sürücü 2 kısa devre",
+      "aciklama": "İkinci güç sürücü kanalında kısa devre algılandı. (ZAPI standart kodlama: DRIVER 2 SIC KO)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: DRIVER 2 SIC KO"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 94",
+      "kodNormal": "AL94",
+      "aliaslar": [
+        "AL94"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Giriş hatası 6",
+      "aciklama": "Alarm girişlerinden altıncısında hata algılandı. (ZAPI standart kodlama: INPUT ERROR 6)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: INPUT ERROR 6"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 95",
+      "kodNormal": "AL95",
+      "aliaslar": [
+        "AL95"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Giriş hatası 5",
+      "aciklama": "Alarm girişlerinden beşincisinde hata algılandı. (ZAPI standart kodlama: INPUT ERROR 5)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: INPUT ERROR 5"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 96",
+      "kodNormal": "AL96",
+      "aliaslar": [
+        "AL96"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yön inversiyonu",
+      "aciklama": "Sürüş yönü sinyali ters/geçersiz algılandı. (ZAPI standart kodlama: INVERSION)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: INVERSION"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 97",
+      "kodNormal": "AL97",
+      "aliaslar": [
+        "AL97"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Kumanda kolu konumu",
+      "aciklama": "Kumanda kolu konum sinyali geçersiz. (ZAPI standart kodlama: POSITION HANDLE)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: POSITION HANDLE"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 98",
+      "kodNormal": "AL98",
+      "aliaslar": [
+        "AL98"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Giriş hatası 2",
+      "aciklama": "Alarm girişlerinden ikincisinde hata algılandı. (ZAPI standart kodlama: INPUT ERROR 2)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: INPUT ERROR 2"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AL 99",
+      "kodNormal": "AL99",
+      "aliaslar": [
+        "AL99"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Giriş hatası 1",
+      "aciklama": "Alarm girişlerinden birincisinde hata algılandı. (ZAPI standart kodlama: INPUT ERROR 1)",
+      "makineTepkisi": "",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "ZAPI standart alarm tanımı: INPUT ERROR 1"
+      ],
+      "kontroller": [
+        "ZAPI MDI gösterge birimindeki alarm kaydını ve ilgili kablo bağlantılarını kontrol edin.",
+        "Alarm tekrarlanırsa kontrol ünitesi parametrelerini ve ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    }
+  ]
+}

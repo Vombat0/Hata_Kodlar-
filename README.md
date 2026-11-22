@@ -6,11 +6,12 @@ Türkçe, statik bir forklift hata kodu referansıdır. Kullanıcı bir kodu (`3
 
 `src/data/seriler/*.json` üzerinde ölçülen değerler:
 
-- 26 marka, 61 seri, 3550 kod kaydı.
-- `durum` alanında üç değer tanımlıdır: `dogrulandi` (doğrulandı), `incelemede`, `taslak`. Mevcut 3550 kaydın tamamı `incelemede` durumundadır; çapraz doğrulanmış kayıt sayısı sıfırdır.
-- Her kayıt, ait olduğu serinin kaynak belgesine (`kaynakBelge`) bağlıdır. Kaynakta sayfa numarası verilmişse `kaynakSayfa` alanında tutulur, verilmemişse arayüzde "belirtilmedi" yazar. 1944 kayıtta sayfa numarası vardır; 1606 kayıtta yoktur.
+- 26 marka, 66 seri, 4776 kod kaydı (27 marka kayıtlı; Linde için henüz doğrulanmış kod tablosu yok).
+- `durum` alanında üç değer tanımlıdır: `dogrulandi` (doğrulandı), `incelemede`, `taslak`. Mevcut 4776 kaydın tamamı `incelemede` durumundadır; çapraz doğrulanmış kayıt sayısı sıfırdır.
+- Her kayıt, ait olduğu serinin kaynak belgesine (`kaynakBelge`) bağlıdır. Kaynakta sayfa numarası verilmişse `kaynakSayfa` alanında tutulur, verilmemişse arayüzde "belirtilmedi" yazar. 3170 kayıtta sayfa numarası vardır; 1606 kayıtta yoktur.
 - Kayıt düzeyinde `kaynakUrl` dolu olan 1803 kayıt vardır; seri düzeyinde `kaynakUrl` bulunan kayıt sayısı 1563'tür. Hiçbir kayıt ne URL ne de sayfa numarasından yoksundur.
 - Kaynak alan adları arasında forkliftpdfmanuals.com, forklifterrorcodes.com, chinaliftsupply.com, truck-manuals.net, machinemaxxusa.com, partao.com, flatearthequipment.com ve procarmanuals.com bulunur.
+- Kullanıcının kendi arşivinden alınan OEM PDF'leri ayrı seriler olarak eklendi: Toyota CE345-1 (8FBET/8FBEKT/8FBMT), Toyota 8FG/8FD 15-35 teşhis kodları (TR), Jungheinrich sistem mesajları 01.13 (TR), Jungheinrich durum bildirimleri 05.14 (TR), ZAPI MDI alarm listesi ve STILL RX50 hata listesi.
 
 ## Teknoloji
 
@@ -71,7 +72,12 @@ Bağımsız teknik bilgi kaynağıdır; hiçbir üreticinin yetkili servisi, dis
 
 ## Bilinen eksikler
 
-- Doğrulama dağılımı: 3550 kaydın tamamı `incelemede`, `dogrulandi` kayıt sayısı 0. Hiçbir kayıt ikinci bir bağımsız kaynakla çapraz doğrulanmış değildir.
+- Doğrulama dağılımı: 4776 kaydın tamamı `incelemede`, `dogrulandi` kayıt sayısı 0. Hiçbir kayıt ikinci bir bağımsız kaynakla çapraz doğrulanmış değildir.
 - Kaynak sayfa numarası olmayan kayıt: 1606. Bu kayıtlarda belge/URL bağlantısı vardır ancak sayfa bilgisi kaynakta verilmemiştir.
-- Henüz veri üretilmeyen markalar: Tailift, Maximal, Utilear/Utilev, Hubtex. UniCarriers ve Komatsu kayıtlıdır ancak ek serileri için doğrulanmış kod tablosu bulunamamıştır.
+- Henüz veri üretilmeyen markalar: Tailift, Maximal, Utilear/Utilev, Hubtex. Linde kayıtlıdır ancak doğrulanmış kod tablosu bulunamamıştır (eldeki RX50 listesi STILL markasına aittir ve `still/rx50` altında yayımlanır). UniCarriers ve Komatsu kayıtlıdır ancak ek serileri için doğrulanmış kod tablosu bulunamamıştır.
+- Jungheinrich `durum-bildirimi-0514` serisi 612 kayıtla en geniş tablodur; kaynak 217 sayfalık taranmış PDF'tir ve satır açıklamaları OCR ile çıkarılıp elle düzeltilmiştir. Başlıkları 95 karakterde kesilen kayıtlar vardır.
+- Jungheinrich `sistem-mesaji-0113` tablosunda 58 satır (alt başlık/örnek satırı) kod numarası taşımadığı için alınmamıştır.
+- Toyota `8fg-8fd` listesi 143 koddur; kaynak tabloda `1F-1 ~ 1F-8`, `AF-1 ~ AF-3`, `AF-4 ~ AF-8` ve `F4-1 ~ F4-8` aralıkları tek tek kayda açıldı.
+- ZAPI bir forklift markası değil kontrol ünitesi üreticisidir; `zapi/mdi` kayıtları ZAPI MDI gösterge biriminin standart alarm kodlarıdır ve forkliftin markasına göre yorumlanmalıdır.
+- Toyota `8fbet-8fbmt` kayıtlarında `kaynakSayfa`, kodun ayrıntılı anlatıldığı bölümün PDF sayfasıdır. Tabloda "See page" alanı boş olan kayıtlarda ise teşhis kodu listesi tablosunun PDF sayfası (186–197) yazılıdır.
 - `npm run veri:dogrula` şu an 0 hata, 27 uyarı ile geçer. Uyarılar çoğunlukla BYD gösterge mesajı formundaki uzun kodlarla ilgilidir ve çıkış kodunu etkilemez.

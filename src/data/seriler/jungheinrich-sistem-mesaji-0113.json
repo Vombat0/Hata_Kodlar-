@@ -1,0 +1,4294 @@
+{
+  "marka": "jungheinrich",
+  "seri": "sistem-mesaji-0113",
+  "modelAdi": "Jungheinrich sistem mesajları 01.13 (TR)",
+  "kaynakBelge": "Jungheinrich Sistem mesajları 01.13 — OEM hata tablosu (TR)",
+  "kaynakSurum": "01.13",
+  "kaynakDil": "TR",
+  "kaynakUrl": "",
+  "kodlar": [
+    {
+      "kod": "1",
+      "kodNormal": "1",
+      "aliaslar": [
+        "F101",
+        "101"
+      ],
+      "sistem": "batarya",
+      "baslik": "Sistem başlatıldığında alçak gerilim",
+      "aciklama": "Sistem başlatıldığında alçak gerilim Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sistem başlatıldığında alçak gerilim olarak tanımlanır.",
+      "makineTepkisi": "Sürüş mümkün değildir. Şu durumlarda güç düşüşü, Sürüşlerde ve kaldırmada. Dikkat uyarı sembolü Yanıp sönen (ELSE-Check)",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Akü gerilimini kontrol edin",
+        "Aküyü şarj edin",
+        "Kumandaya giden kablo bağlantısını kontrol edin",
+        "Kumanda akımı sigortasını kontrol edin",
+        "Ana ana akım sigortasını kontrol edin",
+        "ana kontaktörü kontrol edin"
+      ],
+      "kontroller": [
+        "Akü gerilimini ve şarj durumunu ölçün.",
+        "Akü kablolarını, kutup başlarını ve ana sigortayı kontrol edin.",
+        "Gerekirse aküyü şarj edin veya değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "2",
+      "kodNormal": "2",
+      "aliaslar": [
+        "F102",
+        "102"
+      ],
+      "sistem": "batarya",
+      "baslik": "Aşırı gerilim",
+      "aciklama": "Aşırı gerilim — Jungheinrich sistem mesajları 01.13 kaydı.",
+      "makineTepkisi": "Sürüş veya bir hidrolik fonksiyon yok Dikkat uyarı sembolü yanıp sönen (ELSE-Check)",
+      "siddet": "uyari",
+      "nedenler": [
+        "Akü gerilimini kontrol edin",
+        "Kumanda parçasını değiştirin",
+        "Bileşeni değiştirin",
+        "(Sınır UN < 80 V: Uaka > 92 V Sınır UN < 48 V: Uğgyg > 62 V Sınır Uy > 24 V: Uakü > 28 V)"
+      ],
+      "kontroller": [
+        "Akü gerilimini ve şarj durumunu ölçün.",
+        "Akü kablolarını, kutup başlarını ve ana sigortayı kontrol edin.",
+        "Gerekirse aküyü şarj edin veya değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "3",
+      "kodNormal": "3",
+      "aliaslar": [
+        "F103",
+        "103"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sıcaklık sınırları Kumandalar >80'C (>70*C MP1510C) veya sadece ACS'te: Bilgi > 85*C'de Hata...",
+      "aciklama": "Sıcaklık sınırları Kumandalar >80'C (>70*C MP1510C) veya sadece ACS'te: Bilgi > 85*C'de Hata > 115*C'de Hata < -20'C'de Jungheinrich sistem mesajları 01.13 tablosunda bu numara sıcaklık sınırları kumandalar >80'c (>70*c mp1510c) veya sadece acs'te: bilgi > 85*c'de hata... olarak tanımlanır.",
+      "makineTepkisi": "Şu durumlarda güç düşüşü, Sürüşlerde ve kaldırmada. Dikkat uyarı sembolü yanıp sönen (ELSE-Check)",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Sensör ve kablo bağlantısını kontrol edin Kumandaları soğutmayı bırakın",
+        "Fanda çalışma kontrolü yapın, soğutmayı düzettin. Kumandayı ısıtın, kumanda sıcak olana kadar en küçük güçle çalışın"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 1,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "4",
+      "kodNormal": "4",
+      "aliaslar": [
+        "F104",
+        "104"
+      ],
+      "sistem": "fren",
+      "baslik": "sürüş esnasında imdat düğmesi basılı",
+      "aciklama": "sürüş esnasında imdat düğmesi basılı Jungheinrich sistem mesajları 01.13 tablosunda bu numara sürüş esnasında imdat düğmesi basılı olarak tanımlanır.",
+      "makineTepkisi": "Fren devre dışı kalmıştır, sürüş modu mümkün değildir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "İkaz uyarısı (U < 20V MP1510C)"
+      ],
+      "kontroller": [
+        "Fren devresi konektörlerini ve kablo demetini kontrol edin.",
+        "Fren sensörü/şalterinin sinyalini ve mekanik bloğu kontrol edin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "5",
+      "kodNormal": "5",
+      "aliaslar": [
+        "F105",
+        "105"
+      ],
+      "sistem": "fren",
+      "baslik": "Aşırı gerilim",
+      "aciklama": "Aşırı gerilim — Jungheinrich sistem mesajları 01.13 kaydı.",
+      "makineTepkisi": "Fren devre dışı kalmıştır, sürüş modu mümkün değildir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Aküye giden kablo bağlantısını kontrol edin",
+        "Aküyü kontrol edin",
+        "Kumanda parçasını değiştirin",
+        "Bileşeni değiştirin",
+        "(Retrak için sınır: Uakü > 62 V MP1510C için sınır: U > 32 V)"
+      ],
+      "kontroller": [
+        "Fren devresi konektörlerini ve kablo demetini kontrol edin.",
+        "Fren sensörü/şalterinin sinyalini ve mekanik bloğu kontrol edin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "7",
+      "kodNormal": "7",
+      "aliaslar": [
+        "F107",
+        "107"
+      ],
+      "sistem": "fren",
+      "baslik": "Sürüş esnasında anahtar şalteri basılı",
+      "aciklama": "Sürüş esnasında anahtar şalteri basılı Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sürüş esnasında anahtar şalteri basılı olarak tanımlanır.",
+      "makineTepkisi": "Fren devre dışı kalmıştır, sürüş modu mümkün değildir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "İkaz uyarısı (U < 13V 200ms için MP1510C)"
+      ],
+      "kontroller": [
+        "Fren devresi konektörlerini ve kablo demetini kontrol edin.",
+        "Fren sensörü/şalterinin sinyalini ve mekanik bloğu kontrol edin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "8",
+      "kodNormal": "8",
+      "aliaslar": [
+        "F108",
+        "108"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Aynı anda iki sürüş yönüne kumanda ediliyor",
+      "aciklama": "Aynı anda iki sürüş yönüne kumanda ediliyor Jungheinrich sistem mesajları 01.13 tablosunda bu numara Aynı anda iki sürüş yönüne kumanda ediliyor olarak tanımlanır.",
+      "makineTepkisi": "Sürüş fonksiyonsuz, Dikkat uyarı sembolü yanıp sönüyor (Else kontrolü). Hidrolik fonksiyonlar mümkün",
+      "siddet": "uyari",
+      "nedenler": [
+        "Uyarı notu Sürüş yönü kolunu değiştirin",
+        "Arayüz 7 Canion'u değiştirin",
+        "Multtipilot / Solopilot'u değiştirin",
+        "Çift pedalda elektriği kontrol edin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "9",
+      "kodNormal": "9",
+      "aliaslar": [
+        "F109",
+        "109"
+      ],
+      "sistem": "diger",
+      "baslik": "Gövde koruma şalteri arızalı",
+      "aciklama": "Gövde koruma şalteri arızalı Jungheinrich sistem mesajları 01.13 tablosunda bu numara Gövde koruma şalteri arızalı olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Şalteri kontrol edin, kablo bağlantılarını kontrol edin"
+      ],
+      "kontroller": [
+        "İlgili konektör ve kablo demetini kontrol edin.",
+        "Arıza sürerse yetkili servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "10",
+      "kodNormal": "10",
+      "aliaslar": [
+        "F110",
+        "110"
+      ],
+      "sistem": "batarya",
+      "baslik": "U kondansatör “> Uakü ; ana iletken yapışık veyaaçık değil)",
+      "aciklama": "U kondansatör “> Uakü ; ana iletken yapışık veyaaçık değil) Jungheinrich sistem mesajları 01.13 tablosunda bu numara U kondansatör “> Uakü ; ana iletken yapışık veyaaçık değil) olarak tanımlanır.",
+      "makineTepkisi": "Sürüş, hidrolik yok Fonksiyon, uyarı sembolü Dikkat yanıp sönen (ELSE-Check)",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ana kontaktörü kontrol edin",
+        "Kablo bağlantısını kontrol edin",
+        "Yürütme elektroniğinin pim 2 çıkışını (ACS) kontrol edin",
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Akü gerilimini ve şarj durumunu ölçün.",
+        "Akü kablolarını, kutup başlarını ve ana sigortayı kontrol edin.",
+        "Gerekirse aküyü şarj edin veya değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 2,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "11",
+      "kodNormal": "11",
+      "aliaslar": [
+        "F111",
+        "111"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Motor bobini / alan akımında (DC) offset arızası Statör akım (AC); Akım ölçüm yeri",
+      "aciklama": "Motor bobini / alan akımında (DC) offset arızası Statör akım (AC); Akım ölçüm yeri Jungheinrich sistem mesajları 01.13 tablosunda bu numara Motor bobini / alan akımında (DC) offset arızası Statör akım (AC); Akım ölçüm yeri olarak tanımlanır.",
+      "makineTepkisi": "Sürüş çalışmıyor",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Ana akım kablosunu kontrol edin",
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "12",
+      "kodNormal": "12",
+      "aliaslar": [
+        "F112",
+        "112"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Zayıf sürücü alan kon. arızalı DC Zayıf sürücü son kademesinde arıza var (f. AC)",
+      "aciklama": "Zayıf sürücü alan kon. arızalı DC Zayıf sürücü son kademesinde arıza var (f. AC) Jungheinrich sistem mesajları 01.13 tablosunda bu numara Zayıf sürücü alan kon. arızalı DC Zayıf sürücü son kademesinde arıza var (f. AC) olarak tanımlanır.",
+      "makineTepkisi": "Sürüş, hidrolik yok Fonksiyon, uyarı sembolü Dikkat yanıp sönen (ELSE-Check)",
+      "siddet": "uyari",
+      "nedenler": [
+        "Bileşeni değiştirin",
+        "AC için: Şerit kablo bağlantısını kontrol edin",
+        "Güç parçasını değiştirin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "13",
+      "kodNormal": "13",
+      "aliaslar": [
+        "F113",
+        "113"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Zayıf gözlemci alanı arızalı",
+      "aciklama": "Zayıf gözlemci alanı arızalı Jungheinrich sistem mesajları 01.13 tablosunda bu numara Zayıf gözlemci alanı arızalı olarak tanımlanır.",
+      "makineTepkisi": "Sürüş çalışmıyor",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "14",
+      "kodNormal": "14",
+      "aliaslar": [
+        "F114",
+        "114"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Ana kontaktör bağlanmıştır - Alan limit kademesi açılmıyor (DC)",
+      "aciklama": "Ana kontaktör bağlanmıştır - Alan limit kademesi açılmıyor (DC) Jungheinrich sistem mesajları 01.13 tablosunda bu numara Ana kontaktör bağlanmıştır - Alan limit kademesi açılmıyor (DC) olarak tanımlanır.",
+      "makineTepkisi": "Sürüş, hidrolik yok Fonksiyon, uyarı sembolü Dikkat yanıp sönen (ELSE-Check)",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kablo bağlantısını kontrol edin",
+        "Ana kontaktörü kontrol edin",
+        "Yükleme bağlantısını kontrol edin, Alan beslemesi sigortasını kontrol edin, Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "15",
+      "kodNormal": "15",
+      "aliaslar": [
+        "F115",
+        "115"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Zayıf alan arızalı; İllegal adres (f. AC)",
+      "aciklama": "Zayıf alan arızalı; İllegal adres (f. AC) Jungheinrich sistem mesajları 01.13 tablosunda bu numara Zayıf alan arızalı; İllegal adres (f. AC) olarak tanımlanır.",
+      "makineTepkisi": "Sürüş çalışmıyor",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kumanda parçasını değiştirin",
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "16",
+      "kodNormal": "16",
+      "aliaslar": [
+        "F116",
+        "116"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Zayıf sürücü motor bobini ayarlayıcısı arızalı; Yazılım Reset (f. AC)",
+      "aciklama": "Zayıf sürücü motor bobini ayarlayıcısı arızalı; Yazılım Reset (f. AC) Jungheinrich sistem mesajları 01.13 tablosunda bu numara Zayıf sürücü motor bobini ayarlayıcısı arızalı; Yazılım Reset (f. AC) olarak tanımlanır.",
+      "makineTepkisi": "Sürüş çalışmıyor",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Kumanda parçasını değiştirin (AC)",
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "17",
+      "kodNormal": "17",
+      "aliaslar": [
+        "F117",
+        "117"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Zayıf motor bobini gözlemcisi arızalı",
+      "aciklama": "Zayıf motor bobini gözlemcisi arızalı Jungheinrich sistem mesajları 01.13 tablosunda bu numara Zayıf motor bobini gözlemcisi arızalı olarak tanımlanır.",
+      "makineTepkisi": "Sürüş çalışmıyor",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "18",
+      "kodNormal": "18",
+      "aliaslar": [
+        "F118",
+        "118"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "DC: Motor bobini son kademesi çalıştırılamıyor AC: 3 fazdan biri devreye sokulamıyor",
+      "aciklama": "DC: Motor bobini son kademesi çalıştırılamıyor AC: 3 fazdan biri devreye sokulamıyor Jungheinrich sistem mesajları 01.13 tablosunda bu numara DC: Motor bobini son kademesi çalıştırılamıyor AC: 3 fazdan biri devreye sokulamıyor olarak tanımlanır.",
+      "makineTepkisi": "Sürüş çalışmıyor",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Bobine giden kablo bağlantısını kontrol edin",
+        "güç parçasını değiştirin",
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 3,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "19",
+      "kodNormal": "19",
+      "aliaslar": [
+        "F119",
+        "119"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Zayıf motor bobini arızalı; Son kademe kısa devre (AC) AS4814artı kumandalarla bağlantılı ol...",
+      "aciklama": "Zayıf motor bobini arızalı; Son kademe kısa devre (AC) AS4814artı kumandalarla bağlantılı olarak arıza, hatalı devir sensöründen tetiklenebilir. Sensör dişlisi bir balansa (eliptik) sahiptir veya sensörr çarkı hava boşluğu çok büyük. Bu durumda parçalar arızalı değildir. Bir kısa devre aracın stop edilmesi/çalıştırılmasıyla giderilemez. Jungheinrich sistem mesajları 01.13 tablosunda bu numara zayıf motor bobini arızalı; son kademe kısa devre (ac) as4814artı kumandalarla bağlantılı ol... olarak tanımlanır.",
+      "makineTepkisi": "Sürüş çalışmıyor",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Güç parçasını değiştirin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 4,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "20",
+      "kodNormal": "20",
+      "aliaslar": [
+        "F120",
+        "120"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Motor bobini yanlış bağlanmış",
+      "aciklama": "Motor bobini yanlış bağlanmış Jungheinrich sistem mesajları 01.13 tablosunda bu numara Motor bobini yanlış bağlanmış olarak tanımlanır.",
+      "makineTepkisi": "Sürüş çalışmıyor",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Motor bobinine giden ana akım kablosunu kontrol edin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 4,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "21",
+      "kodNormal": "21",
+      "aliaslar": [
+        "F121",
+        "121"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Çapada aşırı akım ( kısa devre / High-side arızalı )",
+      "aciklama": "Çapada aşırı akım ( kısa devre / High-side arızalı ) Jungheinrich sistem mesajları 01.13 tablosunda bu numara Çapada aşırı akım ( kısa devre / High-side arızalı ) olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Bobine giden ana akım kablosunu kontrol edin",
+        "parametrelemeyi kontrol edin (AC için)",
+        "Devir sayısı sensörünü kontrol edin (AC için)",
+        "statik yüklemeyi kontrol edin (AC için)",
+        "İBobin > 360 A, 250 ms için (MP1510)",
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "İlgili sigorta, kontaktör ve konektörleri kontrol edin.",
+        "Kablo demetinde ezik, kopukluk veya kısa devre olup olmadığını inceleyin.",
+        "Ölçüm değerleri kılavuzdaki sınırların dışındaysa ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "22",
+      "kodNormal": "22",
+      "aliaslar": [
+        "F122",
+        "122"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Gözlemci arızası; Gözlemci çalışmıyor",
+      "aciklama": "Gözlemci arızası; Gözlemci çalışmıyor Jungheinrich sistem mesajları 01.13 tablosunda bu numara Gözlemci arızası; Gözlemci çalışmıyor olarak tanımlanır.",
+      "makineTepkisi": "Sürüş, hidrolik yok Fonksiyon, uyarı sembolü Dikkat yanıp sönen (ELSE-Check)",
+      "siddet": "uyari",
+      "nedenler": [
+        "Araç sıfırlaması",
+        "Kumanda parçasını değiştirin",
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "23",
+      "kodNormal": "23",
+      "aliaslar": [
+        "F123",
+        "123"
+      ],
+      "sistem": "iletisim",
+      "baslik": "hesaplayıcı aşırı yüklü - Sürekli Interrupt -\"ACS'“-Timeout CAN bağlantısında",
+      "aciklama": "hesaplayıcı aşırı yüklü - Sürekli Interrupt -\"ACS'“-Timeout CAN bağlantısında Jungheinrich sistem mesajları 01.13 tablosunda bu numara hesaplayıcı aşırı yüklü - Sürekli Interrupt -\"ACS'“-Timeout CAN bağlantısında olarak tanımlanır.",
+      "makineTepkisi": "Sürüş, hidrolik yok Fonksiyon, uyarı sembolü Dikkat yanıp sönen (ELSE-Check)",
+      "siddet": "uyari",
+      "nedenler": [
+        "CAN veri yolu bağlantısını kontrol edin",
+        "CANION soketini ve bileşeni kontrol edin",
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "CAN/seri haberleşme kablolarını ve konektörleri kontrol edin.",
+        "Hat sonlandırma direncini kontrol edin.",
+        "Gerekirse ilgili kontrol ünitesini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "24",
+      "kodNormal": "24",
+      "aliaslar": [
+        "F124",
+        "124"
+      ],
+      "sistem": "elektrik",
+      "baslik": "EEPROM devreye girmiyor / Parametre geçersiz / Parametre standart değerlerde etkinleştirildi...",
+      "aciklama": "EEPROM devreye girmiyor / Parametre geçersiz / Parametre standart değerlerde etkinleştirildi Kontrol numarası hatalı Jungheinrich sistem mesajları 01.13 tablosunda bu numara eeprom devreye girmiyor / parametre geçersiz / parametre standart değerlerde etkinleştirildi... olarak tanımlanır.",
+      "makineTepkisi": "Dikkat yanıp sönen uyarı sembolü (ELSE-Check)",
+      "siddet": "uyari",
+      "nedenler": [
+        "Akü kablosunu kontrol edin",
+        "Unkü'yü kontrol edin",
+        "Araç tipini girin, Standart parametreyi girin",
+        "Kumanda parçasını değiştirin",
+        "Bileşeni değiştirin Kayıt defterini silin, Parametreyi değiştirin, Çalışma saati sayacını girin, Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "İlgili sigorta, kontaktör ve konektörleri kontrol edin.",
+        "Kablo demetinde ezik, kopukluk veya kısa devre olup olmadığını inceleyin.",
+        "Ölçüm değerleri kılavuzdaki sınırların dışındaysa ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 5,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "25",
+      "kodNormal": "25",
+      "aliaslar": [
+        "F125",
+        "125"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Telgraf eksik: - giriş yok Ara birim - telgraf yok CAN veri yolu sürüş şalteri",
+      "aciklama": "Telgraf eksik: - giriş yok Ara birim - telgraf yok CAN veri yolu sürüş şalteri Jungheinrich sistem mesajları 01.13 tablosunda bu numara Telgraf eksik: - giriş yok Ara birim - telgraf yok CAN veri yolu sürüş şalteri olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CAN veri yolu bağlantısını kontrol edin",
+        "Orantı valfi kumandası kablo bağlantısını kontrol edin",
+        "1F8 sigortasını kontrol edin",
+        "Arayüzü (12, 14, 18) değiştirin",
+        "Kaldırma potansiyometresini, Multipilot'u, Solopilot'u veya arayüzü değiştirin",
+        "gerektiğinde aküyü şarj edin veya değiştirin"
+      ],
+      "kontroller": [
+        "CAN/seri haberleşme kablolarını ve konektörleri kontrol edin.",
+        "Hat sonlandırma direncini kontrol edin.",
+        "Gerekirse ilgili kontrol ünitesini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 6,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "27",
+      "kodNormal": "27",
+      "aliaslar": [
+        "F127",
+        "127"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Kablo kesikliği: - Gerçek değer sensörü Direksiyon —>Kaymalı direk kolu: 45* direksiyon dar...",
+      "aciklama": "Kablo kesikliği: - Gerçek değer sensörü Direksiyon —>Kaymalı direk kolu: 45* direksiyon dar hareketinde yakınlaştırma şalterinin yüz boşluğu yok. —>Canion: “Direksiyon algılaması aktif” parametresinde yanlış değer vardır —Küçültücüler PM2402L: “Çalışma modu” parametresi yanlış ayarlandı Jungheinrich sistem mesajları 01.13 tablosunda bu numara kablo kesikliği: - gerçek değer sensörü direksiyon —>kaymalı direk kolu: 45* direksiyon dar... olarak tanımlanır.",
+      "makineTepkisi": "Sürüngen hızda sürüş, Dikkat yanıp sönen uyarı sembolü (ELSE-Check), hidrolik fonksiyonlar mümkün. Kaydırmalı forkliftte ve küçültücülerde arıza acil durmaya neden olur!",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kablo bağlantısını kontrol edin",
+        "Direksiyon açısı sensörünü / potansiyometresini değiştirin",
+        "Canion'u / arayüzü değiştirin",
+        "Direksiyonu değiştirin"
+      ],
+      "kontroller": [
+        "Direksiyon sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Direksiyon açı kalibrasyonunu ve sensör sinyalini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "28",
+      "kodNormal": "28",
+      "aliaslar": [
+        "F128",
+        "128"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Kablo kesikliği: - Direksiyon sensörü",
+      "aciklama": "Kablo kesikliği: - Direksiyon sensörü Jungheinrich sistem mesajları 01.13 tablosunda bu numara Kablo kesikliği: - Direksiyon sensörü olarak tanımlanır.",
+      "makineTepkisi": "Sürüngen hızda sürüş, Dikkat yanıp sönen uyarı sembolü (ELSE-Check), hidrolik fonksiyonlar mümkün. Kaydırmalı forkliftte arıza acil durdurmaya neden olur!",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kablo bağlantısını kontrol edin",
+        "Direksiyon sensörünü değiştirin",
+        "Canion'u / arayüzü değiştirin",
+        "Direksiyonu değiştirin"
+      ],
+      "kontroller": [
+        "Direksiyon sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Direksiyon açı kalibrasyonunu ve sensör sinyalini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "29",
+      "kodNormal": "29",
+      "aliaslar": [
+        "F129",
+        "129"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kablo kırılması: - Kaydırma potansiyometresi",
+      "aciklama": "Kablo kırılması: - Kaydırma potansiyometresi Jungheinrich sistem mesajları 01.13 tablosunda bu numara Kablo kırılması: - Kaydırma potansiyometresi olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Multipilot'u değiştirin"
+      ],
+      "kontroller": [
+        "İlgili sigorta, kontaktör ve konektörleri kontrol edin.",
+        "Kablo demetinde ezik, kopukluk veya kısa devre olup olmadığını inceleyin.",
+        "Ölçüm değerleri kılavuzdaki sınırların dışındaysa ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "30",
+      "kodNormal": "30",
+      "aliaslar": [
+        "F130",
+        "130"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kablo kırılması: - Eğme potansiyometresi",
+      "aciklama": "Kablo kırılması: - Eğme potansiyometresi Jungheinrich sistem mesajları 01.13 tablosunda bu numara Kablo kırılması: - Eğme potansiyometresi olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Multipilot'u değiştirin, Multipilot'u öğretin (sadece hall sensörü 2003)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, kontaktör ve konektörleri kontrol edin.",
+        "Kablo demetinde ezik, kopukluk veya kısa devre olup olmadığını inceleyin.",
+        "Ölçüm değerleri kılavuzdaki sınırların dışındaysa ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 7,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "31",
+      "kodNormal": "31",
+      "aliaslar": [
+        "F131",
+        "131"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Kablo kesikliği: - ZH1-nominal değer sensörü - Kaldırma / indirmeyi başlatma Nominal değer s...",
+      "aciklama": "Kablo kesikliği: - ZH1-nominal değer sensörü - Kaldırma / indirmeyi başlatma Nominal değer sensörü Jungheinrich sistem mesajları 01.13 tablosunda bu numara kablo kesikliği: - zh1-nominal değer sensörü - kaldırma / indirmeyi başlatma nominal değer s... olarak tanımlanır.",
+      "makineTepkisi": "Hidrolik fonksiyonu yok , Dikkat uyarı sembolü yanıp sönüyor (Else kontrolü), sürüş mümkün",
+      "siddet": "uyari",
+      "nedenler": [
+        "Multtipilot / Solopilot'u değiştirin, Multipilot'u öğretin (sadece hall sensörü 2003)",
+        "FS: Tuşu kontrol edin / değiştirin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "33",
+      "kodNormal": "33",
+      "aliaslar": [
+        "F133",
+        "133"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Kablo kesikliği: - ZH3-nominal değer sensörü",
+      "aciklama": "Kablo kesikliği: - ZH3-nominal değer sensörü Jungheinrich sistem mesajları 01.13 tablosunda bu numara Kablo kesikliği: - ZH3-nominal değer sensörü olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Multtipilot'u değiştirin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "34",
+      "kodNormal": "34",
+      "aliaslar": [
+        "F134",
+        "134"
+      ],
+      "sistem": "iletisim",
+      "baslik": "CAN veri yolu arızalı",
+      "aciklama": "CAN veri yolu arızalı Jungheinrich sistem mesajları 01.13 tablosunda bu numara CAN veri yolu arızalı olarak tanımlanır.",
+      "makineTepkisi": "Sürüş, hidrolik yok Fonksiyon, uyarı sembolü Dikkat yanıp sönen (ELSE-Check) Sadece kayıt defterine kaydedilir (2004'ten sonra).",
+      "siddet": "uyari",
+      "nedenler": [
+        "CAN veri yolu bağlantısını kontrol edin",
+        "rahatsız eden bileşeni değiştirin",
+        "Son dirençleri kontrol edin"
+      ],
+      "kontroller": [
+        "CAN/seri haberleşme kablolarını ve konektörleri kontrol edin.",
+        "Hat sonlandırma direncini kontrol edin.",
+        "Gerekirse ilgili kontrol ünitesini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 8,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "37",
+      "kodNormal": "37",
+      "aliaslar": [
+        "F137",
+        "137"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon açısı nominal değer değil",
+      "aciklama": "Direksiyon açısı nominal değer değil Jungheinrich sistem mesajları 01.13 tablosunda bu numara Direksiyon açısı nominal değer değil olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Direksiyon nominal değer vericisini kontrol edin",
+        "CAN veri yolu bağlantısını kontrol edin",
+        "\"Direksiyon tipi\" parametresini kontrol edin",
+        "bileşeni (15) değiştirin"
+      ],
+      "kontroller": [
+        "Direksiyon sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Direksiyon açı kalibrasyonunu ve sensör sinyalini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "38",
+      "kodNormal": "38",
+      "aliaslar": [
+        "F138",
+        "138"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Parçalar kendilerini bildirmiyor, kendi kendine test tamamlanmadı.",
+      "aciklama": "Parçalar kendilerini bildirmiyor, kendi kendine test tamamlanmadı. Jungheinrich sistem mesajları 01.13 tablosunda bu numara Parçalar kendilerini bildirmiyor, kendi kendine test tamamlanmadı. olarak tanımlanır.",
+      "makineTepkisi": "Sürme, Kaldırma yok Fonksiyon, uyarı sembolü Dikkat yanıp sönen (ELSE-Check)",
+      "siddet": "uyari",
+      "nedenler": [
+        "CAN veri yolu bağlantısını ve gerilimini kontrol edin",
+        "DIL- şalteri 7 kodlamasını kontrol edin (MP1510)",
+        "Direksiyon kumandası denetimi aktif hale getirilmiş mi? (AS2412F)",
+        "ACS'nin kodlamasını kontrol edin",
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "39",
+      "kodNormal": "39",
+      "aliaslar": [
+        "F139",
+        "139"
+      ],
+      "sistem": "batarya",
+      "baslik": "Araç tipi geçersiz. 1. Kendi kendine test aşamasında, en az bir bileşenin parametrede olanda...",
+      "aciklama": "Araç tipi geçersiz. 1. Kendi kendine test aşamasında, en az bir bileşenin parametrede olandan farklı bir araç tipine işaret ettiği belirlendi. Çalışma devam ederken farklı bir araç tipi belirlendi. Gerilim beslemesindeki bağlantılarda oluşan temassızlık neden olmuştur Jungheinrich sistem mesajları 01.13 tablosunda bu numara araç tipi geçersiz. 1. kendi kendine test aşamasında, en az bir bileşenin parametrede olanda... olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "1 için Araç tipini ayarlayın",
+        "2 için Şalteri (anahtar şalter) kontrol edin, gerekirse değiştirin veya besleme gerilimleri soket bağlantılarındaki temassızlığı giderin. Araç tipini ayarlayın"
+      ],
+      "kontroller": [
+        "Akü gerilimini ve şarj durumunu ölçün.",
+        "Akü kablolarını, kutup başlarını ve ana sigortayı kontrol edin.",
+        "Gerekirse aküyü şarj edin veya değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 9,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "40",
+      "kodNormal": "40",
+      "aliaslar": [
+        "F140",
+        "140"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Motorda aşırı ısınma Çalışma devam ederken sürüş motorunun aşırı Isınması; Sıcaklık > 150*C...",
+      "aciklama": "Motorda aşırı ısınma Çalışma devam ederken sürüş motorunun aşırı Isınması; Sıcaklık > 150*C Ve sürüş hızı <1 km/s ACS'te: Bilgi > 145*C Hata > 165*C Jungheinrich sistem mesajları 01.13 tablosunda bu numara motorda aşırı ısınma çalışma devam ederken sürüş motorunun aşırı isınması; sıcaklık > 150*c... olarak tanımlanır.",
+      "makineTepkisi": "Şu durumlarda güç düşüşü, Sürüşlerde ve kaldırmada. Dikkat uyarı sembolü yanıp sönen (ELSE-Check) Direksiyonda sadece uyarı sembolü yanıp söner.",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Uyarı",
+        "motor sensörünü ve kablo bağlantılarını kontrol edin",
+        "Motoru kontrol edin",
+        "fren sürüş motoru açık mı?"
+      ],
+      "kontroller": [
+        "Direksiyon sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Direksiyon açı kalibrasyonunu ve sensör sinyalini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "41",
+      "kodNormal": "41",
+      "aliaslar": [
+        "F141",
+        "141"
+      ],
+      "sistem": "fren",
+      "baslik": "Fren mıknatısındaki potansiyometre Potansiyometre gerilimi 500 ms süresinden fazla 0,3 V'dan...",
+      "aciklama": "Fren mıknatısındaki potansiyometre Potansiyometre gerilimi 500 ms süresinden fazla 0,3 V'dan küçük veya 2,7 V'dan büyük. Jungheinrich sistem mesajları 01.13 tablosunda bu numara fren mıknatısındaki potansiyometre potansiyometre gerilimi 500 ms süresinden fazla 0,3 v'dan... olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Potansiyometreyi kontrol edin",
+        "Potansiyometre sabitlemelerini kontrol edin",
+        "Kablo bağlantısı kontrol edin"
+      ],
+      "kontroller": [
+        "Fren devresi konektörlerini ve kablo demetini kontrol edin.",
+        "Fren sensörü/şalterinin sinyalini ve mekanik bloğu kontrol edin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "42",
+      "kodNormal": "42",
+      "aliaslar": [
+        "F142",
+        "142"
+      ],
+      "sistem": "fren",
+      "baslik": "Çıkış ve akü-artı arasındaki kısa devre.(EJC, ELE) -Potansiyometredeki fren mıknatısı kumand...",
+      "aciklama": "Çıkış ve akü-artı arasındaki kısa devre.(EJC, ELE) -Potansiyometredeki fren mıknatısı kumandası asgari farkı, mıknatıs tetiklenmiş durumdayken 500 ms için düşük. (150 mV) Başlatma esnasında fren basıncı yok; Acil durdurma mıknatısı tetiklendikten sonra fren basıncı Jungheinrich sistem mesajları 01.13 tablosunda bu numara çıkış ve akü-artı arasındaki kısa devre.(ejc, ele) -potansiyometredeki fren mıknatısı kumand... olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kablo bağlantısını kontrol edin",
+        "Fren mıknatısını kontrol edin",
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Fren devresi konektörlerini ve kablo demetini kontrol edin.",
+        "Fren sensörü/şalterinin sinyalini ve mekanik bloğu kontrol edin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 10,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "43",
+      "kodNormal": "43",
+      "aliaslar": [
+        "F143",
+        "143"
+      ],
+      "sistem": "fren",
+      "baslik": "Frenleri ayarlayın",
+      "aciklama": "Frenleri ayarlayın — Jungheinrich sistem mesajları 01.13 kaydı.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Frenleri ayarlayın",
+        "potansiyometreyi kontrol edin"
+      ],
+      "kontroller": [
+        "Fren devresi konektörlerini ve kablo demetini kontrol edin.",
+        "Fren sensörü/şalterinin sinyalini ve mekanik bloğu kontrol edin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "44",
+      "kodNormal": "44",
+      "aliaslar": [
+        "F144",
+        "144"
+      ],
+      "sistem": "fren",
+      "baslik": "Fren bağlanmamıştır veya giriş kablosunda kısa devre - Fren teli kopuk Sadece manevra katego...",
+      "aciklama": "Fren bağlanmamıştır veya giriş kablosunda kısa devre - Fren teli kopuk Sadece manevra kategorisinde 3: Fail-Safe frenin dahili sürücüsüde röle devreye giremez Veya açma testi sırasında çıkışta kısa devre köprüleri (kontak yapışıyor) Jungheinrich sistem mesajları 01.13 tablosunda bu numara fren bağlanmamıştır veya giriş kablosunda kısa devre - fren teli kopuk sadece manevra katego... olarak tanımlanır.",
+      "makineTepkisi": "Onay yok",
+      "siddet": "uyari",
+      "nedenler": [
+        "Frene giden kablolamayı kontrol edin, gerekirse freni değiştirin -Fren halatını değiştirin",
+        "-Potansiyometreyi kontrol edin",
+        "-Potansiyometrenin sabitlenmesini kontrol edin",
+        "Sadece direksiyon kategorisi 3'de: -Fren iticisi çıkışını kontrol edin, devre kontağını uygunluk bakımından kontrol edin",
+        "-Direksiyon bileşenini değiştirin"
+      ],
+      "kontroller": [
+        "Fren devresi konektörlerini ve kablo demetini kontrol edin.",
+        "Fren sensörü/şalterinin sinyalini ve mekanik bloğu kontrol edin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "45",
+      "kodNormal": "45",
+      "aliaslar": [
+        "F145",
+        "145"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon nominal değer sensöründen çok sayıda sinyal gevşek kontak veya zararlı ışıma. 100...",
+      "aciklama": "Direksiyon nominal değer sensöründen çok sayıda sinyal gevşek kontak veya zararlı ışıma. 100ms içerisinde 255'ten fazla sinyal algılandı Jungheinrich sistem mesajları 01.13 tablosunda bu numara direksiyon nominal değer sensöründen çok sayıda sinyal gevşek kontak veya zararlı ışıma. 100... olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kablo bağlantısını kontrol edin",
+        "Sensör yatağını değiştirin",
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Direksiyon sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Direksiyon açı kalibrasyonunu ve sensör sinyalini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 11,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "46",
+      "kodNormal": "46",
+      "aliaslar": [
+        "F146",
+        "146"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon nominal değer sensörü yanlış bağlanmıştır AS4803L: 3 sinyalden daha fazla bir yön...",
+      "aciklama": "Direksiyon nominal değer sensörü yanlış bağlanmıştır AS4803L: 3 sinyalden daha fazla bir yönde ve 3 sinyalden daha fazla başka bir yönde 100ms içerisinde algılandı. Jungheinrich sistem mesajları 01.13 tablosunda bu numara direksiyon nominal değer sensörü yanlış bağlanmıştır as4803l: 3 sinyalden daha fazla bir yön... olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensör yatağı girişini kontrol edin",
+        "kablobağlantısını kontrol edin AS48031: Direksiyon algılama girişini kontrol edin"
+      ],
+      "kontroller": [
+        "Direksiyon sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Direksiyon açı kalibrasyonunu ve sensör sinyalini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "47",
+      "kodNormal": "47",
+      "aliaslar": [
+        "F147",
+        "147"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon nominal değer sensöründen sinyal yok ETVO direksiyonu 1. sensör yatağından sinyal...",
+      "aciklama": "Direksiyon nominal değer sensöründen sinyal yok ETVO direksiyonu 1. sensör yatağından sinyal yok. Kademeli motordan 10 sinyalden fazla algılandı, ancak sensör yatağından 200 ms içerisinde 3 sinyalden daha az sayıldı. Jungheinrich sistem mesajları 01.13 tablosunda bu numara direksiyon nominal değer sensöründen sinyal yok etvo direksiyonu 1. sensör yatağından sinyal... olarak tanımlanır.",
+      "makineTepkisi": "Onay yok",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kablo bağlantısını kontrol edin",
+        "Sensör yatağını değiştirin",
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Direksiyon sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Direksiyon açı kalibrasyonunu ve sensör sinyalini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 12,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "48",
+      "kodNormal": "48",
+      "aliaslar": [
+        "F148",
+        "148"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "\"Direksiyon tipi\" parametresiyle uyumsuzluk ETVO direksiyonu kademeli motordan veya 2. sensö...",
+      "aciklama": "\"Direksiyon tipi\" parametresiyle uyumsuzluk ETVO direksiyonu kademeli motordan veya 2. sensör yatağından sinyal yok. Sensör yatağından 10 sinyalden fazla algılandı, ancak kademeli motor sensör yatağından 200 m3S içerisinde 2 sinyalden daha az sayıldı. Jungheinrich sistem mesajları 01.13 tablosunda bu numara \"direksiyon tipi\" parametresiyle uyumsuzluk etvo direksiyonu kademeli motordan veya 2. sensö... olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [
+        "Direksiyon sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Direksiyon açı kalibrasyonunu ve sensör sinyalini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 13,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "49",
+      "kodNormal": "49",
+      "aliaslar": [
+        "F149",
+        "149"
+      ],
+      "sistem": "iletisim",
+      "baslik": "CAN besleme arızalı; 14 V'un üzerinde ya da 10 V'un altında besleme, CAN ya da sensör yatağı...",
+      "aciklama": "CAN besleme arızalı; 14 V'un üzerinde ya da 10 V'un altında besleme, CAN ya da sensör yatağı doğru beslenmiyor Jungheinrich sistem mesajları 01.13 tablosunda bu numara can besleme arızalı; 14 v'un üzerinde ya da 10 v'un altında besleme, can ya da sensör yatağı... olarak tanımlanır.",
+      "makineTepkisi": "Sürüş mümkün değildir !",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "CAN soketindeki gerilim 14 V'tan daha yüksek (E sisteminde, bileşenlerde kısa devre)"
+      ],
+      "kontroller": [
+        "CAN/seri haberleşme kablolarını ve konektörleri kontrol edin.",
+        "Hat sonlandırma direncini kontrol edin.",
+        "Gerekirse ilgili kontrol ünitesini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 13,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "51",
+      "kodNormal": "51",
+      "aliaslar": [
+        "F151",
+        "151"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Teach-In: Direksiyon gerçek değer potansiyometresi",
+      "aciklama": "Teach-In: Direksiyon gerçek değer potansiyometresi Jungheinrich sistem mesajları 01.13 tablosunda bu numara Teach-In: Direksiyon gerçek değer potansiyometresi olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Teach-In'i tekrarlayın",
+        "Kablo bağlantısını kontrol edin",
+        "Potansiyometreyi kontrol edin",
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Direksiyon sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Direksiyon açı kalibrasyonunu ve sensör sinyalini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 13,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "52",
+      "kodNormal": "52",
+      "aliaslar": [
+        "F152",
+        "152"
+      ],
+      "sistem": "fren",
+      "baslik": "Teach-In: Fren mıknatısı potansiyometresi",
+      "aciklama": "Teach-In: Fren mıknatısı potansiyometresi Jungheinrich sistem mesajları 01.13 tablosunda bu numara Teach-In: Fren mıknatısı potansiyometresi olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Teach-In'i tekrarlayın",
+        "Kablo bağlantısını kontrol edin",
+        "Potansiyometreyi kontrol edin",
+        "bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Fren devresi konektörlerini ve kablo demetini kontrol edin.",
+        "Fren sensörü/şalterinin sinyalini ve mekanik bloğu kontrol edin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 13,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "53",
+      "kodNormal": "53",
+      "aliaslar": [
+        "F153",
+        "153"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Teach-In: Direksiyon nominal değer potansiyometresi",
+      "aciklama": "Teach-In: Direksiyon nominal değer potansiyometresi Jungheinrich sistem mesajları 01.13 tablosunda bu numara Teach-In: Direksiyon nominal değer potansiyometresi olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Teach-In'i tekrarlayın",
+        "Kablo bağlantısını kontrol edin",
+        "Potansiyometreyi kontrol edin",
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Direksiyon sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Direksiyon açı kalibrasyonunu ve sensör sinyalini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "54",
+      "kodNormal": "54",
+      "aliaslar": [
+        "F154",
+        "154"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Çalıştırma test sırasında motorda kablo kopması ETVO: Sıcaklık gerilim değeri 9.3 V'tan küçü...",
+      "aciklama": "Çalıştırma test sırasında motorda kablo kopması ETVO: Sıcaklık gerilim değeri 9.3 V'tan küçük ya da 2.7 V'tan büyük Jungheinrich sistem mesajları 01.13 tablosunda bu numara çalıştırma test sırasında motorda kablo kopması etvo: sıcaklık gerilim değeri 9.3 v'tan küçü... olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kablo bağlantısını kontrol edin",
+        "Hatların sıcaklık sensörünü kontrol edin",
+        "bileşeni değiştirin",
+        "Motoru değiştirin"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "55",
+      "kodNormal": "55",
+      "aliaslar": [
+        "F155",
+        "155"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Motorda kısa devre var; Akım iyi değil; Son kademe arızalıdır",
+      "aciklama": "Motorda kısa devre var; Akım iyi değil; Son kademe arızalıdır Jungheinrich sistem mesajları 01.13 tablosunda bu numara Motorda kısa devre var; Akım iyi değil; Son kademe arızalıdır olarak tanımlanır.",
+      "makineTepkisi": "Sürüş motorundan durdurma, Hidrolik motordan durdurma Dikkat uyarı sembolü yanıp sönen (ELSE-Check)",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kablo bağlantısını kontrol edin",
+        "Motoru değiştirin Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "56",
+      "kodNormal": "56",
+      "aliaslar": [
+        "F156",
+        "156"
+      ],
+      "sistem": "motor",
+      "baslik": "Motor veya gerçek değer sensörü yanlış bağlandı",
+      "aciklama": "Motor veya gerçek değer sensörü yanlış bağlandı Jungheinrich sistem mesajları 01.13 tablosunda bu numara Motor veya gerçek değer sensörü yanlış bağlandı olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor bağlantısını kontrol edin",
+        "Gerçek değer potansiyometresini kontrol edin",
+        "AC: Motordaki L1, L2 veya L3 fazlarının yerlerini değiştirin"
+      ],
+      "kontroller": [
+        "Motor ve sürücü konektörlerini kontrol edin.",
+        "Motor sıcaklığını, alan sargısını ve soğutmayı kontrol edin.",
+        "Arıza sürerse ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "57",
+      "kodNormal": "57",
+      "aliaslar": [
+        "F157",
+        "157"
+      ],
+      "sistem": "motor",
+      "baslik": "gerçek değer açı değişikliği yok Kumanda sinyaline rağmen motor hareket etmiyor",
+      "aciklama": "gerçek değer açı değişikliği yok Kumanda sinyaline rağmen motor hareket etmiyor Jungheinrich sistem mesajları 01.13 tablosunda bu numara gerçek değer açı değişikliği yok Kumanda sinyaline rağmen motor hareket etmiyor olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motoru kontrol edin",
+        "gerçek açı potansiyometresini kontrol edin",
+        "tekerleğin mekanik blokajını kaldırın",
+        "AS48031: Artımlı yatağı kontrol edin",
+        "bileşeni değiştirin",
+        "AC: Gerçek değer vericisi kablo kırılması sinyalini kontrol edin PM2402L işletim türünü kontrol edin"
+      ],
+      "kontroller": [
+        "Motor ve sürücü konektörlerini kontrol edin.",
+        "Motor sıcaklığını, alan sargısını ve soğutmayı kontrol edin.",
+        "Arıza sürerse ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 14,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "58",
+      "kodNormal": "58",
+      "aliaslar": [
+        "F158",
+        "158"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon açısı fiili değeri salınıyor ETVO: Referans markası 0 2 saniye içerisinde hareket...",
+      "aciklama": "Direksiyon açısı fiili değeri salınıyor ETVO: Referans markası 0 2 saniye içerisinde hareket etmedi veya geçerli bir parçaya ulaşılmadı. Direksiyon motoru hareket etmiyor Jungheinrich sistem mesajları 01.13 tablosunda bu numara direksiyon açısı fiili değeri salınıyor etvo: referans markası 0 2 saniye içerisinde hareket... olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gerçek değer sensörü (direksiyon motorda)kontrolü Direksiyon motorunu, sigortayı ve artımsal sensörü kontrol edin",
+        "Tekerleğin mekanik blokesini giderin",
+        "Yakınlaştırma şalteri mesafesini kontrol edin"
+      ],
+      "kontroller": [
+        "Direksiyon sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Direksiyon açı kalibrasyonunu ve sensör sinyalini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "59",
+      "kodNormal": "59",
+      "aliaslar": [
+        "F159",
+        "159"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon açısı nominal değeri salınıyor",
+      "aciklama": "Direksiyon açısı nominal değeri salınıyor Jungheinrich sistem mesajları 01.13 tablosunda bu numara Direksiyon açısı nominal değeri salınıyor olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Nominal değer potansiyometresini (bağlantı kafasındaki) kontrol edin"
+      ],
+      "kontroller": [
+        "Direksiyon sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Direksiyon açı kalibrasyonunu ve sensör sinyalini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "60",
+      "kodNormal": "60",
+      "aliaslar": [
+        "F160",
+        "160"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Romörk direksiyon dönüşüne uymuyor Ayar sapması > 15* 100ms için Tekerlek 5“*'den fazla dönü...",
+      "aciklama": "Romörk direksiyon dönüşüne uymuyor Ayar sapması > 15* 100ms için Tekerlek 5“*'den fazla dönüyor, direksiyonda nominal değer değişikliği olmadan nominal pozsiyona ulaştıktan sonra 2*/saniyeden az dönüyor. Bandaj aşırı derece gerildi, gerçek değer nominal değeri takip edemiyor. Jungheinrich sistem mesajları 01.13 tablosunda bu numara romörk direksiyon dönüşüne uymuyor ayar sapması > 15* 100ms için tekerlek 5“*'den fazla dönü... olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Direksiyon oturağı mekanizmasını kontrol edin",
+        "Zincir ve zincir gerilimini kontrol edin",
+        "motoru kontrol edin",
+        "Gerçek değer vericisi sabitlemesini kontrol edin",
+        "Bandajı kontrol edin gerekirse tekerleği değiştirin"
+      ],
+      "kontroller": [
+        "Direksiyon sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Direksiyon açı kalibrasyonunu ve sensör sinyalini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 15,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "63",
+      "kodNormal": "63",
+      "aliaslar": [
+        "F163",
+        "163"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Besleme gerilimi sensörüBölgenin dışında AS48031: < 10V veya >16V",
+      "aciklama": "Besleme gerilimi sensörüBölgenin dışında AS48031: < 10V veya >16V Jungheinrich sistem mesajları 01.13 tablosunda bu numara Besleme gerilimi sensörüBölgenin dışında AS48031: < 10V veya >16V olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [
+        "İlgili sigorta, kontaktör ve konektörleri kontrol edin.",
+        "Kablo demetinde ezik, kopukluk veya kısa devre olup olmadığını inceleyin.",
+        "Ölçüm değerleri kılavuzdaki sınırların dışındaysa ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 16,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "64",
+      "kodNormal": "64",
+      "aliaslar": [
+        "F164",
+        "164"
+      ],
+      "sistem": "diger",
+      "baslik": "Yazılım versiyonu farklı",
+      "aciklama": "Yazılım versiyonu farklı Jungheinrich sistem mesajları 01.13 tablosunda bu numara Yazılım versiyonu farklı olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "ETV-O'de AS4803L'de çeşitli yazılım versiyonları, Yazılımı aynı versiyona getirin"
+      ],
+      "kontroller": [
+        "İlgili konektör ve kablo demetini kontrol edin.",
+        "Arıza sürerse yetkili servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 16,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "65",
+      "kodNormal": "65",
+      "aliaslar": [
+        "F165",
+        "165"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "NRG çoklu pilot tel kopukluğu orta sürgü",
+      "aciklama": "NRG çoklu pilot tel kopukluğu orta sürgü Jungheinrich sistem mesajları 01.13 tablosunda bu numara NRG çoklu pilot tel kopukluğu orta sürgü olarak tanımlanır.",
+      "makineTepkisi": "Sürüş yok ve kaldırma mümkün değildir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Çoklu pilota giden kablo telini kontrol edin Parametre 540 yanlışlıkla 1'e alındı"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 16,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "66",
+      "kodNormal": "66",
+      "aliaslar": [
+        "F166",
+        "166"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "NRG çoklu pilot tel kopukluğu Direksiyon yönlendirme 1809/360“",
+      "aciklama": "NRG çoklu pilot tel kopukluğu Direksiyon yönlendirme 1809/360“ Jungheinrich sistem mesajları 01.13 tablosunda bu numara NRG çoklu pilot tel kopukluğu Direksiyon yönlendirme 1809/360“ olarak tanımlanır.",
+      "makineTepkisi": "Sürüş yok ve kaldırma mümkün değildir.",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Çoklu pilota giden kablo telini kontrol edin Parametre 543 yanlışlıkla 1'e alındı"
+      ],
+      "kontroller": [
+        "Direksiyon sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Direksiyon açı kalibrasyonunu ve sensör sinyalini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 16,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "67",
+      "kodNormal": "67",
+      "aliaslar": [
+        "F167",
+        "167"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sistem çalıştırıldığında NRG Multipilot nominal değer vericisi sürüş yönü tuşu, Multipilot't...",
+      "aciklama": "Sistem çalıştırıldığında NRG Multipilot nominal değer vericisi sürüş yönü tuşu, Multipilot'ta (MP) sıkışıyor Jungheinrich sistem mesajları 01.13 tablosunda bu numara sistem çalıştırıldığında nrg multipilot nominal değer vericisi sürüş yönü tuşu, multipilot't... olarak tanımlanır.",
+      "makineTepkisi": "Sürüş yok ve kaldırma mümkün değildir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Multtipilot'taki tuşu kontrol edin, Judit-Multipilot (MP) öğretme penceresindeki değerler, değerleri yeniden öğretin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 16,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "68",
+      "kodNormal": "68",
+      "aliaslar": [
+        "F168",
+        "168"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Emniyet şalterinde kablo kopukluğu var",
+      "aciklama": "Emniyet şalterinde kablo kopukluğu var Jungheinrich sistem mesajları 01.13 tablosunda bu numara Emniyet şalterinde kablo kopukluğu var olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Şaltere giden kablo bağlantılarını (emniyet butonu, oturma şalteri) kontrol edin",
+        "Şalteri değiştirin"
+      ],
+      "kontroller": [
+        "Emniyet şalteri/devre kesici konektörlerini kontrol edin.",
+        "Şalterin açık/kapalı konumlarını ve temas direncini ölçün.",
+        "Gerekirse şalteri değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 16,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "69",
+      "kodNormal": "69",
+      "aliaslar": [
+        "F169",
+        "169"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Aynı anda kaldırma ve indirme talebi",
+      "aciklama": "Aynı anda kaldırma ve indirme talebi Jungheinrich sistem mesajları 01.13 tablosunda bu numara Aynı anda kaldırma ve indirme talebi olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kablo bağlantısını kontrol edin",
+        "Şalteri kontrol edin"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 16,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "71",
+      "kodNormal": "71",
+      "aliaslar": [
+        "F171",
+        "171"
+      ],
+      "sistem": "elektrik",
+      "baslik": "İndirme potansiyometresi kablo kırılması",
+      "aciklama": "İndirme potansiyometresi kablo kırılması Jungheinrich sistem mesajları 01.13 tablosunda bu numara İndirme potansiyometresi kablo kırılması olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kablo bağlantısını kontrol edin",
+        "İndirme potansiyometresini değiştirin",
+        "Multipilot'u değiştirin",
+        "Arayüzü değiştirin"
+      ],
+      "kontroller": [
+        "İlgili sigorta, kontaktör ve konektörleri kontrol edin.",
+        "Kablo demetinde ezik, kopukluk veya kısa devre olup olmadığını inceleyin.",
+        "Ölçüm değerleri kılavuzdaki sınırların dışındaysa ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 17,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "72",
+      "kodNormal": "72",
+      "aliaslar": [
+        "F172",
+        "172"
+      ],
+      "sistem": "diger",
+      "baslik": "sıfır konuma indirme yok",
+      "aciklama": "sıfır konuma indirme yok Jungheinrich sistem mesajları 01.13 tablosunda bu numara sıfır konuma indirme yok olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Uyarı notları",
+        "İndirme nominal değer sensörünü kontroledin"
+      ],
+      "kontroller": [
+        "İlgili konektör ve kablo demetini kontrol edin.",
+        "Arıza sürerse yetkili servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 17,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "74",
+      "kodNormal": "74",
+      "aliaslar": [
+        "F174",
+        "174"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ara birim valf çıkışı arızalıdır",
+      "aciklama": "Ara birim valf çıkışı arızalıdır Jungheinrich sistem mesajları 01.13 tablosunda bu numara Ara birim valf çıkışı arızalıdır olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Arayüzü değiştirin"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 17,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "78",
+      "kodNormal": "78",
+      "aliaslar": [
+        "F178",
+        "178"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Tuşa ve sürüş şalterine aynıanda basın",
+      "aciklama": "Tuşa ve sürüş şalterine aynıanda basın Jungheinrich sistem mesajları 01.13 tablosunda bu numara Tuşa ve sürüş şalterine aynıanda basın olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Uyarı notu: Kablo bağlantısını kontrol edin",
+        "Tuşu değiştirin",
+        "Arayüzü değiştirin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 18,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "79",
+      "kodNormal": "79",
+      "aliaslar": [
+        "F179",
+        "179"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Tuşa ve emniyet butonuna aynı anda basın",
+      "aciklama": "Tuşa ve emniyet butonuna aynı anda basın Jungheinrich sistem mesajları 01.13 tablosunda bu numara Tuşa ve emniyet butonuna aynı anda basın olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Uyarı notu: Kablo bağlantısını kontrol edin",
+        "Tuşu değiştirin",
+        "Arayüzü değiştirin"
+      ],
+      "kontroller": [
+        "Emniyet şalteri/devre kesici konektörlerini kontrol edin.",
+        "Şalterin açık/kapalı konumlarını ve temas direncini ölçün.",
+        "Gerekirse şalteri değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 18,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "80",
+      "kodNormal": "80",
+      "aliaslar": [
+        "F180",
+        "180"
+      ],
+      "sistem": "diger",
+      "baslik": "Aynı anda 2 tuş yönüde",
+      "aciklama": "Aynı anda 2 tuş yönüde Jungheinrich sistem mesajları 01.13 tablosunda bu numara Aynı anda 2 tuş yönüde olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kablo bağlantısını kontrol edin",
+        "Tuşu değiştirin",
+        "Arayüzü değiştirin"
+      ],
+      "kontroller": [
+        "İlgili konektör ve kablo demetini kontrol edin.",
+        "Arıza sürerse yetkili servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 18,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "81",
+      "kodNormal": "81",
+      "aliaslar": [
+        "F181",
+        "181"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Her iki sürüş kumandasının parametresi aynı değildir",
+      "aciklama": "Her iki sürüş kumandasının parametresi aynı değildir Jungheinrich sistem mesajları 01.13 tablosunda bu numara Her iki sürüş kumandasının parametresi aynı değildir olarak tanımlanır.",
+      "makineTepkisi": "Sürüş mümkün değildir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "yeni parametre edin (EFG sürüş kumandaları)"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 18,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "82",
+      "kodNormal": "82",
+      "aliaslar": [
+        "F182",
+        "182"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kablo kesiklik sensörü",
+      "aciklama": "Kablo kesiklik sensörü Jungheinrich sistem mesajları 01.13 tablosunda bu numara Kablo kesiklik sensörü olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Emniyet yüksekliği: Kablo bağlantısını kontrol edin",
+        "Tuşu değiştirin",
+        "Arayüzü değiştirin"
+      ],
+      "kontroller": [
+        "İlgili sigorta, kontaktör ve konektörleri kontrol edin.",
+        "Kablo demetinde ezik, kopukluk veya kısa devre olup olmadığını inceleyin.",
+        "Ölçüm değerleri kılavuzdaki sınırların dışındaysa ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 18,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "83",
+      "kodNormal": "83",
+      "aliaslar": [
+        "F183",
+        "183"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "2 aynı parçayı araca bildiriyor örneğin AS4803L: Anahtar şalteri gerilimi, Elle !, Elle 2 ya...",
+      "aciklama": "2 aynı parçayı araca bildiriyor örneğin AS4803L: Anahtar şalteri gerilimi, Elle !, Elle 2 yada Elle 3 bileşeni için düzenlenemiyor. Jungheinrich sistem mesajları 01.13 tablosunda bu numara 2 aynı parçayı araca bildiriyor örneğin as4803l: anahtar şalteri gerilimi, elle !, elle 2 ya... olarak tanımlanır.",
+      "makineTepkisi": "Sürüş mümkün değildir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Bileşenlerin kodlamasını kontrol edin",
+        "Kablo bağlantısını kontrol edin",
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 19,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "84",
+      "kodNormal": "84",
+      "aliaslar": [
+        "F184",
+        "184"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Devir sensörü arızalı; —>AS4803L: - 4 ms içerisinde 9050 kadar devir değişikliği; - Referans...",
+      "aciklama": "Devir sensörü arızalı; —>AS4803L: - 4 ms içerisinde 9050 kadar devir değişikliği; - Referans devri yarım nominal devirden küçüktür; - Direksiyon tahriki bloke edilmiştir; - Çatlak algılama: Geçerli bir sensör değerini 4 ms içinde sıfıra indirir ve geçerli bir değer oluşturmadan 50 ms boyunca bu değerde kalır. —>PM2402L/2 V1.60 sonrası: - Direksiyon motorundaki kodlayıcıda çok fazla sinyal Jungheinrich sistem mesajları 01.13 tablosunda bu numara devir sensörü arızalı; —>as4803l: - 4 ms içerisinde 9050 kadar devir değişikliği; - referans... olarak tanımlanır.",
+      "makineTepkisi": "Sürüş fonksiyonsuz, Kaldırma fonksiyonsuz, Dikkat uyarı sembolü yanıp sönüyor (Else kontrolü), hidrolik fonksiyonları mümkün.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Devir sayısı sensörünü kontrol edin",
+        "Sensör yatağı kaymış",
+        "Kablo bağlantısını kontrol edin",
+        "Devir sayısı sensörünü değiştirin",
+        "Bileşeni değiştirin",
+        "Hatların döşenmesini kontrol edin, motor besleme hattı ile birlikte döşemeyin!"
+      ],
+      "kontroller": [
+        "Direksiyon sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Direksiyon açı kalibrasyonunu ve sensör sinyalini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 19,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "85",
+      "kodNormal": "85",
+      "aliaslar": [
+        "F185",
+        "185"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Güç verilişindealçak gerilim Sürüş/manevra: Kondansatör gerilimi 0.5 saniye boyunca 30 V'a (...",
+      "aciklama": "Güç verilişindealçak gerilim Sürüş/manevra: Kondansatör gerilimi 0.5 saniye boyunca 30 V'a (48V) düşer Jungheinrich sistem mesajları 01.13 tablosunda bu numara güç verilişindealçak gerilim sürüş/manevra: kondansatör gerilimi 0.5 saniye boyunca 30 v'a (... olarak tanımlanır.",
+      "makineTepkisi": "Sürüş, hidrolik yok Fonksiyon, uyarı sembolü Dikkat yanıp sönen (ELSE-Check)",
+      "siddet": "uyari",
+      "nedenler": [
+        "İstif aracını kapatın ve tekrar açın",
+        "Aküyü kontrol edin",
+        "Akü kablo bağlantısını kontrol edin",
+        "sigortayı kontrol edin",
+        "Güç bağlantısını kontrol edin",
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Direksiyon sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Direksiyon açı kalibrasyonunu ve sensör sinyalini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 20,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "86",
+      "kodNormal": "86",
+      "aliaslar": [
+        "F186",
+        "186"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Devir geçersiz, düzensiz değişim: —> AS4803L: İki sensör sisteminin kendi arasında sapması (...",
+      "aciklama": "Devir geçersiz, düzensiz değişim: —> AS4803L: İki sensör sisteminin kendi arasında sapması (gerçek değer sensörü). Jungheinrich sistem mesajları 01.13 tablosunda bu numara devir geçersiz, düzensiz değişim: —> as4803l: i̇ki sensör sisteminin kendi arasında sapması (... olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kablo bağlantısını kontrol edin",
+        "Devir sayısı sensörünü değiştirin",
+        "Bileşeni değiştirin",
+        "Z İmpuls sayıları doğru mu (8 veya 64 impuls/devir)?"
+      ],
+      "kontroller": [
+        "İlgili sigorta, kontaktör ve konektörleri kontrol edin.",
+        "Kablo demetinde ezik, kopukluk veya kısa devre olup olmadığını inceleyin.",
+        "Ölçüm değerleri kılavuzdaki sınırların dışındaysa ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 20,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "87",
+      "kodNormal": "87",
+      "aliaslar": [
+        "F187",
+        "187"
+      ],
+      "sistem": "fren",
+      "baslik": "Sensör kablosu kesik AS4803L: 100Ohm'luk dahili bir ölçüm direncinde gerilim düşüşü yok MFC-...",
+      "aciklama": "Sensör kablosu kesik AS4803L: 100Ohm'luk dahili bir ölçüm direncinde gerilim düşüşü yok MFC-freni: Yük tekerleğinde devir sensörü Jungheinrich sistem mesajları 01.13 tablosunda bu numara sensör kablosu kesik as4803l: 100ohm'luk dahili bir ölçüm direncinde gerilim düşüşü yok mfc-... olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensör hattı kesilmiş, motor azami miktarda akım alır ve sese neden olur. Sensör hatlarını kontrol edin"
+      ],
+      "kontroller": [
+        "Fren devresi konektörlerini ve kablo demetini kontrol edin.",
+        "Fren sensörü/şalterinin sinyalini ve mekanik bloğu kontrol edin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 20,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "88",
+      "kodNormal": "88",
+      "aliaslar": [
+        "F188",
+        "188"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Hidrolik devir sensörü AS4814H'te arızalı",
+      "aciklama": "Hidrolik devir sensörü AS4814H'te arızalı Jungheinrich sistem mesajları 01.13 tablosunda bu numara Hidrolik devir sensörü AS4814H'te arızalı olarak tanımlanır.",
+      "makineTepkisi": "Hidrolik durdurma, Dikkat yanıp sönen uyarı sembolü (ELSE-Check), sürüş mümkün.",
+      "siddet": "uyari",
+      "nedenler": [
+        "Devir sayısı sensörünü kontrol edin",
+        "Kablo bağlantısını kontrol edin",
+        "Devir sayısı sensörünü değiştirin",
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 21,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "89",
+      "kodNormal": "89",
+      "aliaslar": [
+        "F189",
+        "189"
+      ],
+      "sistem": "batarya",
+      "baslik": "Güç verilişinde alçak gerilim hidrolik",
+      "aciklama": "Güç verilişinde alçak gerilim hidrolik Jungheinrich sistem mesajları 01.13 tablosunda bu numara Güç verilişinde alçak gerilim hidrolik olarak tanımlanır.",
+      "makineTepkisi": "Şu durumlarda güç düşüşü, Sürüşlerde ve kaldırmada. Dikkat uyarı sembolü yanıp sönen (ELSE-Check)",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Aküyü kontrol edin",
+        "Akü kablo bağlantısını kontrol edin",
+        "Sigortayı kontrol edin",
+        "Bileşeni değiştirin"
+      ],
+      "kontroller": [
+        "Akü gerilimini ve şarj durumunu ölçün.",
+        "Akü kablolarını, kutup başlarını ve ana sigortayı kontrol edin.",
+        "Gerekirse aküyü şarj edin veya değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 21,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "90",
+      "kodNormal": "90",
+      "aliaslar": [
+        "F190",
+        "190"
+      ],
+      "sistem": "fren",
+      "baslik": "EL freni çekiliyken sürüş",
+      "aciklama": "EL freni çekiliyken sürüş Jungheinrich sistem mesajları 01.13 tablosunda bu numara EL freni çekiliyken sürüş olarak tanımlanır.",
+      "makineTepkisi": "Dikkat yanıp sönen uyarı sembolü (ELSE-Check)",
+      "siddet": "uyari",
+      "nedenler": [
+        "Manyetik freni şalterini kontrol edin"
+      ],
+      "kontroller": [
+        "Fren devresi konektörlerini ve kablo demetini kontrol edin.",
+        "Fren sensörü/şalterinin sinyalini ve mekanik bloğu kontrol edin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 21,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "91",
+      "kodNormal": "91",
+      "aliaslar": [
+        "F191",
+        "191"
+      ],
+      "sistem": "diger",
+      "baslik": "24 V gerilim tolerans dışında <17 V'de bilgi <15 V'de hata",
+      "aciklama": "24 V gerilim tolerans dışında <17 V'de bilgi <15 V'de hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara 24 V gerilim tolerans dışında <17 V'de bilgi <15 V'de hata olarak tanımlanır.",
+      "makineTepkisi": "Uyarı ve uyarı sembolünde dikkat yanıp söner (Else-Check). Cihaz durdurma arızasında",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gerilim beslemesini kontrol edin",
+        "kablo bağlantısını kontrol edin"
+      ],
+      "kontroller": [
+        "İlgili konektör ve kablo demetini kontrol edin.",
+        "Arıza sürerse yetkili servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 21,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "92",
+      "kodNormal": "92",
+      "aliaslar": [
+        "F192",
+        "192"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Yanlış parçalar Canion'da kayda geçirilir",
+      "aciklama": "Yanlış parçalar Canion'da kayda geçirilir Jungheinrich sistem mesajları 01.13 tablosunda bu numara Yanlış parçalar Canion'da kayda geçirilir olarak tanımlanır.",
+      "makineTepkisi": "Sürme, Kaldırma yok Fonksiyon, uyarı sembolü Dikkat yanıp sönen (ELSE-Check)",
+      "siddet": "uyari",
+      "nedenler": [
+        "Master/Solopilot'u kontrol edin",
+        "Göstergeyi kontrol edin",
+        "Bileşeni değiştirin Pim 2'den pim 6'ya giden XB 27 ve XB 44 köprüsünü kontrol edin,"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 21,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "93",
+      "kodNormal": "93",
+      "aliaslar": [
+        "F193",
+        "193"
+      ],
+      "sistem": "batarya",
+      "baslik": "ACS'nin kondansatörü şarj edilmeyecektir",
+      "aciklama": "ACS'nin kondansatörü şarj edilmeyecektir Jungheinrich sistem mesajları 01.13 tablosunda bu numara ACS'nin kondansatörü şarj edilmeyecektir olarak tanımlanır.",
+      "makineTepkisi": "Sürme, Kaldırma yok Fonksiyon, uyarı sembolü Dikkat yanıp sönen (ELSE-Check)",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [
+        "Akü gerilimini ve şarj durumunu ölçün.",
+        "Akü kablolarını, kutup başlarını ve ana sigortayı kontrol edin.",
+        "Gerekirse aküyü şarj edin veya değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 21,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "94",
+      "kodNormal": "94",
+      "aliaslar": [
+        "F194",
+        "194"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "SDO Arızası",
+      "aciklama": "SDO Arızası — Jungheinrich sistem mesajları 01.13 kaydı.",
+      "makineTepkisi": "Sürme, Kaldırma yok Fonksiyon, uyarı sembolü Dikkat yanıp sönen (ELSE-Check)",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yazılım uyumlu değildir Yazılım versiyonunu kontrol edin Yazılımı yeniden yükleyin. Köprüyü Pin 12 ila Pin 13 XB 41'den kontrol edin"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 21,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "95",
+      "kodNormal": "95",
+      "aliaslar": [
+        "F195",
+        "195"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Pin Kodu Hatası",
+      "aciklama": "Pin Kodu Hatası — Jungheinrich sistem mesajları 01.13 kaydı.",
+      "makineTepkisi": "Sürme, Kaldırma yok Fonksiyon, uyarı sembolü Dikkat yanıp sönen (ELSE-Check)",
+      "siddet": "uyari",
+      "nedenler": [
+        "Parçaların pin kodu aynı değildir"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 22,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "97",
+      "kodNormal": "97",
+      "aliaslar": [
+        "F197",
+        "197"
+      ],
+      "sistem": "diger",
+      "baslik": "Parça, toleransın dışında —>PM2402L/2 V1.60 sonrası: Çalıştırırken referans arızası, yakınla...",
+      "aciklama": "Parça, toleransın dışında —>PM2402L/2 V1.60 sonrası: Çalıştırırken referans arızası, yakınlaşma şalterinden (NS)devre sinyali yok veya zamanaşımı Jungheinrich sistem mesajları 01.13 tablosunda bu numara parça, toleransın dışında —>pm2402l/2 v1.60 sonrası: çalıştırırken referans arızası, yakınla... olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [
+        "İlgili konektör ve kablo demetini kontrol edin.",
+        "Arıza sürerse yetkili servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 22,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "98",
+      "kodNormal": "98",
+      "aliaslar": [
+        "F198",
+        "198"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Sensör yatağı ve yakınlaşma şalteri (parça) pozisyonu 1,1 dereceden fazla sapıyor. Araç ilk...",
+      "aciklama": "Sensör yatağı ve yakınlaşma şalteri (parça) pozisyonu 1,1 dereceden fazla sapıyor. Araç ilk çalıştırıldığında direksiyon sensörünün dönüş yönü motor güç bağlantısına veya direksiyon motoru sensörüne doğru karıştırıldı. —>PM2402L/2 V1.60 sonrası: Çalışmada referans arızası, yakınlaşma şalterinden (NS) beklenmeyen devre sinyali Jungheinrich sistem mesajları 01.13 tablosunda bu numara sensör yatağı ve yakınlaşma şalteri (parça) pozisyonu 1,1 dereceden fazla sapıyor. araç ilk... olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Teli kontrol edin. Kablo bağlantısını ve NS'yi kontrol edin, döner sürgüdeki devre kamlarına olan NS mesafesini kontrol edin"
+      ],
+      "kontroller": [
+        "Direksiyon sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Direksiyon açı kalibrasyonunu ve sensör sinyalini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 23,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "99",
+      "kodNormal": "99",
+      "aliaslar": [
+        "F199",
+        "199"
+      ],
+      "sistem": "iletisim",
+      "baslik": "CANVeri yolu bozuk; CAN veri yolu sürücüsü zaman zaman devre dışı kalıyor",
+      "aciklama": "CANVeri yolu bozuk; CAN veri yolu sürücüsü zaman zaman devre dışı kalıyor Jungheinrich sistem mesajları 01.13 tablosunda bu numara CANVeri yolu bozuk; CAN veri yolu sürücüsü zaman zaman devre dışı kalıyor olarak tanımlanır.",
+      "makineTepkisi": "Sürüş, hidrolik yok Fonksiyon, uyarı sembolü Dikkat yanıp sönen (ELSE-Check)",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Kablo bağlantısını kontrol edin, uç dirençleri kontrol edin, araç parazit giderme önlemlerini alın"
+      ],
+      "kontroller": [
+        "CAN/seri haberleşme kablolarını ve konektörleri kontrol edin.",
+        "Hat sonlandırma direncini kontrol edin.",
+        "Gerekirse ilgili kontrol ünitesini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 23,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "100",
+      "kodNormal": "100",
+      "aliaslar": [
+        "F1100",
+        "1100"
+      ],
+      "sistem": "diger",
+      "baslik": "Dahili parçalarda NRG yazılım versiyonları geçersiz",
+      "aciklama": "Dahili parçalarda NRG yazılım versiyonları geçersiz Jungheinrich sistem mesajları 01.13 tablosunda bu numara Dahili parçalarda NRG yazılım versiyonları geçersiz olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Flash uygulaması şu an için alanda mümkün olmadığından bileşen parçasını ilgili bileşen ile değiştirin"
+      ],
+      "kontroller": [
+        "İlgili konektör ve kablo demetini kontrol edin.",
+        "Arıza sürerse yetkili servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 23,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "101",
+      "kodNormal": "101",
+      "aliaslar": [
+        "F1101",
+        "1101"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Giriş/Çıkış arızası",
+      "aciklama": "Giriş/Çıkış arızası — Jungheinrich sistem mesajları 01.13 kaydı.",
+      "makineTepkisi": "Sürücü ekranında 101 arıza ile gösterilir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [
+        "Gösterge birimi konektörünü kontrol edin.",
+        "Kontak kapatıp açarak göstergeyi yeniden başlatın.",
+        "Arıza sürerse gösterge birimini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 24,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "102",
+      "kodNormal": "102",
+      "aliaslar": [
+        "F1102",
+        "1102"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Dahili arızalar",
+      "aciklama": "Dahili arızalar — Jungheinrich sistem mesajları 01.13 kaydı.",
+      "makineTepkisi": "Sürücü ekranında 102 arıza ile gösterilir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [
+        "Gösterge birimi konektörünü kontrol edin.",
+        "Kontak kapatıp açarak göstergeyi yeniden başlatın.",
+        "Arıza sürerse gösterge birimini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 24,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "103",
+      "kodNormal": "103",
+      "aliaslar": [
+        "F1103",
+        "1103"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Parametre arızası",
+      "aciklama": "Parametre arızası — Jungheinrich sistem mesajları 01.13 kaydı.",
+      "makineTepkisi": "Sürücü ekranında 103 arıza ile gösterilir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [
+        "Gösterge birimi konektörünü kontrol edin.",
+        "Kontak kapatıp açarak göstergeyi yeniden başlatın.",
+        "Arıza sürerse gösterge birimini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 25,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "104",
+      "kodNormal": "104",
+      "aliaslar": [
+        "F1104",
+        "1104"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sensör yatağı, sistem başlatıldığında sinyaller gönderir",
+      "aciklama": "Sensör yatağı, sistem başlatıldığında sinyaller gönderir Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sensör yatağı, sistem başlatıldığında sinyaller gönderir olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensör yatağını ve kabloyu kontrol edin Sensör yatağını veya kumandayı değiştirin"
+      ],
+      "kontroller": [
+        "İlgili sigorta, kontaktör ve konektörleri kontrol edin.",
+        "Kablo demetinde ezik, kopukluk veya kısa devre olup olmadığını inceleyin.",
+        "Ölçüm değerleri kılavuzdaki sınırların dışındaysa ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 25,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "105",
+      "kodNormal": "105",
+      "aliaslar": [
+        "F1105",
+        "1105"
+      ],
+      "sistem": "motor",
+      "baslik": "Motor sıcaklık sensörü yanlış değerler gönderir Sensör kablosunda kablo kırığı",
+      "aciklama": "Motor sıcaklık sensörü yanlış değerler gönderir Sensör kablosunda kablo kırığı Jungheinrich sistem mesajları 01.13 tablosunda bu numara Motor sıcaklık sensörü yanlış değerler gönderir Sensör kablosunda kablo kırığı olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensör bağlantısını ve hatları kontrol edin, mümkünse sensörleri değiştirin, aksi taktirde motoru komple değiştirin"
+      ],
+      "kontroller": [
+        "Motor ve sürücü konektörlerini kontrol edin.",
+        "Motor sıcaklığını, alan sargısını ve soğutmayı kontrol edin.",
+        "Arıza sürerse ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 26,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "106",
+      "kodNormal": "106",
+      "aliaslar": [
+        "F1106",
+        "1106"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Kumanda sıcaklık sensörü yanlış değerler gönderir",
+      "aciklama": "Kumanda sıcaklık sensörü yanlış değerler gönderir Jungheinrich sistem mesajları 01.13 tablosunda bu numara Kumanda sıcaklık sensörü yanlış değerler gönderir olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Dahili hata Kumandayı değiştirin"
+      ],
+      "kontroller": [
+        "İlgili sigorta, kontaktör ve konektörleri kontrol edin.",
+        "Kablo demetinde ezik, kopukluk veya kısa devre olup olmadığını inceleyin.",
+        "Ölçüm değerleri kılavuzdaki sınırların dışındaysa ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 26,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "107",
+      "kodNormal": "107",
+      "aliaslar": [
+        "F1107",
+        "1107"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Anahtar şalteri gerilimi bölgenin dışında Donanım kodlaması yanlış",
+      "aciklama": "Anahtar şalteri gerilimi bölgenin dışında Donanım kodlaması yanlış Jungheinrich sistem mesajları 01.13 tablosunda bu numara Anahtar şalteri gerilimi bölgenin dışında Donanım kodlaması yanlış olarak tanımlanır.",
+      "makineTepkisi": "Sürüş yok Kaldırma yok Manevra yok Ana yalıtım açık",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Parçaların kumanda girişinde arıza (Saab soketi)"
+      ],
+      "kontroller": [
+        "Direksiyon sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Direksiyon açı kalibrasyonunu ve sensör sinyalini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 26,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "110",
+      "kodNormal": "110",
+      "aliaslar": [
+        "F1110",
+        "1110"
+      ],
+      "sistem": "fren",
+      "baslik": "Akım çıkışı arızalı",
+      "aciklama": "Akım çıkışı arızalı — Jungheinrich sistem mesajları 01.13 kaydı.",
+      "makineTepkisi": "MFC hidr.: kaldırma yok MFC fren: sadece sürüngen sürüş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kısa devreye ilişkin çıkışları kontrol edin"
+      ],
+      "kontroller": [
+        "Fren devresi konektörlerini ve kablo demetini kontrol edin.",
+        "Fren sensörü/şalterinin sinyalini ve mekanik bloğu kontrol edin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 26,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "111",
+      "kodNormal": "111",
+      "aliaslar": [
+        "F1111",
+        "1111"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon kumandası sürüş kumandasından ömür telgrafı üzerine denetlenir Sürüş kumandası bu...",
+      "aciklama": "Direksiyon kumandası sürüş kumandasından ömür telgrafı üzerine denetlenir Sürüş kumandası bu telgrafları almaz. Can veri yolu aşırı yüklendi. Jungheinrich sistem mesajları 01.13 tablosunda bu numara direksiyon kumandası sürüş kumandasından ömür telgrafı üzerine denetlenir sürüş kumandası bu... olarak tanımlanır.",
+      "makineTepkisi": "Sürüş mümkün değildir Ana yalıtım açık",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Direksiyon kumandasını kontrol edin"
+      ],
+      "kontroller": [
+        "Direksiyon sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Direksiyon açı kalibrasyonunu ve sensör sinyalini kontrol edin.",
+        "Gerekirse sensörü değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 26,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "112",
+      "kodNormal": "112",
+      "aliaslar": [
+        "F1112",
+        "1112"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Sürüş kumandası 2 sürüş kumandasından 1 ömür telgrafı üzerine denetlenir Can veri yolu aşırı...",
+      "aciklama": "Sürüş kumandası 2 sürüş kumandasından 1 ömür telgrafı üzerine denetlenir Can veri yolu aşırı yüklendi. Jungheinrich sistem mesajları 01.13 tablosunda bu numara sürüş kumandası 2 sürüş kumandasından 1 ömür telgrafı üzerine denetlenir can veri yolu aşırı... olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Can veri yolunu kontrol edin, uç direncini ölçün 60Ohm"
+      ],
+      "kontroller": [
+        "CAN/seri haberleşme kablolarını ve konektörleri kontrol edin.",
+        "Hat sonlandırma direncini kontrol edin.",
+        "Gerekirse ilgili kontrol ünitesini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 27,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "113",
+      "kodNormal": "113",
+      "aliaslar": [
+        "F1113",
+        "1113"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma kumandası hiçbir telgraf göndermiyor",
+      "aciklama": "Kaldırma kumandası hiçbir telgraf göndermiyor Jungheinrich sistem mesajları 01.13 tablosunda bu numara Kaldırma kumandası hiçbir telgraf göndermiyor olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kumanda gerilimini kontrol edin"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 27,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "114",
+      "kodNormal": "114",
+      "aliaslar": [
+        "F1114",
+        "1114"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Açarken kaldırma yolu referansı yoktur",
+      "aciklama": "Açarken kaldırma yolu referansı yoktur Jungheinrich sistem mesajları 01.13 tablosunda bu numara Açarken kaldırma yolu referansı yoktur olarak tanımlanır.",
+      "makineTepkisi": "Her iki tahdide bir kez ulaşana kadar azaltılmış kayma hızı.",
+      "siddet": "uyari",
+      "nedenler": [
+        "yoktur"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 27,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "119",
+      "kodNormal": "119",
+      "aliaslar": [
+        "F1119",
+        "1119"
+      ],
+      "sistem": "diger",
+      "baslik": "Terazi tuşu Arızalı",
+      "aciklama": "Terazi tuşu Arızalı — Jungheinrich sistem mesajları 01.13 kaydı.",
+      "makineTepkisi": "Tartma fonksiyonu arızalı",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kabloyu ve tuşu kontrol edin"
+      ],
+      "kontroller": [
+        "İlgili konektör ve kablo demetini kontrol edin.",
+        "Arıza sürerse yetkili servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 28,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "121",
+      "kodNormal": "121",
+      "aliaslar": [
+        "F1121",
+        "1121"
+      ],
+      "sistem": "batarya",
+      "baslik": "Akü kilitli doğru değil",
+      "aciklama": "Akü kilitli doğru değil Jungheinrich sistem mesajları 01.13 tablosunda bu numara Akü kilitli doğru değil olarak tanımlanır.",
+      "makineTepkisi": "Araç fonksiyonları yok",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [
+        "Akü gerilimini ve şarj durumunu ölçün.",
+        "Akü kablolarını, kutup başlarını ve ana sigortayı kontrol edin.",
+        "Gerekirse aküyü şarj edin veya değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 28,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "123",
+      "kodNormal": "123",
+      "aliaslar": [
+        "F1123",
+        "1123"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Soketteki kodlama çok fonksiyonlu kola uymuyor",
+      "aciklama": "Soketteki kodlama çok fonksiyonlu kola uymuyor Jungheinrich sistem mesajları 01.13 tablosunda bu numara Soketteki kodlama çok fonksiyonlu kola uymuyor olarak tanımlanır.",
+      "makineTepkisi": "Sürüş yok ve kaldırma mümkün değildir",
+      "siddet": "durdurucu",
+      "nedenler": [
+        "Yanlış işletim türü: Soketteki köprüleri kontrol edin veya çok fonksiyonlu kolu değiştirin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 28,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "130",
+      "kodNormal": "130",
+      "aliaslar": [
+        "F1130",
+        "1130"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş yönü hatalı",
+      "aciklama": "Sürüş yönü hatalı — Jungheinrich sistem mesajları 01.13 kaydı.",
+      "makineTepkisi": "Sürüş blokeş",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sürüş yönü ğalteri arızalı"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 29,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "131",
+      "kodNormal": "131",
+      "aliaslar": [
+        "F1131",
+        "1131"
+      ],
+      "sistem": "iletisim",
+      "baslik": "E-Kutusu ile iletişim hatalı",
+      "aciklama": "E-Kutusu ile iletişim hatalı Jungheinrich sistem mesajları 01.13 tablosunda bu numara E-Kutusu ile iletişim hatalı olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "E-Kutusu arızalı, CAN hattı arızası"
+      ],
+      "kontroller": [
+        "CAN/seri haberleşme kablolarını ve konektörleri kontrol edin.",
+        "Hat sonlandırma direncini kontrol edin.",
+        "Gerekirse ilgili kontrol ünitesini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 29,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "132",
+      "kodNormal": "132",
+      "aliaslar": [
+        "F1132",
+        "1132"
+      ],
+      "sistem": "iletisim",
+      "baslik": "ISM ile iletişim hatalı",
+      "aciklama": "ISM ile iletişim hatalı Jungheinrich sistem mesajları 01.13 tablosunda bu numara ISM ile iletişim hatalı olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "ISM arızalı, CAN hattı arızası"
+      ],
+      "kontroller": [
+        "CAN/seri haberleşme kablolarını ve konektörleri kontrol edin.",
+        "Hat sonlandırma direncini kontrol edin.",
+        "Gerekirse ilgili kontrol ünitesini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 29,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "133",
+      "kodNormal": "133",
+      "aliaslar": [
+        "F1133",
+        "1133"
+      ],
+      "sistem": "iletisim",
+      "baslik": "Pluto ile iletişim hatalı",
+      "aciklama": "Pluto ile iletişim hatalı Jungheinrich sistem mesajları 01.13 tablosunda bu numara Pluto ile iletişim hatalı olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Pluto arızalı, CAN hattı arızası"
+      ],
+      "kontroller": [
+        "CAN/seri haberleşme kablolarını ve konektörleri kontrol edin.",
+        "Hat sonlandırma direncini kontrol edin.",
+        "Gerekirse ilgili kontrol ünitesini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 29,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "134",
+      "kodNormal": "134",
+      "aliaslar": [
+        "F1134",
+        "1134"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Multi-/Solopilot marş sırasında basılı",
+      "aciklama": "Multi-/Solopilot marş sırasında basılı Jungheinrich sistem mesajları 01.13 tablosunda bu numara Multi-/Solopilot marş sırasında basılı olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 29,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "135",
+      "kodNormal": "135",
+      "aliaslar": [
+        "F1135",
+        "1135"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Çoklu/Solo pilot arıza bildiriyor (Aks arızası, EEPROM-Arızası, vs)",
+      "aciklama": "Çoklu/Solo pilot arıza bildiriyor (Aks arızası, EEPROM-Arızası, vs) Jungheinrich sistem mesajları 01.13 tablosunda bu numara Çoklu/Solo pilot arıza bildiriyor (Aks arızası, EEPROM-Arızası, vs) olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Çoklu/Solo pilot bağlantılarını kontrol edin, bileşenler değiştirin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 29,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "136",
+      "kodNormal": "136",
+      "aliaslar": [
+        "F1136",
+        "1136"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "İşletim sisteminde arıza (API)",
+      "aciklama": "İşletim sisteminde arıza (API) Jungheinrich sistem mesajları 01.13 tablosunda bu numara İşletim sisteminde arıza (API) olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Arızayı tam algılayabilmek için kayıt defterini okuyun,"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 29,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "137",
+      "kodNormal": "137",
+      "aliaslar": [
+        "F1137",
+        "1137"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sensör besleme geriliminde arıza * 5 V",
+      "aciklama": "Sensör besleme geriliminde arıza * 5 V Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sensör besleme geriliminde arıza * 5 V olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gerilim beslemesinin fazla yükü TCU arızalı"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 29,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "138",
+      "kodNormal": "138",
+      "aliaslar": [
+        "F1138",
+        "1138"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sensör besleme geriliminde arıza *8 V",
+      "aciklama": "Sensör besleme geriliminde arıza *8 V Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sensör besleme geriliminde arıza *8 V olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Gerilim beslemesinin fazla yükü TCU arızalı"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 30,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "139",
+      "kodNormal": "139",
+      "aliaslar": [
+        "F1139",
+        "1139"
+      ],
+      "sistem": "gosterge",
+      "baslik": "Watchdog TCU dahilinde bir yeniden çalışma (Reset) tetikledi",
+      "aciklama": "Watchdog TCU dahilinde bir yeniden çalışma (Reset) tetikledi Jungheinrich sistem mesajları 01.13 tablosunda bu numara Watchdog TCU dahilinde bir yeniden çalışma (Reset) tetikledi olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yazılım dahilinde zamansal çerçeveye sadık kalınmadı Yazılım hatası"
+      ],
+      "kontroller": [
+        "Gösterge birimi konektörünü kontrol edin.",
+        "Kontak kapatıp açarak göstergeyi yeniden başlatın.",
+        "Arıza sürerse gösterge birimini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 30,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "140",
+      "kodNormal": "140",
+      "aliaslar": [
+        "F1140",
+        "1140"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Yazılım hatası, çeşitli nedenler",
+      "aciklama": "Yazılım hatası, çeşitli nedenler Jungheinrich sistem mesajları 01.13 tablosunda bu numara Yazılım hatası, çeşitli nedenler olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yazılımda hata, alanda asla oluşmamalıdır. Arızayı tam algılayabilmek için kayıt defterini okuyun,"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 30,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "141",
+      "kodNormal": "141",
+      "aliaslar": [
+        "F1141",
+        "1141"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Kurulum hatası: En az bir yazlım modülü doğru kurulamadı",
+      "aciklama": "Kurulum hatası: En az bir yazlım modülü doğru kurulamadı Jungheinrich sistem mesajları 01.13 tablosunda bu numara Kurulum hatası: En az bir yazlım modülü doğru kurulamadı olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Parametre aktarımında TCU dahili arızası"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 30,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "142",
+      "kodNormal": "142",
+      "aliaslar": [
+        "F1142",
+        "1142"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş pedalı: Gerilim arızası, Sinyal gerilimi çok yüksek veya çok düşük",
+      "aciklama": "Sürüş pedalı: Gerilim arızası, Sinyal gerilimi çok yüksek veya çok düşük Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sürüş pedalı: Gerilim arızası, Sinyal gerilimi çok yüksek veya çok düşük olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Besleme veya şaseye karşı sinyal geriliminin hat kesintisi vea kısa devresi Pedal arızalı"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 30,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "143",
+      "kodNormal": "143",
+      "aliaslar": [
+        "F1143",
+        "1143"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş pedalı: Şalter arıası, sıfır konum şalterinin konumu sinyal değerine uymuyor",
+      "aciklama": "Sürüş pedalı: Şalter arıası, sıfır konum şalterinin konumu sinyal değerine uymuyor Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sürüş pedalı: Şalter arıası, sıfır konum şalterinin konumu sinyal değerine uymuyor olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Şalter bağlantılarının veya sinyal hattının hat kesintisi veya kısa devresi Pedal arızalı"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 30,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "144",
+      "kodNormal": "144",
+      "aliaslar": [
+        "F1144",
+        "1144"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş pedalı: Düzeltme sırasında hata",
+      "aciklama": "Sürüş pedalı: Düzeltme sırasında hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sürüş pedalı: Düzeltme sırasında hata olarak tanımlanır.",
+      "makineTepkisi": "Hata bildiriliyor",
+      "siddet": "uyari",
+      "nedenler": [
+        "Düzeltme değeri izin verilen alanın dışında Sürüş pedalını yeniden düzeltme"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 30,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "145",
+      "kodNormal": "145",
+      "aliaslar": [
+        "F1145",
+        "1145"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Geri pedal: Gerilim arızası, Sinyal gerilimi çok yüksek veya çok düşük",
+      "aciklama": "Geri pedal: Gerilim arızası, Sinyal gerilimi çok yüksek veya çok düşük Jungheinrich sistem mesajları 01.13 tablosunda bu numara Geri pedal: Gerilim arızası, Sinyal gerilimi çok yüksek veya çok düşük olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Besleme veya şaseye karşı sinyal geriliminin hat kesintisi vea kısa devresi Pedal arızalış"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 30,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "146",
+      "kodNormal": "146",
+      "aliaslar": [
+        "F1146",
+        "1146"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Geri pedal: Şalter arızası, sıfır konum şalterinin konumu sinyale uygun değil ya da sürüş pe...",
+      "aciklama": "Geri pedal: Şalter arızası, sıfır konum şalterinin konumu sinyale uygun değil ya da sürüş pedalı ve geri pedalı uyumlu değil Jungheinrich sistem mesajları 01.13 tablosunda bu numara geri pedal: şalter arızası, sıfır konum şalterinin konumu sinyale uygun değil ya da sürüş pe... olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Şalter bağlantılarının veya sinyal hattının hat kesintisi veya kısa devresi Pedal arızalı"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 31,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "147",
+      "kodNormal": "147",
+      "aliaslar": [
+        "F1147",
+        "1147"
+      ],
+      "sistem": "diger",
+      "baslik": "Geri pedal: Düzeltme sırasında hata",
+      "aciklama": "Geri pedal: Düzeltme sırasında hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Geri pedal: Düzeltme sırasında hata olarak tanımlanır.",
+      "makineTepkisi": "Hata bildiriliyor",
+      "siddet": "uyari",
+      "nedenler": [
+        "Düzeltme değeri izin verilen alanın dışında Geri pedalını yeniden düzeltme"
+      ],
+      "kontroller": [
+        "İlgili konektör ve kablo demetini kontrol edin.",
+        "Arıza sürerse yetkili servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 31,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "148",
+      "kodNormal": "148",
+      "aliaslar": [
+        "F1148",
+        "1148"
+      ],
+      "sistem": "fren",
+      "baslik": "Fren pedalı: Gerilim arızası, Sinyal gerilimi çok yüksek veya çok düşük",
+      "aciklama": "Fren pedalı: Gerilim arızası, Sinyal gerilimi çok yüksek veya çok düşük Jungheinrich sistem mesajları 01.13 tablosunda bu numara Fren pedalı: Gerilim arızası, Sinyal gerilimi çok yüksek veya çok düşük olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Besleme veya şaseye karşı sinyal geriliminin hat kesintisi vea kısa devresi Pedal arızalı"
+      ],
+      "kontroller": [
+        "Fren devresi konektörlerini ve kablo demetini kontrol edin.",
+        "Fren sensörü/şalterinin sinyalini ve mekanik bloğu kontrol edin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 31,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "149",
+      "kodNormal": "149",
+      "aliaslar": [
+        "F1149",
+        "1149"
+      ],
+      "sistem": "fren",
+      "baslik": "Fren pedalı: #alter arızası, sıfır konum ya da son konum şalterinin konumu sinyal değerine u...",
+      "aciklama": "Fren pedalı: #alter arızası, sıfır konum ya da son konum şalterinin konumu sinyal değerine uygun değil; Sıfır konum şalteri ve son konum şalteri birbirine uyumlu değil Jungheinrich sistem mesajları 01.13 tablosunda bu numara fren pedalı: #alter arızası, sıfır konum ya da son konum şalterinin konumu sinyal değerine u... olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Şalter bağlantılarının veya sinyal hattının hat kesintisi veya kısa devresi Pedal arızalı"
+      ],
+      "kontroller": [
+        "Fren devresi konektörlerini ve kablo demetini kontrol edin.",
+        "Fren sensörü/şalterinin sinyalini ve mekanik bloğu kontrol edin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 31,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "150",
+      "kodNormal": "150",
+      "aliaslar": [
+        "F1150",
+        "1150"
+      ],
+      "sistem": "fren",
+      "baslik": "Fren pedalı: Düzeltme sırasında hata",
+      "aciklama": "Fren pedalı: Düzeltme sırasında hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Fren pedalı: Düzeltme sırasında hata olarak tanımlanır.",
+      "makineTepkisi": "Hata bildiriliyor",
+      "siddet": "uyari",
+      "nedenler": [
+        "Düzeltme değeri izin verilen alanın dışında Fren pedalını yeniden düzeltme"
+      ],
+      "kontroller": [
+        "Fren devresi konektörlerini ve kablo demetini kontrol edin.",
+        "Fren sensörü/şalterinin sinyalini ve mekanik bloğu kontrol edin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 31,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "151",
+      "kodNormal": "151",
+      "aliaslar": [
+        "F1151",
+        "1151"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sireksiyon açı sensörü hatası",
+      "aciklama": "Sireksiyon açı sensörü hatası Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sireksiyon açı sensörü hatası olarak tanımlanır.",
+      "makineTepkisi": "Sadece yavaş gidiş mümkün",
+      "siddet": "kisitlayici",
+      "nedenler": [
+        "Direksiyon açı sensörü arızalı, hat kesintisi, kısa devre"
+      ],
+      "kontroller": [
+        "İlgili sigorta, kontaktör ve konektörleri kontrol edin.",
+        "Kablo demetinde ezik, kopukluk veya kısa devre olup olmadığını inceleyin.",
+        "Ölçüm değerleri kılavuzdaki sınırların dışındaysa ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 31,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "156",
+      "kodNormal": "156",
+      "aliaslar": [
+        "F1156",
+        "1156"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Hız sensörleri: Ölçülen hız maksimum izin verilen hızın üzerinde",
+      "aciklama": "Hız sensörleri: Ölçülen hız maksimum izin verilen hızın üzerinde Jungheinrich sistem mesajları 01.13 tablosunda bu numara Hız sensörleri: Ölçülen hız maksimum izin verilen hızın üzerinde olarak tanımlanır.",
+      "makineTepkisi": "Hata bildiriliyor",
+      "siddet": "uyari",
+      "nedenler": [
+        "İstif aracı çok hızlı hareket ediyor",
+        "Sensörler çok fazla impuls iletiyor"
+      ],
+      "kontroller": [
+        "İlgili sigorta, kontaktör ve konektörleri kontrol edin.",
+        "Kablo demetinde ezik, kopukluk veya kısa devre olup olmadığını inceleyin.",
+        "Ölçüm değerleri kılavuzdaki sınırların dışındaysa ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 32,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "157",
+      "kodNormal": "157",
+      "aliaslar": [
+        "F1157",
+        "1157"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sinyal menzil modülasyonu (PWM) kumanda vatfı ”İleri sürüş pompası”: Kumandada hata",
+      "aciklama": "Sinyal menzil modülasyonu (PWM) kumanda vatfı ”İleri sürüş pompası”: Kumandada hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sinyal menzil modülasyonu (PWM) kumanda vatfı ”İleri sürüş pompası”: Kumandada hata olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat kesintisi, beslemeye veya şasiye kısa devre"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 32,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "158",
+      "kodNormal": "158",
+      "aliaslar": [
+        "F1158",
+        "1158"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sinyal menzil modülasyonu (PWM) kumanda valfı “Geri sürüş pompası”: Kumandada hata",
+      "aciklama": "Sinyal menzil modülasyonu (PWM) kumanda valfı “Geri sürüş pompası”: Kumandada hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sinyal menzil modülasyonu (PWM) kumanda valfı “Geri sürüş pompası”: Kumandada hata olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat kesintisi, beslemeye veya şasiye kısa devre"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 32,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "159",
+      "kodNormal": "159",
+      "aliaslar": [
+        "F1159",
+        "1159"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Sinyal menzil modülasyonu (PWM) kumanda valfı \"İndirme”: Kumandada hata",
+      "aciklama": "Sinyal menzil modülasyonu (PWM) kumanda valfı \"İndirme”: Kumandada hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sinyal menzil modülasyonu (PWM) kumanda valfı \"İndirme”: Kumandada hata olarak tanımlanır.",
+      "makineTepkisi": "Çalışma fonksiyonları bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat kesintisi, beslemeye veya şasiye kısa devre"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 32,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "160",
+      "kodNormal": "160",
+      "aliaslar": [
+        "F1160",
+        "1160"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Sinyal menzil modülasyonu (PWM) kumanda valfı ”Kaldırma”: Kumandada hata",
+      "aciklama": "Sinyal menzil modülasyonu (PWM) kumanda valfı ”Kaldırma”: Kumandada hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sinyal menzil modülasyonu (PWM) kumanda valfı ”Kaldırma”: Kumandada hata olarak tanımlanır.",
+      "makineTepkisi": "Çalışma fonksiyonları bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat kesintisi, beslemeye veya şasiye kısa devre"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 33,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "161",
+      "kodNormal": "161",
+      "aliaslar": [
+        "F1161",
+        "1161"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Sinyal menzil modülasyonu (PWM) kumanda valfı \"Öne eğim”: Kumandada hata",
+      "aciklama": "Sinyal menzil modülasyonu (PWM) kumanda valfı \"Öne eğim”: Kumandada hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sinyal menzil modülasyonu (PWM) kumanda valfı \"Öne eğim”: Kumandada hata olarak tanımlanır.",
+      "makineTepkisi": "Çalışma fonksiyonları bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat kesintisi, beslemeye veya şasiye kısa devre"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 33,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "162",
+      "kodNormal": "162",
+      "aliaslar": [
+        "F1162",
+        "1162"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Sinyal menzil modülasyonu (PWM) kumanda valfı “Geriye eğim”: Kumandada hata",
+      "aciklama": "Sinyal menzil modülasyonu (PWM) kumanda valfı “Geriye eğim”: Kumandada hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sinyal menzil modülasyonu (PWM) kumanda valfı “Geriye eğim”: Kumandada hata olarak tanımlanır.",
+      "makineTepkisi": "Çalışma fonksiyonları bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat kesintisi, beslemeye veya şasiye kısa devre"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 33,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "163",
+      "kodNormal": "163",
+      "aliaslar": [
+        "F1163",
+        "1163"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Sinyal menzil modülasyonu (PWM) kumanda valfı *”ZH1 (Yan camlar)”: Kumandada hata",
+      "aciklama": "Sinyal menzil modülasyonu (PWM) kumanda valfı *”ZH1 (Yan camlar)”: Kumandada hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sinyal menzil modülasyonu (PWM) kumanda valfı *”ZH1 (Yan camlar)”: Kumandada hata olarak tanımlanır.",
+      "makineTepkisi": "Çalışma fonksiyonları bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat kesintisi, beslemeye veya şasiye kısa devre"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 33,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "164",
+      "kodNormal": "164",
+      "aliaslar": [
+        "F1164",
+        "1164"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Sinyal menzil modülasyonu (PWM) kumanda valfı *”ZH1 arka (Yan camlar)”: Kumandada hata",
+      "aciklama": "Sinyal menzil modülasyonu (PWM) kumanda valfı *”ZH1 arka (Yan camlar)”: Kumandada hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sinyal menzil modülasyonu (PWM) kumanda valfı *”ZH1 arka (Yan camlar)”: Kumandada hata olarak tanımlanır.",
+      "makineTepkisi": "Çalışma fonksiyonları bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat kesintisi, beslemeye veya şasiye kısa devre"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 33,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "165",
+      "kodNormal": "165",
+      "aliaslar": [
+        "F1165",
+        "1165"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Sinyal menzil modülasyonu (PWM) kumanda valfı *ZH2 ön”: Kumandada hata",
+      "aciklama": "Sinyal menzil modülasyonu (PWM) kumanda valfı *ZH2 ön”: Kumandada hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sinyal menzil modülasyonu (PWM) kumanda valfı *ZH2 ön”: Kumandada hata olarak tanımlanır.",
+      "makineTepkisi": "Çalışma fonksiyonları bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat kesintisi, beslemeye veya şasiye kısa devre"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 33,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "166",
+      "kodNormal": "166",
+      "aliaslar": [
+        "F1166",
+        "1166"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Sinyal menzil modülasyonu (PWM) kumanda valfı ”ZH2 arka”: Kumandada hata",
+      "aciklama": "Sinyal menzil modülasyonu (PWM) kumanda valfı ”ZH2 arka”: Kumandada hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sinyal menzil modülasyonu (PWM) kumanda valfı ”ZH2 arka”: Kumandada hata olarak tanımlanır.",
+      "makineTepkisi": "Çalışma fonksiyonları bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat kesintisi, beslemeye veya şasiye kısa devre"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 34,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "167",
+      "kodNormal": "167",
+      "aliaslar": [
+        "F1167",
+        "1167"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Sinyal menzil modülasyonu (PWM) kumanda valfı “retarder”: Kumandada hata",
+      "aciklama": "Sinyal menzil modülasyonu (PWM) kumanda valfı “retarder”: Kumandada hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sinyal menzil modülasyonu (PWM) kumanda valfı “retarder”: Kumandada hata olarak tanımlanır.",
+      "makineTepkisi": "Arıza bildirimi",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat kesintisi, beslemeye veya şasiye kısa devre"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 34,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "168",
+      "kodNormal": "168",
+      "aliaslar": [
+        "F1168",
+        "1168"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Genel sinyal menzil modülasyonu (PWM) arızası",
+      "aciklama": "Genel sinyal menzil modülasyonu (PWM) arızası Jungheinrich sistem mesajları 01.13 tablosunda bu numara Genel sinyal menzil modülasyonu (PWM) arızası olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Parametre hatası"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 34,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "169",
+      "kodNormal": "169",
+      "aliaslar": [
+        "F1169",
+        "1169"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Çalışma fonksiyonları onay valfı: Kumandada hata",
+      "aciklama": "Çalışma fonksiyonları onay valfı: Kumandada hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Çalışma fonksiyonları onay valfı: Kumandada hata olarak tanımlanır.",
+      "makineTepkisi": "Hata bildiriliyor",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat kesintisi, beslemeye veya şasiye kısa devre"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 34,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "170",
+      "kodNormal": "170",
+      "aliaslar": [
+        "F1170",
+        "1170"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sürüş fonksiyonları onay valfı: Kumandada hata",
+      "aciklama": "Sürüş fonksiyonları onay valfı: Kumandada hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sürüş fonksiyonları onay valfı: Kumandada hata olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat kesintisi, beslemeye veya şasiye kısa devre"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 34,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "171",
+      "kodNormal": "171",
+      "aliaslar": [
+        "F1171",
+        "1171"
+      ],
+      "sistem": "fren",
+      "baslik": "Park freni valfı: Kumandada hata",
+      "aciklama": "Park freni valfı: Kumandada hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Park freni valfı: Kumandada hata olarak tanımlanır.",
+      "makineTepkisi": "Hata bildiriliyor",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat kesintisi, beslemeye veya şasiye kısa devre"
+      ],
+      "kontroller": [
+        "Fren devresi konektörlerini ve kablo demetini kontrol edin.",
+        "Fren sensörü/şalterinin sinyalini ve mekanik bloğu kontrol edin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 34,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "172",
+      "kodNormal": "172",
+      "aliaslar": [
+        "F1172",
+        "1172"
+      ],
+      "sistem": "elektrik",
+      "baslik": "EEPROM: Okuma sırasında hata",
+      "aciklama": "EEPROM: Okuma sırasında hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara EEPROM: Okuma sırasında hata olarak tanımlanır.",
+      "makineTepkisi": "Hata bildiriliyor",
+      "siddet": "uyari",
+      "nedenler": [
+        "En az bir EEPROM grubunda arıza. Muhtemelen EEPROM arızalı"
+      ],
+      "kontroller": [
+        "İlgili sigorta, kontaktör ve konektörleri kontrol edin.",
+        "Kablo demetinde ezik, kopukluk veya kısa devre olup olmadığını inceleyin.",
+        "Ölçüm değerleri kılavuzdaki sınırların dışındaysa ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 34,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "173",
+      "kodNormal": "173",
+      "aliaslar": [
+        "F1173",
+        "1173"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Kurtarma şalteri: Kurtarma fonksiyonu halen aktif",
+      "aciklama": "Kurtarma şalteri: Kurtarma fonksiyonu halen aktif Jungheinrich sistem mesajları 01.13 tablosunda bu numara Kurtarma şalteri: Kurtarma fonksiyonu halen aktif olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Normal modda koruma şalter geri aktarılmadı"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 34,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "174",
+      "kodNormal": "174",
+      "aliaslar": [
+        "F1174",
+        "1174"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Hız sensörü: Sol veya sağ sensörün sinyali hatalı",
+      "aciklama": "Hız sensörü: Sol veya sağ sensörün sinyali hatalı Jungheinrich sistem mesajları 01.13 tablosunda bu numara Hız sensörü: Sol veya sağ sensörün sinyali hatalı olarak tanımlanır.",
+      "makineTepkisi": "Sadece acil durum modunda sürüş mümkün",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensör arızalı"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 34,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "175",
+      "kodNormal": "175",
+      "aliaslar": [
+        "F1175",
+        "1175"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Aktarım valfı ZH2 / ZH3: Kumandada hata",
+      "aciklama": "Aktarım valfı ZH2 / ZH3: Kumandada hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Aktarım valfı ZH2 / ZH3: Kumandada hata olarak tanımlanır.",
+      "makineTepkisi": "Çalışma fonksiyonları bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat kesintisi, beslemeye veya şasiye kısa devre"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 35,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "176",
+      "kodNormal": "176",
+      "aliaslar": [
+        "F1176",
+        "1176"
+      ],
+      "sistem": "motor",
+      "baslik": "Dizel motor: GÜNCEL devirde hata",
+      "aciklama": "Dizel motor: GÜNCEL devirde hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Dizel motor: GÜNCEL devirde hata olarak tanımlanır.",
+      "makineTepkisi": "Hata bildiriliyor",
+      "siddet": "uyari",
+      "nedenler": [
+        "ECU geçersiz güncel devir bildiriyor"
+      ],
+      "kontroller": [
+        "Motor ve sürücü konektörlerini kontrol edin.",
+        "Motor sıcaklığını, alan sargısını ve soğutmayı kontrol edin.",
+        "Arıza sürerse ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 35,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "177",
+      "kodNormal": "177",
+      "aliaslar": [
+        "F1177",
+        "1177"
+      ],
+      "sistem": "motor",
+      "baslik": "Dizel motor: Soğutma suyu sıcaklığında hata",
+      "aciklama": "Dizel motor: Soğutma suyu sıcaklığında hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Dizel motor: Soğutma suyu sıcaklığında hata olarak tanımlanır.",
+      "makineTepkisi": "Hata bildiriliyor",
+      "siddet": "uyari",
+      "nedenler": [
+        "ECU geçersiz soğutma suyu sıcaklığı bildiriyor"
+      ],
+      "kontroller": [
+        "Motor ve sürücü konektörlerini kontrol edin.",
+        "Motor sıcaklığını, alan sargısını ve soğutmayı kontrol edin.",
+        "Arıza sürerse ilgili bileşeni yetkili servise kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 35,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "178",
+      "kodNormal": "178",
+      "aliaslar": [
+        "F1178",
+        "1178"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Motor tipi ayarlı değil",
+      "aciklama": "Motor tipi ayarlı değil Jungheinrich sistem mesajları 01.13 tablosunda bu numara Motor tipi ayarlı değil olarak tanımlanır.",
+      "makineTepkisi": "Hata bildiriliyor Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor tipi için servis parametreleri tanımlanmadı Motor tipini belirtin"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 35,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "179",
+      "kodNormal": "179",
+      "aliaslar": [
+        "F1179",
+        "1179"
+      ],
+      "sistem": "iletisim",
+      "baslik": "ECU ile iletişim arızalı",
+      "aciklama": "ECU ile iletişim arızalı Jungheinrich sistem mesajları 01.13 tablosunda bu numara ECU ile iletişim arızalı olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "ECU'ya giden CAN hattı arızalı, ECU arızalı"
+      ],
+      "kontroller": [
+        "CAN/seri haberleşme kablolarını ve konektörleri kontrol edin.",
+        "Hat sonlandırma direncini kontrol edin.",
+        "Gerekirse ilgili kontrol ünitesini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 35,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "180",
+      "kodNormal": "180",
+      "aliaslar": [
+        "F1180",
+        "1180"
+      ],
+      "sistem": "fren",
+      "baslik": "Kendi kendine test: Park freni kavramıyor",
+      "aciklama": "Kendi kendine test: Park freni kavramıyor Jungheinrich sistem mesajları 01.13 tablosunda bu numara Kendi kendine test: Park freni kavramıyor olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Park freni veya valfı arızalı"
+      ],
+      "kontroller": [
+        "Fren devresi konektörlerini ve kablo demetini kontrol edin.",
+        "Fren sensörü/şalterinin sinyalini ve mekanik bloğu kontrol edin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 35,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "181",
+      "kodNormal": "181",
+      "aliaslar": [
+        "F1181",
+        "1181"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Kendi kendine test: En az bir basınç sensörü geçersiz sinyal değeri sunuyor",
+      "aciklama": "Kendi kendine test: En az bir basınç sensörü geçersiz sinyal değeri sunuyor Jungheinrich sistem mesajları 01.13 tablosunda bu numara Kendi kendine test: En az bir basınç sensörü geçersiz sinyal değeri sunuyor olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Basınç sensörü arızalı"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 35,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "182",
+      "kodNormal": "182",
+      "aliaslar": [
+        "F1182",
+        "1182"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Kendi kendine test: Ölçülen besleme basıncı geçersiz alanda",
+      "aciklama": "Kendi kendine test: Ölçülen besleme basıncı geçersiz alanda Jungheinrich sistem mesajları 01.13 tablosunda bu numara Kendi kendine test: Ölçülen besleme basıncı geçersiz alanda olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Besleme pompasında arıa, Hidrolik sistemde arıza"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 35,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "183",
+      "kodNormal": "183",
+      "aliaslar": [
+        "F1183",
+        "1183"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Kendi kendine test: Sürüş pompası onay valfı açık konumda sıkışıyor",
+      "aciklama": "Kendi kendine test: Sürüş pompası onay valfı açık konumda sıkışıyor Jungheinrich sistem mesajları 01.13 tablosunda bu numara Kendi kendine test: Sürüş pompası onay valfı açık konumda sıkışıyor olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Onay valfı arızalı"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 35,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "184",
+      "kodNormal": "184",
+      "aliaslar": [
+        "F1184",
+        "1184"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Kendi kendine test: Sürüş pompası onay valfı kapalı konumda sıkışıyor",
+      "aciklama": "Kendi kendine test: Sürüş pompası onay valfı kapalı konumda sıkışıyor Jungheinrich sistem mesajları 01.13 tablosunda bu numara Kendi kendine test: Sürüş pompası onay valfı kapalı konumda sıkışıyor olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Onay valfı arızalı"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 36,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "185",
+      "kodNormal": "185",
+      "aliaslar": [
+        "F1185",
+        "1185"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Kendi kendine test: Basınç sesörleri değişmiş",
+      "aciklama": "Kendi kendine test: Basınç sesörleri değişmiş Jungheinrich sistem mesajları 01.13 tablosunda bu numara Kendi kendine test: Basınç sesörleri değişmiş olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Basınç sensörleri takılı veya bağlantı soketi değişmiş"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 36,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "186",
+      "kodNormal": "186",
+      "aliaslar": [
+        "F1186",
+        "1186"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Kendi kendine test: Otomatik test uygulama sırasında kesildi",
+      "aciklama": "Kendi kendine test: Otomatik test uygulama sırasında kesildi Jungheinrich sistem mesajları 01.13 tablosunda bu numara Kendi kendine test: Otomatik test uygulama sırasında kesildi olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor devri fazla düşük, koltuk şalteri basılı değil"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 36,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "187",
+      "kodNormal": "187",
+      "aliaslar": [
+        "F1187",
+        "1187"
+      ],
+      "sistem": "diger",
+      "baslik": "Yağ sıcaklığı: Geerli alanın dışında",
+      "aciklama": "Yağ sıcaklığı: Geerli alanın dışında Jungheinrich sistem mesajları 01.13 tablosunda bu numara Yağ sıcaklığı: Geerli alanın dışında olarak tanımlanır.",
+      "makineTepkisi": "Radyatör fanı devri yükseliyor",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yağ sıcaklık sensörü arızalı",
+        "Kısa devre veya hat kesintisi"
+      ],
+      "kontroller": [
+        "İlgili konektör ve kablo demetini kontrol edin.",
+        "Arıza sürerse yetkili servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 36,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "188",
+      "kodNormal": "188",
+      "aliaslar": [
+        "F1188",
+        "1188"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Depo sensörü: Geerli alanın dışında",
+      "aciklama": "Depo sensörü: Geerli alanın dışında Jungheinrich sistem mesajları 01.13 tablosunda bu numara Depo sensörü: Geerli alanın dışında olarak tanımlanır.",
+      "makineTepkisi": "Hata bildiriliyor",
+      "siddet": "uyari",
+      "nedenler": [
+        "Depo sensörü arızalı",
+        "Kısa devre veya hat kesintisi"
+      ],
+      "kontroller": [
+        "İlgili sigorta, kontaktör ve konektörleri kontrol edin.",
+        "Kablo demetinde ezik, kopukluk veya kısa devre olup olmadığını inceleyin.",
+        "Ölçüm değerleri kılavuzdaki sınırların dışındaysa ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 36,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "189",
+      "kodNormal": "189",
+      "aliaslar": [
+        "F1189",
+        "1189"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma yüksekliği sensörü: Sinyal arızası",
+      "aciklama": "Kaldırma yüksekliği sensörü: Sinyal arızası Jungheinrich sistem mesajları 01.13 tablosunda bu numara Kaldırma yüksekliği sensörü: Sinyal arızası olarak tanımlanır.",
+      "makineTepkisi": "Hata bildiriliyor",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma yüksekliği sensörü arızalı",
+        "Kısa devre veya Hat kesintisi"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 36,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "190",
+      "kodNormal": "190",
+      "aliaslar": [
+        "F1190",
+        "1190"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Parametre hatası: İşletime alma sırasında gerekli parametre getirilmedi",
+      "aciklama": "Parametre hatası: İşletime alma sırasında gerekli parametre getirilmedi Jungheinrich sistem mesajları 01.13 tablosunda bu numara Parametre hatası: İşletime alma sırasında gerekli parametre getirilmedi olarak tanımlanır.",
+      "makineTepkisi": "Sürüş ve çalışma fonksiyonları kilitlendi",
+      "siddet": "uyari",
+      "nedenler": [
+        "İşletime almayı JUDIT ile uygulayın ve parametreyi ayarlayın"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 36,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "192",
+      "kodNormal": "192",
+      "aliaslar": [
+        "F1192",
+        "1192"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Yan sürgü sensörü: Düzeltme sırasında hata",
+      "aciklama": "Yan sürgü sensörü: Düzeltme sırasında hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Yan sürgü sensörü: Düzeltme sırasında hata olarak tanımlanır.",
+      "makineTepkisi": "Hata bildiriliyor",
+      "siddet": "uyari",
+      "nedenler": [
+        "Düzeltme değeri izin verilen alanın dışında"
+      ],
+      "kontroller": [
+        "İlgili sigorta, kontaktör ve konektörleri kontrol edin.",
+        "Kablo demetinde ezik, kopukluk veya kısa devre olup olmadığını inceleyin.",
+        "Ölçüm değerleri kılavuzdaki sınırların dışındaysa ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 37,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "194",
+      "kodNormal": "194",
+      "aliaslar": [
+        "F1194",
+        "1194"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Sensör değeri \"Yan itici- orta\" geçersiz",
+      "aciklama": "Sensör değeri \"Yan itici- orta\" geçersiz Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sensör değeri \"Yan itici- orta\" geçersiz olarak tanımlanır.",
+      "makineTepkisi": "Sürüş bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sensörün \"Yan iticisi-orta\" arızalı",
+        "kısa devre veya hat kopması"
+      ],
+      "kontroller": [
+        "Sürüş kumandası (pedal/joystick) konektörünü ve kablo demetini kontrol edin.",
+        "Nominal değer vericisinin besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse kumandayı değiştirin ve kalibrasyonu yenileyin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 37,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "195",
+      "kodNormal": "195",
+      "aliaslar": [
+        "F1195",
+        "1195"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Aktarım valfı ZH2 / ZH3: Kumandada Hata",
+      "aciklama": "Aktarım valfı ZH2 / ZH3: Kumandada Hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara Aktarım valfı ZH2 / ZH3: Kumandada Hata olarak tanımlanır.",
+      "makineTepkisi": "Çalışma fonksiyonları bloke",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hat kesintisi, beslemeye veya şasiye kısa devre"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 37,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "202",
+      "kodNormal": "202",
+      "aliaslar": [
+        "F1202",
+        "1202"
+      ],
+      "sistem": "diger",
+      "baslik": "Teachin'de çok sayıda referans noktası",
+      "aciklama": "Teachin'de çok sayıda referans noktası Jungheinrich sistem mesajları 01.13 tablosunda bu numara Teachin'de çok sayıda referans noktası olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [
+        "İlgili konektör ve kablo demetini kontrol edin.",
+        "Arıza sürerse yetkili servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 37,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "203",
+      "kodNormal": "203",
+      "aliaslar": [
+        "F1203",
+        "1203"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sensör değerlendirme geçerli değil",
+      "aciklama": "Sensör değerlendirme geçerli değil Jungheinrich sistem mesajları 01.13 tablosunda bu numara Sensör değerlendirme geçerli değil olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [
+        "İlgili sigorta, kontaktör ve konektörleri kontrol edin.",
+        "Kablo demetinde ezik, kopukluk veya kısa devre olup olmadığını inceleyin.",
+        "Ölçüm değerleri kılavuzdaki sınırların dışındaysa ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 37,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "204",
+      "kodNormal": "204",
+      "aliaslar": [
+        "F1204",
+        "1204"
+      ],
+      "sistem": "elektrik",
+      "baslik": "EEPROM okumasında hata",
+      "aciklama": "EEPROM okumasında hata Jungheinrich sistem mesajları 01.13 tablosunda bu numara EEPROM okumasında hata olarak tanımlanır.",
+      "makineTepkisi": "Tüm ayarlar standart değerlerde etkinleşir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [
+        "İlgili sigorta, kontaktör ve konektörleri kontrol edin.",
+        "Kablo demetinde ezik, kopukluk veya kısa devre olup olmadığını inceleyin.",
+        "Ölçüm değerleri kılavuzdaki sınırların dışındaysa ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 37,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "205",
+      "kodNormal": "205",
+      "aliaslar": [
+        "F1205",
+        "1205"
+      ],
+      "sistem": "diger",
+      "baslik": "İstif aracında Multipilot yok",
+      "aciklama": "İstif aracında Multipilot yok Jungheinrich sistem mesajları 01.13 tablosunda bu numara İstif aracında Multipilot yok olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [
+        "İlgili konektör ve kablo demetini kontrol edin.",
+        "Arıza sürerse yetkili servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 37,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "250",
+      "kodNormal": "250",
+      "aliaslar": [
+        "F1250",
+        "1250"
+      ],
+      "sistem": "diger",
+      "baslik": "emir verilmesinde yükseklik gerçek değeri yoktur",
+      "aciklama": "emir verilmesinde yükseklik gerçek değeri yoktur Jungheinrich sistem mesajları 01.13 tablosunda bu numara emir verilmesinde yükseklik gerçek değeri yoktur olarak tanımlanır.",
+      "makineTepkisi": "Girilen yatak düzlemi için yükseklik geçersizdir",
+      "siddet": "uyari",
+      "nedenler": [],
+      "kontroller": [
+        "İlgili konektör ve kablo demetini kontrol edin.",
+        "Arıza sürerse yetkili servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 38,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "253",
+      "kodNormal": "253",
+      "aliaslar": [
+        "F1253",
+        "1253"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Dönüş alanı geçersiz Tahrik aşırı yüklendi rampada aşırı yük",
+      "aciklama": "Dönüş alanı geçersiz Tahrik aşırı yüklendi rampada aşırı yük Jungheinrich sistem mesajları 01.13 tablosunda bu numara Dönüş alanı geçersiz Tahrik aşırı yüklendi rampada aşırı yük olarak tanımlanır.",
+      "makineTepkisi": "Ana yalıtım açılıyor",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yok, istif aracını kapatın ve tekrar açın"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 38,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    }
+  ]
+}

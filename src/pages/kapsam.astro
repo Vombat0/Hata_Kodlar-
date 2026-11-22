@@ -71,7 +71,9 @@ const jsonLd = {
       {ist.markalar.map((marka) => (
         <section class="kapsam-marka" aria-labelledby={`kapsam-${marka.id}`}>
           <div class="kapsam-marka-baslik">
-            <h3 id={`kapsam-${marka.id}`}><a href={`/${marka.id}/`}>{marka.ad}</a></h3>
+            <h3 id={`kapsam-${marka.id}`}>
+              {marka.kodSayisi > 0 ? <a href={`/${marka.id}/`}>{marka.ad}</a> : <span>{marka.ad}</span>}
+            </h3>
             <span class="seriesay">{marka.seriSayisi} seri · {marka.kodSayisi} kod</span>
           </div>
           <div class="kapsam-seriler">

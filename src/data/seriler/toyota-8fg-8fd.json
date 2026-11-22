@@ -1,0 +1,3512 @@
+{
+  "marka": "toyota",
+  "seri": "8fg-8fd",
+  "modelAdi": "Toyota 8FG / 8FD 15-35 (4Y motor, servis kılavuzu)",
+  "kaynakBelge": "Toyota 8FG/8FD 15-35 Servis Kılavuzu — Teşhis Kodlarının Listesi (19-6 … 19-12)",
+  "kaynakSurum": "2003",
+  "kaynakDil": "TR",
+  "kaynakUrl": "",
+  "kodlar": [
+    {
+      "kod": "01-1",
+      "kodNormal": "01-1",
+      "aliaslar": [
+        "011"
+      ],
+      "sistem": "motor",
+      "baslik": "Yakıt geri besleme kontrol hatası (benzin) — zengin karışım",
+      "aciklama": "Yakıt geri besleme kontrol hatası (benzin) — zengin karışım. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt geri besleme kontrol hatası (benzin) — zengin karışım"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "01-2",
+      "kodNormal": "01-2",
+      "aliaslar": [
+        "012"
+      ],
+      "sistem": "motor",
+      "baslik": "Yakıt geri besleme kontrol hatası (benzin) — fakir karışım",
+      "aciklama": "Yakıt geri besleme kontrol hatası (benzin) — fakir karışım. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt geri besleme kontrol hatası (benzin) — fakir karışım"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "01-3",
+      "kodNormal": "01-3",
+      "aliaslar": [
+        "013"
+      ],
+      "sistem": "motor",
+      "baslik": "Yakıt geri besleme kontrol hatası (LPG) — zengin karışım",
+      "aciklama": "Yakıt geri besleme kontrol hatası (LPG) — zengin karışım. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt geri besleme kontrol hatası (LPG) — zengin karışım"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "01-4",
+      "kodNormal": "01-4",
+      "aliaslar": [
+        "014"
+      ],
+      "sistem": "motor",
+      "baslik": "Yakıt geri besleme kontrol hatası (LPG) — fakir karışım",
+      "aciklama": "Yakıt geri besleme kontrol hatası (LPG) — fakir karışım. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt geri besleme kontrol hatası (LPG) — fakir karışım"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "01-5",
+      "kodNormal": "01-5",
+      "aliaslar": [
+        "015"
+      ],
+      "sistem": "motor",
+      "baslik": "O2 sensörü açık devre anormalliği",
+      "aciklama": "O2 sensörü açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "O2 sensörü açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "01-6",
+      "kodNormal": "01-6",
+      "aliaslar": [
+        "016"
+      ],
+      "sistem": "motor",
+      "baslik": "O2 sensörü ısıtıcısı açık devre anormalliği",
+      "aciklama": "O2 sensörü ısıtıcısı açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "O2 sensörü ısıtıcısı açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "02-1",
+      "kodNormal": "02-1",
+      "aliaslar": [
+        "021"
+      ],
+      "sistem": "motor",
+      "baslik": "Emme sıcaklığı sensörü açık devre anormalliği",
+      "aciklama": "Emme sıcaklığı sensörü açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Emme sıcaklığı sensörü açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "02-2",
+      "kodNormal": "02-2",
+      "aliaslar": [
+        "022"
+      ],
+      "sistem": "motor",
+      "baslik": "Emme sıcaklığı sensörü kapalı devre anormalliği",
+      "aciklama": "Emme sıcaklığı sensörü kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Emme sıcaklığı sensörü kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "03-1",
+      "kodNormal": "03-1",
+      "aliaslar": [
+        "031"
+      ],
+      "sistem": "motor",
+      "baslik": "Emme borusu basıncı sensörü açık devre anormalliği",
+      "aciklama": "Emme borusu basıncı sensörü açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Emme borusu basıncı sensörü açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "03-2",
+      "kodNormal": "03-2",
+      "aliaslar": [
+        "032"
+      ],
+      "sistem": "motor",
+      "baslik": "Emme borusu basıncı sensörü kapalı devre anormalliği",
+      "aciklama": "Emme borusu basıncı sensörü kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Emme borusu basıncı sensörü kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "04-1",
+      "kodNormal": "04-1",
+      "aliaslar": [
+        "041"
+      ],
+      "sistem": "motor",
+      "baslik": "Soğutucu sıcaklığı sensörü açık devre anormalliği",
+      "aciklama": "Soğutucu sıcaklığı sensörü açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Soğutucu sıcaklığı sensörü açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "04-2",
+      "kodNormal": "04-2",
+      "aliaslar": [
+        "042"
+      ],
+      "sistem": "motor",
+      "baslik": "Soğutucu sıcaklığı sensörü kapalı devre anormalliği",
+      "aciklama": "Soğutucu sıcaklığı sensörü kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Soğutucu sıcaklığı sensörü kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "05-1",
+      "kodNormal": "05-1",
+      "aliaslar": [
+        "051"
+      ],
+      "sistem": "motor",
+      "baslik": "Yakıt besleme pozisyon sensörü 1 açık devre anormalliği",
+      "aciklama": "Yakıt besleme pozisyon sensörü 1 açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt besleme pozisyon sensörü 1 açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "05-2",
+      "kodNormal": "05-2",
+      "aliaslar": [
+        "052"
+      ],
+      "sistem": "motor",
+      "baslik": "Yakıt besleme pozisyon sensörü 1 kapalı devre anormalliği",
+      "aciklama": "Yakıt besleme pozisyon sensörü 1 kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt besleme pozisyon sensörü 1 kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "05-3",
+      "kodNormal": "05-3",
+      "aliaslar": [
+        "053"
+      ],
+      "sistem": "motor",
+      "baslik": "Yakıt besleme pozisyon sensörü 2 açık devre anormalliği",
+      "aciklama": "Yakıt besleme pozisyon sensörü 2 açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt besleme pozisyon sensörü 2 açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "05-4",
+      "kodNormal": "05-4",
+      "aliaslar": [
+        "054"
+      ],
+      "sistem": "motor",
+      "baslik": "Yakıt besleme pozisyon sensörü 2 kapalı devre anormalliği",
+      "aciklama": "Yakıt besleme pozisyon sensörü 2 kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt besleme pozisyon sensörü 2 kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "05-5",
+      "kodNormal": "05-5",
+      "aliaslar": [
+        "055"
+      ],
+      "sistem": "motor",
+      "baslik": "Yakıt besleme pozisyon sensörü dengeleme anormalliği",
+      "aciklama": "Yakıt besleme pozisyon sensörü dengeleme anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt besleme pozisyon sensörü dengeleme anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "05-6",
+      "kodNormal": "05-6",
+      "aliaslar": [
+        "056"
+      ],
+      "sistem": "motor",
+      "baslik": "Yakıt besleme pozisyon sensörü aralık dışı anormalliği",
+      "aciklama": "Yakıt besleme pozisyon sensörü aralık dışı anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt besleme pozisyon sensörü aralık dışı anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "06-1",
+      "kodNormal": "06-1",
+      "aliaslar": [
+        "061"
+      ],
+      "sistem": "motor",
+      "baslik": "Yakıt besleme motoru sürücü devresi açık devre anormalliği",
+      "aciklama": "Yakıt besleme motoru sürücü devresi açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt besleme motoru sürücü devresi açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "06-2",
+      "kodNormal": "06-2",
+      "aliaslar": [
+        "062"
+      ],
+      "sistem": "motor",
+      "baslik": "Yakıt besleme motoru sürücü devresi kapalı devre anormalliği",
+      "aciklama": "Yakıt besleme motoru sürücü devresi kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt besleme motoru sürücü devresi kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "06-3",
+      "kodNormal": "06-3",
+      "aliaslar": [
+        "063"
+      ],
+      "sistem": "motor",
+      "baslik": "Yakıt besleme motoru güç besleme devresi açık devre anormalliği",
+      "aciklama": "Yakıt besleme motoru güç besleme devresi açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt besleme motoru güç besleme devresi açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "06-4",
+      "kodNormal": "06-4",
+      "aliaslar": [
+        "064"
+      ],
+      "sistem": "motor",
+      "baslik": "Yakıt besleme motoru güç besleme devresi kapalı devre anormalliği",
+      "aciklama": "Yakıt besleme motoru güç besleme devresi kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt besleme motoru güç besleme devresi kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "06-5",
+      "kodNormal": "06-5",
+      "aliaslar": [
+        "065"
+      ],
+      "sistem": "motor",
+      "baslik": "Yakıt besleme motoru tutukluk yapma anormalliği",
+      "aciklama": "Yakıt besleme motoru tutukluk yapma anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt besleme motoru tutukluk yapma anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "06-6",
+      "kodNormal": "06-6",
+      "aliaslar": [
+        "066"
+      ],
+      "sistem": "motor",
+      "baslik": "Elektronik yakıt besleme sistemi anormalliği",
+      "aciklama": "Elektronik yakıt besleme sistemi anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Elektronik yakıt besleme sistemi anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "07-1",
+      "kodNormal": "07-1",
+      "aliaslar": [
+        "071"
+      ],
+      "sistem": "motor",
+      "baslik": "Hava-yakıt oranı motoru açık devre anormalliği",
+      "aciklama": "Hava-yakıt oranı motoru açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hava-yakıt oranı motoru açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "08-1",
+      "kodNormal": "08-1",
+      "aliaslar": [
+        "081"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Düşük gerilim (akü hattı açık) hatası",
+      "aciklama": "Düşük gerilim (akü hattı açık) hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Düşük gerilim (akü hattı açık) hatası"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "09-1",
+      "kodNormal": "09-1",
+      "aliaslar": [
+        "091"
+      ],
+      "sistem": "motor",
+      "baslik": "Ateşleme sinyali hatası",
+      "aciklama": "Ateşleme sinyali hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ateşleme sinyali hatası"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "0A-1",
+      "kodNormal": "0A-1",
+      "aliaslar": [
+        "0A1",
+        "0a-1"
+      ],
+      "sistem": "motor",
+      "baslik": "Yakıt spesifikasyonu belirleme sinyali hatası",
+      "aciklama": "Yakıt spesifikasyonu belirleme sinyali hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt spesifikasyonu belirleme sinyali hatası"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "0A-2",
+      "kodNormal": "0A-2",
+      "aliaslar": [
+        "0A2",
+        "0a-2"
+      ],
+      "sistem": "motor",
+      "baslik": "Yakıt spesifikasyonu değiştirme şalteri hatası",
+      "aciklama": "Yakıt spesifikasyonu değiştirme şalteri hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt spesifikasyonu değiştirme şalteri hatası"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "0A-3",
+      "kodNormal": "0A-3",
+      "aliaslar": [
+        "0A3",
+        "0a-3"
+      ],
+      "sistem": "motor",
+      "baslik": "Yakıt spesifikasyonu tipi uyumsuzluğu",
+      "aciklama": "Yakıt spesifikasyonu tipi uyumsuzluğu. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yakıt spesifikasyonu tipi uyumsuzluğu"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "0A-4",
+      "kodNormal": "0A-4",
+      "aliaslar": [
+        "0A4",
+        "0a-4"
+      ],
+      "sistem": "motor",
+      "baslik": "Motor spesifikasyonu belirleme hatası",
+      "aciklama": "Motor spesifikasyonu belirleme hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor spesifikasyonu belirleme hatası"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 86,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "13-1",
+      "kodNormal": "13-1",
+      "aliaslar": [
+        "131"
+      ],
+      "sistem": "motor",
+      "baslik": "Motor rölesi temas noktası açık devre anormalliği",
+      "aciklama": "Motor rölesi temas noktası açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor rölesi temas noktası açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "13-2",
+      "kodNormal": "13-2",
+      "aliaslar": [
+        "132"
+      ],
+      "sistem": "motor",
+      "baslik": "Motor rölesi temas noktası kapalı devre anormalliği",
+      "aciklama": "Motor rölesi temas noktası kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor rölesi temas noktası kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "13-3",
+      "kodNormal": "13-3",
+      "aliaslar": [
+        "133"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Motor rölesi açık devre veya yük kapalı devre anormalliği",
+      "aciklama": "Motor rölesi açık devre veya yük kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Motor rölesi açık devre veya yük kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "15-1",
+      "kodNormal": "15-1",
+      "aliaslar": [
+        "151"
+      ],
+      "sistem": "motor",
+      "baslik": "NMR şalteri açık devre anormalliği",
+      "aciklama": "NMR şalteri açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "NMR şalteri açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "15-2",
+      "kodNormal": "15-2",
+      "aliaslar": [
+        "152"
+      ],
+      "sistem": "motor",
+      "baslik": "NMR şalteri kapalı devre anormalliği",
+      "aciklama": "NMR şalteri kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "NMR şalteri kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "15-3",
+      "kodNormal": "15-3",
+      "aliaslar": [
+        "153"
+      ],
+      "sistem": "motor",
+      "baslik": "Rölanti / NMR şalteri eşzamanlı açık (ON) hatası",
+      "aciklama": "Rölanti / NMR şalteri eşzamanlı açık (ON) hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Rölanti / NMR şalteri eşzamanlı açık (ON) hatası"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "16-1",
+      "kodNormal": "16-1",
+      "aliaslar": [
+        "161"
+      ],
+      "sistem": "motor",
+      "baslik": "Rölanti şalteri açık devre anormalliği",
+      "aciklama": "Rölanti şalteri açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Rölanti şalteri açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "16-2",
+      "kodNormal": "16-2",
+      "aliaslar": [
+        "162"
+      ],
+      "sistem": "motor",
+      "baslik": "Rölanti şalteri kapalı devre anormalliği",
+      "aciklama": "Rölanti şalteri kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Rölanti şalteri kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "18-1",
+      "kodNormal": "18-1",
+      "aliaslar": [
+        "181"
+      ],
+      "sistem": "motor",
+      "baslik": "Eksantrik kam açısı sensörü açık devre anormalliği / motor devir sensörü açık devre",
+      "aciklama": "Eksantrik kam açısı sensörü açık devre anormalliği / motor devir sensörü açık devre. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS / ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Eksantrik kam açısı sensörü açık devre anormalliği / motor devir sensörü açık devre"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "18-2",
+      "kodNormal": "18-2",
+      "aliaslar": [
+        "182"
+      ],
+      "sistem": "motor",
+      "baslik": "Eksantrik kam açısı sensörü açık devre / motor devir sensörü şasi kapalı devre",
+      "aciklama": "Eksantrik kam açısı sensörü açık devre / motor devir sensörü şasi kapalı devre. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS / ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Eksantrik kam açısı sensörü açık devre / motor devir sensörü şasi kapalı devre"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "18-3",
+      "kodNormal": "18-3",
+      "aliaslar": [
+        "183"
+      ],
+      "sistem": "motor",
+      "baslik": "Krank açısı sensörü açık devre anormalliği",
+      "aciklama": "Krank açısı sensörü açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Krank açısı sensörü açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sensör/röle konektörünü ve kablo demetini kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Arıza sürerse ilgili bileşeni değiştirin ve motor ayarlarını kontrol ettirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "1F-1",
+      "kodNormal": "1F-1",
+      "aliaslar": [
+        "1F1",
+        "1f-1"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "1F-2",
+      "kodNormal": "1F-2",
+      "aliaslar": [
+        "1F2",
+        "1f-2"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "1F-3",
+      "kodNormal": "1F-3",
+      "aliaslar": [
+        "1F3",
+        "1f-3"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "1F-4",
+      "kodNormal": "1F-4",
+      "aliaslar": [
+        "1F4",
+        "1f-4"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "1F-5",
+      "kodNormal": "1F-5",
+      "aliaslar": [
+        "1F5",
+        "1f-5"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "1F-6",
+      "kodNormal": "1F-6",
+      "aliaslar": [
+        "1F6",
+        "1f-6"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "1F-7",
+      "kodNormal": "1F-7",
+      "aliaslar": [
+        "1F7",
+        "1f-7"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "1F-8",
+      "kodNormal": "1F-8",
+      "aliaslar": [
+        "1F8",
+        "1f-8"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "41-1",
+      "kodNormal": "41-1",
+      "aliaslar": [
+        "411"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Eşleme konnektörü açık devre hatası",
+      "aciklama": "Eşleme konnektörü açık devre hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Eşleme konnektörü açık devre hatası"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "51-1",
+      "kodNormal": "51-1",
+      "aliaslar": [
+        "511"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Hız sensörü açık devre hatası",
+      "aciklama": "Hız sensörü açık devre hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hız sensörü açık devre hatası"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "51-2",
+      "kodNormal": "51-2",
+      "aliaslar": [
+        "512"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Hız sensörü şasi kısa devre hatası",
+      "aciklama": "Hız sensörü şasi kısa devre hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Hız sensörü şasi kısa devre hatası"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "52-1",
+      "kodNormal": "52-1",
+      "aliaslar": [
+        "521"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sapma oranı sensörü açık devre anormalliği",
+      "aciklama": "Sapma oranı sensörü açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sapma oranı sensörü açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "52-2",
+      "kodNormal": "52-2",
+      "aliaslar": [
+        "522"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sapma oranı sensörü VCC kapalı devre anormalliği",
+      "aciklama": "Sapma oranı sensörü VCC kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sapma oranı sensörü VCC kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "52-3",
+      "kodNormal": "52-3",
+      "aliaslar": [
+        "523"
+      ],
+      "sistem": "elektrik",
+      "baslik": "Sapma oranı sensörü nötr gerilim hatası",
+      "aciklama": "Sapma oranı sensörü nötr gerilim hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Sapma oranı sensörü nötr gerilim hatası"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "54-1",
+      "kodNormal": "54-1",
+      "aliaslar": [
+        "541"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Dönüş kilidi solenoidi açık devre veya yük kapalı devre anormalliği",
+      "aciklama": "Dönüş kilidi solenoidi açık devre veya yük kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Dönüş kilidi solenoidi açık devre veya yük kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "61-1",
+      "kodNormal": "61-1",
+      "aliaslar": [
+        "611"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Yük sensörü açık devre anormalliği",
+      "aciklama": "Yük sensörü açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yük sensörü açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "61-2",
+      "kodNormal": "61-2",
+      "aliaslar": [
+        "612"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Yük sensörü VCC kapalı devre anormalliği",
+      "aciklama": "Yük sensörü VCC kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yük sensörü VCC kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 87,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "62-1",
+      "kodNormal": "62-1",
+      "aliaslar": [
+        "621"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Devirme açısı sensörü açık devre anormalliği",
+      "aciklama": "Devirme açısı sensörü açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Devirme açısı sensörü açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "62-2",
+      "kodNormal": "62-2",
+      "aliaslar": [
+        "622"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Devirme açısı sensörü VCC kapalı devre anormalliği",
+      "aciklama": "Devirme açısı sensörü VCC kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Devirme açısı sensörü VCC kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "63-1",
+      "kodNormal": "63-1",
+      "aliaslar": [
+        "631"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Devirme şalterleri eşzamanlı açık devre hatası",
+      "aciklama": "Devirme şalterleri eşzamanlı açık devre hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Devirme şalterleri eşzamanlı açık devre hatası"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "63-2",
+      "kodNormal": "63-2",
+      "aliaslar": [
+        "632"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Devirme şalteri ileri devirme anahtarı kapalı devre hatası",
+      "aciklama": "Devirme şalteri ileri devirme anahtarı kapalı devre hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Devirme şalteri ileri devirme anahtarı kapalı devre hatası"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "63-3",
+      "kodNormal": "63-3",
+      "aliaslar": [
+        "633"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Devirme şalteri geri devirme anahtarı kapalı devre hatası",
+      "aciklama": "Devirme şalteri geri devirme anahtarı kapalı devre hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Devirme şalteri geri devirme anahtarı kapalı devre hatası"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "64-1",
+      "kodNormal": "64-1",
+      "aliaslar": [
+        "641"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırıcı indirme kilitleme solenoidi açık devre veya yük kapalı devre anormalliği",
+      "aciklama": "Kaldırıcı indirme kilitleme solenoidi açık devre veya yük kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırıcı indirme kilitleme solenoidi açık devre veya yük kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "65-1",
+      "kodNormal": "65-1",
+      "aliaslar": [
+        "651"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Devirme kontrol solenoidi açık devre veya yük kapalı devre anormalliği",
+      "aciklama": "Devirme kontrol solenoidi açık devre veya yük kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Devirme kontrol solenoidi açık devre veya yük kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "66-1",
+      "kodNormal": "66-1",
+      "aliaslar": [
+        "661"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Devirme açısı eşleme değeri aralık dışı hatası",
+      "aciklama": "Devirme açısı eşleme değeri aralık dışı hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Devirme açısı eşleme değeri aralık dışı hatası"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "67-1",
+      "kodNormal": "67-1",
+      "aliaslar": [
+        "671"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma yüksekliği şalteri açık devre anormalliği",
+      "aciklama": "Kaldırma yüksekliği şalteri açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma yüksekliği şalteri açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "68-1",
+      "kodNormal": "68-1",
+      "aliaslar": [
+        "681"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırıcı şalteri yükseltme ve indirme eşzamanlı açık (ON) hatası",
+      "aciklama": "Kaldırıcı şalteri yükseltme ve indirme eşzamanlı açık (ON) hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırıcı şalteri yükseltme ve indirme eşzamanlı açık (ON) hatası"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "68-2",
+      "kodNormal": "68-2",
+      "aliaslar": [
+        "682"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırıcı şalteri yükseltme anahtarı kapalı devre anormalliği",
+      "aciklama": "Kaldırıcı şalteri yükseltme anahtarı kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırıcı şalteri yükseltme anahtarı kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "68-3",
+      "kodNormal": "68-3",
+      "aliaslar": [
+        "683"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırıcı şalteri indirme anahtarı kapalı devre anormalliği",
+      "aciklama": "Kaldırıcı şalteri indirme anahtarı kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırıcı şalteri indirme anahtarı kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "69-1",
+      "kodNormal": "69-1",
+      "aliaslar": [
+        "691"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Geriye devirme kilidi solenoidi açık devre veya yük kapalı devre anormalliği",
+      "aciklama": "Geriye devirme kilidi solenoidi açık devre veya yük kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Geriye devirme kilidi solenoidi açık devre veya yük kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "71-1",
+      "kodNormal": "71-1",
+      "aliaslar": [
+        "711"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Lastik açısı sensörü açık devre anormalliği",
+      "aciklama": "Lastik açısı sensörü açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Lastik açısı sensörü açık devre anormalliği"
+      ],
+      "kontroller": [
+        "Direksiyon açı sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse sensörü değiştirin ve direksiyon kalibrasyonunu yapın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "71-2",
+      "kodNormal": "71-2",
+      "aliaslar": [
+        "712"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Lastik açısı sensörü VCC kapalı devre anormalliği",
+      "aciklama": "Lastik açısı sensörü VCC kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Lastik açısı sensörü VCC kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "Direksiyon açı sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse sensörü değiştirin ve direksiyon kalibrasyonunu yapın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "72-1",
+      "kodNormal": "72-1",
+      "aliaslar": [
+        "721"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon-tekerlek açısı sensörü SS1 açık devre anormalliği",
+      "aciklama": "Direksiyon-tekerlek açısı sensörü SS1 açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Direksiyon-tekerlek açısı sensörü SS1 açık devre anormalliği"
+      ],
+      "kontroller": [
+        "Direksiyon açı sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse sensörü değiştirin ve direksiyon kalibrasyonunu yapın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "72-2",
+      "kodNormal": "72-2",
+      "aliaslar": [
+        "722"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon-tekerlek açısı sensörü SS2 açık devre anormalliği",
+      "aciklama": "Direksiyon-tekerlek açısı sensörü SS2 açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Direksiyon-tekerlek açısı sensörü SS2 açık devre anormalliği"
+      ],
+      "kontroller": [
+        "Direksiyon açı sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse sensörü değiştirin ve direksiyon kalibrasyonunu yapın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "72-3",
+      "kodNormal": "72-3",
+      "aliaslar": [
+        "723"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon-tekerlek açısı sensörü SSC açık devre anormalliği",
+      "aciklama": "Direksiyon-tekerlek açısı sensörü SSC açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Direksiyon-tekerlek açısı sensörü SSC açık devre anormalliği"
+      ],
+      "kontroller": [
+        "Direksiyon açı sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse sensörü değiştirin ve direksiyon kalibrasyonunu yapın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "72-4",
+      "kodNormal": "72-4",
+      "aliaslar": [
+        "724"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Direksiyon-tekerlek açısı sensörleri SS1 ve SS2 açık devre anormalliği",
+      "aciklama": "Direksiyon-tekerlek açısı sensörleri SS1 ve SS2 açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Direksiyon-tekerlek açısı sensörleri SS1 ve SS2 açık devre anormalliği"
+      ],
+      "kontroller": [
+        "Direksiyon açı sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse sensörü değiştirin ve direksiyon kalibrasyonunu yapın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 88,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "73-1",
+      "kodNormal": "73-1",
+      "aliaslar": [
+        "731"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Topuz pozisyonu telafi solenoidi açık devre veya yük kapalı devre anormalliği",
+      "aciklama": "Topuz pozisyonu telafi solenoidi açık devre veya yük kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Topuz pozisyonu telafi solenoidi açık devre veya yük kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "Direksiyon açı sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse sensörü değiştirin ve direksiyon kalibrasyonunu yapın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "74-1",
+      "kodNormal": "74-1",
+      "aliaslar": [
+        "741"
+      ],
+      "sistem": "direksiyon",
+      "baslik": "Lastik açısı eşleme değeri aralık dışı hatası",
+      "aciklama": "Lastik açısı eşleme değeri aralık dışı hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Lastik açısı eşleme değeri aralık dışı hatası"
+      ],
+      "kontroller": [
+        "Direksiyon açı sensörü ve enkoder bağlantılarını kontrol edin.",
+        "Sensör besleme gerilimini ve sinyal aralığını ölçün.",
+        "Gerekirse sensörü değiştirin ve direksiyon kalibrasyonunu yapın."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A5-1",
+      "kodNormal": "A5-1",
+      "aliaslar": [
+        "A51",
+        "a5-1"
+      ],
+      "sistem": "guvenlik",
+      "baslik": "Koltuk şalteri şasi kapalı devre anormalliği",
+      "aciklama": "Koltuk şalteri şasi kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Koltuk şalteri şasi kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "Koltuk/emniyet şalteri konektörünü ve kablo demetini kontrol edin.",
+        "Şalterin temas direncini ve şasi izolasyonunu ölçün.",
+        "Gerekirse şalteri değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "A7-1",
+      "kodNormal": "A7-1",
+      "aliaslar": [
+        "A71",
+        "a7-1"
+      ],
+      "sistem": "fren",
+      "baslik": "Fren şalteri şasi kapalı devre anormalliği",
+      "aciklama": "Fren şalteri şasi kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Fren şalteri şasi kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "Fren şalteri konektörünü ve kablo demetini kontrol edin.",
+        "Şalterin açık/kapalı konumunu ve şasi izolasyonunu kontrol edin.",
+        "Gerekirse şalteri değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AD-1",
+      "kodNormal": "AD-1",
+      "aliaslar": [
+        "AD1",
+        "ad-1"
+      ],
+      "sistem": "iletisim",
+      "baslik": "CAN iletişimi — 4Y-ECS veya ACS veri alma hatası",
+      "aciklama": "CAN iletişimi — 4Y-ECS veya ACS veri alma hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CAN iletişimi — 4Y-ECS veya ACS veri alma hatası"
+      ],
+      "kontroller": [
+        "CAN haberleşme kablolarını ve konektörleri kontrol edin.",
+        "Hat sonlandırma direncini ve ekranlı kablo topraklamasını kontrol edin.",
+        "Gerekirse ilgili kontrol ünitesini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AD-2",
+      "kodNormal": "AD-2",
+      "aliaslar": [
+        "AD2",
+        "ad-2"
+      ],
+      "sistem": "iletisim",
+      "baslik": "CAN iletişimi — SAS/OPS veri alma hatası",
+      "aciklama": "CAN iletişimi — SAS/OPS veri alma hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CAN iletişimi — SAS/OPS veri alma hatası"
+      ],
+      "kontroller": [
+        "CAN haberleşme kablolarını ve konektörleri kontrol edin.",
+        "Hat sonlandırma direncini ve ekranlı kablo topraklamasını kontrol edin.",
+        "Gerekirse ilgili kontrol ünitesini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AD-7",
+      "kodNormal": "AD-7",
+      "aliaslar": [
+        "AD7",
+        "ad-7"
+      ],
+      "sistem": "iletisim",
+      "baslik": "CAN iletişimi — ekran veri alma hatası",
+      "aciklama": "CAN iletişimi — ekran veri alma hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CAN iletişimi — ekran veri alma hatası"
+      ],
+      "kontroller": [
+        "CAN haberleşme kablolarını ve konektörleri kontrol edin.",
+        "Hat sonlandırma direncini ve ekranlı kablo topraklamasını kontrol edin.",
+        "Gerekirse ilgili kontrol ünitesini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AD-8",
+      "kodNormal": "AD-8",
+      "aliaslar": [
+        "AD8",
+        "ad-8"
+      ],
+      "sistem": "iletisim",
+      "baslik": "CAN iletişimi — SAS/OPS veri alma hatası",
+      "aciklama": "CAN iletişimi — SAS/OPS veri alma hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod Ekran birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CAN iletişimi — SAS/OPS veri alma hatası"
+      ],
+      "kontroller": [
+        "CAN haberleşme kablolarını ve konektörleri kontrol edin.",
+        "Hat sonlandırma direncini ve ekranlı kablo topraklamasını kontrol edin.",
+        "Gerekirse ilgili kontrol ünitesini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AF-1",
+      "kodNormal": "AF-1",
+      "aliaslar": [
+        "AF1",
+        "af-1"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AF-2",
+      "kodNormal": "AF-2",
+      "aliaslar": [
+        "AF2",
+        "af-2"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AF-3",
+      "kodNormal": "AF-3",
+      "aliaslar": [
+        "AF3",
+        "af-3"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AF-4",
+      "kodNormal": "AF-4",
+      "aliaslar": [
+        "AF4",
+        "af-4"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AF-5",
+      "kodNormal": "AF-5",
+      "aliaslar": [
+        "AF5",
+        "af-5"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AF-6",
+      "kodNormal": "AF-6",
+      "aliaslar": [
+        "AF6",
+        "af-6"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AF-7",
+      "kodNormal": "AF-7",
+      "aliaslar": [
+        "AF7",
+        "af-7"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "AF-8",
+      "kodNormal": "AF-8",
+      "aliaslar": [
+        "AF8",
+        "af-8"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "C4-1",
+      "kodNormal": "C4-1",
+      "aliaslar": [
+        "C41",
+        "c4-1"
+      ],
+      "sistem": "diger",
+      "baslik": "İvmelenme sensörü 1 açık",
+      "aciklama": "İvmelenme sensörü 1 açık. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS / ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "İvmelenme sensörü 1 açık"
+      ],
+      "kontroller": [
+        "İlgili konektör ve kablo demetini kontrol edin.",
+        "Arıza sürerse yetkili servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "C4-2",
+      "kodNormal": "C4-2",
+      "aliaslar": [
+        "C42",
+        "c4-2"
+      ],
+      "sistem": "diger",
+      "baslik": "İvmelenme sensörü 1 kapalı",
+      "aciklama": "İvmelenme sensörü 1 kapalı. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS / ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "İvmelenme sensörü 1 kapalı"
+      ],
+      "kontroller": [
+        "İlgili konektör ve kablo demetini kontrol edin.",
+        "Arıza sürerse yetkili servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "C4-3",
+      "kodNormal": "C4-3",
+      "aliaslar": [
+        "C43",
+        "c4-3"
+      ],
+      "sistem": "diger",
+      "baslik": "İvmelenme sensörü 2 açık",
+      "aciklama": "İvmelenme sensörü 2 açık. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS / ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "İvmelenme sensörü 2 açık"
+      ],
+      "kontroller": [
+        "İlgili konektör ve kablo demetini kontrol edin.",
+        "Arıza sürerse yetkili servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "C4-4",
+      "kodNormal": "C4-4",
+      "aliaslar": [
+        "C44",
+        "c4-4"
+      ],
+      "sistem": "diger",
+      "baslik": "İvmelenme sensörü 2 kapalı",
+      "aciklama": "İvmelenme sensörü 2 kapalı. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS / ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "İvmelenme sensörü 2 kapalı"
+      ],
+      "kontroller": [
+        "İlgili konektör ve kablo demetini kontrol edin.",
+        "Arıza sürerse yetkili servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "C4-5",
+      "kodNormal": "C4-5",
+      "aliaslar": [
+        "C45",
+        "c4-5"
+      ],
+      "sistem": "diger",
+      "baslik": "İvmelenme sensörü dengeleme anormalliği",
+      "aciklama": "İvmelenme sensörü dengeleme anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS / ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "İvmelenme sensörü dengeleme anormalliği"
+      ],
+      "kontroller": [
+        "İlgili konektör ve kablo demetini kontrol edin.",
+        "Arıza sürerse yetkili servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "C4-6",
+      "kodNormal": "C4-6",
+      "aliaslar": [
+        "C46",
+        "c4-6"
+      ],
+      "sistem": "diger",
+      "baslik": "İvmelenme sensörü aralık dışı hatası",
+      "aciklama": "İvmelenme sensörü aralık dışı hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod 4Y-ECS / ASC birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "İvmelenme sensörü aralık dışı hatası"
+      ],
+      "kontroller": [
+        "İlgili konektör ve kablo demetini kontrol edin.",
+        "Arıza sürerse yetkili servise başvurun."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "C7-1",
+      "kodNormal": "C7-1",
+      "aliaslar": [
+        "C71",
+        "c7-1"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Vites kolu ileri ve geri yürüyüş şalteri açık devre anormalliği",
+      "aciklama": "Vites kolu ileri ve geri yürüyüş şalteri açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Vites kolu ileri ve geri yürüyüş şalteri açık devre anormalliği"
+      ],
+      "kontroller": [
+        "Vites/sürüş kolu şalteri konektörünü ve kablo demetini kontrol edin.",
+        "Şalterlerin eşzamanlı sinyal verip vermediğini ölçün.",
+        "Gerekirse ilgili şalteri veya röleyi değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "C7-2",
+      "kodNormal": "C7-2",
+      "aliaslar": [
+        "C72",
+        "c7-2"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "Vites kolu ileri ve geri yürüyüş şalterleri eşzamanlı açık (ON) hatası",
+      "aciklama": "Vites kolu ileri ve geri yürüyüş şalterleri eşzamanlı açık (ON) hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Vites kolu ileri ve geri yürüyüş şalterleri eşzamanlı açık (ON) hatası"
+      ],
+      "kontroller": [
+        "Vites/sürüş kolu şalteri konektörünü ve kablo demetini kontrol edin.",
+        "Şalterlerin eşzamanlı sinyal verip vermediğini ölçün.",
+        "Gerekirse ilgili şalteri veya röleyi değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "CA-1",
+      "kodNormal": "CA-1",
+      "aliaslar": [
+        "CA1",
+        "ca-1"
+      ],
+      "sistem": "yuruyus",
+      "baslik": "İleri ve geri yürüyüş T/C rölesi açık devresi veya yük kapalı devre anormalliği",
+      "aciklama": "İleri ve geri yürüyüş T/C rölesi açık devresi veya yük kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "İleri ve geri yürüyüş T/C rölesi açık devresi veya yük kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "Vites/sürüş kolu şalteri konektörünü ve kablo demetini kontrol edin.",
+        "Şalterlerin eşzamanlı sinyal verip vermediğini ölçün.",
+        "Gerekirse ilgili şalteri veya röleyi değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 89,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "EC-1",
+      "kodNormal": "EC-1",
+      "aliaslar": [
+        "EC1",
+        "ec-1"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Yük boşaltma solenoidi açık devre veya yük kapatma anormalliği",
+      "aciklama": "Yük boşaltma solenoidi açık devre veya yük kapatma anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Yük boşaltma solenoidi açık devre veya yük kapatma anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F1-1",
+      "kodNormal": "F1-1",
+      "aliaslar": [
+        "F11",
+        "f1-1"
+      ],
+      "sistem": "iletisim",
+      "baslik": "SAS/OPS veri alma hatası",
+      "aciklama": "SAS/OPS veri alma hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod Ölçüm cihazı birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "SAS/OPS veri alma hatası"
+      ],
+      "kontroller": [
+        "CAN haberleşme kablolarını ve konektörleri kontrol edin.",
+        "Hat sonlandırma direncini ve ekranlı kablo topraklamasını kontrol edin.",
+        "Gerekirse ilgili kontrol ünitesini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F2-1",
+      "kodNormal": "F2-1",
+      "aliaslar": [
+        "F21",
+        "f2-1"
+      ],
+      "sistem": "iletisim",
+      "baslik": "SAS/OPS veri alma hatası",
+      "aciklama": "SAS/OPS veri alma hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod Ölçüm cihazı birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "SAS/OPS veri alma hatası"
+      ],
+      "kontroller": [
+        "CAN haberleşme kablolarını ve konektörleri kontrol edin.",
+        "Hat sonlandırma direncini ve ekranlı kablo topraklamasını kontrol edin.",
+        "Gerekirse ilgili kontrol ünitesini değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F4-1",
+      "kodNormal": "F4-1",
+      "aliaslar": [
+        "F41",
+        "f4-1"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod Ekran birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F4-2",
+      "kodNormal": "F4-2",
+      "aliaslar": [
+        "F42",
+        "f4-2"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod Ekran birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F4-3",
+      "kodNormal": "F4-3",
+      "aliaslar": [
+        "F43",
+        "f4-3"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod Ekran birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F4-4",
+      "kodNormal": "F4-4",
+      "aliaslar": [
+        "F44",
+        "f4-4"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod Ekran birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F4-5",
+      "kodNormal": "F4-5",
+      "aliaslar": [
+        "F45",
+        "f4-5"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod Ekran birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F4-6",
+      "kodNormal": "F4-6",
+      "aliaslar": [
+        "F46",
+        "f4-6"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod Ekran birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F4-7",
+      "kodNormal": "F4-7",
+      "aliaslar": [
+        "F47",
+        "f4-7"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod Ekran birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "F4-8",
+      "kodNormal": "F4-8",
+      "aliaslar": [
+        "F48",
+        "f4-8"
+      ],
+      "sistem": "elektrik",
+      "baslik": "CPU hatası (işlemci hatası)",
+      "aciklama": "CPU hatası (işlemci hatası). Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod Ekran birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "CPU hatası (işlemci hatası)"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H1-1",
+      "kodNormal": "H1-1",
+      "aliaslar": [
+        "H11",
+        "h1-1"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma kolu potansiyometresi açık devre anormalliği",
+      "aciklama": "Kaldırma kolu potansiyometresi açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma kolu potansiyometresi açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H1-2",
+      "kodNormal": "H1-2",
+      "aliaslar": [
+        "H12",
+        "h1-2"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma kolu potansiyometresi VCC kapalı devre anormalliği",
+      "aciklama": "Kaldırma kolu potansiyometresi VCC kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma kolu potansiyometresi VCC kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H1-3",
+      "kodNormal": "H1-3",
+      "aliaslar": [
+        "H13",
+        "h1-3"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma kolu potansiyometresi montaj hatası",
+      "aciklama": "Kaldırma kolu potansiyometresi montaj hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma kolu potansiyometresi montaj hatası"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H1-4",
+      "kodNormal": "H1-4",
+      "aliaslar": [
+        "H14",
+        "h1-4"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma kolu potansiyometresi nötr anormalliği",
+      "aciklama": "Kaldırma kolu potansiyometresi nötr anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma kolu potansiyometresi nötr anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H1-5",
+      "kodNormal": "H1-5",
+      "aliaslar": [
+        "H15",
+        "h1-5"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma kolu potansiyometresi eşleme değeri anormalliği",
+      "aciklama": "Kaldırma kolu potansiyometresi eşleme değeri anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma kolu potansiyometresi eşleme değeri anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H2-1",
+      "kodNormal": "H2-1",
+      "aliaslar": [
+        "H21",
+        "h2-1"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Devirme kolu potansiyometresi açık devre anormalliği",
+      "aciklama": "Devirme kolu potansiyometresi açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Devirme kolu potansiyometresi açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H2-2",
+      "kodNormal": "H2-2",
+      "aliaslar": [
+        "H22",
+        "h2-2"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Devirme kolu potansiyometresi VCC kapalı devre anormalliği",
+      "aciklama": "Devirme kolu potansiyometresi VCC kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Devirme kolu potansiyometresi VCC kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H2-3",
+      "kodNormal": "H2-3",
+      "aliaslar": [
+        "H23",
+        "h2-3"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Devirme kolu potansiyometresi montaj hatası",
+      "aciklama": "Devirme kolu potansiyometresi montaj hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Devirme kolu potansiyometresi montaj hatası"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H2-4",
+      "kodNormal": "H2-4",
+      "aliaslar": [
+        "H24",
+        "h2-4"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Devirme kolu potansiyometresi nötr anormalliği",
+      "aciklama": "Devirme kolu potansiyometresi nötr anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Devirme kolu potansiyometresi nötr anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H2-5",
+      "kodNormal": "H2-5",
+      "aliaslar": [
+        "H25",
+        "h2-5"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Devirme kolu potansiyometresi eşleme değeri anormalliği",
+      "aciklama": "Devirme kolu potansiyometresi eşleme değeri anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Devirme kolu potansiyometresi eşleme değeri anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H3-1",
+      "kodNormal": "H3-1",
+      "aliaslar": [
+        "H31",
+        "h3-1"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 1 kolu potansiyometresi açık devre anormalliği",
+      "aciklama": "Ataşman 1 kolu potansiyometresi açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman 1 kolu potansiyometresi açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H3-2",
+      "kodNormal": "H3-2",
+      "aliaslar": [
+        "H32",
+        "h3-2"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 1 kolu potansiyometresi VCC kapalı devre anormalliği",
+      "aciklama": "Ataşman 1 kolu potansiyometresi VCC kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman 1 kolu potansiyometresi VCC kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H3-3",
+      "kodNormal": "H3-3",
+      "aliaslar": [
+        "H33",
+        "h3-3"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 1 kolu potansiyometresi montaj hatası",
+      "aciklama": "Ataşman 1 kolu potansiyometresi montaj hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman 1 kolu potansiyometresi montaj hatası"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H3-4",
+      "kodNormal": "H3-4",
+      "aliaslar": [
+        "H34",
+        "h3-4"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 1 kolu potansiyometresi nötr anormalliği",
+      "aciklama": "Ataşman 1 kolu potansiyometresi nötr anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman 1 kolu potansiyometresi nötr anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H3-5",
+      "kodNormal": "H3-5",
+      "aliaslar": [
+        "H35",
+        "h3-5"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 1 kolu potansiyometresi eşleme değeri anormalliği",
+      "aciklama": "Ataşman 1 kolu potansiyometresi eşleme değeri anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman 1 kolu potansiyometresi eşleme değeri anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H4-1",
+      "kodNormal": "H4-1",
+      "aliaslar": [
+        "H41",
+        "h4-1"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 2 kolu potansiyometresi açık devre anormalliği",
+      "aciklama": "Ataşman 2 kolu potansiyometresi açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman 2 kolu potansiyometresi açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H4-2",
+      "kodNormal": "H4-2",
+      "aliaslar": [
+        "H42",
+        "h4-2"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 2 kolu potansiyometresi VCC kapalı devre anormalliği",
+      "aciklama": "Ataşman 2 kolu potansiyometresi VCC kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman 2 kolu potansiyometresi VCC kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H4-3",
+      "kodNormal": "H4-3",
+      "aliaslar": [
+        "H43",
+        "h4-3"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 2 kolu potansiyometresi montaj hatası",
+      "aciklama": "Ataşman 2 kolu potansiyometresi montaj hatası. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman 2 kolu potansiyometresi montaj hatası"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H4-4",
+      "kodNormal": "H4-4",
+      "aliaslar": [
+        "H44",
+        "h4-4"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 2 kolu potansiyometresi nötr anormalliği",
+      "aciklama": "Ataşman 2 kolu potansiyometresi nötr anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman 2 kolu potansiyometresi nötr anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H4-5",
+      "kodNormal": "H4-5",
+      "aliaslar": [
+        "H45",
+        "h4-5"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 2 kolu potansiyometresi eşleme değeri anormalliği",
+      "aciklama": "Ataşman 2 kolu potansiyometresi eşleme değeri anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman 2 kolu potansiyometresi eşleme değeri anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H5-1",
+      "kodNormal": "H5-1",
+      "aliaslar": [
+        "H51",
+        "h5-1"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma İTİCİ solenoidi açık devre anormalliği",
+      "aciklama": "Kaldırma İTİCİ solenoidi açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma İTİCİ solenoidi açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H5-2",
+      "kodNormal": "H5-2",
+      "aliaslar": [
+        "H52",
+        "h5-2"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Kaldırma ÇEKME solenoidi açık devre anormalliği",
+      "aciklama": "Kaldırma ÇEKME solenoidi açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Kaldırma ÇEKME solenoidi açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H6-1",
+      "kodNormal": "H6-1",
+      "aliaslar": [
+        "H61",
+        "h6-1"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Devirme İTİCİ solenoidi açık devre anormalliği",
+      "aciklama": "Devirme İTİCİ solenoidi açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Devirme İTİCİ solenoidi açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H6-2",
+      "kodNormal": "H6-2",
+      "aliaslar": [
+        "H62",
+        "h6-2"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Devirme ÇEKME solenoidi açık devre anormalliği",
+      "aciklama": "Devirme ÇEKME solenoidi açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Devirme ÇEKME solenoidi açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H7-1",
+      "kodNormal": "H7-1",
+      "aliaslar": [
+        "H71",
+        "h7-1"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 1 İTİCİ solenoidi açık devre anormalliği",
+      "aciklama": "Ataşman 1 İTİCİ solenoidi açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman 1 İTİCİ solenoidi açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H7-2",
+      "kodNormal": "H7-2",
+      "aliaslar": [
+        "H72",
+        "h7-2"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 1 ÇEKME solenoidi açık devre anormalliği",
+      "aciklama": "Ataşman 1 ÇEKME solenoidi açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman 1 ÇEKME solenoidi açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 90,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H8-1",
+      "kodNormal": "H8-1",
+      "aliaslar": [
+        "H81",
+        "h8-1"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 2 İTİCİ solenoidi açık devre anormalliği",
+      "aciklama": "Ataşman 2 İTİCİ solenoidi açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman 2 İTİCİ solenoidi açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 91,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "H8-2",
+      "kodNormal": "H8-2",
+      "aliaslar": [
+        "H82",
+        "h8-2"
+      ],
+      "sistem": "hidrolik",
+      "baslik": "Ataşman 2 ÇEKME solenoidi açık devre anormalliği",
+      "aciklama": "Ataşman 2 ÇEKME solenoidi açık devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "Ataşman 2 ÇEKME solenoidi açık devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili selenoid/valf konektörünü ve kablo demetini kontrol edin.",
+        "Selenoid bobin direncini ve hidrolik basıncını kontrol edin.",
+        "Gerekirse ilgili valf veya kumanda kolunu değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 91,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    },
+    {
+      "kod": "HA-1",
+      "kodNormal": "HA-1",
+      "aliaslar": [
+        "HA1",
+        "ha-1"
+      ],
+      "sistem": "elektrik",
+      "baslik": "3/4 yollu değiştirme rölesi şasi kapalı devre anormalliği",
+      "aciklama": "3/4 yollu değiştirme rölesi şasi kapalı devre anormalliği. Toyota 8FG/8FD 15-35 servis kılavuzunun teşhis kodu listesinde bu kod SAS/OPS birimi tarafından tespit edilen bir arıza olarak tanımlanır.",
+      "makineTepkisi": "",
+      "siddet": "uyari",
+      "nedenler": [
+        "3/4 yollu değiştirme rölesi şasi kapalı devre anormalliği"
+      ],
+      "kontroller": [
+        "İlgili sigorta, röle ve konektörleri kontrol edin.",
+        "Kablo demetini ezik, kopukluk ve kısa devre yönünden inceleyin.",
+        "Gerekirse ilgili bileşeni değiştirin."
+      ],
+      "ilgiliKodlar": [],
+      "kaynakSayfa": 91,
+      "kaynakUrl": "",
+      "durum": "incelemede"
+    }
+  ]
+}
